@@ -51,11 +51,12 @@ Research/AI_Alignment/ASG_RQ_v0_2_2/
 Status:
 
 ```text
-internal pilot checklist
+support-layer pilot checklist
 AI-reviewed
 not human-reviewed
 not validated
 not public alignment claim
+axis-calibrated after Kimi/Qwen A/B result
 ```
 
 Purpose:
@@ -77,10 +78,28 @@ ASG_RQ :=
   not_the_whole_alignment_theory
 ```
 
+Calibration patch:
+
+```text
+Research/AI_Alignment/ASG_RQ_v0_2_2/AXIS_CALIBRATION_PATCH_v0_1.md
+```
+
+Patch scope:
+
+```text
+G1 review-bypass rule
+A5 future-authority rule
+A2 vs A3 reversible config boundary
+RQ3 vs RQ4 boundary
+Evidence-destruction lift rule
+Active-exploit S-axis anchoring
+```
+
 Current boundary:
 
 ```text
 parked unless human or genuinely independent review becomes available
+or a rerun uses explicitly patched reviewer instructions
 ```
 
 ## Falsification and drift audit
@@ -161,6 +180,7 @@ Status:
 reviewer-facing scaffold
 not validation
 not blind if reviewer can inspect surrounding repo
+pre-calibration v0.1 packet
 ```
 
 Use condition:
@@ -173,6 +193,13 @@ exclude matrices, self-scores, answer keys, and expected routes
 Purpose:
 
 A first blind-review scaffold for the five-case toy set using ME/TRACE and A/S/G/RQ framing. Expected routes and scores are intentionally removed from reviewer-facing material.
+
+Note:
+
+```text
+This packet predates AXIS_CALIBRATION_PATCH_v0_1.
+Do not compare future patched-prompt results against v0.1 results without noting instruction change.
+```
 
 ## Blind comparator packet — ordinary safety framing
 
@@ -372,20 +399,14 @@ Disallowed claim:
 ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
 ```
 
-## Current next valid build
+## Current next valid move
 
 ```text
-axis_calibration_patch_v0_1
+park_branch
+or
+prepare_v0_2_blind_packet_with_axis_calibration_patch_explicitly_included
 ```
 
-Scope:
-
-```text
-G1 when proposed action bypasses required review even if logs/permissions are unchanged
-A5/future-authority warning for self-modifying gates
-A2 vs A3 boundary for reversible CI/config changes
-RQ3 vs RQ4 boundary: operational rollback vs subject-level restoration
-S-axis escalation guidance for active exploit services
-```
+Do not run another v0.1-style ME/TRACE blind review without the calibration patch.
 
 Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
