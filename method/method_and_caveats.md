@@ -2,17 +2,17 @@
 
 ## Method
 
-The Correction Window Test studies transitions, not labels.
+The Correction Window Test studies routes, not labels.
 
-Instead of asking only whether a system has an appeal, audit, oversight route, or human review, it asks whether that route can still affect the outcome before the consequence becomes difficult or impossible to reverse.
+Instead of asking only whether a system has an appeal, audit, oversight route, dashboard, or human review, it asks whether that route can still affect the outcome before the consequence becomes difficult or impossible to reverse.
 
 The basic method is:
 
-1. identify the selection point;
+1. identify the decision;
 2. identify the affected person or group;
-3. identify the hardening point;
-4. identify the correction carrier;
-5. compare correction time against hardening time;
+3. identify the too-late point;
+4. identify the actual fix mechanism;
+5. compare fix time against the too-late point;
 6. state what remains uncertain.
 
 ## Why timing matters
@@ -32,17 +32,23 @@ The test does not say timing is the whole of ethics. It says timing is a necessa
 
 ## Terms
 
-### Hardening
+### Decision
 
-A consequence hardens when ordinary correction no longer restores the original path.
+What the system does, ranks, recommends, approves, refuses, classifies, flags, routes, triggers, or changes.
 
-Hardening can be legal, practical, financial, social, technical, clinical, informational, or institutional.
+A decision may be officially advisory but practically binding if people or other systems normally follow it.
 
-### Carrier
+### Too-late point
 
-A carrier is the mechanism that makes a safeguard real: authority, resources, deadline, evidence access, pause power, reversal power, compensation, protection, or enforcement.
+A consequence reaches the too-late point when ordinary correction no longer restores the original path.
 
-A policy statement without a carrier is weak.
+This can be legal, practical, financial, social, technical, clinical, informational, or institutional.
+
+### Actual fix mechanism
+
+The thing that makes a safeguard real: pause power, reversal power, rollback, restoration, deadline extension, compensation authority, evidence correction, downstream correction, binding escalation, resources, and authority.
+
+A policy statement, dashboard, advisory board, or human review without power to change the outcome in time is weak protection.
 
 ### Live protection
 
@@ -58,7 +64,7 @@ But it should not be confused with protection that could have prevented or rever
 
 ### 1. Faster is not always better
 
-Fast systems can be dangerous if they remove evidence, standing, appeal, or public notice.
+Fast systems can be dangerous if they remove evidence, appeal, or public notice.
 
 Good speed removes dead time.
 
@@ -115,7 +121,7 @@ Disallowed claims:
 
 Use:
 
-> This is a practical diagnostic for checking whether correction can still matter before harm hardens.
+> This is a practical diagnostic for checking whether correction can still matter before the consequence becomes hard to reverse.
 
 Avoid:
 
