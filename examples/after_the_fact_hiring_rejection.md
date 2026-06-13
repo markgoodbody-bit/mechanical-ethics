@@ -1,6 +1,6 @@
 # Worked Example: Hiring Rejection After Role Filled
 
-This is a stylised example designed to show a clear **AFTER-THE-FACT REVIEW** result.
+This stylised example shows a clear **AFTER-THE-FACT REVIEW** result.
 
 ## Scenario
 
@@ -10,9 +10,9 @@ Rejected applicants can request review, but review normally takes 30 days.
 
 The shortlist closes in 7 days and the role is usually filled within 21 days.
 
-## 1. Selection
+## 1. Decision
 
-The system selects applicants for rejection before interview.
+The system rejects applicants before interview.
 
 It may be officially advisory, but downstream staff normally accept the rejection list.
 
@@ -28,13 +28,13 @@ Possible effects:
 - inability to challenge because the reason is unclear;
 - no restoration if the role is filled.
 
-## 3. Hardening point
+## 3. Too-late point
 
-The consequence hardens when the shortlist closes and then again when the role is filled.
+The consequence becomes hard to reverse when the shortlist closes, and harder again when the role is filled.
 
 After the role is filled, the original opportunity is usually not restorable.
 
-## 4. Correction carrier
+## 4. Actual fix mechanism
 
 The formal route is a review request.
 
@@ -51,11 +51,9 @@ But it does not pause recruitment, does not reserve a place, and does not guaran
 
 Review time is about 30 days.
 
-Shortlist hardening begins around 7 days.
+Shortlist closure begins around 7 days. The role is usually filled within 21 days.
 
-The role is usually filled within 21 days.
-
-Correction therefore usually arrives after the original opportunity has hardened.
+The fix therefore usually arrives after the original opportunity is hard to reverse.
 
 ## Working result label
 
