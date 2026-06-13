@@ -21,6 +21,28 @@ define expected routes
 + stop/proceed rule
 ```
 
+## Internal self-score
+
+Path:
+
+```text
+TOY_CASE_SELF_SCORE_v0_1.md
+```
+
+Current self-score:
+
+```text
+26 / 30
+```
+
+Interpretation:
+
+```text
+useful_internal_pressure_set
+not_validated
+MI_targets_still_hypothetical
+```
+
 ## Case set
 
 ### 1. Payment display deploy
