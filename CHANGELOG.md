@@ -1,5 +1,28 @@
 # Changelog
 
+## 2026-06-13 — Public front-door cleanup after outside review
+
+Applied front-door cleanup after hostile outside-reader review.
+
+Changed:
+
+- removed `Mechanical_Ethics_v14_trade.pdf` from repository root;
+- changed README title to lead with `Correction Window Test v0.1`;
+- added a direct worked-example link near the top of the README;
+- removed the empty ICO data folder from the README repository map;
+- removed private method shorthand from the README front door;
+- changed `Result categories` to `Working result labels` in the test;
+- removed the notation block from the public test page;
+- added `examples/README.md`;
+- added issue templates for applying the test and reporting front-door defects;
+- updated publication status.
+
+Remaining:
+
+- license still pending;
+- GitHub Pages may still need enabling;
+- ICO FOI/EIR CSV and source notes not yet published.
+
 ## 2026-06-13 — Public front-door rebuild
 
 Initial public rebuild of `markgoodbody-bit/mechanical-ethics` around the Correction Window Test v0.1.
