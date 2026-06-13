@@ -266,6 +266,49 @@ inconclusive_contaminated
 both_need_revision
 ```
 
+### Pre-registered discrimination test protocol
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/PRE_REGISTERED_DISCRIMINATION_TEST_v0_1.md
+```
+
+Status:
+
+```text
+test design only
+not a result
+not validation
+not public claim surface
+```
+
+Purpose:
+
+Defines the only defensible continuation after the convergent null: a within-model or counterbalanced test that isolates method from model identity.
+
+Core requirement:
+
+```text
+same_model_runs_both_packets
+or
+counterbalanced_models_run_both_packets
+```
+
+Kill criterion:
+
+```text
+if route-flip-predicted cases do not flip
+and ordinary safety reaches the same safe routes
+then ME_TRACE_decision_advantage := not_supported_after_discrimination_test
+```
+
+Default recommendation remains:
+
+```text
+park_general_advantage_program
+```
+
 ### Convergent null brief
 
 Path:
