@@ -85,17 +85,32 @@ The affected person or proxy can trigger correction, the carrier has authority, 
 
 Some correction is possible, but timing, authority, evidence, or standing is incomplete.
 
+Use this when the safeguard can sometimes alter the affected person's path before hardening, but only under limits, delay, uncertainty, weak access, or incomplete authority.
+
 ### AFTER-THE-FACT REVIEW
 
 The route may expose, compensate, or prevent recurrence, but it usually acts after the original consequence has hardened.
+
+Use this when the route is real but usually too late to restore the original opportunity, access, payment, pathway, or decision state.
 
 ### FALSE SAFEGUARD
 
 The safeguard exists in language, policy, dashboard, audit, or form, but cannot meaningfully alter the affected person's path in time.
 
+Use this when there is no real carrier: no affected-person trigger, no evidence access, no pause, no reversal authority, no deadline, or no route that can matter before hardening.
+
 ### UNKNOWN
 
 The public record does not show enough to classify the safeguard. Unknown is a valid result. Do not convert missing evidence into reassurance.
+
+Use this when timing, standing, authority, evidence access, or outcomes are not visible enough to support a stronger label.
+
+## Quick distinction rules
+
+- **Partial vs after-the-fact:** Partial can still alter the live path in some cases. After-the-fact usually cannot restore the original path, even if it can expose, compensate, or prevent recurrence.
+- **After-the-fact vs false safeguard:** After-the-fact review has some real corrective value after hardening. A false safeguard has little or no meaningful corrective carrier for the affected person.
+- **Unknown vs false safeguard:** Unknown means the evidence is missing. False safeguard means the evidence shows the claimed safeguard lacks a meaningful carrier.
+- **Live vs partial:** Live protection has a correction route that fits the hardening window. Partial protection has a route but one or more of timing, authority, evidence, access, standing, or resources remains incomplete.
 
 ## Common failure modes
 
