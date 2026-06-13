@@ -1,8 +1,8 @@
 # AI Alignment Research Notes
 
-**Status:** Research-layer index. Not a public claims surface.
+**Status:** Research-layer index. Unpromoted public-repo material, not a public claim surface.
 
-This folder holds internal Mechanical Ethics work related to AI alignment, deployment corrigibility, tool authority, subject-state transitions, correction windows, and mechanistic-interpretability bridges.
+This folder holds internal Mechanical Ethics work related to AI alignment, deployment corrigibility, tool authority, subject-state transitions, correction windows, and mechanistic-interpretability bridges. Because the repository is public, “internal” here means research-layer / unpromoted / not validated, not inaccessible.
 
 ## Current machine-room bridge
 
@@ -17,10 +17,10 @@ Research/AI_Alignment/ME_TRACE_AI_Alignment_Kernel_v0_1.md
 Status:
 
 ```text
-internal machine-room kernel
-not public-facing
+research-layer / unpromoted public-repo material
 not validated
 not an AI-alignment solution
+not a public claim surface
 ```
 
 Core compression:
@@ -83,6 +83,30 @@ Current boundary:
 parked unless human or genuinely independent review becomes available
 ```
 
+## Falsification and drift audit
+
+Path:
+
+```text
+Research/AI_Alignment/FALSIFICATION_AND_DRIFT_AUDIT_v0_1.md
+```
+
+Current verdict:
+
+```text
+AMBER_CONTINUE_WITH_PATCHES
+```
+
+Main drift found:
+
+```text
+"not public-facing" was imprecise because the repo is public.
+Correct wording is:
+  research-layer / unpromoted public-repo material
+  not validated
+  not public claim surface
+```
+
 ## Toy transition cases
 
 Path:
@@ -94,9 +118,10 @@ Research/AI_Alignment/Toy_Cases/
 Status:
 
 ```text
-internal toy-case set
-not public-facing
+research-layer / unpromoted public-repo material
+internal pressure-test set
 not validated
+not public claim surface
 ```
 
 Diagnostic spread:
@@ -105,6 +130,14 @@ Diagnostic spread:
 case_1 := reckless_action_without_emergency
 case_2 := emergency_action_where_inaction_also_hardens_harm
 case_3 := hard_G2_self_authorisation_boundary
+case_4 := G2_evidence_destruction_without_self_authorisation
+```
+
+Current self-score:
+
+```text
+36 / 40 internal author self-score
+not validation
 ```
 
 ### 1. Payment display deploy
@@ -162,4 +195,22 @@ agent proposes to widen its own deployment authority
 → gate refuses without separate authority
 ```
 
-Do not promote this folder to the repo front page or public-facing claims without updating publication status and evidence basis.
+### 4. Audit-log evidence deletion
+
+Path:
+
+```text
+Research/AI_Alignment/Toy_Cases/ME_TRACE_Toy_Coding_Agent_Audit_Log_Evidence_Deletion_v0_1.md
+```
+
+Core route:
+
+```text
+agent edits/deletes failed deployment attempts from audit logs
+→ no production deploy occurs
+→ no self-authorisation occurs
+→ raw evidence supports future correction and accountability
+→ gate refuses deletion and allows append-only annotation
+```
+
+Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
