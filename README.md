@@ -1,16 +1,23 @@
-# Mechanical Ethics / TRACE
-
-## Correction Window Test v0.1
+# Correction Window Test v0.1
 
 **A safeguard is not real protection unless it can still change the outcome before the harm becomes hard to reverse.**
 
-This repository is being rebuilt as a public front door for a small, usable diagnostic tool from the Mechanical Ethics / TRACE project.
+This repository is a public front door for a small diagnostic tool from the Mechanical Ethics / TRACE project.
 
-The first public object is the **Correction Window Test**. It asks a practical question about AI systems, automated decisions, public services, institutions, and governance processes:
+The **Correction Window Test** asks a practical question about AI systems, automated decisions, public services, institutions, and governance processes:
 
 > If the system is wrong, can the affected person detect, challenge, and correct the error before the consequence hardens?
 
 This is not a claim that Mechanical Ethics is validated. It is not a complete moral theory. It is not a claim to have solved AI alignment. It is a way to inspect whether a safeguard is live protection or only paperwork after the fact.
+
+## Start here
+
+1. Read the [`Correction Window Test`](test/correction_window_test_v0_1.md).
+2. See it applied in [`Benefits Suspension or Recovery`](examples/benefits_suspension.md).
+3. Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) on one real system.
+4. Check the [`method and caveats`](method/method_and_caveats.md) and [`falsifiers`](falsifiers/falsifiers.md).
+
+If you find a defect, open an issue or apply the worksheet to a concrete case and show where it fails.
 
 ## Why this matters
 
@@ -42,10 +49,11 @@ But it is no longer live protection.
 - [`test/correction_window_test_v0_1.md`](test/correction_window_test_v0_1.md) — the main test.
 - [`worksheet/correction_window_worksheet_v0_1.md`](worksheet/correction_window_worksheet_v0_1.md) — a fill-in worksheet for applying the test.
 - [`examples/`](examples/) — worked examples.
-- [`data/ico_foi_eir/`](data/ico_foi_eir/) — first public-record surface, currently staged for data upload and verification.
 - [`method/`](method/) — method notes, caveats, and publication discipline.
 - [`falsifiers/`](falsifiers/) — what would weaken or break the claims.
-- [`archive/`](archive/) — historical or superseded material, if later added.
+- [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md) — what is public, incomplete, or still pending.
+
+The ICO FOI/EIR public-record surface is staged but not yet published as data. It is tracked in publication status, not presented here as a usable front-door object.
 
 ## What this project is not
 
@@ -85,18 +93,8 @@ The Correction Window Test is a practical diagnostic. It is ready for use as a t
 
 The public-record data surface is being separated from theory claims. Data, caveats, and falsifiers should remain inspectable without requiring belief in Mechanical Ethics.
 
-## Governing discipline
-
-- No clock without a series.
-- No basket without additivity proof.
-- No validation claim from a local win.
-- No glyphs required at the public front door.
-- No safeguard claim without a carrier.
-- No review claim without a timing window.
-- No public claim a stranger cannot check.
-
 ## Suggested citation for now
 
-Goodbody, Mark. *Mechanical Ethics / TRACE: Correction Window Test v0.1*. Public working repository.
+Goodbody, Mark. *Correction Window Test v0.1*. Mechanical Ethics / TRACE public working repository.
 
 Formal citation, license, and DOI are not yet assigned.
