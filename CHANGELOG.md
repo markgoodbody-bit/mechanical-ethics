@@ -1,5 +1,43 @@
 # Changelog
 
+## 2026-06-13 — Gemini/Grok pruning pass
+
+Applied the convergent review finding from Gemini and Grok: the diagnostic core is useful, but the repository presentation had become overbuilt.
+
+Removed duplicate or over-expansive material:
+
+- `START_HERE.md`
+- `faq.md`
+- `SCOPE.md`
+- `method/how_to_apply_honestly.md`
+- `guides/README.md`
+- `guides/ai_governance_use.md`
+- `guides/design_patterns.md`
+
+Updated:
+
+- `README.md` to become the single front door and cut the repo-map/syllabus structure;
+- `quick_reference.md` with plainer terms: decision, too-late point, actual fix mechanism;
+- `test/correction_window_test_v0_1.md` to harden the actual-fix-mechanism requirement;
+- `docs/index.md` to remove dead links and bloat;
+- `method/README.md` to remove obsolete links;
+- `PUBLICATION_STATUS.md` to reflect the pruned state.
+
+Current rule:
+
+- Stop adding files.
+- Refine only the test, worksheet, and examples if doing so makes the diagnostic clearer.
+
+Still not claimed:
+
+- validated framework;
+- reliability-tested instrument;
+- complete ethics framework;
+- AI governance framework;
+- complete AI-alignment solution;
+- full repair-capacity measurement;
+- external review completed.
+
 ## 2026-06-13 — Claude private-build architecture batch
 
 Applied the remaining high-value recommendations from Claude's private-build architecture pass while preserving the v0.1 claim ceiling.
