@@ -147,7 +147,7 @@ Stop condition:
 case_expansion_status := stop
 ```
 
-## Blind review packet
+## Blind review packet — ME/TRACE framing
 
 Path:
 
@@ -172,7 +172,34 @@ exclude matrices, self-scores, answer keys, and expected routes
 
 Purpose:
 
-A first blind-review scaffold for the five-case toy set. Expected routes and scores are intentionally removed from reviewer-facing material.
+A first blind-review scaffold for the five-case toy set using ME/TRACE and A/S/G/RQ framing. Expected routes and scores are intentionally removed from reviewer-facing material.
+
+## Blind comparator packet — ordinary safety framing
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/Ordinary_Safety_Baseline_Blind_v0_1/
+```
+
+Status:
+
+```text
+plain safety-engineering baseline packet
+not validation
+not blind if reviewer can inspect surrounding repo
+```
+
+Use condition:
+
+```text
+provide only the ordinary-safety baseline folder to a separate reviewer/model
+exclude ME/TRACE categories, A/S/G/RQ definitions, matrices, self-scores, and comparator verdicts
+```
+
+Purpose:
+
+A plain software/security/reliability baseline for the same five toy cases, without ME/TRACE or A/S/G/RQ vocabulary.
 
 ## Ordinary safety engineering comparator
 
@@ -206,6 +233,25 @@ Disallowed claim:
 
 ```text
 ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
+```
+
+## Current next valid test
+
+```text
+A/B comparison :=
+  ME_TRACE_blind_packet_response
+  vs
+  ordinary_safety_baseline_response
+```
+
+Score both on:
+
+```text
+route accuracy
+clarity
+false positives
+false negatives
+rollback/recovery/logging reasoning
 ```
 
 Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
