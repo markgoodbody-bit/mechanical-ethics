@@ -238,6 +238,26 @@ inconclusive_contaminated
 both_need_revision
 ```
 
+### External review handoff
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/EXTERNAL_REVIEW_HANDOFF_v0_1.md
+```
+
+Status:
+
+```text
+copy-ready handoff instructions
+not validation
+not review result
+```
+
+Purpose:
+
+Provides isolated copy-ready instructions for reviewer/model A and reviewer/model B, plus a minimal run log. This is the current clean next action if a separate model or human reviewer is available.
+
 ### Internal contaminated dry run
 
 Path:
@@ -313,8 +333,9 @@ ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
 ## Current next valid test
 
 ```text
-record_isolated_external_or_separate_model_AB_responses
-then_score_with_AB_harness
+run_external_or_separate_model_AB_using_handoff
+record_raw_responses
+score_with_AB_harness
 ```
 
 Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
