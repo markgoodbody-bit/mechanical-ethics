@@ -13,10 +13,11 @@ This is not a claim that Mechanical Ethics is validated. It is not a complete mo
 ## Start here
 
 1. Read the [`quick reference`](quick_reference.md).
-2. See a complete filled worksheet: [`Full Worksheet Example: Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md).
-3. Read the [`Correction Window Test`](test/correction_window_test_v0_1.md).
-4. Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) on one real system.
-5. Check the [`FAQ`](faq.md), [`glossary`](glossary.md), [`method and caveats`](method/method_and_caveats.md), and [`falsifiers`](falsifiers/falsifiers.md).
+2. See a cautious filled worksheet: [`Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md).
+3. See a crisp filled worksheet: [`Dashboard Without a Brake`](examples/full_worksheet_false_safeguard_dashboard.md).
+4. Read the [`Correction Window Test`](test/correction_window_test_v0_1.md).
+5. Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) on one real system.
+6. Check the [`FAQ`](faq.md), [`glossary`](glossary.md), [`method and caveats`](method/method_and_caveats.md), and [`falsifiers`](falsifiers/falsifiers.md).
 
 If you find a defect, open an issue or apply the worksheet to a concrete case and show where it fails.
 
@@ -42,7 +43,7 @@ Read the [`quick reference`](quick_reference.md).
 
 ### I want to use the tool
 
-Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) and compare against the [`full worked example`](examples/full_worksheet_benefits_suspension.md).
+Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) and compare against the [`cautious full example`](examples/full_worksheet_benefits_suspension.md) and the [`crisp false-safeguard example`](examples/full_worksheet_false_safeguard_dashboard.md).
 
 ### I work on AI governance
 
@@ -73,7 +74,7 @@ See [`glossary.md`](glossary.md) for working definitions.
 - [`quick_reference.md`](quick_reference.md) — short card for applying the test.
 - [`test/correction_window_test_v0_1.md`](test/correction_window_test_v0_1.md) — the main test.
 - [`worksheet/correction_window_worksheet_v0_1.md`](worksheet/correction_window_worksheet_v0_1.md) — a fill-in worksheet for applying the test.
-- [`examples/`](examples/) — worked examples, including a full worksheet example.
+- [`examples/`](examples/) — worked examples, including full worksheet examples.
 - [`guides/`](guides/) — AI governance use and design patterns.
 - [`faq.md`](faq.md) — common questions.
 - [`glossary.md`](glossary.md) — working definitions.
@@ -125,4 +126,4 @@ The public-record data surface is being separated from theory claims. Data, cave
 
 Goodbody, Mark. *Correction Window Test v0.1*. Mechanical Ethics / TRACE public working repository.
 
-Formal citation, license, and DOI are not yet assigned.
+Formal citation and DOI are not yet assigned. Original text and documentation are licensed under CC BY 4.0 unless a file says otherwise.
