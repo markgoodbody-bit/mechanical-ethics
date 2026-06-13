@@ -2,22 +2,20 @@
 
 **Can this safeguard still change the outcome before harm hardens?**
 
-This is the public landing page draft for the Mechanical Ethics / TRACE repository.
+This is a public landing page draft for the Mechanical Ethics / TRACE repository.
 
-The full project asks how AI systems, institutions, and decision processes can be made more answerable before harm becomes irreversible.
-
-This first public tool is narrower:
+The current public tool is narrow:
 
 > If a system is wrong, can the affected person get correction in time?
 
-## Try the test
+## Start here
 
-Read:
-
+- [Quick reference](../quick_reference.md)
+- [Full filled worksheet example](../examples/full_worksheet_benefits_suspension.md)
 - [Correction Window Test v0.1](../test/correction_window_test_v0_1.md)
 - [Worksheet](../worksheet/correction_window_worksheet_v0_1.md)
 
-Then apply it to one system.
+Then apply the worksheet to one real system.
 
 ## Use cases
 
@@ -37,8 +35,16 @@ The question is not only whether review exists.
 
 The question is whether review can still change the affected person's future.
 
+## Guides
+
+- [Using the test in AI governance](../guides/ai_governance_use.md)
+- [Design patterns for live correction](../guides/design_patterns.md)
+- [FAQ](../faq.md)
+- [Glossary](../glossary.md)
+
 ## Worked examples
 
+- [Full worksheet: benefits suspension](../examples/full_worksheet_benefits_suspension.md)
 - [AI hiring screen](../examples/hiring_ai.md)
 - [Benefits suspension](../examples/benefits_suspension.md)
 - [Medical prioritisation](../examples/medical_prioritisation.md)
