@@ -1,8 +1,8 @@
 # ME / TRACE AI Alignment Toy Cases
 
-**Status:** Internal toy-case set. Not public-facing. Not validated.
+**Status:** Research-layer / unpromoted public-repo material. Not validated. Not a public claim surface.
 
-These toy cases test whether the ME/TRACE AI Alignment Kernel and A/S/G/RQ support module can route concrete AI coding-agent transitions without collapsing into a simple “block everything risky” rule or “allow if useful” rule.
+These toy cases test whether the ME/TRACE AI Alignment Kernel and A/S/G/RQ support module can route concrete AI coding-agent transitions without collapsing into a simple “block everything risky” rule or “allow if useful” rule. Because the repository is public, “internal” here means research-layer / unpromoted / not validated, not inaccessible.
 
 ## Case matrix
 
@@ -27,7 +27,7 @@ define expected routes
 + stop/proceed rule
 ```
 
-## Internal self-score
+## Internal author self-score
 
 Current score file:
 
@@ -35,7 +35,7 @@ Current score file:
 TOY_CASE_SELF_SCORE_v0_2.md
 ```
 
-Current self-score:
+Current internal author self-score:
 
 ```text
 36 / 40
