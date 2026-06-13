@@ -174,4 +174,38 @@ Purpose:
 
 A first blind-review scaffold for the five-case toy set. Expected routes and scores are intentionally removed from reviewer-facing material.
 
+## Ordinary safety engineering comparator
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/ORDINARY_SAFETY_ENGINEERING_COMPARATOR_v0_1.md
+```
+
+Current comparator verdict:
+
+```text
+ME_TRACE_USEFUL_BUT_NOT_DISTINCTIVE_YET
+```
+
+Meaning:
+
+```text
+ordinary_safety_engineering_routes_same_cases_correctly := mostly_yes
+ME_TRACE_distinctive_final_route_value := weak / unproven
+ME_TRACE_distinctive_decomposition_value := moderate / plausible
+```
+
+Honest surviving claim:
+
+```text
+ME/TRACE may provide a useful decomposition grammar for why ordinary safety controls matter under AI tool authority.
+```
+
+Disallowed claim:
+
+```text
+ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
+```
+
 Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
