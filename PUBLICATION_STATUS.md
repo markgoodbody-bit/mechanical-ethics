@@ -2,13 +2,13 @@
 
 ## Current status
 
-Public v0.1 diagnostic. Pruned, polished, and consistency-aligned after Gemini/Grok and Claude review.
+Public v0.1 diagnostic. Pruned, polished, consistency-aligned, and cleared of review/process scaffolding.
 
 The repository now presents one object: the **Correction Window Test**.
 
 ## What is public now
 
-- Trimmed root README as the single front door.
+- Root README as the single front door.
 - Quick reference.
 - Correction Window Test.
 - Worksheet.
@@ -16,57 +16,26 @@ The repository now presents one object: the **Correction Window Test**.
 - Glossary.
 - Method caveats and public-record series discipline.
 - Falsifiers.
-- Draft GitHub Pages landing page in `docs/`.
-- GitHub issue templates for applying the test and reporting front-door defects.
-- Review request files in `review_requests/`.
 - License file for original text and documentation.
 
-## Pruning completed after Gemini/Grok review
+## Removed during pruning
 
-Removed duplicate or over-expansive front-door material:
+Removed duplicate entry points, guides, older example variants, review prompt files, empty placeholders, the draft Pages page, and issue templates.
+
+The removed material included:
 
 - `START_HERE.md`
 - `faq.md`
 - `SCOPE.md`
-- `method/how_to_apply_honestly.md`
-- `guides/README.md`
-- `guides/ai_governance_use.md`
-- `guides/design_patterns.md`
+- `guides/`
+- `review_requests/`
+- `archive/`
+- `data/ico_foi_eir/`
+- `docs/index.md`
+- `.github/ISSUE_TEMPLATE/`
+- duplicate short examples under `examples/`
 
-Updated:
-
-- `README.md` to act as the single front door.
-- `quick_reference.md` with plainer terms.
-- `test/correction_window_test_v0_1.md` with a clearer actual-fix-mechanism test.
-- `docs/index.md` to remove dead links and bloat.
-- `method/README.md` to remove obsolete links.
-
-## Polish completed after pruning
-
-Updated:
-
-- `worksheet/correction_window_worksheet_v0_1.md` into a shorter, tool-shaped worksheet.
-- `glossary.md` to use plainer terms.
-- `examples/README.md` to match the simplified test language.
-- `.github/ISSUE_TEMPLATE/apply_the_test.md` to match the simplified test language.
-
-## Consistency pass completed after Claude packet review
-
-Updated:
-
-- all five category examples to use the same five-check language;
-- `method/method_and_caveats.md` to use the current terms;
-- `test/correction_window_test_v0_1.md` to rename the weak heading to `Review board with no power to act`;
-- `examples/README.md` to remove the duplicate shorter-example layer.
-
-Removed duplicate older examples:
-
-- `examples/benefits_suspension.md`
-- `examples/hiring_ai.md`
-- `examples/medical_prioritisation.md`
-- `examples/agentic_ai_write_access.md`
-
-Current front-door terms:
+## Current front-door terms
 
 - Decision.
 - Affected person.
@@ -76,11 +45,11 @@ Current front-door terms:
 
 ## What is not yet complete
 
-- The ICO FOI/EIR CSV is not yet uploaded here.
-- Source verification files are not yet uploaded here.
-- GitHub Pages may still need to be enabled in repository settings.
 - No DOI has been issued.
 - No external review claim is made.
+- ICO FOI/EIR data work is parked outside this v0.1 tool surface.
+- GitHub Pages is not part of this freeze.
+- Public feedback is not being requested.
 
 ## Current claim ceiling
 
@@ -98,21 +67,16 @@ It may not currently claim:
 - full repair-capacity measurement;
 - external review completed.
 
-## Next clean actions
+## Freeze rule
 
-1. Stop adding files.
-2. Re-read the repo as a hostile stranger.
-3. Refine the worksheet and examples only if the test itself becomes clearer.
-4. Enable GitHub Pages from the `docs/` folder if wanted.
-5. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
-6. Later: archive a stable release and assign a DOI, if appropriate.
+Stop adding files.
+
+Do not add ICO data, GitHub Pages, issue templates, review prompts, new examples, or new method notes in this pass.
+
+Change the repo again only if use of the worksheet shows that the test itself needs sharpening.
 
 ## Gate status
 
-The repository is publicly reachable as a front-door rebuild.
-
-The public front-door gate is crossed.
+The repository is publicly reachable as a v0.1 diagnostic surface.
 
 The repo is not being pushed for feedback yet. No public-feedback step is required now.
-
-The ICO public-record surface is not yet fully published until its data and source notes are added.
