@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-06-13 — License and crisp-example patch
+
+Applied the main fixes from Claude Opus second-pass review.
+
+Added:
+
+- `LICENSE`
+- `examples/full_worksheet_false_safeguard_dashboard.md`
+
+Updated:
+
+- `README.md` to link both a cautious full worksheet example and a crisp false-safeguard example;
+- `START_HERE.md` to include both full examples;
+- `examples/README.md` to list both full examples;
+- `PUBLICATION_STATUS.md` to remove license as a blocker and mark the repo ready for a small public feedback post within the v0.1 claim ceiling.
+
+Still not claimed:
+
+- validated framework;
+- reliability-tested instrument;
+- complete AI-alignment solution;
+- full repair-capacity measurement;
+- external review completed.
+
+Remaining:
+
+- GitHub Pages may still need enabling;
+- ICO FOI/EIR CSV and source notes not yet published;
+- DOI not issued.
+
 ## 2026-06-13 — Stranger-usability expansion
 
 Expanded the public repo while preserving the claim ceiling.
@@ -50,7 +80,7 @@ Changed:
 
 Remaining:
 
-- license still pending;
+- license still pending at that point;
 - GitHub Pages may still need enabling;
 - ICO FOI/EIR CSV and source notes not yet published.
 
