@@ -1,5 +1,36 @@
 # Changelog
 
+## 2026-06-13 — Stranger-usability expansion
+
+Expanded the public repo while preserving the claim ceiling.
+
+Added:
+
+- `quick_reference.md`
+- `glossary.md`
+- `faq.md`
+- `guides/README.md`
+- `guides/ai_governance_use.md`
+- `guides/design_patterns.md`
+- `examples/full_worksheet_benefits_suspension.md`
+- `review_requests/claude_opus_front_door_review.md`
+
+Updated:
+
+- `README.md` with reader paths and expanded navigation;
+- `START_HERE.md` with the quick-reference/full-example route;
+- `examples/README.md` to identify the full worksheet example as the best first example;
+- `docs/index.md` to match the expanded front door;
+- `PUBLICATION_STATUS.md` to reflect the expansion and next review path.
+
+Still not claimed:
+
+- validated framework;
+- reliability-tested instrument;
+- complete AI-alignment solution;
+- full repair-capacity measurement;
+- external review completed.
+
 ## 2026-06-13 — Public front-door cleanup after outside review
 
 Applied front-door cleanup after hostile outside-reader review.
