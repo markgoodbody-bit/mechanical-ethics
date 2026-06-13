@@ -1,11 +1,10 @@
 # Method
 
-This folder contains method discipline for using the Correction Window Test without overclaiming.
+This folder contains method notes that support the Correction Window Test.
 
 ## Files
 
 - [`method_and_caveats.md`](method_and_caveats.md) — general method, caveats, and claim limits.
-- [`how_to_apply_honestly.md`](how_to_apply_honestly.md) — application discipline: name the affected person's clock, identify the carrier, and do not turn missing evidence into reassurance.
 - [`no_clock_without_series.md`](no_clock_without_series.md) — public-record discipline for time-series claims.
 
 ## Boundary
