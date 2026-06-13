@@ -1,8 +1,12 @@
-# Correction Window Test: Quick Reference
+# Quick Reference
 
 ## One-line test
 
-Can correction reach the affected person before the consequence becomes hard to reverse?
+Can they fix it before it is too late?
+
+More precise version:
+
+> Can the affected person get correction before the consequence becomes hard to reverse?
 
 ## Use this when a system claims it has safeguards
 
@@ -15,45 +19,46 @@ Examples:
 - model monitoring;
 - dashboard;
 - manual override;
-- governance board;
 - escalation route;
 - rollback procedure.
 
 ## The five checks
 
-### 1. Selection
+### 1. Decision
 
-What does the system choose, rank, recommend, approve, refuse, flag, route, trigger, or change?
+What does the system do, rank, approve, refuse, flag, route, trigger, or change?
 
 ### 2. Affected person
 
 Who carries the practical consequence?
 
-### 3. Hardening point
+### 3. Too-late point
 
 When does the consequence become difficult, costly, or impossible to reverse?
 
-### 4. Correction carrier
+### 4. Actual fix mechanism
 
-What real mechanism can stop, pause, reverse, repair, compensate, or prevent recurrence?
+What can stop, pause, reverse, repair, compensate, or prevent recurrence?
+
+A policy is not enough. A dashboard is not enough. A review board is not enough unless it has authority to change the outcome in time.
 
 ### 5. Timing fit
 
-Can that mechanism act before the hardening point?
+Can the actual fix mechanism act before the too-late point?
 
 ## Working labels
 
 ### LIVE PROTECTION
 
-Correction can be triggered, has authority, and can act before hardening.
+The fix can be triggered, has authority, and can act before it is too late.
 
 ### PARTIAL PROTECTION
 
-Correction exists, but timing, evidence, authority, access, or standing is incomplete.
+Some real protection exists, but timing, evidence, authority, access, or standing is incomplete.
 
 ### AFTER-THE-FACT REVIEW
 
-The route may expose, compensate, or prevent recurrence, but usually acts after the original consequence has hardened.
+The route may expose, compensate, or prevent recurrence, but usually acts after the original consequence is already hard to reverse.
 
 ### FALSE SAFEGUARD
 
@@ -68,6 +73,7 @@ The record does not show enough. Unknown is a valid result.
 - The affected person cannot tell the system acted on them.
 - The route exists but the person cannot trigger it.
 - A human is present but cannot override.
+- A review board can only advise, not stop or reverse.
 - Review happens after the opportunity closes.
 - The system logs outcomes but not reasons.
 - A warning reaches no brake.
@@ -81,7 +87,7 @@ What would make protection more real?
 
 - earlier notice;
 - pause during challenge;
-- independent evidence access;
+- evidence access;
 - deadline for the corrector;
 - affected-person trigger;
 - rollback route;
