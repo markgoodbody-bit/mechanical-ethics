@@ -2,7 +2,7 @@
 
 ## Current status
 
-Public front-door rebuild completed for v0.1.
+Public front-door rebuild completed for v0.1 and expanded for stranger usability.
 
 This repository now has a public front door and a first diagnostic tool: the Correction Window Test v0.1.
 
@@ -10,13 +10,20 @@ This repository now has a public front door and a first diagnostic tool: the Cor
 
 - Tool-first root README.
 - Start-here orientation.
+- Quick reference.
 - Correction Window Test.
 - Worksheet.
-- Worked examples and examples index.
+- Full filled worksheet example.
+- Short worked examples and examples index.
+- AI governance guide.
+- Design patterns guide.
+- FAQ.
+- Glossary.
 - Method and caveats.
 - Falsifiers.
 - Draft GitHub Pages landing page in `docs/`.
 - GitHub issue templates for applying the test and reporting front-door defects.
+- Claude Opus review request file in `review_requests/`.
 
 ## Cleanup completed after outside review
 
@@ -27,6 +34,19 @@ This repository now has a public front door and a first diagnostic tool: the Cor
 - Removed private method shorthand from the README front door.
 - Changed result categories in the test to working result labels.
 - Removed the notation block from the public test page.
+
+## Expansion completed after cleanup
+
+- Added a quick-reference card.
+- Added a glossary.
+- Added an FAQ.
+- Added an AI governance guide.
+- Added a design-patterns guide.
+- Added a complete filled worksheet example.
+- Updated README reader paths.
+- Updated Start Here.
+- Updated GitHub Pages draft.
+- Added a Claude Opus review request for the next outside-reader pass.
 
 ## What is not yet complete
 
@@ -53,11 +73,12 @@ It may not currently claim:
 
 ## Next clean actions
 
-1. Choose or defer a license explicitly.
-2. Enable GitHub Pages from the `docs/` folder if wanted.
-3. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
-4. Add a short public article after the repo surface is coherent.
-5. Later: archive a stable release and assign a DOI, if appropriate.
+1. Run the Claude Opus second-pass review using `review_requests/claude_opus_front_door_review.md`.
+2. Choose or defer a license explicitly.
+3. Enable GitHub Pages from the `docs/` folder if wanted.
+4. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
+5. Add a short public article after the repo surface is coherent.
+6. Later: archive a stable release and assign a DOI, if appropriate.
 
 ## Gate status
 
