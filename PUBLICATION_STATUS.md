@@ -2,67 +2,45 @@
 
 ## Current status
 
-Public front-door rebuild completed for v0.1 and expanded for private-build completeness.
+Public v0.1 diagnostic. Pruned after Gemini/Grok review.
 
-This repository now has a public front door and a first diagnostic tool: the Correction Window Test v0.1.
+The repository now presents one object: the **Correction Window Test**.
 
 ## What is public now
 
-- Tool-first root README.
-- Scope and claim-ceiling file.
-- Start-here orientation.
+- Trimmed root README as the single front door.
 - Quick reference.
 - Correction Window Test.
 - Worksheet.
 - Worked examples covering live protection, partial/mixed protection, after-the-fact review, false safeguard, and unknown.
 - Short worked examples and examples index.
-- AI governance guide.
-- Design patterns guide.
-- FAQ.
 - Glossary.
-- Method index, honest-application note, method caveats, and public-record series discipline.
+- Method caveats and public-record series discipline.
 - Falsifiers.
 - Draft GitHub Pages landing page in `docs/`.
 - GitHub issue templates for applying the test and reporting front-door defects.
-- Claude Opus review request file in `review_requests/`.
+- Review request files in `review_requests/`.
 - License file for original text and documentation.
 
-## Cleanup completed after outside review
+## Pruning completed after Gemini/Grok review
 
-- Removed the full book PDF from the repository root.
-- Changed the README to lead with the public tool rather than the project name.
-- Linked a worked example near the top of the README.
-- Removed the empty ICO data folder from the front-door repository map.
-- Removed private method shorthand from the README front door.
-- Changed result categories in the test to working result labels.
-- Removed the notation block from the public test page.
+Removed duplicate or over-expansive front-door material:
 
-## Expansion completed after cleanup
+- `START_HERE.md`
+- `faq.md`
+- `SCOPE.md`
+- `method/how_to_apply_honestly.md`
+- `guides/README.md`
+- `guides/ai_governance_use.md`
+- `guides/design_patterns.md`
 
-- Added a quick-reference card.
-- Added a glossary.
-- Added an FAQ.
-- Added an AI governance guide.
-- Added a design-patterns guide.
-- Added a complete filled worksheet example.
-- Added a crisp false-safeguard worksheet example.
-- Added a license file.
-- Updated README reader paths.
-- Updated Start Here.
-- Updated GitHub Pages draft.
-- Added a Claude Opus review request for the next outside-reader pass.
+Updated:
 
-## Architecture batch completed after Claude private-build pass
-
-- Added `SCOPE.md`.
-- Added `method/how_to_apply_honestly.md`.
-- Added `method/README.md`.
-- Added live-protection example: payment hold with live challenge.
-- Added after-the-fact example: hiring rejection after role filled.
-- Added unknown example: private risk scoring with missing records.
-- Updated the test with quick distinction rules for working labels.
-- Updated README, Start Here, examples index, and Pages draft for category coverage.
-- Removed obsolete `LICENSE_PENDING.md`.
+- `README.md` to act as the single front door.
+- `quick_reference.md` with plainer terms.
+- `test/correction_window_test_v0_1.md` with a clearer actual-fix-mechanism test.
+- `docs/index.md` to remove dead links and bloat.
+- `method/README.md` to remove obsolete links.
 
 ## What is not yet complete
 
@@ -82,16 +60,20 @@ It may not currently claim:
 
 - validated framework;
 - reliability-tested instrument;
+- complete ethics framework;
+- AI governance framework;
 - complete AI-alignment solution;
 - full repair-capacity measurement;
 - external review completed.
 
 ## Next clean actions
 
-1. Stop and re-read the whole repo as a stranger before adding more files.
-2. Enable GitHub Pages from the `docs/` folder if wanted.
-3. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
-4. Later: archive a stable release and assign a DOI, if appropriate.
+1. Stop adding files.
+2. Re-read the repo as a hostile stranger.
+3. Refine the worksheet and examples only if the test itself becomes clearer.
+4. Enable GitHub Pages from the `docs/` folder if wanted.
+5. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
+6. Later: archive a stable release and assign a DOI, if appropriate.
 
 ## Gate status
 
@@ -99,6 +81,6 @@ The repository is publicly reachable as a front-door rebuild.
 
 The public front-door gate is crossed.
 
-The repo is ready for a small public feedback post only if and when the author chooses exposure. No public-feedback step is required now.
+The repo is not being pushed for feedback yet. No public-feedback step is required now.
 
 The ICO public-record surface is not yet fully published until its data and source notes are added.
