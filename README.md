@@ -13,11 +13,16 @@ This is not a claim that Mechanical Ethics is validated. It is not a complete mo
 ## Start here
 
 1. Read the [`quick reference`](quick_reference.md).
-2. See a cautious filled worksheet: [`Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md).
-3. See a crisp filled worksheet: [`Dashboard Without a Brake`](examples/full_worksheet_false_safeguard_dashboard.md).
+2. Read [`SCOPE.md`](SCOPE.md) for the claim ceiling.
+3. See the category examples:
+   - [`Live Protection: Payment Hold With Live Challenge`](examples/live_protection_payment_hold.md)
+   - [`Partial / mixed: Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md)
+   - [`After-the-Fact Review: Hiring Rejection After Role Filled`](examples/after_the_fact_hiring_rejection.md)
+   - [`False Safeguard: Dashboard Without a Brake`](examples/full_worksheet_false_safeguard_dashboard.md)
+   - [`Unknown: Private Risk Scoring With Missing Records`](examples/unknown_private_scoring.md)
 4. Read the [`Correction Window Test`](test/correction_window_test_v0_1.md).
 5. Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) on one real system.
-6. Check the [`FAQ`](faq.md), [`glossary`](glossary.md), [`method and caveats`](method/method_and_caveats.md), and [`falsifiers`](falsifiers/falsifiers.md).
+6. Check [`How to Apply the Test Honestly`](method/how_to_apply_honestly.md), the [`FAQ`](faq.md), [`glossary`](glossary.md), [`method and caveats`](method/method_and_caveats.md), and [`falsifiers`](falsifiers/falsifiers.md).
 
 If you find a defect, open an issue or apply the worksheet to a concrete case and show where it fails.
 
@@ -43,7 +48,7 @@ Read the [`quick reference`](quick_reference.md).
 
 ### I want to use the tool
 
-Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) and compare against the [`cautious full example`](examples/full_worksheet_benefits_suspension.md) and the [`crisp false-safeguard example`](examples/full_worksheet_false_safeguard_dashboard.md).
+Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) and compare against the [`examples index`](examples/README.md).
 
 ### I work on AI governance
 
@@ -55,7 +60,7 @@ Read [`Design Patterns for Live Correction`](guides/design_patterns.md).
 
 ### I want to criticise the approach
 
-Read [`falsifiers`](falsifiers/falsifiers.md) and open a front-door defect issue.
+Read [`SCOPE.md`](SCOPE.md), [`falsifiers`](falsifiers/falsifiers.md), and [`How to Apply the Test Honestly`](method/how_to_apply_honestly.md), then open a front-door defect issue.
 
 ## Core concepts
 
@@ -71,14 +76,15 @@ See [`glossary.md`](glossary.md) for working definitions.
 
 ## Repository map
 
+- [`SCOPE.md`](SCOPE.md) — claim ceiling and build rule.
 - [`quick_reference.md`](quick_reference.md) — short card for applying the test.
 - [`test/correction_window_test_v0_1.md`](test/correction_window_test_v0_1.md) — the main test.
 - [`worksheet/correction_window_worksheet_v0_1.md`](worksheet/correction_window_worksheet_v0_1.md) — a fill-in worksheet for applying the test.
-- [`examples/`](examples/) — worked examples, including full worksheet examples.
+- [`examples/`](examples/) — worked examples covering the working labels.
 - [`guides/`](guides/) — AI governance use and design patterns.
 - [`faq.md`](faq.md) — common questions.
 - [`glossary.md`](glossary.md) — working definitions.
-- [`method/`](method/) — method notes, caveats, and publication discipline.
+- [`method/`](method/) — method notes, honest-use discipline, caveats, and publication discipline.
 - [`falsifiers/`](falsifiers/) — what would weaken or break the claims.
 - [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md) — what is public, incomplete, or still pending.
 
