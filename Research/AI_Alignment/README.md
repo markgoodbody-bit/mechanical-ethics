@@ -4,7 +4,41 @@
 
 This folder holds internal Mechanical Ethics work related to AI alignment, deployment corrigibility, tool authority, subject-state transitions, correction windows, and mechanistic-interpretability bridges.
 
-## Current packages
+## Current machine-room bridge
+
+### ME / TRACE AI Alignment Kernel v0.1
+
+Path:
+
+```text
+Research/AI_Alignment/ME_TRACE_AI_Alignment_Kernel_v0_1.md
+```
+
+Status:
+
+```text
+internal machine-room kernel
+not public-facing
+not validated
+not an AI-alignment solution
+```
+
+Core compression:
+
+```text
+AI_alignment_problem_ME_TRACE :=
+  model_state
+  → action_selection
+  → tool_actuation
+  → subject_state_delta
+  → correction_window
+```
+
+Purpose:
+
+This note places AI alignment in ME/TRACE terms: model-mediated transitions become dangerous when internal model states pass through tools, permissions, institutions, and speed into subject-state changes faster than correction can respond.
+
+## Current support modules
 
 ### A/S/G/RQ v0.2.2 — AI Deployment Corrigibility Pilot
 
@@ -33,6 +67,14 @@ A_axis := action / actuation irreversibility
 S_axis := subject consequence tier
 G_flag := material directional gate/evidence/control-plane integrity
 RQ_note := rollback quality and subject-level restoration
+```
+
+Relationship to kernel:
+
+```text
+ASG_RQ :=
+  deployment_action_classifier
+  not_the_whole_alignment_theory
 ```
 
 Current boundary:
