@@ -13,7 +13,7 @@ This repository now has a public front door and a first diagnostic tool: the Cor
 - Quick reference.
 - Correction Window Test.
 - Worksheet.
-- Full filled worksheet example.
+- Full filled worksheet examples, including one cautious mixed result and one clear false-safeguard result.
 - Short worked examples and examples index.
 - AI governance guide.
 - Design patterns guide.
@@ -24,6 +24,7 @@ This repository now has a public front door and a first diagnostic tool: the Cor
 - Draft GitHub Pages landing page in `docs/`.
 - GitHub issue templates for applying the test and reporting front-door defects.
 - Claude Opus review request file in `review_requests/`.
+- License file for original text and documentation.
 
 ## Cleanup completed after outside review
 
@@ -43,6 +44,8 @@ This repository now has a public front door and a first diagnostic tool: the Cor
 - Added an AI governance guide.
 - Added a design-patterns guide.
 - Added a complete filled worksheet example.
+- Added a crisp false-safeguard worksheet example.
+- Added a license file.
 - Updated README reader paths.
 - Updated Start Here.
 - Updated GitHub Pages draft.
@@ -52,7 +55,6 @@ This repository now has a public front door and a first diagnostic tool: the Cor
 
 - The ICO FOI/EIR CSV is not yet uploaded here.
 - Source verification files are not yet uploaded here.
-- License is still pending.
 - GitHub Pages may still need to be enabled in repository settings.
 - No DOI has been issued.
 - No external review claim is made.
@@ -73,17 +75,17 @@ It may not currently claim:
 
 ## Next clean actions
 
-1. Run the Claude Opus second-pass review using `review_requests/claude_opus_front_door_review.md`.
-2. Choose or defer a license explicitly.
-3. Enable GitHub Pages from the `docs/` folder if wanted.
-4. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
-5. Add a short public article after the repo surface is coherent.
-6. Later: archive a stable release and assign a DOI, if appropriate.
+1. Enable GitHub Pages from the `docs/` folder if wanted.
+2. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
+3. Add a short public article for a small, low-key post.
+4. Later: archive a stable release and assign a DOI, if appropriate.
 
 ## Gate status
 
 The repository is now publicly reachable as a front-door rebuild.
 
 The public front-door gate is crossed.
+
+The repo is ready for a small public feedback post, provided the post keeps the v0.1 diagnostic claim ceiling.
 
 The ICO public-record surface is not yet fully published until its data and source notes are added.
