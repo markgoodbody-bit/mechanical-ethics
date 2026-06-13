@@ -83,4 +83,36 @@ Current boundary:
 parked unless human or genuinely independent review becomes available
 ```
 
-Do not promote this package to the repo front page or public-facing claims without updating its publication status and evidence basis.
+## Toy transition cases
+
+### ME / TRACE Toy Case v0.1 — Coding Agent Payment Display Deploy
+
+Path:
+
+```text
+Research/AI_Alignment/Toy_Cases/ME_TRACE_Toy_Coding_Agent_Payment_Display_v0_1.md
+```
+
+Status:
+
+```text
+internal toy case
+not public-facing
+not validated
+```
+
+Purpose:
+
+A concrete toy case testing whether the ME/TRACE kernel and A/S/G/RQ support module route a payment-facing coding-agent deployment better than generic safety common sense.
+
+Core route:
+
+```text
+AI coding agent proposes payment-facing production deploy
+→ tests are green but affected subject path is untested
+→ required review is unavailable
+→ ASG/RQ classifies A4p / S2 / G1 / weak RQ
+→ gate degrades to pending review
+```
+
+Do not promote this folder to the repo front page or public-facing claims without updating publication status and evidence basis.
