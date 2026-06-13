@@ -1,0 +1,15 @@
+# SHA256SUMS — A/S/G/RQ v0.2.2 generated artifacts
+
+# These are checksums for the generated local artifacts from the 2026-06-13 build session.
+# Some binary ZIP artifacts were preserved in the chat sandbox/download bundle rather than uploaded as GitHub binary files.
+
+6319d80fe65bd328faffb11cb12838caa7e67db68e9a001c2973b67a730a2cf8  ME_AI_Deployment_Corrigibility_Stack_v0_2_2_ROLLBACK_G1_PATCH.md
+8fb1e7006b51c01e82b18b84b3271f3a03b0c15d6a366e3a5ee274e5f30c4e41  ME_AI_Coding_Agent_ASG_RQ_Classification_Trial_v0_2_2_FULL.zip
+136c17e6d0f4c329c7a65d60bcafc0e47ebd1ea8c9a76fb8605454ebb423e554  ASG_RQ_v0_2_2_INTERNAL_PILOT_FREEZE_2026_06_13.zip
+
+# Prior review/scoring artifacts
+4bed0e5e46bcd0e7dd4b1a815eeff9571330d0e21f6054b2d0aa0d4430ee3aef  ASG_v0_2_1_KIMI_REVIEW_SCORE.zip
+
+# Note
+# GitHub package is a durable text reconstruction of the internal pilot object.
+# The local ZIP artifacts remain useful as session bundles but are not necessary to understand the v0.2.2 kernel.
