@@ -1,265 +1,108 @@
-# Full Worksheet Example: Dashboard Without a Brake
+# Worked Example: Dashboard Without a Brake
 
-This is a filled example of the Correction Window Worksheet.
+This stylised example shows a clear **FALSE SAFEGUARD** result.
 
-It is a stylised example designed to show a crisp **FALSE SAFEGUARD** result.
+## Scenario
 
-## 1. System or process
+A digital service uses a risk system that flags accounts as high risk and automatically suspends access.
 
-Name the system or process:
+A dashboard records the suspension and displays risk statistics to staff.
 
-```text
-Risk dashboard for automated account suspension.
-```
+Users rely on account access for payments, work, benefits, housing, or essential communication.
 
-What does it do?
+## 1. Decision
 
-```text
-The system flags accounts as high risk and automatically suspends access. A dashboard records the suspension and displays risk statistics to staff.
-```
+The system classifies an account as high risk and triggers suspension.
 
-Where is it used?
+The decision is binding in practice because the account-control system automatically removes access.
 
-```text
-A digital service where users rely on account access for payments, work, benefits, housing, or essential communication.
-```
+Even if staff call the dashboard advisory, the suspension has already happened.
 
-## 2. Selection point
+## 2. Affected person
 
-What does the system select, recommend, trigger, approve, refuse, rank, classify, flag, or route?
+The account holder carries the consequence, along with dependants, clients, customers, or household members who rely on the account.
 
-```text
-It classifies an account as high risk and triggers suspension.
-```
+Possible effects:
 
-Who or what acts on that selection?
+- blocked payments;
+- missed rent, work, or legal deadlines;
+- lost service access;
+- stress and uncertainty;
+- suspicion attached to the user;
+- downstream flags or support records;
+- inability to see what evidence caused the suspension.
 
-```text
-The account-control system automatically suspends access.
-```
+The user knows the account is suspended, but not necessarily the risk flag, evidence, model rule, or dashboard process.
 
-Is the selection officially binding, advisory, or unclear?
+## 3. Too-late point
 
-```text
-Binding. The system action directly removes access.
-```
+The consequence becomes hard to reverse when payments, deadlines, access, work, or communications fail because the account is suspended.
 
-Is it practically treated as binding even if officially advisory?
+Further hardening occurs if the risk label is copied to other systems or support records.
 
-```text
-Yes. Even if staff call the dashboard advisory, the suspension has already happened automatically.
-```
+The timing may be hours to days if the account is needed for payment, work, or a deadline.
 
-## 3. Affected person or group
+## 4. Actual fix mechanism
 
-Who carries the consequence?
+The dashboard is a monitoring tool, not an actual fix mechanism.
 
-```text
-The account holder and any dependants, clients, customers, or household members relying on the account.
-```
+The visible route is a generic support ticket.
 
-What can change for them?
+Weaknesses:
 
-```text
-Money: payments may be blocked.
-Housing: rent or tenancy communication may be affected.
-Work: work platform access may be lost.
-Health: stress or loss of service access may occur.
-Education: online learning or records may be inaccessible.
-Legal position: deadlines or obligations may be missed.
-Access to service: account is suspended.
-Reputation/status: user may be treated as suspicious.
-Future options: missed deadlines, lost work, and downstream flags may narrow options.
-Other: user may not know what evidence caused the suspension.
-```
+- first-line support lacks reversal authority;
+- no urgent deadline is promised;
+- user receives no actionable evidence;
+- no pause route exists because suspension has already happened;
+- rollback is available only to a specialist team, if at all;
+- no compensation authority is stated;
+- no downstream correction route is visible.
 
-Can the affected person know that the system affected them?
+The user can complain, but the route does not give timely evidence, pause power, reversal authority, or a deadline that fits the account-loss window.
 
-```text
-Partial. They know the account is suspended, but not necessarily the risk flag, evidence, model rule, or dashboard process.
-```
+## 5. Timing fit
 
-Can they understand the reason well enough to challenge it?
+The dashboard records risk after the decision has already removed access.
 
-```text
-No. The suspension notice says only that suspicious activity was detected and gives no evidence, timestamp, or actionable reason.
-```
+Support tickets are triaged after suspension, and no urgent review deadline is promised.
 
-## 4. Harm and option-space
+The fix therefore cannot reliably act before account-loss consequences begin to harden.
 
-What harms might decrease because of the system?
+## Working result label
 
-```text
-Fraudulent or compromised accounts may be stopped quickly. The service may reduce security risk.
-```
+**FALSE SAFEGUARD**
 
-What harms might increase?
+## Why this is false safeguard
 
-```text
-Wrongful suspension, blocked payments, missed deadlines, work disruption, distress, and downstream suspicion.
-```
+The dashboard records and displays risk but does not give the affected person a timely route with evidence, authority, pause power, or reversal before account-loss consequences become hard to reverse.
 
-Whose future options expand?
+The safeguard exists in process language, but lacks an actual fix mechanism for the affected person.
 
-```text
-The operator gains rapid control over suspected accounts and can reduce some security risks.
-```
+## Minimum records needed
 
-Whose future options narrow?
+- decision timestamp;
+- suspension timestamp;
+- notice content;
+- risk basis disclosed to user, if any;
+- support ticket timestamp;
+- escalation timestamp;
+- reviewer authority;
+- restoration outcome;
+- downstream propagation record.
 
-```text
-The wrongly suspended user loses access, time, evidence access, and practical ability to correct the situation before consequences spread.
-```
+## Minimum repair
 
-## 5. Hardening point
+To become more real, the safeguard would need:
 
-What is the first point where the consequence becomes difficult, costly, or impossible to reverse?
+- specific notice of suspension reason where security permits;
+- emergency review trigger;
+- evidence access sufficient to challenge;
+- urgent deadline for a reviewer with reversal authority;
+- temporary limited-access state for credible false-positive claims;
+- rollback route;
+- compensation route for wrongful suspension losses;
+- no downstream propagation until review where feasible.
 
-```text
-Hardening begins when payments, deadlines, access, work, or communications fail because the account is suspended. Further hardening occurs if the risk label is copied to other systems or support records.
-```
+## One-sentence result
 
-Estimate the hardening clock:
-
-```text
-Hours to days. If the account is needed for payment, work, or a deadline, harm can harden quickly.
-```
-
-## 6. Correction route
-
-What correction route exists?
-
-```text
-Appeal: generic support ticket.
-Complaint: possible later.
-Human review: staff can view dashboard, but only after ticket triage.
-Internal review: possible but no fixed deadline.
-External regulator: possible much later.
-Court or tribunal: not practical for immediate access.
-Audit: dashboard reports aggregate statistics.
-Manual override: not available to first-line support.
-Technical rollback: possible only for specialist team.
-Other: none.
-```
-
-Who can trigger the route?
-
-```text
-The user can submit a support ticket, but cannot trigger immediate review, pause, or rollback.
-```
-
-Does the affected person have standing?
-
-```text
-Weak standing. They can complain, but the route does not give them timely access to evidence or suspension reversal.
-```
-
-## 7. Correction carrier
-
-What gives the correction route real force?
-
-```text
-Authority: first-line support lacks authority to reverse.
-Resources: unknown.
-Deadline: no deadline for correction.
-Evidence access: user receives no evidence.
-Pause power: not applicable because suspension has already happened.
-Reversal power: held by specialist team only.
-Compensation power: none stated.
-Recurrence-prevention power: none visible.
-Protection from retaliation: none stated.
-```
-
-If there is no carrier, the safeguard may be false teeth.
-
-## 8. Timing fit
-
-How long does correction usually take?
-
-```text
-Unknown, but support tickets are triaged after suspension and no urgent deadline is promised.
-```
-
-How long before hardening?
-
-```text
-Hours to days.
-```
-
-Can correction act before hardening?
-
-```text
-No. The dashboard records risk but does not pause, explain, reverse, or provide timely authority to correct before account-loss consequences begin.
-```
-
-## 9. Records
-
-What records prove the relevant facts?
-
-```text
-Selection record: risk flag and suspension timestamp may exist internally.
-Input record: not disclosed.
-Reason/explanation: not disclosed to user.
-Affected-person notice: suspension notice exists but is generic.
-Challenge route: support ticket exists.
-Timing data: suspension timestamp and ticket timestamp may exist.
-Correction outcome: unknown.
-Downstream propagation: unknown.
-```
-
-Do the records prove the thing that matters for safety?
-
-```text
-No. The dashboard may prove that risk was detected and suspension happened, but it does not prove that the affected person had a live correction route.
-```
-
-## 10. Classification
-
-Choose one:
-
-```text
-FALSE SAFEGUARD.
-```
-
-Reason:
-
-```text
-The dashboard is a monitoring and reporting tool, not a correction carrier. It does not give the affected person timely evidence, trigger rights, pause power, reversal authority, or a deadline that fits the hardening window.
-```
-
-## 11. Minimum repair
-
-What would make the safeguard more real?
-
-```text
-Earlier notice: specific notice of suspension reason where security permits.
-Pause during challenge: temporary limited-access state for credible false-positive claims.
-Independent evidence access: disclose enough evidence to challenge without compromising security.
-Deadline for corrector: urgent review deadline inside the account-hardening window.
-Affected-person trigger: user can trigger emergency review.
-External reviewer: escalation outside the automated risk team.
-Rollback mechanism: first-line or urgent team can restore access.
-Compensation: remedy for wrongful suspension losses.
-Recurrence control: false-positive cases feed back into model/rule review.
-Other: no downstream propagation until review where feasible.
-```
-
-## 12. Confidence limits
-
-What do you still not know?
-
-```text
-Actual support response times, internal escalation rules, specialist-team authority, downstream propagation, and whether emergency review exists for vulnerable users.
-```
-
-What evidence would change your classification?
-
-```text
-Evidence that users receive actionable notice, can trigger urgent review, can access enough evidence to challenge, and that a reviewer with reversal authority must act before the account-loss consequences harden.
-```
-
-## 13. One-sentence result
-
-```text
-This safeguard appears to be a false safeguard because the dashboard records and displays risk after suspension but does not give the affected person a timely route with evidence, authority, pause power, or reversal before account-loss consequences harden.
-```
+This safeguard appears to be a false safeguard because the dashboard records risk after suspension but does not give the affected person a timely actual fix mechanism before account-loss consequences become hard to reverse.
