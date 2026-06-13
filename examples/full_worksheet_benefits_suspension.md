@@ -1,265 +1,116 @@
-# Full Worksheet Example: Benefits Suspension or Recovery
+# Worked Example: Benefits Suspension or Recovery
 
-This is a filled example of the Correction Window Worksheet.
+This stylised example shows a **PARTIAL / mixed** result.
 
-It is a stylised example, not a finding about a specific public body.
+It is not a finding about a specific public body.
 
-## 1. System or process
+## Scenario
 
-Name the system or process:
+A benefits system identifies a claimant for payment suspension, reduced payment, investigation, recovery, or altered entitlement after an automated match, fraud flag, overpayment decision, or administrative review.
 
-```text
-Benefits suspension or debt recovery after an automated match, fraud flag, overpayment decision, or administrative review.
-```
+A formal appeal or complaint route may exist. The decisive question is whether that route can pause or reverse payment loss before hardship becomes hard to reverse.
 
-What does it do?
+## 1. Decision
 
-```text
-The process identifies a claimant for suspension, reduced payment, investigation, recovery, or altered entitlement.
-```
+The system flags or routes a claimant for suspension, reduced payment, investigation, recovery, or altered entitlement.
 
-Where is it used?
+Caseworkers, payment systems, debt-recovery processes, or internal review routes may act on the decision.
 
-```text
-Public benefits administration or similar income-support systems.
-```
+The decision may be formally reviewable but practically consequential if payment stops or recovery begins while review is pending.
 
-## 2. Selection point
+## 2. Affected person
 
-What does the system select, recommend, trigger, approve, refuse, rank, classify, flag, or route?
+The claimant and any dependants or household members carry the consequence.
 
-```text
-It selects a claimant for payment suspension, investigation, recovery, or altered entitlement.
-```
+Possible effects:
 
-Who or what acts on that selection?
+- payment stops or reduces;
+- rent arrears build;
+- debt pressure begins;
+- food, utilities, health, or care needs are affected;
+- stress and administrative burden increase;
+- evidence-gathering becomes harder;
+- future options narrow.
 
-```text
-Caseworkers, payment systems, debt-recovery processes, or internal review routes may act on it.
-```
+The claimant may receive notice, but may not understand the underlying decision route, data match, evidence, or review options well enough to challenge quickly.
 
-Is the selection officially binding, advisory, or unclear?
+## 3. Too-late point
 
-```text
-Unclear in the generic case. It may be officially subject to review but practically shape action before review concludes.
-```
+The consequence becomes hard to reverse when payment loss creates practical hardship before review concludes.
 
-Is it practically treated as binding even if officially advisory?
+Possible too-late points include:
 
-```text
-Possible. If payment stops or recovery begins while review is pending, the selection is practically consequential even if formally reviewable.
-```
+- rent becoming due without payment;
+- debt recovery beginning;
+- enforcement transfer;
+- missed essentials;
+- borrowing under pressure;
+- lost evidence;
+- accumulated distress before review finishes.
 
-## 3. Affected person or group
+For people dependent on the payment, this may be days to weeks.
 
-Who carries the consequence?
+## 4. Actual fix mechanism
 
-```text
-The claimant and any dependants or household members affected by income loss, debt pressure, or administrative burden.
-```
+Possible fix mechanisms include:
 
-What can change for them?
+- urgent review;
+- suspension pause;
+- recovery pause;
+- hardship-safe interim payment;
+- evidence access;
+- reviewer with authority to restore payment or cancel debt;
+- compensation if correction arrives late;
+- correction of the underlying data, rule, or process.
 
-```text
-Money: payment may stop or reduce; debt recovery may begin.
-Housing: rent arrears may build.
-Work: time and stability may be lost while challenging.
-Health: stress and illness may worsen.
-Education: children or dependants may be affected indirectly.
-Legal position: debt, enforcement, or appeal status may change.
-Access to service: support may be interrupted.
-Reputation/status: fraud suspicion may affect treatment.
-Future options: borrowing, arrears, missed obligations, and stress may narrow choices.
-Other: evidence-gathering burden may increase.
-```
+The formal appeal or complaint route is only live protection if it can alter the claimant's practical path before hardship becomes hard to reverse.
 
-Can the affected person know that the system affected them?
+If review exists but cannot pause payment loss, stop recovery, restore payment, or act inside the hardship window, it is weaker than live protection.
 
-```text
-Partial. They may receive notice of suspension or recovery, but may not understand the underlying selection route, evidence, or data match.
-```
+## 5. Timing fit
 
-Can they understand the reason well enough to challenge it?
+The timing fit is usually uncertain in the generic case.
 
-```text
-Unknown or partial. This depends on the quality of notice, evidence disclosure, and explanation.
-```
+The claimant's hardship clock may be days to weeks.
 
-## 4. Harm and option-space
+Review may take days, weeks, or months depending on the route.
 
-What harms might decrease because of the system?
+The result is therefore **partial protection** where rapid review, pause power, or hardship-safe interim payment exists. It becomes **after-the-fact review** where the route can correct records or compensate later but cannot stop hardship before it hardens.
 
-```text
-Incorrect payments may be reduced. Fraud or error may be detected. Public funds may be protected. Recurrence may be prevented.
-```
+## Working result label
 
-What harms might increase?
+**PARTIAL PROTECTION / AFTER-THE-FACT REVIEW**, depending on the actual pause, restoration, and review timing.
 
-```text
-Wrongful suspension, debt pressure, hardship, stress, administrative burden, loss of trust, and inability to meet basic obligations.
-```
+## Why this is mixed
 
-Whose future options expand?
+The route may have real corrective value, but the decisive issue is whether the fix can reach the claimant before rent, debt, food, utility, health, or evidence pressures become hard to reverse.
 
-```text
-The institution may gain enforcement options, budget control, or fraud-prevention capacity.
-```
+## Minimum records needed
 
-Whose future options narrow?
+- decision record;
+- notice date and content;
+- basis for suspension or recovery;
+- challenge route;
+- review trigger date;
+- payment or recovery pause record;
+- review outcome date;
+- payment restoration or debt cancellation record;
+- compensation or hardship-support record;
+- downstream recovery or enforcement record.
 
-```text
-The claimant may lose financial, housing, health, and procedural options before review concludes.
-```
+## Minimum repair
 
-## 5. Hardening point
+To become more live, the safeguard would need:
 
-What is the first point where the consequence becomes difficult, costly, or impossible to reverse?
+- clear notice before action becomes hard to reverse;
+- evidence access;
+- affected-person or proxy trigger;
+- urgent review deadline inside the hardship window;
+- pause during credible challenge;
+- payment restoration or recovery rollback;
+- hardship-safe interim state;
+- compensation and record correction where review arrives late.
 
-```text
-Possible hardening points include rent becoming due without payment, debt recovery beginning, enforcement transfer, missed essentials, borrowing, lost evidence, or accumulated distress before review concludes.
-```
+## One-sentence result
 
-Estimate the hardening clock:
-
-```text
-Days to weeks for rent, food, utilities, debt pressure, and basic living costs. Exact timing depends on claimant resources.
-```
-
-## 6. Correction route
-
-What correction route exists?
-
-```text
-Appeal: possible.
-Complaint: possible.
-Human review: possible.
-Internal review: likely.
-External regulator: possible later.
-Court or tribunal: possible later.
-Audit: possible but not necessarily case-restorative.
-Manual override: possible if designed into process.
-Technical rollback: possible if payment/recovery systems allow it.
-Other: hardship payment or suspension pause.
-```
-
-Who can trigger the route?
-
-```text
-Affected person, proxy, internal staff, or possibly external reviewer depending on system design.
-```
-
-Does the affected person have standing?
-
-```text
-Likely yes for appeal or complaint, but standing may not include power to pause recovery or restore payments quickly.
-```
-
-## 7. Correction carrier
-
-What gives the correction route real force?
-
-```text
-Authority: review body or caseworker must be able to alter payment/recovery.
-Resources: enough staff/time to review quickly.
-Deadline: review must happen before practical hardship hardens.
-Evidence access: claimant must see the basis of the decision.
-Pause power: ability to stop suspension/recovery during challenge.
-Reversal power: ability to restore payment or cancel debt.
-Compensation power: ability to address loss if late.
-Recurrence-prevention power: ability to correct underlying rule, data, or process.
-Protection from retaliation: claimant should not be penalised for challenge.
-```
-
-If there is no carrier, the safeguard may be false teeth.
-
-## 8. Timing fit
-
-How long does correction usually take?
-
-```text
-Unknown in the generic case. It may be days, weeks, or months depending on the route.
-```
-
-How long before hardening?
-
-```text
-Often days to weeks for people dependent on the payment.
-```
-
-Can correction act before hardening?
-
-```text
-Partial or No, unless there is a rapid review, safe interim payment, pause of recovery, or hardship-safe state.
-```
-
-## 9. Records
-
-What records prove the relevant facts?
-
-```text
-Selection record: flag, match, review note, or overpayment decision.
-Input record: data source, claimant evidence, payment history.
-Reason/explanation: decision notice and internal basis.
-Affected-person notice: date and content of notice.
-Challenge route: appeal/complaint instructions.
-Timing data: dates of selection, notice, suspension, recovery, challenge, review, outcome.
-Correction outcome: restored payment, cancelled debt, compensation, or refusal.
-Downstream propagation: debt recovery, enforcement, credit, or other agency sharing.
-```
-
-Do the records prove the thing that matters for safety?
-
-```text
-Unknown. Many records may prove that a decision was made without proving whether correction reached the claimant before hardship hardened.
-```
-
-## 10. Classification
-
-Choose one:
-
-```text
-PARTIAL PROTECTION or AFTER-THE-FACT REVIEW, depending on whether payment/recovery can be paused or restored before hardship hardens.
-```
-
-Reason:
-
-```text
-A formal appeal or complaint route may exist, but it is live protection only if it can alter the claimant's practical path before rent, debt, food, utilities, health, or evidence pressures harden.
-```
-
-## 11. Minimum repair
-
-What would make the safeguard more real?
-
-```text
-Earlier notice: claimant is told clearly before action hardens.
-Pause during challenge: disputed suspension/recovery can pause where credible challenge exists.
-Independent evidence access: claimant sees the decision basis.
-Deadline for corrector: review must happen inside hardship window.
-Affected-person trigger: claimant or proxy can trigger urgent review.
-External reviewer: independent route where internal route fails.
-Rollback mechanism: payment/recovery can be restored.
-Compensation: late correction accounts for hardship.
-Recurrence control: underlying data/rule/process is fixed.
-Other: hardship-safe interim state.
-```
-
-## 12. Confidence limits
-
-What do you still not know?
-
-```text
-Actual review times, actual pause powers, quality of notices, evidence access, hardship support, reversal rates, and outcomes for people whose challenge succeeds late.
-```
-
-What evidence would change your classification?
-
-```text
-Evidence that claimants can trigger rapid review, that recovery or suspension pauses during credible dispute, that payments can be restored before hardship, and that outcomes are recorded with timing.
-```
-
-## 13. One-sentence result
-
-```text
-This safeguard appears to be partial protection or after-the-fact review because formal challenge may exist, but the decisive question is whether review can pause or reverse suspension/recovery before rent, debt, food, health, or evidence pressures harden.
-```
+This safeguard appears to be partial protection or after-the-fact review because formal challenge may exist, but the decisive question is whether review can pause or reverse payment loss or recovery before hardship becomes hard to reverse.
