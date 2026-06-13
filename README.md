@@ -12,10 +12,11 @@ This is not a claim that Mechanical Ethics is validated. It is not a complete mo
 
 ## Start here
 
-1. Read the [`Correction Window Test`](test/correction_window_test_v0_1.md).
-2. See it applied in [`Benefits Suspension or Recovery`](examples/benefits_suspension.md).
-3. Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) on one real system.
-4. Check the [`method and caveats`](method/method_and_caveats.md) and [`falsifiers`](falsifiers/falsifiers.md).
+1. Read the [`quick reference`](quick_reference.md).
+2. See a complete filled worksheet: [`Full Worksheet Example: Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md).
+3. Read the [`Correction Window Test`](test/correction_window_test_v0_1.md).
+4. Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) on one real system.
+5. Check the [`FAQ`](faq.md), [`glossary`](glossary.md), [`method and caveats`](method/method_and_caveats.md), and [`falsifiers`](falsifiers/falsifiers.md).
 
 If you find a defect, open an issue or apply the worksheet to a concrete case and show where it fails.
 
@@ -33,6 +34,28 @@ But it is no longer live protection.
 
 **Can correction reach the affected person before the consequence becomes practically irreversible?**
 
+## Reader paths
+
+### I want the shortest version
+
+Read the [`quick reference`](quick_reference.md).
+
+### I want to use the tool
+
+Use the [`worksheet`](worksheet/correction_window_worksheet_v0_1.md) and compare against the [`full worked example`](examples/full_worksheet_benefits_suspension.md).
+
+### I work on AI governance
+
+Read [`Using the Correction Window Test in AI Governance`](guides/ai_governance_use.md).
+
+### I design safeguards
+
+Read [`Design Patterns for Live Correction`](guides/design_patterns.md).
+
+### I want to criticise the approach
+
+Read [`falsifiers`](falsifiers/falsifiers.md) and open a front-door defect issue.
+
 ## Core concepts
 
 - **Selection** — where a system chooses or recommends a path that affects the world.
@@ -43,12 +66,17 @@ But it is no longer live protection.
 - **Evidence** — the record that lets an affected person or reviewer show what happened.
 - **Standing** — who is allowed to trigger challenge or protection.
 
+See [`glossary.md`](glossary.md) for working definitions.
+
 ## Repository map
 
-- [`START_HERE.md`](START_HERE.md) — quick orientation.
+- [`quick_reference.md`](quick_reference.md) — short card for applying the test.
 - [`test/correction_window_test_v0_1.md`](test/correction_window_test_v0_1.md) — the main test.
 - [`worksheet/correction_window_worksheet_v0_1.md`](worksheet/correction_window_worksheet_v0_1.md) — a fill-in worksheet for applying the test.
-- [`examples/`](examples/) — worked examples.
+- [`examples/`](examples/) — worked examples, including a full worksheet example.
+- [`guides/`](guides/) — AI governance use and design patterns.
+- [`faq.md`](faq.md) — common questions.
+- [`glossary.md`](glossary.md) — working definitions.
 - [`method/`](method/) — method notes, caveats, and publication discipline.
 - [`falsifiers/`](falsifiers/) — what would weaken or break the claims.
 - [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md) — what is public, incomplete, or still pending.
