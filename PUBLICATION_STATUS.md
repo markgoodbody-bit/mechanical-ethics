@@ -2,7 +2,7 @@
 
 ## Current status
 
-Public v0.1 diagnostic. Pruned after Gemini/Grok review.
+Public v0.1 diagnostic. Pruned and polished after Gemini/Grok review.
 
 The repository now presents one object: the **Correction Window Test**.
 
@@ -41,6 +41,23 @@ Updated:
 - `test/correction_window_test_v0_1.md` with a clearer actual-fix-mechanism test.
 - `docs/index.md` to remove dead links and bloat.
 - `method/README.md` to remove obsolete links.
+
+## Polish completed after pruning
+
+Updated:
+
+- `worksheet/correction_window_worksheet_v0_1.md` into a shorter, tool-shaped worksheet.
+- `glossary.md` to use plainer terms.
+- `examples/README.md` to match the simplified test language.
+- `.github/ISSUE_TEMPLATE/apply_the_test.md` to match the simplified test language.
+
+Current front-door terms:
+
+- Decision.
+- Affected person.
+- Too-late point.
+- Actual fix mechanism.
+- Timing fit.
 
 ## What is not yet complete
 
