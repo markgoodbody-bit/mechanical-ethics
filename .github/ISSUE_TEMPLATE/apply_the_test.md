@@ -6,39 +6,33 @@ labels: test-application
 assignees: ""
 ---
 
-## System or process
+## System
 
-Name the system or process:
+What system or process are you testing?
 
+## Decision
 
-## Selection point
+What does the system do, rank, approve, refuse, flag, route, trigger, or change?
 
-What does the system select, recommend, trigger, approve, refuse, rank, classify, flag, or route?
-
-
-## Affected person or group
+## Affected person
 
 Who carries the consequence?
 
+## Too-late point
 
-## Hardening point
+When is the consequence hard to reverse?
 
-When does the consequence become difficult, costly, or impossible to reverse?
+## Actual fix mechanism
 
-
-## Correction carrier
-
-What real mechanism can stop, pause, reverse, repair, compensate, or prevent recurrence?
-
+What can actually stop, pause, reverse, repair, compensate, or prevent recurrence?
 
 ## Timing fit
 
-Can the carrier act before the hardening point?
-
+Can the fix act before it is too late?
 
 ## Working result label
 
-Choose one, with reasons:
+Choose one and explain why:
 
 - LIVE PROTECTION
 - PARTIAL PROTECTION
@@ -46,14 +40,12 @@ Choose one, with reasons:
 - FALSE SAFEGUARD
 - UNKNOWN
 
-
 ## Evidence and uncertainty
 
 What evidence supports the result?
 
 What remains unknown?
 
-
 ## One-sentence result
 
-This safeguard appears to be [label] because [reason], and the key uncertainty is [uncertainty].
+This safeguard appears to be [label] because [reason], with [uncertainty].
