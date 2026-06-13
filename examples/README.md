@@ -4,9 +4,10 @@ These examples show the Correction Window Test applied to recognizable systems.
 
 Start here if the worksheet feels too abstract.
 
-## Best first example
+## Best first examples
 
-- [`full_worksheet_benefits_suspension.md`](full_worksheet_benefits_suspension.md) — a complete filled worksheet, section by section.
+- [`full_worksheet_benefits_suspension.md`](full_worksheet_benefits_suspension.md) — a complete filled worksheet with a cautious, mixed result.
+- [`full_worksheet_false_safeguard_dashboard.md`](full_worksheet_false_safeguard_dashboard.md) — a complete filled worksheet with a clear FALSE SAFEGUARD result.
 
 ## Shorter examples
 
