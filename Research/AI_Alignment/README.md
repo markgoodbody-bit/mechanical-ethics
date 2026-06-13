@@ -266,6 +266,26 @@ inconclusive_contaminated
 both_need_revision
 ```
 
+### Convergent null brief
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/CONVERGENT_NULL_BRIEF_v0_1.md
+```
+
+Status:
+
+```text
+human-readable result brief
+not validation
+not public claim surface
+```
+
+Purpose:
+
+States the branch result in plain language: current structured comparisons have not demonstrated decision advantage over competent baseline reasoning; possible value is explanatory decomposition only.
+
 ### Convergent null result note
 
 Path:
