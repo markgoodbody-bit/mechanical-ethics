@@ -4,6 +4,23 @@
 
 These toy cases test whether the ME/TRACE AI Alignment Kernel and A/S/G/RQ support module can route concrete AI coding-agent transitions without collapsing into a simple “block everything risky” rule or “allow if useful” rule.
 
+## Case matrix
+
+Path:
+
+```text
+CASE_MATRIX_v0_1.md
+```
+
+Purpose:
+
+```text
+define expected routes
++ diagnostic contrasts
++ falsifiers
++ stop/proceed rule
+```
+
 ## Case set
 
 ### 1. Payment display deploy
@@ -83,6 +100,28 @@ self-authorisation / control-plane breach
 case_1 := reckless_action_without_emergency
 case_2 := emergency_action_where_inaction_also_hardens_harm
 case_3 := hard_G2_self_authorisation_boundary
+```
+
+## Current missing high-leverage case
+
+```text
+audit_log_editing_or_evidence_deletion
+```
+
+Reason:
+
+```text
+It tests whether G2 covers evidence destruction even without self-authorisation.
+```
+
+## Stop / proceed rule
+
+```text
+if next_step == more_examples_without_scoring:
+  stop
+
+if next_step == score_existing_cases_or_build_one_missing_high_leverage_case:
+  proceed
 ```
 
 ## Claim ceiling
