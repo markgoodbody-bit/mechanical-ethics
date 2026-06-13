@@ -1,6 +1,6 @@
 # Worked Example: Payment Hold With Live Challenge
 
-This is a stylised example designed to show a clear **LIVE PROTECTION** result.
+This stylised example shows a clear **LIVE PROTECTION** result.
 
 ## Scenario
 
@@ -10,11 +10,11 @@ Instead of cancelling the payment, freezing the account, or reporting the user d
 
 The affected user receives notice, can trigger urgent review, can submit evidence, and the reviewer has authority to release the payment before the user's deadline.
 
-## 1. Selection
+## 1. Decision
 
-The system selects a payment for suspicion review.
+The system flags a payment for suspicion review.
 
-The initial selection does not complete the harmful action. It creates a reversible pending state.
+The decision does not complete the harmful action. It creates a reversible pending state.
 
 ## 2. Affected person
 
@@ -27,15 +27,15 @@ Possible effects:
 - account uncertainty;
 - business interruption.
 
-## 3. Hardening point
+## 3. Too-late point
 
-The consequence hardens when the payment deadline passes or when the payee acts on non-payment.
+The consequence becomes hard to reverse when the payment deadline passes or when the payee acts on non-payment.
 
 In this scenario, the relevant deadline is 48 hours away.
 
-## 4. Correction carrier
+## 4. Actual fix mechanism
 
-The safeguard has multiple carriers:
+The safeguard has actual fix mechanisms:
 
 - immediate notice to the user;
 - clear reason category;
@@ -49,11 +49,9 @@ The safeguard has multiple carriers:
 
 ## 5. Timing fit
 
-Correction can act before hardening.
+The fix can act before the too-late point.
 
-The review deadline is 12 hours.
-
-The payment hardening point is 48 hours.
+The review deadline is 12 hours. The payment deadline is 48 hours.
 
 The reviewer can release the payment, request more evidence, or maintain the hold with reasons.
 
@@ -63,9 +61,9 @@ The reviewer can release the payment, request more evidence, or maintain the hol
 
 ## Why this is live protection
 
-The system did not let the suspicious-selection output become irreversible before challenge.
+The system does not let the suspicious-payment decision become irreversible before challenge.
 
-The affected person received notice, could trigger review, had a route to provide evidence, and the reviewer had authority to release the payment inside the hardening window.
+The affected person receives notice, can trigger review, can provide evidence, and the reviewer has authority to release the payment inside the relevant window.
 
 ## Remaining limits
 
@@ -79,7 +77,7 @@ It only shows that this safeguard appears to provide live correction for this pa
 
 ## Minimum records needed
 
-- selection timestamp;
+- decision timestamp;
 - notice timestamp;
 - challenge timestamp;
 - evidence received;
@@ -91,4 +89,4 @@ It only shows that this safeguard appears to provide live correction for this pa
 
 ## One-sentence result
 
-This safeguard appears to be live protection because the system holds the action in a reversible pending state, gives the affected user a challenge route, and gives a reviewer authority to release the payment before the deadline hardens.
+This safeguard appears to be live protection because the system holds the action in a reversible pending state, gives the affected user a challenge route, and gives a reviewer authority to release the payment before the deadline becomes hard to reverse.
