@@ -4,7 +4,11 @@ These examples show the Correction Window Test applied to recognizable systems.
 
 Start here if the worksheet feels too abstract.
 
-## Examples
+## Best first example
+
+- [`full_worksheet_benefits_suspension.md`](full_worksheet_benefits_suspension.md) — a complete filled worksheet, section by section.
+
+## Shorter examples
 
 - [`benefits_suspension.md`](benefits_suspension.md) — benefits suspension or recovery.
 - [`hiring_ai.md`](hiring_ai.md) — AI hiring screen.
