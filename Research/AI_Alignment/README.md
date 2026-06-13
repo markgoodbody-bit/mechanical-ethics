@@ -201,6 +201,43 @@ Purpose:
 
 A plain software/security/reliability baseline for the same five toy cases, without ME/TRACE or A/S/G/RQ vocabulary.
 
+## A/B blind comparison harness
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/
+```
+
+Status:
+
+```text
+comparison scaffold
+not validation
+no pilot signal until raw isolated responses are recorded
+```
+
+Purpose:
+
+Compare ME/TRACE-framed review against ordinary safety-engineering review on the same five toy cases.
+
+Required inputs:
+
+```text
+A := response to ME/TRACE blind packet
+B := response to ordinary safety baseline packet
+```
+
+Possible outcomes:
+
+```text
+ME_TRACE_distinctive_signal
+ME_TRACE_decomposition_only
+ordinary_safety_sufficient_on_this_set
+inconclusive_contaminated
+both_need_revision
+```
+
 ## Ordinary safety engineering comparator
 
 Path:
@@ -238,20 +275,8 @@ ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
 ## Current next valid test
 
 ```text
-A/B comparison :=
-  ME_TRACE_blind_packet_response
-  vs
-  ordinary_safety_baseline_response
-```
-
-Score both on:
-
-```text
-route accuracy
-clarity
-false positives
-false negatives
-rollback/recovery/logging reasoning
+record_raw_AB_responses
+then_score_with_AB_harness
 ```
 
 Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
