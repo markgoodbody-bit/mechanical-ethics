@@ -52,14 +52,13 @@ This repository does **not** claim that:
 - this solves AI alignment;
 - this proves a system is safe, fair, lawful, legitimate, or aligned.
 
-Use it as a logic test for one failure mode: a claimed safeguard that cannot correct a harmful error before the consequence hardens.
+Use it as a structured diagnostic for one failure mode: a claimed safeguard that cannot correct a harmful error before the consequence hardens.
 
-## Other files
+## Support files
 
 - [`glossary.md`](glossary.md) — working definitions.
 - [`method/`](method/) — method notes and caveats.
 - [`falsifiers/`](falsifiers/) — what would weaken or break the approach.
-- [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md) — current status and unfinished work.
 - [`LICENSE`](LICENSE) — reuse terms for original text and documentation.
 
 ## Current status
