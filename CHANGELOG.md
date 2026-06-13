@@ -1,5 +1,51 @@
 # Changelog
 
+## 2026-06-13 — Claude private-build architecture batch
+
+Applied the remaining high-value recommendations from Claude's private-build architecture pass while preserving the v0.1 claim ceiling.
+
+Added:
+
+- `SCOPE.md`
+- `method/how_to_apply_honestly.md`
+- `method/README.md`
+- `examples/live_protection_payment_hold.md`
+- `examples/after_the_fact_hiring_rejection.md`
+- `examples/unknown_private_scoring.md`
+
+Updated:
+
+- `test/correction_window_test_v0_1.md` with quick distinction rules for working labels;
+- `README.md` with scope, honest-use, and category-example navigation;
+- `START_HERE.md` with category examples and scope route;
+- `examples/README.md` with working-label coverage;
+- `docs/index.md` with scope, honest-use, and category-example links;
+- `PUBLICATION_STATUS.md` with architecture-batch status.
+
+Removed:
+
+- `LICENSE_PENDING.md`, now obsolete because `LICENSE` exists.
+
+Current category coverage:
+
+- LIVE PROTECTION — payment hold with live challenge;
+- PARTIAL / mixed — benefits suspension or recovery;
+- AFTER-THE-FACT REVIEW — hiring rejection after role filled;
+- FALSE SAFEGUARD — dashboard without a brake;
+- UNKNOWN — private risk scoring with missing records.
+
+Still not claimed:
+
+- validated framework;
+- reliability-tested instrument;
+- complete AI-alignment solution;
+- full repair-capacity measurement;
+- external review completed.
+
+Recommended stop condition:
+
+- re-read the whole repo as a stranger before adding more files.
+
 ## 2026-06-13 — License and crisp-example patch
 
 Applied the main fixes from Claude Opus second-pass review.
