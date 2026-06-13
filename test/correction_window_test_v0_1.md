@@ -10,6 +10,8 @@ The Correction Window Test is a diagnostic for AI systems, automated decisions, 
 
 It is designed to identify whether a claimed safeguard is live protection or only after-the-fact review.
 
+It is a thinking tool, not a certification scheme or validated measurement instrument.
+
 ## The five-part test
 
 ### 1. Selection
@@ -71,7 +73,9 @@ Ask:
 - Which is shorter?
 - If correction arrives late, what remains possible: reversal, compensation, record correction, recurrence prevention, or only acknowledgement?
 
-## Result categories
+## Working result labels
+
+These labels are prompts for judgement, not validated instrument categories.
 
 ### LIVE PROTECTION
 
@@ -92,22 +96,6 @@ The safeguard exists in language, policy, dashboard, audit, or form, but cannot 
 ### UNKNOWN
 
 The public record does not show enough to classify the safeguard. Unknown is a valid result. Do not convert missing evidence into reassurance.
-
-## Minimal notation
-
-You do not need notation to use the test, but this is the compact structure:
-
-```text
-State A
-+ selection
-+ affected person
-+ hardening clock
-+ correction carrier
--> State B
-+ repair or scar
-```
-
-A safeguard is live only if the correction carrier can still change the transition before the relevant hardening point.
 
 ## Common failure modes
 
