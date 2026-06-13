@@ -11,12 +11,12 @@ That question is the **Correction Window Test**.
 ## What to read first
 
 1. [`quick_reference.md`](quick_reference.md) — shortest usable version.
-2. [`examples/full_worksheet_benefits_suspension.md`](examples/full_worksheet_benefits_suspension.md) — a complete filled worksheet with a cautious, mixed result.
-3. [`examples/full_worksheet_false_safeguard_dashboard.md`](examples/full_worksheet_false_safeguard_dashboard.md) — a complete filled worksheet with a clear false-safeguard result.
+2. [`SCOPE.md`](SCOPE.md) — what this repository does and does not claim.
+3. [`examples/README.md`](examples/README.md) — examples covering the working labels.
 4. [`test/correction_window_test_v0_1.md`](test/correction_window_test_v0_1.md) — the test itself.
 5. [`worksheet/correction_window_worksheet_v0_1.md`](worksheet/correction_window_worksheet_v0_1.md) — fill this in for a real system.
-6. [`faq.md`](faq.md) and [`glossary.md`](glossary.md) — common questions and terms.
-7. [`method/method_and_caveats.md`](method/method_and_caveats.md) and [`falsifiers/falsifiers.md`](falsifiers/falsifiers.md) — limits and failure conditions.
+6. [`method/how_to_apply_honestly.md`](method/how_to_apply_honestly.md) — discipline for using the test without overclaiming.
+7. [`faq.md`](faq.md), [`glossary.md`](glossary.md), [`method/method_and_caveats.md`](method/method_and_caveats.md), and [`falsifiers/falsifiers.md`](falsifiers/falsifiers.md) — common questions, terms, limits, and failure conditions.
 
 ## The shortest usable version
 
@@ -29,6 +29,14 @@ A safeguard is only live protection if:
 5. this can happen before the consequence becomes practically irreversible.
 
 If those conditions are absent, the safeguard may still be documentation, review, audit, or after-the-fact accountability. But it should not be described as live protection.
+
+## Working-label examples
+
+- [`LIVE PROTECTION: Payment Hold With Live Challenge`](examples/live_protection_payment_hold.md)
+- [`PARTIAL / mixed: Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md)
+- [`AFTER-THE-FACT REVIEW: Hiring Rejection After Role Filled`](examples/after_the_fact_hiring_rejection.md)
+- [`FALSE SAFEGUARD: Dashboard Without a Brake`](examples/full_worksheet_false_safeguard_dashboard.md)
+- [`UNKNOWN: Private Risk Scoring With Missing Records`](examples/unknown_private_scoring.md)
 
 ## How this connects to AI
 
@@ -60,12 +68,11 @@ This is a public v0.1 diagnostic.
 
 The repository now contains:
 
+- a scope and claim-ceiling file;
 - a quick reference;
 - the test;
 - a worksheet;
-- a cautious full example;
-- a crisp false-safeguard example;
-- shorter worked examples;
+- examples covering live protection, partial/mixed protection, after-the-fact review, false safeguard, and unknown;
 - AI governance guidance;
 - design patterns;
 - FAQ and glossary;
