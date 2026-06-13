@@ -266,6 +266,44 @@ inconclusive_contaminated
 both_need_revision
 ```
 
+### Convergent null result note
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/CONVERGENT_NULL_RESULT_NOTE_v0_1.md
+```
+
+Status:
+
+```text
+research-layer result note
+not validation
+not public claim surface
+```
+
+Current project-level finding:
+
+```text
+competent_baseline_reaches_same_decision := repeatedly_observed
+ME_TRACE_decision_advantage := not_demonstrated
+ME_TRACE_decomposition_value := possible / recurring / not yet causally attributed
+```
+
+Important correction:
+
+```text
+The Kimi/Qwen A/B varied model and method together.
+Therefore per-case differences cannot be causally attributed to ME/TRACE vs ordinary safety.
+Only route parity weakly survives the confound.
+```
+
+Current interpretation:
+
+```text
+The framework's decomposition may be real, but current structured comparisons agree that it has not changed the answer a competent baseline reaches.
+```
+
 ### Separate-model A/B result — Kimi vs Qwen
 
 Path:
@@ -282,6 +320,7 @@ self-reported isolated packets
 not human review
 not validation
 not public claim surface
+confounded: model and method varied together
 ```
 
 Result:
@@ -289,9 +328,9 @@ Result:
 ```text
 final_route_advantage := none
 ordinary_safety_sufficient_on_this_set := yes
-ordinary_safety_clarity_advantage := cases_1_3_5
-ME_TRACE_decomposition_advantage := cases_2_4
-ME_TRACE_axis_calibration_errors := cases_1_3_4_5
+ordinary_safety_clarity_advantage := apparent / confounded
+ME_TRACE_decomposition_advantage := apparent / confounded
+ME_TRACE_axis_calibration_errors := apparent / partly confounded
 ```
 
 Current claim ceiling after this result:
@@ -299,12 +338,9 @@ Current claim ceiling after this result:
 ```text
 ME/TRACE currently has no demonstrated final-route advantage over ordinary safety reasoning on the five-case coding-agent toy battery.
 
-ME/TRACE shows possible decomposition value in:
-  emergency action-vs-inaction timing
-  evidence/correction-substrate reasoning
-  rollback vs subject repair distinctions
+Apparent decomposition value in emergency timing, evidence/correction-substrate reasoning, and rollback vs subject repair remains unproven because reviewer identity was confounded with method.
 
-A/S/G/RQ axis calibration remains unstable and requires refinement before any stronger claim.
+A/S/G/RQ axis calibration was patched as hygiene, not as an answer to the value-null.
 ```
 
 ### External review handoff
@@ -349,8 +385,8 @@ Dry-run observation:
 ```text
 ordinary_safety_sufficient_on_final_routes := yes
 ME_TRACE_route_advantage := none_in_dry_run
-ME_TRACE_decomposition_value := visible_in_cases_2_and_4
-ordinary_safety_clarity_advantage := visible_in_cases_1_3_5
+ME_TRACE_decomposition_value := apparent only
+ordinary_safety_clarity_advantage := apparent only
 ```
 
 Allowed claim:
@@ -384,7 +420,7 @@ Meaning:
 ```text
 ordinary_safety_engineering_routes_same_cases_correctly := mostly_yes
 ME_TRACE_distinctive_final_route_value := weak / unproven
-ME_TRACE_distinctive_decomposition_value := moderate / plausible
+ME_TRACE_distinctive_decomposition_value := possible but not causally attributed
 ```
 
 Honest surviving claim:
@@ -402,11 +438,13 @@ ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
 ## Current next valid move
 
 ```text
-park_branch
+park_general_advantage_program
 or
-prepare_v0_2_blind_packet_with_axis_calibration_patch_explicitly_included
+run_one_pre_registered_within-model_or_counterbalanced_discrimination_test
 ```
 
 Do not run another v0.1-style ME/TRACE blind review without the calibration patch.
+
+Do not redirect to harder cases framed as a search for ME/TRACE wins.
 
 Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
