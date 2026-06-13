@@ -156,7 +156,7 @@ The system can be audited later, but the audit cannot protect the person affecte
 
 The system logs that a decision was made, but not why, on what evidence, who was affected, when correction was possible, or whether the outcome was repaired.
 
-### Reviewer has authority without agency
+### Review board with no power to act
 
 A review board can comment, recommend, or advise, but cannot pause, reverse, restore, or require repair before the consequence is hard to reverse.
 
