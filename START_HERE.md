@@ -11,11 +11,12 @@ That question is the **Correction Window Test**.
 ## What to read first
 
 1. [`quick_reference.md`](quick_reference.md) — shortest usable version.
-2. [`examples/full_worksheet_benefits_suspension.md`](examples/full_worksheet_benefits_suspension.md) — a complete filled worksheet.
-3. [`test/correction_window_test_v0_1.md`](test/correction_window_test_v0_1.md) — the test itself.
-4. [`worksheet/correction_window_worksheet_v0_1.md`](worksheet/correction_window_worksheet_v0_1.md) — fill this in for a real system.
-5. [`faq.md`](faq.md) and [`glossary.md`](glossary.md) — common questions and terms.
-6. [`method/method_and_caveats.md`](method/method_and_caveats.md) and [`falsifiers/falsifiers.md`](falsifiers/falsifiers.md) — limits and failure conditions.
+2. [`examples/full_worksheet_benefits_suspension.md`](examples/full_worksheet_benefits_suspension.md) — a complete filled worksheet with a cautious, mixed result.
+3. [`examples/full_worksheet_false_safeguard_dashboard.md`](examples/full_worksheet_false_safeguard_dashboard.md) — a complete filled worksheet with a clear false-safeguard result.
+4. [`test/correction_window_test_v0_1.md`](test/correction_window_test_v0_1.md) — the test itself.
+5. [`worksheet/correction_window_worksheet_v0_1.md`](worksheet/correction_window_worksheet_v0_1.md) — fill this in for a real system.
+6. [`faq.md`](faq.md) and [`glossary.md`](glossary.md) — common questions and terms.
+7. [`method/method_and_caveats.md`](method/method_and_caveats.md) and [`falsifiers/falsifiers.md`](falsifiers/falsifiers.md) — limits and failure conditions.
 
 ## The shortest usable version
 
@@ -62,7 +63,8 @@ The repository now contains:
 - a quick reference;
 - the test;
 - a worksheet;
-- a full filled example;
+- a cautious full example;
+- a crisp false-safeguard example;
 - shorter worked examples;
 - AI governance guidance;
 - design patterns;
