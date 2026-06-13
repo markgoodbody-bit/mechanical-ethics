@@ -2,7 +2,7 @@
 
 ## Current status
 
-Public v0.1 diagnostic. Pruned and polished after Gemini/Grok review.
+Public v0.1 diagnostic. Pruned, polished, and consistency-aligned after Gemini/Grok and Claude review.
 
 The repository now presents one object: the **Correction Window Test**.
 
@@ -12,8 +12,7 @@ The repository now presents one object: the **Correction Window Test**.
 - Quick reference.
 - Correction Window Test.
 - Worksheet.
-- Worked examples covering live protection, partial/mixed protection, after-the-fact review, false safeguard, and unknown.
-- Short worked examples and examples index.
+- Five worked examples covering live protection, partial/mixed protection, after-the-fact review, false safeguard, and unknown.
 - Glossary.
 - Method caveats and public-record series discipline.
 - Falsifiers.
@@ -50,6 +49,22 @@ Updated:
 - `glossary.md` to use plainer terms.
 - `examples/README.md` to match the simplified test language.
 - `.github/ISSUE_TEMPLATE/apply_the_test.md` to match the simplified test language.
+
+## Consistency pass completed after Claude packet review
+
+Updated:
+
+- all five category examples to use the same five-check language;
+- `method/method_and_caveats.md` to use the current terms;
+- `test/correction_window_test_v0_1.md` to rename the weak heading to `Review board with no power to act`;
+- `examples/README.md` to remove the duplicate shorter-example layer.
+
+Removed duplicate older examples:
+
+- `examples/benefits_suspension.md`
+- `examples/hiring_ai.md`
+- `examples/medical_prioritisation.md`
+- `examples/agentic_ai_write_access.md`
 
 Current front-door terms:
 
