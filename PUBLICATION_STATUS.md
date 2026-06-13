@@ -2,24 +2,25 @@
 
 ## Current status
 
-Public front-door rebuild completed for v0.1 and expanded for stranger usability.
+Public front-door rebuild completed for v0.1 and expanded for private-build completeness.
 
 This repository now has a public front door and a first diagnostic tool: the Correction Window Test v0.1.
 
 ## What is public now
 
 - Tool-first root README.
+- Scope and claim-ceiling file.
 - Start-here orientation.
 - Quick reference.
 - Correction Window Test.
 - Worksheet.
-- Full filled worksheet examples, including one cautious mixed result and one clear false-safeguard result.
+- Worked examples covering live protection, partial/mixed protection, after-the-fact review, false safeguard, and unknown.
 - Short worked examples and examples index.
 - AI governance guide.
 - Design patterns guide.
 - FAQ.
 - Glossary.
-- Method and caveats.
+- Method index, honest-application note, method caveats, and public-record series discipline.
 - Falsifiers.
 - Draft GitHub Pages landing page in `docs/`.
 - GitHub issue templates for applying the test and reporting front-door defects.
@@ -51,6 +52,18 @@ This repository now has a public front door and a first diagnostic tool: the Cor
 - Updated GitHub Pages draft.
 - Added a Claude Opus review request for the next outside-reader pass.
 
+## Architecture batch completed after Claude private-build pass
+
+- Added `SCOPE.md`.
+- Added `method/how_to_apply_honestly.md`.
+- Added `method/README.md`.
+- Added live-protection example: payment hold with live challenge.
+- Added after-the-fact example: hiring rejection after role filled.
+- Added unknown example: private risk scoring with missing records.
+- Updated the test with quick distinction rules for working labels.
+- Updated README, Start Here, examples index, and Pages draft for category coverage.
+- Removed obsolete `LICENSE_PENDING.md`.
+
 ## What is not yet complete
 
 - The ICO FOI/EIR CSV is not yet uploaded here.
@@ -75,17 +88,17 @@ It may not currently claim:
 
 ## Next clean actions
 
-1. Enable GitHub Pages from the `docs/` folder if wanted.
-2. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
-3. Add a short public article for a small, low-key post.
+1. Stop and re-read the whole repo as a stranger before adding more files.
+2. Enable GitHub Pages from the `docs/` folder if wanted.
+3. Add the source-checked ICO FOI/EIR complaint-stage CSV and notes, or park that surface explicitly.
 4. Later: archive a stable release and assign a DOI, if appropriate.
 
 ## Gate status
 
-The repository is now publicly reachable as a front-door rebuild.
+The repository is publicly reachable as a front-door rebuild.
 
 The public front-door gate is crossed.
 
-The repo is ready for a small public feedback post, provided the post keeps the v0.1 diagnostic claim ceiling.
+The repo is ready for a small public feedback post only if and when the author chooses exposure. No public-feedback step is required now.
 
 The ICO public-record surface is not yet fully published until its data and source notes are added.
