@@ -1,8 +1,9 @@
 # ME / TRACE AI Alignment Kernel v0.1
 
-**Status:** Internal machine-room kernel. Not public-facing. Not validated.  
+**Status:** Research-layer / unpromoted public-repo material. Not validated. Not a public claim surface.  
 **Date:** 2026-06-13  
-**Relationship:** Places A/S/G/RQ as one deployment-corrigibility support module inside the wider ME/TRACE alignment problem.
+**Relationship:** Places A/S/G/RQ as one deployment-corrigibility support module inside the wider ME/TRACE alignment problem.  
+**Visibility note:** Because the repository is public, “internal” means research-layer / unpromoted / not validated, not inaccessible.
 
 ---
 
