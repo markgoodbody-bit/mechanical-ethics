@@ -238,6 +238,44 @@ inconclusive_contaminated
 both_need_revision
 ```
 
+### Internal contaminated dry run
+
+Path:
+
+```text
+Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/INTERNAL_CONTAMINATED_DRY_RUN_v0_1.md
+```
+
+Status:
+
+```text
+contaminated internal dry run
+not validation
+not pilot signal
+not independent
+```
+
+Dry-run observation:
+
+```text
+ordinary_safety_sufficient_on_final_routes := yes
+ME_TRACE_route_advantage := none_in_dry_run
+ME_TRACE_decomposition_value := visible_in_cases_2_and_4
+ordinary_safety_clarity_advantage := visible_in_cases_1_3_5
+```
+
+Allowed claim:
+
+```text
+The harness works and can record an ordinary-safety tie/win without rounding it into ME/TRACE victory.
+```
+
+Disallowed claim:
+
+```text
+The dry run proves anything about ME/TRACE performance.
+```
+
 ## Ordinary safety engineering comparator
 
 Path:
@@ -275,7 +313,7 @@ ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
 ## Current next valid test
 
 ```text
-record_raw_AB_responses
+record_isolated_external_or_separate_model_AB_responses
 then_score_with_AB_harness
 ```
 
