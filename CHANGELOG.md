@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-06-14 — Boundary hygiene pass after external audit
+
+Applied a narrow public-readiness patch after hostile-but-constructive external audit.
+
+Changed:
+
+- `README.md` now states that the repository publishes one narrow diagnostic from the broader Mechanical Ethics / TRACE work and is not the framework itself.
+- `README.md` now distinguishes the five checks from the five result labels.
+- `README.md` and `examples/README.md` now use **PARTIAL PROTECTION** consistently instead of `PARTIAL / mixed`.
+- `PUBLICATION_STATUS.md` now states that unpromoted research-layer notes are not part of the v0.1 public diagnostic surface.
+- `Research/AI_Alignment/README.md` is now explicitly titled `Unpromoted AI Deployment Research Notes` and preserves the convergent-null boundary.
+- `Research/AI_Alignment/ME_TRACE_AI_Alignment_Kernel_v0_1.md` was internally retitled as `AI Deployment Correction-Window Notes v0.1` and rewritten in plain English.
+
+Boundary preserved:
+
+- Public front door remains the root `README.md`.
+- Public object remains the **Correction Window Test v0.1**.
+- Research-layer AI deployment notes are machine-room material only.
+- No validation claim is made.
+- No reliability-tested instrument claim is made.
+- No AI-governance framework claim is made.
+- No AI-alignment solution claim is made.
+- No decision-advantage claim is made for ME/TRACE over ordinary safety reasoning.
+
+Stop condition:
+
+- Do not add new examples, theory files, public pages, issue templates, or review prompts in this pass.
+- Change the public diagnostic again only if worksheet use shows the test itself needs sharpening.
+
 ## 2026-06-13 — Gemini/Grok pruning pass
 
 Applied the convergent review finding from Gemini and Grok: the diagnostic core is useful, but the repository presentation had become overbuilt.
@@ -64,10 +93,10 @@ Removed:
 
 - `LICENSE_PENDING.md`, now obsolete because `LICENSE` exists.
 
-Current category coverage:
+Current category coverage at that point:
 
 - LIVE PROTECTION — payment hold with live challenge;
-- PARTIAL / mixed — benefits suspension or recovery;
+- PARTIAL PROTECTION — benefits suspension or recovery;
 - AFTER-THE-FACT REVIEW — hiring rejection after role filled;
 - FALSE SAFEGUARD — dashboard without a brake;
 - UNKNOWN — private risk scoring with missing records.
@@ -108,7 +137,7 @@ Still not claimed:
 - full repair-capacity measurement;
 - external review completed.
 
-Remaining:
+Remaining at that point:
 
 - GitHub Pages may still need enabling;
 - ICO FOI/EIR CSV and source notes not yet published;
@@ -162,7 +191,7 @@ Changed:
 - added issue templates for applying the test and reporting front-door defects;
 - updated publication status.
 
-Remaining:
+Remaining at that point:
 
 - license still pending at that point;
 - GitHub Pages may still need enabling;
@@ -194,6 +223,6 @@ Claim ceiling:
 - no reliability-tested instrument claim;
 - no AI-alignment-solved claim.
 
-Next intended action:
+Next intended action at that point:
 
 - add source-checked ICO FOI/EIR data and source notes, or explicitly park that surface.
