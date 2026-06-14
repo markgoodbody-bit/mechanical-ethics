@@ -20,6 +20,18 @@ This repository may also contain unpromoted research-layer notes. Those notes ar
 - Falsifiers.
 - License file for original text and documentation.
 
+## Research-layer note
+
+A small unpromoted AI deployment note may exist under:
+
+```text
+Research/AI_Deployment/
+```
+
+It is machine-room material only. It is not the public front door, not validation, not an AI-governance framework, and not an AI-alignment solution.
+
+If research-layer material conflicts with the root README claim ceiling, the root README claim ceiling controls for public presentation.
+
 ## Removed during pruning
 
 Removed duplicate entry points, guides, older example variants, review prompt files, empty placeholders, the draft Pages page, and issue templates.
@@ -44,12 +56,6 @@ The removed material included:
 - Too-late point.
 - Actual fix mechanism.
 - Timing fit.
-
-## Boundary notes
-
-Unpromoted research-layer notes, including any AI deployment or alignment-related notes, are machine-room material only. They are not the public front door, not validation, not an AI-governance framework, and not an AI-alignment solution.
-
-If research-layer material conflicts with the root README claim ceiling, the root README claim ceiling controls for public presentation.
 
 ## What is not yet complete
 
