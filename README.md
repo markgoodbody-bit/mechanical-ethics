@@ -10,6 +10,8 @@ This test asks one narrow question:
 
 This is a diagnostic tool, not a governance framework, ethics theory, certification scheme, or AI-alignment solution.
 
+This repository currently publishes one narrow diagnostic from the broader Mechanical Ethics / TRACE work. It is not the framework itself.
+
 ## Use the tool
 
 1. Read the [`quick reference`](quick_reference.md).
@@ -19,10 +21,12 @@ This is a diagnostic tool, not a governance framework, ethics theory, certificat
 
 ## The five checks
 
+These are the five checks, distinct from the five result labels below.
+
 1. **Decision** — what does the system do, rank, approve, refuse, flag, route, or trigger?
 2. **Affected person** — who carries the consequence?
 3. **Too-late point** — when does the consequence become hard to reverse?
-4. **Actual fix mechanism** — what can pause, stop, reverse, repair, or compensate?
+4. **Actual fix mechanism** — what can pause, stop, reverse, restore, repair, compensate, or prevent recurrence?
 5. **Timing fit** — can that mechanism act before the too-late point?
 
 ## Working result labels
@@ -36,7 +40,7 @@ This is a diagnostic tool, not a governance framework, ethics theory, certificat
 ## Example set
 
 - [`Live protection: Payment Hold With Live Challenge`](examples/live_protection_payment_hold.md)
-- [`Partial / mixed: Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md)
+- [`Partial protection: Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md)
 - [`After-the-fact review: Hiring Rejection After Role Filled`](examples/after_the_fact_hiring_rejection.md)
 - [`False safeguard: Dashboard Without a Brake`](examples/full_worksheet_false_safeguard_dashboard.md)
 - [`Unknown: Private Risk Scoring With Missing Records`](examples/unknown_private_scoring.md)
@@ -57,7 +61,7 @@ Use it as a structured diagnostic for one failure mode: a claimed safeguard that
 ## Support files
 
 - [`glossary.md`](glossary.md) — working definitions.
-- [`method/`](method/) — method notes and caveats.
+- [`method/`](method/) — method notes and caveats. Public-record series discipline is general method support, not proof of this diagnostic.
 - [`falsifiers/`](falsifiers/) — what would weaken or break the approach.
 - [`LICENSE`](LICENSE) — reuse terms for original text and documentation.
 
