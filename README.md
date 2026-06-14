@@ -40,9 +40,9 @@ These are the five checks, distinct from the five result labels below.
 ## Example set
 
 - [`Live protection: Payment Hold With Live Challenge`](examples/live_protection_payment_hold.md)
-- [`Partial protection: Benefits Suspension or Recovery`](examples/full_worksheet_benefits_suspension.md)
+- [`Partial protection: Benefits Suspension or Recovery`](examples/partial_protection_benefits_suspension.md)
 - [`After-the-fact review: Hiring Rejection After Role Filled`](examples/after_the_fact_hiring_rejection.md)
-- [`False safeguard: Dashboard Without a Brake`](examples/full_worksheet_false_safeguard_dashboard.md)
+- [`False safeguard: Dashboard Without a Brake`](examples/false_safeguard_dashboard_without_brake.md)
 - [`Unknown: Private Risk Scoring With Missing Records`](examples/unknown_private_scoring.md)
 
 ## Usage constraints
