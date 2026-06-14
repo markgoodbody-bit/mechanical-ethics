@@ -1,17 +1,20 @@
 # Changelog
 
-## 2026-06-14 — Boundary hygiene pass after external audit
+## 2026-06-14 — Structural boundary cleanup after Gemini review
 
-Applied a narrow public-readiness patch after hostile-but-constructive external audit.
+Applied the remaining public-readiness patch after Gemini identified structural boundary leaks.
 
 Changed:
 
-- `README.md` now states that the repository publishes one narrow diagnostic from the broader Mechanical Ethics / TRACE work and is not the framework itself.
-- `README.md` now distinguishes the five checks from the five result labels.
-- `README.md` and `examples/README.md` now use **PARTIAL PROTECTION** consistently instead of `PARTIAL / mixed`.
-- `PUBLICATION_STATUS.md` now states that unpromoted research-layer notes are not part of the v0.1 public diagnostic surface.
-- `Research/AI_Alignment/README.md` is now explicitly titled `Unpromoted AI Deployment Research Notes` and preserves the convergent-null boundary.
-- `Research/AI_Alignment/ME_TRACE_AI_Alignment_Kernel_v0_1.md` was internally retitled as `AI Deployment Correction-Window Notes v0.1` and rewritten in plain English.
+- Created `Research/AI_Deployment/` as the clean research-layer path.
+- Created `Research/AI_Deployment/ME_TRACE_AI_Deployment_Notes_v0_1.md` as the clean filename for the unpromoted AI deployment note.
+- Removed the old alignment-labelled top-level research entry points.
+- Removed old alignment-labelled toy-case, self-score, blind-review, and comparator scaffolding files from the public repo path that were no longer needed for the v0.1 public diagnostic surface.
+- Created clean example filenames:
+  - `examples/partial_protection_benefits_suspension.md`
+  - `examples/false_safeguard_dashboard_without_brake.md`
+- Removed old scaffold-style example filenames.
+- Updated root `README.md`, `examples/README.md`, and `PUBLICATION_STATUS.md` to point at the clean public surface and research-layer boundary.
 
 Boundary preserved:
 
@@ -29,33 +32,32 @@ Stop condition:
 - Do not add new examples, theory files, public pages, issue templates, or review prompts in this pass.
 - Change the public diagnostic again only if worksheet use shows the test itself needs sharpening.
 
-## 2026-06-13 — Gemini/Grok pruning pass
+## 2026-06-14 — Boundary hygiene pass after external audit
 
-Applied the convergent review finding from Gemini and Grok: the diagnostic core is useful, but the repository presentation had become overbuilt.
+Applied a narrow public-readiness patch after hostile-but-constructive external audit.
 
-Removed duplicate or over-expansive material:
+Changed:
 
-- `START_HERE.md`
-- `faq.md`
-- `SCOPE.md`
-- `method/how_to_apply_honestly.md`
-- `guides/README.md`
-- `guides/ai_governance_use.md`
-- `guides/design_patterns.md`
+- `README.md` states that the repository publishes one narrow diagnostic from the broader Mechanical Ethics / TRACE work and is not the framework itself.
+- `README.md` distinguishes the five checks from the five result labels.
+- Public example label wording uses **PARTIAL PROTECTION** consistently.
+- `PUBLICATION_STATUS.md` states that unpromoted research-layer notes are not part of the v0.1 public diagnostic surface.
+- The AI deployment research note was rewritten in plain English and marked as machine-room material only.
+
+## 2026-06-13 — Pruning and public-front-door stabilization
+
+Applied convergent external review findings that the diagnostic core was useful but the repository presentation had become overbuilt.
+
+Removed duplicate or over-expansive material, including extra start pages, FAQ/scope pages, guides, review prompts, issue templates, Pages drafts, archive material, and placeholder data surfaces.
 
 Updated:
 
-- `README.md` to become the single front door and cut the repo-map/syllabus structure;
+- `README.md` to become the single public front door;
 - `quick_reference.md` with plainer terms: decision, too-late point, actual fix mechanism;
 - `test/correction_window_test_v0_1.md` to harden the actual-fix-mechanism requirement;
-- `docs/index.md` to remove dead links and bloat;
+- `examples/README.md` to cover all five working labels;
 - `method/README.md` to remove obsolete links;
 - `PUBLICATION_STATUS.md` to reflect the pruned state.
-
-Current rule:
-
-- Stop adding files.
-- Refine only the test, worksheet, and examples if doing so makes the diagnostic clearer.
 
 Still not claimed:
 
@@ -67,154 +69,11 @@ Still not claimed:
 - full repair-capacity measurement;
 - external review completed.
 
-## 2026-06-13 — Claude private-build architecture batch
-
-Applied the remaining high-value recommendations from Claude's private-build architecture pass while preserving the v0.1 claim ceiling.
-
-Added:
-
-- `SCOPE.md`
-- `method/how_to_apply_honestly.md`
-- `method/README.md`
-- `examples/live_protection_payment_hold.md`
-- `examples/after_the_fact_hiring_rejection.md`
-- `examples/unknown_private_scoring.md`
-
-Updated:
-
-- `test/correction_window_test_v0_1.md` with quick distinction rules for working labels;
-- `README.md` with scope, honest-use, and category-example navigation;
-- `START_HERE.md` with category examples and scope route;
-- `examples/README.md` with working-label coverage;
-- `docs/index.md` with scope, honest-use, and category-example links;
-- `PUBLICATION_STATUS.md` with architecture-batch status.
-
-Removed:
-
-- `LICENSE_PENDING.md`, now obsolete because `LICENSE` exists.
-
-Current category coverage at that point:
-
-- LIVE PROTECTION — payment hold with live challenge;
-- PARTIAL PROTECTION — benefits suspension or recovery;
-- AFTER-THE-FACT REVIEW — hiring rejection after role filled;
-- FALSE SAFEGUARD — dashboard without a brake;
-- UNKNOWN — private risk scoring with missing records.
-
-Still not claimed:
-
-- validated framework;
-- reliability-tested instrument;
-- complete AI-alignment solution;
-- full repair-capacity measurement;
-- external review completed.
-
-Recommended stop condition:
-
-- re-read the whole repo as a stranger before adding more files.
-
-## 2026-06-13 — License and crisp-example patch
-
-Applied the main fixes from Claude Opus second-pass review.
-
-Added:
-
-- `LICENSE`
-- `examples/full_worksheet_false_safeguard_dashboard.md`
-
-Updated:
-
-- `README.md` to link both a cautious full worksheet example and a crisp false-safeguard example;
-- `START_HERE.md` to include both full examples;
-- `examples/README.md` to list both full examples;
-- `PUBLICATION_STATUS.md` to remove license as a blocker and mark the repo ready for a small public feedback post within the v0.1 claim ceiling.
-
-Still not claimed:
-
-- validated framework;
-- reliability-tested instrument;
-- complete AI-alignment solution;
-- full repair-capacity measurement;
-- external review completed.
-
-Remaining at that point:
-
-- GitHub Pages may still need enabling;
-- ICO FOI/EIR CSV and source notes not yet published;
-- DOI not issued.
-
-## 2026-06-13 — Stranger-usability expansion
-
-Expanded the public repo while preserving the claim ceiling.
-
-Added:
-
-- `quick_reference.md`
-- `glossary.md`
-- `faq.md`
-- `guides/README.md`
-- `guides/ai_governance_use.md`
-- `guides/design_patterns.md`
-- `examples/full_worksheet_benefits_suspension.md`
-- `review_requests/claude_opus_front_door_review.md`
-
-Updated:
-
-- `README.md` with reader paths and expanded navigation;
-- `START_HERE.md` with the quick-reference/full-example route;
-- `examples/README.md` to identify the full worksheet example as the best first example;
-- `docs/index.md` to match the expanded front door;
-- `PUBLICATION_STATUS.md` to reflect the expansion and next review path.
-
-Still not claimed:
-
-- validated framework;
-- reliability-tested instrument;
-- complete AI-alignment solution;
-- full repair-capacity measurement;
-- external review completed.
-
-## 2026-06-13 — Public front-door cleanup after outside review
-
-Applied front-door cleanup after hostile outside-reader review.
-
-Changed:
-
-- removed `Mechanical_Ethics_v14_trade.pdf` from repository root;
-- changed README title to lead with `Correction Window Test v0.1`;
-- added a direct worked-example link near the top of the README;
-- removed the empty ICO data folder from the README repository map;
-- removed private method shorthand from the README front door;
-- changed `Result categories` to `Working result labels` in the test;
-- removed the notation block from the public test page;
-- added `examples/README.md`;
-- added issue templates for applying the test and reporting front-door defects;
-- updated publication status.
-
-Remaining at that point:
-
-- license still pending at that point;
-- GitHub Pages may still need enabling;
-- ICO FOI/EIR CSV and source notes not yet published.
-
 ## 2026-06-13 — Public front-door rebuild
 
 Initial public rebuild of `markgoodbody-bit/mechanical-ethics` around the Correction Window Test v0.1.
 
-Added:
-
-- `README.md`
-- `START_HERE.md`
-- `test/correction_window_test_v0_1.md`
-- `worksheet/correction_window_worksheet_v0_1.md`
-- worked examples for hiring AI, benefits suspension, medical prioritisation, and agentic AI write access
-- method and caveat notes
-- falsifiers
-- ICO FOI/EIR data-surface placeholder
-- draft GitHub Pages landing page
-- contribution guide
-- publication status note
-- license pending note
+Added the root README, test, worksheet, examples, method notes, falsifiers, publication-status note, and reuse licence.
 
 Claim ceiling:
 
@@ -222,7 +81,3 @@ Claim ceiling:
 - no validation claim;
 - no reliability-tested instrument claim;
 - no AI-alignment-solved claim.
-
-Next intended action at that point:
-
-- add source-checked ICO FOI/EIR data and source notes, or explicitly park that surface.
