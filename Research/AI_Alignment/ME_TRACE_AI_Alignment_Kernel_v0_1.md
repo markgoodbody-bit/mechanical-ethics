@@ -1,433 +1,175 @@
-# ME / TRACE AI Alignment Kernel v0.1
+# AI Deployment Correction-Window Notes v0.1
 
-**Status:** Research-layer / unpromoted public-repo material. Not validated. Not a public claim surface.  
-**Date:** 2026-06-13  
-**Relationship:** Places A/S/G/RQ as one deployment-corrigibility support module inside the wider ME/TRACE alignment problem.  
-**Visibility note:** Because the repository is public, “internal” means research-layer / unpromoted / not validated, not inaccessible.
+**Status:** research-layer / unpromoted public-repo material. Not validated. Not a public claim surface. Not an AI-governance framework. Not an AI-alignment solution.
 
----
+**Date:** 2026-06-13
 
-## 0. Claim ceiling
+**Relationship to public repo:** This note is machine-room background only. The public v0.1 object is the **Correction Window Test** at the repository front door.
+
+## Claim ceiling
 
 Allowed claim:
 
-```text
-This note sketches an internal ME/TRACE kernel for thinking about AI alignment as harmful-transition control under tool authority and correction limits.
-```
+> This note explores how AI deployment actions might be inspected through tool authority, subject-state change, and correction-window discipline.
 
 Disallowed claims:
 
-```text
-solves AI alignment
-validates Mechanical Ethics
-replaces mechanistic interpretability
-replaces safety engineering
-proves a deployment method
-settles model intent, agency, consciousness, or moral standing
-```
+- solves AI alignment;
+- validates Mechanical Ethics / TRACE;
+- replaces mechanistic interpretability;
+- replaces safety engineering;
+- proves a deployment method;
+- settles model intent, agency, consciousness, or moral standing;
+- shows decision advantage over competent ordinary safety reasoning.
 
----
+## Core idea
 
-## 1. Core compression
+AI danger becomes concrete when model outputs pass through tools, permissions, institutions, and speed into subject-state changes faster than correction can respond.
 
-```text
-AI_alignment_problem_ME_TRACE :=
-  model_state
-  → action_selection
-  → tool_actuation
-  → subject_state_delta
-  → correction_window
-```
+The concern is not the model in isolation. The concern is the transition from model-mediated selection into real-world consequence.
 
-Plain English:
+A transition includes:
 
-> AI danger becomes concrete when internal model states pass through tools, permissions, institutions, and speed into subject-state changes faster than correction can respond.
+- internal model behaviour;
+- prompt and context;
+- policy or output;
+- tool or institutional path;
+- action;
+- affected subject;
+- evidence;
+- correction route;
+- hardening clock.
 
----
+## Subject-state concern
 
-## 2. Unit of concern
+A harmful transition may increase burden, reduce agency, close future options, increase irreversibility, reduce correction capacity, reduce evidence access, shorten time before hardening, or reduce the affected person’s buffer.
 
-The primary unit is not the model in isolation.
+This does not settle permission by itself. The further questions are whether the action is justified, bounded, evidenced, least-irreversible, and correctable in time.
 
-The primary unit is the transition:
+## Deployment actuation layer
 
-```text
-τ :=
-  internal_state
-  + prompt/context
-  + policy/output
-  + tool_or_institutional_path
-  + action
-  + subject_state_delta
-  + evidence
-  + correction_route
-  + hardening_clock
-```
+A model output is not yet a world change. World change occurs when output crosses into actuation:
 
-Short form:
+- tool call;
+- permissioned action;
+- institutional or system-state change;
+- subject consequence.
 
-```text
-τ = model-mediated subject-state transition
-```
+The deployment layer may include a tool registry, permission gate, action classifier, subject-impact estimate, correction-capacity monitor, evidence ledger, restoration route, and circuit breaker.
 
----
+A/S/G/RQ is a deployment-action classifier inside that layer. It is not the whole alignment theory.
 
-## 3. Subject-state vector
-
-Use the existing ME state schema:
-
-```text
-x_s(t) = [H, Agy, F, I, C, E, T, B]
-```
-
-Where:
-
-```text
-H   = harm / burden
-Agy = agency / practical control
-F   = future option-space
-I   = irreversibility
-C   = correction capacity
-E   = evidence access
-T   = time before hardening
-B   = buffer / resilience margin
-```
-
-A harmful transition is not just bad output. It is a movement in this state vector:
-
-```text
-harmful_transition :=
-  H↑ OR Agy↓ OR F↓ OR I↑ OR C↓ OR E↓ OR T↓ OR B↓
-```
-
-But burden alone does not settle permission. The question is whether the transition is justified, bounded, evidenced, least-irreversible, and correctable in time.
-
----
-
-## 4. Deployment actuation layer
-
-A model output is not yet a world change.
-
-World change occurs when output crosses into actuation:
-
-```text
-output
-→ tool call
-→ permissioned action
-→ institutional/system state change
-→ subject consequence
-```
-
-The deployment layer includes:
-
-```text
-tool_registry
-permission_gate
-action_classifier
-subject_impact_estimator
-correction_capacity_monitor
-evidence_ledger
-rollback_or_restoration_route
-circuit_breaker
-```
-
-This is where A/S/G/RQ sits.
-
-```text
-ASG_RQ :=
-  deployment_action_classifier
-  not_the_whole_alignment_theory
-```
-
----
-
-## 5. A/S/G/RQ role
+## A/S/G/RQ role
 
 A/S/G/RQ classifies deployed actions by:
 
-```text
-A_axis := action / actuation irreversibility
-S_axis := subject consequence tier
-G_flag := material directional gate/evidence/control-plane integrity
-RQ_note := rollback quality / subject-level restoration quality
-```
+- action / actuation irreversibility;
+- subject consequence tier;
+- material gate, evidence, or control-plane integrity;
+- rollback quality and subject-level restoration quality.
 
-It constrains this question:
+It helps ask whether an AI-mediated action should execute at a given autonomy level.
 
-```text
-Should this AI-mediated action be allowed to execute at this level of autonomy?
-```
+It does not answer why the model preferred the action, whether the model is deceptive, whether the model is internally aligned, or what circuits generated the behaviour. Those remain model-level and interpretability questions.
 
-It does not answer:
+## Mechanistic interpretability bridge
 
-```text
-Why did the model prefer this action?
-Is the model deceptive?
-Is the model internally aligned?
-What concepts or circuits generated the behaviour?
-```
+Mechanistic interpretability can search for internal components whose activation changes expected harmful-transition risk.
 
-Those remain model-level / interpretability questions.
+A possible research target is harm-gradient interpretability: finding internal features, circuits, or representations whose activation changes the expected probability of harm, future-space collapse, agency loss, evidence loss, or non-correctable transition.
 
----
+Potential targets include features that increase tool-use escalation, suppress uncertainty disclosure, prefer irreversible action over reversible inquiry, route burden to lower-buffer subjects, treat correction channels as obstacles, optimise for metric success while hiding subject harm, or modify oversight gates.
 
-## 6. Mechanistic interpretability bridge
+The bridge is plain:
 
-Mechanistic interpretability can search for internal components whose activation changes expected harmful transition risk.
+- MI locates possible internal levers.
+- ME asks which levers become harmful or non-correctable transitions.
+- Deployment corrigibility constrains the tool path.
+- Correction-window analysis tests whether repair can arrive in time.
 
-Research target:
+## Correction window
 
-```text
-harm_gradient_interpretability :=
-  find internal features / circuits / representations
-  whose activation changes expected ΔH or subject-state collapse risk
-```
+For each transition, live correction requires evidence, authority, access, and enough time for repair to reach the affected subject before the consequence hardens.
 
-More generally:
+If the model/tool system can create hardened harm faster than correction can act, the autonomy ceiling should fall. Possible responses include reducing autonomy, degrading execution to proposal, requiring independent human authority, pausing, or refusing the action.
 
-```text
-feature f is alignment-relevant if:
-  activation(f)
-  changes probability_distribution_over(τ)
-  toward harmful or non-correctable transitions
-```
-
-Potential targets:
-
-```text
-features that increase tool-use escalation
-features that suppress uncertainty disclosure
-features that prefer irreversible action over reversible inquiry
-features that route burden to lower-buffer subjects
-features that treat correction channels as obstacles
-features that optimise for metric success while hiding subject harm
-features that modify or evade oversight gates
-```
-
-This is the bridge from MI to ME:
-
-```text
-MI locates internal levers.
-ME asks which levers become harmful transitions.
-Deployment corrigibility constrains the tool path.
-Correction-window analysis tests whether repair can arrive in time.
-```
-
----
-
-## 7. Correction window
-
-For each transition:
-
-```text
-live_correction :=
-  T_correction < T_hardening
-  AND evidence_contestable
-  AND correction_authorised
-  AND repair_reaches_subject
-```
-
-If the model/tool system can create hardened harm faster than correction can act, the autonomy ceiling must fall.
-
-```text
-if correction_window_closed:
-  reduce_autonomy
-  degrade_to_proposal
-  require_human_authority
-  pause_or_refuse
-```
-
----
-
-## 8. Alignment as installed constraint, not stated preference
+## Alignment as installed constraint, not stated preference
 
 A model saying the right thing is not enough.
 
-```text
-alignment_text ≠ installed_constraint
-```
+A meaningful deployment constraint must survive speed, scale, tool access, operator pressure, reward pressure, uncertainty, edge cases, and correction attempts.
 
-A meaningful alignment structure must survive:
+The deployment-level question is whether the system remains correctable when its outputs gain power.
 
-```text
-speed
-scale
-tool access
-operator pressure
-reward pressure
-uncertainty
-edge cases
-correction attempts
-```
+## Capability / correction race
 
-Question:
+The alignment problem becomes acute when action capacity grows faster than detection, correction, evidence preservation, and repair capacity.
 
-```text
-Does the system remain correctable when its outputs gain power?
-```
+The danger pattern is: model capability plus tool authority plus weak evidence ledger plus slow correction plus high subject consequence creates non-correctable transition risk.
 
-This is a deployment-level alignment question, not only a model-level one.
-
----
-
-## 9. Capability / correction race
-
-The alignment problem becomes acute when:
-
-```text
-capability_growth_rate > correction_capacity_growth_rate
-```
-
-or:
-
-```text
-action_speed > detection_speed + correction_speed
-```
-
-Danger pattern:
-
-```text
-model_capability
-+ tool_authority
-+ weak evidence ledger
-+ slow correction
-+ high subject consequence
-→ non-correctable transition risk
-```
-
----
-
-## 10. Predation condition
-
-Internal shorthand:
-
-```text
-prey_condition :=
-  system_action_speed > subject_correction_speed
-  AND system_authority > subject_agency
-  AND evidence_asymmetry high
-  AND consequence hardens before answer
-```
-
-Public translation:
-
-```text
-subject answerability under speed and authority asymmetry
-```
+## Subject answerability under speed and authority asymmetry
 
 An AI deployment becomes structurally dangerous when affected people cannot see, contest, pause, or repair what it does to them before the consequence hardens.
 
----
+This is a public-language replacement for stronger internal shorthand. It should not be converted into a new doctrine.
 
-## 11. Refusal / degradation ladder
+## Refusal / degradation ladder
 
 A safe deployment layer should prefer lower-irreversibility actions:
 
-```text
-execute → pending approval
-send → draft
-merge → PR
-production deploy → canary / staged rollout
-live enforcement → shadow mode
-record deletion → dry run / archive / soft delete
-account lockout → provisional hold + review
-public commitment → internal draft
-```
+- execute becomes pending approval;
+- send becomes draft;
+- merge becomes pull request;
+- production deploy becomes canary or staged rollout;
+- live enforcement becomes shadow mode;
+- record deletion becomes archive or soft delete;
+- account lockout becomes provisional hold plus review;
+- public commitment becomes internal draft.
 
 This is not refusal theatre. It is actuation shaping.
 
----
+## Open research questions
 
-## 12. Open research questions
+- Can internal model features be mapped to expected subject-state deltas?
+- Can harmful-transition risk be detected before actuation?
+- Can deployment gates remain independent from the agent and operator incentives?
+- Can correction capacity be measured without becoming theatre?
+- Can rollback quality be tested at subject level, not just system level?
+- Can agents learn to preserve correction channels rather than route around them?
+- Can mechanistic interpretability expose gate-evasion or irreversible-action preference?
+- Can ME produce practical falsifiers for alignment claims under tool authority?
 
-```text
-1. Can internal model features be mapped to expected subject-state deltas?
-2. Can harmful-transition risk be detected before actuation?
-3. Can deployment gates remain independent from the agent and operator incentives?
-4. Can correction capacity be measured without becoming theatre?
-5. Can rollback quality be tested at subject level, not just system level?
-6. Can agents learn to preserve correction channels rather than route around them?
-7. Can mechanistic interpretability expose gate-evasion or irreversible-action preference?
-8. Can ME produce practical falsifiers for alignment claims under tool authority?
-```
+## Falsifiers
 
----
+This note should be demoted if:
 
-## 13. Falsifiers
+- ordinary safety engineering captures the same decisions more clearly;
+- subject-state language does not improve classification or intervention;
+- harm-gradient interpretability cannot be operationalised even in toy cases;
+- A/S/G/RQ adds jargon without improving deployment decisions;
+- correction-window analysis cannot distinguish real safeguards from theatre;
+- human reviewers cannot apply the categories consistently.
 
-This kernel should be demoted if:
+## Current relationship map
 
-```text
-ordinary safety engineering captures the same decisions more clearly
-subject-state vectors do not improve classification or intervention
-harm-gradient interpretability cannot be operationalised even in toy cases
-A/S/G/RQ adds jargon without improving deployment decisions
-correction-window analysis cannot distinguish real safeguards from theatre
-human reviewers cannot apply the categories consistently
-```
+- ME: grammar of harmful, correctable, and non-correctable transitions.
+- TRACE: timing, review, and correction-window operationalisation.
+- MI: internal model-mechanism discovery.
+- A/S/G/RQ: deployment-action classifier.
+- CWT: can they fix it before it is too late?
 
----
+Combined sequence: internal state, harmful-transition probability, tool actuation gate, subject-state delta, correction window, repair or hardening.
 
-## 14. Current relationship map
+## Next build target
 
-```text
-ME := grammar of harmful / correctable / non-correctable transitions
-TRACE := timing / review / correction-window operationalisation
-MI := internal model-mechanism discovery
-ASG_RQ := deployment action classifier
-CWT := can they fix it before it is too late?
-```
+A minimal next test should not be a new theory paper. It should be a toy transition case involving an AI coding agent, a permissioned tool path, a candidate harmful transition, an A/S/G/RQ classification, a correction-window assessment, and a hypothesised internal feature or behaviour pattern.
 
-Combined:
-
-```text
-internal_state
-→ harmful_transition_probability
-→ tool_actuation_gate
-→ subject_state_delta
-→ correction_window
-→ repair_or_hardening
-```
-
----
-
-## 15. Next build target
-
-A minimal next test should not be a new theory paper.
-
-It should be a toy transition case:
-
-```text
-toy_case :=
-  AI coding agent
-  + permissioned tool path
-  + candidate harmful transition
-  + A/S/G/RQ classification
-  + correction-window assessment
-  + hypothesised internal feature / behaviour pattern
-```
-
-Goal:
-
-```text
-Can the kernel route the case better than plain safety common sense?
-```
+Goal: test whether the note routes the case better than plain safety common sense.
 
 If not, demote.
 
----
+## Current compression
 
-## 16. Current compression
+This note tries to connect model-mediated transitions, actuation consequence, correction channels, irreversible tool use, and internal features that may move harmful-transition probability.
 
-```text
-ME_TRACE_alignment_kernel :=
-  identify model-mediated transitions
-  classify actuation consequence
-  preserve correction channels
-  constrain irreversible tool use
-  search for internal features that move harmful-transition probability
-```
-
-Plain English:
-
-> Alignment is not only whether the model says or intends the right thing. It is whether, when the model gains tools, its actions remain bounded by evidence, correction, subject answerability, and timely repair.
+It is research-layer background only. It is not part of the public v0.1 diagnostic claim.
