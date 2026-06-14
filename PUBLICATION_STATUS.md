@@ -4,7 +4,9 @@
 
 Public v0.1 diagnostic. Pruned, polished, consistency-aligned, and cleared of review/process scaffolding.
 
-The repository now presents one object: the **Correction Window Test**.
+The repository front door presents one public object: the **Correction Window Test**.
+
+This repository may also contain unpromoted research-layer notes. Those notes are not part of the v0.1 public diagnostic surface and must not be used as public claim support unless separately promoted with a new publication-status update.
 
 ## What is public now
 
@@ -12,7 +14,7 @@ The repository now presents one object: the **Correction Window Test**.
 - Quick reference.
 - Correction Window Test.
 - Worksheet.
-- Five worked examples covering live protection, partial/mixed protection, after-the-fact review, false safeguard, and unknown.
+- Five worked examples covering live protection, partial protection, after-the-fact review, false safeguard, and unknown.
 - Glossary.
 - Method caveats and public-record series discipline.
 - Falsifiers.
@@ -43,6 +45,12 @@ The removed material included:
 - Actual fix mechanism.
 - Timing fit.
 
+## Boundary notes
+
+Unpromoted research-layer notes, including any AI deployment or alignment-related notes, are machine-room material only. They are not the public front door, not validation, not an AI-governance framework, and not an AI-alignment solution.
+
+If research-layer material conflicts with the root README claim ceiling, the root README claim ceiling controls for public presentation.
+
 ## What is not yet complete
 
 - No DOI has been issued.
@@ -69,11 +77,11 @@ It may not currently claim:
 
 ## Freeze rule
 
-Stop adding files.
+Stop adding public-surface files.
 
 Do not add ICO data, GitHub Pages, issue templates, review prompts, new examples, or new method notes in this pass.
 
-Change the repo again only if use of the worksheet shows that the test itself needs sharpening.
+Change the public diagnostic again only if use of the worksheet shows that the test itself needs sharpening.
 
 ## Gate status
 
