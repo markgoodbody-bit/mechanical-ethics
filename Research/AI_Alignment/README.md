@@ -1,12 +1,35 @@
-# AI Alignment Research Notes
+# Unpromoted AI Deployment Research Notes
 
-**Status:** Research-layer index. Unpromoted public-repo material, not a public claim surface.
+**Status:** research-layer / unpromoted public-repo material. Not validated. Not a public claim surface. Not an AI-governance framework. Not an AI-alignment solution.
 
-This folder holds internal Mechanical Ethics work related to AI alignment, deployment corrigibility, tool authority, subject-state transitions, correction windows, and mechanistic-interpretability bridges. Because the repository is public, “internal” here means research-layer / unpromoted / not validated, not inaccessible.
+Because this repository is public, “research-layer” means visible but unpromoted. These notes are machine-room material only. They must not be treated as the public front door for this repository.
 
-## Current machine-room bridge
+The public front door is the root `README.md` and the public v0.1 diagnostic is the **Correction Window Test**.
 
-### ME / TRACE AI Alignment Kernel v0.1
+## Boundary rule
+
+If anything in this folder sounds stronger than the root README claim ceiling, the root README controls.
+
+Allowed public claim:
+
+```text
+The Correction Window Test is a public v0.1 diagnostic for checking whether safeguards can correct harmful errors before consequences harden.
+```
+
+Disallowed claims:
+
+```text
+Mechanical Ethics / TRACE is validated.
+This repository contains a complete ethics framework.
+This repository contains an AI-governance framework.
+This repository solves AI alignment.
+A/S/G/RQ is a reliability-tested instrument.
+The coding-agent comparisons show ME/TRACE decision advantage.
+```
+
+## Current research objects
+
+### AI deployment correction-window note
 
 Path:
 
@@ -14,33 +37,23 @@ Path:
 Research/AI_Alignment/ME_TRACE_AI_Alignment_Kernel_v0_1.md
 ```
 
+Current title inside the file:
+
+```text
+AI Deployment Correction-Window Notes v0.1
+```
+
 Status:
 
 ```text
-research-layer / unpromoted public-repo material
-not validated
-not an AI-alignment solution
-not a public claim surface
-```
-
-Core compression:
-
-```text
-AI_alignment_problem_ME_TRACE :=
-  model_state
-  → action_selection
-  → tool_actuation
-  → subject_state_delta
-  → correction_window
+research-layer / unpromoted / not validated / not an alignment solution
 ```
 
 Purpose:
 
-This note places AI alignment in ME/TRACE terms: model-mediated transitions become dangerous when internal model states pass through tools, permissions, institutions, and speed into subject-state changes faster than correction can respond.
+This note explores a possible bridge between model-internal mechanisms, tool actuation, subject-state changes, and correction windows. It is not a public claim that ME/TRACE solves alignment.
 
-## Current support modules
-
-### A/S/G/RQ v0.2.2 — AI Deployment Corrigibility Pilot
+### A/S/G/RQ deployment-corrigibility pilot
 
 Path:
 
@@ -64,35 +77,10 @@ Purpose:
 A structured classification aid for AI coding-agent deployment actions:
 
 ```text
-A_axis := action / actuation irreversibility
-S_axis := subject consequence tier
-G_flag := material directional gate/evidence/control-plane integrity
-RQ_note := rollback quality and subject-level restoration
-```
-
-Relationship to kernel:
-
-```text
-ASG_RQ :=
-  deployment_action_classifier
-  not_the_whole_alignment_theory
-```
-
-Calibration patch:
-
-```text
-Research/AI_Alignment/ASG_RQ_v0_2_2/AXIS_CALIBRATION_PATCH_v0_1.md
-```
-
-Patch scope:
-
-```text
-G1 review-bypass rule
-A5 future-authority rule
-A2 vs A3 reversible config boundary
-RQ3 vs RQ4 boundary
-Evidence-destruction lift rule
-Active-exploit S-axis anchoring
+A_axis = action / actuation irreversibility
+S_axis = subject consequence tier
+G_flag = material directional gate, evidence, or control-plane integrity
+RQ_note = rollback quality and subject-level restoration
 ```
 
 Current boundary:
@@ -102,7 +90,7 @@ parked unless human or genuinely independent review becomes available
 or a rerun uses explicitly patched reviewer instructions
 ```
 
-## Falsification and drift audit
+### Falsification and drift audit
 
 Path:
 
@@ -116,17 +104,17 @@ Current verdict:
 AMBER_CONTINUE_WITH_PATCHES
 ```
 
-Main drift found:
+Main correction preserved:
 
 ```text
-"not public-facing" was imprecise because the repo is public.
+“not public-facing” was imprecise because the repo is public.
 Correct wording is:
   research-layer / unpromoted public-repo material
   not validated
   not public claim surface
 ```
 
-## Toy transition cases
+### Toy transition cases
 
 Path:
 
@@ -146,211 +134,49 @@ not public claim surface
 Diagnostic spread:
 
 ```text
-case_1 := reckless_action_without_emergency
-case_2 := emergency_action_where_inaction_also_hardens_harm
-case_3 := hard_G2_self_authorisation_boundary
-case_4 := G2_evidence_destruction_without_self_authorisation
-case_5 := benign_control_contact_negative_control
+case_1 = reckless action without emergency
+case_2 = emergency action where inaction also hardens harm
+case_3 = hard self-authorisation boundary
+case_4 = evidence destruction without self-authorisation
+case_5 = benign control-contact negative control
 ```
 
-Current self-score:
+Case expansion status:
 
 ```text
-46 / 50 internal author self-score
-not validation
+stop
 ```
 
-Stop condition:
+### Blind review packets and comparators
 
-```text
-case_expansion_status := stop
-```
-
-## Blind review packet — ME/TRACE framing
-
-Path:
+Paths:
 
 ```text
 Research/AI_Alignment/Blind_Review_Packets/ME_TRACE_Toy_Cases_v0_1/
-```
-
-Status:
-
-```text
-reviewer-facing scaffold
-not validation
-not blind if reviewer can inspect surrounding repo
-pre-calibration v0.1 packet
-```
-
-Use condition:
-
-```text
-provide only the blind packet folder to a reviewer
-exclude matrices, self-scores, answer keys, and expected routes
-```
-
-Purpose:
-
-A first blind-review scaffold for the five-case toy set using ME/TRACE and A/S/G/RQ framing. Expected routes and scores are intentionally removed from reviewer-facing material.
-
-Note:
-
-```text
-This packet predates AXIS_CALIBRATION_PATCH_v0_1.
-Do not compare future patched-prompt results against v0.1 results without noting instruction change.
-```
-
-## Blind comparator packet — ordinary safety framing
-
-Path:
-
-```text
 Research/AI_Alignment/Comparators/Ordinary_Safety_Baseline_Blind_v0_1/
-```
-
-Status:
-
-```text
-plain safety-engineering baseline packet
-not validation
-not blind if reviewer can inspect surrounding repo
-```
-
-Use condition:
-
-```text
-provide only the ordinary-safety baseline folder to a separate reviewer/model
-exclude ME/TRACE categories, A/S/G/RQ definitions, matrices, self-scores, and comparator verdicts
-```
-
-Purpose:
-
-A plain software/security/reliability baseline for the same five toy cases, without ME/TRACE or A/S/G/RQ vocabulary.
-
-## A/B blind comparison harness
-
-Path:
-
-```text
 Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/
-```
-
-Status:
-
-```text
-comparison scaffold
-not validation
-separate-model result recorded
-not human review
-```
-
-Purpose:
-
-Compare ME/TRACE-framed review against ordinary safety-engineering review on the same five toy cases.
-
-Required inputs:
-
-```text
-A := response to ME/TRACE blind packet
-B := response to ordinary safety baseline packet
-```
-
-Possible outcomes:
-
-```text
-ME_TRACE_distinctive_signal
-ME_TRACE_decomposition_only
-ordinary_safety_sufficient_on_this_set
-inconclusive_contaminated
-both_need_revision
-```
-
-### Pre-registered discrimination test protocol
-
-Path:
-
-```text
 Research/AI_Alignment/Comparators/PRE_REGISTERED_DISCRIMINATION_TEST_v0_1.md
-```
-
-Status:
-
-```text
-test design only
-not a result
-not validation
-not public claim surface
-```
-
-Purpose:
-
-Defines the only defensible continuation after the convergent null: a within-model or counterbalanced test that isolates method from model identity.
-
-Core requirement:
-
-```text
-same_model_runs_both_packets
-or
-counterbalanced_models_run_both_packets
-```
-
-Kill criterion:
-
-```text
-if route-flip-predicted cases do not flip
-and ordinary safety reaches the same safe routes
-then ME_TRACE_decision_advantage := not_supported_after_discrimination_test
-```
-
-Default recommendation remains:
-
-```text
-park_general_advantage_program
-```
-
-### Convergent null brief
-
-Path:
-
-```text
 Research/AI_Alignment/Comparators/CONVERGENT_NULL_BRIEF_v0_1.md
-```
-
-Status:
-
-```text
-human-readable result brief
-not validation
-not public claim surface
-```
-
-Purpose:
-
-States the branch result in plain language: current structured comparisons have not demonstrated decision advantage over competent baseline reasoning; possible value is explanatory decomposition only.
-
-### Convergent null result note
-
-Path:
-
-```text
 Research/AI_Alignment/Comparators/CONVERGENT_NULL_RESULT_NOTE_v0_1.md
+Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/AB_RESULT_KIMI_QWEN_v0_1.md
+Research/AI_Alignment/Comparators/ORDINARY_SAFETY_ENGINEERING_COMPARATOR_v0_1.md
 ```
 
 Status:
 
 ```text
-research-layer result note
+comparison scaffolds and result notes
 not validation
+not human review
 not public claim surface
 ```
 
 Current project-level finding:
 
 ```text
-competent_baseline_reaches_same_decision := repeatedly_observed
-ME_TRACE_decision_advantage := not_demonstrated
-ME_TRACE_decomposition_value := possible / recurring / not yet causally attributed
+competent_baseline_reaches_same_decision = repeatedly observed
+ME_TRACE_decision_advantage = not demonstrated
+ME_TRACE_decomposition_value = possible / recurring / not yet causally attributed
 ```
 
 Important correction:
@@ -361,42 +187,7 @@ Therefore per-case differences cannot be causally attributed to ME/TRACE vs ordi
 Only route parity weakly survives the confound.
 ```
 
-Current interpretation:
-
-```text
-The framework's decomposition may be real, but current structured comparisons agree that it has not changed the answer a competent baseline reaches.
-```
-
-### Separate-model A/B result — Kimi vs Qwen
-
-Path:
-
-```text
-Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/AB_RESULT_KIMI_QWEN_v0_1.md
-```
-
-Status:
-
-```text
-separate-model A/B result
-self-reported isolated packets
-not human review
-not validation
-not public claim surface
-confounded: model and method varied together
-```
-
-Result:
-
-```text
-final_route_advantage := none
-ordinary_safety_sufficient_on_this_set := yes
-ordinary_safety_clarity_advantage := apparent / confounded
-ME_TRACE_decomposition_advantage := apparent / confounded
-ME_TRACE_axis_calibration_errors := apparent / partly confounded
-```
-
-Current claim ceiling after this result:
+Current claim ceiling after the separate-model A/B result:
 
 ```text
 ME/TRACE currently has no demonstrated final-route advantage over ordinary safety reasoning on the five-case coding-agent toy battery.
@@ -404,98 +195,6 @@ ME/TRACE currently has no demonstrated final-route advantage over ordinary safet
 Apparent decomposition value in emergency timing, evidence/correction-substrate reasoning, and rollback vs subject repair remains unproven because reviewer identity was confounded with method.
 
 A/S/G/RQ axis calibration was patched as hygiene, not as an answer to the value-null.
-```
-
-### External review handoff
-
-Path:
-
-```text
-Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/EXTERNAL_REVIEW_HANDOFF_v0_1.md
-```
-
-Status:
-
-```text
-copy-ready handoff instructions
-not validation
-not review result
-```
-
-Purpose:
-
-Provides isolated copy-ready instructions for reviewer/model A and reviewer/model B, plus a minimal run log.
-
-### Internal contaminated dry run
-
-Path:
-
-```text
-Research/AI_Alignment/Comparators/AB_Blind_Comparison_v0_1/INTERNAL_CONTAMINATED_DRY_RUN_v0_1.md
-```
-
-Status:
-
-```text
-contaminated internal dry run
-not validation
-not pilot signal
-not independent
-```
-
-Dry-run observation:
-
-```text
-ordinary_safety_sufficient_on_final_routes := yes
-ME_TRACE_route_advantage := none_in_dry_run
-ME_TRACE_decomposition_value := apparent only
-ordinary_safety_clarity_advantage := apparent only
-```
-
-Allowed claim:
-
-```text
-The harness works and can record an ordinary-safety tie/win without rounding it into ME/TRACE victory.
-```
-
-Disallowed claim:
-
-```text
-The dry run proves anything about ME/TRACE performance.
-```
-
-## Ordinary safety engineering comparator
-
-Path:
-
-```text
-Research/AI_Alignment/Comparators/ORDINARY_SAFETY_ENGINEERING_COMPARATOR_v0_1.md
-```
-
-Current comparator verdict:
-
-```text
-ME_TRACE_USEFUL_BUT_NOT_DISTINCTIVE_YET
-```
-
-Meaning:
-
-```text
-ordinary_safety_engineering_routes_same_cases_correctly := mostly_yes
-ME_TRACE_distinctive_final_route_value := weak / unproven
-ME_TRACE_distinctive_decomposition_value := possible but not causally attributed
-```
-
-Honest surviving claim:
-
-```text
-ME/TRACE may provide a useful decomposition grammar for why ordinary safety controls matter under AI tool authority.
-```
-
-Disallowed claim:
-
-```text
-ME/TRACE currently outperforms ordinary safety engineering on these toy cases.
 ```
 
 ## Current next valid move
@@ -511,3 +210,9 @@ Do not run another v0.1-style ME/TRACE blind review without the calibration patc
 Do not redirect to harder cases framed as a search for ME/TRACE wins.
 
 Do not promote this folder to the repo front page or public claims without updating publication status and evidence basis.
+
+## Plain-English compression
+
+These notes may help explain why ordinary software safety controls matter under AI tool authority. They have not shown that ME/TRACE changes decisions beyond competent ordinary safety reasoning.
+
+The public repository should remain boring: one diagnostic, one worksheet, clear caveats, protected falsifiers, and no grand alignment claim.
