@@ -60,6 +60,8 @@ institutional_memory_question :=
   + can_record_trigger_correction
 ```
 
+Case anchor: a hospital that records waiting-time compliance but not missed diagnostic windows may appear to remember process while forgetting harm. The repair question is not whether the database exists. It is whether the record can trigger correction before the next patient carries the same failure.
+
 A civilization that cannot remember harm cannot learn from it.
 
 A civilization that remembers only authority cannot correct authority.
@@ -84,6 +86,8 @@ A lawful system should make power less impulsive. It should require reasons. It 
 Law fails when it becomes only the shape of power.
 
 A legal process can be too slow to repair. It can be too expensive to reach. It can be formally equal and practically closed. It can preserve official contradiction badly. It can let authority set every clock. It can give the appearance of correction while loss hardens outside the courthouse.
+
+Case anchor: an appeal route after eviction may satisfy legal form while failing practical correction. The law may still be valid law, but if the person has already lost home, health, records, or trust, the route has failed the timing test.
 
 Mechanical Ethics does not replace law.
 
@@ -127,6 +131,8 @@ market_audit :=
   + correction_capacity
   + externalized_residue
 ```
+
+Case anchor: a platform may be rewarded for engagement while anger, addiction, misinformation, or reputational harm is routed outside the metric. The issue is not that reward exists. The issue is what the reward trains and who carries the residue.
 
 Market language often cleans harm by calling it preference, price, demand, efficiency, or consumer choice. Sometimes those words are accurate. Sometimes they hide coercion, asymmetry, ignorance, dependency, or absence of real alternatives.
 
@@ -175,6 +181,8 @@ burden_routing_question :=
   + whose_repair
 ```
 
+Case anchor: if a benefit system flags a claimant as risky and stops payment before evidence is checked, the public system has routed its uncertainty onto the person least able to carry delay. The correction route is not adequate merely because it exists later.
+
 Public systems become ethically dangerous when they treat private suffering as the cost of public order while refusing to record that cost.
 
 The minimum demand is not that public systems never burden people.
@@ -198,6 +206,8 @@ trust :=
 High-trust systems are not systems without error. They are systems where error can surface without being crushed.
 
 A person trusts a doctor not because doctors are never wrong, but because medicine should preserve evidence, explanation, second opinion, and correction. A citizen trusts a court not because courts never err, but because reasons, appeal, publicity, and record should constrain error. A user trusts a platform not because moderation is perfect, but because notice and appeal should exist before serious loss hardens. A worker trusts an employer not because conflict never happens, but because process should not hide retaliation or record scars.
+
+Case anchor: a whistleblower policy that punishes the first person to make the warning usable destroys trust even if later reform is announced. Trust depends on whether correction can surface under pressure, not whether the institution praises honesty after the scandal.
 
 Trust decays when systems protect themselves from valid correction.
 
@@ -224,6 +234,8 @@ decay :=
 Maintenance is ethical work because it preserves future correction.
 
 A bridge maintained is not dramatic. A record system kept clean is not heroic. A complaint route funded before scandal is not celebrated. A model monitored before harm is visible may look like overhead. A school preserving ordinary support may not appear as innovation.
+
+Case anchor: a complaint route that once worked can become useless through underfunding, staff churn, language drift, or vendor change. If no one owns maintenance, yesterday's repair becomes tomorrow's theatre.
 
 But much harm begins where maintenance was treated as optional.
 
