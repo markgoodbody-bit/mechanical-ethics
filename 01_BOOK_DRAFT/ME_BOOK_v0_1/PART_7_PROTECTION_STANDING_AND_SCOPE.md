@@ -64,6 +64,37 @@ Protection does not always mean stop. It may mean disclose, monitor, slow, prese
 
 The point is not to inflate every scope into full moral equality. The point is to make the protection route visible.
 
+### 7.2.1 Minimum Floor Candidate
+
+Mechanical Ethics still has an open wound about final standing. It has not proven a complete foundation for every protected scope.
+
+But uncertainty about final standing must not mean that anything unresolved is expendable. The first floor can be modest:
+
+```trace
+minimum_floor_candidate :=
+  no_erasure
+  + no_unrecorded_irreversible_loss
+  + no_burden_without_route
+  + no_silent_standing_denial
+  + no_clean_language_for_dirty_loss
+```
+
+This floor does not grant equal status to every scope. It does not settle personhood, animal standing, ecosystem standing, future-person claims, or artificial moral status.
+
+It says something narrower: if a scope may be materially affected, the system must not erase it, impose irreversible loss without record, shift burden without a route, deny standing silently, or clean the loss through language.
+
+The floor is strongest when four pressures combine:
+
+```trace
+floor_strengthens_when :=
+  vulnerability
+  + low_contest_power
+  + irreversibility
+  + actor_control_over_route
+```
+
+This is a candidate floor, not canon. It is here to stop the open wound becoming a loophole.
+
 ## 7.3 Uncertainty Raises Caution
 
 Standing uncertainty is not permission to spend cheaply.
@@ -295,13 +326,15 @@ open_wound :=
 
 Mechanical Ethics needs minimum floors, but it has not yet fully solved who sets them, how they are justified, and how they operate across humans, animals, ecosystems, future persons, and artificial systems.
 
+The minimum floor candidate above reduces the immediate loophole but does not close the wound. It says unresolved standing cannot justify erasure or unrecorded irreversible loss. It does not prove a final hierarchy of protection.
+
 The honest move is not to hide that wound. The honest move is to carry it forward and prevent it from being silently settled by whoever has power.
 
 Part 7 therefore ends with a limited achievement.
 
 It does not solve moral standing.
 
-It gives the book a way to name affected scopes, record protection reasons, raise caution under uncertainty, and avoid the worst erasures before duties are assigned.
+It gives the book a way to name affected scopes, record protection reasons, raise caution under uncertainty, preserve a minimum anti-erasure floor, and avoid the worst erasures before duties are assigned.
 
 The next question is what happens after harm, error, or dirty loss has already entered the path.
 
