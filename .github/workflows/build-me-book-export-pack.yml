@@ -1,0 +1,35 @@
+name: Build ME Book Export Pack
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '01_BOOK_DRAFT/ME_BOOK_v0_1/**'
+      - 'tools/build_me_book_v0_1_export_pack.py'
+      - '.github/workflows/build-me-book-export-pack.yml'
+
+jobs:
+  build-export-pack:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build compact export pack
+        run: python tools/build_me_book_v0_1_export_pack.py --date 2026_06_27
+
+      - name: Upload compact export pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: ME_BOOK_v0_1_EXPORT_PACK_2026_06_27
+          path: dist/ME_BOOK_v0_1_EXPORT_PACK_2026_06_27.zip
+          if-no-files-found: error
