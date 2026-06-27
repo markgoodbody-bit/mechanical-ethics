@@ -23,6 +23,7 @@ book_draft_v0_1 :=
 - `00_TITLE_AND_CONTROL.md` — title, status, reader contract, and current table of contents.
 - `PART_0_HOW_TO_READ_THIS_BOOK.md` — front-door safety rails.
 - `PART_1_THE_ENTITY_THAT_WAKES.md` — first middle-out origin section.
+- `VALUE_SPINE_INTEGRATION_v0_1_2026_06_27.md` — structural integration surface for good/bad, viable becoming, positive value, and uncertainty discipline across the book.
 
 ## Draft rule
 
@@ -37,3 +38,19 @@ wide_pass_rule :=
 ```
 
 Later passes can tighten language, examples, chapter lengths, and cross-references.
+
+## Value-spine rule
+
+The book must not reduce Mechanical Ethics to harm avoidance or anti-laundering alone. It must also build the positive structure of viable becoming, trust, care, learning, repair success, cooperation, and meaningful future-space.
+
+```trace
+value_spine_rule :=
+  honesty_first
+  + uncertainty_as_primitive
+  + middle_out_only
+  + viable_becoming
+  + correctability
+  + honest_accounting
+  + answerability
+  - final_moral_theory_claim
+```
