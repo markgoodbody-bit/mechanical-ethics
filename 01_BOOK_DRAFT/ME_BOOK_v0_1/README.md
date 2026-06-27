@@ -54,3 +54,19 @@ value_spine_rule :=
   + answerability
   - final_moral_theory_claim
 ```
+
+## Current build priority
+
+Do not over-index on case pressure merely because review systems ask for cases. Case pressure remains useful, but the immediate book task is to propagate the value spine through the existing parts.
+
+```trace
+current_build_priority :=
+  propagate_value_spine
+  + preserve_middle_out_uncertainty
+  + strengthen_positive_structure
+  + then_later_test_with_cases
+```
+
+Parts 1-6 now carry the initial value-spine sweep: good/bad before morality, cross-scope value pressure, reward versus structural good, viable future-space, benefit is not permission, and gates as false-good filters.
+
+Next target is Parts 7-15: protection, repair, dirty conflict, responsibility, power, civilization, AI, use protocol, and limits must all be re-read through viable becoming rather than harm avoidance alone.
