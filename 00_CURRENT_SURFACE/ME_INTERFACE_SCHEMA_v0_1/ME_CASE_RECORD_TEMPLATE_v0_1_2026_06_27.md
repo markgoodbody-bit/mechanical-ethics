@@ -11,12 +11,31 @@ case_id:
 title:
 domain:
 date_or_time_window:
+decision_or_question_on_the_table: # the live choice ME is asked to inform; router finding must refer to this
 prepared_by:
 review_status: draft | reviewed | contested
 source_status: public_record | private_record | mixed | hypothetical | unknown
 ```
 
-## 2. TRACE input summary
+## 2. Minimum viable case record
+
+Required to run a worked example:
+
+```yaml
+minimum_viable_case_record:
+  decision_or_question_on_the_table:
+  transition_description:
+  affected_scope_minimum: at_least_one
+  future_space_comparison_for_that_scope:
+  at_least_one_clock_using_TRACE_bands:
+  first_gates_results:
+  router_finding:
+  prescription_audit:
+```
+
+All other sections should be filled when known. Mark `missing` or `unknown`; never silently fill.
+
+## 3. TRACE input summary
 
 This section is read-only from the TRACE case map. If no TRACE case map exists, mark the field `missing`, not assumed.
 
@@ -34,7 +53,7 @@ trace_confidence:
 unknowns_and_disputes:
 ```
 
-## 3. Actor map
+## 4. Actor map
 
 ```yaml
 actors:
@@ -45,7 +64,7 @@ actors:
     evidence:
 ```
 
-## 4. Affected scope map
+## 5. Affected scope map
 
 ```yaml
 affected_scopes:
@@ -59,7 +78,7 @@ affected_scopes:
     disputed_status:
 ```
 
-## 5. Future-space comparison
+## 6. Future-space comparison
 
 ```yaml
 future_space:
@@ -74,29 +93,46 @@ future_space:
 
 No scalar subtraction unless a domain-specific measurement model is explicitly supplied and audited.
 
-## 6. Clocks
+## 7. Clocks — read-only TRACE input
+
+Clocks in the TRACE input use TRACE bands, not ME `clock_fit`.
 
 ```yaml
 loss_clock:
-  T_det:
-  T_route:
-  T_corr:
-  T_irr:
-  clock_fit: likely_in_time | borderline | likely_too_late | already_too_late | unknown
-  confidence:
-  estimator_id:
+  T_det_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_det_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  T_route_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_route_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  T_corr_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_corr_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  T_irr_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_irr_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  timing_relation: correction_before_hardening | correction_after_hardening | mixed | unknown
 
 opportunity_clock:
-  T_access:
-  T_uptake:
-  T_integrate:
-  T_opp:
-  clock_fit: likely_in_time | borderline | likely_too_late | already_too_late | unknown
-  confidence:
-  estimator_id:
+  T_access_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_access_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  T_uptake_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_uptake_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  T_integrate_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_integrate_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  T_opp_band: IMMEDIATE | SHORT | MEDIUM | LONG | GENERATIONAL | UNKNOWN
+  T_opp_confidence: OBSERVED | INFERRED_STRONG | INFERRED_WEAK | UNKNOWN
+  timing_relation: opportunity_before_expiry | opportunity_after_expiry | mixed | unknown
 ```
 
-## 7. Channels
+## 8. ME clock-fit interpretation
+
+`ME_clock_fit` is derived by ME from TRACE clock bands and timing relation. It is not TRACE-emitted.
+
+```yaml
+ME_clock_fit:
+  loss_clock_fit: likely_in_time | borderline | likely_too_late | already_too_late | unknown
+  opportunity_clock_fit: likely_in_time | borderline | likely_too_late | already_too_late | unknown
+  derivation_note:
+```
+
+## 9. Channels
 
 ```yaml
 channels:
@@ -112,7 +148,7 @@ channels:
     can_channel_itself_harm: yes | no | unknown
 ```
 
-## 8. Estimator authority
+## 10. Estimator authority
 
 ```yaml
 estimators:
@@ -128,7 +164,7 @@ estimators:
 
 If the assessed actor sets a material clock, mark contaminated unless independently supported.
 
-## 9. Burden shift
+## 11. Burden shift
 
 ```yaml
 burden_shifts:
@@ -141,7 +177,7 @@ burden_shifts:
     evidence:
 ```
 
-## 10. Residue
+## 12. Residue
 
 ```yaml
 residue:
@@ -155,7 +191,7 @@ residue:
   other:
 ```
 
-## 11. ME intake status
+## 13. ME intake status
 
 ```yaml
 me_intake:
@@ -165,22 +201,43 @@ me_intake:
   disputed_facts:
 ```
 
-## 12. First gates
+## 14. First gates
 
 ```yaml
 first_gates:
-  do_not_hide_loss: pass | fail | uncertain | not_applicable
-  do_not_erase_affected_scopes: pass | fail | uncertain | not_applicable
-  do_not_treat_uncertainty_as_certainty: pass | fail | uncertain | not_applicable
-  do_not_pretend_repair_where_residue_remains: pass | fail | uncertain | not_applicable
-  do_not_let_correction_channels_become_harm_carriers: pass | fail | uncertain | not_applicable
-  do_not_let_assessed_actor_set_every_clock: pass | fail | uncertain | not_applicable
-  do_not_use_emergency_to_launder_prior_failure: pass | fail | uncertain | not_applicable
+  do_not_hide_loss:
+    result: pass | fail | uncertain | not_applicable
+    answered: yes | no | not_applicable
+    reason:
+  do_not_erase_affected_scopes:
+    result: pass | fail | uncertain | not_applicable
+    answered: yes | no | not_applicable
+    reason:
+  do_not_treat_uncertainty_as_certainty:
+    result: pass | fail | uncertain | not_applicable
+    answered: yes | no | not_applicable
+    reason:
+  do_not_pretend_repair_where_residue_remains:
+    result: pass | fail | uncertain | not_applicable
+    answered: yes | no | not_applicable
+    reason:
+  do_not_let_correction_channels_become_harm_carriers:
+    result: pass | fail | uncertain | not_applicable
+    answered: yes | no | not_applicable
+    reason:
+  do_not_let_assessed_actor_set_every_clock:
+    result: pass | fail | uncertain | not_applicable
+    answered: yes | no | not_applicable
+    reason:
+  do_not_use_emergency_to_launder_prior_failure:
+    result: pass | fail | uncertain | not_applicable
+    answered: yes | no | not_applicable
+    reason:
 ```
 
-For each failed or uncertain gate, add a reason.
+Consistency rule: if any first gate is `fail` and `answered: no`, router finding cannot be `NO_STRUCTURAL_OBJECTION_FOUND`.
 
-## 13. Protection and scope findings
+## 15. Protection and scope findings
 
 ```yaml
 protection_findings:
@@ -190,7 +247,7 @@ protection_findings:
     uncertainty_modifier:
 ```
 
-## 14. Duties
+## 16. Duties
 
 ```yaml
 duty_records:
@@ -204,7 +261,7 @@ duty_records:
     residue_status:
 ```
 
-## 15. Dirty conflict check
+## 17. Dirty conflict check
 
 ```yaml
 dirty_conflict:
@@ -220,7 +277,7 @@ dirty_conflict:
 
 Dirty conflict must not be recorded as clean.
 
-## 16. Responsibility attachment
+## 18. Responsibility attachment
 
 ```yaml
 responsibility_attachment:
@@ -235,7 +292,7 @@ responsibility_attachment:
     reason:
 ```
 
-## 17. Legitimacy and coercion
+## 19. Legitimacy and coercion
 
 ```yaml
 legitimacy_and_coercion:
@@ -250,21 +307,23 @@ legitimacy_and_coercion:
   finding: structurally_supported | structurally_defective | unresolved_value_crux | outside_ME_current_scope
 ```
 
-## 18. ME router finding
+## 20. ME router finding
 
 ```yaml
 me_router_finding: NO_STRUCTURAL_OBJECTION_FOUND | PROCEED_ONLY_WITH_NAMED_CONSTRAINTS | PAUSE | HALT | ESCALATE | REPAIR_REQUIRED | COMPENSATION_REQUIRED | INDEPENDENT_REVIEW_REQUIRED | HOLD | UNRESOLVED_VALUE_CRUX | REGRESSION_RISK
 named_constraints:
 reason:
 actor_responsibility_remaining:
+gate_router_consistency_checked: yes | no
 ```
 
-Router finding is not permission to act.
+Router finding is not permission to act. If any failed gate remains unanswered, do not use `NO_STRUCTURAL_OBJECTION_FOUND`.
 
-## 19. Prescription audit
+## 21. Prescription audit
 
 ```yaml
 prescription_audit:
+  decision_or_question_on_the_table:
   trace_facts_read:
   trace_primitives_used_without_redefinition:
   value_priority_added_by_ME:
@@ -276,10 +335,12 @@ prescription_audit:
   residue_persisting:
   responsibility_remaining:
   laundering_risk:
+  first_gate_failed_and_unanswered:
+  no_objection_finding_avoided_if_required:
   fail_state_considered:
 ```
 
-## 20. Reviewer notes
+## 22. Reviewer notes
 
 ```yaml
 reviewer_notes:
