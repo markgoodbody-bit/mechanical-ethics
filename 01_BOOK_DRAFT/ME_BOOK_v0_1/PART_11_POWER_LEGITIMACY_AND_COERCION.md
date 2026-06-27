@@ -35,6 +35,41 @@ power_question :=
   + with_what_correction_route
 ```
 
+The value-spine version is this:
+
+```trace
+power_over_viable_becoming :=
+  capacity_to_shape
+    continuation
+    + orientation
+    + capacity
+    + relation
+    + repairability
+    + meaningful_future_space
+  for_another_scope
+```
+
+This is why power is ethically dense. It does not merely move resources or enforce rules. It can shape what another scope can become. It can preserve a route, open a path, teach, protect, heal, coordinate, and repair. It can also trap, confuse, isolate, humiliate, burden, silence, or close a path before the affected scope can answer.
+
+```trace
+power_can_support :=
+  protection
+  + coordination
+  + repair
+  + learning
+  + care
+  + trust_infrastructure
+  + shared_future_space
+
+power_can_damage :=
+  closure
+  + dependency_capture
+  + false_finality
+  + unreachable_contest
+  + trust_damage
+  + unrepairable_burden
+```
+
 Power that cannot answer becomes domination.
 
 ## 11.2 Legitimacy as Answerable Authority
@@ -64,6 +99,18 @@ This is not a final theory of political legitimacy. It is an anti-laundering str
 Authority becomes more legitimate when it names its basis, recognizes affected scopes, gives reasons, preserves contestability, accounts for burden, remains correctable, expires or faces review where appropriate, and allows independent challenge.
 
 Authority becomes more suspect when it hides its basis, erases affected scopes, refuses reasons, blocks challenge, routes burden downward, makes correction unreachable, extends itself without review, or judges only its own conduct.
+
+For the value spine, legitimacy also asks whether authority preserves the conditions under which affected scopes can orient, contest, repair, and continue.
+
+```trace
+legitimacy_value_candidate :=
+  authority_changes_viable_becoming
+  + authority_names_basis
+  + affected_scope_can_orient
+  + affected_scope_can_contest_where_possible
+  + burden_and_residue_recorded
+  + correction_remains_live
+```
 
 The anti-circularity rule is strict:
 
@@ -112,6 +159,19 @@ coercion_audit :=
 Coercion may sometimes be justified. But coercion should not be cleanly justified by the fact that authority found it convenient, efficient, traditional, or lawful.
 
 The more coercive the action, the more serious the duty to preserve correction and record residue.
+
+The value-spine question is whether the constraint protects viable becoming, damages it, or both.
+
+```trace
+coercion_value_audit :=
+  what_closure_is_imposed
+  + what_viable_becoming_is_claimed_to_be_protected
+  + what_viable_becoming_is_damaged
+  + whether_less_closing_route_exists
+  + what_repair_or_residue_follows
+```
+
+A constraint may be defensible because it prevents faster or wider closure. But if it does so, the record must still name the closure it imposes.
 
 ### 11.3.1 Hard-No Constraints for Coercion and Force
 
@@ -179,6 +239,17 @@ Emergency action may be necessary and still dirty.
 
 The record should be strong enough to say both.
 
+Emergency may also protect viable becoming where delay would close it. That is real. A rescue, evacuation, intervention, or temporary restriction may preserve life, capacity, trust, or future repairability. But this claimed good must not erase the burden imposed by the emergency route.
+
+```trace
+emergency_value_record :=
+  what_viable_becoming_was_preserved
+  + what_scope_was_constrained
+  + why_time_pressed
+  + what_review_or_expiry_remains
+  + what_residue_follows
+```
+
 ## 11.5 Punishment and Desert
 
 Punishment and desert are not solved here.
@@ -223,6 +294,17 @@ These are constraints, not a full theory.
 
 The book must be honest: it can narrow what punishment may not hide. It has not yet proven what punishment positively deserves.
 
+For the value spine, punishment also must not pretend that imposed burden is automatically repair. If punishment is claimed to protect future viable becoming, that claim needs a route: prevention, restoration, accountability, safety, rehabilitation, recognition, or recurrence reduction. If no such route is shown, punishment is only a burden with a story.
+
+```trace
+punishment_value_audit :=
+  burden_imposed
+  + claimed_future_protection_or_repair
+  + evidence_for_that_route
+  + correction_if_wrong
+  + residue_record
+```
+
 ## 11.6 Dignity and Recognition
 
 Dignity is also dangerous to define too quickly.
@@ -254,6 +336,17 @@ dignity_minimum_candidate :=
   + preserve_account_where_material
   + give_reasons_where_power_acts
   + preserve_contestability_where_possible
+```
+
+The value-spine version adds that a scope should not be reduced to a tool, obstacle, risk score, burden, case number, output, or optimization variable when its viable becoming is materially at stake.
+
+```trace
+dignity_as_viable_becoming_recognition :=
+  scope_not_reduced_to_variable
+  + account_preserved_where_material
+  + viable_becoming_not_erased
+  + reasons_given_where_power_shapes_path
+  + route_back_preserved_where_possible
 ```
 
 This remains a candidate. It should be tested, not canonized.
@@ -288,6 +381,16 @@ expiry_check :=
 Authority should have memory of why it began and conditions for when it must narrow, stop, or return.
 
 If power cannot state how it expires, it is already suspect.
+
+Expiry protects viable becoming because ongoing power keeps shaping the field after its original basis has passed.
+
+```trace
+expiry_value_function :=
+  prevent_power_from_becoming_default_world
+  + return_future_space_where_basis_has_expired
+  + reopen_contestability
+  + reduce_unneeded_dependency
+```
 
 ## 11.8 When Force May Be Used
 
@@ -328,6 +431,17 @@ A force audit does not make force clean.
 
 It shows what must be answered before force can claim legitimacy.
 
+The value-spine audit asks whether force preserves viable becoming from a greater closure, and whose viable becoming it closes in doing so.
+
+```trace
+force_value_audit :=
+  claimed_protected_future
+  + imposed_closure
+  + least_closing_available_route
+  + review_or_expiry
+  + residue
+```
+
 ## 11.9 When Force Must Stop
 
 Stopping force matters as much as authorizing it.
@@ -362,11 +476,13 @@ continuing_force_requires :=
 
 The fact that force was once justified does not prove it remains justified.
 
+If force continues after it no longer protects viable becoming, it becomes closure for its own sake.
+
 ## 11.10 What This Part Has Not Solved
 
 Part 11 must end with restraint.
 
-It has framed power as capacity to change future-space. It has offered a candidate structure for legitimacy as answerable authority. It has described coercion under uncertainty, hard-no constraints for coercion and force, emergency power, punishment constraints, dignity through recognition, authority expiry, and force audits.
+It has framed power as capacity to change future-space and viable becoming. It has offered a candidate structure for legitimacy as answerable authority. It has described coercion under uncertainty, hard-no constraints for coercion and force, emergency power, punishment constraints, dignity through recognition, authority expiry, and force audits.
 
 It has not solved political legitimacy.
 
@@ -389,8 +505,8 @@ Part_11_status :=
 
 This is not failure. It is honesty.
 
-The book has enough structure to say that power must answer for the future-space it changes. It does not yet have enough to claim final authority over every use of power.
+The book has enough structure to say that power must answer for the future-space and viable becoming it changes. It does not yet have enough to claim final authority over every use of power.
 
 The next part shifts scale.
 
-If individual action and institutional power can narrow or preserve future-space, then civilization itself can be understood as an attempt to remain correctable under uncertainty.
+If individual action and institutional power can narrow or preserve viable future, then civilization itself can be understood as an attempt to remain correctable under uncertainty.
