@@ -66,6 +66,39 @@ That answer needs its own route. It must say which structural pressure creates w
 
 Without that route, prescription is only assertion.
 
+## 5.2.1 Benefit Is Not Permission
+
+The same firewall applies to claimed good.
+
+A claimed benefit may be real. It may open opportunity, restore reachability, improve information, build trust, coordinate action, or protect a vulnerable scope. Mechanical Ethics must be able to say that. It is not a harm-only grammar.
+
+But benefit is not permission.
+
+```trace
+benefit_is_not_permission :=
+  seeing_or_claiming_expansion
+  != authorizing_the_transition
+```
+
+A benefit claim must still answer for the field it changes.
+
+```trace
+benefit_audit :=
+  what_expands
+  + for_whom
+  + what_contracts
+  + who_carries_burden
+  + what_uncertainty_remains
+  + what_correction_stays_live
+  + what_residue_may_remain
+```
+
+This blocks the mirror-image misuse of Mechanical Ethics. The book must not only stop actors from using visible harm as a managed cost. It must also stop actors from using visible benefit as absolution.
+
+An expansion for one scope can be candidate-good and still leave another scope narrowed. A safety improvement can be real and still depend on coercion. A repair can reopen one path and still leave trust damaged. A system can create opportunity and still extract burden from those least able to contest.
+
+So ME asks a harder question: what becoming is supported, what becoming is blocked, who carries the cost, and what remains answerable?
+
 ## 5.3 Findings Are Not Authorizations
 
 Mechanical Ethics uses findings.
@@ -155,6 +188,8 @@ The book will later build responsibility more carefully. For now, the point is n
 
 If the actor sees enough to know that another scope may be narrowed, that uncertainty is material, and that time may close the path before repair arrives, then the actor cannot treat the action as ordinary until those pressures are answered.
 
+The same is true when the actor sees enough to know that a claimed good may depend on another scope carrying hidden burden. Positive value does not remove the duty to answer. It increases the need to keep the account honest.
+
 This is the bridge to the first gates.
 
 ## 5.6 The Human Firewall
@@ -169,6 +204,7 @@ The principle is this:
 human_firewall :=
   seeing_is_not_deciding
   + description_is_not_permission
+  + benefit_is_not_permission
   + findings_are_not_authorizations
   + actor_still_answers
 ```
@@ -179,7 +215,7 @@ It has not solved morality. It has not ranked all values. It has not decided per
 
 It has done something smaller and necessary.
 
-It has blocked the easiest misuse of the whole project: using a better description of harm as a better excuse to continue harming.
+It has blocked the easiest misuse of the whole project: using a better description of harm as a better excuse to continue harming, or using a better description of benefit as a better excuse to ignore cost.
 
 The next part states the first gates.
 

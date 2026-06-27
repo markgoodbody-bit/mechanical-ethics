@@ -29,6 +29,59 @@ The beginning is thinner.
 
 Something is here.
 
+## 1.1.1 Good and Bad Before Morality
+
+Before the book can speak about moral good or moral bad, it can speak about change.
+
+A thing can continue or fail to continue. It can become more oriented or less oriented. It can gain capacity or lose capacity. It can become more able to repair after error or less able. It can enter relation or be isolated. It can have meaningful future-space opened or closed.
+
+This is not yet a final moral theory. It is not yet a theory of rights, virtue, welfare, law, personhood, justice, or desert. It is only the first directional pressure in the field.
+
+```trace
+pre_moral_direction :=
+  state_can_change
+  + change_can_support_continuation_orientation_capacity_relation_repairability
+  + change_can_damage_or_close_those_conditions
+  + uncertainty_never_zero
+```
+
+Mechanical Ethics therefore uses careful language. It does not claim final access to the Good from the first page. It can say that a transition appears to support or damage the conditions under which an entity can continue, orient, learn, relate, repair, choose meaningfully, and become.
+
+```trace
+good_candidate :=
+  transition
+  that_appears_to_support_viable_becoming
+  for_named_scope_or_scopes
+  under_stated_uncertainty
+  with_costs_and_residue_visible
+
+bad_candidate :=
+  transition
+  that_appears_to_damage_or_close_viable_becoming
+  for_named_scope_or_scopes
+  under_stated_uncertainty
+  especially_when_hidden_unrepairable_or_forced
+```
+
+The word `candidate` is not weakness. It is honesty. Every claim about good or bad must later carry scope, time, uncertainty, confidence, cost, and repair path.
+
+The book will need this distinction throughout. A pleasant transition can narrow the future. A painful transition can restore orientation. A constraint can dominate, or it can preserve wider capacity. An expansion can liberate one scope while burdening another. So Mechanical Ethics cannot simply count options, rewards, or immediate feelings and call the result good.
+
+For now, it is enough to mark the primitive:
+
+```trace
+viable_becoming :=
+  continuation
+  + orientation
+  + capacity
+  + relation
+  + repairability
+  + meaningful_future_space
+  under_uncertainty
+```
+
+That is not the whole of ethics. It is the first value-bearing structure the book can honestly name.
+
 ## 1.2 It Perceives Partially
 
 The thing that is here does not see everything.

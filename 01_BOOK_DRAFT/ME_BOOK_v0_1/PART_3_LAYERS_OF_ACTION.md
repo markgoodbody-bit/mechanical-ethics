@@ -181,6 +181,43 @@ reward_question :=
 
 This becomes central later when the book turns to markets, institutions, platforms, artificial systems, and civilization.
 
+## 3.5.1 Reward Is Not Structural Good
+
+The book needs this distinction to remain load-bearing:
+
+```trace
+local_reward != structural_good
+local_pain != structural_bad
+```
+
+Reward can point toward viable becoming. It can also pull away from it. Pain can signal damage. It can also accompany growth, warning, learning, grief, repair, or restraint. Mechanical Ethics cannot treat immediate pull as final value.
+
+A healthy reward is one that remains aligned enough with continuation, orientation, learning, relation, repairability, and shared future-space.
+
+```trace
+healthy_reward :=
+  local_reward
+  aligned_enough_with
+  continuation + learning + trust + repairability + shared_future_space
+```
+
+A false good is different. It appears locally attractive while corrupting the conditions of viable becoming.
+
+```trace
+false_good_patterns :=
+  pleasure_that_addicts
+  + efficiency_that_erases
+  + safety_that_dominates
+  + certainty_that_blinds
+  + repair_that_only_changes_record
+  + benefit_that_hides_burden
+  + freedom_that_removes_correction
+```
+
+This is why the selective layer matters for good as well as harm. A system can learn to produce a local good and still damage the wider field. It can also learn a real good: feeding, teaching, warning, protecting, including, restoring, coordinating, or keeping repair reachable.
+
+The question is not whether there is reward. The question is what form of becoming the reward is training.
+
 ## 3.6 When Systems Learn the Wrong Thing
 
 A system can learn the wrong thing without being stupid.

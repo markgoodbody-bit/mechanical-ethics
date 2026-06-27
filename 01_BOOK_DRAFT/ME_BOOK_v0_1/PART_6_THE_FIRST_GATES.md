@@ -44,6 +44,47 @@ These gates are not enough.
 
 But without them, later ethics is already compromised.
 
+## 6.1.1 Gates Also Block False Goods
+
+The gates do not only protect against hidden harm. They also protect against false good.
+
+A false good is a claimed benefit that depends on a corrupted record: loss hidden, scope erased, uncertainty cleaned, repair overstated, channel burden ignored, clock controlled by the actor, or emergency used as amnesia.
+
+```trace
+false_good_gate_function :=
+  prevent_bad_from_looking_good
+  + prevent_partial_good_from_looking_total
+  + prevent_benefit_from_becoming_absolution
+```
+
+This matters because many dangerous systems do not present themselves as harmful. They present themselves as efficient, safe, evidence-led, fair, necessary, innovative, or protective. Some of those claims may be partly true. The gate does not dismiss benefit. It asks what the benefit is hiding, who carries its cost, and whether correction remains live.
+
+```trace
+first_gates_reframed :=
+  do_not_hide_loss
+  because_hidden_loss_can_make_bad_look_good
+
+  do_not_erase_scopes
+  because_erased_scopes_can_make_partial_good_look_total
+
+  do_not_fake_certainty
+  because_uncertainty_erasure_can_make_guess_look_truth
+
+  do_not_pretend_repair
+  because_record_correction_can_make_residue_disappear
+
+  do_not_let_channels_harm
+  because_the_route_to_good_can_become_the_damage
+
+  do_not_let_actor_set_all_clocks
+  because_power_can_define_urgency_to_clear_itself
+
+  do_not_launder_emergency
+  because_necessity_can_clean_prior_failure
+```
+
+So the first gates do not say, "there is no good here." They say: no claimed good may proceed on a falsified account.
+
 ## 6.2 Do Not Hide Loss
 
 The first gate is simple:
