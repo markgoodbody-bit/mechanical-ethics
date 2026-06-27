@@ -24,6 +24,21 @@ Mechanical Ethics should not become that.
 
 The use protocols are not the soul of the book. They are the handle. They help a reader, reviewer, institution, or system apply the argument without silently changing it.
 
+The shortest adequate record is usually the best record.
+
+```trace
+protocol_minimization_rule :=
+  use_smallest_record
+  that_preserves_route_visibility
+  + uncertainty_status
+  + affected_scope
+  + timing
+  + residue
+  + responsibility_remaining
+```
+
+A low-stakes case should not become a ceremonial file. A high-stakes case should not be compressed until the harm path disappears. The point is not to create paperwork. The point is to keep a live route from question to finding without hiding the parts that matter.
+
 ## 14.2 How to Build a Case Record
 
 A case record begins with the decision or question on the table.
@@ -371,6 +386,8 @@ Part 14 is not a new bureaucracy.
 It is a way to keep the book's argument from drifting when applied.
 
 Use the full operator schema for serious cases. Use the minimum viable record for early worked examples. Use the smoke test to check that the system does not overinflate modest cases. Use the challenger function to catch laundering.
+
+Use less than the full schema when the case is small. Use more only when the missing detail would materially change the finding. The case record should grow because the situation demands it, not because the framework wants to display itself.
 
 ```trace
 use_protocol_summary :=
