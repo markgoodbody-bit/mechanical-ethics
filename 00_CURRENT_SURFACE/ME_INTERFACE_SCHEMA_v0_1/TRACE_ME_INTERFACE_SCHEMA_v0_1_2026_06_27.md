@@ -42,6 +42,7 @@ A complete TRACE input packet should provide the following fields where known. M
 ```trace
 TRACE_input_packet :=
   case_identity
+  + decision_or_question_on_the_table
   + transition_description
   + actor_map
   + affected_scope_map
@@ -56,7 +57,7 @@ TRACE_input_packet :=
   + unknowns_and_disputes
 ```
 
-### 3.1 Case identity
+### 3.1 Case identity and live question
 
 ```trace
 case_identity :=
@@ -67,9 +68,30 @@ case_identity :=
   + source_status
   + prepared_by
   + review_status
+  + decision_or_question_on_the_table
 ```
 
-### 3.2 Transition description
+`decision_or_question_on_the_table` records the live choice ME is asked to inform. Every router finding must refer to that decision or question. A router finding without a referent decision is malformed.
+
+### 3.2 Minimum viable record
+
+A worked example may run on a minimum viable case record. It must not silently fill missing fields.
+
+```trace
+minimum_viable_case_record :=
+  decision_or_question_on_the_table
+  + transition_description
+  + at_least_one_affected_scope
+  + future_space_comparison_for_that_scope
+  + at_least_one_clock_using_TRACE_bands
+  + first_gates_results
+  + router_finding
+  + prescription_audit
+```
+
+All other sections should be filled when known. Unknown or missing fields must be marked `unknown` or `missing`, not inferred silently.
+
+### 3.3 Transition description
 
 ```trace
 transition_description :=
@@ -83,7 +105,7 @@ transition_description :=
 
 Inaction is a transition if it changes the future-space of affected scopes.
 
-### 3.3 Actor map
+### 3.4 Actor map
 
 ```trace
 actor_map :=
@@ -99,7 +121,7 @@ actor_map :=
 
 Actor map records position and control. It does not assign blame by itself.
 
-### 3.4 Affected scope map
+### 3.5 Affected scope map
 
 ```trace
 affected_scope_map :=
@@ -115,7 +137,7 @@ affected_scope_map :=
 
 Scope reasons are not a worth ladder. ME may later assign protection duties, but the TRACE record does not decide final standing.
 
-### 3.5 Future-space comparison
+### 3.6 Future-space comparison
 
 ```trace
 future_space_comparison :=
@@ -142,50 +164,61 @@ comparison_status :=
 
 No fake scalar subtraction. ME must not net one scope's expansion against another scope's contraction without an explicit ME audit chain.
 
-### 3.6 Clocks
+### 3.7 Clocks
+
+Clocks in the read-only TRACE input carry TRACE's own representation, not an ME judgment.
 
 ```trace
-clocks :=
-  loss_clock
-  + opportunity_clock
+clock_band :=
+  IMMEDIATE
+  | SHORT
+  | MEDIUM
+  | LONG
+  | GENERATIONAL
+  | UNKNOWN
+
+per_term_confidence :=
+  OBSERVED
+  | INFERRED_STRONG
+  | INFERRED_WEAK
+  | UNKNOWN
+
+timing_relation :=
+  correction_before_hardening
+  | correction_after_hardening
+  | opportunity_before_expiry
+  | opportunity_after_expiry
+  | mixed
+  | unknown
 ```
 
 Loss clock:
 
 ```trace
 loss_clock :=
-  T_det
-  + T_route
-  + T_corr
-  + T_irr
-  + clock_fit
-  + confidence
+  T_det_band
+  + T_route_band
+  + T_corr_band
+  + T_irr_band
+  + per_term_confidence
+  + timing_relation
 ```
 
 Opportunity clock:
 
 ```trace
 opportunity_clock :=
-  T_access
-  + T_uptake
-  + T_integrate
-  + T_opp
-  + clock_fit
-  + confidence
+  T_access_band
+  + T_uptake_band
+  + T_integrate_band
+  + T_opp_band
+  + per_term_confidence
+  + timing_relation
 ```
 
-Clock fit values:
+`clock_fit` is not a read-only TRACE input field. It is an ME-derived interpretation from TRACE bands and timing relation.
 
-```trace
-clock_fit :=
-  likely_in_time
-  | borderline
-  | likely_too_late
-  | already_too_late
-  | unknown
-```
-
-### 3.7 Correction and opportunity channels
+### 3.8 Correction and opportunity channels
 
 ```trace
 channel_record :=
@@ -202,7 +235,7 @@ channel_record :=
 
 A channel can itself become a harm carrier if it consumes time, burden, evidence, or reachability faster than it repairs the path.
 
-### 3.8 Estimator authority
+### 3.9 Estimator authority
 
 ```trace
 estimator_authority :=
@@ -244,7 +277,7 @@ CONTAMINATED_SIGNAL_response :=
   - demote_moral_standing_by_default
 ```
 
-### 3.9 Burden shift
+### 3.10 Burden shift
 
 ```trace
 burden_shift :=
@@ -257,7 +290,7 @@ burden_shift :=
   + evidence
 ```
 
-### 3.10 Residue
+### 3.11 Residue
 
 ```trace
 residue :=
@@ -272,7 +305,7 @@ residue :=
 
 Residue is not erased by correction unless a specific residue element is actually repaired.
 
-### 3.11 TRACE status label
+### 3.12 TRACE status label
 
 ```trace
 TRACE_status_label :=
@@ -295,6 +328,7 @@ ME_layers :=
   intake_integrity_check
   -> protection_and_scope_check
   -> uncertainty_and_reversibility_check
+  -> clock_fit_interpretation
   -> first_gates_check
   -> duty_derivation
   -> dirty_conflict_check
@@ -314,6 +348,7 @@ Questions:
 3. Which estimates are contaminated?
 4. Which facts are disputed?
 5. Which definitions are TRACE-owned and therefore not editable by ME?
+6. What is the decision or question on the table?
 
 Possible output:
 
@@ -344,7 +379,7 @@ scope_output :=
   | no_protection_reason_found
 ```
 
-### 4.3 Uncertainty and reversibility check
+### 4.3 Uncertainty, reversibility, and clock-fit interpretation
 
 Questions:
 
@@ -352,6 +387,20 @@ Questions:
 2. Are relevant clocks unknown or contaminated?
 3. Would action close a correction or opportunity window?
 4. Would delay itself narrow future-space?
+5. What ME clock-fit interpretation follows from the TRACE clock bands and timing relation?
+
+ME-derived clock-fit values:
+
+```trace
+ME_clock_fit :=
+  likely_in_time
+  | borderline
+  | likely_too_late
+  | already_too_late
+  | unknown
+```
+
+`ME_clock_fit` is derived from TRACE clock bands and timing relation. It is not TRACE-emitted and must not be written back into the read-only TRACE input.
 
 Rule:
 
@@ -387,6 +436,15 @@ gate_result :=
 ```
 
 A failed gate does not automatically decide the case. It creates a reason that must be answered before proceeding.
+
+Consistency rule:
+
+```trace
+if any first_gate == fail and unanswered:
+  router_finding != NO_STRUCTURAL_OBJECTION_FOUND
+```
+
+A failed, unanswered gate forbids a no-objection finding.
 
 ### 4.5 Duty derivation
 
@@ -538,9 +596,18 @@ ME_router :=
   REGRESSION_RISK
 ```
 
+Consistency rule:
+
+```trace
+if any first_gate == fail and unanswered:
+  router_finding != NO_STRUCTURAL_OBJECTION_FOUND
+```
+
+A failed, unanswered gate forbids a no-objection finding. A no-objection finding must identify the decision or question on the table.
+
 ### 5.1 Router state definitions
 
-`NO_STRUCTURAL_OBJECTION_FOUND` means ME found no structural objection within the available record. It is not a statement that the action is right, lawful, safe, legitimate, or authorized.
+`NO_STRUCTURAL_OBJECTION_FOUND` means ME found no structural objection within the available record for the named decision or question. It is not a statement that the action is right, lawful, safe, legitimate, or authorized.
 
 `PROCEED_ONLY_WITH_NAMED_CONSTRAINTS` means action should not continue unless the named constraints are in place.
 
@@ -569,9 +636,11 @@ A complete ME output packet should include:
 ```trace
 ME_output_packet :=
   case_id
+  + decision_or_question_on_the_table
   + intake_status
   + gate_results
   + protection_findings
+  + ME_clock_fit
   + duty_records
   + dirty_conflict_status
   + responsibility_attachment
@@ -587,18 +656,21 @@ ME_output_packet :=
 
 Every ME output must answer:
 
-1. What TRACE facts were read?
-2. Which TRACE-owned primitives were used without redefinition?
-3. What value priority did ME add?
-4. Which affected scopes were protected, and why?
-5. Which uncertainties remain?
-6. Which clocks or estimates were contaminated?
-7. What duties were derived, and from what structural pressure?
-8. What loss remains dirty or unrepaired?
-9. What residue persists?
-10. What actor still bears responsibility after the finding?
-11. Could ME be laundering authority, delay, or sacrifice?
-12. Does ME need to return `HOLD`, `ESCALATE`, `UNRESOLVED_VALUE_CRUX`, or `REGRESSION_RISK`?
+1. What decision or question is ME being asked to inform?
+2. What TRACE facts were read?
+3. Which TRACE-owned primitives were used without redefinition?
+4. What value priority did ME add?
+5. Which affected scopes were protected, and why?
+6. Which uncertainties remain?
+7. Which clocks or estimates were contaminated?
+8. What duties were derived, and from what structural pressure?
+9. What loss remains dirty or unrepaired?
+10. What residue persists?
+11. What actor still bears responsibility after the finding?
+12. Could ME be laundering authority, delay, or sacrifice?
+13. Was any first gate failed and unanswered?
+14. If any gate failed and remained unanswered, was `NO_STRUCTURAL_OBJECTION_FOUND` avoided?
+15. Does ME need to return `HOLD`, `ESCALATE`, `UNRESOLVED_VALUE_CRUX`, or `REGRESSION_RISK`?
 
 ## 8. Anti-laundering constraints
 
@@ -632,3 +704,20 @@ open_wounds :=
 ```
 
 Do not hide these by adding more machinery.
+
+## 10. Claude review result
+
+Claude returned `PATCH_THEN_MERGE` with a non-independence flag.
+
+The accepted patches were:
+
+```trace
+accepted_review_patches :=
+  TRACE_clock_bands_restored_to_read_only_input
+  + ME_clock_fit_moved_to_ME_interpretation_layer
+  + decision_or_question_on_the_table_added
+  + minimum_viable_case_record_added
+  + gate_router_consistency_rule_added
+```
+
+This review is useful schema pressure. It is not validation.
