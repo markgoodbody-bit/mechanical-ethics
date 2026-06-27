@@ -37,6 +37,49 @@ This is also why benefit cannot be reduced to pleasure.
 
 A system may benefit a scope by expanding options, increasing practical reachability, or improving usable information. But even expansion needs caution. One scope's expansion may be bought by another scope's contraction. Mechanical Ethics must not hide that exchange.
 
+## 4.1.1 Viable Future-Space
+
+Future-space is not a raw option count.
+
+More options are not automatically better. Some options are traps. Some are addictive. Some are coercive. Some destroy the chooser's later capacity to choose. Some expand one scope by narrowing another. Some appear as freedom while removing correction, relation, memory, or repair.
+
+So the book needs a more careful term when it speaks about value:
+
+```trace
+viable_future_space :=
+  future_space
+  that_supports
+    continuation
+    + orientation
+    + capacity
+    + relation
+    + repairability
+    + meaningful_choice
+  under_uncertainty
+```
+
+This does not replace TRACE's future-space representation. It is ME's evaluative reading of what kinds of future-space appear to support viable becoming for named scopes under stated uncertainty.
+
+```trace
+raw_future_space_expansion != good
+viable_future_space_expansion := candidate_good
+```
+
+The distinction protects the book from a false simplicity. An action can expand options and still be ethically bad if the expansion depends on hidden burden, corrupted information, erased scopes, blocked correction, or irreversible loss elsewhere.
+
+Likewise, a constraint can narrow local options and still be candidate-good if it preserves longer-horizon viable becoming while keeping burden visible and correction live.
+
+```trace
+good_constraint :=
+  local_option_narrowing
+  that_preserves_or_expands
+  longer_horizon_viable_future_space
+  with_visible_burden
+  + correction_route
+```
+
+The question is therefore not only whether future-space expands or contracts. It is whose future-space, what kind, on what time horizon, with what remaining burden, and with what confidence.
+
 ## 4.2 Options, Reachability, and Information
 
 The three parts of future-space separate mistakes that are often confused.
@@ -138,6 +181,21 @@ The first lie says: because there is harm, there can be no benefit.
 The second says: because there is benefit, the harm has disappeared.
 
 Neither is good enough.
+
+This produces the companion rule to description is not permission:
+
+```trace
+benefit_is_not_absolution :=
+  claimed_good
+  must_still_name
+    affected_scopes
+    + what_expands
+    + what_contracts
+    + what_burden_remains
+    + what_correction_stays_live
+```
+
+A claimed good can be real and still incomplete. It can expand future-space for one scope while narrowing it for another. It can reduce one harm while creating residue elsewhere. Therefore benefit must be audited, not worshipped.
 
 ## 4.5 Loss Clocks
 
