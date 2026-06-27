@@ -6,6 +6,7 @@ Purpose:
 - Keep user-facing ZIPs under 10 files.
 - Preserve the repo's editable multi-file book structure.
 - Generate one consolidated full reader from the source book files.
+- Keep the export pack aligned with the value-spine propagation pass.
 
 Run from the repository root:
 
@@ -89,7 +90,7 @@ def require_sources(repo_root: Path) -> None:
 def build_full_reader(repo_root: Path) -> str:
     sections = [
         "# Mechanical Ethics — Book v0.1 — Full Reader\n\n"
-        "Status: first full wide-pass draft with second-pass structural patch. "
+        "Status: first full wide-pass draft with value-spine propagation across Parts 1-15. "
         "Not canon. Not public release. Not validation. Not final moral law.\n\n"
         "Generated from source files in `01_BOOK_DRAFT/ME_BOOK_v0_1/`.\n"
     ]
@@ -112,7 +113,7 @@ def start_here(pack_name: str) -> str:
     ```trace
     ME_book_v0_1_export_status :=
       first_full_wide_pass_draft
-      + second_pass_structural_patch_applied
+      + value_spine_propagated_parts_1_to_15
       + compact_export_pack
       + not_canon
       + not_public_release
@@ -121,6 +122,18 @@ def start_here(pack_name: str) -> str:
     ```
 
     Use this pack for review, reading, or model ingestion where a small number of files is preferable.
+
+    Current spine:
+
+    ```trace
+    ME_book_current_spine :=
+      answerable_transition_under_uncertainty
+      + viable_becoming_candidate
+      + claimed_good_audit
+      + honest_burden_record
+      + residue_visibility
+      + actor_answerability
+    ```
 
     File count discipline:
 
@@ -148,7 +161,7 @@ def status_limits() -> str:
     ```trace
     status :=
       first_full_wide_pass_draft
-      + second_pass_structural_patch_applied
+      + value_spine_propagated_parts_1_to_15
       + structurally_reviewed_in_loop
       + not_validated
     ```
@@ -163,14 +176,17 @@ def status_limits() -> str:
       + TRACE_in_the_walls
       + description_is_not_permission
       + first_gates_earned
-      + protection_scope_floor_candidate_added
+      + protection_as_viable_becoming_added
       + correction_repair_residue_split
-      + dirty_conflict_routing_added
-      + responsibility_without_hindsight_blame
-      + coercion_force_hard_no_boundaries_added
-      + civilization_case_anchors_added
+      + repair_as_reopened_viable_future
+      + dirty_conflict_as_incompatible_viable_becoming
+      + responsibility_for_seen_openings_and_closures
+      + power_over_viable_becoming
+      + civilization_as_shared_correctability_and_shared_viable_becoming
       + AI_split_preserved
-      + protocol_minimization_rule_added
+      + local_reward_not_structural_good
+      + claimed_good_audit_added
+      + protocol_minimization_rule_preserved
     ```
 
     Remaining open wounds:
@@ -178,6 +194,7 @@ def status_limits() -> str:
     ```trace
     open_wounds :=
       final_floor_foundation_for_scope_protection
+      + final_theory_of_the_good
       + acceptable_sacrifice
       + full_legitimacy_theory
       + punishment_and_desert
@@ -189,14 +206,26 @@ def status_limits() -> str:
       + validation_of_usefulness
     ```
 
+    Current value-spine limit:
+
+    ```trace
+    viable_becoming_status :=
+      candidate_structural_account
+      + not_final_theory_of_good
+      + must_remain_scoped
+      + must_remain_revisable
+    ```
+
     Main next-pass risk:
 
     ```trace
     next_pass_risk :=
       prose_polish_before_case_pressure
+      + viable_becoming_used_as_slogan
+      + claimed_good_used_as_clearance
     ```
 
-    Do not polish yet. Add case pressure first.
+    Do not polish yet. Add small case pressure first.
     """
 
 
@@ -212,6 +241,7 @@ def case_record_template() -> str:
       + transition_description
       + at_least_one_affected_scope
       + future_space_comparison_for_that_scope
+      + viable_becoming_record
       + at_least_one_clock_using_TRACE_bands
       + first_gates_results
       + router_finding
@@ -228,27 +258,54 @@ def case_record_template() -> str:
 
     ## 3. Affected scope or scopes
 
-    Who or what may have future-space changed?
+    Who or what may have future-space or viable becoming changed?
 
     ## 4. Future-space comparison
 
     Record options, reachability, and usable information where possible. Do not fake scalar math.
 
-    ## 5. Clock
+    ## 5. Viable becoming record
+
+    ```trace
+    viable_becoming_record :=
+      affected_scope
+      + continuation_change
+      + orientation_change
+      + capacity_change
+      + relation_change
+      + repairability_change
+      + meaningful_future_space_change
+      + confidence
+    ```
+
+    ## 6. Clock
 
     Identify loss clock, opportunity clock, correction timing, or UNKNOWN.
 
-    ## 6. First gates
+    ## 7. Claimed-good audit
 
-    Check hidden loss, erased scopes, uncertainty, residue, channel harm, clock-setting, emergency laundering.
+    ```trace
+    claimed_good_audit :=
+      what_good_is_claimed
+      + for_whom
+      + what_viable_becoming_expands
+      + what_viable_becoming_contracts
+      + who_carries_cost_or_risk
+      + what_correction_stays_live
+      + what_residue_remains
+    ```
 
-    ## 7. Router finding
+    ## 8. First gates
+
+    Check hidden loss, erased scopes, uncertainty, residue, channel harm, clock-setting, emergency laundering, and benefit laundering.
+
+    ## 9. Router finding
 
     Use findings narrowly. Findings are not authorizations.
 
-    ## 8. Prescription audit
+    ## 10. Prescription audit
 
-    Name value priority added, dirty or unrepaired loss, residue, responsibility remaining, and laundering risk.
+    Name value priority added, claimed good, dirty or unrepaired loss, residue, responsibility remaining, and laundering risk.
     """
 
 
@@ -260,12 +317,12 @@ def next_pass_plan() -> str:
 
     ```trace
     next_pass_order :=
-      small_case_threads
-      -> scope_floor_pressure_tests
-      -> dirty_conflict_worked_case
-      -> administrative_delay_case
-      -> algorithmic_classification_case
-      -> animal_ecology_dirty_conflict_case
+      integrity_check
+      -> small_case_threads
+      -> positive_route_with_burden_case
+      -> administrative_delay_late_correction_case
+      -> algorithmic_classification_false_positive_case
+      -> dirty_conflict_case
       -> only_then_prose_tightening
     ```
 
@@ -276,10 +333,21 @@ def next_pass_plan() -> str:
     ```trace
     case_set :=
       routine_low_fit_coordination
+      + positive_route_with_burden
       + administrative_delay_late_correction
       + algorithmic_classification_false_positive
       + animal_ecology_dirty_conflict
       + emergency_power_with_prior_neglect
+    ```
+
+    Immediate test questions:
+
+    ```trace
+    immediate_test_questions :=
+      does_the_value_spine_catch_real_good_without_cleaning_loss
+      + does_claimed_good_audit_prevent_benefit_laundering
+      + does_viable_becoming_remain_probe_not_total_doctrine
+      + does_low_fit_case_return_small_output
     ```
 
     File discipline:
