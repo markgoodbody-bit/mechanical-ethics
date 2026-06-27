@@ -24,7 +24,7 @@ ME_book :=
   -> interaction
   -> layers
   -> future_space_and_time
-  -> TRACE_ME_interface
+  -> description_is_not_permission
   -> anti_laundering_gates
   -> protection_and_scope
   -> correction_and_residue
@@ -33,13 +33,13 @@ ME_book :=
   -> power_and_coercion
   -> civilization
   -> artificial_systems
-  -> use_protocols
+  -> use_protocols_and_operator_interface
   -> limits
 ```
 
 Plain English:
 
-The book begins with a reader as an acting entity under uncertainty. It then shows that action changes a shared world where other entities also continue. Because time closes paths, correction can arrive too late, opportunity can expire, and residue can remain. From those pressures, the book earns its first constraints. It then builds duties, responsibility rules, dirty-conflict handling, legitimacy questions, and civilization-scale principles. It ends with limits rather than triumph.
+The book begins with a reader as an acting entity under uncertainty. It then shows that action changes a shared world where other entities also continue. Because time closes paths, correction can arrive too late, opportunity can expire, and residue can remain. From those pressures, the book earns its first constraints. It then builds duties, responsibility rules, dirty-conflict handling, legitimacy questions, and civilization-scale principles. The artifact-to-artifact TRACE→ME interface is not part of the human argument spine; it belongs in the use protocols and appendices. The book ends with limits rather than triumph.
 
 ## 2. The path the reader should experience
 
@@ -50,6 +50,7 @@ reader_path :=
   -> "I am not alone"
   -> "my action changes future-space"
   -> "uncertainty and time make this dangerous"
+  -> "description is not permission"
   -> "some things must not be hidden"
   -> "some protections and duties follow"
   -> "some conflicts remain dirty"
@@ -112,7 +113,7 @@ Chapters:
 Chapter functions:
 
 - `1.1` establishes presence without metaphysical overbuild.
-- `1.2` establishes partial perception and uncertainty.
+- `1.2` establishes partial perception and uncertainty, including the fact that the actor's own view of timing, burden, or repair may be incomplete or interested.
 - `1.3` establishes action and causal effect.
 - `1.4` blocks certainty claims from the start.
 - `1.5` makes timing first-class.
@@ -149,8 +150,8 @@ Chapters:
 Chapter functions:
 
 - `2.1` moves from isolated aperture to shared world.
-- `2.2` establishes continuation as ethically relevant before final standing is settled.
-- `2.3` introduces interference.
+- `2.2` establishes continuation as ethically relevant before final standing is settled, and establishes that others' stakes cannot be timed only by the actor who caused or benefits from a loss.
+- `2.3` introduces interference, including the fact that routes, channels, and safeguards are themselves acting structures that can narrow future-space.
 - `2.4` introduces incompatible futures.
 - `2.5` shows conflict before moral vocabulary.
 
@@ -222,62 +223,54 @@ Chapter functions:
 - `4.2` separates options, reachability, and navigational information.
 - `4.3` shows harm as contraction without reducing harm to pain.
 - `4.4` shows expansion without treating every expansion as justified.
-- `4.5` introduces loss clocks.
+- `4.5` introduces loss clocks and the problem that the party who caused, controls, or benefits from a loss is not a neutral timer of it.
 - `4.6` introduces opportunity clocks.
-- `4.7` converts late correction into ethical pressure.
+- `4.7` converts late correction into ethical pressure and establishes that a correction route can itself become a harm carrier if it consumes time, burden, evidence, or reachability faster than it repairs the path.
 - `4.8` converts expired opportunity into ethical pressure.
 
-## 8. Part 5 — The TRACE → ME Interface
+## 8. Part 5 — Description Is Not Permission
 
-Function: make the firewall explicit.
+Function: keep the human argument moving while preserving the TRACE/ME firewall.
 
-TRACE output is read-only for ME. ME may consume it, interpret it, and add prescriptive logic. It may not rewrite TRACE facts to make judgment easier.
+Placement correction:
+
+Part 5 is not the artifact-to-artifact TRACE→ME interface. That operator/builder material belongs in Part 14 or an appendix. A TRACE-naive reader must be able to read Part 4 → Part 6 without a technical detour.
+
+The human principle kept in the spine is this:
 
 ```trace
-TRACE_description != ME_permission
-ME_router_output != permission_to_act
+description_is_not_permission :=
+  seeing_a_transition
+  != authorizing_that_transition
 ```
+
+A description can show loss, timing, burden, residue, or risk. It does not by itself justify action. ME may recommend, constrain, halt, escalate, or record duties, but no finding discharges the actor's responsibility.
 
 Chapters:
 
 ```text
-5.1 Description Is Read-Only
-5.2 What TRACE Provides
-5.3 What ME Adds
-5.4 Router Labels
-5.5 Value-Crux Exits
-5.6 Contaminated Signals
-5.7 The Residue Ledger
-5.8 The Prescription Audit
+5.1 Seeing Is Not Deciding
+5.2 Description Is Not Permission
+5.3 Findings Are Not Authorizations
+5.4 The Actor Still Answers
 ```
 
 Chapter functions:
 
-- `5.1` establishes single-source boundary.
-- `5.2` lists transition, scopes, future-space comparison, clocks, channels, residue, status, and confidence.
-- `5.3` lists protection, duty, constraint, repair, compensation, escalation, hold, and residue recording.
-- `5.4` maps TRACE labels to ME handling without treating them as permission.
-- `5.5` explains when TRACE exits into ME value-crux space.
-- `5.6` says contaminated signal demotes evidential authority, not moral standing.
-- `5.7` makes residue persistent.
-- `5.8` forces every prescription through an audit chain.
+- `5.1` keeps the reader from treating visibility as settled judgment.
+- `5.2` states the firewall in human terms before any operator schema appears.
+- `5.3` blocks router outputs from becoming permission slips.
+- `5.4` preserves responsibility for the person or institution acting.
 
-Core router correction:
+Moved material:
 
 ```trace
-ME_router :=
-  NO_STRUCTURAL_OBJECTION_FOUND
-  PROCEED_ONLY_WITH_NAMED_CONSTRAINTS
-  PAUSE
-  HALT
-  ESCALATE
-  REPAIR_REQUIRED
-  COMPENSATION_REQUIRED
-  INDEPENDENT_REVIEW_REQUIRED
-  HOLD
-  UNRESOLVED_VALUE_CRUX
-  REGRESSION_RISK
+interface_plumbing_moved_to :=
+  Part_14
+  + appendices
 ```
+
+Moved material includes router-label mapping, residue ledger mechanics, prescription audit, contaminated-signal handling, and full TRACE→ME case-record schema.
 
 ## 9. Part 6 — The First Gates
 
@@ -311,6 +304,23 @@ Chapters:
 Chapter functions:
 
 Each chapter must show the structural chain from earlier premise to gate. If it cannot, the gate is not ready.
+
+Gate-earning correction:
+
+```trace
+channel_can_harm :=
+  seeded_in_Part_2
+  + seeded_in_Part_4_7
+
+clock_setter_has_incentive :=
+  seeded_in_Part_1_2
+  + seeded_in_Part_2_2
+  + seeded_in_Part_4_5
+```
+
+Plain English:
+
+Gate `6.5` is earned because a correction route is itself an acting structure and can narrow future-space through delay, burden, evidence loss, or unreachable process. Gate `6.6` is earned because the party that caused, controls, or benefits from a loss is not a neutral timer of when the loss hardens.
 
 ## 10. Part 7 — Protection, Standing, and Scope
 
@@ -555,24 +565,37 @@ Do not present corrigible constraint as settled doctrine.
 
 ## 17. Part 14 — Case Records and Use Protocols
 
-Function: make ME usable and testable.
+Function: make ME usable and testable. This is where the artifact-to-artifact TRACE→ME interface belongs.
 
 Chapters:
 
 ```text
 14.1 How to Build a Case Record
 14.2 TRACE on the Left, ME on the Right
-14.3 Router Labels
+14.3 Router Labels as Findings, Not Authorizations
 14.4 Prescription Audit
 14.5 Residue Ledger
 14.6 Challenger Function
-14.7 Worked Case 1 — Human Administrative Route
-14.8 Worked Case 2 — Platform or Algorithmic System
-14.9 Worked Case 3 — Dirty Conflict
-14.10 Low-Fit Case Returning COMPRESSION_ONLY
+14.7 Contaminated Signals and Estimator Authority
+14.8 Worked Case 1 — Human Administrative Route
+14.9 Worked Case 2 — Platform or Algorithmic System
+14.10 Worked Case 3 — Dirty Conflict
+14.11 Low-Fit Case Returning COMPRESSION_ONLY
 ```
 
 This part should become the practical bridge between book and use. It should include templates, not just explanation.
+
+Moved interface material:
+
+```trace
+moved_interface_material :=
+  TRACE_outputs_read_only
+  + router_label_mapping
+  + residue_ledger_mechanics
+  + prescription_audit
+  + contaminated_signal_handling
+  + full_TRACE_ME_case_record_schema
+```
 
 ## 18. Part 15 — Limits, Failures, and Open Questions
 
@@ -600,6 +623,7 @@ acceptance_tests :=
   start_is_middle_out
   + reader_can_follow_without_TRACE
   + TRACE_reader_sees_same_grammar
+  + interface_plumbing_not_in_human_spine
   + first_prescriptions_are_earned
   + router_outputs_not_authorizations
   + dirty_conflict_not_laundered
@@ -616,8 +640,27 @@ If this skeleton survives review:
 ```trace
 next :=
   TRACE_ME_interface_schema_v0_1
+  + move_interface_plumbing_to_appendix_or_Part_14
   + opening_page_seed
   + case_record_template
 ```
 
 Do not draft full chapters until the skeleton survives review or narrow patch.
+
+## 21. Claude review result
+
+Claude returned `PATCH_THEN_MERGE` with a non-independence flag.
+
+The accepted patches were:
+
+```trace
+accepted_review_patches :=
+  Part_5_placement_correction
+  + interface_plumbing_moved_to_Part_14_or_appendix
+  + description_is_not_permission_kept_in_human_spine
+  + channel_can_harm_seeded_before_first_gates
+  + clock_setter_has_incentive_seeded_before_first_gates
+  + next_block_updated_for_interface_relocation
+```
+
+This review is useful skeleton pressure. It is not validation.
