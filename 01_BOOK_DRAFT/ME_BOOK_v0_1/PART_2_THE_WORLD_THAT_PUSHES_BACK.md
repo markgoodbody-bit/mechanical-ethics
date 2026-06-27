@@ -55,6 +55,38 @@ It says: before deciding what kind of protection is owed, first do not erase tha
 
 The other continuation may later receive strong protection, weak protection, precautionary protection, or no special protection beyond ordinary record. But it should not disappear before the question is asked.
 
+## 2.2.1 Good for One, Bad for Another
+
+The first positive structure is also the first conflict structure.
+
+What supports one continuation may damage another. What expands one entity's reach may narrow another's. What feels like safety to one group may feel like coercion to another. What keeps one institution stable may route uncertainty onto a person, animal, place, or future scope that cannot answer back in time.
+
+```trace
+cross_scope_value_pressure :=
+  good_for_A
+  may_be_bad_for_B
+  under_uncertainty
+```
+
+This does not mean all benefits are suspect. Benefit is real. Shared benefit is real. Cooperation is real. A system may expand reachability for many scopes at once. A relation may make both parties more capable. A repair may genuinely reopen future-space.
+
+But once more than one continuation exists, a clean label is not enough.
+
+```trace
+good_bad_record :=
+  good_for_whom
+  + bad_for_whom
+  + over_what_time
+  + at_what_scope
+  + with_what_cost
+  + with_what_repair_path
+  + with_what_confidence
+```
+
+The book therefore asks not only, "is this good?" It asks: good for whom, across what clock, with what burden, under what uncertainty, and what remains answerable afterward?
+
+This is where ethics begins to differ from appetite. An appetite can say: this expands my path. Ethics must ask who else is in the path.
+
 ## 2.3 Actions Interfere
 
 Two continuations can collide.
