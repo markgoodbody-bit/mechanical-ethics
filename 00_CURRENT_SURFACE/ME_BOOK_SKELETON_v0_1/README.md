@@ -31,6 +31,7 @@ non_negotiables :=
   + middle_out_origin
   + TRACE_owned_shared_primitives
   + router_outputs_are_findings_not_authorizations
+  + interface_plumbing_not_in_human_spine
   + dirty_conflicts_not_cleaned
   + Part_11_framing_not_solving
 ```
@@ -44,6 +45,7 @@ skeleton_test :=
     -> interaction
     -> time_pressure
     -> future_space
+    -> description_is_not_permission
     -> first_gates
     -> duties
     -> dirty_conflict
@@ -51,5 +53,7 @@ skeleton_test :=
     -> civilization
     -> limits
 ```
+
+A TRACE-naive reader must be able to read the human argument without detouring into artifact plumbing. The full TRACE→ME operator interface belongs in Part 14 or an appendix.
 
 If this path does not hold, prose drafting should not begin.
