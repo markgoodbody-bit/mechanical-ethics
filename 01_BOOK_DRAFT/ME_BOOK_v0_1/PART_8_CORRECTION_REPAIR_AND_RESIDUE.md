@@ -332,7 +332,7 @@ path_proof_positive_test :=
 
 Some things are not restored.
 
-Time is not always returned. Trust is not always restored. Opportunity is not always recreated. Health is not always recovered. A record scar may remain. A relationship may remain damaged. A person may remain altered by carrying the burden. A community may remember. An animal killed in a necessary cull does not become alive because the policy was justified. A future-space contraction may leave a shape that compensation cannot erase.
+Time is not always returned. Trust is not always restored. Opportunity is not always recreated. Health is not always recovered. A record scar may remain. A relationship may remain damaged. A person may remain altered by carrying the burden. A community may remember. Loss in a necessary dirty conflict is not undone merely because the policy was justified. A future-space contraction may leave a shape that compensation cannot erase.
 
 Mechanical Ethics calls this residue.
 
