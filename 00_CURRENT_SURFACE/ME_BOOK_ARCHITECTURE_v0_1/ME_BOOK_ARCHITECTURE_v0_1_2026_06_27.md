@@ -228,7 +228,7 @@ Purpose: restore causal, selective, and reflective layers without making them or
 
 ### Part 4 — Harm, Time, and Future-Space
 
-Purpose: connect harm, benefit, timing, opportunity, and correction.
+Purpose: connect harm, benefit, timing, opportunity, and correction. Part 4 explains TRACE-owned primitives for a TRACE-naive reader; it must quote and reference them, not redefine them.
 
 ```text
 4.1 Future-Space
@@ -385,6 +385,15 @@ dirty_conflict_protocol :=
   + choose_least_unrepairable_path_if_action_required
   + record_residue
   + assign_repair_duties
+
+choose_least_unrepairable_path_if_action_required :=
+  declared_value_tilt
+  + requires_its_own_audit_chain
+
+preserve_minimum_floors :=
+  open_wound
+  + floors_undefined
+  + who_sets_them_unresolved
 ```
 
 This does not clean the conflict. It prevents sacrifice laundering.
@@ -410,7 +419,7 @@ Responsibility requires visibility, action relevance, role connection, decision-
 
 ### Part 11 — Power, Legitimacy, and Coercion
 
-Purpose: begin the variables TRACE explicitly punts.
+Purpose: begin the variables TRACE explicitly punts. Highest `UNRESOLVED_VALUE_CRUX` risk. Desert, punishment, and legitimacy default to `UNRESOLVED_VALUE_CRUX` unless a structural chain is shown; this part frames, it does not solve.
 
 ```text
 11.1 Power That Changes Futures
@@ -481,6 +490,8 @@ Purpose: connect to AI and future minds without making the whole book only about
 
 ME can constrain artificial systems before deciding whether any artificial system is a protected scope.
 
+`Corrigible constraint` carries an open tension: maximal corrigibility trades against the capacity for binding commitment and trust. Mark as open, not settled.
+
 ### Part 14 — Case Records and Use Protocols
 
 Purpose: make the book operational.
@@ -525,18 +536,41 @@ handoff_rules :=
   + ME_may_not_treat_TRACE_status_as_permission
   + ME_must_record_when_it_adds_value_priority
   + ME_must_record_when_it_uses_domain_law_or_external_norms
+  + shared_primitives_are_TRACE_owned
+  + ME_may_explain_but_not_redefine_shared_primitives
+  + ME_quotes_canonical_TRACE_definition_and_marks_it_TRACE_owned
+  + if_definitions_diverge_TRACE_definition_governs
+```
+
+Shared TRACE-owned primitives include:
+
+```trace
+TRACE_owned_shared_primitives :=
+  future_space
+  + O_R_I
+  + loss_clock
+  + opportunity_clock
+  + residue
+  + estimator_status
 ```
 
 If ME finds TRACE insufficient, ME builds an adapter or requests more information. It does not rewrite TRACE.
 
 ## 9. Router states
 
-ME needs output states and fail states.
+ME needs output states and fail states. Router states are findings and recommendations, not authorizations.
+
+```trace
+router_states_are_findings_not_authorizations :=
+  ME_router_output := finding + recommendation + duty + constraint
+  ME_router_output != permission_to_act
+  no_router_state_discharges_actor_responsibility
+```
 
 ```trace
 ME_router :=
-  PERMIT
-  PERMIT_WITH_CONSTRAINTS
+  NO_STRUCTURAL_OBJECTION_FOUND
+  PROCEED_ONLY_WITH_NAMED_CONSTRAINTS
   PAUSE
   HALT
   ESCALATE
@@ -680,3 +714,20 @@ Review should focus on:
 6. Are fail states strong enough?
 7. Does the old trilogy leak too much structure into the new book?
 8. What is merge-blocking before first prose skeleton?
+
+## 15. Claude review result
+
+Claude returned `PATCH_THEN_MERGE` with a non-independence flag.
+
+The accepted patches were:
+
+```trace
+accepted_review_patches :=
+  shared_TRACE_primitives_single_source_rule
+  + router_outputs_are_findings_not_authorizations
+  + Part_11_framing_not_solving_warning
+  + dirty_conflict_value_tilt_and_floor_open_wound_flags
+  + corrigible_constraint_open_tension_flag
+```
+
+This review is useful architecture pressure. It is not validation.
