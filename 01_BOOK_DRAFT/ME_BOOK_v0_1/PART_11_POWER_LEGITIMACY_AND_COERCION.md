@@ -113,6 +113,29 @@ Coercion may sometimes be justified. But coercion should not be cleanly justifie
 
 The more coercive the action, the more serious the duty to preserve correction and record residue.
 
+### 11.3.1 Hard-No Constraints for Coercion and Force
+
+This part does not solve legitimacy. But it can still name some hard-no constraints.
+
+```trace
+coercion_hard_no_constraints :=
+  no_coercion_from_erased_scope
+  + no_irreversible_coercion_from_unchecked_contaminated_estimate
+  + no_force_without_named_authority_basis
+  + no_continuing_force_after_basis_expires
+  + no_emergency_power_without_expiry_or_review
+  + no_punishment_from_visibility_alone
+  + no_coercion_that_requires_false_cleanliness
+```
+
+These constraints are negative boundaries, not a positive theory of justified force.
+
+They say that coercive power fails before the harder legitimacy question is even reached if it depends on erased affected scopes, unchecked contaminated evidence, unnamed authority, expired basis, emergency without expiry, visibility-as-blame, or cleaned dirty loss.
+
+If one of these hard-no constraints is triggered, the likely router finding is `HALT`, `HOLD`, or `ESCALATE`, not `PROCEED_ONLY_WITH_NAMED_CONSTRAINTS`, unless an explicit dirty-conflict emergency chain explains why immediate constrained action is still required.
+
+The burden is on the actor using power to show the route. The burden is not on the affected scope to prove that invisible power is illegitimate.
+
 ## 11.4 Emergency Power
 
 Emergency compresses time.
@@ -343,7 +366,7 @@ The fact that force was once justified does not prove it remains justified.
 
 Part 11 must end with restraint.
 
-It has framed power as capacity to change future-space. It has offered a candidate structure for legitimacy as answerable authority. It has described coercion under uncertainty, emergency power, punishment constraints, dignity through recognition, authority expiry, and force audits.
+It has framed power as capacity to change future-space. It has offered a candidate structure for legitimacy as answerable authority. It has described coercion under uncertainty, hard-no constraints for coercion and force, emergency power, punishment constraints, dignity through recognition, authority expiry, and force audits.
 
 It has not solved political legitimacy.
 

@@ -274,6 +274,43 @@ A framework that always holds is not ethics either. It is paralysis.
 
 Dirty conflict is the place where Mechanical Ethics must show discipline: neither cleaning loss nor refusing responsibility merely because the answer is not pure.
 
+### 9.9.1 Dirty-Conflict Routing Table
+
+This table is not a solver. It is a routing guard against fake cleanliness.
+
+```trace
+dirty_conflict_routing :=
+  HALT when
+    proposed_path_crosses_known_floor
+    or proposed_path_depends_on_erased_scope
+    or proposed_path_requires_false_cleanliness
+
+  HOLD when
+    material_unknowns + irreversible_loss
+    and delay_does_not_create_greater_irreversible_loss
+
+  ESCALATE when
+    unresolved_value_crux
+    or coercive_authority_question
+    or inadequate_scope_representation
+    or contaminated_estimate_controls_material_loss
+
+  PROCEED_ONLY_WITH_NAMED_CONSTRAINTS when
+    action_is_needed_to_prevent_greater_or_faster_loss
+    + affected_scopes_named
+    + value_tilt_declared
+    + least_reachable_scope_accounted_for
+    + correction_or_residue_duties_attached
+
+  REPAIR_REQUIRED or COMPENSATION_REQUIRED when
+    dirty_loss_has_already_occurred
+    and remaining_duty_concerns_path_repair_or_burden_return
+```
+
+The table does not make a dirty conflict clean. It only blocks two common failures: acting as if necessity erased loss, and holding as if delay were outside the conflict.
+
+If the routing table cannot be filled without inventing facts, the case should not be forced into a confident output.
+
 Part 9 ends with the hardest practical instruction so far:
 
 ```trace
