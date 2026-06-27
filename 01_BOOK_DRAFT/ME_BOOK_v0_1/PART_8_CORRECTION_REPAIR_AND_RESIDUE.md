@@ -41,6 +41,39 @@ repair_question :=
 
 This is the beginning of repair discipline.
 
+### 8.1.1 Repair as Reopened Viable Future
+
+Repair is not only the removal of a bad mark. It is an attempt to reopen viable becoming where a transition damaged, narrowed, delayed, confused, isolated, or blocked it.
+
+```trace
+repair_as_reopened_viable_future :=
+  restore_or_reopen
+    continuation
+    + orientation
+    + capacity
+    + relation
+    + repairability
+    + meaningful_future_space
+  where_possible
+  + record_what_remains_closed
+```
+
+This keeps repair connected to the value spine. If a system damaged orientation, repair must restore usable information. If it damaged capacity, repair must support capacity where possible. If it damaged relation or trust, repair cannot be reduced to record correction. If it blocked meaningful future-space, repair must ask whether a real path can still be reopened.
+
+Repair therefore has a positive side. It is not only cleaning up after harm. It is a way of preserving or rebuilding the conditions under which a scope can continue and become.
+
+```trace
+repair_success_candidate :=
+  path_reopened
+  + burden_reduced
+  + usable_information_restored
+  + trust_partly_rebuilt
+  + recurrence_less_likely
+  + residue_honestly_carried
+```
+
+The word `candidate` remains. Repair success is not declared from above. It must be checked against affected scopes, timing, recurrence, and residue.
+
 ## 8.2 Repair Must Touch the Path
 
 Repair must touch the path that caused the harm.
@@ -76,7 +109,7 @@ A system that harms through recurrence cannot repair only the last visible case.
 
 Mechanical Ethics therefore treats repair as path-specific.
 
-The question is always: what mechanism narrowed future-space, and has that mechanism been constrained?
+The question is always: what mechanism narrowed future-space or blocked viable becoming, and has that mechanism been constrained?
 
 ## 8.3 Slow the Write
 
@@ -109,6 +142,16 @@ slow_write_options :=
 ```
 
 The point is to keep correction real while there is still something to correct.
+
+The positive form is to keep the window open.
+
+```trace
+keep_window_open :=
+  prevent_hardening
+  + preserve_contestability
+  + preserve_opportunity
+  + preserve_repairability
+```
 
 If the write cannot be slowed because urgent action is required, then the record should say why, what loss may be created, what residue may remain, and what repair duty follows.
 
@@ -147,6 +190,16 @@ This does not remove all responsibility from affected persons. It says the route
 
 If the system created the fog, it should not make the exposed person carry the whole lantern.
 
+Burden return also protects positive becoming. A person or scope carrying the system's uncertainty often loses capacity elsewhere: attention, time, trust, health, opportunity, relation, learning, or work. Routing burden back can therefore reopen more than the formal case.
+
+```trace
+burden_return_positive_effect :=
+  affected_scope_capacity_recovered
+  + usable_attention_returned
+  + trust_route_partly_restored
+  + opportunity_preserved_or_reopened
+```
+
 ## 8.5 Preserve Contradiction
 
 Repair requires contradiction to survive.
@@ -172,6 +225,8 @@ Mechanical Ethics does not say contradiction should always win.
 It says contradiction should not be erased before it can be tested, especially when the official path can harden faster than the challenge route.
 
 A system that cannot preserve contradiction cannot honestly claim robust correction.
+
+Preserved contradiction also preserves orientation. It keeps the affected scope from being forced into a false world where the official record is treated as the only reality.
 
 ## 8.6 Keep Contestability Live
 
@@ -208,6 +263,16 @@ contestability_support :=
 ```
 
 The point is not to make every action litigable forever. The point is to prevent systems from saying "you could have challenged" where challenge was practically unreachable until after the damage was done.
+
+Contestability is also a positive structure. It is part of what makes a future usable rather than merely possible. A scope that can challenge, correct, and return is less trapped by the first estimate made about it.
+
+```trace
+contestability_positive_function :=
+  preserves_orientation
+  + preserves_agency_under_pressure
+  + preserves_repairability
+  + limits_false_finality
+```
 
 ## 8.7 Proof Is Not Theatre
 
@@ -253,6 +318,16 @@ A cynical institution can produce theatre deliberately.
 
 The test is the same: did the path change?
 
+For value-spine purposes, a second test follows: did the change restore or preserve viable becoming, or only improve the institution's account of itself?
+
+```trace
+path_proof_positive_test :=
+  mechanism_changed
+  + affected_scope_can_navigate_better
+  + repair_route_more_reachable
+  + recurrence_less_likely
+```
+
 ## 8.8 Residue Remains
 
 Some things are not restored.
@@ -290,6 +365,24 @@ Without residue, institutions overclaim. They turn partial repair into full clos
 
 Residue keeps the remainder visible.
 
+### 8.8.1 Residue as Unrestored Becoming
+
+Residue is not only leftover harm. It is also the record of viable becoming not restored.
+
+```trace
+residue_as_unrestored_becoming :=
+  capacity_not_recovered
+  + trust_not_rebuilt
+  + relation_not_repaired
+  + opportunity_not_reopened
+  + orientation_not_restored
+  + recurrence_still_possible
+```
+
+This matters because a system can repair one layer while leaving another closed. It can correct a record but not rebuild trust. It can compensate money but not restore time. It can apologize but not reopen the lost path. It can change policy but leave the affected scope without orientation, relation, or confidence that the same thing will not happen again.
+
+The residue ledger therefore protects the positive layer too. It records not only what was damaged, but what future remains blocked.
+
 ## 8.9 Duties After Late Correction
 
 When correction arrives late, duties do not disappear.
@@ -319,6 +412,8 @@ Late correction may still matter. It can restore some options, acknowledge truth
 But lateness must be part of the duty record.
 
 A system that corrects late and records no lateness is still hiding part of the harm.
+
+The positive version is this: late correction should still reopen what can be reopened, protect whatever viable future remains, and prevent the same narrowing from being passed to the next scope.
 
 ## 8.10 Stewardship Over Time
 
@@ -355,6 +450,16 @@ repair_memory :=
   + owner_of_follow_up
 ```
 
+Stewardship is also how repair becomes positive rather than merely defensive. It keeps the repaired path from collapsing again. It preserves the trust, reachability, and usable information that make future cooperation possible.
+
+```trace
+stewardship_positive_function :=
+  preserve_reopened_path
+  + maintain_trust_after_repair
+  + keep_correction_reachable
+  + prevent_recurrence_from_consuming_future
+```
+
 Part 8 ends with a practical claim.
 
 Correction without repair is incomplete.
@@ -362,5 +467,7 @@ Correction without repair is incomplete.
 Repair without residue is dishonest.
 
 Residue without stewardship becomes abandonment.
+
+And repair, when it succeeds, is not only the reduction of harm. It is the reopening of viable future under uncertainty.
 
 The next part turns to the hardest cases: where every available action causes loss, and the task is not to find a clean answer but to stop the dirty answer from pretending to be clean.
