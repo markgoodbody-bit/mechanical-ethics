@@ -26,6 +26,35 @@ Mechanical Ethics therefore distinguishes seeing, warning, control, duty, omissi
 
 The purpose is not to protect powerful actors from answerability. It is to keep answerability accurate enough to matter.
 
+### 10.1.1 Visibility Includes Openings as Well as Closures
+
+Visibility is not only visibility of harm.
+
+An actor may also see that a path can be kept open, that an opportunity can still be preserved, that a route can be made reachable, that a warning can be made usable, that repair can still arrive in time, or that trust can be protected before it collapses.
+
+Responsibility therefore attaches not only to seen closures, but sometimes to seen openings.
+
+```trace
+visible_transition_field :=
+  seen_closure
+  + seen_opening
+  + seen_uncertainty
+  + seen_clock
+  + seen_affected_scope
+```
+
+This matters for the value spine. If Mechanical Ethics tracks viable becoming, then answerability concerns both what an actor damages and what an actor could reasonably preserve or reopen.
+
+```trace
+answerability_for_viable_becoming :=
+  could_see_opening_or_closure
+  + had_meaningful_control
+  + had_time_or_route_to_act
+  -> duty_to_answer_for_response
+```
+
+This does not turn every missed good into blame. That would be dishonest and paralysing. It says only that some positive routes become responsibility-relevant once they are visible, reachable, and within role-shaped control.
+
 ## 10.2 Foresight Is Not Omniscience
 
 No actor sees the whole future.
@@ -50,6 +79,14 @@ But foresight must remain tied to what could be known at the time.
 Mechanical Ethics should not use later knowledge to pretend the actor knew more than they did.
 
 That is hindsight blame.
+
+The same limit applies to positive futures. An actor is not blameworthy merely because a better future can be imagined later. The question is whether the opening was reasonably visible under the actor's role, evidence, time, and capacity.
+
+```trace
+positive_foresight_limit :=
+  better_future_visible_later
+  != better_future_reasonably_actionable_then
+```
 
 ## 10.3 Prediction Is Not Destiny
 
@@ -86,6 +123,19 @@ Prediction can create duty to watch, support, warn, slow, or review.
 
 It does not erase the difference between possibility and fact.
 
+Prediction can also reveal a chance to protect viable becoming. If a system predicts failure and uses that signal to offer support, keep a route open, slow a harmful path, or preserve repairability, the prediction may expand future-space rather than close it.
+
+```trace
+prediction_as_support_signal :=
+  predicted_risk
+  + non_punitive_response
+  + support_or_review_route
+  + contestability_preserved
+  -> possible_viable_future_expansion
+```
+
+This is the difference between a warning that helps an entity continue and a label that traps it.
+
 ## 10.4 Decision-Time Evidence
 
 Responsibility attaches to evidence available at the time of decision.
@@ -120,6 +170,18 @@ Decision-time evidence includes warnings, complaints, anomalies, repeated patter
 
 It does not include omniscience.
 
+For value-spine purposes, the evidence route must carry positive signals too. A system that records only failures and never records lost opportunities, blocked repair, trust collapse, capacity damage, or reachable support will misread viable becoming.
+
+```trace
+evidence_route_value_scope :=
+  warnings
+  + complaints
+  + anomalies
+  + opportunity_signals
+  + repairability_signals
+  + trust_and_reachability_signals
+```
+
 ## 10.5 Meaningful Control
 
 Responsibility requires control.
@@ -137,7 +199,7 @@ meaningful_control :=
   or reduce_harm
 ```
 
-A person with no ability to alter a path should not be treated as if they controlled it. A low-level worker may see a problem but lack authority. A child may cause harm without mature control. A coerced actor may choose under a collapsed option set. A traumatised actor may have impaired control. A local official may operate inside a system designed elsewhere.
+A person with no ability to alter a path should not be treated as if they controlled it. A low-level worker may see a problem but lack authority. A child may cause harm without mature control. An actor under severe pressure may choose from a collapsed option set. A traumatised actor may have impaired control. A local official may operate inside a system designed elsewhere.
 
 Control is graded.
 
@@ -150,6 +212,21 @@ Mechanical Ethics asks where control actually sat.
 Who could change the rule? Who could pause enforcement? Who could preserve evidence? Who could fund correction? Who could open a challenge route? Who could alter the incentive? Who could decide not to deploy? Who could monitor recurrence?
 
 Responsibility follows meaningful control, not formal distance.
+
+The value-spine question is: who could preserve or reopen viable becoming?
+
+```trace
+control_over_viable_becoming :=
+  ability_to_preserve_opportunity
+  or keep_route_reachable
+  or restore_information
+  or support_capacity
+  or maintain_relation
+  or reopen_repair_path
+  or prevent_false_finality
+```
+
+If an actor had this kind of control and the relevant opening or closure was visible enough, responsibility may attach even where no direct personal malice exists.
 
 ## 10.6 Role Duty
 
@@ -175,7 +252,17 @@ A maintainer may have a duty to monitor recurrence. A designer may have a duty t
 
 Roles are how systems act through people.
 
-If the role has power but no duty, the system has built unanswerable force.
+If the role has power but no duty, the system has built unanswerable authority.
+
+Role duty also includes positive preservation where dependency exists. A role that controls another scope's route may owe more than non-injury. It may owe usable information, timely support, preserved opportunity, or a real return path.
+
+```trace
+role_positive_duty :=
+  role_controls_route
+  + affected_scope_depends_on_route
+  + viable_becoming_at_stake
+  -> duty_to_preserve_conditions_where_reasonably_possible
+```
 
 ## 10.7 Delegation Is Not Erasure
 
@@ -213,6 +300,19 @@ Delegation can distribute responsibility.
 
 It cannot dissolve it.
 
+The value-spine audit adds: who retained responsibility for viable becoming after delegation?
+
+```trace
+delegated_viable_becoming_audit :=
+  who_preserves_notice
+  + who_preserves_contestability
+  + who_preserves_repairability
+  + who_tracks_residue
+  + who_can_reopen_path
+```
+
+A delegated path that expands efficiency while destroying reachability is not an innocent improvement. It is a value trade that must be named.
+
 ## 10.8 Automation Is Not Absolution
 
 Automation changes the mechanism.
@@ -244,6 +344,19 @@ But automation must not be allowed to hide uncertainty inside technical authorit
 
 If the system acts faster than correction, it needs stronger brakes.
 
+Automation can be part of a good path only if its gains do not erase answerability.
+
+```trace
+automation_positive_condition :=
+  improves_reachability_or_support_or_detection
+  + preserves_uncertainty_visibility
+  + preserves_contestability
+  + preserves_human_answerability
+  + records_remaining_burden
+```
+
+Local efficiency is not enough. The question is whether automation helps affected scopes navigate, correct, repair, and continue.
+
 ## 10.9 Responsibility Attachment
 
 Responsibility attachment is the point where the record says: this actor must answer for this path in this way.
@@ -274,11 +387,25 @@ A junior clerk should not absorb the guilt of a system designed above them. A mi
 
 Responsibility attachment is how Mechanical Ethics keeps answerability from becoming either witch hunt or mist.
 
+The value-spine version of responsibility attachment asks what the actor could see and affect in relation to viable becoming.
+
+```trace
+responsibility_for_viable_becoming :=
+  actor
+  + role
+  + decision_time_evidence
+  + meaningful_control
+  + visible_opening_or_closure
+  + duty_response
+```
+
+The response may be to stop a closure, preserve an opening, reopen a route, disclose uncertainty, return burden, repair residue, or explain why none of those were possible.
+
 ## 10.10 Responsibility Without Scapegoating
 
 Scapegoating is false repair.
 
-A system finds one person to blame, punishes them, and leaves the machinery intact. The public receives a story. The institution receives closure. The path remains.
+A system finds one person to blame, sanctions them, and leaves the machinery intact. The public receives a story. The institution receives closure. The path remains.
 
 ```trace
 scapegoating :=
@@ -289,7 +416,7 @@ scapegoating :=
 
 Mechanical Ethics rejects scapegoating for the same reason it rejects correction without repair. It does not touch the path.
 
-This does not mean individuals are never responsible. They are. Some people abuse power, ignore warnings, falsify records, hide evidence, punish dissent, or choose cruelty. Individual blame may be warranted.
+This does not mean individuals are never responsible. They are. Some people misuse power, ignore warnings, falsify records, hide evidence, punish dissent, or choose serious wrongdoing. Individual blame may be warranted.
 
 But individual blame should not be used to erase systemic responsibility where the system selected, rewarded, permitted, or protected the harmful path.
 
@@ -308,7 +435,18 @@ responsibility_map :=
 
 Responsibility without scapegoating is harder than blame and harder than excuse.
 
-It says: do not blame from visibility alone, but do not let complexity become weather. Do not punish one visible actor while preserving the hidden machine. Do not call a system innocent because no single hand contains the whole path.
+It says: do not blame from visibility alone, but do not let complexity become weather. Do not sanction one visible actor while preserving the hidden machine. Do not call a system innocent because no single hand contains the whole path.
+
+It must also avoid positive scapegoating: giving credit to one visible reform while leaving the path unrepaired. A system can celebrate a helpful actor, new tool, new policy, or new programme while the deeper route remains unreachable.
+
+```trace
+positive_scapegoating_risk :=
+  visible_good_actor_or_reform
+  + unchanged_path
+  + institution_claims_moral_closure
+```
+
+Do not use blame to hide the machine. Do not use praise to hide the machine either.
 
 Part 10 ends with the responsibility spine:
 
@@ -322,9 +460,10 @@ responsibility_spine :=
   + role_duty
   + delegation_not_erasure
   + automation_not_absolution
+  + responsibility_for_seen_openings_and_closures
   + anti_scapegoating
 ```
 
-The next part moves into the most dangerous territory: power, legitimacy, coercion, punishment, desert, dignity, and force.
+The next part moves into the most dangerous territory: power, legitimacy, authority, desert, dignity, and severe constraint.
 
 That part must frame more than it solves.
