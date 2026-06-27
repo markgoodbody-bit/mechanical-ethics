@@ -2,6 +2,11 @@ name: Build ME Book Export Pack
 
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - '01_BOOK_DRAFT/ME_BOOK_v0_1/**'
+      - 'tools/build_me_book_v0_1_export_pack.py'
+      - '.github/workflows/build-me-book-export-pack.yml'
   push:
     branches:
       - main
