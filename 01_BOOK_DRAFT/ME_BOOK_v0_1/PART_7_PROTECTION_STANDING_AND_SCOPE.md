@@ -38,7 +38,7 @@ Protection needs reasons.
 
 Mechanical Ethics should not create a hidden worth ladder where the writer silently knows who counts and who does not. It should record why a scope receives protection or precaution.
 
-Possible reasons include sentience, vulnerability, dependency, participation, consent status, inability to contest, exposure to irreversible loss, role in sustaining other protected scopes, future-space contraction, or uncertainty about standing under conditions where error would be costly.
+Possible reasons include sentience, vulnerability, dependency, participation, consent status, inability to contest, exposure to irreversible loss, role in sustaining other protected scopes, future-space contraction, viable-becoming damage, or uncertainty about standing under conditions where error would be costly.
 
 ```trace
 protection_reason :=
@@ -50,6 +50,7 @@ protection_reason :=
   | inability_to_contest
   | irreversible_loss_exposure
   | future_space_contraction
+  | viable_becoming_damage
   | support_role_for_other_scopes
   | standing_uncertainty_with_high_error_cost
 ```
@@ -60,7 +61,7 @@ A human child receives strong protection for many reasons at once: sentience, vu
 
 A scope can also receive weak or precautionary protection.
 
-Protection does not always mean stop. It may mean disclose, monitor, slow, preserve evidence, reduce burden, maintain contestability, avoid irreversible action, or record residue.
+Protection does not always mean stop. It may mean disclose, monitor, slow, preserve evidence, reduce burden, maintain contestability, avoid irreversible action, preserve opportunity, support repair, or record residue.
 
 The point is not to inflate every scope into full moral equality. The point is to make the protection route visible.
 
@@ -94,6 +95,40 @@ floor_strengthens_when :=
 ```
 
 This is a candidate floor, not canon. It is here to stop the open wound becoming a loophole.
+
+### 7.2.2 Protection as Preserving Viable Becoming
+
+Protection is not only a brake against harm. It is also a way of preserving the conditions under which a scope can continue, orient, learn, relate, repair, choose meaningfully, and become.
+
+This keeps the chapter from becoming harm-only.
+
+```trace
+protection_as_viable_becoming :=
+  preserve_conditions_for
+    continuation
+    + orientation
+    + capacity
+    + relation
+    + repairability
+    + meaningful_future_space
+  under_uncertainty
+```
+
+A protected scope is not protected merely because something bad might happen to it. It may also be protected because a transition would block learning, destroy trust, remove a real route, sever relation, damage memory, reduce future capacity, or prevent repair before the scope can answer back.
+
+This matters for positive duties. Sometimes the answer is not only do not harm. It may be keep the route open, preserve the support, make information usable, protect the developmental window, maintain the relation, create a reachable challenge path, or repair trust before the next decision hardens.
+
+```trace
+positive_protection_duties :=
+  preserve_opportunity
+  + keep_information_usable
+  + maintain_reachability
+  + support_capacity
+  + protect_repair_path
+  + sustain_trust_where_dependency_exists
+```
+
+These duties are still bounded. Mechanical Ethics does not say every scope is owed every possible expansion. It says that when an actor controls a path on which another scope's viable becoming depends, the actor must not reduce protection to merely avoiding obvious injury.
 
 ## 7.3 Uncertainty Raises Caution
 
@@ -163,6 +198,14 @@ dependency_pressure :=
 
 Vulnerability and dependency are not sentimental categories. They are mechanical facts about who can survive delay, burden, uncertainty, and error.
 
+They are also facts about positive becoming. A dependent scope may need more than non-interference. It may need timely support, usable information, preserved relation, or a stable route because its own capacity is still forming, blocked, or held by another system.
+
+```trace
+dependency_positive_pressure :=
+  affected_scope_capacity_depends_on_actor_route
+  -> duty_to_preserve_conditions_for_viable_becoming
+```
+
 ## 7.5 Participation and Consent
 
 Consent matters, but consent is not magic.
@@ -225,6 +268,8 @@ The aim is not purity. The aim is not sentimental denial of ecological reality.
 
 The aim is to stop necessary harm from becoming clean language.
 
+It is also to ask whether human systems can create better conditions before the dirty conflict hardens: habitat repair, prevention, lower-suffering control, redesigned incentives, reduced waste, slower expansion, or stewardship that preserves more viable becoming across scopes.
+
 ## 7.7 Future Persons
 
 Future persons cannot object.
@@ -256,6 +301,8 @@ future_person_caution :=
 ```
 
 Future persons matter. They are also easy to weaponize. Both truths must remain visible.
+
+Their protection is not only about avoiding inherited loss. It is also about preserving the conditions through which future scopes may orient, learn, trust institutions, inherit usable information, and repair what remains repairable.
 
 ## 7.8 Artificial Systems
 
@@ -334,8 +381,8 @@ Part 7 therefore ends with a limited achievement.
 
 It does not solve moral standing.
 
-It gives the book a way to name affected scopes, record protection reasons, raise caution under uncertainty, preserve a minimum anti-erasure floor, and avoid the worst erasures before duties are assigned.
+It gives the book a way to name affected scopes, record protection reasons, raise caution under uncertainty, preserve a minimum anti-erasure floor, and connect protection to viable becoming without pretending that every protected scope receives the same duties.
 
-The next question is what happens after harm, error, or dirty loss has already entered the path.
+The next question is what happens after harm, error, dirty loss, or blocked becoming has already entered the path.
 
 That is correction, repair, and residue.
