@@ -28,6 +28,40 @@ Correctability is not weakness.
 
 It is how power remains answerable after discovering that it was wrong.
 
+### 12.1.1 Civilization as Shared Viable Becoming
+
+Correctability alone is not the whole civilization claim.
+
+A civilization is also an organized attempt to preserve and expand viable becoming across many scopes without pretending the costs disappear.
+
+```trace
+civilization_value_candidate :=
+  shared_correctability
+  + shared_viable_becoming
+  + honest_burden_record
+  + residue_memory
+  under_uncertainty
+```
+
+This does not mean every scope gets everything it needs. No civilization can deliver that. Scarcity, conflict, error, loss, and dirty tradeoffs remain.
+
+It means a civilization should be judged partly by whether its systems help more scopes continue, orient, learn, relate, repair, and meaningfully act over time, while preserving routes for those harmed by the system to appear and answer back.
+
+```trace
+shared_viable_becoming :=
+  many_scopes
+  + preserved_continuation
+  + usable_orientation
+  + capacity_growth
+  + relation_and_trust
+  + repairability
+  + meaningful_future_space
+```
+
+Civilization fails when it produces order by shrinking the field of becoming for those least able to contest. It also fails when it produces growth by hiding the bodies, burdens, exhausted workers, poisoned places, broken trust, or future repair debts that make the growth possible.
+
+The stronger claim is not that civilization equals goodness. Civilization can become a harm carrier. The claim is that a civilization worth defending must remain answerable to the viable becoming it opens and closes.
+
 ## 12.2 Institutions as Memory
 
 Institutions are memory carriers.
@@ -65,6 +99,19 @@ Case anchor: a hospital that records waiting-time compliance but not missed diag
 A civilization that cannot remember harm cannot learn from it.
 
 A civilization that remembers only authority cannot correct authority.
+
+The value-spine version adds that institutions must remember positive routes too: what preserved trust, what kept opportunity open, what made repair reachable, what supported capacity, and what prevented a path from collapsing.
+
+```trace
+institutional_positive_memory :=
+  what_kept_route_open
+  + what_supported_capacity
+  + what_preserved_trust
+  + what_reduced_recurrence
+  + what_repaired_path
+```
+
+If an institution records only failure, it becomes defensive. If it records only success, it becomes vain. It needs memory that can learn from both wound and repair.
 
 ## 12.3 Law as Slowed Power
 
@@ -105,6 +152,19 @@ legal_route_test :=
 
 If law cannot arrive while it still matters, it may remain valid law but fail as correction.
 
+The positive version is that good law does not merely stop bad power. It creates reliable routes by which many scopes can orient, trust, contest, plan, repair, and cooperate.
+
+```trace
+law_positive_function :=
+  make_power_predictable_enough_to_answer
+  + make_reasons_public
+  + preserve_contest
+  + stabilize_trust
+  + reopen_path_when_error_found
+```
+
+Law is ethically serious when it makes shared future-space more usable without hiding whose path it narrows.
+
 ## 12.4 Markets and Local Reward Pull
 
 Markets are selection systems.
@@ -141,6 +201,19 @@ Mechanical Ethics asks whether choice is real enough, whether loss is priced or 
 Markets are powerful because they learn.
 
 The question is whether they are learning the right thing.
+
+The value-spine audit is direct:
+
+```trace
+market_value_audit :=
+  what_local_reward_trains
+  + whose_viable_becoming_expands
+  + whose_viable_becoming_contracts
+  + who_can_exit_or_contest
+  + what_residue_is_externalized
+```
+
+A market path can be good when it creates capability, access, resilience, useful information, and mutual benefit while keeping correction possible. A market path becomes suspect when its apparent efficiency depends on invisible exhaustion, degraded attention, locked-in dependency, or costs pushed onto scopes that cannot price or contest them.
 
 ## 12.5 Public Systems and Burden Routing
 
@@ -189,6 +262,19 @@ The minimum demand is not that public systems never burden people.
 
 It is that they do not hide the burden, do not route it by default to the least able to carry it, and do not call correction meaningful when correction arrives too late.
 
+Public systems also carry positive duty. They are often the routes through which vulnerable scopes gain access, information, stability, protection, capacity, and repair.
+
+```trace
+public_system_positive_duty :=
+  keep_route_reachable
+  + make_information_usable
+  + preserve_support_before_loss_hardens
+  + route_burden_to_capacity
+  + repair_when_state_path_failed
+```
+
+A public system is not good because it is compassionate in language. It is good when its routes actually preserve viable becoming under pressure and remain answerable when they fail.
+
 ## 12.6 Trust Under Pressure
 
 Trust is not belief that nothing will go wrong.
@@ -216,6 +302,19 @@ Once people learn that warning is punished, they stop warning. Once they learn a
 Trust is future-space. It changes what people can risk, say, build, report, and attempt.
 
 A civilization that spends trust faster than it repairs trust is narrowing its own future.
+
+The positive value is larger:
+
+```trace
+trust_as_civilization_infrastructure :=
+  reliable_return_path
+  + usable_warning_channel
+  + repair_after_failure
+  + confidence_to_cooperate
+  + capacity_to_risk_learning
+```
+
+Trust lets scopes attempt things they would not attempt inside fear. It is not sentiment. It is infrastructure for shared viable becoming.
 
 ## 12.7 Maintenance, Stewardship, and Decay
 
@@ -253,7 +352,58 @@ stewardship_duty :=
 
 Civilization is not only built in moments of invention. It is kept alive by maintenance that prevents correctability from rotting.
 
-## 12.8 Progress Without Sacrifice Laundering
+Maintenance also preserves positive becoming. It keeps ordinary supports working before crisis. It protects the background routes that make play, learning, care, work, mobility, health, family, contest, and repair possible.
+
+```trace
+maintenance_positive_function :=
+  preserve_background_conditions
+  + keep_supports_ordinary
+  + prevent_crisis_from_consuming_future
+  + make_good_paths_reliable
+```
+
+## 12.8 Cooperation and Shared Worlds
+
+Civilization is not only harm control. It is also cooperation at scale.
+
+Many of the most valuable human goods are shared-world goods. Language, medicine, law, science, roads, schools, sanitation, music, mutual aid, care systems, safety norms, open knowledge, trustworthy records, and ordinary public peace cannot be produced by isolated self-protection alone.
+
+```trace
+shared_world_good :=
+  many_scopes
+  + coordinated_action
+  + mutual_reliance
+  + preserved_exit_or_contest
+  + shared_future_space_expansion
+```
+
+Cooperation is not automatically good. A cartel cooperates. A corrupt institution cooperates. A predatory group coordinates. Cooperation becomes ethically serious when it expands viable becoming without requiring erased burdens, false consent, or blocked correction.
+
+```trace
+cooperation_value_test :=
+  what_shared_capacity_expands
+  + who_is_burdened_by_coordination
+  + who_can_exit_or_contest
+  + what_residue_remains
+  + whether_trust_is_built_or_consumed
+```
+
+This is where positive civilization belongs. Not as decoration. Not as moral cheerleading. As structure.
+
+A good institution makes more good action reachable. A good public route makes help less humiliating and correction less heroic. A good market lets useful work find need without hiding ruin. A good law makes power slower and reasons usable. A good school expands capacity while preserving dignity and repair. A good medical system preserves life and trust while admitting uncertainty.
+
+Civilization becomes real when good paths are not rare acts of heroism but ordinary routes.
+
+```trace
+civilization_positive_test :=
+  good_paths_made_reachable
+  + repair_paths_made_ordinary
+  + trust_not_spent_faster_than_rebuilt
+  + burden_visible
+  + correction_alive
+```
+
+## 12.9 Progress Without Sacrifice Laundering
 
 Progress is real.
 
@@ -280,6 +430,17 @@ Mechanical Ethics asks for progress with memory.
 
 If progress narrows some futures to expand others, say so. If the loss is justified, show the route. If the loss is dirty, record residue. If repair is owed, assign it. If the value tilt is contested, do not hide it behind inevitability.
 
+Progress must also be tested against viable becoming, not raw novelty or scale.
+
+```trace
+progress_value_test :=
+  whose_viable_becoming_expands
+  + whose_viable_becoming_contracts
+  + what_uncertainty_remains
+  + what_repair_stays_live
+  + what_residue_is_carried_forward
+```
+
 Civilization under uncertainty cannot mean never causing loss.
 
 It can mean refusing to become the kind of system that needs its losses hidden in order to believe in itself.
@@ -291,6 +452,7 @@ civilization_test :=
   can_the_system_act
   + remain_correctable
   + preserve_future_possibility
+  + support_shared_viable_becoming
   + remember_residue
   + resist_self_absolution
 ```
