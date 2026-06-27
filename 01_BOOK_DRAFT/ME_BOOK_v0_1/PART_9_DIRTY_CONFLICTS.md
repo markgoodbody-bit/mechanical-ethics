@@ -31,6 +31,33 @@ necessary_harm
 
 A dirty conflict may still require action. Mechanical Ethics does not say that dirty means forbidden. It says dirty means the loss must not disappear.
 
+### 9.1.1 Incompatible Viable Becoming
+
+The value-spine version is sharper.
+
+A dirty conflict is not only a conflict between harms. It is a conflict where viable becoming cannot be preserved for all affected scopes at once.
+
+```trace
+dirty_conflict_as_viable_becoming_conflict :=
+  viable_becoming_claim_A
+  incompatible_with
+  viable_becoming_claim_B
+  under_current_constraints
+  + uncertainty_remaining
+```
+
+One scope's continuation may require another scope's burden. One group's safety may require another group's restriction. One ecosystem path may require loss for some beings inside it. One institution's stability may conflict with one person's timely repair. One future benefit may collide with present agency.
+
+This does not mean all claims are equal. It means the conflict must be named at the level where it actually lives: not merely as competing preferences, but as incompatible claims on continuation, orientation, capacity, relation, repairability, and meaningful future-space.
+
+```trace
+no_clean_total_good :=
+  when_not_all_viable_becoming_can_be_preserved
+  claimed_good_must_not_erase_remaining_loss
+```
+
+The first duty in a dirty conflict is therefore not moral cleanliness. It is honest accounting.
+
 ## 9.2 Why Clean Answers Are Usually Lies
 
 Clean answers are attractive.
@@ -55,6 +82,16 @@ If a population is culled to protect an ecosystem, say what is killed and why. I
 The point is not to paralyse action.
 
 The point is to keep action answerable.
+
+Clean answers also hide false goods. A path can produce a real benefit and still be dirty. A public gain may be real. A safety improvement may be real. A restored ecosystem may be real. A faster process may be real. But a real benefit is not absolution.
+
+```trace
+benefit_in_dirty_conflict :=
+  may_be_real
+  + may_be_needed
+  + may_reduce_wider_loss
+  - does_not_cancel_residue_by_itself
+```
 
 ## 9.3 No Netting Without Permission
 
@@ -83,6 +120,18 @@ netting_audit :=
   + by_what_authority
   + what_consent_or_contest
   + what_repair_or_residue
+```
+
+The value-spine audit adds a second layer:
+
+```trace
+benefit_cost_record :=
+  what_viable_becoming_expands
+  + for_whom
+  + what_viable_becoming_contracts
+  + for_whom
+  + what_uncertainty_remains
+  + what_repair_or_residue_follows
 ```
 
 The danger is not only bad arithmetic. The danger is moral disappearance.
@@ -126,6 +175,15 @@ Some irreversible losses may be accepted to prevent wider or deeper irreversible
 
 So least-repairable loss is a question, not an automatic answer.
 
+The positive formulation is: preserve the most viable future without lying about whose future was narrowed.
+
+```trace
+least_unrepairable_value_tilt :=
+  preserve_repairability_where_possible
+  + preserve_correction_under_uncertainty
+  + declare_who_carries_remaining_closure
+```
+
 ## 9.5 The Least-Reachable Scope
 
 Dirty conflicts often harm those least able to reach the decision.
@@ -152,6 +210,15 @@ least_reachable_scope_pressure :=
   low_access
   + material_loss
   -> heightened_duty_to_record_represent_and_repair
+```
+
+The value-spine version adds: who cannot reach the route that would preserve or reopen their viable becoming?
+
+```trace
+least_reachable_becoming_pressure :=
+  low_access
+  + viable_becoming_contraction
+  -> heightened_duty_to_represent_and_keep_repair_live
 ```
 
 Dirty conflict becomes more dangerous when the harmed scope cannot even appear as harmed.
@@ -191,6 +258,15 @@ The question is not only, "Was the sacrifice justified?"
 
 It is also, "Who carries the aftermath?"
 
+And the value-spine question is: whose viable becoming remains burdened after the claimed good has been achieved?
+
+```trace
+aftermath_question :=
+  who_carries_the_remaining_burden
+  + what_future_remains_closed
+  + what_repair_stays_live
+```
+
 ## 9.7 Triage Without Moral Disappearance
 
 Triage is one of the hardest dirty conflicts.
@@ -219,6 +295,8 @@ Emergency triage cannot always provide full deliberation. But speed does not rem
 
 Triage is where Mechanical Ethics must be most disciplined and least theatrical.
 
+A triage decision may preserve more viable becoming than any available alternative. That matters. But it still must name who was not preserved, who was asked to carry the closure, and what is owed after the choice.
+
 ## 9.8 Residue After Forced Loss
 
 Forced loss leaves residue even when justified.
@@ -244,6 +322,17 @@ That is dangerous.
 Moral injury can also be residue. The actor forced to choose may carry damage. The witness may carry damage. The institution may carry trust damage. These do not replace the affected scope's loss, but they matter for future answerability.
 
 A system that repeatedly forces dirty choices should not merely celebrate decisive action. It should ask why dirty choice became routine.
+
+Residue should also record what viable becoming remains blocked.
+
+```trace
+forced_loss_residue :=
+  loss_imposed
+  + viable_becoming_closed
+  + repair_possible_or_impossible
+  + burden_carrier_named
+  + future_constraint_recorded
+```
 
 ## 9.9 When ME Must Hold or Escalate
 
@@ -300,6 +389,7 @@ dirty_conflict_routing :=
     + affected_scopes_named
     + value_tilt_declared
     + least_reachable_scope_accounted_for
+    + claimed_good_and_remaining_loss_recorded
     + correction_or_residue_duties_attached
 
   REPAIR_REQUIRED or COMPENSATION_REQUIRED when
@@ -317,6 +407,7 @@ Part 9 ends with the hardest practical instruction so far:
 dirty_conflict_instruction :=
   act_only_if_needed
   + name_loss
+  + name_claimed_good
   + name_value_tilt
   + protect_least_reachable
   + preserve_minimum_floors_where_known
