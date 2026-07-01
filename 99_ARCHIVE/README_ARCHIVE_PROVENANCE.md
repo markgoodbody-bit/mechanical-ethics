@@ -39,3 +39,5 @@ Do not move 02_ME_BOOK_PUBLICATION_TRACK.
 Update this provenance file with every old_path -> new_path actually applied.
 Then show git diff --stat and stop.
 ```
+
+Status: ready for atomic move pass.
