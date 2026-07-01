@@ -45,6 +45,14 @@ These are the five checks, distinct from the five result labels below.
 - [`False safeguard: Dashboard Without a Brake`](examples/false_safeguard_dashboard_without_brake.md)
 - [`Unknown: Private Risk Scoring With Missing Records`](examples/unknown_private_scoring.md)
 
+## Other material in this repository
+
+This repository may also contain Mechanical Ethics book material, research notes, scaffolds, or archive material.
+
+Those materials are not part of the public v0.1 diagnostic surface unless separately promoted. The active book track, where present, is work in progress and should not be read as validation, certification, or a finished framework claim.
+
+For publication boundaries, see [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md).
+
 ## Usage constraints
 
 This repository does **not** claim that:
