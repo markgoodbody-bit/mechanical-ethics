@@ -51,6 +51,13 @@ This repository may also contain Mechanical Ethics book material, research notes
 
 Those materials are not part of the public v0.1 diagnostic surface unless separately promoted. The active book track, where present, is work in progress and should not be read as validation, certification, or a finished framework claim.
 
+Current book-track preservation status, where present:
+
+- [`book/AFTER_FALL_PAIR_v0_3_3_CURRENT_CANDIDATE_STATUS_2026_07_01.md`](book/AFTER_FALL_PAIR_v0_3_3_CURRENT_CANDIDATE_STATUS_2026_07_01.md) records the v0.3.3 After-Fall pair as current candidate after verify-only audit.
+- [`book/TRACE_After_Fall_v0_3_3_Verify_Only_Audit_Result_2026_07_01.md`](book/TRACE_After_Fall_v0_3_3_Verify_Only_Audit_Result_2026_07_01.md) preserves the audit result.
+
+These records are provenance and status notes, not validation.
+
 For publication boundaries, see [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md).
 
 ## Usage constraints
