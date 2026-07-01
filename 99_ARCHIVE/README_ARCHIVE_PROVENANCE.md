@@ -27,3 +27,15 @@ None yet.
 ## Application note
 
 The current connector view has not exposed a full recursive file tree for this path. Do not perform partial directory moves. Apply only when exact file list/tree entries are available, or when using local git so the move can be performed atomically with `git mv`.
+
+## Apply prompt for Claude/Fable or local git
+
+```text
+Apply only the approved low-risk mechanical-ethics move listed in this file.
+Use git mv or an atomic equivalent.
+Do not delete content.
+Do not move 01_BOOK_DRAFT unless Mark explicitly confirms it separately.
+Do not move 02_ME_BOOK_PUBLICATION_TRACK.
+Update this provenance file with every old_path -> new_path actually applied.
+Then show git diff --stat and stop.
+```
