@@ -30,7 +30,9 @@ Research/AI_Deployment/
 
 It is machine-room material only. It is not the public front door, not validation, not an AI-governance framework, and not an AI-alignment solution.
 
-If research-layer material conflicts with the root README claim ceiling, the root README claim ceiling controls for public presentation.
+Book, TRACE, After-Fall, survival-pair, quarry, or archive material may also exist in the repository. Unless a later publication-status update explicitly promotes it, that material is research/provenance material only. It is not the public diagnostic surface, not validation, not a finished Mechanical Ethics / TRACE framework, and not support for claims beyond the public Correction Window Test.
+
+If research-layer, book-track, archive, or After-Fall material conflicts with the root README claim ceiling, the root README claim ceiling controls for public presentation.
 
 ## Removed during pruning
 
