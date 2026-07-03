@@ -47,18 +47,11 @@ These are the five checks, distinct from the five result labels below.
 
 ## Other material in this repository
 
-This repository may also contain Mechanical Ethics book material, research notes, scaffolds, or archive material.
+This repository may also contain unpromoted Mechanical Ethics / TRACE material, book material, research notes, scaffolds, archive material, or provenance records.
 
-Those materials are not part of the public v0.1 diagnostic surface unless separately promoted. The active book track, where present, is work in progress and should not be read as validation, certification, or a finished framework claim.
+Those materials are not part of the public v0.1 diagnostic surface unless separately promoted. They should not be treated as validation, certification, a finished framework, or support for claims beyond the Correction Window Test.
 
-Current book-track preservation status, where present:
-
-- [`book/AFTER_FALL_PAIR_v0_3_3_CURRENT_CANDIDATE_STATUS_2026_07_01.md`](book/AFTER_FALL_PAIR_v0_3_3_CURRENT_CANDIDATE_STATUS_2026_07_01.md) records the v0.3.3 After-Fall pair as current candidate after verify-only audit.
-- [`book/TRACE_After_Fall_v0_3_3_Verify_Only_Audit_Result_2026_07_01.md`](book/TRACE_After_Fall_v0_3_3_Verify_Only_Audit_Result_2026_07_01.md) preserves the audit result.
-
-These records are provenance and status notes, not validation.
-
-For publication boundaries, see [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md).
+After-Fall, TRACE, or book-track material in this repository may lag behind current working drafts. The root README and [`PUBLICATION_STATUS.md`](PUBLICATION_STATUS.md) control the public claim ceiling.
 
 ## Usage constraints
 
