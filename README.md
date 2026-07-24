@@ -9,5 +9,6 @@ Mechanical Ethics is not a doctrine, moral authority, certification system, or f
 Start here:
 
 - `Mechanical_Ethics.pdf`
+- `MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md` — the latest human reader, plain-Markdown and machine-readable
 - `PROJECT/PROJECT.md`
 - `PROJECT/MAP.md`
