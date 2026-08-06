@@ -1,10 +1,9 @@
-# Registered trigger for the guarded one-time source repair.
 name: Framework apply ME v0.6.2 local repair
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types:
+      - opened
 
 permissions:
   contents: write
@@ -15,11 +14,15 @@ concurrency:
 
 jobs:
   apply:
-    if: github.repository == 'markgoodbody-bit/mechanical-ethics'
+    if: >-
+      github.repository == 'markgoodbody-bit/mechanical-ethics' &&
+      github.event.pull_request.title == 'Trigger guarded ME v0.6.2 local repair' &&
+      github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
           persist-credentials: true
 
