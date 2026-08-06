@@ -1,3 +1,4 @@
+# Registered trigger for the guarded one-time source repair.
 name: Framework apply ME v0.6.2 local repair
 
 on:
