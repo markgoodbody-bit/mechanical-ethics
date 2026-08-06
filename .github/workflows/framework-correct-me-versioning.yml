@@ -1,0 +1,67 @@
+name: Framework correct Mechanical Ethics versioning
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.event.pull_request.title == 'Correct Mechanical Ethics version numbering'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+      - name: Install renderer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc weasyprint poppler-utils fonts-crosextra-caladea fonts-liberation
+      - name: Build correctly versioned artifacts
+        run: |
+          python tools/version_reader_v063.py
+          python tools/generate_reader_figures.py
+          python tools/build_reader_pdf_v063.py MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md Mechanical_Ethics_v0_6_3.pdf
+          cp Mechanical_Ethics_v0_6_3.pdf Mechanical_Ethics.pdf
+      - name: Verify identity and preservation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, subprocess
+          def blob(data):
+              return hashlib.sha1(f'blob {len(data)}\0'.encode()+data).hexdigest()
+          expected = {
+              'MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md':'6e06f210a5479ee6f84f5491c151a9d951a0da02',
+              'Mechanical_Ethics_v0_6_2.pdf':'57d77c870ff90f5f3f448b300b882201a2bed433',
+          }
+          for path, sha in expected.items():
+              got=blob(Path(path).read_bytes())
+              if got != sha: raise SystemExit(f'{path}: expected {sha}, got {got}')
+          source=Path('MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md').read_text()
+          required=[
+              'Human Reader v0.6.3 - REVIEW SCOPE AND BOUNDED ANSWERABILITY REPAIR CANDIDATE',
+              'A review can check every case in its file',
+              'Answerability does not require a decision to remain open',
+              'The v0.6.3 pass preserves the complete v0.6.2 reader',
+          ]
+          for phrase in required:
+              if source.count(phrase) != 1: raise SystemExit(f'source phrase count failed: {phrase}')
+          if Path('Mechanical_Ethics.pdf').read_bytes() != Path('Mechanical_Ethics_v0_6_3.pdf').read_bytes():
+              raise SystemExit('current PDF alias differs from v0.6.3')
+          text=subprocess.check_output(['pdftotext','Mechanical_Ethics_v0_6_3.pdf','-'],text=True)
+          for phrase in ['HUMAN READER V0.6.3','A review can check every case in its file','Answerability does not require a decision']:
+              if phrase not in text: raise SystemExit(f'PDF missing: {phrase}')
+          pages=int(subprocess.check_output(['pdfinfo','Mechanical_Ethics_v0_6_3.pdf'],text=True).split('Pages:')[1].splitlines()[0].strip())
+          if pages != 34: raise SystemExit(f'unexpected page count: {pages}')
+          print('versioning checks passed')
+          PY
+      - name: Commit candidate to temporary branch
+        run: |
+          git config user.name 'Mark G'
+          git config user.email 'mark.goodbody@gmail.com'
+          git add README.md MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md Mechanical_Ethics.pdf Mechanical_Ethics_v0_6_2.pdf Mechanical_Ethics_v0_6_3.pdf
+          git commit -m 'Correct Mechanical Ethics version numbering'
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
