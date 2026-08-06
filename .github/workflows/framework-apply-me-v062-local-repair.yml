@@ -1,0 +1,90 @@
+name: Framework apply ME v0.6.2 local repair
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: framework-me-v062-local-repair
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: github.repository == 'markgoodbody-bit/mechanical-ethics'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Verify and apply insertion-only repair
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+
+          path = Path('MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md')
+          baseline = '6e06f210a5479ee6f84f5491c151a9d951a0da02'
+          expected = 'cb90b3f11d7de80ce4db4400d78150e957700d65'
+
+          def blob_sha(data: bytes) -> str:
+              return hashlib.sha1(f'blob {len(data)}\0'.encode() + data).hexdigest()
+
+          original = path.read_bytes()
+          actual = blob_sha(original)
+          if actual != baseline:
+              raise SystemExit(f'baseline mismatch: {actual}')
+
+          text = original.decode('utf-8')
+          chapter12_anchor = (
+              'Training may matter, but not if the interface still offers the same choices. '
+              'A dashboard may reveal a pattern, or merely teach staff how to produce a cleaner number. '
+              'An apology may be sincere while the next case enters the same queue.'
+          )
+          chapter12_insert = (
+              'A review can check every case in its file and still miss people the route never allowed to become cases, '
+              'or make unlike cases look like one pattern. Its evidence may support a wider claim, but only as far as the '
+              'way the cases were chosen and measured can carry it. The organisation should make those limits visible and '
+              'say whether another supported account changes the pattern. That account is not automatically right, but a '
+              'material difference should not disappear inside one clean total.'
+          )
+          chapter15_anchor = (
+              'Answerability begins when an affected outcome can travel back into the behaviour that produced it. '
+              'Explanation alone is not enough. The route needs enough force to change what happens next.'
+          )
+          chapter15_insert = (
+              'Answerability does not require a decision to remain open to the same challenge without limit. '
+              'Reopening can itself become a route of harm, but repetition is not proof that the issue was answered.'
+          )
+
+          for label, anchor in [('Chapter 12', chapter12_anchor), ('Chapter 15', chapter15_anchor)]:
+              count = text.count(anchor)
+              if count != 1:
+                  raise SystemExit(f'{label} anchor count: {count}')
+
+          text = text.replace(chapter12_anchor, chapter12_anchor + '\n\n' + chapter12_insert, 1)
+          text = text.replace(chapter15_anchor, chapter15_anchor + '\n\n' + chapter15_insert, 1)
+          candidate = text.encode('utf-8')
+          got = blob_sha(candidate)
+          if got != expected:
+              raise SystemExit(f'candidate mismatch: {got}')
+          path.write_bytes(candidate)
+          print(f'candidate blob verified: {got}')
+          PY
+
+      - name: Commit source and remove executor
+        shell: bash
+        run: |
+          rm .github/workflows/framework-apply-me-v062-local-repair.yml
+          git config user.name 'Framework'
+          git config user.email 'noreply@openai.com'
+          git add MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md .github/workflows/framework-apply-me-v062-local-repair.yml
+          git diff --cached --check
+          git commit -m 'Add bounded review and answerability repairs to ME v0.6.2'
+          git push origin HEAD:main
