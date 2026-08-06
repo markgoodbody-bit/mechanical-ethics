@@ -1,16 +1,19 @@
 name: Framework apply ME v0.6.2 local repair
 
 on:
-  push:
+  pull_request:
     branches:
-      - framework-me-v062-local-repair-temp-20260806
+      - main
+    types:
+      - opened
+      - synchronize
 
 permissions:
   contents: write
 
 jobs:
   apply:
-    if: github.actor != 'github-actions[bot]'
+    if: github.actor != 'github-actions[bot]' && github.event.pull_request.head.ref == 'framework-me-v062-local-repair-temp-20260806'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
