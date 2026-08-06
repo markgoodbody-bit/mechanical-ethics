@@ -497,6 +497,8 @@ The test is practical. Which action has become impossible, slower, more visible,
 
 Training may matter, but not if the interface still offers the same choices. A dashboard may reveal a pattern, or merely teach staff how to produce a cleaner number. An apology may be sincere while the next case enters the same queue.
 
+A review can check every case in its file and still miss people the route never allowed to become cases, or make unlike cases look like one pattern. Its evidence may support a wider claim, but only as far as the way the cases were chosen and measured can carry it. The organisation should make those limits visible and say whether another supported account changes the pattern. That account is not automatically right, but a material difference should not disappear inside one clean total.
+
 Institutions are often under real pressure to announce completion. Open problems cost money, damage confidence, and attract scrutiny. That pressure is one reason the language should stay exact: investigation is not repair; activity is not consequence; monitoring is not interruption; a recorded lesson is not a changed path.
 
 The matter can close when it is genuinely finished. Until then, accurate words are part of the repair.
@@ -590,6 +592,8 @@ At first glance it offers a route. The rest of the book changes what we need to 
 - Will the next person meet the same mechanism?
 
 Answerability begins when an affected outcome can travel back into the behaviour that produced it. Explanation alone is not enough. The route needs enough force to change what happens next.
+
+Answerability does not require a decision to remain open to the same challenge without limit. Reopening can itself become a route of harm, but repetition is not proof that the issue was answered.
 
 This does not remove disagreement about law, medicine, engineering, politics, care, or scarce resources, and it does not supply one formula for deciding every conflict. It places some limits on what can honestly be called responsible.
 
