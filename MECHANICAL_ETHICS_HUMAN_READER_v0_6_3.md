@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.6.2 - FORMAL HONESTY AND FACTUAL CORRECTION CANDIDATE**
+**Human Reader v0.6.3 - REVIEW SCOPE AND BOUNDED ANSWERABILITY REPAIR CANDIDATE**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -497,6 +497,8 @@ The test is practical. Which action has become impossible, slower, more visible,
 
 Training may matter, but not if the interface still offers the same choices. A dashboard may reveal a pattern, or merely teach staff how to produce a cleaner number. An apology may be sincere while the next case enters the same queue.
 
+A review can check every case in its file and still miss people the route never allowed to become cases, or make unlike cases look like one pattern. Its evidence may support a wider claim, but only as far as the way the cases were chosen and measured can carry it. The organisation should make those limits visible and say whether another supported account changes the pattern. That account is not automatically right, but a material difference should not disappear inside one clean total.
+
 Institutions are often under real pressure to announce completion. Open problems cost money, damage confidence, and attract scrutiny. That pressure is one reason the language should stay exact: investigation is not repair; activity is not consequence; monitoring is not interruption; a recorded lesson is not a changed path.
 
 The matter can close when it is genuinely finished. Until then, accurate words are part of the repair.
@@ -590,6 +592,8 @@ At first glance it offers a route. The rest of the book changes what we need to 
 - Will the next person meet the same mechanism?
 
 Answerability begins when an affected outcome can travel back into the behaviour that produced it. Explanation alone is not enough. The route needs enough force to change what happens next.
+
+Answerability does not require a decision to remain open to the same challenge without limit. Reopening can itself become a route of harm, but repetition is not proof that the issue was answered.
 
 This does not remove disagreement about law, medicine, engineering, politics, care, or scarce resources, and it does not supply one formula for deciding every conflict. It places some limits on what can honestly be called responsible.
 
@@ -845,13 +849,15 @@ This book preserves the human argument. TRACE preserves the system-facing machin
 
 ## Reader status
 
-This is *Mechanical Ethics: When Correction Arrives Too Late*, Human Reader v0.6.2 FORMAL HONESTY AND FACTUAL CORRECTION CANDIDATE.
+This is *Mechanical Ethics: When Correction Arrives Too Late*, Human Reader v0.6.3 REVIEW SCOPE AND BOUNDED ANSWERABILITY REPAIR CANDIDATE.
 
-The v0.6.2 pass preserves the complete v0.6.1 structure and makes a bounded formal-honesty and factual-correction patch. The central timing relation now distinguishes elapsed time to effective protection from time to hardening, while retaining the earlier inequality only as conceptual compression. The viability notation now carries explicit constraint and horizon inputs. The file/life distinction is made two-way, the predator-position threshold is narrowed, the historical notes are less compressed, the enforcement limit is stated, the figure sequence is corrected, the finance case is retitled, and the unsupported doorway equation is removed.
+The v0.6.3 pass preserves the complete v0.6.2 reader and makes two bounded main-body repairs. Chapter 12 now states that a review can be complete within its own file while still omitting affected people or making unlike cases look like one pattern. Chapter 15 now distinguishes answerability from indefinite reopening while refusing to treat repetition as proof of resolution. No other main-body argument, composite scene, case outcome, formal notation, figure placement, historical source note, or conclusion has been changed.
+
+The v0.6.2 formal-honesty and factual-correction pass remains the immediate technical baseline for all unchanged material. It distinguished elapsed time to effective protection from time to hardening, retained the earlier inequality only as conceptual compression, added explicit constraint and horizon inputs to the viability notation, made the file/life distinction two-way, narrowed the predator-position threshold, reduced historical compression, stated the enforcement limit, corrected the figure sequence, retitled the finance case, and removed the unsupported doorway equation.
 
 The set $\mathcal{K}_{C,H}$ is not presented as a definition, score, or optimisation of meaning. It represents the states from which at least one continuation remains available under an explicit filter set $C$ and stated horizon $H$. The result inherits the authorship, uncertainty, and contestability of those inputs. The conclusion limits institutions and automated systems to protecting conditions for usable agency rather than deciding which meaningful life should be chosen.
 
-The v0.5 main-body register repair remains the immediate prose baseline for all unchanged material. No composite scene or case outcome has been altered. The Kelsey and Challenger notes have been narrowed to reflect the institutional authority and decision structure recorded in the cited official sources.
+The v0.5 main-body register repair remains the prose baseline beneath the bounded v0.6.2 and v0.6.3 patches. The Kelsey and Challenger notes remain narrowed to reflect the institutional authority and decision structure recorded in the cited official sources.
 
 This is a candidate, not final, canon, validation, proof, permission, clearance, compliance, legal advice, publication readiness, or release.
 
