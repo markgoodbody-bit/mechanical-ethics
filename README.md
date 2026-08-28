@@ -57,7 +57,7 @@ A useful challenge identifies, in ordinary language:
 
 Open a repository issue if you have a bounded criticism or counterexample: https://github.com/markgoodbody-bit/mechanical-ethics/issues/new
 
-A finding that Mechanical Ethics is redundant, wrong, too broad, too narrow, or useful only under specific conditions is a legitimate result.
+A finding that an argument fails, overstates, misses a case, or applies only under narrower conditions is a useful result.
 
 ## Current preservation baseline
 
@@ -69,7 +69,7 @@ The current repository preservation baseline is **Human Reader v0.6.3**. It is a
 - [`PRESERVATION_BASELINE_v0_6_3.md`](PRESERVATION_BASELINE_v0_6_3.md) — exact artifact identities, status, scope, and forward-version rule
 - [`MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md) and [`Mechanical_Ethics_v0_6_2.pdf`](Mechanical_Ethics_v0_6_2.pdf) — preserved previous version
 
-The numbered v0.6.3 source and PDF are frozen. Any future change to that reader source begins a new version; previously numbered artifacts remain unchanged.
+The numbered v0.6.3 source and PDF are frozen. Any future change to the reader source begins **v0.6.4**; previously numbered artifacts remain unchanged.
 
 ## Mechanical Ethics and TRACE
 
