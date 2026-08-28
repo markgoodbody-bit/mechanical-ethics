@@ -77,4 +77,4 @@ Mechanical Ethics carries the human-facing ethical and philosophical argument. [
 
 A reader should not need TRACE to understand Mechanical Ethics, and TRACE should not borrow moral authority from the Human Reader. Neither validates the other.
 
-For a compact project statement, see [`PROJECT/PROJECT.md`](PROJECT/PROJECT.md) and [`PROJECT/MAP.md`](PROJECT/MAP.md).
+For the compact repository-level project statement, see [`PROJECT/PROJECT.md`](PROJECT/PROJECT.md).
