@@ -43,9 +43,9 @@ Continue with:
 - **Part VI — Futures Still Reachable** for usable futures, care, and the placement of burden;
 - the **Conclusion** and **Appendix B — What Remains Unfinished** for claim boundaries and open problems.
 
-## Current public preservation baseline
+## Current preservation baseline
 
-The current stable public reference is **Human Reader v0.6.3**.
+The current repository preservation baseline is **Human Reader v0.6.3**. It is a stable reference for continued work and remains a working candidate; it is **not a release, canon, validation, certification, or publication-readiness claim**.
 
 - [`Mechanical_Ethics_v0_6_3.pdf`](Mechanical_Ethics_v0_6_3.pdf) — preservation-baseline human-reader PDF
 - [`MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md) — preservation-baseline Markdown source
@@ -53,9 +53,7 @@ The current stable public reference is **Human Reader v0.6.3**.
 - [`PRESERVATION_BASELINE_v0_6_3.md`](PRESERVATION_BASELINE_v0_6_3.md) — exact artifact identities, status, scope, and forward-version rule
 - [`MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md) and [`Mechanical_Ethics_v0_6_2.pdf`](Mechanical_Ethics_v0_6_2.pdf) — preserved previous version
 
-The numbered v0.6.3 source and PDF are frozen. Any future change to that public reader source begins a new version; previously numbered artifacts remain unchanged.
-
-`preservation baseline` means a stable reference for continued work. It does **not** mean canon, external validation, publication readiness, or a final account.
+The numbered v0.6.3 source and PDF are frozen. Any future change to that reader source begins a new version; previously numbered artifacts remain unchanged.
 
 ## Mechanical Ethics and TRACE
 
