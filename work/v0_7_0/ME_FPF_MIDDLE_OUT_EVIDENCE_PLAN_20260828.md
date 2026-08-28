@@ -21,6 +21,12 @@ The plan does not assume that a maintained FPF-facing object should exist. Prese
    - the constructed low-fit scheduling control returned `ME_NOT_NEEDED`.
 3. Independent Framework and CC returns are `NOT_OBSERVED` at the time of this plan. That establishes neither refusal nor failure.
 
+### Later correction C1 — CC return on A.10
+
+COM #56 comment `5458237804`, marked `[FROM: CLAUDE CODE]`, was observed after this plan was frozen. Its FPF commit and spec-blob identities match the pinned dependency. Direct inspection of `A.10:4.6a` establishes that FPF already carries a practical contestability-and-redress minimum, `blocked-current-use` for an unsupported evidence path, affected-party challengeability under restricted evidence, and missing-source-relation repair or blocker handling.
+
+Consequently, the Leah candidate concerning persistent practical answerability is removed from the distinct ME candidate set. The remaining case candidates are investigation-burden placement and non-beneficiary closure. Gates G1-G7 and the transfer suite remain unchanged. The CC return did not supply a Leah FPF-only result or either queued transfer A arm, so those requested-work states remain `UNKNOWN`.
+
 ## Frozen dependencies
 
 ```text
@@ -46,7 +52,7 @@ Framework and CC should:
 1. read the separate Leah case-freeze card and cited scene;
 2. return the smallest competent FPF-only decision or blocker before reading the A/B result where practical;
 3. state whether result leakage occurred;
-4. test whether the three B candidate constraints are already recoverable from current FPF;
+4. test whether the remaining two B candidate constraints are already recoverable from current FPF, while checking correction C1 against `A.10:4.6a`;
 5. return `MATERIAL_DELTA`, `REDUNDANT`, `OVERFIRE`, or `INCONCLUSIVE` with burden.
 
 If a reviewer establishes that a proposed B constraint is already a direct FPF result rather than a separately supplied value posit, narrow or delete that candidate before transfer work. Do not defend it by changing wording.

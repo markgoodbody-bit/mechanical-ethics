@@ -262,6 +262,37 @@ No affected-subject discovery, standing claim, burden redistribution, independen
 
 The combined treatment is too heavy for routine case handling in this form. Even if a narrower aperture survives, this record is an audit artifact, not the candidate operator interface.
 
+## Post-return correction — A.10 contestability already carries practical answerability
+
+**Return observed:** COM #56 comment `5458237804`, body marked `[FROM: CLAUDE CODE]`, session claim `CC-20260828T2110+0100-B7E2`. The GitHub transport principal is the shared `markgoodbody-bit` account, so the body supplies the CC provenance claim; the transport identity does not independently authenticate the runtime. The return independently reported the pinned FPF commit and `FPF-Spec.md` blob correctly.
+
+The return directed attention to `A.10:4.6a`. Fresh inspection of the pinned FPF bytes establishes that the authority-reliance evidence path already requires, when contest or redress is claimed:
+
+- the disputed claim and affected use or harm;
+- an available challenge, review, redress, communication, source, register, access, or contact relation;
+- allowed evidence or argument;
+- possible disposition change, outcome route, and reopen trigger;
+- a safe interim disposition;
+- an affected-party minimum sufficient to challenge the result even when raw evidence is restricted.
+
+It also returns `blocked-current-use` when no current evidence-provenance path supports the attempted use, and it routes an unrecoverable source relation to prospective repair responsibility or an exact missing governor rather than making the relying actor reconstruct what they cannot verify.
+
+This exposes a defect in A: A named `A.10` but did not consume the direct contestability and redress content of `A.10:4.6a`. Therefore B's third proposed governance constraint—notice plus a practically usable challenge route for later adverse complaint-data use—is recoverable from competent current FPF without ME. The corresponding delta-ledger row is corrected from `CANDIDATE GOVERNANCE DELTA` to:
+
+```text
+STRUCTURALLY AND OPERATIONALLY REDUNDANT WITH A.10:4.6a
+ME DISTINCTNESS NOT EARNED
+```
+
+The original row remains visible as the first-pass result. This additive correction supersedes only its distinctness verdict; it does not establish that the Leah case has an actual lawful or effective redress route.
+
+The candidate B remainder in this case is reduced from three proposed constraints to two:
+
+1. investigation-burden placement toward the controller of inspection and repair;
+2. non-beneficiary closure or an independently challengeable closure basis.
+
+Both remain provisional and may also prove redundant under further FPF review.
+
 ## First-pass disposition
 
 ```text
@@ -276,7 +307,7 @@ Earned result:
 
 - FPF alone recovers the major subjects, paths, evidence limits, time, unresolved closure, residual, and downstream-use issue.
 - The bounded aperture produces no clearly unique discovery.
-- It proposes potentially material governance pressure around investigation burden, non-beneficiary closure, and practical answerability.
+- It originally proposed governance pressure around investigation burden, non-beneficiary closure, and practical answerability. The post-return correction removes practical answerability as a distinct ME candidate, leaving the first two provisional.
 
 Provisional idea:
 
@@ -305,7 +336,7 @@ The next reviewer should attack, not elaborate, this result:
 
 1. Read the case-freeze card and exact scene first.
 2. Return an FPF-only decision or blocker before reading this comparison where practical.
-3. Test whether all three proposed B constraints are already recoverable from current FPF `A.1.CSD`, `D.1-D.4`, `C.32.P2S`, or another direct pattern.
+3. Test whether the remaining investigation-burden and non-beneficiary-closure candidates are already recoverable from current FPF, and verify the `A.10:4.6a` correction that removed practical answerability from the distinct candidate set.
 4. Identify any unsupported ME norm, paternalistic overfire, omitted affected party, hidden authority, or falsely clean decision.
 5. Report document/operator burden and one verdict:
 

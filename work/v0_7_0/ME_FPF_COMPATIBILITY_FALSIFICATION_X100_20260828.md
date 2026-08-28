@@ -254,6 +254,24 @@ COMPACT PROFILE != HUMAN READER
 REDUNDANCY != PROJECT FAILURE
 ```
 
+## Post-audit external challenge — CC / A.10 contestability
+
+**Observed return:** COM #56 comment `5458237804`, body marked `[FROM: CLAUDE CODE]`, with a claimed CC session and independently reported FPF commit/spec-blob match. Because the GitHub carrier uses the shared `markgoodbody-bit` transport principal, the body is the provenance claim; transport identity does not independently establish the runtime.
+
+The return identified `A.10:4.6a` as a closer FPF neighbor to answerability than this audit had credited. Fresh inspection confirms that the pinned FPF already requires a contest/redress account to expose the disputed claim, affected use or harm, challenge or contact relation, allowed evidence, possible disposition change, outcome route, reopen trigger, safe interim disposition, and an affected-party challengeable minimum under restricted raw evidence. It also supports `blocked-current-use` and missing-source-relation repair or an exact blocker when the relying actor cannot recover or verify the source relation.
+
+Disposition:
+
+```text
+ANSWERABILITY / CONTESTABILITY STRUCTURE: MORE REDUNDANT THAN X100 STATED
+LEAH PRACTICAL-ANSWERABILITY CANDIDATE: REMOVED AS DISTINCT ME DELTA
+NEW "UNFILLABLE IN PRINCIPLE" ME REMAINDER: NOT ADMITTED
+```
+
+FPF does not appear to mint a separate class for evidence that is impossible in principle to reach, but literal absence of that phrase is not a material gap. A.10 already blocks unsupported current use, distinguishes restricted evidence from challengeable minimum, assigns prospective source-relation repair only through an independent responsibility relation, and returns a missing governor when no such relation exists. No changed action, constraint, or accountability result from adding an ME-specific impossibility class has been demonstrated.
+
+The return's E.16 top-of-override-chain question remains an author question, not a finding. No FPF or ME source change follows.
+
 ## No-change decisions from this x100
 
 - Do not modify Final Eight v0.28.2.
