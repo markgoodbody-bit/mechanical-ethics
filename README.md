@@ -43,6 +43,22 @@ Continue with:
 - **Part VI — Futures Still Reachable** for usable futures, care, and the placement of burden;
 - the **Conclusion** and **Appendix B — What Remains Unfinished** for claim boundaries and open problems.
 
+## Challenge it
+
+The reader is intended to be criticisable. General approval is less useful than a concrete break.
+
+A useful challenge identifies, in ordinary language:
+
+- the exact section, distinction, or case being challenged;
+- what the book appears to miss, compress, overstate, or make harder to see;
+- the real or constructed situation that exposes the problem;
+- what evidence would help distinguish the criticism from a disagreement in values or priorities;
+- whether the smallest response should be clarification, narrowing, a counterexample, a new test, or no change.
+
+Open a repository issue if you have a bounded criticism or counterexample: https://github.com/markgoodbody-bit/mechanical-ethics/issues/new
+
+A finding that Mechanical Ethics is redundant, wrong, too broad, too narrow, or useful only under specific conditions is a legitimate result.
+
 ## Current preservation baseline
 
 The current repository preservation baseline is **Human Reader v0.6.3**. It is a stable reference for continued work and remains a working candidate; it is **not a release, canon, validation, certification, or publication-readiness claim**.
