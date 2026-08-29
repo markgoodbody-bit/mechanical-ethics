@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Two flats, one wall</title>
+  <desc id="desc">The same physical leak enters two institutional routes. An owner reaches repair while a tenant enters a portal and queue, waits, moves out, and receives administrative closure without equivalent repair.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#374151"/></marker>
+    <style>
+      .title{font:600 30px Arial,sans-serif;fill:#111827}.head{font:600 21px Arial,sans-serif;fill:#111827}.text{font:17px Arial,sans-serif;fill:#1f2937}.small{font:15px Arial,sans-serif;fill:#374151}.owner{fill:#e6f2ea;stroke:#356b4b;stroke-width:2}.tenant{fill:#f6e6e3;stroke:#8b3f35;stroke-width:2}.cause{fill:#e8edf3;stroke:#374151;stroke-width:2}.node{fill:#ffffff;stroke:#4b5563;stroke-width:2}.line{stroke:#374151;stroke-width:3;fill:none;marker-end:url(#arrow)}.dash{stroke:#6b7280;stroke-width:3;stroke-dasharray:9 7;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" class="title">Two flats, one wall</text>
+  <rect x="440" y="85" width="320" height="90" rx="12" class="cause"/>
+  <text x="600" y="122" text-anchor="middle" class="head">One leaking wall</text>
+  <text x="600" y="151" text-anchor="middle" class="small">The physical source is shared</text>
+  <path d="M520 175 C420 220 330 225 260 255" class="line"/>
+  <path d="M680 175 C780 220 870 225 940 255" class="line"/>
+  <rect x="65" y="230" width="480" height="355" rx="16" class="owner"/>
+  <text x="305" y="270" text-anchor="middle" class="head">OWNER-OCCUPIED ROUTE</text>
+  <rect x="110" y="310" width="170" height="68" rx="10" class="node"/>
+  <text x="195" y="350" text-anchor="middle" class="text">Problem recognised</text>
+  <rect x="330" y="310" width="170" height="68" rx="10" class="node"/>
+  <text x="415" y="350" text-anchor="middle" class="text">Repair authorised</text>
+  <path d="M280 344 H325" class="line"/>
+  <rect x="220" y="440" width="170" height="68" rx="10" class="node"/>
+  <text x="305" y="480" text-anchor="middle" class="text">Home remains usable</text>
+  <path d="M415 380 C415 415 350 420 330 435" class="line"/>
+  <text x="305" y="550" text-anchor="middle" class="small">The route reaches power before the path closes</text>
+  <rect x="655" y="230" width="480" height="355" rx="16" class="tenant"/>
+  <text x="895" y="270" text-anchor="middle" class="head">TENANT ROUTE</text>
+  <rect x="690" y="310" width="140" height="68" rx="10" class="node"/>
+  <text x="760" y="350" text-anchor="middle" class="text">Portal</text>
+  <rect x="865" y="310" width="140" height="68" rx="10" class="node"/>
+  <text x="935" y="350" text-anchor="middle" class="text">Queue</text>
+  <rect x="950" y="440" width="140" height="68" rx="10" class="node"/>
+  <text x="1020" y="480" text-anchor="middle" class="text">File closed</text>
+  <rect x="700" y="440" width="170" height="68" rx="10" class="node"/>
+  <text x="785" y="468" text-anchor="middle" class="text">Family moves</text>
+  <text x="785" y="491" text-anchor="middle" class="small">repair still unresolved</text>
+  <path d="M830 344 H860" class="line"/>
+  <path d="M935 380 C935 410 865 425 820 438" class="dash"/>
+  <path d="M870 474 H945" class="line"/>
+  <text x="895" y="550" text-anchor="middle" class="small">Administrative closure is not equivalent repair</text>
+  <text x="600" y="630" text-anchor="middle" class="head">Same wall. Different routes, clocks, authority, and retained futures.</text>
+</svg>

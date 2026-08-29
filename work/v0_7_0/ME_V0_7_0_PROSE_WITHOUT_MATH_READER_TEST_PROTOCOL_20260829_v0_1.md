@@ -6,13 +6,18 @@
 ## Exact object under test
 
 ```text
-work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_1.md
-bytes: 86,299
-lines: 914
-SHA-256: 6ee0b3aedd80c2f7020f70854a3b18edb7d8868762a242a18ba62d5d245ab09d
+work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md
+bytes: 87,177
+lines: 922
+SHA-256: 56b09d5a1f7f0db5102ad47a636c60273cd2ddc325d216b4414e5359f21604a7
 ```
 
 This protocol does not alter that candidate.
+
+The protocol originally named v0.1. No reader result had been produced when
+v0.2 added the four missing figure links and two review-earned wording repairs.
+The target therefore moved before execution; no result was displaced or
+silently reclassified.
 
 ## Review trigger
 
