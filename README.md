@@ -33,9 +33,10 @@ The v0.7 reader is ready for bounded criticism. It is not ready for a general
 readability claim, publication claim or baseline promotion. No human-reader
 result exists yet.
 
-The frozen preservation baseline remains v0.6.3. Its exact source, PDF and
-status record are under [`repository/`](repository/). Moving those files away
-from the public root did not change their bytes or status.
+The frozen preservation baseline remains v0.6.3. Earlier versions, evidence
+records and build history remain recoverable through Git history and the dated
+`branch-archive-20260829-pre-minimal-surface` tag; they are not part of the
+current reading surface.
 
 External comparison with [FPF](https://github.com/ailev/FPF) narrowed several
 claims and produced a preserved `ME_NOT_NEEDED` case result. It did not earn
@@ -52,16 +53,21 @@ FPF conformance, endorsement, a plug-in or a compulsory combined workflow.
 - enforcement, brake and interruption authority;
 - usability for ordinary people without unusual reserves.
 
-## Evidence and history
+## Review, history and licence
 
-- [current readiness audit](repository/work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md)
-- [evidence index](repository/work/v0_7_0/evidence/README.md)
-- [preservation baseline v0.6.3](repository/PRESERVATION_BASELINE_v0_6_3.md)
-- [repository map and historical material](repository/README.md)
+Critical review is welcome through the repository's GitHub issues. Agreement
+is elaboration, not validation.
+
+No general reuse licence has been granted for this repository or its contents.
+Public visibility permits inspection, linking, discussion and review; it does
+not itself grant permission to copy, adapt, redistribute or incorporate the
+material into another work. Questions about a proposed use should be raised
+with the repository owner.
 
 ```text
 WORKING_CANDIDATE != PRESERVATION_BASELINE
 EXTERNAL_AGREEMENT != VALIDATION
 COMPATIBILITY != CONFORMANCE
 DIAGRAM != EVIDENCE
+PUBLIC_VISIBILITY != REUSE_PERMISSION
 ```
