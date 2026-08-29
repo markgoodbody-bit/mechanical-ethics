@@ -6,15 +6,22 @@ after a threatened path has hardened.
 
 ## Read this
 
-Start with [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md).
+Choose either form of the same current reader:
 
-That file is the current **v0.7.0 working candidate v0.2**:
+- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) - inspectable Markdown source;
+- [`MECHANICAL_ETHICS.pdf`](MECHANICAL_ETHICS.pdf) - typeset 6 x 9 inch reader edition.
+
+Both present the current **v0.7.0 working candidate v0.2**. The Markdown is
+the editable source; the PDF is generated from it and is not a separate
+manuscript.
+
+| Form | Bytes | SHA-256 |
+|---|---:|---|
+| Markdown | 87,177 | `56b09d5a1f7f0db5102ad47a636c60273cd2ddc325d216b4414e5359f21604a7` |
+| PDF | 452,189 | `053ba692d0c21b676c84736f2e4be5bd07614f07940a227b104bcab8b6f0b6a9` |
 
 ```text
-bytes:   87,177
-lines:   922
-SHA-256: 56b09d5a1f7f0db5102ad47a636c60273cd2ddc325d216b4414e5359f21604a7
-status:  WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED
+WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED
 ```
 
 The four diagrams in [`figures/`](figures/) are explanatory carriers, not

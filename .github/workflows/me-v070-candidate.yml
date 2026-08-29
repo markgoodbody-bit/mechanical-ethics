@@ -4,16 +4,20 @@ on:
   push:
     paths:
       - ".github/workflows/me-v070-candidate.yml"
+      - ".github/scripts/build_me_pdf.py"
       - "repository/tools/verify_me_v070_candidate.py"
       - "MECHANICAL_ETHICS.md"
+      - "MECHANICAL_ETHICS.pdf"
       - "figures/**"
       - "repository/MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md"
       - "repository/Mechanical_Ethics_v0_6_3.pdf"
   pull_request:
     paths:
       - ".github/workflows/me-v070-candidate.yml"
+      - ".github/scripts/build_me_pdf.py"
       - "repository/tools/verify_me_v070_candidate.py"
       - "MECHANICAL_ETHICS.md"
+      - "MECHANICAL_ETHICS.pdf"
       - "figures/**"
       - "repository/MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md"
       - "repository/Mechanical_Ethics_v0_6_3.pdf"
@@ -30,3 +34,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: python repository/tools/verify_me_v070_candidate.py
+      - name: Rebuild reader PDF from Markdown
+        run: |
+          python -m pip install --disable-pip-version-check reportlab==4.4.9 pypdf==6.10.0 pillow==12.3.0
+          python .github/scripts/build_me_pdf.py \
+            --source MECHANICAL_ETHICS.md \
+            --output /tmp/MECHANICAL_ETHICS.pdf
+          cmp MECHANICAL_ETHICS.pdf /tmp/MECHANICAL_ETHICS.pdf
