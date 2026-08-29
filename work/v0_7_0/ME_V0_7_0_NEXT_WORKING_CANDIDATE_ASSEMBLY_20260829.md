@@ -115,8 +115,19 @@ authority merely by naming them.
 
 ## 6. Next gate
 
-The next legitimate reader action is a human read of this exact candidate,
-followed by one of:
+The next legitimate reader action is a human read of this exact candidate.
+One bounded review question now has a pre-test protocol:
+
+```text
+work/v0_7_0/ME_V0_7_0_PROSE_WITHOUT_MATH_READER_TEST_PROTOCOL_20260829_v0_1.md
+```
+
+That protocol tests whether an ordinary reader can reconstruct the timing
+claim, late-correction distinction, priority ceiling and authority ceiling
+without reading the displayed equations. No reader result exists yet. The
+protocol does not alter this candidate and does not make mathematics forbidden.
+
+After human reading, choose one of:
 
 ```text
 ACCEPT AS NEXT REVIEW CANDIDATE
