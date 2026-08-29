@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.1**
+**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.2**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -92,7 +92,7 @@ Mechanical Ethics is the human language for that inquiry. TRACE is the more comp
 
 The first case is deliberately ordinary.
 
-> **COMPOSITE SCENE - LEAH AND THE WALL**
+> **Composite Scene - Leah and the Wall**
 >
 > Leah wakes at 1:17 because Mia is coughing again. The damp patch behind the bed has spread above the skirting board. Leah moves the pillow, takes a photograph on a cracked phone, and opens the landlord's online reporting page. Organisations often call such a page a *portal*: a website through which a person is expected to submit a request, upload evidence, or check progress.
 >
@@ -187,7 +187,7 @@ Consider a physical gate. To an adult with a free hand it may be an entrance. To
 
 The same principle applies to institutional doors. Publishing a process does not establish that the person can use it under the conditions in which the harm is occurring.
 
-> **HUMAN SLIVER - THE QR CODE**
+> **Human Sliver - The QR Code**
 >
 > Arthur is seventy-three. The letter about his hospital appointment contains no telephone number for changes. It tells him to scan a square code with a smartphone. Arthur owns a mobile phone that makes calls and sends texts. He takes the letter to the chemist because the assistant there once helped him reset the clock on the phone.
 >
@@ -207,7 +207,7 @@ A person may be required to create an account, verify an email address, enter a 
 
 Classification is especially important. A category does more than describe the case. It can determine which team sees it, which clock begins, what evidence counts, and how failure will later be recorded. When the available categories do not fit, the person must either choose an inaccurate label or fail to enter the system at all.
 
-> **OFF-ANGLE EXAMPLE - THE GOAT AND THE LATCH**
+> **Off-Angle Example - The Goat and the Latch**
 >
 > At a small animal sanctuary, volunteers replace a simple hook on the feed store with a childproof latch. The old hook was easy for people and, unfortunately, for Mabel the goat, who had learned to lift it with her nose. The new latch defeats Mabel. It also defeats Tom, an older volunteer with arthritis, whenever the weather is cold.
 >
@@ -231,7 +231,7 @@ Routing becomes harmful when the claim moves through the organisation while the 
 
 A case may pass from a general inbox to a specialist team, then to a contractor, a manager, a complaints function, and an appeal body. At each stage the person must learn a new name, quote another reference number, repeat the history, and prove that the previous contacts occurred. The organisation possesses the records but asks the person to carry continuity.
 
-> **HUMAN SLIVER - THE VIOLIN IN THREE SYSTEMS**
+> **Human Sliver - The Violin in Three Systems**
 >
 > Rosa's violin comes off a flight with a crack beside the bridge. The airline directs her to the ground-handling company. The handler says damage claims must be opened by the airline. The insurer asks for a repair estimate before accepting the claim, while the repairer will not dismantle the instrument until somebody has accepted responsibility for the cost.
 >
@@ -245,7 +245,7 @@ Delay is active. Debt grows, evidence becomes harder to recover, a child remains
 
 A trustworthy process should be able to answer three questions at any point: where is the claim, where is the burden, and what has happened to the clock? If only the claim has moved, the organisation should not describe routing as progress. The aim is to make the route carry its own memory, authority, and responsibility wherever possible, not to remove routing.
 
-> **HUMAN SLIVER - A ROUTE THAT CARRIED ITS OWN MAP**
+> **Human Sliver - A Route That Carried Its Own Map**
 >
 > A pharmacist notices that a new prescription may conflict with medicine the patient already takes. She marks the prescription as paused, tells the patient why it cannot yet be supplied, contacts the prescriber directly, and gives the patient the pharmacy's number and the name of the person holding the query. The patient does not have to carry messages between organisations or reconstruct the clinical reasoning.
 >
@@ -305,7 +305,7 @@ A useful question is simple: who is paying while nobody knows?
 
 Is the organisation spending money or authority to find out, stopping the contested action, and protecting the evidence and the person? Or does the rent rise, the payment stop, the model continue, the medicine remain unavailable, or the dangerous condition stay in place until the weaker party proves the case?
 
-> **HISTORICAL NOTE - FRANCES KELSEY AND THALIDOMIDE**
+> **Historical Note - Frances Kelsey and Thalidomide**
 >
 > In 1960, FDA medical reviewer Frances Oldham Kelsey received an application to market thalidomide in the United States. She judged the submitted safety evidence inadequate and repeatedly required further information despite pressure from the manufacturer. Her caution had practical force because the law and review process gave the FDA authority to prevent the application from taking effect while the evidence remained insufficient. By late 1961, reports had linked thalidomide exposure during pregnancy to severe birth defects in countries where the drug had been used.
 >
@@ -337,7 +337,7 @@ Once that question is asked, temporary protection stops looking like generosity 
 
 ## Short Case - The Finance Appeal That Arrived Too Late
 
-> **COMPOSITE SCENE**
+> **Composite Scene**
 >
 > Amina's car fails its MOT on Thursday. Her new rota begins on Monday, with two early shifts at a care home beyond the first bus. On Friday she finds a used car she can afford and applies for finance from the dealer's desk.
 >
@@ -425,7 +425,7 @@ A real correction changes something. What it cannot change is the reason honesty
 
 ## Interlude - Two Flats, One Wall
 
-> **COMPOSITE SCENE**
+> **Composite Scene**
 >
 > Two flats share a wall. Martin owns upstairs. Leah and Sam rent downstairs with their daughter, Mia.
 >
@@ -549,7 +549,7 @@ A correction that cannot be checked remains a claim about correction. Checking d
 
 ## Historical Note - Challenger and the Cost of Proceeding
 
-> **HISTORICAL CASE**
+> **Historical Case**
 >
 > On 28 January 1986, the Space Shuttle *Challenger* broke apart seventy-three seconds after launch, killing all seven crew members. The Rogers Commission concluded that the launch decision was flawed. The people who made the final decision were not given the recent history of O-ring problems, the contractor's initial written recommendation against launch below the previous low-temperature experience, or the continuing opposition of engineers after contractor management reversed that recommendation.
 >
@@ -666,7 +666,7 @@ The question here is whether the affected being remains present in the decision 
 
 ## Interlude - The Saturday Workshop
 
-> **COMPOSITE SCENE**
+> **Composite Scene**
 >
 > Priya lifts the shutter at ten every Saturday. One garage holds bicycles in different stages of repair, while the other contains donated laptops, kettles, lamps, and components sorted into takeaway tubs labelled in marker pen. One tub reads *CABLES THAT MAY OR MAY NOT BE IMPORTANT*.
 >
@@ -736,7 +736,7 @@ This is how repair can accumulate without erasing what was lost. Not every reach
 
 ## 17. Care Without Possession
 
-> **COMPOSITE SLIVER - JUNE AND THE GREYHOUND**
+> **Composite Sliver - June and the Greyhound**
 >
 > June's greyhound, Sol, is old and seriously ill. The vet can offer another procedure that may add time, although recovery would be painful and the chance of returning to the walks, food, and easy sleep Sol still enjoys is low.
 >
