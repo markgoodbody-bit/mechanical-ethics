@@ -11,15 +11,15 @@ TRACE is the separable structure-facing artifact. Neither validates the other.
 Current preservation baseline:
 
 ```text
-v0.6.3 source: MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md
-v0.6.3 carrier: Mechanical_Ethics_v0_6_3.pdf
+v0.6.3 source: repository/MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md
+v0.6.3 carrier: repository/Mechanical_Ethics_v0_6_3.pdf
 status: FROZEN PRESERVATION BASELINE
 ```
 
 Current reviewable working candidate:
 
 ```text
-work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md
+MECHANICAL_ETHICS.md
 bytes: 87,177
 lines: 922
 words: 14,080 by whitespace split
@@ -32,7 +32,7 @@ withdrawn safety-note wording experiment. It is not the active reader target.
 
 Open the controlled working surface:
 
-- [current reader candidate v0.2](../work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md)
+- [current reader candidate v0.2](../../MECHANICAL_ETHICS.md)
 - [v0.7 working-surface index](../work/v0_7_0/README.md)
 - [v0.2 assembly and exact before/after record](../work/v0_7_0/evidence/ME_V0_7_0_NEXT_WORKING_CANDIDATE_V02_ASSEMBLY_20260829.md)
 - [pre-external-contact readiness audit](../work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md)

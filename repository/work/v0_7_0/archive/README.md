@@ -14,4 +14,4 @@ v0.3 document remains byte-identical and its original relative links still
 resolve after archival.
 
 The current reader remains
-[`../MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md`](../MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md).
+[`MECHANICAL_ETHICS.md`](../../../../MECHANICAL_ETHICS.md).

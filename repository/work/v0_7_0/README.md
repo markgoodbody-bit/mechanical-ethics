@@ -2,12 +2,12 @@
 
 **Status:** WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED
 
-This directory separates the current reader from the records used to assemble,
-challenge and narrow it.
+This directory preserves the records used to assemble, challenge and narrow
+the current reader. The reader itself is at the repository root.
 
 ## Read in this order
 
-1. [`MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md)
+1. [`MECHANICAL_ETHICS.md`](../../../MECHANICAL_ETHICS.md)
    — the only current v0.7 reader candidate.
 2. [`ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md`](ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md)
    — earned results, wording pressures, governance improvements and unresolved
@@ -15,7 +15,7 @@ challenge and narrow it.
 3. [`evidence/README.md`](evidence/README.md) — assembly, provenance, external
    challenge and FPF-comparison records.
 
-The four diagrams used by the reader are in [`figures/`](figures/). They are
+The four diagrams used by the reader are in [`figures/`](../../../figures/). They are
 explanatory carriers, not evidence.
 
 ## Historical objects

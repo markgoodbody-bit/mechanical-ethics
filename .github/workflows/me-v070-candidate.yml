@@ -4,15 +4,19 @@ on:
   push:
     paths:
       - ".github/workflows/me-v070-candidate.yml"
-      - "tools/verify_me_v070_candidate.py"
-      - "work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md"
-      - "work/v0_7_0/figures/**"
+      - "repository/tools/verify_me_v070_candidate.py"
+      - "MECHANICAL_ETHICS.md"
+      - "figures/**"
+      - "repository/MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md"
+      - "repository/Mechanical_Ethics_v0_6_3.pdf"
   pull_request:
     paths:
       - ".github/workflows/me-v070-candidate.yml"
-      - "tools/verify_me_v070_candidate.py"
-      - "work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md"
-      - "work/v0_7_0/figures/**"
+      - "repository/tools/verify_me_v070_candidate.py"
+      - "MECHANICAL_ETHICS.md"
+      - "figures/**"
+      - "repository/MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md"
+      - "repository/Mechanical_Ethics_v0_6_3.pdf"
 
 permissions:
   contents: read
@@ -25,4 +29,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/verify_me_v070_candidate.py
+      - run: python repository/tools/verify_me_v070_candidate.py
