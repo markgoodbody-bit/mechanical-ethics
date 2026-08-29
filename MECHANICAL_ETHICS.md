@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.3**
+**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.4**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -768,21 +768,19 @@ Cooperation can combine capability and bring more perspectives to error, but it 
 
 # Conclusion
 
-Mechanical Ethics begins with an ordinary mismatch: a decision can look correct in a file while doing something very different to a life. It can also be corrected in the file after the future it affected has already changed. The central question is therefore not only whether a decision can eventually be explained or reversed. It is whether the person or other being living with it can still reach a usable future when the correction arrives.
+Mechanical Ethics began with an ordinary mismatch: a decision can look correct in a file while doing something very different to a life. A record can be corrected long after the future it affected has already changed. The central question is not merely whether a decision can eventually be explained or reversed. It is whether the person or other being living with it can still reach a usable future by the time the correction arrives.
 
-The framework does not decide what makes a life meaningful. That remains with the being who must live it. Its claim is narrower: power should not remove the affected being from decisions about its own life by closing every practically viable continuation. A viable continuation is more than an option that exists on paper. It must be possible to find, understand, afford, use, and maintain; it must leave room for answer, refusal, challenge, and correction. Keeping such a route open does not prove that the life is good or that one path is best. It preserves enough agency for those questions to remain real.
+This framework does not tell anyone what makes a life meaningful. That remains with the being who must live it. Its claim is narrower: power should not remove that being from decisions about its own life by closing every genuinely viable way forward. A viable route is more than an option that exists on paper. It must be possible to find, understand, afford, use, and maintain. It must leave room to answer, refuse, challenge, and correct. Keeping such a route open does not prove that a life is good, or that one path is best. It simply preserves enough agency for those questions to remain real.
 
-This changes what responsible action requires. Before a high-consequence decision proceeds, somebody must ask what could close, when it could become hard to restore, who controls the clock and the evidence, and what temporary protection could keep the threatened path open. They must also ask whether the affected being can understand and use the route offered, who carries the work and risk while uncertainty is resolved, and what loss will remain even if the record is later corrected.
+This changes what responsible action requires. Before a high-consequence decision proceeds, someone must ask what could close, when it could become hard to restore, and who controls the clock and the evidence. They must ask what temporary protection could keep the threatened path open, who will carry the burden while uncertainty is resolved, and what loss may remain even if the record is later fixed.
 
-Timing matters because explanation and protection are not the same act. Detection, routing, and correction may overlap, and their duration may be uncertain. A pause, hold, temporary repair, evidence-preservation step, or deployment limit can sometimes create more time. But once a path has hardened beyond comparable repair, a later apology, appeal decision, compensation payment, or corrected record cannot make the earlier future available again.
+Timing matters because explanation and protection are not the same act. A pause, a hold, or a temporary repair can sometimes buy time. But once a path has hardened beyond comparable repair, a later apology, compensation payment, or corrected file cannot make that future available again.
 
-\newpage
+None of these questions answers itself. Who counts, what should be protected, and what evidence is accepted are all contestable choices. Their authorship must be kept visible, especially when one party holds more power. Several protected paths may also conflict. Mechanical Ethics can expose those competing clocks and burdens, but it does not supply a universal rule for ranking them.
 
-None of these questions answers itself. Who counts, what should be protected, what evidence is accepted, how safety and affordability are judged, and how far ahead the decision should look are all contestable choices. Their authorship must be visible, especially where one party has more power. Several protected paths may also conflict. Mechanical Ethics can expose those competing clocks and burdens; it does not supply a universal rule for ranking lives or resolving every collision.
+Nor does identifying a failure force the responsible actor to fix it. Diagnosis is not enforcement, and a record of harm is not a rescue.
 
-Nor does identifying a failure make the responsible actor correct it. Where a person or institution cannot or will not preserve a threatened path, external protection, legal authority, collective action, interruption, or organised resistance may still be required. Diagnosis is not enforcement, and a record of harm is not repair.
-
-The practical demand is modest to state and difficult to meet: keep the affected being present, keep at least one genuinely usable route open where that can still be done, place the burden on those with the power to carry it, and act before correction becomes only an account of what was lost. The compact notation in Appendix A records this argument for readers who need it. It does not prove the argument or settle its unfinished questions.
+The practical demand is modest to state and difficult to meet: keep the affected being present in the decision. Keep at least one genuinely usable route open. Place the burden of complexity and delay on those with the power to carry it. And act before correction becomes only an account of what was lost.
 
 # Author's Note - How This Began
 
