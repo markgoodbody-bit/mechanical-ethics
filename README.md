@@ -11,14 +11,14 @@ Choose either form of the same current reader:
 - [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) - inspectable Markdown source;
 - [`MECHANICAL_ETHICS.pdf`](MECHANICAL_ETHICS.pdf) - typeset 6 x 9 inch reader edition.
 
-Both present the current **v0.7.0 working candidate v0.2.1**. The Markdown is
+Both present the current **v0.7.0 working candidate v0.2.2**. The Markdown is
 the editable source; the PDF is generated from it and is not a separate
 manuscript.
 
 | Form | Bytes | SHA-256 |
 |---|---:|---|
-| Markdown | 87,173 | `7b475e8b7c6ed60a7be3ace32e6feefb643c7976ffff2031648fbdad7b13feaa` |
-| PDF | 452,383 | `8e3298445941d5eec779a75f3b013253f3b53533b35dc97316912963689a0f0b` |
+| Markdown | 87,173 | `4058f7ee4258ac391c59e0e71f3318b66f421c1bb012dd8b05d375d7884de1da` |
+| PDF | 452,257 | `03d10fd9b6b7651bfd561c886a50a29c041bf3e3c170ba84db7007fa8d64bfcf` |
 
 ```text
 WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED
@@ -30,8 +30,9 @@ evidence.
 ## Current status
 
 The v0.7 reader is ready for bounded criticism. The repository owner preferred
-the v0.2.1 register pass to v0.2 in a direct human reading. That is one bounded
-reader result, not a general readability claim, publication claim or baseline
+the v0.2.1 register pass to v0.2 in a direct human reading, then selected the
+v0.2.2 story-section presentation in a direct visual reading. These are bounded
+reader results, not a general readability claim, publication claim or baseline
 promotion.
 
 The frozen preservation baseline remains v0.6.3. Earlier versions, evidence
