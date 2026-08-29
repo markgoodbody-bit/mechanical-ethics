@@ -69,7 +69,29 @@ The current repository preservation baseline is **Human Reader v0.6.3**. It is a
 - [`PRESERVATION_BASELINE_v0_6_3.md`](PRESERVATION_BASELINE_v0_6_3.md) — exact artifact identities, status, scope, and forward-version rule
 - [`MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md) and [`Mechanical_Ethics_v0_6_2.pdf`](Mechanical_Ethics_v0_6_2.pdf) — preserved previous version
 
-The numbered v0.6.3 source and PDF are frozen. Any future change to the reader source begins **v0.6.4**; previously numbered artifacts remain unchanged.
+The numbered v0.6.3 source and PDF are frozen. A bounded repair on that line
+would require a new patch version; a materially reassembled reader may advance
+the minor version. Previously numbered artifacts remain unchanged, and no
+working candidate becomes the preservation baseline without a separate
+recorded promotion decision.
+
+## Current development candidate
+
+The current reviewable next-version object is the **Mechanical Ethics v0.7.0
+Human Reader working candidate v0.2** in [draft PR
+#34](https://github.com/markgoodbody-bit/mechanical-ethics/pull/34):
+
+- [read the exact working candidate](https://github.com/markgoodbody-bit/mechanical-ethics/blob/framework/me-v0-7-0-field-delta-20260824/work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md);
+- [read its current readiness audit](https://github.com/markgoodbody-bit/mechanical-ethics/blob/framework/me-v0-7-0-field-delta-20260824/work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md).
+
+It is working material, not a baseline, release, canon, validation or
+publication-readiness claim. It does not supersede v0.6.3. Standing, hard
+collisions, protection-floor grounding, representation, legitimate independent
+review and usability for ordinary people without unusual reserves remain open.
+
+External comparison with FPF has narrowed several claims and produced a
+preserved `ME_NOT_NEEDED` case result. It has not earned FPF conformance,
+endorsement, a plug-in or a compulsory combined workflow.
 
 ## Mechanical Ethics and TRACE
 
