@@ -5,22 +5,18 @@ on:
     paths:
       - ".github/workflows/me-v070-candidate.yml"
       - ".github/scripts/build_me_pdf.py"
-      - "repository/tools/verify_me_v070_candidate.py"
+      - "README.md"
       - "MECHANICAL_ETHICS.md"
       - "MECHANICAL_ETHICS.pdf"
       - "figures/**"
-      - "repository/MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md"
-      - "repository/Mechanical_Ethics_v0_6_3.pdf"
   pull_request:
     paths:
       - ".github/workflows/me-v070-candidate.yml"
       - ".github/scripts/build_me_pdf.py"
-      - "repository/tools/verify_me_v070_candidate.py"
+      - "README.md"
       - "MECHANICAL_ETHICS.md"
       - "MECHANICAL_ETHICS.pdf"
       - "figures/**"
-      - "repository/MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md"
-      - "repository/Mechanical_Ethics_v0_6_3.pdf"
 
 permissions:
   contents: read
@@ -33,7 +29,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python repository/tools/verify_me_v070_candidate.py
+      - name: Verify declared current identities and status boundary
+        run: |
+          printf '%s  %s\n' '56b09d5a1f7f0db5102ad47a636c60273cd2ddc325d216b4414e5359f21604a7' MECHANICAL_ETHICS.md | sha256sum -c -
+          printf '%s  %s\n' '053ba692d0c21b676c84736f2e4be5bd07614f07940a227b104bcab8b6f0b6a9' MECHANICAL_ETHICS.pdf | sha256sum -c -
+          grep -F 'WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED' README.md
       - name: Rebuild reader PDF from Markdown
         run: |
           python -m pip install --disable-pip-version-check reportlab==4.4.9 pypdf==6.10.0 pillow==12.3.0
@@ -41,3 +41,5 @@ jobs:
             --source MECHANICAL_ETHICS.md \
             --output /tmp/MECHANICAL_ETHICS.pdf
           cmp MECHANICAL_ETHICS.pdf /tmp/MECHANICAL_ETHICS.pdf
+      - name: Check whitespace integrity
+        run: git diff --check
