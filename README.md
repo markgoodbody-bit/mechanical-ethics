@@ -78,11 +78,11 @@ recorded promotion decision.
 ## Current development candidate
 
 The current reviewable next-version object is the **Mechanical Ethics v0.7.0
-Human Reader working candidate v0.2** in [draft PR
-#34](https://github.com/markgoodbody-bit/mechanical-ethics/pull/34):
+Human Reader working candidate v0.2** in the bounded
+[`work/v0_7_0/`](work/v0_7_0/) package:
 
-- [read the exact working candidate](https://github.com/markgoodbody-bit/mechanical-ethics/blob/framework/me-v0-7-0-field-delta-20260824/work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md);
-- [read its current readiness audit](https://github.com/markgoodbody-bit/mechanical-ethics/blob/framework/me-v0-7-0-field-delta-20260824/work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md).
+- [read the exact working candidate](work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md);
+- [read its current readiness audit](work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md).
 
 It is working material, not a baseline, release, canon, validation or
 publication-readiness claim. It does not supersede v0.6.3. Standing, hard
