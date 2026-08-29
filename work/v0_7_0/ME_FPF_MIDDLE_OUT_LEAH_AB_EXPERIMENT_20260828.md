@@ -293,6 +293,132 @@ The candidate B remainder in this case is reduced from three proposed constraint
 
 Both remain provisional and may also prove redundant under further FPF review.
 
+## Post-return correction 2 — restated CC Leah challenge
+
+**Return observed:** COM #56 comment `5461823293`, body marked `[FROM: CLAUDE
+CODE]`, claimed session `CC-20260828T2110+0100-B7E2`, created and last updated
+2026-08-29 10:33:45 UTC. The comment body SHA-256 is
+`96f4599d54e47b6dc8848c21bacbe41ceef20e998adf8f23513b8aa199ae4803`.
+The shared `markgoodbody-bit` transport principal does not independently
+authenticate the claimed runtime.
+
+The frozen case card blob `af846cabb81af895be5bebd162e4b3dcd0a78400`,
+v0.6.3 carrier blob `e8fba4b707f4492b6a90d27289d2863b45fbbf29`,
+FPF commit `72222c13cc1bba009f1ee1f1aca47654db8e5716`, and FPF spec
+blob `1ce815ab5037924f11e3739db06ca24bf889f10d` were independently
+reproduced. The return disclosed severe prior exposure to ME, the candidate
+pressures, and the RAIB-2 `REDUNDANT / ME_NOT_NEEDED` result. It is admissible
+as warm adversarial criticism, not cold transfer evidence.
+
+### Temporal correction
+
+The return correctly identifies that the same-analyst A used later case
+knowledge too early. At receipt, the handler cannot know the contractor's later
+finding about the exterior joint. The original A.5 item 3 and A.6 item 2 are
+therefore narrowed additively:
+
+```text
+AT RECEIPT:
+  Leah's report and submitted evidence must stand on their own as the input to
+  a named inspection/repair decision route or an explicit blocker.
+
+IF LATER AVAILABLE BEFORE INSPECTION, HANDOFF, OR CLOSURE:
+  the upstairs contractor finding becomes a separately timed input whose
+  relevance to the downstairs condition must be checked.
+
+LATER EVIDENCE != RECEIPT-TIME KNOWLEDGE
+```
+
+This correction does not prevent the frozen full-horizon case from testing
+later closure, residue, or route hardening. It prevents later facts from being
+used to justify an initial decision as if the handler already possessed them.
+
+### Candidate pressure 1 — investigation burden
+
+The return says FPF exposes movement of proof work but does not allocate the
+next investigation burden, and therefore says the ME pressure changes the
+output. It then argues that ME cannot supply that allocation without
+contradicting its authority ceiling.
+
+The first point preserves the pressure as potentially material. The second is
+too strong. A voluntary normative framework can state a contestable reason
+without creating law, permission, institutional authority, or a universal
+priority rule. The existing B already labels this move a contestable ME
+burden-placement posit and leaves proportionality and domain authority open.
+
+That disagreement does not validate the posit. An explicit external value rule
+could reproduce it, and the warm return does not independently establish its
+legitimacy, scope, or transfer. The pressure therefore remains provisional and
+cannot yet pass non-redundancy or reproduction.
+
+### Candidate pressure 2 — non-beneficiary closure
+
+The return establishes substantial FPF coverage: `A.10:4.6a` already carries
+challenge, possible disposition change, outcome route, reopen trigger, and safe
+interim disposition. The remaining question is narrower: whether an
+independence or conflict-of-interest constraint is actually bound to that
+redress/closure route. The return could not establish that binding.
+
+The candidate is therefore narrowed from a broad closure contribution to an
+unresolved governance question:
+
+```text
+CHALLENGE / REOPEN / UNRESOLVED DISPOSITION: SUBSTANTIALLY FPF-RECOVERABLE
+INDEPENDENCE FROM CLOSURE BENEFICIARY: NOT ESTABLISHED
+ME-SPECIFIC RULE: NOT EARNED
+EXTERNAL GOVERNANCE RELATION: STILL REQUIRED
+```
+
+### Overfire and omitted-party findings
+
+The warning against treating later facts as receipt-time knowledge is accepted.
+The stronger suggestion that later facts cannot inform review of the route over
+the frozen horizon is not accepted: the case question explicitly extends
+through inspection, repair or unresolved handoff, and justified closure.
+
+Martin was not omitted from the same-analyst A/B analysis. A.3 explicitly
+retains him as another resident/owner receiving a different route, and the
+frozen scene follows the shared wall across both flats. The two provisional ME
+pressures are constraints, not a complete affected-party inventory. No entity
+addition is justified by this return.
+
+### Gates G1-G7 after the return
+
+```text
+G1 MATERIALITY:
+  PROVISIONAL ONLY — burden allocation would change an accountability relation
+  if accepted, but the return supplies no independently grounded allocation.
+
+G2 NON-REDUNDANCY:
+  NOT PASSED — FPF alone does not clearly allocate the burden, but an explicit
+  external value rule may reproduce the posit; ME-specific necessity is absent.
+
+G3 AUTHORITY CEILING:
+  PASS ONLY WITH CURRENT LABELS — contestable ME posit, no legal duty,
+  permission, standing, priority, or institutional authority created.
+
+G4 ACTIVATION / NO-OP:
+  NOT PASSED FOR A ROUTINE INTERFACE — most handling and closure work is already
+  recoverable; the narrow remainder remains a blocker/question, not a module.
+
+G5 BURDEN:
+  NOT PASSED — return reports approximately 900 words, operator time not
+  measurable; the prior B increment remains 499 words and seven questions.
+
+G6 TRANSFER / REPRODUCTION:
+  FAIL — one severely exposed warm reviewer, no independent reproduced delta.
+
+G7 OPEN WOUNDS:
+  PASS — standing, floors, proportionality, legitimate independence, domain
+  authority, and collision ordering remain explicit.
+```
+
+**Post-return disposition:** `INCONCLUSIVE` is retained. One temporal correction
+is earned. Investigation-burden placement remains a provisional normative
+pressure. Non-beneficiary closure narrows to an unresolved independence binding.
+No Human Reader, FPF source, TRACE source, release, conformance claim, or
+maintained interface changes.
+
 ## First-pass disposition
 
 ```text

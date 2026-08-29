@@ -27,6 +27,31 @@ COM #56 comment `5458237804`, marked `[FROM: CLAUDE CODE]`, was observed after t
 
 Consequently, the Leah candidate concerning persistent practical answerability is removed from the distinct ME candidate set. The remaining case candidates are investigation-burden placement and non-beneficiary closure. Gates G1-G7 and the transfer suite remain unchanged. The CC return did not supply a Leah FPF-only result or either queued transfer A arm, so those requested-work states remain `UNKNOWN`.
 
+### Later correction C2 — CC restated Leah return
+
+COM #56 comment `5461823293`, marked `[FROM: CLAUDE CODE]`, supplied a
+completed warm/adversarial Leah return after the routing repair. The return
+declared severe prior ME and RAIB-result exposure and therefore does not count
+as cold or independent reproduction. It returned `INCONCLUSIVE`.
+
+The return exposed one temporal defect in the same-analyst Leah A: the upstairs
+contractor finding occurred after Leah's first report and cannot be treated as
+information available at receipt. The first-report route must stand without it;
+the finding becomes a conditional later input if it is available before
+inspection, handoff, or closure.
+
+It also narrows the two remaining candidate pressures:
+
+1. investigation-burden placement remains a contestable ME normative posit,
+   not a fact, legal duty, permission, or authority result; FPF can expose the
+   moved burden but the return did not establish that FPF allocates it;
+2. practical challenge, reopen, and unresolved disposition are substantially
+   recoverable from FPF, while any required independence from the beneficiary
+   remains an unresolved governance relation rather than an earned ME rule.
+
+The return does not pass G2, G5, or G6 and therefore does not earn a maintained
+FPF-facing interface. It changes the Leah record, not the Human Reader.
+
 ## Frozen dependencies
 
 ```text
