@@ -6,18 +6,23 @@
 ## Exact object under test
 
 ```text
-work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md
-bytes: 87,177
-lines: 922
-SHA-256: 56b09d5a1f7f0db5102ad47a636c60273cd2ddc325d216b4414e5359f21604a7
+work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_3.md
+bytes: 86,773
+lines: 920
+SHA-256: 1b811341cf627811b0443007d2211212ba402729a2faa49fc2773669c07f1739
 ```
 
 This protocol does not alter that candidate.
 
 The protocol originally named v0.1. No reader result had been produced when
-v0.2 added the four missing figure links and two review-earned wording repairs.
-The target therefore moved before execution; no result was displaced or
-silently reclassified.
+v0.2 added the four missing figure links and two review-earned wording repairs,
+or when v0.3 shortened the front safety note without changing its three
+load-bearing cautions. The target therefore moved before execution; no result
+was displaced or silently reclassified.
+
+This test is not a bottleneck for parallel TRACE work or other reversible ME
+development. It remains necessary before claiming general readability or
+publication readiness for this exact reader lineage.
 
 ## Review trigger
 
