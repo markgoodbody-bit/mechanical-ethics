@@ -31,8 +31,8 @@ jobs:
           python-version: "3.12"
       - name: Verify declared current identities and status boundary
         run: |
-          printf '%s  %s\n' '4058f7ee4258ac391c59e0e71f3318b66f421c1bb012dd8b05d375d7884de1da' MECHANICAL_ETHICS.md | sha256sum -c -
-          printf '%s  %s\n' '03d10fd9b6b7651bfd561c886a50a29c041bf3e3c170ba84db7007fa8d64bfcf' MECHANICAL_ETHICS.pdf | sha256sum -c -
+          printf '%s  %s\n' 'bb625ed7febca539952d68f28561741a34a5843916dec80927539b89941c4741' MECHANICAL_ETHICS.md | sha256sum -c -
+          printf '%s  %s\n' 'e64359761234bb1cf78416f99d594200808ce6641d88e58abd47d97f9839faaa' MECHANICAL_ETHICS.pdf | sha256sum -c -
           grep -F 'WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED' README.md
       - name: Rebuild reader PDF from Markdown
         run: |

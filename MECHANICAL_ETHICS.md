@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.2**
+**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.3**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -768,33 +768,21 @@ Cooperation can combine capability and bring more perspectives to error, but it 
 
 # Conclusion
 
-Mechanical Ethics leaves the contents of a meaningful life to the being who must live it. Its claim is thinner: power should not remove that being's ability to remain present in decisions about the life by closing every practically viable continuation. This is a normative condition for usable agency, not a complete theory of the good.
+Mechanical Ethics begins with an ordinary mismatch: a decision can look correct in a file while doing something very different to a life. It can also be corrected in the file after the future it affected has already changed. The central question is therefore not only whether a decision can eventually be explained or reversed. It is whether the person or other being living with it can still reach a usable future when the correction arrives.
 
-The notation records rather than derives that limited claim. Let $R_H(s)$ denote the continuations reachable from state $s$ over a stated horizon $H$ under the actions then available. Let $C$ denote an explicit set of contestable filters, including the affected entities, protected paths, relevant safety and access thresholds, requirements for challenge and correction, and rules governing burden and residue. Define:
+The framework does not decide what makes a life meaningful. That remains with the being who must live it. Its claim is narrower: power should not remove the affected being from decisions about its own life by closing every practically viable continuation. A viable continuation is more than an option that exists on paper. It must be possible to find, understand, afford, use, and maintain; it must leave room for answer, refusal, challenge, and correction. Keeping such a route open does not prove that the life is good or that one path is best. It preserves enough agency for those questions to remain real.
 
-$$
-V_{C,H}(s) = \{\tau \in R_H(s) \mid \tau \text{ satisfies } C \text{ throughout } H\}
-$$
+This changes what responsible action requires. Before a high-consequence decision proceeds, somebody must ask what could close, when it could become hard to restore, who controls the clock and the evidence, and what temporary protection could keep the threatened path open. They must also ask whether the affected being can understand and use the route offered, who carries the work and risk while uncertainty is resolved, and what loss will remain even if the record is later corrected.
 
-and:
+Timing matters because explanation and protection are not the same act. Detection, routing, and correction may overlap, and their duration may be uncertain. A pause, hold, temporary repair, evidence-preservation step, or deployment limit can sometimes create more time. But once a path has hardened beyond comparable repair, a later apology, appeal decision, compensation payment, or corrected record cannot make the earlier future available again.
 
-$$
-\mathcal{K}_{C,H} = \{s \mid V_{C,H}(s) \neq \varnothing\}.
-$$
+\newpage
 
-The set $\mathcal{K}_{C,H}$ contains the states from which at least one continuation remains available under those stated filters and for that horizon. It selects no best path, assigns no purpose, and measures no life's worth. It inherits every uncertainty and normative decision in $R_H$, $C$, and $H$. Changing who counts, what is protected, how safety or affordability is judged, which evidence is accepted, or how long the horizon extends can change the set. Those inputs must therefore be visible, attributable, and open to challenge rather than presented as discoveries made by the notation.
+None of these questions answers itself. Who counts, what should be protected, what evidence is accepted, how safety and affordability are judged, and how far ahead the decision should look are all contestable choices. Their authorship must be visible, especially where one party has more power. Several protected paths may also conflict. Mechanical Ethics can expose those competing clocks and burdens; it does not supply a universal rule for ranking lives or resolving every collision.
 
-The timing condition supplies one structural test within $C$:
+Nor does identifying a failure make the responsible actor correct it. Where a person or institution cannot or will not preserve a threatened path, external protection, legal authority, collective action, interruption, or organised resistance may still be required. Diagnosis is not enforcement, and a record of harm is not repair.
 
-$$
-T_{protect}(a) < T_{harden}(a).
-$$
-
-The familiar decomposition into detection, routing, and correction is a conceptual compression, not a literal serial calculation. The durations may overlap and remain uncertain, while protective actions can extend the available interval. When effective protection is not in place before the threatened path hardens beyond comparable repair, a later explanation or corrected record cannot restore that path. Where several protected paths conflict, the timing test exposes the competing clocks but does not decide priority among them.
-
-The framework leaves values and commitments to the beings who must live them. It excludes some continuations from counting as usable merely because they remain technically reachable. Chapter 17 supplies examples of relevant evidence - present experience, distress, interest, relationship, and capacity to answer - but the list remains incomplete. Continued viability alone says nothing about whether a life is meaningful or going well.
-
-Before a high-consequence decision proceeds, the responsible actor should identify the threatened paths, the available routes, the relevant clocks, the holders of authority and evidence, the burden carried during uncertainty, the filters being applied, and the residue likely to remain after correction. Where possible, the actor should preserve the threatened path while deficiencies are addressed. Where the actor cannot or will not do so, the framework has identified a failure but has not supplied enforcement. External interruption, legal authority, collective action, protection, or organised resistance may still be required. Later explanation cannot be treated as equivalent to timely protection.
+The practical demand is modest to state and difficult to meet: keep the affected being present, keep at least one genuinely usable route open where that can still be done, place the burden on those with the power to carry it, and act before correction becomes only an account of what was lost. The compact notation in Appendix A records this argument for readers who need it. It does not prove the argument or settle its unfinished questions.
 
 # Author's Note - How This Began
 
@@ -833,6 +821,20 @@ Two inputs must remain visible:
 - **measure** - how futures, losses, baselines, and weights are compared.
 
 Mechanical Ethics leaves these inputs open rather than filling them automatically. Their authorship must remain visible, especially where one party holds more power.
+
+A compact notation can record the limited viability claim. Let $R_H(s)$ denote the continuations reachable from state $s$ over a stated horizon $H$ under the actions then available. Let $C$ denote an explicit set of contestable filters, including the affected entities, protected paths, relevant safety and access thresholds, requirements for challenge and correction, and rules governing burden and residue. Define:
+
+$$
+V_{C,H}(s) = \{\tau \in R_H(s) \mid \tau \text{ satisfies } C \text{ throughout } H\}
+$$
+
+and:
+
+$$
+\mathcal{K}_{C,H} = \{s \mid V_{C,H}(s) \neq \varnothing\}.
+$$
+
+The set $\mathcal{K}_{C,H}$ contains the states from which at least one continuation remains available under those stated filters and for that horizon. It selects no best path, assigns no purpose, and measures no life's worth. It inherits every uncertainty and normative decision in $R_H$, $C$, and $H$. Changing who counts, what is protected, how safety or affordability is judged, which evidence is accepted, or how long the horizon extends can change the set. These inputs are authored choices, not discoveries made by the notation.
 
 The primary timing condition is:
 
