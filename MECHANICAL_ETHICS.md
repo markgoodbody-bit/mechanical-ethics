@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2**
+**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.1**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -65,7 +65,7 @@ Let us begin with as little as possible.
 
 Assume, provisionally, that something exists. We do not need to settle every philosophical argument about existence before we can continue. We only need a starting point that allows us to examine what follows.
 
-You are reading this, so for present purposes you are such a thing. At some point today you became aware of your surroundings. You noticed some things and missed others. You carried memories from earlier. You expected certain things to happen next. You made choices, including choices so ordinary that they did not feel like choices at all.
+You are reading this, so for present purposes you are such a thing. At some point today you became aware of your surroundings, noticing some things and missing others. You carried memories from earlier, and expectations about what would come next. You made choices, including choices so ordinary that they did not feel like choices at all.
 
 You did not begin with complete information. Nobody does. Perception is partial, memory is incomplete, and the future is uncertain. Even so, life does not wait for certainty. You still have to decide whether to speak, wait, move, trust, refuse, help, protect, repair, or leave something alone.
 
@@ -73,7 +73,7 @@ Your actions change the situation. Inaction can also change it. Some changes are
 
 Other entities exist as well. They do not see the world from your position. A child, a dog, a patient under anaesthetic, a frightened witness, a government department, and an artificial system each have different access to what is happening. Their capacities are different, and so is the force of their actions. The difference does not disappear because everyone is uncertain.
 
-This is the ground from which Mechanical Ethics begins. It is an attempt to navigate choices made by limited entities in a changing world where other entities can be helped, harmed, ignored, constrained, or enabled. It does not promise a perfect moral compass. It tries to make the relevant structure visible before a decision hardens into history.
+This is the ground from which Mechanical Ethics begins: an attempt to navigate choices made by limited entities in a changing world, where other entities can be helped, harmed, ignored, constrained, or enabled. It does not promise a perfect moral compass. What it tries to do is make the relevant structure visible before a decision hardens into history.
 
 The questions are basic:
 
@@ -179,7 +179,7 @@ Many organisations provide a formal route for challenging a decision. A letter m
 
 Formal availability is not the same as practical access.
 
-The person may lack internet access, suitable equipment, the requested evidence, sufficient time, literacy, confidence, transport, privacy, or a safe way to disclose what happened. They may understand the words without understanding which part of the decision can be challenged. They may know exactly what happened and still be unable to translate it into the categories the route accepts.
+The person may lack internet access, or the requested evidence, or the time. They may lack literacy, confidence, transport, privacy, or any safe way to disclose what happened. Some understand the words without understanding which part of the decision can be challenged. Others know exactly what happened and still cannot translate it into the categories the route accepts.
 
 A route is usable only when the affected person can find it, understand it, afford it, use it without disproportionate danger, and reach someone capable of changing the outcome before the relevant opportunity is lost.
 
@@ -195,13 +195,13 @@ The same principle applies to institutional doors. Publishing a process does not
 
 Online systems can reduce waiting, create useful records, and make access easier for many people. The error begins when an organisation treats the existence of one route as proof that the affected population had a realistic opportunity to use it.
 
-A system should therefore examine the conditions of use: whether the person could understand what was required, supply the evidence in the form they possessed, ask for help without weakening their position, and reach a decision-maker before the deadline became decisive. Was an alternative route available for those whom the primary route excluded?
+So examine the conditions of use. Could the person understand what was required, supply the evidence in the form they actually possessed, ask for help without weakening their own position, and reach a decision-maker before the deadline became decisive? And was there another route for the people this one excluded?
 
 A door deserves moral credit only to the extent that it opens in the world of the entity expected to use it.
 
 ## 2. Who Builds the Maze
 
-A process can contain individually reasonable steps and still become unreasonable as a whole. Identity checks may reduce fraud. Categories may route work to specialists. Deadlines may protect other parties. Evidence rules may prevent decisions based on rumour. The ethical problem lies in how these steps combine, who bears their cost, and what happens when the situation does not fit the design.
+A process can contain individually reasonable steps and still become unreasonable as a whole. Identity checks reduce fraud; categories route work to specialists; deadlines protect other parties; evidence rules keep rumour out of decisions. Each step can be defended on its own. The ethical problem lies in how they combine, who bears their cost, and what happens when the situation does not fit the design.
 
 A person may be required to create an account, verify an email address, enter a reference number, select a category, upload evidence, wait for a response, and repeat the account through a second route if the first decision is unsatisfactory. Each step transfers part of the institution's need for order to the person seeking help.
 
@@ -217,7 +217,7 @@ The example is small, but the structure is the same. A system measures success f
 
 Institutional processes often record the missing document, late upload, wrong category, and missed deadline while failing to record the reasons those events occurred. The file can therefore be accurate at the level of each step and misleading about the route as a whole.
 
-Exhaustion inside a process should not automatically be treated as consent, indifference, or lack of merit. A person may stop because the claim was weak. They may also stop because every attempt to continue creates more exposure, proof work, delay, cost, or fear.
+Exhaustion inside a process should not automatically be treated as consent, indifference, or lack of merit. A person may stop because the claim was weak. But they may equally stop because every attempt to continue creates more exposure, more proof work, more delay, or more fear.
 
 The organisation that designs the route chooses its language, evidence format, clocks, interfaces, and points of escalation. It cannot fairly evaluate the person only by asking whether they completed the design as instructed. It must also ask what the design required from them, which people it systematically excluded, and whether the route changed the original problem or merely documented the person's failure to navigate it.
 
@@ -239,7 +239,7 @@ A case may pass from a general inbox to a specialist team, then to a contractor,
 
 The original need may be simple: stop the deduction, repair the wall, restore the account, remove the unsafe condition, pause the deadline, explain the decision, or authorise work before further loss occurs. Additional routing is justified only when it contributes to one of those outcomes or protects a legitimate competing interest.
 
-A process should therefore distinguish between movement of the *case* and movement of the *burden*. A case can be escalated while nothing changes in the affected person's life. It can be acknowledged while the dangerous condition remains. It can be reviewed while the deadline continues to run.
+A process should therefore distinguish between movement of the *case* and movement of the *burden*. A case can be escalated while nothing changes in the affected person's life, acknowledged while the dangerous condition remains, reviewed while the deadline keeps running.
 
 Delay is active. Debt grows, evidence becomes harder to recover, a child remains in the room, a worker misses another shift, and trust in the route declines. The institution may experience the interval as ordinary processing time. The person experiences it as part of the event.
 
@@ -255,15 +255,15 @@ A trustworthy process should be able to answer three questions at any point: whe
 
 A system may say that a person was free to refuse or leave. That claim depends on what leaving would cost.
 
-A worker can resign and lose the income needed for housing. A tenant can move and lose money, stability, school continuity, or access to evidence. A patient can decline a condition and lose the treatment attached to it. A platform user can close an account after their work, relationships, or audience have become dependent on the service. The formal option exists, but the price of using it may make the choice largely ceremonial.
+A worker can resign, and lose the income that pays for housing. A tenant can move, and lose money, stability, school continuity, or access to evidence. A patient who declines a condition may lose the treatment attached to it; a platform user who closes an account walks away from work, relationships, or an audience that took years to build. The formal option exists, but the price of using it may make the choice largely ceremonial.
 
 A meaningful exit preserves some viable continuation outside the arrangement. The person can understand that refusal is possible, exercise it without retaliation or disproportionate danger, keep essential records and possessions, and reach another route before the loss hardens. This does not promise comfort or remove every consequence. It distinguishes refusal from a choice made after alternatives have been made unusable.
 
-Consent provides weak evidence when the same actor controls the terms, the essential resource, and the penalty for saying no. Repeated acceptance may show dependence rather than approval. Silence may show fear or exhaustion rather than agreement.
+Consent provides weak evidence when the same actor controls the terms, the essential resource, and the penalty for saying no. Repeated acceptance may show dependence rather than approval. Silence can mean fear, or simple exhaustion, rather than agreement.
 
 Some relationships cannot offer immediate exit. A child cannot safely leave a family, a patient may depend on urgent treatment, a citizen cannot readily leave a legal system, and a person under restraint may have almost no practical refusal. In those cases answerability depends more heavily on independent interruption, protected representation, review, and limits on what the stronger party may demand.
 
-Exit is meaningful only where using it leaves a practically viable continuation rather than converting refusal into another form of punishment.
+An exit counts only if using it leaves something viable on the other side. Otherwise refusal has simply become another form of punishment.
 
 # Part II - The Clock
 
@@ -273,7 +273,7 @@ Suppose the money comes back.
 
 The refund is real. So is the loan taken three weeks earlier because the money was missing. So are the charges, the argument at home, and the shift accepted at short notice to cover the gap. A correction can be accurate, useful, and late at the same time.
 
-Timing changes what help is able to do. A payment made before rent is due may keep a household steady. The same payment made after arrears have begun may reduce the damage without undoing it. A medical explanation given while another treatment remains possible can protect a choice. The same explanation after the window has closed can only describe the choice that was lost.
+Timing changes what help is able to do. A payment made before rent is due may keep a household steady; the same payment after arrears have begun reduces the damage without undoing it. The same is true of a medical explanation. Given while another treatment is still possible, it protects a choice. Given after the window has closed, it can only describe the choice that was lost.
 
 Late correction still matters. Reopening an account, repairing a wall, amending a record, or admitting an error may prevent the next loss. It may also matter to the person who has spent months being told that nothing went wrong. A system should say plainly what its correction reached and what remained beyond it.
 
@@ -281,7 +281,7 @@ That is why the timing condition near the beginning of this book is about a thre
 
 The difficult cases are rarely solved by speed alone. Acting too quickly on poor evidence can create another injury. Some questions need investigation, specialist knowledge, or a fair chance for another party to answer. The practical issue is what happens during that time.
 
-A contested deduction can be paused. A sample can be preserved. A room can be made temporarily safe. A place can be held. Logs can be protected from deletion. An automated decision can be stopped from spreading to thousands of people while the first cases are examined. None of these steps decides the final argument. They stop the argument from becoming pointless before it is finished.
+A contested deduction can be paused, a sample preserved, a room made temporarily safe, a place held, logs protected from deletion. An automated decision can be stopped from spreading to thousands of people while the first cases are examined. None of these steps decides the final argument. They stop the argument from becoming pointless before it is finished.
 
 When an organisation says that review will take twenty working days, the next question should not be whether twenty days is normal for the organisation, but what will happen to the person, the evidence, or the threatened future during those twenty days.
 
@@ -289,13 +289,13 @@ That is what a safeguard is for: protecting something while the answer is still 
 
 ## 5. The Strategic Unknown
 
-Sometimes *we do not know* is the most honest sentence available. It can also be the sentence behind which a damaging arrangement continues.
+Sometimes *we don't know* is the most honest sentence available. It can also be the sentence behind which a damaging arrangement continues.
 
-There is no shame in uncertainty. A doctor may need another test. An engineer may need to reproduce a fault. A landlord may need to inspect before accepting a cause. A reviewer may need to hear from both sides. Pretending to certainty would be worse.
+There is no shame in uncertainty. A doctor may need another test, an engineer may need to reproduce the fault, a landlord may want to inspect before accepting a cause, and a reviewer has to hear from both sides. Pretending to certainty would be worse.
 
 The difference lies in what the uncertainty sets in motion.
 
-Honest uncertainty creates work for the party with the power to resolve it. Someone is named. Records are opened. Evidence is preserved. The threatened action is paused where possible. The person affected is told what is missing, what could change the answer, and when the question will be looked at again.
+Honest uncertainty creates work for the party with the power to resolve it. Someone is named. Records are opened, evidence is preserved, the threatened action is paused where it can be. The person affected is told what is missing, what could change the answer, and when the question will be looked at again.
 
 Strategic uncertainty has another shape. The existing arrangement continues because nobody has formally proved that it should stop. The person who raised the problem is asked for more evidence, even when the institution holds much of it already. No one owns the investigation. The deadline belongs to the person at risk, while the organisation's delay has no comparable cost.
 
@@ -323,13 +323,13 @@ A case can remain officially open while a person's life closes around it. The re
 
 This is one reason administrative records can look calmer than the lives they describe. The record sees a case in progress. The person is already adapting to the failure.
 
-Technical reversibility makes the problem easy to miss. A database can be corrected. A deduction can be refunded. A wall can be repaired. But the month in which the error operated cannot be reset. Borrowing changes relationships. Missed shifts change how an employer sees someone. A child learns where it is safe to sleep. A person who expected help begins planning on the assumption that help will not come.
+Technical reversibility makes the problem easy to miss. A database can be corrected. A deduction can be refunded. A wall can be repaired. But the month in which the error operated cannot be reset. Borrowing changes relationships. Missed shifts change how an employer sees someone. A child learns where it is safe to sleep. A person who expected help begins planning on the assumption that help won't come.
 
 The original harm has now acquired a history.
 
 A serious correction has to follow that history. It is not enough to count the original amount or fix the original entry. What happened because the error remained active? Was interest charged? Did health worsen? Was evidence lost? Did the person withdraw from a route they will later be blamed for not using?
 
-Silence needs particular care. It may mean the problem was solved. It may also mean the route taught the person that another message would bring another demand, another delay, or another risk. A quiet file is not necessarily a quiet life.
+Silence needs particular care. It may mean the problem was solved. Or it may mean the route taught the person that another message would bring another demand, another delay, or another risk. A quiet file is not necessarily a quiet life.
 
 The practical question is not only whether this decision can be reversed, but what is becoming harder to reverse while we wait.
 
@@ -363,7 +363,7 @@ The complaints process exists. The regulator exists. The court, union, ombudsman
 
 That failure differs from the original harm. It is a second fact about the world: the route of answerability does not connect to an effective interruption.
 
-Telling a person to keep records in that situation can sound almost insulting. A photograph does not remove mould. A diary does not restore wages. A screenshot does not make an abusive person safe. A witness pack is not a rescue plan, and this book should never pretend otherwise.
+Telling a person to keep records in that situation can sound almost insulting. A photograph does not remove mould. A diary restores no wages, and no screenshot has ever made an abusive person safe. A witness pack is not a rescue plan, and this book should never pretend otherwise.
 
 The record has a smaller purpose. It stops the actor or institution from becoming the only author of what happened. It may allow a later reviewer to reconstruct the sequence, help separate cases become visible as one pattern, support legal or public action, or warn the next person before the same route closes around them.
 
@@ -373,7 +373,7 @@ Other people may need to carry part of this work. A neighbour can keep a copy. A
 
 Records also create risk. They can expose a child, identify a worker, reveal a location, or give an institution new information to use against the person who complained. More evidence is not always safer evidence.
 
-A witness does not guarantee justice. A witness keeps the past from being closed before it can be examined.
+A witness does not guarantee justice. What a witness does is keep the past from being closed before it can be examined.
 
 ## 8. Custody
 
@@ -385,7 +385,7 @@ Where the record lives changes what the record can do.
 
 Custody is not only storage. It includes who can see the material, alter it, delete it, copy it, demand it, combine it with other records, or use it against the person who created it. The same screenshot can protect one person and expose another.
 
-Institutions usually possess the fuller account. Banks hold transactions. Platforms hold logs. Employers hold personnel records. Hospitals hold notes. Landlords hold repair histories. The person affected may have only fragments: a date on an envelope, a photograph, a text from a neighbour, or a name remembered from a phone call.
+Institutions usually possess the fuller account: banks the transactions, platforms the logs, employers the personnel records, hospitals the notes, landlords the repair histories. The person affected may have only fragments. A date on an envelope. A photograph. A text from a neighbour, or a name remembered from a phone call.
 
 Fragments are no more truthful for being fragments. They are simply outside the main actor's control, and sometimes that is what allows a later comparison to happen.
 
@@ -421,7 +421,7 @@ Scarcity makes the problem harder. Several people may need repair at once, and n
 
 An open ledger is not enough if power still decides, invisibly, which debt will be postponed.
 
-Correction is real when it changes something, and honesty remains necessary because it cannot change everything.
+A real correction changes something. What it cannot change is the reason honesty still matters.
 
 ## Interlude - Two Flats, One Wall
 
@@ -471,7 +471,7 @@ Now change the question. Who benefits when the difficulty remains?
 
 A *predator position* exists when an actor or system receives persistent or systematic benefit from an arrangement that keeps another entity unable to understand, challenge, escape, or correct it, while the benefiting actor controls or materially influences the route and could reduce that inability. The term describes the position, not the personality of whoever occupies it. No monster or secret plan is required.
 
-A landlord may know that a tribunal will take longer than a tenant can stay. An employer may rely on a worker's dependence on income or immigration status. A firm may create a refund process that most customers will abandon. A platform may profit from a harmful pattern while keeping every individual case too small and scattered to force change.
+A landlord may know that a tribunal will take longer than a tenant can stay. An employer may lean on a worker's dependence on income or immigration status. A firm can design a refund process that most customers will abandon, and a platform can profit from a harmful pattern while keeping every individual case too small and scattered to force change.
 
 In those situations, process does work that open force would otherwise have to do. Delay, categories, proof demands, and uncertainty keep the weaker party in place.
 
@@ -541,7 +541,7 @@ Training may matter, but not if the interface still offers the same choices. A d
 
 A review can check every case in its file and still miss people the route never allowed to become cases, or make unlike cases look like one pattern. What the review can honestly claim depends on who entered the file and how their experience was measured. The organisation should state those limits and show whether another supported account changes the picture. That account may still be wrong, but a material difference should not disappear inside one clean total.
 
-Institutions are often under real pressure to announce completion. Open problems cost money, damage confidence, and attract scrutiny. That pressure is one reason the language should stay exact: investigation is not repair; activity is not consequence; monitoring is not interruption; a recorded lesson is not a changed path.
+Institutions are often under real pressure to announce completion. Open problems cost money, damage confidence, and attract scrutiny. That pressure is one reason the language should stay exact. Investigation is not repair, and activity is not consequence. Monitoring is not interruption. A recorded lesson, however sincerely minuted, is not a changed path.
 
 The matter can close when it is genuinely finished. Until then, accurate words are part of the repair.
 
@@ -589,7 +589,7 @@ The person carrying the damage may be exhausted. The institution wants the case 
 
 The trouble begins when a peaceful ending is used as evidence that the repair was complete.
 
-A person may accept compensation because they need the money, not because the account is accurate. They may forgive one individual and still distrust the institution. They may stop answering because another meeting is unbearable. They may want no contact at all. None of those choices gives somebody else permission to write a cleaner story.
+A person may accept compensation because they need the money, not because the account is accurate. They may forgive one individual and still distrust the institution. Some stop answering because another meeting is unbearable; some want no contact at all. None of those choices gives somebody else permission to write a cleaner story.
 
 Honest reconciliation keeps the facts intact. It says what was repaired, what remains, and what changed in the route. It can recognise the people inside an institution who tried to help without using their decency to excuse the structure around them.
 
@@ -643,7 +643,16 @@ Disagreement about law, medicine, engineering, politics, care, and scarce resour
 
 The timing condition is not a universal priority rule. Using it as if it ranked competing lives, paths, or claims would be a misuse.
 
-A route must be usable by the beings expected to rely on it. Serious correction must remain faster than serious hardening. Uncertainty must create work for those with power, not automatic permission to continue. Evidence must be checkable beyond the challenged actor's control. Complexity must not be dumped onto the people who did not create it. Repair must reach the mechanism as well as the case. Closure must not erase residue. A party benefiting from necessity cannot be the only judge of necessity.
+The limits are these:
+
+- a route must be usable by the beings expected to rely on it;
+- serious correction must stay faster than serious hardening;
+- uncertainty must create work for those with power, not automatic permission to continue;
+- evidence must be checkable beyond the challenged actor's control;
+- complexity must not be dumped onto the people who did not create it;
+- repair must reach the mechanism as well as the case;
+- closure must not erase residue;
+- and a party benefiting from necessity cannot be the only judge of necessity.
 
 These are conditions under which an answer can still deserve trust. Witness, interruption, enforcement, protection, and organised resistance remain distinct, and a truthful record may coexist with power that accepts the damage. Seeing the structure is necessary, but without interruption or enforcement it cannot be sufficient.
 
