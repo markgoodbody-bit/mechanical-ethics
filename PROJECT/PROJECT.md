@@ -8,7 +8,7 @@ TRACE is the separable structure-facing artifact. Neither validates the other.
 
 ## Controlled state — 2026-08-29 snapshot
 
-Released preservation baseline:
+Current preservation baseline:
 
 ```text
 v0.6.3 source: MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md
@@ -27,15 +27,17 @@ SHA-256: 56b09d5a1f7f0db5102ad47a636c60273cd2ddc325d216b4414e5359f21604a7
 status: WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED
 ```
 
-The v0.3 candidate file is preserved as a withdrawn safety-note wording experiment. It is not the active reader target.
+The v0.3 candidate file is preserved under `work/v0_7_0/archive/` as a
+withdrawn safety-note wording experiment. It is not the active reader target.
 
 Open the controlled working surface:
 
 - [current reader candidate v0.2](../work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md)
-- [v0.2 assembly and exact before/after record](../work/v0_7_0/ME_V0_7_0_NEXT_WORKING_CANDIDATE_V02_ASSEMBLY_20260829.md)
+- [v0.7 working-surface index](../work/v0_7_0/README.md)
+- [v0.2 assembly and exact before/after record](../work/v0_7_0/evidence/ME_V0_7_0_NEXT_WORKING_CANDIDATE_V02_ASSEMBLY_20260829.md)
 - [pre-external-contact readiness audit](../work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md)
-- [prose-without-math human-reader protocol](../work/v0_7_0/ME_V0_7_0_PROSE_WITHOUT_MATH_READER_TEST_PROTOCOL_20260829_v0_1.md)
-- [historical-source evidence record](../work/v0_7_0/ME_V0_7_0_HISTORICAL_SOURCE_RECORD_20260829_v0_1.md)
+- [prose-without-math human-reader protocol](../work/v0_7_0/evidence/ME_V0_7_0_PROSE_WITHOUT_MATH_READER_TEST_PROTOCOL_20260829_v0_1.md)
+- [historical-source evidence record](../work/v0_7_0/evidence/ME_V0_7_0_HISTORICAL_SOURCE_RECORD_20260829_v0_1.md)
 
 ## What the current candidate earned
 

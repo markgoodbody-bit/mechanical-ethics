@@ -9,7 +9,7 @@ existing only as a local file plus an audit description:
 
 ```text
 file:
-work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_1.md
+work/v0_7_0/archive/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_1.md
 
 bytes:   86,299
 words:   13,969 by whitespace split
@@ -119,7 +119,7 @@ The next legitimate reader action is a human read of this exact candidate.
 One bounded review question now has a pre-test protocol:
 
 ```text
-work/v0_7_0/ME_V0_7_0_PROSE_WITHOUT_MATH_READER_TEST_PROTOCOL_20260829_v0_1.md
+work/v0_7_0/evidence/ME_V0_7_0_PROSE_WITHOUT_MATH_READER_TEST_PROTOCOL_20260829_v0_1.md
 ```
 
 That protocol tests whether an ordinary reader can reconstruct the timing

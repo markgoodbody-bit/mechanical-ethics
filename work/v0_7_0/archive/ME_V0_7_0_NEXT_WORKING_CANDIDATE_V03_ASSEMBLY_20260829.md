@@ -16,7 +16,7 @@ SHA-256: 56b09d5a1f7f0db5102ad47a636c60273cd2ddc325d216b4414e5359f21604a7
 ## New candidate
 
 ```text
-path: work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_3.md
+path: work/v0_7_0/archive/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_3.md
 bytes: 86,773
 lines: 920
 words: 14,017 by whitespace split

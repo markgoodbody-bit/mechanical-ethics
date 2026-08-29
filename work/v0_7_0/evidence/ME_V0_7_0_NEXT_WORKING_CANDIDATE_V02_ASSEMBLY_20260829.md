@@ -5,7 +5,7 @@
 ## Parent
 
 ```text
-work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_1.md
+work/v0_7_0/archive/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_1.md
 bytes: 86,299
 lines: 914
 words: 13,969 by whitespace split
