@@ -1,27 +1,102 @@
 # Mechanical Ethics
 
-Mechanical Ethics is the human-facing side of this project.
+**A human-facing way to examine what happens when a system can be correct in its file while the life it acts on is already changing.**
 
-It is an attempt to make ethics structurally understandable: harm, care, responsibility, dignity, trust, repair, closure, and answerability.
+Mechanical Ethics begins from a simple problem: people, institutions, animals, machines, and other entities act with partial knowledge in a changing world. Their uncertainty is shared; their power to shape what happens next is not.
 
-Mechanical Ethics is not a doctrine, moral authority, certification system, or finished framework. It is an active attempt to make human ethical ideas clearer by asking what is structurally happening.
+The project asks questions such as:
 
-Start here:
+- What is changing, and who or what is affected?
+- What can each party see and do?
+- Which paths are opening or closing?
+- Is a claimed route to challenge, refuse, pause, appeal, repair, or answer back actually usable?
+- Which clocks are running, and can effective protection arrive before the threatened path hardens?
+- Who carries the cost, complexity, waiting, and uncertainty?
+- What remains after a decision is corrected?
+- Can an affected outcome travel back into the behaviour that produced it and change what happens next?
 
-- `Mechanical_Ethics_v0_6_3.pdf` — current preservation-baseline human-reader PDF
-- `MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md` — current preservation-baseline plain-Markdown and machine-readable source
-- `Mechanical_Ethics.pdf` — convenience alias identical to the v0.6.3 PDF
-- `PRESERVATION_BASELINE_v0_6_3.md` — exact artifact identities, status, scope, and forward-version rule
-- `MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md` and `Mechanical_Ethics_v0_6_2.pdf` — preserved previous version
-- `PROJECT/PROJECT.md`
-- `PROJECT/MAP.md`
+The Human Reader develops these questions through ordinary cases before moving outward to institutions, automation, evidence, correction, care, and future possibility. Its recurring distinction is between the **file** — what a system records — and the **life** — what the affected person or being actually carries. Both may contain facts. They are not automatically equivalent.
 
-Current preservation baseline: **v0.6.3**. The numbered v0.6.3 source and PDF are frozen. Any change to those bytes must create a new versioned artifact; it must not rewrite v0.6.3.
+Mechanical Ethics is not a doctrine, moral authority, policy framework, certification system, or finished theory. It does not claim that one formula settles every moral conflict. Description is not permission.
 
-Version rule: patch numbers identify bounded repairs within a line, while a materially reassembled next-version reader may advance the minor version. Previously numbered source and PDF artifacts remain unchanged, and no working candidate becomes the preservation baseline without a separate recorded promotion decision.
+## Start here
 
-## Development candidate on this branch
+### Five minutes
 
-The current reviewable next-version object is [`work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md`](work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md).
+Open [`MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md) or [`Mechanical_Ethics_v0_6_3.pdf`](Mechanical_Ethics_v0_6_3.pdf) and read:
 
-It is a working candidate, not a repository baseline, release, canon, validation or publication-readiness claim. Its exact identity, assembly record, open foundations and current gates are indexed in [`PROJECT/PROJECT.md`](PROJECT/PROJECT.md). The historical-source evidence path is recorded separately so the candidate bytes remain unchanged.
+1. **Opening — Let Us Begin with an Entity**
+2. **How to Read This Book**
+3. **A Timing Condition**
+
+That gives the basic vocabulary of doors, clocks, hardening, witness, custody, residue, and answerability, and the central timing claim:
+
+> Effective protection must be in place before the threatened path hardens beyond comparable repair.
+
+### A longer first pass
+
+Continue with:
+
+- **Part I — The Door** for practical access and process burden;
+- **Part III — The Witness** for evidence, custody, and residue;
+- **Part IV — The Machine** for complexity, repeated failure, correction theatre, and machine-speed action;
+- **Part VI — Futures Still Reachable** for usable futures, care, and the placement of burden;
+- the **Conclusion** and **Appendix B — What Remains Unfinished** for claim boundaries and open problems.
+
+## Challenge it
+
+The reader is intended to be criticisable. General approval is less useful than a concrete break.
+
+A useful challenge identifies, in ordinary language:
+
+- the exact section, distinction, or case being challenged;
+- what the book appears to miss, compress, overstate, or make harder to see;
+- the real or constructed situation that exposes the problem;
+- what evidence would help distinguish the criticism from a disagreement in values or priorities;
+- whether the smallest response should be clarification, narrowing, a counterexample, a new test, or no change.
+
+Open a repository issue if you have a bounded criticism or counterexample: https://github.com/markgoodbody-bit/mechanical-ethics/issues/new
+
+A finding that an argument fails, overstates, misses a case, or applies only under narrower conditions is a useful result.
+
+## Current preservation baseline
+
+The current repository preservation baseline is **Human Reader v0.6.3**. It is a stable reference for continued work and remains a working candidate; it is **not a release, canon, validation, certification, or publication-readiness claim**.
+
+- [`Mechanical_Ethics_v0_6_3.pdf`](Mechanical_Ethics_v0_6_3.pdf) — preservation-baseline human-reader PDF
+- [`MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_6_3.md) — preservation-baseline Markdown source
+- [`Mechanical_Ethics.pdf`](Mechanical_Ethics.pdf) — convenience alias identical to the v0.6.3 PDF
+- [`PRESERVATION_BASELINE_v0_6_3.md`](PRESERVATION_BASELINE_v0_6_3.md) — exact artifact identities, status, scope, and forward-version rule
+- [`MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md`](MECHANICAL_ETHICS_HUMAN_READER_v0_6_2.md) and [`Mechanical_Ethics_v0_6_2.pdf`](Mechanical_Ethics_v0_6_2.pdf) — preserved previous version
+
+The numbered v0.6.3 source and PDF are frozen. A bounded repair on that line
+would require a new patch version; a materially reassembled reader may advance
+the minor version. Previously numbered artifacts remain unchanged, and no
+working candidate becomes the preservation baseline without a separate
+recorded promotion decision.
+
+## Current development candidate
+
+The current reviewable next-version object is the **Mechanical Ethics v0.7.0
+Human Reader working candidate v0.2** in [draft PR
+#34](https://github.com/markgoodbody-bit/mechanical-ethics/pull/34):
+
+- [read the exact working candidate](https://github.com/markgoodbody-bit/mechanical-ethics/blob/framework/me-v0-7-0-field-delta-20260824/work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md);
+- [read its current readiness audit](https://github.com/markgoodbody-bit/mechanical-ethics/blob/framework/me-v0-7-0-field-delta-20260824/work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md).
+
+It is working material, not a baseline, release, canon, validation or
+publication-readiness claim. It does not supersede v0.6.3. Standing, hard
+collisions, protection-floor grounding, representation, legitimate independent
+review and usability for ordinary people without unusual reserves remain open.
+
+External comparison with FPF has narrowed several claims and produced a
+preserved `ME_NOT_NEEDED` case result. It has not earned FPF conformance,
+endorsement, a plug-in or a compulsory combined workflow.
+
+## Mechanical Ethics and TRACE
+
+Mechanical Ethics carries the human-facing ethical and philosophical argument. [TRACE](https://github.com/markgoodbody-bit/TRACE) carries a more compact structural language for systems. They approach the same underlying problem from different directions.
+
+A reader should not need TRACE to understand Mechanical Ethics, and TRACE should not borrow moral authority from the Human Reader. Neither validates the other.
+
+For the compact repository-level project statement, see [`PROJECT/PROJECT.md`](PROJECT/PROJECT.md).
