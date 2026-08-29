@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">The correction window</title>
+  <desc id="desc">A timeline shows that effective protection must arrive before a threatened path hardens beyond comparable repair. A later corrected record remains valuable but does not restore the lost path.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f2937"/></marker>
+    <style>
+      .title{font:600 30px Arial,sans-serif;fill:#111827}.head{font:600 21px Arial,sans-serif;fill:#111827}.text{font:18px Arial,sans-serif;fill:#1f2937}.small{font:16px Arial,sans-serif;fill:#374151}.axis{stroke:#1f2937;stroke-width:4;marker-end:url(#arrow)}.tick{stroke:#1f2937;stroke-width:3}.open{fill:#e6f2ea}.closed{fill:#f6e6e3}.protect{fill:#d9eaf5;stroke:#275b7a;stroke-width:2}.late{fill:#f4eee0;stroke:#7a5d27;stroke-width:2}.boundary{stroke:#8b2e2e;stroke-width:4;stroke-dasharray:10 8}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" class="title">The correction window</text>
+  <rect x="90" y="145" width="650" height="150" class="open"/>
+  <rect x="740" y="145" width="370" height="150" class="closed"/>
+  <text x="415" y="188" text-anchor="middle" class="head">Comparable protection is still possible</text>
+  <text x="925" y="188" text-anchor="middle" class="head">The threatened path has hardened</text>
+  <line x1="105" y1="320" x2="1110" y2="320" class="axis"/>
+  <line x1="180" y1="300" x2="180" y2="340" class="tick"/>
+  <line x1="430" y1="300" x2="430" y2="340" class="tick"/>
+  <line x1="740" y1="120" x2="740" y2="510" class="boundary"/>
+  <line x1="980" y1="300" x2="980" y2="340" class="tick"/>
+  <text x="180" y="375" text-anchor="middle" class="text">Problem detected</text>
+  <text x="430" y="375" text-anchor="middle" class="text">Route reaches authority</text>
+  <text x="740" y="545" text-anchor="middle" class="head">Practical hardening boundary</text>
+  <text x="980" y="375" text-anchor="middle" class="text">Record corrected</text>
+  <rect x="350" y="420" width="260" height="75" rx="12" class="protect"/>
+  <text x="480" y="450" text-anchor="middle" class="head">Effective protection</text>
+  <text x="480" y="478" text-anchor="middle" class="small">pause • hold • repair • preserve</text>
+  <rect x="860" y="420" width="245" height="75" rx="12" class="late"/>
+  <text x="982" y="450" text-anchor="middle" class="head">Later correction</text>
+  <text x="982" y="478" text-anchor="middle" class="small">truthful, but not restoration</text>
+  <text x="600" y="610" text-anchor="middle" class="head">Effective protection must arrive before comparable repair is lost.</text>
+</svg>
