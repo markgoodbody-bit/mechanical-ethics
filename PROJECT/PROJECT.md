@@ -35,6 +35,7 @@ Open the controlled working surface:
 - [v0.2 assembly and exact before/after record](../work/v0_7_0/ME_V0_7_0_NEXT_WORKING_CANDIDATE_V02_ASSEMBLY_20260829.md)
 - [pre-external-contact readiness audit](../work/v0_7_0/ME_V0_7_0_READINESS_AUDIT_20260829_v0_1.md)
 - [prose-without-math human-reader protocol](../work/v0_7_0/ME_V0_7_0_PROSE_WITHOUT_MATH_READER_TEST_PROTOCOL_20260829_v0_1.md)
+- [historical-source evidence record](../work/v0_7_0/ME_V0_7_0_HISTORICAL_SOURCE_RECORD_20260829_v0_1.md)
 
 ## What the current candidate earned
 

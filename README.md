@@ -19,3 +19,9 @@ Start here:
 Current preservation baseline: **v0.6.3**. The numbered v0.6.3 source and PDF are frozen. Any future change to the reader source begins **v0.6.4**.
 
 Version rule: any change to the reader source increments the patch version. Previously numbered source and PDF artifacts remain unchanged.
+
+## Development candidate on this branch
+
+The current reviewable next-version object is [`work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md`](work/v0_7_0/MECHANICAL_ETHICS_HUMAN_READER_v0_7_0_NEXT_WORKING_CANDIDATE_v0_2.md).
+
+It is a working candidate, not a repository baseline, release, canon, validation or publication-readiness claim. Its exact identity, assembly record, open foundations and current gates are indexed in [`PROJECT/PROJECT.md`](PROJECT/PROJECT.md). The historical-source evidence path is recorded separately so the candidate bytes remain unchanged.
