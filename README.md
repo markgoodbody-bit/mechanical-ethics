@@ -16,9 +16,9 @@ Start here:
 - `PROJECT/PROJECT.md`
 - `PROJECT/MAP.md`
 
-Current preservation baseline: **v0.6.3**. The numbered v0.6.3 source and PDF are frozen. Any future change to the reader source begins **v0.6.4**.
+Current preservation baseline: **v0.6.3**. The numbered v0.6.3 source and PDF are frozen. Any change to those bytes must create a new versioned artifact; it must not rewrite v0.6.3.
 
-Version rule: any change to the reader source increments the patch version. Previously numbered source and PDF artifacts remain unchanged.
+Version rule: patch numbers identify bounded repairs within a line, while a materially reassembled next-version reader may advance the minor version. Previously numbered source and PDF artifacts remain unchanged, and no working candidate becomes the preservation baseline without a separate recorded promotion decision.
 
 ## Development candidate on this branch
 
