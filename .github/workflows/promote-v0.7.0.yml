@@ -1,0 +1,176 @@
+name: Promote Mechanical Ethics v0.7.0
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/promote-v0.7.0.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify exact working candidate
+        run: |
+          printf '%s  %s\n' '6a85d512904d00ea6e76b6d4f7fdff63cc9068a99d88b3541d501ed6ae2adc93' MECHANICAL_ETHICS.md | sha256sum -c -
+          printf '%s  %s\n' '18f16b7a34b39765b94ef70b5872b47faf3e42c3b30bb21401c4c1af2d452b56' MECHANICAL_ETHICS.pdf | sha256sum -c -
+          grep -F 'WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED' README.md
+          grep -F '**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.4**' MECHANICAL_ETHICS.md
+
+      - name: Promote source and PDF builder status
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_exact(path, old, new):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'{path}: expected one exact match, found {count}: {old!r}')
+              p.write_text(text.replace(old, new), encoding='utf-8')
+
+          replace_exact(
+              'MECHANICAL_ETHICS.md',
+              '**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.4**',
+              '**Human Reader v0.7.0 - RELEASED BASELINE**'
+          )
+          replace_exact(
+              '.github/scripts/build_me_pdf.py',
+              'status = "WORKING CANDIDATE - NOT VALIDATED"',
+              'status = "RELEASED BASELINE - NOT VALIDATED"'
+          )
+          replace_exact(
+              '.github/scripts/build_me_pdf.py',
+              'subject="Human Reader v0.7.0 working candidate"',
+              'subject="Human Reader v0.7.0 released baseline"'
+          )
+          replace_exact(
+              'README.md',
+              'Both present the current **v0.7.0 working candidate v0.2.4**.',
+              'Both present the current **released Mechanical Ethics v0.7.0 baseline**.'
+          )
+          replace_exact(
+              'README.md',
+              'WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED',
+              'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED'
+          )
+          replace_exact(
+              'README.md',
+              'The v0.7 reader is ready for bounded criticism.',
+              'Mechanical Ethics v0.7.0 is the current released formal baseline and remains open to bounded criticism.'
+          )
+          replace_exact(
+              'README.md',
+              'The frozen preservation baseline remains v0.6.3.',
+              'Mechanical Ethics v0.6.3 remains preserved as the previous released baseline; v0.7.0 supersedes it as the current released baseline.'
+          )
+          replace_exact(
+              'README.md',
+              'WORKING_CANDIDATE != PRESERVATION_BASELINE',
+              'RELEASED_BASELINE != VALIDATION'
+          )
+          p = Path('README.md')
+          text = p.read_text(encoding='utf-8')
+          marker = '## Review, history and licence'
+          note = 'Release decision: **16 September 2026**. Promotion changes release/baseline status only; it does not establish validation, universal applicability, authority or resolution of the open ethical questions.\n\n'
+          if note not in text:
+              if marker not in text:
+                  raise SystemExit('README review/history heading missing')
+              text = text.replace(marker, note + marker, 1)
+          p.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Rebuild released reader PDF
+        run: |
+          python -m pip install --disable-pip-version-check reportlab==4.4.9 pypdf==6.10.0 pillow==12.3.0
+          python .github/scripts/build_me_pdf.py --source MECHANICAL_ETHICS.md --output MECHANICAL_ETHICS.pdf
+
+      - name: Refresh release identities and integrity workflow
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import re
+
+          md = Path('MECHANICAL_ETHICS.md').read_bytes()
+          pdf = Path('MECHANICAL_ETHICS.pdf').read_bytes()
+          md_sha = hashlib.sha256(md).hexdigest()
+          pdf_sha = hashlib.sha256(pdf).hexdigest()
+
+          p = Path('README.md')
+          text = p.read_text(encoding='utf-8')
+          text = re.sub(r'\| Markdown \| [0-9,]+ \| `[0-9a-f]{64}` \|', f'| Markdown | {len(md):,} | `{md_sha}` |', text, count=1)
+          text = re.sub(r'\| PDF \| [0-9,]+ \| `[0-9a-f]{64}` \|', f'| PDF | {len(pdf):,} | `{pdf_sha}` |', text, count=1)
+          p.write_text(text, encoding='utf-8')
+
+          old = Path('.github/workflows/me-v070-candidate.yml')
+          new = Path('.github/workflows/me-v070-release.yml')
+          workflow = old.read_text(encoding='utf-8')
+          workflow = workflow.replace('name: Mechanical Ethics v0.7.0 candidate integrity', 'name: Mechanical Ethics v0.7.0 release integrity')
+          workflow = workflow.replace('.github/workflows/me-v070-candidate.yml', '.github/workflows/me-v070-release.yml')
+          workflow = workflow.replace('6a85d512904d00ea6e76b6d4f7fdff63cc9068a99d88b3541d501ed6ae2adc93', md_sha)
+          workflow = workflow.replace('18f16b7a34b39765b94ef70b5872b47faf3e42c3b30bb21401c4c1af2d452b56', pdf_sha)
+          workflow = workflow.replace('WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED', 'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED')
+          new.write_text(workflow, encoding='utf-8')
+          old.unlink()
+
+          release = f'''# Mechanical Ethics v0.7.0 release receipt\n\nRelease decision: 16 September 2026.\n\nMechanical Ethics v0.7.0 is the current released formal baseline, promoted by explicit human release authority from the v0.2.4 working reader candidate. The promotion changes status and document control; it does not convert bounded review, wording choices or agreement into validation.\n\n- `MECHANICAL_ETHICS.md`: {len(md):,} bytes; SHA-256 `{md_sha}`\n- `MECHANICAL_ETHICS.pdf`: {len(pdf):,} bytes; SHA-256 `{pdf_sha}`\n\nMechanical Ethics v0.6.3 remains preserved as the previous released baseline in repository history. The unresolved questions listed in the reader and README remain unresolved.\n'''
+          Path('RELEASE_v0.7.0.md').write_text(release, encoding='utf-8')
+          PY
+
+      - name: Verify released baseline and reproducible PDF
+        run: |
+          grep -F 'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED' README.md
+          grep -F '**Human Reader v0.7.0 - RELEASED BASELINE**' MECHANICAL_ETHICS.md
+          grep -F 'status = "RELEASED BASELINE - NOT VALIDATED"' .github/scripts/build_me_pdf.py
+          python .github/scripts/build_me_pdf.py --source MECHANICAL_ETHICS.md --output /tmp/MECHANICAL_ETHICS.pdf
+          cmp MECHANICAL_ETHICS.pdf /tmp/MECHANICAL_ETHICS.pdf
+          git diff --check
+
+      - name: Render release PDF for visual inspection artifact
+        run: |
+          if ! command -v pdftoppm >/dev/null; then sudo apt-get update && sudo apt-get install -y poppler-utils; fi
+          mkdir -p /tmp/me-release-render
+          pages=$(pdfinfo MECHANICAL_ETHICS.pdf | awk '/^Pages:/ {print $2}')
+          pdftoppm -png -r 120 -f 1 -l 1 -singlefile MECHANICAL_ETHICS.pdf /tmp/me-release-render/page-first
+          body_page=5
+          if [ "$pages" -lt 5 ]; then body_page=2; fi
+          pdftoppm -png -r 120 -f "$body_page" -l "$body_page" -singlefile MECHANICAL_ETHICS.pdf /tmp/me-release-render/page-body
+          pdftoppm -png -r 120 -f "$pages" -l "$pages" -singlefile MECHANICAL_ETHICS.pdf /tmp/me-release-render/page-last
+          cp MECHANICAL_ETHICS.pdf /tmp/me-release-render/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mechanical-ethics-v0.7.0-release-verification
+          path: /tmp/me-release-render
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit promoted baseline
+        run: |
+          rm .github/workflows/promote-v0.7.0.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A README.md MECHANICAL_ETHICS.md MECHANICAL_ETHICS.pdf RELEASE_v0.7.0.md .github/scripts/build_me_pdf.py .github/workflows
+          git commit -m 'Release Mechanical Ethics v0.7.0'
+          git push origin HEAD:main
+
+      - name: Create release tag and GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          release_sha=$(git rev-parse HEAD)
+          gh release create v0.7.0 --target "$release_sha" --title 'Mechanical Ethics v0.7.0' --notes-file RELEASE_v0.7.0.md
