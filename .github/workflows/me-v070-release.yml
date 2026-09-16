@@ -1,0 +1,51 @@
+name: Mechanical Ethics v0.7.0 release integrity
+
+on:
+  push:
+    paths:
+      - ".github/workflows/me-v070-release.yml"
+      - ".github/scripts/build_me_pdf.py"
+      - "README.md"
+      - "MECHANICAL_ETHICS.md"
+      - "MECHANICAL_ETHICS.pdf"
+      - "figures/**"
+  pull_request:
+    paths:
+      - ".github/workflows/me-v070-release.yml"
+      - ".github/scripts/build_me_pdf.py"
+      - "README.md"
+      - "MECHANICAL_ETHICS.md"
+      - "MECHANICAL_ETHICS.pdf"
+      - "figures/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify released identities and status boundary
+        run: |
+          printf '%s  %s\n' '8f702f3f5bdc2d6c188858f11aea8da22893fba9e678828fdb35d6ebd2fc1a9c' MECHANICAL_ETHICS.md | sha256sum -c -
+          printf '%s  %s\n' '122c56bb2ea1063bccb8ced3652686a006d3ff44bdaafa445a525e9464711cdf' MECHANICAL_ETHICS.pdf | sha256sum -c -
+          grep -F 'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED' README.md
+          grep -F 'Release decision: **16 September 2026**.' README.md
+          grep -F '**Human Reader v0.7.0 - RELEASED BASELINE**' MECHANICAL_ETHICS.md
+          grep -F 'status = "RELEASED BASELINE - NOT VALIDATED"' .github/scripts/build_me_pdf.py
+      - name: Rebuild reader PDF from Markdown
+        run: |
+          python -m pip install --disable-pip-version-check reportlab==4.4.9 pypdf==6.10.0 pillow==12.3.0
+          python .github/scripts/build_me_pdf.py --source MECHANICAL_ETHICS.md --output /tmp/MECHANICAL_ETHICS.pdf
+          cmp MECHANICAL_ETHICS.pdf /tmp/MECHANICAL_ETHICS.pdf
+      - name: Check whitespace integrity
+        run: git diff --check
+      - name: Claim boundary
+        run: |
+          echo "Green verifies the released reader identities and deterministic PDF generation."
+          echo "It does not establish ethical validation, universal applicability or authority."
