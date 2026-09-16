@@ -1,4 +1,4 @@
-name: Mechanical Ethics v0.7.0 candidate integrity
+name: Mechanical Ethics v0.7.0 transition integrity
 
 on:
   push:
@@ -29,17 +29,46 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Verify declared current identities and status boundary
+      - name: Verify candidate or released identities
         run: |
-          printf '%s  %s\n' '6a85d512904d00ea6e76b6d4f7fdff63cc9068a99d88b3541d501ed6ae2adc93' MECHANICAL_ETHICS.md | sha256sum -c -
-          printf '%s  %s\n' '18f16b7a34b39765b94ef70b5872b47faf3e42c3b30bb21401c4c1af2d452b56' MECHANICAL_ETHICS.pdf | sha256sum -c -
-          grep -F 'WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED' README.md
+          python - <<'PY'
+          import hashlib, re
+          from pathlib import Path
+          readme = Path('README.md').read_text(encoding='utf-8')
+          candidate = 'WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED' in readme
+          released = 'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED' in readme
+          if candidate == released:
+              raise SystemExit('expected exactly one ME v0.7.0 status state')
+          if candidate:
+              expected = {
+                  'MECHANICAL_ETHICS.md': '6a85d512904d00ea6e76b6d4f7fdff63cc9068a99d88b3541d501ed6ae2adc93',
+                  'MECHANICAL_ETHICS.pdf': '18f16b7a34b39765b94ef70b5872b47faf3e42c3b30bb21401c4c1af2d452b56',
+              }
+              if '**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.4**' not in Path('MECHANICAL_ETHICS.md').read_text(encoding='utf-8'):
+                  raise SystemExit('candidate reader marker missing')
+          else:
+              if 'Release decision: **16 September 2026**.' not in readme:
+                  raise SystemExit('release decision missing')
+              rows = dict(re.findall(r'\| (Markdown|PDF) \| [0-9,]+ \| `([0-9a-f]{64})` \|', readme))
+              if set(rows) != {'Markdown', 'PDF'}:
+                  raise SystemExit('release identity table incomplete')
+              expected = {'MECHANICAL_ETHICS.md': rows['Markdown'], 'MECHANICAL_ETHICS.pdf': rows['PDF']}
+              if '**Human Reader v0.7.0 - RELEASED BASELINE**' not in Path('MECHANICAL_ETHICS.md').read_text(encoding='utf-8'):
+                  raise SystemExit('released reader marker missing')
+          for path, digest in expected.items():
+              actual = hashlib.sha256(Path(path).read_bytes()).hexdigest()
+              if actual != digest:
+                  raise SystemExit(f'{path}: SHA-256 mismatch {actual} != {digest}')
+          print('ME v0.7.0 candidate/release-boundary identities passed')
+          PY
       - name: Rebuild reader PDF from Markdown
         run: |
           python -m pip install --disable-pip-version-check reportlab==4.4.9 pypdf==6.10.0 pillow==12.3.0
-          python .github/scripts/build_me_pdf.py \
-            --source MECHANICAL_ETHICS.md \
-            --output /tmp/MECHANICAL_ETHICS.pdf
+          python .github/scripts/build_me_pdf.py --source MECHANICAL_ETHICS.md --output /tmp/MECHANICAL_ETHICS.pdf
           cmp MECHANICAL_ETHICS.pdf /tmp/MECHANICAL_ETHICS.pdf
       - name: Check whitespace integrity
         run: git diff --check
+      - name: Claim boundary
+        run: |
+          echo "Green verifies declared identities and deterministic PDF generation."
+          echo "It does not establish ethical validation, universal applicability or authority."
