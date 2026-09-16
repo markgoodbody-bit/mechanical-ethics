@@ -99,7 +99,7 @@ class BookDocTemplate(BaseDocTemplate):
         canvas.setFont("Helvetica", 7.2)
         canvas.setFillColor(MUTED)
         canvas.drawString(doc.leftMargin, PAGE_SIZE[1] - 10.8 * mm, "MECHANICAL ETHICS")
-        status = "WORKING CANDIDATE - NOT VALIDATED"
+        status = "RELEASED BASELINE - NOT VALIDATED"
         canvas.drawRightString(PAGE_SIZE[0] - doc.rightMargin, 9.5 * mm, status)
         canvas.setFillColor(INK)
         canvas.setFont("Helvetica-Bold", 8)
@@ -439,7 +439,7 @@ def build(source: Path, output: Path):
         bottomMargin=18 * mm,
         title="Mechanical Ethics: When Correction Arrives Too Late",
         author="Mechanical Ethics project",
-        subject="Human Reader v0.7.0 working candidate",
+        subject="Human Reader v0.7.0 released baseline",
         creator="Mechanical Ethics reproducible PDF builder",
         invariant=1,
     )
@@ -453,7 +453,7 @@ def build(source: Path, output: Path):
         Spacer(1, 12),
         Paragraph(html.escape(status), styles["cover_status"]),
         Spacer(1, 5),
-        Paragraph("WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED", styles["cover_status"]),
+        Paragraph("RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED", styles["cover_status"]),
         NextPageTemplate("body"),
         PageBreak(),
     ]
@@ -505,7 +505,7 @@ def build(source: Path, output: Path):
         "The Door Out",
         "Futures Still Reachable",
         "What Remains Unfinished",
-        "WORKING CANDIDATE",
+        "RELEASED BASELINE",
     ]
     missing = [item for item in required if item not in extracted]
     if missing:

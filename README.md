@@ -11,17 +11,17 @@ Choose either form of the same current reader:
 - [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) - inspectable Markdown source;
 - [`MECHANICAL_ETHICS.pdf`](MECHANICAL_ETHICS.pdf) - typeset 6 x 9 inch reader edition.
 
-Both present the current **v0.7.0 working candidate v0.2.4**. The Markdown is
+Both present the current **released Mechanical Ethics v0.7.0 baseline**. The Markdown is
 the editable source; the PDF is generated from it and is not a separate
 manuscript.
 
 | Form | Bytes | SHA-256 |
 |---|---:|---|
-| Markdown | 87,555 | `6a85d512904d00ea6e76b6d4f7fdff63cc9068a99d88b3541d501ed6ae2adc93` |
-| PDF | 451,736 | `18f16b7a34b39765b94ef70b5872b47faf3e42c3b30bb21401c4c1af2d452b56` |
+| Markdown | 87,543 | `8f702f3f5bdc2d6c188858f11aea8da22893fba9e678828fdb35d6ebd2fc1a9c` |
+| PDF | 451,840 | `122c56bb2ea1063bccb8ced3652686a006d3ff44bdaafa445a525e9464711cdf` |
 
 ```text
-WORKING / NOT BASELINE / NOT RELEASE / NOT CANON / NOT VALIDATED
+RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED
 ```
 
 The four diagrams in [`figures/`](figures/) are explanatory carriers, not
@@ -29,7 +29,7 @@ evidence.
 
 ## Current status
 
-The v0.7 reader is ready for bounded criticism. The repository owner preferred
+Mechanical Ethics v0.7.0 is the current released formal baseline and remains open to bounded criticism. The repository owner preferred
 the v0.2.1 register pass to v0.2 in a direct human reading, then selected the
 v0.2.2 story-section presentation in a direct visual reading. The v0.2.3
 conclusion returned the final chapter to plain English and placed its compact
@@ -37,7 +37,7 @@ notation in Appendix A; v0.2.4 tightens that plain-English ending while retainin
 its uncertainty and collision limits. These are bounded reader results and wording
 changes, not a general readability claim, publication claim or baseline promotion.
 
-The frozen preservation baseline remains v0.6.3. Earlier versions, evidence
+Mechanical Ethics v0.6.3 remains preserved as the previous released baseline; v0.7.0 supersedes it as the current released baseline. Earlier versions, evidence
 records and build history remain recoverable through Git history and the dated
 `branch-archive-20260829-pre-minimal-surface` tag; they are not part of the
 current reading surface.
@@ -57,6 +57,8 @@ FPF conformance, endorsement, a plug-in or a compulsory combined workflow.
 - enforcement, brake and interruption authority;
 - usability for ordinary people without unusual reserves.
 
+Release decision: **16 September 2026**. Promotion changes release/baseline status only; it does not establish validation, universal applicability, authority or resolution of the open ethical questions.
+
 ## Review, history and licence
 
 Critical review is welcome through the repository's GitHub issues. Agreement
@@ -69,7 +71,7 @@ material into another work. Questions about a proposed use should be raised
 with the repository owner.
 
 ```text
-WORKING_CANDIDATE != PRESERVATION_BASELINE
+RELEASED_BASELINE != VALIDATION
 EXTERNAL_AGREEMENT != VALIDATION
 COMPATIBILITY != CONFORMANCE
 DIAGRAM != EVIDENCE

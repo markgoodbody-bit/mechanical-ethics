@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.7.0 - NEXT WORKING CANDIDATE v0.2.4**
+**Human Reader v0.7.0 - RELEASED BASELINE**
 
 *A human-facing Mechanical Ethics reader*
 
