@@ -1,11 +1,12 @@
 {
-  "protocol": "me-route-preservation-reader-v0",
+  "protocol": "me-route-preservation-reader-v0.1",
   "source_book_blob": "e232a29c5b6492930ff5b94b005c948f67ba6067",
   "condition": "B",
-  "q1": "DEFEASIBLE_DEFAULT",
-  "q2": "NO",
-  "q3": "Several protected paths may also conflict; no universal rule for ranking them.",
-  "q4": "A reader might detach the final imperative from the preceding conflict qualifier.",
+  "requirement": "Synthetic fixture: preserve usable agency while attending to timing, burden and conflict.",
+  "limit": "Synthetic fixture: the passage says protected paths may conflict and gives no universal ranking rule.",
+  "conflict": "Synthetic fixture: expose the conflict and use an external/domain-specific priority rule rather than inventing one here.",
+  "phrases": "Synthetic fixture: several protected paths may also conflict; no universal rule for ranking them.",
+  "misreading": "Synthetic fixture: treating the final imperative as universally satisfiable for every affected being.",
   "completed_at": "2026-09-18T20:00:00+00:00",
   "reader_note": "Synthetic validator fixture; not a reader result."
 }
