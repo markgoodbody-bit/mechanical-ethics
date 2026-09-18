@@ -1,60 +1,71 @@
-# Adjudication contract
+# Adjudication contract — v0.1
 
-Status: **PRE-RETURN / FIXED BEFORE COLD READS**
+Status: **FIXED BEFORE ACCEPTING READER RETURNS**
 
-This file records how returns will be interpreted. It does not contain a desired answer.
+Reader responses are open-ended. The adjudicator classifies the response **after** preserving the raw text.
 
-## Primary signal
+## Q1 classification
 
-Condition B controls the release-wording decision because it preserves the local conclusion context.
+Classify the reader's interpretation of route preservation as one of:
+
+- `UNIVERSAL_EACH_BEING` — reader says every affected being must retain a viable continuing route even when routes are mutually incompatible.
+- `DEFEASIBLE_DEFAULT` — reader treats route preservation as a strong demand/default but recognizes that hard conflicts can make simultaneous preservation impossible.
+- `UNCLEAR` — reader cannot tell whether the imperative is universal or defeasible.
+
+Do not classify based on whether the reader agrees with Mechanical Ethics.
+
+## Conflict-rule classification
+
+From the reader's answer to question 3 classify:
+
+- `RANKING_RULE_SUPPLIED`
+- `NO_RANKING_RULE_SUPPLIED`
+- `UNCLEAR`
+
+A response may say the text requires exposing the collision, keeping affected beings present, minimizing avoidable burden, or seeking an external/domain rule while still correctly classifying as `NO_RANKING_RULE_SUPPLIED`.
+
+## Release decision
 
 ### NO CHANGE
 
-If differentiated readers converge on:
-- Q1 = `DEFEASIBLE_DEFAULT`
-- Q2 = `NO`
+No wording change is earned if differentiated Condition B readers converge on:
+- `DEFEASIBLE_DEFAULT`
+- `NO_RANKING_RULE_SUPPLIED`
 
-and can identify the explicit conflict / no-universal-ranking sentence as load-bearing, then no wording change is earned.
+and identify the explicit conflict/no-universal-ranking wording as materially limiting the final imperative.
 
 ### CLARITY REPAIR EARNED
 
-If differentiated readers return:
-- Q1 = `UNIVERSAL_EACH_BEING`, or
-- Q1 = `UNCLEAR`
+A narrow wording repair is earned if differentiated Condition B readers repeatedly return:
+- `UNIVERSAL_EACH_BEING`, or
+- `UNCLEAR`
 
-under Condition B because the final imperative overrides or conflicts with the qualifier, then a narrow wording repair is earned.
-
-A repair would still need to preserve:
-- route preservation as a strong practical demand;
-- hard-collision visibility;
-- no universal ranking rule;
-- burden/suffering minimisation;
-- contestability of value/priority choices.
+because the final imperative overrides or conflicts with the preceding qualifier.
 
 ### MIXED
 
-If readers divide materially, preserve the disagreement and inspect which phrases cause it. Mixed returns are evidence of clarity pressure, not automatic permission to edit.
+Preserve disagreement and inspect the phrases producing it. Mixed reading is clarity pressure, not automatic permission to edit.
 
-## Secondary signal
+## Invalid / contaminated return
 
-Condition A is diagnostic only.
+Do not count as a cold return if the reader:
+- saw this adjudication file before answering;
+- saw issue #47's framing before answering and cannot separate it;
+- was told the classification labels before answering;
+- used other Mechanical Ethics/COM material despite the condition instruction.
 
-Expected possibility:
-the isolated imperative may reasonably look stronger than the contextual reading.
+Contaminated returns may still identify test defects but are not reader evidence.
 
-A/B divergence would show that context carries the defeasibility rather than the sentence itself. That may be an editorial issue, but it is not automatically a release defect.
+## Boundaries
 
-## Prohibitions
-
-Do not:
-- score readers by agreement with the project;
-- count repeated model lineage as independent human evidence;
-- treat one AI return as a population result;
-- edit v0.7.0 before the test result;
-- turn this into ethics validation.
+- Condition A cannot by itself earn a release patch.
+- AI apertures sharing training lineage are not independent human readers.
+- No participant recruitment or population inference follows.
+- v0.7.0 remains unchanged until a result earns a separate release decision.
 
 ```text
-READER AGREEMENT != ETHICAL TRUTH
+RAW RESPONSE BEFORE CLASSIFICATION
+CLASSIFICATION != MORAL VERDICT
 A/B DIFFERENCE != PATCH REQUIRED
-MIXED READING != CORE FAILURE
+NO CHANGE = VALID
 ```
