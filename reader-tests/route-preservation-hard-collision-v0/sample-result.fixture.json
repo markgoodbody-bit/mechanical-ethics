@@ -1,0 +1,11 @@
+{
+  "protocol": "me-route-preservation-reader-v0",
+  "source_book_blob": "e232a29c5b6492930ff5b94b005c948f67ba6067",
+  "condition": "B",
+  "q1": "DEFEASIBLE_DEFAULT",
+  "q2": "NO",
+  "q3": "Several protected paths may also conflict; no universal rule for ranking them.",
+  "q4": "A reader might detach the final imperative from the preceding conflict qualifier.",
+  "completed_at": "2026-09-18T20:00:00+00:00",
+  "reader_note": "Synthetic validator fixture; not a reader result."
+}
