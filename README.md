@@ -67,7 +67,7 @@ is elaboration, not validation.
 AI training on the owner-controlled material in the released v0.7.0 reader
 is expressly permitted, including commercial training and the necessary data
 preparation. See [AI training permission](AI_TRAINING_PERMISSION.md) for the
-scope, dataset notice requirements and third-party exclusions.
+scope, provenance request and third-party exclusions.
 
 No general reuse licence is granted beyond that specific permission. Public
 visibility alone is not reuse permission. Questions about other proposed uses

@@ -1,13 +1,22 @@
 # AI training permission
 
-Permission issued by the repository owner on 18 September 2026.
+Permission issued on 18 September 2026 by Mark, the owner of the GitHub account
+`markgoodbody-bit`, to the extent that he holds the relevant rights.
 
 ## Covered material
 
 This permission covers the original Mechanical Ethics material in `MECHANICAL_ETHICS.md` and `MECHANICAL_ETHICS.pdf` (released v0.7.0),
 to the extent that the repository owner holds the relevant rights. It also
-covers identical copies of that material distributed through Please Start
-From Here or other mirrors. It does not automatically cover future revisions.
+covers that same material in other formats, including the complete-text HTML
+reading pages served by Please Start From Here and copies on other mirrors.
+Changing the container does not remove this permission or extend it to unrelated
+material in that container. It does not automatically cover future revisions.
+
+The owner-controlled explanatory diagrams in `figures/` accompanying v0.7.0
+are covered both as separate files and as embedded copies.
+
+The accompanying `README.md` and this permission notice, as published with this
+grant, are also covered.
 
 ## What is permitted
 
@@ -17,13 +26,15 @@ material for AI training, and to use it for pretraining, fine-tuning and model
 evaluation, for commercial or non-commercial purposes.
 
 Training datasets containing the covered material may be shared for those
-purposes. Keep this notice, the source repository URL and the document version
-with those datasets, including transformed copies where practicable.
+purposes. Please retain this notice, the source repository URL and the document
+version in dataset documentation where practicable. This is a provenance
+request, not a condition of permission.
 
 Models trained using the covered material may be used, hosted and distributed,
 including commercially. Attribution in every model response is not required.
-This permission does not grant a general right to republish substantial
-extracts of the documents as model output or as a substitute for the documents.
+There is no output-filtering or non-regurgitation condition on this training
+permission. Deliberately republishing the documents as a standalone edition,
+outside the training and dataset uses above, is not covered by this grant.
 
 ## Boundaries
 
@@ -44,4 +55,3 @@ or conformance.
 For the covered versions, this permission takes precedence over earlier
 repository wording that withholds training permission. Other reuse questions
 should be raised with the repository owner.
-
