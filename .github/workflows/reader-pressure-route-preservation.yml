@@ -28,3 +28,5 @@ jobs:
           python-version: '3.12'
       - name: Verify reader-test excerpts against source
         run: python reader-tests/route-preservation-hard-collision-v0/verify_source.py
+      - name: Validate synthetic result fixture
+        run: python reader-tests/route-preservation-hard-collision-v0/validate_result.py reader-tests/route-preservation-hard-collision-v0/sample-result.fixture.json
