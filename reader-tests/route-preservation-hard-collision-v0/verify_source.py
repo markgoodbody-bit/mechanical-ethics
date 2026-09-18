@@ -38,8 +38,11 @@ for fragment in context_fragments:
     assert fragment in B, f"condition B missing source fragment: {fragment}"
     assert fragment in STUDY, f"study HTML missing source fragment: {fragment}"
 
-assert "UNIVERSAL_EACH_BEING" not in BOOK, "test vocabulary leaked into released reader"
-assert "DEFEASIBLE_DEFAULT" not in BOOK, "test vocabulary leaked into released reader"
+for label in ("UNIVERSAL_EACH_BEING", "DEFEASIBLE_DEFAULT", "UNCLEAR"):
+    assert label not in BOOK, f"test vocabulary leaked into released reader: {label}"
+    assert label not in A, f"priming label leaked into condition A: {label}"
+    assert label not in B, f"priming label leaked into condition B: {label}"
+    assert label not in STUDY, f"priming label leaked into study HTML: {label}"
 
 print("READER_PRESSURE_SOURCE_BINDING_PASS")
 print(f"book_blob = {actual_blob}")
