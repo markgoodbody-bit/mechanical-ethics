@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Verify reader-test excerpts are faithful to the current released-reader source."""
 from pathlib import Path
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
-BOOK = (ROOT / "MECHANICAL_ETHICS.md").read_text(encoding="utf-8")
+BOOK_PATH = ROOT / "MECHANICAL_ETHICS.md"
+BOOK = BOOK_PATH.read_text(encoding="utf-8")
+EXPECTED_BOOK_BLOB = "e232a29c5b6492930ff5b94b005c948f67ba6067"
+actual_blob = subprocess.check_output(["git", "hash-object", str(BOOK_PATH)], text=True).strip()
+assert actual_blob == EXPECTED_BOOK_BLOB, f"reader source blob moved: {actual_blob}"
 HERE = Path(__file__).resolve().parent
 
 A = (HERE / "condition-a.txt").read_text(encoding="utf-8")
@@ -34,5 +39,6 @@ assert "UNIVERSAL_EACH_BEING" not in BOOK, "test vocabulary leaked into released
 assert "DEFEASIBLE_DEFAULT" not in BOOK, "test vocabulary leaked into released reader"
 
 print("READER_PRESSURE_SOURCE_BINDING_PASS")
+print(f"book_blob = {actual_blob}")
 print("condition_a = exact practical-demand paragraph")
 print("condition_b = source-faithful conclusion fragments + fixed questions")
