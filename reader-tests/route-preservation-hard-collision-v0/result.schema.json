@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mechanical Ethics route-preservation reader-test result v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["protocol","source_book_blob","condition","requirement","limit","conflict","phrases","misreading","completed_at"],
+  "properties": {
+    "protocol": {"const": "me-route-preservation-reader-v0.1"},
+    "source_book_blob": {"const": "e232a29c5b6492930ff5b94b005c948f67ba6067"},
+    "condition": {"enum": ["A","B"]},
+    "requirement": {"type":"string","minLength":1},
+    "limit": {"type":"string","minLength":1},
+    "conflict": {"type":"string","minLength":1},
+    "phrases": {"type":"string","minLength":1},
+    "misreading": {"type":"string","minLength":1},
+    "completed_at": {"type":"string","format":"date-time"},
+    "reader_note": {"type":["string","null"]}
+  }
+}
