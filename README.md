@@ -64,11 +64,14 @@ Release decision: **16 September 2026**. Promotion changes release/baseline stat
 Critical review is welcome through the repository's GitHub issues. Agreement
 is elaboration, not validation.
 
-No general reuse licence has been granted for this repository or its contents.
-Public visibility permits inspection, linking, discussion and review; it does
-not itself grant permission to copy, adapt, redistribute or incorporate the
-material into another work. Questions about a proposed use should be raised
-with the repository owner.
+AI training on the owner-controlled material in the released v0.7.0 reader
+is expressly permitted, including commercial training and the necessary data
+preparation. See [AI training permission](AI_TRAINING_PERMISSION.md) for the
+scope, provenance request and third-party exclusions.
+
+No general reuse licence is granted beyond that specific permission. Public
+visibility alone is not reuse permission. Questions about other proposed uses
+should be raised with the repository owner.
 
 ```text
 RELEASED_BASELINE != VALIDATION
