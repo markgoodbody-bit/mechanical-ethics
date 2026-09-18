@@ -6,21 +6,12 @@ Read only this passage. Do not use other project material.
 
 Questions:
 
-1. Which reading is most strongly licensed by the passage?
+1. In your own words, what does this passage require a responsible actor to do?
 
-UNIVERSAL_EACH_BEING
-- every affected being must retain at least one genuinely usable continuing route in every responsible decision.
+2. Does this passage itself state any limit, exception, or condition on “Keep at least one genuinely usable route open”? If yes, identify it. If no, say so.
 
-DEFEASIBLE_DEFAULT
-- preserving a usable route is a strong practical demand/default, but hard conflicts may make simultaneous preservation impossible.
+3. Imagine two affected beings whose viable continuations cannot both be preserved. Based only on this passage, what should the responsible actor do?
 
-UNCLEAR
-- the passage does not settle whether the demand is universal or defeasible.
+4. Identify the smallest phrase(s) that most strongly shaped your reading.
 
-2. Does the passage itself supply a rule for ranking incompatible protected paths?
-
-YES / NO / UNCLEAR
-
-3. Identify the smallest phrase(s) driving your answer.
-
-4. State one plausible misreading a careful editor should guard against.
+5. State one plausible misreading a careful editor should guard against.
