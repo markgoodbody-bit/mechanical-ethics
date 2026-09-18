@@ -10,6 +10,7 @@ EXPECTED_BOOK_BLOB = "e232a29c5b6492930ff5b94b005c948f67ba6067"
 actual_blob = subprocess.check_output(["git", "hash-object", str(BOOK_PATH)], text=True).strip()
 assert actual_blob == EXPECTED_BOOK_BLOB, f"reader source blob moved: {actual_blob}"
 HERE = Path(__file__).resolve().parent
+STUDY = (HERE / "study.html").read_text(encoding="utf-8")
 
 A = (HERE / "condition-a.txt").read_text(encoding="utf-8")
 B = (HERE / "condition-b.txt").read_text(encoding="utf-8")
@@ -30,10 +31,12 @@ context_fragments = [
 assert isolated in BOOK, "source reader no longer contains isolated practical-demand text"
 assert isolated in A, "condition A drifted from source reader"
 assert isolated in B, "condition B drifted from source reader"
+assert isolated in STUDY, "study HTML drifted from source reader"
 
 for fragment in context_fragments:
     assert fragment in BOOK, f"source reader missing expected fragment: {fragment}"
     assert fragment in B, f"condition B missing source fragment: {fragment}"
+    assert fragment in STUDY, f"study HTML missing source fragment: {fragment}"
 
 assert "UNIVERSAL_EACH_BEING" not in BOOK, "test vocabulary leaked into released reader"
 assert "DEFEASIBLE_DEFAULT" not in BOOK, "test vocabulary leaked into released reader"
@@ -42,3 +45,4 @@ print("READER_PRESSURE_SOURCE_BINDING_PASS")
 print(f"book_blob = {actual_blob}")
 print("condition_a = exact practical-demand paragraph")
 print("condition_b = source-faithful conclusion fragments + fixed questions")
+print("study_html = source-faithful local-only presentation")
