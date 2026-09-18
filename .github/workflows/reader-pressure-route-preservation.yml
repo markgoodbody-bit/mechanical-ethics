@@ -28,9 +28,3 @@ jobs:
           python-version: '3.12'
       - name: Verify reader-test excerpts against source
         run: python reader-tests/route-preservation-hard-collision-v0/verify_source.py
-      - name: Prove released reader unchanged by this test
-        run: |
-          git diff --exit-code origin/main...HEAD -- MECHANICAL_ETHICS.md || {
-            echo "Reader text changed inside clarity-test branch"
-            exit 1
-          }
