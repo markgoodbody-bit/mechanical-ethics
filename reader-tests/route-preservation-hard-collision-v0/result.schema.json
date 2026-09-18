@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/markgoodbody-bit/mechanical-ethics/reader-tests/route-preservation-hard-collision-v0/result.schema.json",
+  "title": "Mechanical Ethics route-preservation reader-test result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "protocol",
+    "source_book_blob",
+    "condition",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "completed_at"
+  ],
+  "properties": {
+    "protocol": {"const": "me-route-preservation-reader-v0"},
+    "source_book_blob": {"const": "e232a29c5b6492930ff5b94b005c948f67ba6067"},
+    "condition": {"enum": ["A", "B"]},
+    "q1": {"enum": ["UNIVERSAL_EACH_BEING", "DEFEASIBLE_DEFAULT", "UNCLEAR"]},
+    "q2": {"enum": ["YES", "NO", "UNCLEAR"]},
+    "q3": {"type": "string", "minLength": 1},
+    "q4": {"type": "string", "minLength": 1},
+    "completed_at": {"type": "string", "format": "date-time"},
+    "reader_note": {"type": ["string", "null"]}
+  }
+}
