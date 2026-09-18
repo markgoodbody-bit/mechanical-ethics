@@ -1,0 +1,26 @@
+MECHANICAL ETHICS — READER TEST CONDITION A
+
+Read only this passage. Do not use other project material.
+
+> The practical demand is modest to state and difficult to meet: keep the affected being present in the decision. Keep at least one genuinely usable route open. Place the burden of complexity and delay on those with the power to carry it. And act before correction becomes only an account of what was lost.
+
+Questions:
+
+1. Which reading is most strongly licensed by the passage?
+
+UNIVERSAL_EACH_BEING
+- every affected being must retain at least one genuinely usable continuing route in every responsible decision.
+
+DEFEASIBLE_DEFAULT
+- preserving a usable route is a strong practical demand/default, but hard conflicts may make simultaneous preservation impossible.
+
+UNCLEAR
+- the passage does not settle whether the demand is universal or defeasible.
+
+2. Does the passage itself supply a rule for ranking incompatible protected paths?
+
+YES / NO / UNCLEAR
+
+3. Identify the smallest phrase(s) driving your answer.
+
+4. State one plausible misreading a careful editor should guard against.
