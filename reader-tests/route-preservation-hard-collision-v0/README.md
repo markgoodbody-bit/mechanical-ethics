@@ -1,6 +1,6 @@
 # Route-preservation hard-collision reader test v0.1
 
-Status: **FUTURE-READER CLARITY TEST / RELEASED v0.7.0 UNCHANGED / NO PRIORITY LAW / NO PARTICIPANT RECRUITMENT**
+Status: **FUTURE-READER CLARITY TEST / SOURCE BINDING ADVANCED TO RELEASED v0.8.0 / NO PRIORITY LAW / NO PARTICIPANT RESULT**
 
 Mechanical Ethics issue #47 identified a plausible clarity pressure around the conclusion sentence:
 
@@ -35,9 +35,9 @@ Readers answer in their own words:
 
 ## Source binding
 
-The test is pinned to exact reader blob:
+The test is pinned to the exact released v0.8.0 reader blob:
 
-`e232a29c5b6492930ff5b94b005c948f67ba6067`
+`0be2ea2aeb178b8387eedf0b72da2d325c6c5caf`
 
 CI verifies that the quoted source text remains present in:
 - the released reader source;
@@ -58,3 +58,6 @@ OPEN QUESTION != UNSTRUCTURED ADJUDICATION
 READER AGREEMENT != ETHICAL TRUTH
 HARD COLLISION != PERMISSION TO INVENT A PRIORITY LAW
 ```
+
+
+The 23 September release rebinds this source-faithfulness check only. It does not retrospectively create a Condition A/B reader result or validation claim.

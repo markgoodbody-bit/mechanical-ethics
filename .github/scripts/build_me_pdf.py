@@ -439,7 +439,7 @@ def build(source: Path, output: Path):
         bottomMargin=18 * mm,
         title="Mechanical Ethics: When Correction Arrives Too Late",
         author="Mechanical Ethics project",
-        subject="Human Reader v0.7.0 released baseline",
+        subject="Human Reader v0.8.0 released baseline",
         creator="Mechanical Ethics reproducible PDF builder",
         invariant=1,
     )
@@ -501,7 +501,7 @@ def build(source: Path, output: Path):
     extracted = "\n".join((page.extract_text() or "") for page in reader.pages)
     required = [
         "Mechanical Ethics",
-        "Effective protection must be in place",
+        "If a particular threatened path is to be protected",
         "The Door Out",
         "Futures Still Reachable",
         "What Remains Unfinished",
