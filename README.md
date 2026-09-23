@@ -11,22 +11,25 @@ after a threatened path has hardened.
 
 ## Read this
 
-Choose either form of the same current reader:
+For **v0.8.0-beta2 review**, read:
 
-- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) - inspectable Markdown source;
-- [`MECHANICAL_ETHICS.pdf`](MECHANICAL_ETHICS.pdf) - typeset 6 x 9 inch reader edition.
+- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) — the beta2 Markdown candidate;
+- [`BETA_REVIEW_v0.8-beta2.md`](BETA_REVIEW_v0.8-beta2.md) — cold review instructions;
+- [`BETA_NEIGHBOURS_v0.8.md`](BETA_NEIGHBOURS_v0.8.md) — second-phase attribution/absorption map.
 
-Both present the current **released Mechanical Ethics v0.7.0 baseline**. The Markdown is
-the editable source; the PDF is generated from it and is not a separate
-manuscript.
+The repository PDF remains the typeset **released v0.7.0 baseline** and has deliberately not been rebuilt for this beta. Do not compare the beta Markdown with that PDF as though they were byte- or text-identical forms of one candidate.
 
-| Form | Bytes | SHA-256 |
+Released v0.7.0 identities remain:
+
+| Released form | Bytes | SHA-256 |
 |---|---:|---|
-| Markdown | 87,543 | `8f702f3f5bdc2d6c188858f11aea8da22893fba9e678828fdb35d6ebd2fc1a9c` |
-| PDF | 451,840 | `122c56bb2ea1063bccb8ced3652686a006d3ff44bdaafa445a525e9464711cdf` |
+| Markdown v0.7.0 | 87,543 | `8f702f3f5bdc2d6c188858f11aea8da22893fba9e678828fdb35d6ebd2fc1a9c` |
+| PDF v0.7.0 | 451,840 | `122c56bb2ea1063bccb8ced3652686a006d3ff44bdaafa445a525e9464711cdf` |
 
 ```text
-RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED
+BETA MARKDOWN != RELEASED PDF
+RELEASED v0.7.0 = FORMAL BASELINE / NOT VALIDATED
+v0.8.0-beta2 = REVIEW CANDIDATE / NOT RELEASED
 ```
 
 The four diagrams in [`figures/`](figures/) are explanatory carriers, not
