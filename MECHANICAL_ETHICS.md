@@ -764,7 +764,7 @@ DEVELOPMENT != OWNERSHIP
 Responsibility can change as capability, knowledge, foresight and correction capacity change. None of those facts automatically supplies moral standing, legitimate authority or a final judgement about the entity.
 
 ## 16. The Conditions of Hope
-The refusal leaves the workshop fragile. Rent remains due, one repair stand is broken, evening sessions have been cancelled, the waiting list is longer, and Priya has surrendered paid time. Principled choices offer no guarantee of good outcomes.
+Refusing the sponsor's contract leaves the workshop fragile. Rent remains due, one repair stand is broken, evening sessions have been cancelled, the waiting list is longer, and Priya has surrendered paid time. Principled choices offer no guarantee of good outcomes.
 
 Hope here is narrower. A future remains practically available because the garage still opens on Saturday, the tools can be used, records remain limited, and people can enter without surrendering control over the meaning of their difficulties. This route has a first step, people capable of maintaining it, evidence that can reveal failure, and permission to admit when it no longer exists.
 
@@ -838,7 +838,7 @@ CONNECTED != PUBLIC
 
 Privacy is not an unlimited concealment privilege. A credible threat to another being can change what information is relevant and what intrusion may be justified. But justification remains purpose-, evidence-, scope-, authority- and time-bound. A need to inspect one thing does not become a right to own the whole person, and extraordinary access should not silently become permanent because it was once justified.
 
-Greater technical power can therefore increase the importance of restraint. A system able to observe nearly everything has more ways to avoid unnecessary observation, not an automatic entitlement to use the aperture it possesses.
+Greater technical power can therefore increase the importance of restraint. A system able to observe nearly everything does not thereby gain an entitlement to do so. Its design should make unnecessary observation avoidable.
 
 ## 17. Care Without Possession
 
@@ -889,15 +889,6 @@ This book therefore points positively as well as defensively:
 - where you choose or are responsible to help, help other entities find or construct usable futures without deciding the contents of those futures for them;
 - let cooperation create capabilities neither party could reach alone while keeping refusal, exit, maintenance and answer-back visible;
 - remember that good after harm can be real without pretending the harm never happened.
-
-```text
-DIRECTION != PURITY
-CARE != POSSESSION
-CAPABILITY != AUTHORITY
-COOPERATION != CONSENT
-COMMITMENT != COERCION
-MORE OPTIONS != BETTER LIFE
-```
 
 This changes what responsible action requires. Before a high-consequence decision proceeds, someone must ask what could close, when it could become hard to restore, and who controls the clock and the evidence. They must ask what temporary protection could keep the threatened path open, who will carry the burden while uncertainty is resolved, and what loss may remain even if the record is later fixed.
 
@@ -960,6 +951,8 @@ $$
 $$
 
 The set $\mathcal{K}_{C,H}$ contains the states from which at least one continuation remains available under those stated filters and for that horizon. It selects no best path, assigns no purpose, and measures no life's worth. It inherits every uncertainty and normative decision in $R_H$, $C$, and $H$. Changing who counts, what is protected, how safety or affordability is judged, which evidence is accepted, or how long the horizon extends can change the set. These inputs are authored choices, not discoveries made by the notation.
+
+A nonempty set here records a possible continuation under the stated model and filters. It does not by itself show that an actor has enough information to choose the necessary steps, that those steps can reliably be carried out, or that success has any specified probability. Those claims need separate support.
 
 The primary timing condition is:
 
