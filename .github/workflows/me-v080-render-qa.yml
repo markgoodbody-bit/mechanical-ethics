@@ -41,7 +41,7 @@ jobs:
           for idx,p in enumerate(r.pages,1):
               t=p.extract_text() or ""
               for k,s in wanted.items():
-                  if k not in found and s in t:
+                  if s in t:
                       found[k]=idx
           out=[f"pages={len(r.pages)}",f"figure2={found.get('figure2','')}",f"build={found.get('build','')}"]
           Path("release-qa/report.txt").write_text("\n".join(out)+"\n",encoding="utf-8")
