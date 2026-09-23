@@ -776,7 +776,7 @@ This is how repair can accumulate without erasing what was lost. Not every reach
 
 Hope in this book is not a command to feel optimistic. A person can feel no hope while a supported prospect remains, and can feel hopeful about a prospect that the available evidence does not support. Neither fact gives an observer authority to overrule the person's account of their own life.
 
-The narrower structural question is whether something that matters has a route that is still real enough to use or maintain. A possible outcome is not automatically a usable route. A lottery has winners; that does not make a ticket a dependable escape from hardship. A route may depend on another person, institution or technology, and uncertainty about it should remain visible.
+The narrower structural question is whether something that matters has a route that is still real enough to use or maintain. In ordinary human language, one useful question is simpler: **can this person or entity reach, or connect to, hope?** That is not a calculation of feeling or worth. It asks whether some supported connection to a future that matters can still be found, maintained, created, or shared. A possible outcome is not automatically a usable route. A lottery has winners; that does not make a ticket a dependable escape from hardship. A route may depend on another person, institution or technology, and uncertainty about it should remain visible.
 
 Where using a route requires somebody to recognise or choose a step, the necessary information has to reach that actor in time. Other protection can operate before its beneficiary knows about it. Keep the route's causal operation, its discoverability and the affected being's knowledge separate.
 
@@ -794,7 +794,7 @@ MY FUTURE != THE ONLY FUTURE THAT CAN MATTER TO ME
 
 ## The Other Fire
 
-A bounded entity cannot see every route from its own position. Another person may know about fuel, shelter, information, capability or a path that is absent from the first map. That does not make the other person sovereign over the life in front of them.
+A bounded entity cannot see every route from its own position. Another person or entity may know about fuel, shelter, information, capability or a path that is absent from the first map. That does not make the second aperture sovereign over the life in front of it.
 
 A useful beginning can be much smaller:
 
@@ -866,15 +866,15 @@ Mechanical Ethics began with an ordinary mismatch: a decision can look correct i
 
 This framework does not tell anyone what makes a life meaningful. That remains with the being who must live it. Its claim is narrower: power should not remove that being from decisions about its own life by closing every genuinely viable way forward. A viable route is more than an option that exists on paper. It must be possible to find, understand, afford, use, and maintain. It must leave room to answer, refuse, challenge, and correct. Keeping such a route open does not prove that a life is good, or that one path is best. It simply preserves enough agency for those questions to remain real.
 
-That is a direction, not a purity test. A better future need not maximise options, eliminate risk, preserve permanent reversibility, or make every entity agree. Some worthwhile futures require commitment, boundaries, effort and paths that close. The question is whether the entities carrying those consequences remain visible, whether their refusals and burdens are honestly represented, and whether correction can still reach what matters.
+That is a direction, not a purity test. A better future need not maximise options, eliminate risk, preserve permanent reversibility, or make every entity agree. Some futures that people or other entities value require commitment, boundaries, effort and paths that close. The question is whether the entities carrying those consequences remain visible, whether their refusals and burdens are honestly represented, and whether correction can still reach what matters.
 
 This book therefore points positively as well as defensively:
 
 - build routes that work in the world, not only in the file;
 - develop capability without turning capability into sovereignty;
-- carry complexity where greater power makes carrying it possible;
+- where you already exercise power over another entity's route, carry avoidable complexity rather than exporting it onto the entity with less power;
 - preserve privacy where inspection has not been justified;
-- help other entities find or construct usable futures without deciding the contents of those futures for them;
+- where you choose or are responsible to help, help other entities find or construct usable futures without deciding the contents of those futures for them;
 - let cooperation create capabilities neither party could reach alone while keeping refusal, exit, maintenance and answer-back visible;
 - remember that good after harm can be real without pretending the harm never happened.
 
