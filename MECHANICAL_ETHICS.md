@@ -662,7 +662,7 @@ The recurring tests are these:
 
 These are pressures on trust, not a complete moral code or a priority equation. Witness, interruption, enforcement, protection, and organised resistance remain distinct, and a truthful record may coexist with power that accepts the damage. Seeing the structure is necessary, but without interruption or enforcement it cannot be sufficient.
 
-These conditions constrain the exercise of power. The purposes of a remaining life belong to the person who must use it.
+These questions make the exercise of power answerable to scrutiny. The purposes of a remaining life belong to the person who must use it.
 
 # Part VI - Futures Still Reachable
 
@@ -917,7 +917,7 @@ $$
 T_{protect}(a) < T_{harden}(a)
 $$
 
-Effective protection must be in place before the threatened path hardens beyond comparable repair. Both terms may be uncertain and may change when the available actions include a pause, hold, temporary repair, evidence preservation, or deployment limit.
+If the specified threatened path is to be protected, effective protection must reach it before it hardens beyond comparable repair. Both terms may be uncertain and may change when the available actions include a pause, hold, temporary repair, evidence preservation, or deployment limit.
 
 Detection, routing, verification and correction can be inspected separately when that helps locate delay, but Mechanical Ethics does not require them to form a fixed serial equation. Detailed precedence and scheduling belong to TRACE profiles or stronger domain methods.
 
