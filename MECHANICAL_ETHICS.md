@@ -743,7 +743,7 @@ The question here is whether the affected being remains present in the decision 
 
 ## What Repetition Builds
 
-A choice does more than select among the options visible at one moment. Repeated actions, environments and relationships can change what an entity can later do, which routes remain usable, which dependencies exist, what evidence is available, and what experience is reported when the next decision begins.
+A choice does more than select among the options visible at one moment. Repeated actions, environments and relationships can change what an entity can later do, which routes remain usable, which dependencies exist, and what evidence or experience the next decision begins from.
 
 Nia's first repair does not reveal her character. It changes a bounded capability. Later she can diagnose a wheel and help somebody else begin. The same caution applies in darker cases. Crossing a line once can change what is known to be possible without proving permanent contamination, destiny or essence.
 
@@ -778,7 +778,7 @@ Hope in this book is not a command to feel optimistic. A person can feel no hope
 
 The narrower structural question is whether something that matters has a route that is still real enough to use or maintain. A possible outcome is not automatically a usable route. A lottery has winners; that does not make a ticket a dependable escape from hardship. A route may depend on another person, institution or technology, and uncertainty about it should remain visible.
 
-Where using a route requires somebody to recognise or choose a step, the necessary information has to reach that actor in time. Other protection can operate before its beneficiary knows about it. Effectiveness does not by itself establish legitimate authority to intervene. Keep the route's causal operation, its discoverability, the affected being's knowledge, and the authority for action separate.
+Where using a route requires somebody to recognise or choose a step, the necessary information has to reach that actor in time. Other protection can operate before its beneficiary knows about it. Keep the route's causal operation, its discoverability and the affected being's knowledge separate.
 
 Some futures genuinely close. A parent who has died does not return because another valued future later becomes possible. The task is not to prove that every loss hides a route back. It is to keep one closed future from silently becoming a claim that every future is closed.
 
@@ -786,7 +786,6 @@ A future that matters also need not contain the person acting now. Parents, teac
 
 ```text
 SUPPORTED PROSPECT != FELT HOPE
-HOPE REPORTED != PROSPECT SUPPORTED
 NO SUPPORTED ROUTE FOUND != NO ROUTE EXISTS
 ROUTE EXISTS != ROUTE USABLE
 PROSPECT EXISTS != DUTY TO PURSUE
@@ -972,7 +971,6 @@ A positive prospect can be inspected using the same machinery without defining a
 
 ```text
 SUPPORTED PROSPECT != FELT HOPE
-HOPE REPORTED != PROSPECT SUPPORTED
 NO ROUTE KNOWN != NO ROUTE EXISTS
 ROUTE EXISTS != ROUTE KNOWN
 ROUTE KNOWN != ROUTE USABLE
@@ -1039,10 +1037,6 @@ The reader contains four explanatory diagrams: *The file and the life*, *The cor
 ## Scene and evidence discipline
 
 Named composite scenes are invented from recurring real-world structures. They are not reports about named people and do not serve as empirical proof. Historical notes are identified separately. Interpretation and extrapolation are distinguished from the recorded facts.
-
-## Neighbouring structures for this beta
-
-The beta additions are not novelty claims. Formation has long-standing neighbours in habituation, Dewey's account of conduct, affordance theory and learning; supported prospects sit near capability, affordance and viability accounts; privacy/restraint has stronger owners in least privilege, contextual integrity and purpose/necessity/proportionality traditions; cooperation and exit have mature treatment in Hirschman and Ostrom; irreversible choice under expected learning has a neighbour in quasi-option value. These neighbours do not validate this synthesis or transfer their authority into Mechanical Ethics. Use the stronger domain account where it already does the needed work.
 
 ## Historical sources
 
