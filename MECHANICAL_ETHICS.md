@@ -50,7 +50,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
   - Interlude - The Saturday Workshop
   - What Repetition Builds
   - 16. The Conditions of Hope
-  - The Other Fire
+  - The Other Fire - Another Aperture
   - Privacy Without Dishonesty
   - 17. Care Without Possession
   - 18. Kindness as the Placement of Burden
