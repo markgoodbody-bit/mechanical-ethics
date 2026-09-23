@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">The correction window</title>
-  <desc id="desc">A timeline shows that effective protection must arrive before a threatened path hardens beyond comparable repair. A later corrected record remains valuable but does not restore the lost path.</desc>
+  <desc id="desc">A timeline shows that, if a threatened path is to be protected, protection must reach it before it hardens beyond comparable repair. A later corrected record remains valuable but does not restore the lost path.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f2937"/></marker>
     <style>
@@ -28,5 +28,5 @@
   <rect x="860" y="420" width="245" height="75" rx="12" class="late"/>
   <text x="982" y="450" text-anchor="middle" class="head">Later correction</text>
   <text x="982" y="478" text-anchor="middle" class="small">truthful, but not restoration</text>
-  <text x="600" y="610" text-anchor="middle" class="head">Effective protection must arrive before comparable repair is lost.</text>
+  <text x="600" y="596" text-anchor="middle" class="small"><tspan x="600" dy="0">If this threatened path is to be protected, protection must arrive</tspan><tspan x="600" dy="24">before comparable repair is lost.</tspan></text>
 </svg>
