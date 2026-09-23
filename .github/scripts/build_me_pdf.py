@@ -427,6 +427,13 @@ def parse_body(lines: list[str], styles, source_dir: Path, content_width: float)
 def build(source: Path, output: Path):
     text = source.read_text(encoding="utf-8")
     safety, status, subtitle, body_lines = source_parts(text)
+    expected_status = "Human Reader v0.7.0 - RELEASED BASELINE"
+    if status != expected_status:
+        raise RuntimeError(
+            "This builder is pinned to the released v0.7.0 source; "
+            f"refusing status {status!r}. A successor release requires a separately "
+            "authorised builder/status update."
+        )
     styles = make_styles()
     output.parent.mkdir(parents=True, exist_ok=True)
 
