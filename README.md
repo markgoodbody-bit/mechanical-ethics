@@ -9,18 +9,18 @@ after a threatened path has hardened.
 
 ## Read this
 
-This beta branch deliberately contains two different status surfaces:
+Choose either form of the same current reader:
 
-- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) - the v0.8.0-beta1 inspectable review candidate;
-- [`MECHANICAL_ETHICS.pdf`](MECHANICAL_ETHICS.pdf) - the unchanged released v0.7.0 typeset reader.
+- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) - inspectable Markdown source;
+- [`MECHANICAL_ETHICS.pdf`](MECHANICAL_ETHICS.pdf) - typeset 6 x 9 inch reader edition.
 
-They are **not** two forms of the same text on this branch. The beta PDF has not been built or published. Do not use the released PDF to review the beta additions, and do not treat a local PDF rebuilt with the v0.7 release builder as a beta carrier.
+Both present the current **released Mechanical Ethics v0.7.0 baseline**. The Markdown is
+the editable source; the PDF is generated from it and is not a separate
+manuscript.
 
-Released v0.7.0 identities remain:
-
-| Released form | Bytes | SHA-256 |
+| Form | Bytes | SHA-256 |
 |---|---:|---|
-| Markdown on `main` / tag `v0.7.0` | 87,543 | `8f702f3f5bdc2d6c188858f11aea8da22893fba9e678828fdb35d6ebd2fc1a9c` |
+| Markdown | 87,543 | `8f702f3f5bdc2d6c188858f11aea8da22893fba9e678828fdb35d6ebd2fc1a9c` |
 | PDF | 451,840 | `122c56bb2ea1063bccb8ced3652686a006d3ff44bdaafa445a525e9464711cdf` |
 
 ```text
