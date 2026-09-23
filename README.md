@@ -1,9 +1,9 @@
 # Mechanical Ethics
 
-> **Branch status: Mechanical Ethics v0.8.0-beta2 review candidate.**
+> **Branch status: Mechanical Ethics v0.8.0-beta3 review candidate.**
 > Released Mechanical Ethics v0.7.0 remains the current formal baseline. This branch is non-canon, not validated and may be shrunk or abandoned after review.
 
-Beta support: [cold review brief](BETA_REVIEW_v0.8-beta2.md) · [intellectual neighbours](BETA_NEIGHBOURS_v0.8.md)
+Beta support: [cold review brief](BETA_REVIEW_v0.8-beta3.md) · [intellectual neighbours](BETA_NEIGHBOURS_v0.8.md)
 
 Mechanical Ethics is a human-facing framework for examining consequential
 decisions under uncertainty, especially where formal correction can arrive
@@ -11,10 +11,10 @@ after a threatened path has hardened.
 
 ## Read this
 
-For **v0.8.0-beta2 review**, read:
+For **v0.8.0-beta3 review**, read:
 
 - [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) — the beta2 Markdown candidate;
-- [`BETA_REVIEW_v0.8-beta2.md`](BETA_REVIEW_v0.8-beta2.md) — cold review instructions;
+- [`BETA_REVIEW_v0.8-beta3.md`](BETA_REVIEW_v0.8-beta3.md) — cold review instructions;
 - [`BETA_NEIGHBOURS_v0.8.md`](BETA_NEIGHBOURS_v0.8.md) — second-phase attribution/absorption map.
 
 The repository PDF remains the typeset **released v0.7.0 baseline** and has deliberately not been rebuilt for this beta. Do not compare the beta Markdown with that PDF as though they were byte- or text-identical forms of one candidate.
@@ -29,7 +29,7 @@ Released v0.7.0 identities remain:
 ```text
 BETA MARKDOWN != RELEASED PDF
 RELEASED v0.7.0 = FORMAL BASELINE / NOT VALIDATED
-v0.8.0-beta2 = REVIEW CANDIDATE / NOT RELEASED
+v0.8.0-beta3 = REVIEW CANDIDATE / NOT RELEASED
 ```
 
 The four diagrams in [`figures/`](figures/) are explanatory carriers, not
