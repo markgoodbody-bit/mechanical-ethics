@@ -501,7 +501,7 @@ def build(source: Path, output: Path):
     extracted = "\n".join((page.extract_text() or "") for page in reader.pages)
     required = [
         "Mechanical Ethics",
-        "Effective protection must be in place",
+        "If a particular threatened path is to be protected",
         "The Door Out",
         "Futures Still Reachable",
         "What Remains Unfinished",
