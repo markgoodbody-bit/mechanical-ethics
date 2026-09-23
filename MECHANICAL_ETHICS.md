@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.8.0-beta3 - REVIEW CANDIDATE / NOT RELEASED**
+**Human Reader v0.8.0-beta4 - REVIEW CANDIDATE / NOT RELEASED**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -658,7 +658,8 @@ The recurring tests are these:
 - complexity must not be dumped onto the people who did not create it;
 - repair must reach the mechanism as well as the case;
 - closure must not erase residue;
-- and a party benefiting from necessity cannot be the only judge of necessity.
+- a party benefiting from necessity cannot be the only judge of necessity;
+- and a party benefiting from closure cannot be the only judge of whether that closure was fairly reached.
 
 These are pressures on trust, not a complete moral code or a priority equation. Witness, interruption, enforcement, protection, and organised resistance remain distinct, and a truthful record may coexist with power that accepts the damage. Seeing the structure is necessary, but without interruption or enforcement it cannot be sufficient.
 
@@ -775,7 +776,7 @@ A useful beginning can be much smaller:
 
 The question matters because it leaves room for an answer. An offer can reveal or create a route without deciding what the other entity should value. The answer may be yes, no, both, private, uncertain, or a refusal to engage.
 
-When the asker controls something the other entity needs - work, housing, care, access, status or safety - the question itself can carry pressure. Refusal may cost more than the asker can see. Notice is not knowledge; a question is not a diagnosis; an offer is not authority; help is not ownership.
+When the asker controls something the other entity needs - work, housing, care, access, status or safety - the question itself can carry pressure. Refusal may cost more than the asker can see. Where you control something they need, do not make refusal a reason to withdraw unrelated support, penalise them, or worsen their standing. Explain any consequence inseparable from the offer before asking, and keep the offer separate from decisions about existing support wherever possible. Notice is not knowledge; a question is not a diagnosis; an offer is not authority; help is not ownership.
 
 ## Privacy Without Dishonesty
 
@@ -830,7 +831,7 @@ The preceding chapters are not only a diagnostic vocabulary. They suggest design
 
 **Routes that carry their own memory.** Do not make the affected person repeatedly transport the system's own complexity. A handoff should carry the relevant history, current owner, authority, evidence state and clock with it.
 
-**Burden audits.** Ask who carries the learning, compliance, psychological, financial and coordination costs created by the route. A process can become less harmful without becoming simpler if more of its necessary complexity is carried by the party with greater control.
+**Burden audits.** Ask who carries the learning, compliance, psychological, financial and coordination costs created by the route. A process can become less harmful without becoming simpler if more of its necessary complexity is carried by the party with greater control. An audit scoped, evidenced and judged entirely by the actor whose route is under review is evidence about that actor's own account, not independent assurance; affected people or an independent challenger should be able to contest the scope and evidence where feasible.
 
 **Next-person audits.** A corrected case should ask what changed for the next person: the rule, incentive, interface, evidence requirement, timing or authority. A closure metric that counts only this case can hide a generating mechanism that remains intact.
 
@@ -838,7 +839,7 @@ The preceding chapters are not only a diagnostic vocabulary. They suggest design
 
 **Machine-speed interruption.** Where automated systems can close consequential paths faster than human review can reach them, design a pause, hold, staging boundary or interruption interface at the speed of the machine rather than calling retrospective explanation a brake.
 
-**Correction-theatre tests.** For every announced repair, ask what became impossible, slower, more visible, easier to challenge, or easier to interrupt; who can inspect that change; and what evidence would count against success.
+**Correction-theatre tests.** For every announced repair, ask what became impossible, slower, more visible, easier to challenge, or easier to interrupt; who can inspect that change; what evidence would count against success; and whether the claimed repair can be challenged by someone outside the mechanism that produced it.
 
 These patterns point toward answerability by design: systems whose doors, clocks, records and brakes are built so that affected entities can still answer while their answer can matter. Existing work in administrative burden, procedural justice, systems safety, capability theory, privacy and answerability-by-design should supply specialised machinery rather than being relabelled as Mechanical Ethics.
 
@@ -983,7 +984,7 @@ The argument remains unfinished in several places. The following questions and p
 
 ## Reader status
 
-This branch is a **v0.8.0-beta3 review candidate** derived from released Mechanical Ethics v0.7.0. It is not the released baseline, doctrine, moral authority, legal standard, certification system, or final account. Earlier versions and production records are preserved separately.
+This branch is a **v0.8.0-beta4 review candidate** derived from released Mechanical Ethics v0.7.0. It is not the released baseline, doctrine, moral authority, legal standard, certification system, or final account. Earlier versions and production records are preserved separately.
 
 This reader is deliberately selective. A separately versioned working-source corpus preserves broader Mechanical Ethics development and audit history. That corpus is not canon or a higher moral authority, and this reader is not its subordinate summary. Material may be developed in one without appearing in the other; absence here does not by itself mean abandonment. Their version numbers belong to different lineages and should not be compared as one sequence.
 
