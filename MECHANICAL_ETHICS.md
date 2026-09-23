@@ -743,7 +743,7 @@ The question here is whether the affected being remains present in the decision 
 
 ## What Repetition Builds
 
-A choice does more than select among the options visible at one moment. Repeated actions, environments and relationships can change what an entity can later do, which routes remain usable, which dependencies exist, and what evidence or experience the next decision begins from.
+A choice does more than select among the options visible at one moment. Repeated actions, environments and relationships can change what an entity can later do, which routes remain usable, which dependencies exist, what evidence is available, and what experience is reported when the next decision begins.
 
 Nia's first repair does not reveal her character. It changes a bounded capability. Later she can diagnose a wheel and help somebody else begin. The same caution applies in darker cases. Crossing a line once changes the entity's history and may alter later capability, relationships or selection conditions; it does not prove permanent contamination, destiny or essence.
 
@@ -778,7 +778,7 @@ Hope in this book is not a command to feel optimistic. A person can feel no hope
 
 The narrower structural question is whether something that matters has a route that is still real enough to use or maintain. In ordinary human language, one useful question is simpler: **can this person or entity reach, or connect to, hope?** That is not a calculation of feeling or worth. It asks whether some supported connection to a future that matters can still be found, maintained, created, or shared. A possible outcome is not automatically a usable route. A lottery has winners; that does not make a ticket a dependable escape from hardship. A route may depend on another person, institution or technology, and uncertainty about it should remain visible.
 
-Where using a route requires somebody to recognise or choose a step, the necessary information has to reach that actor in time. Other protection can operate before its beneficiary knows about it. Keep the route's causal operation, its discoverability and the affected being's knowledge separate.
+Where using a route requires somebody to recognise or choose a step, the necessary information has to reach that actor in time. Other protection can operate before its beneficiary knows about it. Effectiveness does not by itself establish legitimate authority. Keep the route's causal operation, its discoverability, the affected being's knowledge, and the authority for intervention separate.
 
 Some futures genuinely close. A parent who has died does not return because another valued future later becomes possible. The task is not to prove that every loss hides a route back. It is to keep one closed future from silently becoming a claim that every future is closed.
 
@@ -797,6 +797,7 @@ WILLINGNESS TO ACCEPT SELF-LOSS != DESIRE FOR SELF-LOSS
 
 ```text
 SUPPORTED PROSPECT != FELT HOPE
+HOPE REPORTED != PROSPECT SUPPORTED
 NO SUPPORTED ROUTE FOUND != NO ROUTE EXISTS
 ROUTE EXISTS != ROUTE USABLE
 PROSPECT EXISTS != DUTY TO PURSUE
@@ -982,6 +983,7 @@ A positive prospect can be inspected using the same machinery without defining a
 
 ```text
 SUPPORTED PROSPECT != FELT HOPE
+HOPE REPORTED != PROSPECT SUPPORTED
 NO ROUTE KNOWN != NO ROUTE EXISTS
 ROUTE EXISTS != ROUTE KNOWN
 ROUTE KNOWN != ROUTE USABLE
