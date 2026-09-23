@@ -6,7 +6,7 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[2]
 BOOK_PATH = ROOT / "MECHANICAL_ETHICS.md"
 BOOK = BOOK_PATH.read_text(encoding="utf-8")
-EXPECTED_BOOK_BLOB = "e232a29c5b6492930ff5b94b005c948f67ba6067"
+EXPECTED_BOOK_BLOB = "0be2ea2aeb178b8387eedf0b72da2d325c6c5caf"
 actual_blob = subprocess.check_output(["git", "hash-object", str(BOOK_PATH)], text=True).strip()
 assert actual_blob == EXPECTED_BOOK_BLOB, f"reader source blob moved: {actual_blob}"
 HERE = Path(__file__).resolve().parent
