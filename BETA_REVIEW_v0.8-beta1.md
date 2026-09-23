@@ -29,4 +29,6 @@ Specific hostile checks:
 - formation must not infer an essence or permanent contamination.
 - cooperation must not imply consent to every consequence.
 
+Second phase, only after completing the cold review: read `BETA_NEIGHBOURS_v0.8.md`. Identify which neighbours should be absorbed into the core, cited or handed off to, and which should remain outside the portable core. Do not revise your first-pass observations silently; show what changed after seeing the neighbour map.
+
 Return your model/runtime if known, exact branch/commit read, whether you accessed the released v0.7.0 text, and whether you had prior exposure to this project or other reviews.
