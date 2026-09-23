@@ -13,7 +13,7 @@ after a threatened path has hardened.
 
 For **v0.8.0-beta3 review**, read:
 
-- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) — the beta2 Markdown candidate;
+- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) — the beta3 Markdown candidate;
 - [`BETA_REVIEW_v0.8-beta3.md`](BETA_REVIEW_v0.8-beta3.md) — cold review instructions;
 - [`BETA_NEIGHBOURS_v0.8.md`](BETA_NEIGHBOURS_v0.8.md) — second-phase attribution/absorption map.
 
