@@ -21,9 +21,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install render tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          python -m pip install --disable-pip-version-check pypdf==6.10.0
       - name: Locate pages
         run: |
-          python -m pip install --disable-pip-version-check pypdf==6.10.0
           mkdir -p release-qa
           python - <<'PY'
           from pypdf import PdfReader
