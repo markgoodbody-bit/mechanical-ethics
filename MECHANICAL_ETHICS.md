@@ -745,7 +745,7 @@ The question here is whether the affected being remains present in the decision 
 
 A choice does more than select among the options visible at one moment. Repeated actions, environments and relationships can change what an entity can later do, which routes remain usable, which dependencies exist, and what evidence or experience the next decision begins from.
 
-Nia's first repair does not reveal her character. It changes a bounded capability. Later she can diagnose a wheel and help somebody else begin. The same caution applies in darker cases. Crossing a line once can change what is known to be possible without proving permanent contamination, destiny or essence.
+Nia's first repair does not reveal her character. It changes a bounded capability. Later she can diagnose a wheel and help somebody else begin. The same caution applies in darker cases. Crossing a line once changes the entity's history and may alter later capability, relationships or selection conditions; it does not prove permanent contamination, destiny or essence.
 
 Mechanical Ethics therefore treats formation as a question about supported change, not a licence to invent an inner self:
 
@@ -783,6 +783,17 @@ Where using a route requires somebody to recognise or choose a step, the necessa
 Some futures genuinely close. A parent who has died does not return because another valued future later becomes possible. The task is not to prove that every loss hides a route back. It is to keep one closed future from silently becoming a claim that every future is closed.
 
 A future that matters also need not contain the person acting now. Parents, teachers, builders, researchers and communities routinely spend present capacity on people and conditions they may never live to see. Willingness to accept personal cost does not prove the action wise or justified; it only shows that the beneficiary of a valued future and the present actor need not be the same entity.
+
+A willingness to accept severe personal loss also does not establish that the loss itself is wanted. A person can value a future beyond themselves without the record establishing what they feel about their own continuation. Motive remains an evidence question.
+
+Despair is not simply hope with a minus sign. One future can close completely while another remains open. A bereaved person is not mistaken because some other good future may later become possible; the lost relationship remains lost. Conversely, a person may see no usable route from where they stand while another aperture can see information or capability absent from their map.
+
+```text
+FELT DESPAIR != ALL FUTURES CLOSED
+ONE FUTURE CLOSED != EVERY FUTURE CLOSED
+ANOTHER ROUTE EXISTS != ORIGINAL LOSS REPAIRED
+WILLINGNESS TO ACCEPT SELF-LOSS != DESIRE FOR SELF-LOSS
+```
 
 ```text
 SUPPORTED PROSPECT != FELT HOPE
