@@ -1,0 +1,33 @@
+name: Publish Mechanical Ethics v0.8.0 release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "RELEASE_v0.8.0.md"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify release identities
+        run: |
+          printf '%s  %s\n' 'e3267c3e41e7fdfb44c9a9279250a1a7a38d5b9c389a594fef40cfea75fdbe76' MECHANICAL_ETHICS.md | sha256sum -c -
+          printf '%s  %s\n' 'e9ca37b249b4d915b18e954b6c72ebd999ae4be8ceed2c0aaf395922d0c6b56f' MECHANICAL_ETHICS.pdf | sha256sum -c -
+          grep -F '**Human Reader v0.8.0 - RELEASED BASELINE**' MECHANICAL_ETHICS.md
+      - name: Create tag and GitHub release once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v0.8.0 >/dev/null 2>&1; then
+            echo "v0.8.0 release already exists"
+            exit 0
+          fi
+          gh release create v0.8.0 --target "$GITHUB_SHA" --title "Mechanical Ethics v0.8.0" --notes-file RELEASE_v0.8.0.md
