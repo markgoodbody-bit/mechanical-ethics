@@ -23,6 +23,7 @@ Specific hostile checks:
 - `DIRECTION != PURITY` must not become a hidden universal moral ranking.
 - `PRIVATE != DECEPTIVE` must not become immunity from justified investigation.
 - supported prospects must not become a demand that a despairing person keep trying.
+- the existence of some other route must not be used to deny a genuinely closed loss, grief or despair about that loss.
 - a route's existence, discoverability, knowledge and usability must remain separate.
 - willingness to accept self-loss must not be read as desire for self-loss.
 - greater capability must not silently become an unlimited duty to intervene.
