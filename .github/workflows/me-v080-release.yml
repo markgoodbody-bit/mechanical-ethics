@@ -1,0 +1,69 @@
+name: Mechanical Ethics v0.8.0 release integrity
+
+on:
+  push:
+    paths:
+      - ".github/workflows/me-v080-release.yml"
+      - ".github/scripts/build_me_pdf.py"
+      - "MECHANICAL_ETHICS.md"
+      - "MECHANICAL_ETHICS.pdf"
+      - "README.md"
+      - "RELEASE_v0.8.0.md"
+      - "figures/figure-2-correction-window.svg"
+      - "figures/figure-2-correction-window.png"
+  pull_request:
+    paths:
+      - ".github/workflows/me-v080-release.yml"
+      - ".github/scripts/build_me_pdf.py"
+      - "MECHANICAL_ETHICS.md"
+      - "MECHANICAL_ETHICS.pdf"
+      - "README.md"
+      - "RELEASE_v0.8.0.md"
+      - "figures/figure-2-correction-window.svg"
+      - "figures/figure-2-correction-window.png"
+
+permissions:
+  contents: read
+
+jobs:
+  integrity:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned build dependencies
+        run: |
+          python -m pip install --disable-pip-version-check reportlab==4.4.9 pypdf==6.10.0 pillow==12.3.0 cairosvg==2.8.2
+      - name: Verify released identities
+        run: |
+          printf '%s  %s\n' 'e3267c3e41e7fdfb44c9a9279250a1a7a38d5b9c389a594fef40cfea75fdbe76' MECHANICAL_ETHICS.md | sha256sum -c -
+          printf '%s  %s\n' 'e9ca37b249b4d915b18e954b6c72ebd999ae4be8ceed2c0aaf395922d0c6b56f' MECHANICAL_ETHICS.pdf | sha256sum -c -
+          printf '%s  %s\n' '54bb7822db06493d9af86a56c225d5b0713881fa7e634300985d665fb9cfde17' figures/figure-2-correction-window.svg | sha256sum -c -
+          printf '%s  %s\n' '9f6681bf1ccaf5a4516ac55ebf1278a38064cae0d044ee164794857d45c4ae71' figures/figure-2-correction-window.png | sha256sum -c -
+          grep -F '**Human Reader v0.8.0 - RELEASED BASELINE**' MECHANICAL_ETHICS.md
+          grep -F 'Release decision: **23 September 2026**.' README.md
+          grep -F 'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED' README.md
+      - name: Rebuild Figure 2 carrier
+        run: |
+          python - <<'PY'
+          import cairosvg
+          cairosvg.svg2png(
+              url="figures/figure-2-correction-window.svg",
+              write_to="/tmp/figure2.png",
+              output_width=1200,
+              output_height=675,
+          )
+          PY
+          cmp /tmp/figure2.png figures/figure-2-correction-window.png
+      - name: Rebuild deterministic PDF
+        run: |
+          python .github/scripts/build_me_pdf.py --source MECHANICAL_ETHICS.md --output /tmp/MECHANICAL_ETHICS.pdf
+          cmp /tmp/MECHANICAL_ETHICS.pdf MECHANICAL_ETHICS.pdf
+      - name: Check whitespace integrity
+        run: git diff --check
+      - name: Claim boundary
+        run: |
+          echo "Green verifies released source/carrier identities and deterministic rebuild equality."
+          echo "It does not establish ethical correctness, efficacy, validation, authority, permission or universal applicability."
