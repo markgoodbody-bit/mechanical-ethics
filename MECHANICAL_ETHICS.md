@@ -163,9 +163,9 @@ The practical questions are therefore: which clocks are running, who designated 
 Hardening is not the same as irreversibility. An irreversible act is not automatically forbidden, and inaction can itself close paths. Some valuable commitments deliberately close alternatives. The timing test exposes what may harden; it does not decide whether that closure is justified.
 
 <!-- FIGURE 2: THE CORRECTION WINDOW -->
-![The correction window: effective protection occurs before the practical hardening boundary, while a later corrected record does not restore the lost path.](figures/figure-2-correction-window.png)
+![The correction window: if a threatened path is to be protected, protection has to reach it before the practical hardening boundary; a later corrected record does not restore the lost path.](figures/figure-2-correction-window.svg)
 
-*Figure 2. The correction window: effective protection must be in place before the threatened path hardens beyond comparable repair.*
+*Figure 2. The correction window: if a threatened path is to be protected, protection has to reach it before it hardens beyond comparable repair.*
 
 # Part I - The Door
 
