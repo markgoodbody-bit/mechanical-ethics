@@ -1,5 +1,8 @@
 # Mechanical Ethics
 
+> **Branch status: Mechanical Ethics v0.8.0-beta1 review candidate.**
+> Released Mechanical Ethics v0.7.0 remains the current formal baseline. This branch is non-canon, not validated and may be shrunk or abandoned after review.
+
 Mechanical Ethics is a human-facing framework for examining consequential
 decisions under uncertainty, especially where formal correction can arrive
 after a threatened path has hardened.
