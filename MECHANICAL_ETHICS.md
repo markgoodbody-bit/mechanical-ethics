@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.8.0-beta1 - REVIEW CANDIDATE / NOT RELEASED**
+**Human Reader v0.8.0-beta2 - REVIEW CANDIDATE / NOT RELEASED**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -1037,7 +1037,7 @@ The argument remains unfinished in several places. The following questions and p
 
 ## Reader status
 
-This branch is a **v0.8.0-beta1 review candidate** derived from released Mechanical Ethics v0.7.0. It is not the released baseline, doctrine, moral authority, legal standard, certification system, or final account. Earlier versions and production records are preserved separately.
+This branch is a **v0.8.0-beta2 review candidate** derived from released Mechanical Ethics v0.7.0. It is not the released baseline, doctrine, moral authority, legal standard, certification system, or final account. Earlier versions and production records are preserved separately.
 
 This reader is deliberately selective. A separately versioned working-source corpus preserves broader Mechanical Ethics development and audit history. That corpus is not canon or a higher moral authority, and this reader is not its subordinate summary. Material may be developed in one without appearing in the other; absence here does not by itself mean abandonment. Their version numbers belong to different lineages and should not be compared as one sequence.
 
