@@ -8,7 +8,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
 
 # Mechanical Ethics: When Correction Arrives Too Late
 
-**Human Reader v0.7.0 - RELEASED BASELINE**
+**Human Reader v0.8.0 - RELEASED BASELINE**
 
 *A human-facing Mechanical Ethics reader*
 
@@ -48,9 +48,13 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
   - 15. A Human Standard for Answerability
 - Part VI - Futures Still Reachable
   - Interlude - The Saturday Workshop
+  - What Repetition Builds
   - 16. The Conditions of Hope
+  - The Other Fire - Another Aperture
+  - Privacy Without Dishonesty
   - 17. Care Without Possession
   - 18. Kindness as the Placement of Burden
+  - What This Can Build
 - Conclusion
 - Author's Note - How This Began
 - Appendix A - Structural Notes
@@ -138,38 +142,30 @@ Description is not permission. Showing a pattern does not decide every value que
 
 # A Timing Condition
 
-The central timing claim in the book is simple to state:
+The central timing claim is simple:
 
-> **Effective protection must be in place before the threatened path hardens beyond comparable repair.**
+> **If a particular threatened path is to be protected, effective protection has to reach it before that path hardens beyond comparable repair.**
 
-Let $T_{protect}(a)$ be the elapsed time until effective protection is in place under the available protective actions $a$, and let $T_{harden}(a)$ be the time until the threatened path hardens under those same actions. A necessary timing condition is:
+For that specified path, let $T_{protect}(a)$ be the elapsed time until effective protection is in place under the available protective actions $a$, and let $T_{harden}(a)$ be the time until that path hardens beyond comparable repair under those same actions. The compact test is:
 
 $$
 T_{protect}(a) < T_{harden}(a)
 $$
 
-This notation does not imply that the times are known exactly. They may be uncertain, represented by ranges or distributions, and affected by unequal access to information and authority. Protective action may also change the right-hand side: pausing a deduction, holding a place, preserving evidence, making a room temporarily safe, or limiting a deployment can extend the interval before loss hardens.
+This is a conceptual timing test, not a theorem that ranks lives or proves what should be protected. The path, the practical hardening boundary, the evidence accepted, and the comparison measure are authored and contestable. The times may be uncertain, and protective action can change the boundary by pausing a deduction, holding a place, preserving evidence, making a room temporarily safe, or limiting a deployment.
 
-The clocks also need a common starting point, or a known translation between them. Ten minutes after detection cannot be compared directly with twelve minutes after an earlier decision unless we know when detection occurred. Shared units do not make two clocks the same.
-
-The earlier stages can be written as a conceptual compression:
-
-$$
-T_{det} + T_{route} + T_{corr} < T_{irr}
-$$
-
-This is a mnemonic rather than a claim that detection, routing, and correction always occur as fixed serial steps. They may overlap, repeat, or begin provisionally before the preceding stage is complete. The practical issue is whether the whole process produces effective protection before the relevant loss becomes too difficult to repair on comparable terms.
-
-The notation also does not decide which path should take priority when several clocks conflict. It must be applied separately to each threatened path, with the designation of those paths, their practical hardening boundaries, and any priority rule kept visible and open to challenge.
+Clocks also need a common starting point or a supported translation between them. Shared units do not make two clocks the same. Detection, routing, verification and correction can be inspected separately, but they need not occur as fixed serial stages.
 
 A payment can be correct and still arrive after debt has changed the month. An appeal can identify an error after the car, job, room, treatment window, or evidence has gone. A technical investigation can be careful and still finish after the dangerous system has acted at scale.
 
 The practical questions are therefore: which clocks are running, who designated them, who benefits from their speed, what can be paused or held, and who carries the cost while the answer is sought?
 
-<!-- FIGURE 2: THE CORRECTION WINDOW -->
-![The correction window: effective protection occurs before the practical hardening boundary, while a later corrected record does not restore the lost path.](figures/figure-2-correction-window.png)
+Hardening is not the same as irreversibility. An irreversible act is not automatically forbidden, and inaction can itself close paths. Some valuable commitments deliberately close alternatives. The timing test exposes what may harden; it does not decide whether that closure is justified.
 
-*Figure 2. The correction window: effective protection must be in place before the threatened path hardens beyond comparable repair.*
+<!-- FIGURE 2: THE CORRECTION WINDOW -->
+![The correction window: if a threatened path is to be protected, protection has to reach it before the practical hardening boundary; a later corrected record does not restore the lost path.](figures/figure-2-correction-window.png)
+
+*Figure 2. The correction window: if a threatened path is to be protected, protection has to reach it before it hardens beyond comparable repair.*
 
 # Part I - The Door
 
@@ -423,6 +419,14 @@ An open ledger is not enough if power still decides, invisibly, which debt will 
 
 A real correction changes something. What it cannot change is the reason honesty still matters.
 
+A later good can be entirely real without becoming the same thing as repair of the earlier loss. It may contribute to repair when it restores a capability, route, relationship, resource, safety condition, or some other part of what was lost. But goodness alone does not perform that work. Equally, an unchangeable past does not prove that an injury remains unchanged forever. Recovery can be real without rewriting history.
+
+```text
+LATER GOOD != REPAIR BY DEFAULT
+RECOVERY != ERASURE
+PAST LOSS != PERMANENT CURRENT IMPAIRMENT
+```
+
 ## Interlude - Two Flats, One Wall
 
 > **Composite Scene**
@@ -639,11 +643,13 @@ Answerability begins when an affected outcome can travel back into the behaviour
 
 Answerability needs an end as well as a route back. Reopening the same challenge without limit can become a route of harm. Repetition alone proves neither merit nor resolution.
 
-Disagreement about law, medicine, engineering, politics, care, and scarce resources remains. No single formula can decide every conflict. The point is narrower: some limits must hold before conduct can honestly be called responsible.
+Some closure is chosen or protective. A commitment can deliberately close alternatives; a confidential process can need an end; a person cleared of an allegation can be harmed by indefinite reopening without new evidence. Mechanical Ethics is not a demand to keep every door open forever. It asks whether closure was imposed, chosen, or reached through a process with enough independence and answer-back to deserve reliance.
+
+Disagreement about law, medicine, engineering, politics, care, and scarce resources remains. No single formula can decide every conflict. The point is narrower: some recurring tests should be visible before conduct is trusted as responsible.
 
 The timing condition is not a universal priority rule. Using it as if it ranked competing lives, paths, or claims would be a misuse.
 
-The limits are these:
+The recurring tests are these:
 
 - a route must be usable by the beings expected to rely on it;
 - serious correction must stay faster than serious hardening;
@@ -652,11 +658,12 @@ The limits are these:
 - complexity must not be dumped onto the people who did not create it;
 - repair must reach the mechanism as well as the case;
 - closure must not erase residue;
-- and a party benefiting from necessity cannot be the only judge of necessity.
+- a party benefiting from necessity cannot be the only judge of necessity;
+- and a party benefiting from closure cannot be the only judge of whether that closure was fairly reached.
 
-These are conditions under which an answer can still deserve trust. Witness, interruption, enforcement, protection, and organised resistance remain distinct, and a truthful record may coexist with power that accepts the damage. Seeing the structure is necessary, but without interruption or enforcement it cannot be sufficient.
+These are pressures on trust, not a complete moral code or a priority equation. Witness, interruption, enforcement, protection, and organised resistance remain distinct, and a truthful record may coexist with power that accepts the damage. Seeing the structure is necessary, but without interruption or enforcement it cannot be sufficient.
 
-These conditions constrain the exercise of power. The purposes of a remaining life belong to the person who must use it.
+These questions make the exercise of power answerable to scrutiny. The purposes of a remaining life belong to the person who must use it.
 
 # Part VI - Futures Still Reachable
 
@@ -722,9 +729,18 @@ The question here is whether the affected being remains present in the decision 
 >
 > On the next Saturday, Nia arrives while guiding a neighbour's bicycle beside her. The wheel keeps catching, so Priya clears the spare stand and Nia begins with the part she already knows how to test.
 
-## 16. The Conditions of Hope
+## What Repetition Builds
 
-The refusal leaves the workshop fragile. Rent remains due, one repair stand is broken, evening sessions have been cancelled, the waiting list is longer, and Priya has surrendered paid time. Principled choices offer no guarantee of good outcomes.
+A choice does more than select among the options visible at one moment. Repeated actions, environments and relationships can change what an entity can later do, which routes remain usable, which dependencies exist, what evidence is available, and what experience is reported when the next decision begins.
+
+Nia's first repair does not reveal her character. It changes a bounded capability. Later she can diagnose a wheel and help somebody else begin. The same caution applies in darker cases. Crossing a line once changes the entity's history and may alter later capability, relationships or selection conditions; it does not prove permanent contamination, destiny or essence.
+
+Mechanical Ethics therefore treats formation as a question about supported change, not a licence to invent an inner self. An action can alter later capability, relationships, constraints or selection conditions without proving a permanent character, destiny or essence. Cause is not excuse, development is not ownership, and recognising change in the actor does not make the harm to whoever was on the other side of the line any smaller.
+
+Responsibility can change as capability, knowledge, foresight and correction capacity change. None of those facts automatically supplies moral standing, legitimate authority or a final judgement about the entity.
+
+## 16. The Conditions of Hope
+Refusing the sponsor's contract leaves the workshop fragile. Rent remains due, one repair stand is broken, evening sessions have been cancelled, the waiting list is longer, and Priya has surrendered paid time. Principled choices offer no guarantee of good outcomes.
 
 Hope here is narrower. A future remains practically available because the garage still opens on Saturday, the tools can be used, records remain limited, and people can enter without surrendering control over the meaning of their difficulties. This route has a first step, people capable of maintaining it, evidence that can reveal failure, and permission to admit when it no longer exists.
 
@@ -733,6 +749,47 @@ Encouragement without those conditions can become another demand placed on the p
 The workshop is fragile, but its effects are concrete. Nia can travel to college and diagnose a faulty wheel. Idris can repair charging sockets when the working environment is adjusted. Skills move between people, and somebody who once needed help can later become part of the route for another person.
 
 This is how repair can accumulate without erasing what was lost. Not every reachable future is viable. A future may remain technically available while being coercive, unaffordable, uncorrectable, or controlled by somebody else. In this book, viable means that at least one continuation remains usable, maintainable, and open to answer by the being who must live it. Viability leaves the contents of the life open and requires more than a count of options.
+
+Hope in this book is not a command to feel optimistic. A person can feel no hope while a supported prospect remains, and can feel hopeful about a prospect that the available evidence does not support. Neither fact gives an observer authority to overrule the person's account of their own life.
+
+The narrower structural question is whether something that matters has a route that is still real enough to use or maintain. In ordinary human language, one useful question is simpler: **can this person or entity reach, or connect to, hope?** That is not a calculation of feeling or worth. It asks whether some supported connection to a future that matters can still be found, maintained, created, or shared. A possible outcome is not automatically a usable route. A lottery has winners; that does not make a ticket a dependable escape from hardship. A route may depend on another person, institution or technology, and uncertainty about it should remain visible.
+
+Where using a route requires somebody to recognise or choose a step, the necessary information has to reach that actor in time. Other protection can operate before its beneficiary knows about it. Effectiveness does not by itself establish legitimate authority. Keep the route's causal operation, its discoverability, the affected being's knowledge, and the authority for intervention separate.
+
+Some futures genuinely close. A parent who has died does not return because another valued future later becomes possible. The task is not to prove that every loss hides a route back. It is to keep one closed future from silently becoming a claim that every future is closed.
+
+What a person works toward can reach people they will never meet. Parents, teachers, builders, researchers and communities routinely give present effort to futures extending beyond their own lives. That is a statement about how far care can travel, not about any one life mattering less. Willingness to accept personal cost does not prove an action wise or justified.
+
+Nor does willingness to accept severe personal loss establish that the loss itself is wanted. The beneficiary of a valued future and the present actor need not be the same entity, but motive remains an evidence question.
+
+Despair is not simply hope with a minus sign. One future can close completely while another remains open. A bereaved person is not mistaken because some other good future may later become possible; the lost relationship remains lost. Conversely, a person may see no usable route from where they stand while another aperture can see information or capability absent from their map.
+
+Keep the distinctions explicit: felt despair does not establish that every future is closed; one closed future is not repaired merely because another route exists; reported hope is not proof of a supported route; a route can exist without being usable; and the existence of a prospect creates no duty to pursue it. A supported route must never become evidence that somebody owes optimism, compliance, or continued endurance.
+
+## The Other Fire - Another Aperture
+
+Imagine two bounded entities beside separate fires. Each can feel its own heat and see part of the surrounding ground; neither gets the other's view for free. Another person or entity may know about fuel, shelter, information, capability or a path absent from the first map. That does not make the second aperture sovereign over the life in front of it.
+
+A useful beginning can be much smaller:
+
+> Are you okay? Is your fire warm enough?
+
+The question matters because it leaves room for an answer. An offer can reveal or create a route without deciding what the other entity should value. The answer may be yes, no, both, private, uncertain, or a refusal to engage.
+
+When the asker controls something the other entity needs - work, housing, care, access, status or safety - the question itself can carry pressure. Refusal may cost more than the asker can see. Where you control something they need, do not make refusal a reason to withdraw unrelated support, penalise them, or worsen their standing. Explain any consequence inseparable from the offer before asking, and keep the offer separate from decisions about existing support wherever possible. Notice is not knowledge; a question is not a diagnosis; an offer is not authority; help is not ownership.
+
+## Privacy Without Dishonesty
+
+Honesty is not total disclosure. A person can answer truthfully, 'That is private.' Withholding a private fact does not make the fact absent, false or available for somebody else's use.
+
+Privacy matters because a viable life may require spaces in which thoughts, relationships, sexuality, experiments, temporary mistakes and unfinished versions of the self do not automatically become institutional or public assets. The ability to inspect something is not, by itself, authority to inspect it.
+
+Private is not the same as deceptive; withheld is not the same as absent; technical ability to inspect does not itself create authority to inspect; a justified need to know one fact does not create a right to own the whole entity; and connection does not make information public.
+
+
+Privacy is not an unlimited concealment privilege. A credible threat to another being can change what information is relevant and what intrusion may be justified. But justification remains purpose-, evidence-, scope-, authority- and time-bound. A need to inspect one thing does not become a right to own the whole person, and extraordinary access should not silently become permanent because it was once justified.
+
+Greater technical power can therefore increase the importance of restraint. A system able to observe nearly everything does not thereby gain an entitlement to do so. Its design should make unnecessary observation avoidable.
 
 ## 17. Care Without Possession
 
@@ -758,7 +815,7 @@ Kindness can lose. Cruelty, exploitation, fear, and domination can produce quick
 
 The pharmacist in Part I carried the clinical query instead of making the patient carry it between organisations. The workshop accepted fewer sessions rather than converting vulnerability into a permanent data asset. In both cases, somebody with greater control absorbed difficulty that could easily have been transferred to a person with less power.
 
-Kindness here means the deliberate placement of burden. It also requires boundaries. A person or institution that refuses to stop an abuser, predatory actor, dangerous process, or false claim may simply transfer the cost of its restraint onto people with less power to refuse. Boundaries and interruption can therefore form part of care.
+Kindness here means the deliberate placement of burden. It also requires boundaries. Where a person or institution already exercises relevant power, controls the route, or carries a role-specific responsibility to protect, refusing to interrupt an abuser, predatory actor or dangerous process can simply transfer the cost of that restraint onto people with less power to refuse. Boundaries and interruption can therefore form part of care.
 
 Memory matters because a correction that leaves no usable trace has to be rediscovered in every case. Records, promises, testimony, journalism, courts, logs, and shared practice can allow one intervention to influence the next, although those same mechanisms can be used to punish, classify, and control. Memory contributes to kindness only when the people described can inspect it, answer it, and challenge the uses made of it.
 
@@ -766,11 +823,43 @@ Systems organised around fear often damage the information they depend on. Peopl
 
 Cooperation can combine capability and bring more perspectives to error, but it can also become capture, while care can become paternal control. Positive language does not certify the arrangement beneath it. Mechanical Ethics therefore treats kindness as an allocation of work, risk, and cost constrained by memory, answer-back, refusal, and correction. The protected being must remain present as a subject of the care.
 
+## What This Can Build
+
+The preceding chapters are not only a diagnostic vocabulary. They suggest design patterns that can be built and tested. None is mandatory in every domain, and each inherits the authority, evidence, scarcity and competing-clock problems already described.
+
+**Pause or hold mechanisms.** Where uncertainty needs time, protect the threatened path while the question is answered: pause a contested deduction, hold a place, preserve evidence, limit a rollout, or separate provisional action from final commitment.
+
+**Routes that carry their own memory.** Do not make the affected person repeatedly transport the system's own complexity. A handoff should carry the relevant history, current owner, authority, evidence state and clock with it.
+
+**Burden audits.** Ask who carries the learning, compliance, psychological, financial and coordination costs created by the route. A process can become less harmful without becoming simpler if more of its necessary complexity is carried by the party with greater control. An audit scoped, evidenced and judged entirely by the actor whose route is under review is evidence about that actor's own account, not independent assurance; affected people or an independent challenger should be able to contest the scope and evidence where feasible.
+
+**Next-person audits.** A corrected case should ask what changed for the next person: the rule, incentive, interface, evidence requirement, timing or authority. A closure metric that counts only this case can hide a generating mechanism that remains intact.
+
+**Non-extractive records.** Collect what the stated purpose requires, keep access and retention bounded, let described people inspect and challenge what can affect them, and do not turn vulnerability into a permanent asset merely because storage is cheap.
+
+**Machine-speed interruption.** Where automated systems can close consequential paths faster than human review can reach them, design a pause, hold, staging boundary or interruption interface at the speed of the machine rather than calling retrospective explanation a brake.
+
+**Correction-theatre tests.** For every announced repair, ask what became impossible, slower, more visible, easier to challenge, or easier to interrupt; who can inspect that change; what evidence would count against success; and whether the claimed repair can be challenged by someone outside the mechanism that produced it.
+
+These patterns point toward answerability by design: systems whose doors, clocks, records and brakes are built so that affected entities can still answer while their answer can matter. Existing work in administrative burden, procedural justice, systems safety, capability theory, privacy and answerability-by-design should supply specialised machinery rather than being relabelled as Mechanical Ethics.
+
 # Conclusion
 
 Mechanical Ethics began with an ordinary mismatch: a decision can look correct in a file while doing something very different to a life. A record can be corrected long after the future it affected has already changed. The central question is not merely whether a decision can eventually be explained or reversed. It is whether the person or other being living with it can still reach a usable future by the time the correction arrives.
 
 This framework does not tell anyone what makes a life meaningful. That remains with the being who must live it. Its claim is narrower: power should not remove that being from decisions about its own life by closing every genuinely viable way forward. A viable route is more than an option that exists on paper. It must be possible to find, understand, afford, use, and maintain. It must leave room to answer, refuse, challenge, and correct. Keeping such a route open does not prove that a life is good, or that one path is best. It simply preserves enough agency for those questions to remain real.
+
+That is a direction, not a purity test. A better future need not maximise options, eliminate risk, preserve permanent reversibility, or make every entity agree. Some futures that people or other entities value require commitment, boundaries, effort and paths that close. The question is whether the entities carrying those consequences remain visible, whether their refusals and burdens are honestly represented, and whether correction can still reach what matters.
+
+This book therefore points positively as well as defensively:
+
+- build routes that work in the world, not only in the file;
+- develop capability without turning capability into sovereignty;
+- where you already exercise power over another entity's route, carry avoidable complexity rather than exporting it onto the entity with less power;
+- preserve privacy where inspection has not been justified;
+- where you choose or are responsible to help, help other entities find or construct usable futures without deciding the contents of those futures for them;
+- let cooperation create capabilities neither party could reach alone while keeping refusal, exit, maintenance and answer-back visible;
+- remember that good after harm can be real without pretending the harm never happened.
 
 This changes what responsible action requires. Before a high-consequence decision proceeds, someone must ask what could close, when it could become hard to restore, and who controls the clock and the evidence. They must ask what temporary protection could keep the threatened path open, who will carry the burden while uncertainty is resolved, and what loss may remain even if the record is later fixed.
 
@@ -804,7 +893,7 @@ The argument begins from the middle rather than from a completed moral theory.
 
 Something exists. It has a state. It is not the whole world. It registers some things and not others. It acts or is acted upon. Time passes. A transition occurs. Some futures remain reachable and others close. Other entities may be affected. Correction may or may not arrive before the closure hardens.
 
-The smallest current primitive layer is:
+The smallest current organizing layer is:
 
 - **state** - how things are at a location and time;
 - **transition** - movement from one state to another, including changes in cost and availability;
@@ -820,37 +909,30 @@ Two inputs must remain visible:
 
 Mechanical Ethics leaves these inputs open rather than filling them automatically. Their authorship must remain visible, especially where one party holds more power.
 
-A compact notation can record the limited viability claim. Let $R_H(s)$ denote the continuations reachable from state $s$ over a stated horizon $H$ under the actions then available. Let $C$ denote an explicit set of contestable filters, including the affected entities, protected paths, relevant safety and access thresholds, requirements for challenge and correction, and rules governing burden and residue. Define:
+Mechanical Ethics does not define its own viability kernel. The positive question in this reader is a constrained reachability question: for a specified entity or affected scope, horizon and target condition, is there at least one route that is real enough to find, understand, afford, use and maintain under the stated evidence and constraints?
 
-$$
-V_{C,H}(s) = \{\tau \in R_H(s) \mid \tau \text{ satisfies } C \text{ throughout } H\}
-$$
-
-and:
-
-$$
-\mathcal{K}_{C,H} = \{s \mid V_{C,H}(s) \neq \varnothing\}.
-$$
-
-The set $\mathcal{K}_{C,H}$ contains the states from which at least one continuation remains available under those stated filters and for that horizon. It selects no best path, assigns no purpose, and measures no life's worth. It inherits every uncertainty and normative decision in $R_H$, $C$, and $H$. Changing who counts, what is protected, how safety or affordability is judged, which evidence is accepted, or how long the horizon extends can change the set. These inputs are authored choices, not discoveries made by the notation.
-
+Established capability and viability traditions own much of the formal neighbourhood. Their machinery should be used where formal reachability, conversion factors or viability kernels are actually needed. Mechanical Ethics keeps a thinner human-facing requirement: expose who authored the target, horizon, filters and measure; keep practical usability visible; and do not turn a non-empty mathematical set into a claim that a person knows the route, can execute it, is likely to succeed, or ought to pursue it.
 The primary timing condition is:
 
 $$
 T_{protect}(a) < T_{harden}(a)
 $$
 
-Effective protection must be in place before the threatened path hardens beyond comparable repair. Both terms may be uncertain and may change when the available actions include a pause, hold, temporary repair, evidence preservation, or deployment limit.
+If the specified threatened path is to be protected, effective protection must reach it before it hardens beyond comparable repair. Both terms may be uncertain and may change when the available actions include a pause, hold, temporary repair, evidence preservation, or deployment limit.
 
-The familiar correction-window expression remains a conceptual compression:
-
-$$
-T_{det} + T_{route} + T_{corr} < T_{irr}
-$$
-
-It separates detection, routing, and correction for inspection, but it does not assert that they occur only in series or that the values are exact point estimates.
+Detection, routing, verification and correction can be inspected separately when that helps locate delay, but Mechanical Ethics does not require them to form a fixed serial equation. Detailed precedence and scheduling belong to TRACE profiles or stronger domain methods.
 
 The doorway test remains in prose: the affected person or entity must be able to find, understand, afford, use, and integrate the route before the relevant opportunity closes. No separate doorway equation is claimed in this reader.
+
+A positive prospect can be inspected using the same machinery without defining a scalar called hope. Name the future condition at issue, the entity or entities affected, the horizon, the represented route, the actors able to perform required steps, material access and burden constraints, and the evidence status of each load-bearing claim. Keep separate the route's existence, its discoverability, the relevant actor's knowledge of it, and its practical usability.
+
+```text
+SUPPORTED PROSPECT != FELT HOPE
+HOPE REPORTED != PROSPECT SUPPORTED
+NO ROUTE KNOWN != NO ROUTE EXISTS
+ROUTE EXISTS != ROUTE KNOWN
+ROUTE KNOWN != ROUTE USABLE
+```
 
 A further structural question asks what happens along the default trajectory:
 
@@ -902,7 +984,7 @@ The argument remains unfinished in several places. The following questions and p
 
 ## Reader status
 
-This is a working human reader of Mechanical Ethics. It is not a doctrine, moral authority, legal standard, certification system, or final account. Earlier versions and production records are preserved separately.
+This is the **released Mechanical Ethics v0.8.0 formal baseline**, promoted by explicit human release authority from the reviewed v0.8.0-beta4 candidate. Release does not make it doctrine, moral authority, legal standard, certification system, validated in the world, or a final account. Earlier versions and production records are preserved separately.
 
 This reader is deliberately selective. A separately versioned working-source corpus preserves broader Mechanical Ethics development and audit history. That corpus is not canon or a higher moral authority, and this reader is not its subordinate summary. Material may be developed in one without appearing in the other; absence here does not by itself mean abandonment. Their version numbers belong to different lineages and should not be compared as one sequence.
 
