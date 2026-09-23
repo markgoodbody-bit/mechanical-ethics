@@ -54,6 +54,7 @@ Emergency services, medical care, legal advice, unions, charities, family, frien
   - Privacy Without Dishonesty
   - 17. Care Without Possession
   - 18. Kindness as the Placement of Burden
+  - What This Can Build
 - Conclusion
 - Author's Note - How This Began
 - Appendix A - Structural Notes
@@ -813,13 +814,33 @@ Kindness can lose. Cruelty, exploitation, fear, and domination can produce quick
 
 The pharmacist in Part I carried the clinical query instead of making the patient carry it between organisations. The workshop accepted fewer sessions rather than converting vulnerability into a permanent data asset. In both cases, somebody with greater control absorbed difficulty that could easily have been transferred to a person with less power.
 
-Kindness here means the deliberate placement of burden. It also requires boundaries. A person or institution that refuses to stop an abuser, predatory actor, dangerous process, or false claim may simply transfer the cost of its restraint onto people with less power to refuse. Boundaries and interruption can therefore form part of care.
+Kindness here means the deliberate placement of burden. It also requires boundaries. Where a person or institution already exercises relevant power, controls the route, or carries a role-specific responsibility to protect, refusing to interrupt an abuser, predatory actor or dangerous process can simply transfer the cost of that restraint onto people with less power to refuse. Boundaries and interruption can therefore form part of care.
 
 Memory matters because a correction that leaves no usable trace has to be rediscovered in every case. Records, promises, testimony, journalism, courts, logs, and shared practice can allow one intervention to influence the next, although those same mechanisms can be used to punish, classify, and control. Memory contributes to kindness only when the people described can inspect it, answer it, and challenge the uses made of it.
 
 Systems organised around fear often damage the information they depend on. People conceal, comply outwardly, withdraw, or resist; trust declines, correction weakens, and greater force is required to produce the same appearance of order. Such systems may remain powerful, but the information they receive becomes less trustworthy and their apparent order more brittle.
 
 Cooperation can combine capability and bring more perspectives to error, but it can also become capture, while care can become paternal control. Positive language does not certify the arrangement beneath it. Mechanical Ethics therefore treats kindness as an allocation of work, risk, and cost constrained by memory, answer-back, refusal, and correction. The protected being must remain present as a subject of the care.
+
+## What This Can Build
+
+The preceding chapters are not only a diagnostic vocabulary. They suggest design patterns that can be built and tested. None is mandatory in every domain, and each inherits the authority, evidence, scarcity and competing-clock problems already described.
+
+**Pause or hold mechanisms.** Where uncertainty needs time, protect the threatened path while the question is answered: pause a contested deduction, hold a place, preserve evidence, limit a rollout, or separate provisional action from final commitment.
+
+**Routes that carry their own memory.** Do not make the affected person repeatedly transport the system's own complexity. A handoff should carry the relevant history, current owner, authority, evidence state and clock with it.
+
+**Burden audits.** Ask who carries the learning, compliance, psychological, financial and coordination costs created by the route. A process can become less harmful without becoming simpler if more of its necessary complexity is carried by the party with greater control.
+
+**Next-person audits.** A corrected case should ask what changed for the next person: the rule, incentive, interface, evidence requirement, timing or authority. A closure metric that counts only this case can hide a generating mechanism that remains intact.
+
+**Non-extractive records.** Collect what the stated purpose requires, keep access and retention bounded, let described people inspect and challenge what can affect them, and do not turn vulnerability into a permanent asset merely because storage is cheap.
+
+**Machine-speed interruption.** Where automated systems can close consequential paths faster than human review can reach them, design a pause, hold, staging boundary or interruption interface at the speed of the machine rather than calling retrospective explanation a brake.
+
+**Correction-theatre tests.** For every announced repair, ask what became impossible, slower, more visible, easier to challenge, or easier to interrupt; who can inspect that change; and what evidence would count against success.
+
+These patterns point toward answerability by design: systems whose doors, clocks, records and brakes are built so that affected entities can still answer while their answer can matter. Existing work in administrative burden, procedural justice, systems safety, capability theory, privacy and answerability-by-design should supply specialised machinery rather than being relabelled as Mechanical Ethics.
 
 # Conclusion
 
