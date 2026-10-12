@@ -59,7 +59,7 @@ A good route can include chosen commitments that close alternatives; maintaining
 
 **Proof/claim corrections that must survive integration:**
 
-- Lane B's initial `r > 10/17` claim was **wrong**. In its specified model, the informative-stranger advantage holds for `max(r, 1-r) > 10/17`; an reliably wrong signal can be inverted.
+- Lane B's initial `r > 10/17` claim was **wrong**. In its specified model, the informative-stranger advantage holds for `max(r, 1-r) > 10/17`; a reliably wrong signal can be inverted.
 - Probability recursion formerly divided by zero on probability-zero observation classes. The corrected model retains zero-prior worlds for a **robust** question but skips their probability mass in probabilistic recursion. This is a declared model convention, not a prior-free metaphysical rule.
 - `K=0` is **loss/absence of a robust guarantee** at a knowledge state; favourable new information can restore that guarantee. It is **not permanent hardening**. Lane B's repaired `hardening_time()` is world-relative, uses an actual hidden world and all available model moves as a retrospective oracle, not something the bounded walker necessarily knows or can legitimately use. It is **not** a general protective remedy operator.
 - Lane B's P4 initial-segment proof requires a stationary position and knowledge under a non-transforming null move; do not cite it as a theorem that real waiting cannot restore opportunities or that every moving/informing policy hardens monotonically.
