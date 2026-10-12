@@ -190,6 +190,10 @@ Custody matters. Who holds the record? Who can alter, copy, publish or combine i
 
 A record may be exact and stale. It can be true that nine messages existed when a page was generated, while later messages have since arrived. A checksum can establish that two copies share bytes; it does not establish that their claims are true or that using the material is lawful.
 
+An account can also mislead without a false sentence. The landlord's portal may correctly say that Leah sent no further photograph. It cannot thereby prove that the room became safe, that Leah ceased to care, or that she had no good reason to protect Mia's privacy. If a summary includes only the fields that the institution chose to collect, its accuracy may conceal the most important missing part of the case. The practical question is what a reader is being invited to conclude from those selected facts, and what contrary or missing account could change that conclusion.
+
+Honest reporting need not disclose every private fact. It can acknowledge a boundary: 'These figures show received reports; they do not show every unsafe room,' or 'That detail is private and was not checked.' Such admissions do not by themselves repair the wall or give an institution rightful access to information. They give another actor a better chance to see where the account ends, and to choose a legitimate next step before time runs out.
+
 Privacy is part of the design. An organisation's ability to collect more information is not permission to own it. A person can say 'that is private' without making a false statement. Withheld does not mean absent. Safety, legitimate investigation and competing duties can justify some restricted inquiries, but a need for one fact does not become a permanent entitlement to the whole person.
 
 A useful witness route carries enough evidence to challenge power while exposing and reducing the risk that evidence itself becomes another instrument of power.
