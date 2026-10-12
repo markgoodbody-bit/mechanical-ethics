@@ -86,13 +86,27 @@ and hardening semantics. We have deliberately not invented those here.
 
 ## Falsification receipts and limits
 
-Actual local run: **37/37 unittest checks pass**. Five specified in-memory
+Actual local run: **39/39 unittest checks pass**. Five specified in-memory
 mutations are detected: hidden-world oracle, permission ignored, horizon
 ignored, resources/partner costs ignored, and invented missing value. These
 are regression checks of chosen mechanisms, not exhaustive mutation coverage.
 The initial test for no hidden-state oracle incorrectly counted later history
 keys as initial keys; it failed, was narrowed to the initial history, then
 passed. The implementation was not changed to make the fixture's conclusion win.
+
+Additional self-audit: `test_generated.py` compares **100 seeded two-step
+models** against a separate flat brute-force oracle. It uses the same declared
+observation/cost contract but none of the recursive solver's helper functions.
+The models vary observations, permission flags, elapsed time, resources,
+outcomes, priors (including zero-weight worlds), and probability thresholds.
+There are 50 robust and 50 probability models: 10 admit acceptable policies
+and 90 do not, with 136 policies enumerated and 14 accepted. Accepted outcome
+sets, worst-case selected cost vectors and frozen replay match. Four deliberate
+corruptions (hidden-state access, authority, horizon and budget bypass) each
+produce a disagreement with the oracle. This is bounded differential testing,
+not independent external review, exhaustive verification or a general proof.
+Before this addition: 37 fixed checks only. After: those checks plus the
+generated-model comparison and its negative controls; planner code unchanged.
 
 Earned: reproducible finite examples discriminate early/late information,
 authority versus capability, goals versus capacity, enquiry burden, and
