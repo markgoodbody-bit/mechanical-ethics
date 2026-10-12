@@ -66,14 +66,26 @@ def solver(task, H):
 
     @lru_cache(maxsize=None)
     def best(s, t, S):
-        # max over uniform continuations of P(goal by H | S), under the declared prior
+        # max over uniform continuations of P(goal by H | S), under the declared prior.
+        # Support semantics (Codex, COM #798 6133683747): a world with prior 0 stays ADMITTED, so the
+        # robust questions still range over it, but it carries no probability, so this recursion never
+        # conditions on a zero-mass class (it contributes weight 0 and is skipped).
         if s == task.goal:
             return Fr(1)
         if t >= H:
             return Fr(0)
         mass = sum(task.prior[w] for w in S)
-        return max(sum(sum(task.prior[w] for w in P) / mass * best(s2, t + 1, P)
-                       for s2, P in split(task, s, S, a)) for a in task.moves(s))
+        if mass == 0:
+            raise ValueError("probability is undefined on a zero-mass knowledge state")
+        values = []
+        for a in task.moves(s):
+            v = Fr(0)
+            for s2, P in split(task, s, S, a):
+                part = sum(task.prior[w] for w in P)
+                if part:
+                    v += part / mass * best(s2, t + 1, P)
+            values.append(v)
+        return max(values)
 
     @lru_cache(maxsize=None)
     def profiles(s, t, S):
@@ -118,7 +130,8 @@ def usable_robust(task, H):
 def best_probability(task, H):
     _, best, _ = solver(task, H)
     total = sum(task.prior.values())
-    return sum(sum(task.prior[w] for w in S) / total * best(task.start, 0, S) for S in initial_classes(task))
+    return sum(sum(task.prior[w] for w in S) / total * best(task.start, 0, S)
+               for S in initial_classes(task) if sum(task.prior[w] for w in S))
 
 
 def simulate(task, H, policy, w):
@@ -230,9 +243,11 @@ def optimistic_replanner(task, s, t, S):
 
 
 def correction_window(task, H, policy, w):
-    """K(p, t) along a policy in world w: is the knowledge state at t still robustly winning?
-    This is the generic correction operator: correction is reachable at t iff some uniform
-    continuation from what the entity then knows reaches the goal by H in every consistent world."""
+    """K(p, t) along a policy in world w: does the knowledge state at t still carry a robust guarantee,
+    i.e. some uniform continuation from what the entity then knows reaches the goal by H in every
+    consistent world? This is a robust goal-continuation predicate for this stationary finite task.
+    K = 0 is a LOST GUARANTEE, not hardening: favourable information can restore it (Codex, COM #798
+    6133683747). Reaching an authored goal is also not, by itself, repairing harm."""
     win, _, _ = solver(task, H)
     S = next(C for C in initial_classes(task) if w in C)
     s, t, rows = task.start, 0, []
@@ -240,6 +255,34 @@ def correction_window(task, H, policy, w):
         rows.append((t, s, win(s, t, S)))
         if s == task.goal or t >= H:
             return rows
+        a = policy(task, s, t, S)
+        s2 = task.step(w, s, a)
+        o = task.observe(w, s, a, s2)
+        S = frozenset(v for v in S if task.step(v, s, a) == s2 and task.observe(v, s, a, s2) == o)
+        s, t = s2, t + 1
+
+
+def hardening_time(task, H, policy, w):
+    """World-relative hardening along a policy in world w: the first t from which NO continuation at all
+    (any moves, as if w were known) reaches the goal by H. Irreversible along the play, unlike K = 0.
+    Returns None if the goal stays reachable (or is reached)."""
+    def reachable(s, t):
+        frontier = {s}
+        for _ in range(H - t):
+            if task.goal in frontier:
+                return True
+            frontier = {task.step(w, x, a) for x in frontier for a in task.moves(x)}
+        return task.goal in frontier
+
+    S = next(C for C in initial_classes(task) if w in C)
+    s, t = task.start, 0
+    while True:
+        if s == task.goal:
+            return None
+        if not reachable(s, t):
+            return t
+        if t >= H:
+            return t
         a = policy(task, s, t, S)
         s2 = task.step(w, s, a)
         o = task.observe(w, s, a, s2)

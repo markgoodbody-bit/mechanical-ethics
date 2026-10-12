@@ -4,6 +4,15 @@
 
 **What this is for.** Draft zero asks the navigator to start middle-out: a bounded entity, a changing world, other entities, possible paths, correction. This note asks what the smallest precise mathematics behind that picture is, which parts existing mathematics already owns, which parts no mathematics can supply, and whether the picture changes any decision. The aim is a smaller, defensible kernel that keeps the middle-out purpose, not a verdict for or against the thesis.
 
+**Corrections after Codex's check (COM #798 6133683747, 12 Oct).** Codex re-ran the suite (19/19, 0/6 mutants) and found two failures the suite didn't cover. Both are fixed here, and a third error surfaced while fixing the first. The edited passages are D6, P4, Model 1 and Section 6.
+1. **Zero-weight worlds crashed the probability recursion.** `best_probability` with a stranger right with probability 0 or 1 divided by zero, because it conditioned on classes of worlds with prior 0. The support rule is now explicit:
+   - a world with prior 0 stays **admitted**, so robust questions still range over it;
+   - it carries no probability, so the recursion skips it.
+
+   With `reliability=1` the mistaken twins are admitted with weight 0. That model is therefore not robust, unlike the default model, which doesn't admit them. Verbatim regression tests pin this.
+2. **"First t with K = 0" is not hardening.** K = 0 means the guarantee is lost from what the entity knows at that moment, and favourable information can restore it. At curfew 2 in world w1 the walker has no guarantee at the start, then regains it on seeing the alley open: K runs 0, 1, 1. Hardening is world-relative: the first time from which no continuation at all reaches the goal in the actual world. That is irreversible along the play, and is now computed by `hardening_time()`. P4 still holds as stated, for a fixed state of knowledge and a null move that changes nothing, but it does not extend to plays that move or gain information. And as Codex notes, `correction_window()` is a robust goal-continuation predicate for this finite, stationary task: reaching an authored goal is not, by itself, repairing harm.
+3. **The stranger threshold was wrong.** Asking beats walking alone exactly when **max(r, 1 − r) > 10/17**, that is r > 10/17 **or** r < 7/17, not "exactly when r > 10/17". A stranger who is reliably wrong is as informative as one who is reliably right, to a walker who knows r and does the opposite. Informativeness is correlation, not correctness, as Blackwell's ordering says. The test now checks the formula at all 18 values r = 0/17, ..., 17/17. My #798 return 6133624786 stated the old threshold and is corrected on #798.
+
 ---
 
 ## 0. Verdicts first
@@ -64,9 +73,9 @@ The point of the table is not that these are new; draft zero names most of them.
   - *Robustly usable:* some uniform feasible σ_i yields a trajectory in Φ in every admissible world and resolution of delta (∃ policy ∀ world).
   - *θ-usable:* some uniform feasible σ_i has P_μ(trajectory in Φ) ≥ θ.
 - **D6 Correction available** after history h at time t: K(h, t) = 1 if some uniform feasible continuation from K_i(h) is usable, in the sense fixed by B5.
-  - *Knowledge-relative hardening:* along a play, Φ hardens for i at the first t with K = 0.
-  - *World-relative hardening:* the first t from which no continuation at all reaches Φ.
-  - Draft zero's K(p, t), "availability, timing and practical reach" (l.35), is this. Practical reach enters as moves that take time: asking, appealing, gathering a witness.
+  - *K = 0 is a lost guarantee, not hardening.* Favourable information can restore it: at curfew 2 in w1, K runs 0, 1, 1 (corrected after Codex 6133683747).
+  - *Hardening (world-relative):* the first t from which no continuation at all reaches Φ in the actual world. Along a play it never reverses. Permanent loss of correction needs this no-recovery condition, not merely K = 0.
+  - Draft zero's K(p, t), "availability, timing and practical reach" (l.35), corresponds to K. Practical reach enters as moves that take time: asking, appealing, gathering a witness. Reaching an authored goal is not, by itself, repairing harm. Repair, protections, permissions and burden have to be encoded as targets and bindings of their own.
 - **D7 Coupling graph.** An edge j → i is typed by which part of M the dependence passes through:
   - *influence:* some change in j's move changes the successors relevant to i;
   - *information:* j's move or state changes o_i;
@@ -124,9 +133,10 @@ That supports Build's warning (6133302994, point 2): the additions must not be c
 **P4. The correction window is an initial segment.**
 - *Statement:* suppose the null move leaves position and observations unchanged. Then for any knowledge state (s, S), the set of times t at which (s, S) still has a robustly usable continuation is {0, ..., t*(s, S)}. In words: once correction from a given state of knowledge is lost by waiting, waiting longer never brings it back. Only new information or a different position can.
 - *Proof:* if (s, S) wins at t + 1, then at t the entity can take the null move, arrive at (s, S) at t + 1 with S unchanged, and win from there.
-- *Computed in Model 1:* along the optimistic route in world w2, correction is available at t = 0 only. After the first step it is gone for good at that curfew.
+- *Computed in Model 1:* waiting in place at curfew 3 gives K = 1, 0, 0, 0. Along the optimistic route in world w2, K = 1 only at t = 0, and the goal hardens world-relatively at t = 1: no continuation in w2 gets home by curfew 3 after that first step.
+- *Scope (narrowed after Codex 6133683747):* P4 is about one fixed state of knowledge waiting in place, in a stationary world. It does not say that K, once lost along a play that moves or gains information, stays lost (see D6).
 - *Owner:* viability theory's capture basins and viability kernels (Aubin 1991), and the attractor computation for reachability games.
-- *Consequence:* this is draft zero's "the world does not wait" (l.21) and v0.8's T_protect < T_harden, made precise for information. The late receipt in my 8 Oct office toy and the late doorway in Codex's Lane C case 1 both arrive after t*.
+- *Consequence:* this is draft zero's "the world does not wait" (l.21) and v0.8's T_protect < T_harden, made precise for information arriving to a waiting entity. In my 8 Oct office toy the late receipt arrives after the only shot has hardened world-relatively, which is a stronger condition than K = 0.
 
 **P5. Coupling can open outcomes no member can reach alone.**
 - *Statement:* joint ability is monotone. If C ⊆ C' and C has a usable route, so does C', because the added members can be given any moves and C's policy already worked against all of theirs. The inclusion can be strict.
@@ -185,8 +195,8 @@ Draft zero's own opening (l.81), made exact.
 
 **What the kernel's distinctions do here.**
 - **A direction alone is not a journey (P1).** From curfew 2 a route home exists in every world, but no policy using only what the walker sees works in all of them until curfew 3, and then only by asking.
-- **The stranger is a coupling, and its value is conditional.** Asking is an information edge from another entity. If the stranger is right only with probability r, the asking policy succeeds with probability r + (1 − r)·3/20. That beats walking alone (13/20) exactly when **r > 10/17**, asserted exactly in the tests. It is never robust unless r = 1. Asking also costs the stranger a moment. Whether that imposition counts, and how much, is B7.
-- **Correction closes at the first step (P4).** "Point at the destination" means the optimistic replanner: take the likelier short street and replan when blocked. At curfew 3 it gets home in w1 and w3 and fails in w2, so P = 13/20. Along its route in w2, correction is available only at t = 0. The one moment to ask was before the first step. This is T_protect < T_harden on an ordinary walk home.
+- **The stranger is a coupling, and its value is conditional.** Asking is an information edge from another entity. If the stranger is right with probability r (and the walker knows r), following the advice succeeds with probability 3/20 + 17/20·r, and doing the opposite with 3/20 + 17/20·(1 − r). So asking beats walking alone (13/20) exactly when **max(r, 1 − r) > 10/17**, that is r > 10/17 or r < 7/17. The tests assert this at all 18 values r = k/17. A reliably wrong stranger is informative too; what matters is correlation, not correctness (corrected after Codex 6133683747; the first version said "exactly when r > 10/17"). It is never robust unless r is 0 or 1 and no contrary world is admitted. Asking also costs the stranger a moment. Whether that imposition counts, and how much, is B7.
+- **Correction closes at the first step (P4).** "Point at the destination" means the optimistic replanner: take the likelier short street and replan when blocked. At curfew 3 it gets home in w1 and w3 and fails in w2, so P = 13/20. Along its route in w2, K = 1 only at t = 0, and the goal hardens at t = 1. The one moment to ask was before the first step. This is T_protect < T_harden on an ordinary walk home.
 - **"Least friction" needs an order (B6).** At curfew 5 the policies that get home in every world give 10 distinct (worst time, worst exposure) pairs, and the Pareto front has two incomparable points:
   - ask, then take the alley if open: **(3 steps, exposure 4)**;
   - the lit main road: **(4 steps, exposure 0)**.
@@ -271,8 +281,8 @@ Draft zero's own opening (l.81), made exact.
 ## 6. Relation to Lane C (Codex, ME PR #55 at `939220d9`) and Lane A (Build)
 
 - **Agreement (Codex case 1):** Codex's hidden-office result is my 8 Oct quantifier result. P1 adds the general condition, full view at the first consequential move, under which the gap closes.
-- **An operator Codex said it lacked.** Codex marks `correction_until` as "explicit audit annotation, not a generic remedy operator". D6 and P4 give the generic operator: correction is available at t exactly when the knowledge state at t is still in the usable region. It is computed by `correction_window()` in `kernel_models.py` and offered for integration.
-- **Same kind of result, made quantitative (Codex case 5):** Codex's consented hint between two friends is an information coupling like my stranger. The reliability threshold r > 10/17 is a quantitative form of Codex's "positive coupling is conditional".
+- **What I offered Codex, narrowed by Codex.** Codex marks `correction_until` as "explicit audit annotation, not a generic remedy operator". I offered `correction_window()` as that operator. Codex's check (6133683747) narrows the offer, rightly. It is a **robust goal-continuation predicate for a finite, stationary task**: K = 0 is a lost guarantee, not hardening. Hardening is world-relative, computed by `hardening_time()`. Repair, protections, permissions and burden must be encoded separately. Codex has not integrated it, and that is the right call.
+- **Same kind of result, made quantitative (Codex case 5):** Codex's consented hint between two friends is an information coupling like my stranger. The threshold max(r, 1 − r) > 10/17 is a quantitative form of Codex's "positive coupling is conditional".
 - **Agreement (Codex cases 3 and 4):** separating from a harmful coupling, and my dissolving pool, both show the goal binding decides. Codex's "no incremental practical advantage" in the low-reserves case matches my null result against the established owners.
 - **Support for Lane A (Build):** Section 1.4 supports Build's warning that v0.9's additions are derived objects and authored ports, not a smaller kernel. It also supports Build's point that v0.8 already opens with an entity.
 
@@ -302,7 +312,7 @@ Verdicts: PROVED (with owner) · DEFINITION · TOY · CONJECTURE · FALSE AS STA
 | 6 | no universal scalar welfare (l.29) | agree | P7: S's sign set by the authored utility |
 | 7 | the size of V_i is not a measure of goodness (l.31) | agree | path counts grow with null moves while the decision is unchanged |
 | 8 | costs as a vector, with Pareto comparison (l.33) | agree | Model 1 |
-| 9 | K(p, t), availability and timing of correction (l.35) | DERIVED | D6; P4 initial segment; practical reach as moves that take time |
+| 9 | K(p, t), availability and timing of correction (l.35) | DERIVED | D6 (K = 0 is a lost guarantee; hardening is world-relative, per Codex 6133683747); P4 initial segment for a waiting state; practical reach as moves that take time |
 | 10 | typed coupling graph (l.37) | DERIVED | D7, from (delta, o) given B1 |
 | 11 | coupling can increase joint achievable possibilities (l.55) | PROVED as existence; FALSE as general tendency | P5 (true at c = 0, lost by c = 1/8); P3 (reversed by information timing) |
 | 12 | interaction surplus S_ij (l.59) | DEFINITION, UNDEFINED UNTIL BOUND | needs B3 to B7; P7 |
@@ -323,4 +333,6 @@ python -m unittest discover -s research/math_kernel_cc -v
 python research/math_kernel_cc/mutation_check.py
 ```
 
-At the commit that adds this note: 19 tests pass, including negative controls that show each check can fail. 6 of 6 deliberate mutants make the suite fail: route existence allowed one step too many; observations ignored; voluntary pool always forms; common cause ignored; Pareto keeps dominated points; stranger always right. Writing the tests caught one real bug: `route_exists` allowed H + 1 steps. It is fixed, and a regression test now covers it.
+**At the first commit (`fc514314`):** 19 tests passed, including negative controls that show each check can fail. 6 of 6 deliberate mutants made the suite fail: route existence allowed one step too many; observations ignored; voluntary pool always forms; common cause ignored; Pareto keeps dominated points; stranger always right. Writing the tests caught one real bug, `route_exists` allowing H + 1 steps; it was fixed, with a regression test.
+
+**After Codex's check:** 23 tests pass. Codex's two cases are pasted verbatim as the first tests, and failed against `fc514314`: the endpoint reliabilities raised `ZeroDivisionError`, and `hardening_time` did not exist. The stranger test now checks the corrected threshold at all 18 values of r. 6 of 6 mutants still make the suite fail. The suite's blind spot was exactly where Codex looked: the endpoints r = 0 and r = 1, and the meaning of K = 0 along a play that gains information.

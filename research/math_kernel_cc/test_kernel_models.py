@@ -13,6 +13,38 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import kernel_models as km  # noqa: E402
 
 
+class CodexCheck6133683747(unittest.TestCase):
+    """Codex's two failing cases from COM #798 6133683747, pasted verbatim first, then pinned."""
+
+    def test_endpoint_reliabilities_verbatim(self):
+        # "best_probability(walking_home(reliability=Fraction(0)), 3)" and Fraction(1) raised ZeroDivisionError
+        Fraction = Fr
+        km.best_probability(km.walking_home(reliability=Fraction(0)), 3)
+        km.best_probability(km.walking_home(reliability=Fraction(1)), 3)
+
+    def test_endpoint_values_and_support_semantics(self):
+        # A stranger who is always right, or always wrong, is fully informative: invert the advice.
+        self.assertEqual(km.best_probability(km.walking_home(reliability=Fr(1)), 3), 1)
+        self.assertEqual(km.best_probability(km.walking_home(reliability=Fr(0)), 3), 1)
+        # reliability=1 still ADMITS the mistaken twins, with weight 0: robustly possible, probabilistically
+        # null. So it is not robust, unlike the default model, which does not admit them at all.
+        self.assertFalse(km.usable_robust(km.walking_home(reliability=Fr(1)), 3))
+        self.assertTrue(km.usable_robust(km.walking_home(), 3))
+
+    def test_first_loss_of_guarantee_verbatim(self):
+        # "correction_window(walking_home(), 2, optimistic_replanner, 'w1') -> [(0,'S',False),(1,'A',True),(2,'Hm',True)]"
+        self.assertEqual(km.correction_window(km.walking_home(), 2, km.optimistic_replanner, "w1"),
+                         [(0, "S", False), (1, "A", True), (2, "Hm", True)])
+        self.assertEqual([k for _, _, k in km.correction_window(km.walking_home(), 2, km.optimistic_replanner, "w2")],
+                         [False, False, False])
+
+    def test_hardening_is_world_relative_and_irreversible(self):
+        # K = 0 is a lost guarantee and can be regained (w1 above). Hardening is the first time from which
+        # no continuation at all reaches the goal in the actual world; along a play it never reverses.
+        self.assertIsNone(km.hardening_time(km.walking_home(), 2, km.optimistic_replanner, "w1"))
+        self.assertEqual(km.hardening_time(km.walking_home(), 3, km.optimistic_replanner, "w2"), 1)
+
+
 class QuantifierGap(unittest.TestCase):
     """P1: usable (exists policy, for all worlds) implies exists (for all worlds, exists route);
     the converse fails under partial observation and holds under full view."""
@@ -56,10 +88,15 @@ class InformationAndCoupling(unittest.TestCase):
         self.assertFalse(km.usable_robust(km.walking_home(stranger=False), 3))
         self.assertTrue(km.usable_robust(km.walking_home(stranger=False), 4))  # the main road suffices
 
-    def test_an_information_coupling_is_worth_it_only_above_a_reliability_threshold(self):
-        # asking succeeds with r + (1 - r) * P(both open) = r + 3/20 (1 - r); break-even with 13/20 at r = 10/17
-        self.assertEqual(km.best_probability(km.walking_home(reliability=Fr(10, 17)), 3), Fr(13, 20))
-        self.assertGreater(km.best_probability(km.walking_home(reliability=Fr(11, 17)), 3), Fr(13, 20))
+    def test_an_information_coupling_is_worth_it_only_when_informative_either_way(self):
+        # Following the advice succeeds with 3/20 + 17/20 r; doing the opposite with 3/20 + 17/20 (1 - r).
+        # So asking beats walking alone (13/20) exactly when max(r, 1 - r) > 10/17: r > 10/17 OR r < 7/17.
+        # Corrected 2026-10-12 after Codex's endpoint case: the first version said "only when r > 10/17".
+        for k in range(0, 18):
+            r = Fr(k, 17)
+            expected = max(Fr(3, 20) + Fr(17, 20) * max(r, 1 - r), Fr(13, 20))
+            self.assertEqual(km.best_probability(km.walking_home(reliability=r), 3), expected, r)
+        self.assertGreater(km.best_probability(km.walking_home(reliability=Fr(6, 17)), 3), Fr(13, 20))
         self.assertEqual(km.best_probability(km.walking_home(reliability=Fr(9, 17)), 3), Fr(13, 20))
         self.assertFalse(km.usable_robust(km.walking_home(reliability=Fr(99, 100)), 3))  # never robust
 
