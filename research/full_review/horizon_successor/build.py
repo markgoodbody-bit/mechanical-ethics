@@ -24,6 +24,21 @@ PR67_LABEL = 'aria-label="Unchanged original Mechanical Ethics v0.8 book"'
 NEW_LABEL = 'aria-label="Complete original v0.8 book with one clearly bounded AI-proposed editorial insertion"'
 OLD_ROUTE = '<a href="#optional-core">Optional compact core</a>'
 NEW_ROUTE = '<a href="#horizon-successor">Proposed positive-futures bridge</a> · ' + OLD_ROUTE
+OLD_EDITOR_ROUTE = '<a href="EDITORIAL_DECISION.md">Before/after and author choices</a>'
+NEW_EDITOR_ROUTE = ('<a href="horizon_successor/EDITORIAL_ROUTE.md">Current proposal editorial guide</a> · '
+                    '<a href="EDITORIAL_DECISION.md">Earlier PR67 editorial history</a>')
+# Only the successor presentation changes. PR67's HTML/CSS and released assets stay byte-identical.
+NEW_STYLE = """
+aside.author-proposal{border:2px solid var(--accent);border-left-width:.45rem;
+  margin:2rem 0;padding:1.25rem;max-width:100%;background:rgba(128,128,128,.07);
+  overflow-wrap:anywhere}
+aside.author-proposal h2{border-top:1px solid var(--line);padding-top:1rem}
+aside.author-proposal .proposal-nav{border:1px solid var(--line);padding:1rem}
+aside.author-proposal .proposal-nav ul{padding-left:1.5rem}
+aside.author-proposal .proposal-end{border-top:2px solid var(--accent);font-weight:700;
+  padding-top:1rem}
+footer{overflow-wrap:anywhere;word-break:normal}
+"""
 
 
 def proposal_html(raw: bytes) -> tuple[str, list[str]]:
@@ -43,7 +58,7 @@ def proposal_html(raw: bytes) -> tuple[str, list[str]]:
             if ident in headings:
                 raise ValueError("Duplicate proposed heading")
             headings.append(ident)
-            rendered.append(f'<h2 id="{ident}">{html.escape(title)}</h2>')
+            rendered.append(f'<h2 id="{ident}">AI-assisted proposal — {html.escape(title)}</h2>')
         elif block.startswith("#") or block.startswith("!") or block.startswith("<"):
             raise ValueError("Unsupported proposal block; review source")
         else:
@@ -66,13 +81,19 @@ def produce() -> tuple[bytes, dict]:
     if base != original.OUTPUT.read_bytes() or chapter_map != original.MAP.read_bytes():
         raise ValueError("PR67 original reader/source map drift")
     page = base.decode("utf-8")
-    if page.count(MARKER) != 1 or page.count(PR67_LABEL) != 1 or page.count(OLD_ROUTE) != 1:
+    if page.count(MARKER) != 1 or page.count(PR67_LABEL) != 1 or page.count(OLD_ROUTE) != 1 or page.count(OLD_EDITOR_ROUTE) != 1 or page.count("</style></head>") != 1:
         raise ValueError("PR67 source/target changed: do not guess insertion point")
     if page.index('<h2 id="what-this-can-build">') > page.index(MARKER):
         raise ValueError("Original Part VI order changed")
     raw = SOURCE.read_bytes()
     proposal, heads = proposal_html(raw)
     digest = hashlib.sha256(raw).hexdigest()
+    proposed_headings = re.findall(r'<h2 id="(horizon-[^"]+)">AI-assisted proposal — ([^<]+)</h2>', proposal)
+    if len(proposed_headings) != 6 or len({ident for ident, _ in proposed_headings}) != 6:
+        raise ValueError("Proposed navigation headings are incomplete")
+    toc = '<nav class="proposal-nav" aria-label="Six AI-assisted proposed sections"><p>AI-assisted proposal — sections</p><ul>' + ''.join(
+        f'<li><a href="#{ident}">AI-assisted proposal — {title}</a></li>'
+        for ident, title in proposed_headings) + '</ul></nav>'
     insert = ('<aside id="horizon-successor" class="author-proposal" '
               'aria-label="Unapproved AI-assisted Part VI editorial candidate" '
               f'data-source-sha256="{digest}">'
@@ -80,10 +101,14 @@ def produce() -> tuple[bytes, dict]:
               '<p><a href="horizon_successor/BRIDGE.md">Read exact source and edit separately</a>. '
               'The complete released book is unchanged in its original file; '
               'this bracketed passage may be accepted, revised, relocated or removed by its human author.</p>'
-              + proposal + '</aside>\n')
+              + toc + proposal
+              + '<p class="proposal-end">END OF AI-ASSISTED PROPOSAL — MARK’S ORIGINAL CONCLUSION FOLLOWS</p>'
+              + '</aside>\n')
     page = page.replace(MARKER, insert + MARKER)
     page = page.replace(PR67_LABEL, NEW_LABEL)
     page = page.replace(OLD_ROUTE, NEW_ROUTE)
+    page = page.replace(OLD_EDITOR_ROUTE, NEW_EDITOR_ROUTE)
+    page = page.replace("</style></head>", NEW_STYLE + "</style></head>", 1)
     # Keep PR67 original and original custody route, but do not misdescribe this derivative.
     page = page.replace(
         'Full ME v0.8 text retained, plus one separately attributed optional compact-core appendix.',
