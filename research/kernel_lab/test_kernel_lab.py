@@ -63,6 +63,31 @@ class KernelLabTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             trace(s, ({"learner": "reaim", "mentor": "null"},))
 
+    def test_same_tick_mentor_cannot_use_skill_just_created_by_learner(self):
+        from dataclasses import replace
+        scene = case("workshop")
+        actions = {"learner": "practice", "mentor": "teach"}
+        # This was previously allowed in learner-first actor order but rejected
+        # when the actor tuple was reversed: a real order-dependent semantic defect.
+        with self.assertRaises(ValueError):
+            tick(scene, dict(scene.initial), 0, actions)
+        with self.assertRaises(ValueError):
+            tick(replace(scene, actors=scene.actors[::-1]), dict(scene.initial), 0, actions)
+        later = trace(scene, ({"learner": "practice", "mentor": "null"},
+                              {"learner": "null", "mentor": "teach"}))
+        self.assertEqual(later[-1]["after"]["shared_skill"], 1)
+
+    def test_independent_joint_effects_are_actor_order_invariant(self):
+        from dataclasses import replace
+        scene = case("remedy")
+        actions = {"tenant": "report", "owner": "repair"}
+        left = tick(scene, dict(scene.initial), 0, actions)
+        right = tick(replace(scene, actors=scene.actors[::-1]),
+                     dict(scene.initial), 0, actions)
+        self.assertEqual(left["after"], right["after"])
+        self.assertEqual(left["after"]["file"], 1)
+        self.assertEqual(left["after"]["repair"], 1)
+
     def test_report_changes_file_not_exposure(self):
         first = trace(case("remedy"), ({"tenant": "report", "owner": "null"},))[0]["after"]
         self.assertEqual((first["file"], first["repair"], first["exposure"]), (1, 0, 1))
