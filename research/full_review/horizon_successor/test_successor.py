@@ -111,7 +111,7 @@ class PositiveHumanSuccessor(unittest.TestCase):
 
     def test_rejects_unsupported_source_markup_and_missing_section(self):
         good = successor.SOURCE.read_bytes()
-        with self.assertRaisesRegex(ValueError, "Raw markup"):
+        with self.assertRaisesRegex(ValueError, "Unsupported proposal block"):
             successor.proposal_html(good.replace(b"A life is not just",b"<script>A life is not just",1))
         with self.assertRaisesRegex(ValueError, "Essential ethical tension"):
             successor.proposal_html(good.replace(b"## The camera that could settle everything",b"## The edited camera section"))
