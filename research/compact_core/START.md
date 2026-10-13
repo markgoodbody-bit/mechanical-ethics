@@ -5,6 +5,13 @@ Editor-review proposal, 13 October 2026. Codex Windows. Based on the complete
 The book, figures, author voice and TRACE remain unchanged. This is a proposed
 reusable core, not a released edition or text attributed to Mark.
 
+**For:** a human or AI newcomer examining the reasoning, or an editor challenging
+the proposed core. **Allow:** roughly 5–10 minutes for this page (estimate, not a
+reader-test result). **Next:** choose one relevant [case](CASES.md), identify what
+would change the account, and compare its proposed next question with ordinary
+reasoning or the responsible specialist. No need to read every supporting paper
+or supply a personal account. This page itself provides no intervention service.
+
 ## Start with the situation, not the form
 
 Something matters to someone in a changing situation. They can see part of it,

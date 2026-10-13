@@ -1,6 +1,7 @@
 """Whole-case distinctions and deliberate promotion/authority negative controls."""
 import copy
 from dataclasses import replace
+from pathlib import Path
 import unittest
 from unittest.mock import patch
 
@@ -8,6 +9,14 @@ from . import examples as e
 
 
 class CoreCases(unittest.TestCase):
+    def test_newcomer_route_points_to_core_before_reference_stack(self):
+        root = Path(__file__).resolve().parents[2]
+        guide = (root / "research/integrated_wave/README.md").read_text(encoding="utf-8")
+        route = guide.split("## Start here", 1)[1].split("## One integrated", 1)[0]
+        self.assertLess(route.index("compact_core/START.md"), route.index("MATH_KERNEL_CC.md"))
+        self.assertTrue((root / "research/compact_core/START.md").is_file())
+        self.assertIn("not a compulsory reading sequence", route)
+
     def test_five_cases_and_evidence_ceiling(self):
         for example in e.EXAMPLES:
             result = example()
