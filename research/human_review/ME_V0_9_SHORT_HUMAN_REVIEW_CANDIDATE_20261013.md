@@ -19,6 +19,8 @@ We do not need to exaggerate this. One successful repair does not prove that a p
 
 This distinction is the positive starting point of this review: a worthwhile future can be **reached**, but it can also be **learned into existence, supported by others or built and maintained**. The released book already says so. What may help a new reader is noticing these as different kinds of change.
 
+There is a trap in even a well-meant invitation to learn. **Learning takes time.** When a door is closing faster than somebody can reasonably gain the skill, device or confidence to open it, teaching cannot be the only protection offered. A responsible service may need to provide another usable way through **now**, carrying the burden itself, with learning available afterwards if the person wants it. Building capability *before* the crisis can be vital; making an unprepared person learn under a deadline they did not choose can simply transfer the failure onto them.
+
 ### 2. The future does not wait for our account of it
 
 Now follow a second situation, one where a path is closing.
@@ -103,7 +105,7 @@ The navigation question can be asked beside a person, a classroom, a workshop, a
 
 The *form of those questions* travels. Their answers do not automatically travel with them. A team's decision cannot be deduced by adding individual decisions. A path that exists in each hidden situation may not be selectable by someone who cannot tell which situation applies. A deadline preserved by one timescale may disappear when a model rounds time into larger units. The same phrase “better future” can hide opposing legitimate values.
 
-Existing control theory, partially observable planning, strategic logic, risk and decision science, capability approaches, care ethics, public administration, engineering safety and law often have stronger methods for particular problems. We should use their evidence rather than claim to have rediscovered or replaced it. The project's research models are educational tools with stipulated worlds, not proof of moral correctness or authority over real people.
+Existing control theory, partially observable planning, strategic logic, risk and decision science, the capability approach, care ethics, public administration, engineering safety and law often have stronger methods for particular problems. A *functioning* already achieved differs from a *capability* genuinely available; someone's internal skill is not the same as their combined ability to use it with money, devices, relationships and a safe environment. Those are established distinctions, not v0.9 discoveries. We should use their evidence rather than claim to have rediscovered or replaced it. The project's research models are educational tools with stipulated worlds, not proof of moral correctness or authority over real people.
 
 An artificial conversational system can help carry context, suggest interpretations or test a model. Doing so does not establish uninterrupted personal identity, direct access to another's mind, consent, consciousness or a right to govern. Nor does the uncertainty around such questions remove the responsibility to check consequences when its outputs affect others.
 
