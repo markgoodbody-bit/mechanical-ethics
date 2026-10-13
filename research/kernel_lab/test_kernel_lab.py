@@ -54,6 +54,15 @@ class KernelLabTests(unittest.TestCase):
                        {"learner": "null", "mentor": "teach"}))[-1]["after"]
         self.assertEqual(b["shared_skill"], 1)
 
+    def test_goal_reaim_authored_after_skill_and_coupling_typed(self):
+        s = case("workshop")
+        e = trace(s, ({"learner": "practice", "mentor": "null"},
+                       {"learner": "reaim", "mentor": "teach"}))[-1]
+        self.assertEqual((e["after"]["goal"], e["after"]["shared_skill"]), (1, 1))
+        self.assertEqual(e["couplings"], (("mentor", "learner", "information/skill"),))
+        with self.assertRaises(ValueError):
+            trace(s, ({"learner": "reaim", "mentor": "null"},))
+
     def test_report_changes_file_not_exposure(self):
         first = trace(case("remedy"), ({"tenant": "report", "owner": "null"},))[0]["after"]
         self.assertEqual((first["file"], first["repair"], first["exposure"]), (1, 0, 1))
@@ -61,7 +70,7 @@ class KernelLabTests(unittest.TestCase):
     def test_later_repair_keeps_residue(self):
         last = trace(case("remedy"), ({"tenant": "report", "owner": "null"},
                                      {"tenant": "null", "owner": "repair"}))[-1]["after"]
-        self.assertEqual((last["file"], last["repair"], last["residue"]), (1, 1, 2))
+        self.assertEqual((last["file"], last["repair"], last["residue"], last["exposure"]), (1, 1, 2, 1))
 
     def test_closure_fewer_routes_without_moral_scoring(self):
         shut = trace(case("closure"), ({"operator": "close_unsafe", "neighbor": "null"},))[0]
