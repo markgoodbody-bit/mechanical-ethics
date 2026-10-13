@@ -1,0 +1,30 @@
+name: ME integrated research wave
+on:
+  pull_request:
+    paths: ['research/**', '.github/workflows/me-integrated-wave.yml']
+permissions:
+  contents: read
+jobs:
+  source-wave:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            python: '3.10'
+          - os: ubuntu-latest
+            python: '3.12'
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Custody, suites and negative controls
+        run: python -m research.integrated_wave.check_wave
+      - name: Source whitespace
+        run: git diff --check

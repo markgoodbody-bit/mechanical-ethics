@@ -1,0 +1,30 @@
+name: ME v0.9 kernel lab source tests
+
+on:
+  push:
+    branches:
+      - build/me-v090-integrated-kernel-lab-20261013
+    paths:
+      - "research/kernel_lab/**"
+      - ".github/workflows/me-v090-kernel-lab-ci.yml"
+  pull_request:
+    paths:
+      - "research/kernel_lab/**"
+      - ".github/workflows/me-v090-kernel-lab-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  kernel-lab:
+    name: Kernel lab Python
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Python syntax
+        run: python -m py_compile research/kernel_lab/kernel_lab.py research/kernel_lab/test_kernel_lab.py
+      - name: Run bounded deterministic regression suite
+        run: python -m unittest discover -s research/kernel_lab -p 'test_*.py' -v
