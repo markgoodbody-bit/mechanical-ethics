@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="source-git-blob" content="@@SOURCE_BLOB@@">
+<title>The Future Someone Can Actually Use — ME research review</title>
+<style>
+:root{color-scheme:light;--ink:#1c2834;--muted:#455465;--link:#08558d;--line:#c9ced3;--paper:#fff;--surface:#f5f6f8}
+*,*::before,*::after{box-sizing:border-box}
+html{font-size:100%;scroll-behavior:auto}
+body{margin:0;background:var(--paper);color:var(--ink);font:1.09rem/1.68 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--link);text-underline-offset:.15em;overflow-wrap:anywhere}
+a:hover{text-decoration-thickness:.12em}
+a:focus-visible{outline:3px solid #b04f12;outline-offset:4px}
+.skip{position:absolute;top:-100px;left:12px;padding:.75rem;background:#fff;z-index:3}
+.skip:focus{top:12px}
+.wrap{max-width:76rem;margin:auto;padding:0 1.5rem}
+header{border-bottom:1px solid var(--line);padding:2.5rem 0 1.5rem}
+header p{max-width:65ch}
+.kicker{letter-spacing:.09em;font-size:.76rem;font-weight:750;text-transform:uppercase;color:var(--muted)}
+.read-status{font-weight:700;margin:.8rem 0;color:var(--ink);max-width:65ch}
+small,.meta{color:var(--muted)}
+.layout{display:grid;grid-template-columns:minmax(13rem,17rem) minmax(0,43rem);gap:clamp(1.5rem,4vw,4rem);align-items:start;padding-top:2rem;padding-bottom:4rem}
+nav{font-size:.91rem;border-right:1px solid var(--line);padding-right:1.15rem}
+nav h2{font-size:1rem;margin:0 0 .65rem}
+nav ol{padding-left:1.3rem;margin:.5rem 0}
+nav li{margin:.4rem 0}
+main{min-width:0;overflow-wrap:anywhere}
+main h1{font-size:clamp(2rem,4.5vw,3.15rem);line-height:1.12;letter-spacing:-.025em;margin:0 0 1.1rem}
+main h2{font-size:1.19rem;line-height:1.3;font-weight:550;color:var(--muted);margin:0 0 1.5rem}
+main h3{font-size:clamp(1.38rem,2.3vw,1.77rem);line-height:1.25;margin:3.15rem 0 1rem;break-after:avoid}
+p{margin:0 0 1.25rem}
+main ul{padding-left:1.35rem}
+main li{margin:.55rem 0}
+main strong{font-weight:700}
+main hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
+main blockquote{margin:1.4rem 0;padding-left:1.1rem;border-left:3px solid var(--line)}
+main code{font-size:.91em;background:var(--surface);padding:.08rem .2rem;border-radius:.15rem;overflow-wrap:anywhere}
+footer{padding:1.3rem 0 2rem;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted)}
+footer p{max-width:70ch}
+@media(max-width:720px){.wrap{padding:0 1rem}.layout{display:block;padding-top:1.2rem}nav{border:1px solid var(--line);border-radius:.35rem;padding:1rem;margin-bottom:2rem}nav ol{columns:1}header{padding:1.4rem 0 .8rem}body{font-size:1.015rem}main h3{margin-top:2.4rem}}
+@media print{@page{size:A4;margin:17mm 16mm}html{font-size:10.5pt}body{font:11pt/1.45 Georgia,"Times New Roman",serif;color:#000;background:#fff}.wrap{max-width:none;padding:0}header{padding:.2cm 0;border-bottom:1px solid #888}header p{max-width:none}.layout{display:block;padding:0}nav,.skip{display:none!important}h1,h2,h3{color:#000!important;break-after:avoid}main h1{font-size:24pt}main h3{font-size:15pt;margin:1.1cm 0 .35cm}p,li{orphans:3;widows:3}a{color:#000;text-decoration:underline}a:after{content:""}footer{break-before:auto}article{break-inside:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to reading text</a>
+<header><div class="wrap">
+<p class="kicker">Mechanical Ethics · Author-review companion · 13 October 2026</p>
+<p class="read-status">RESEARCH ONLY · NOT RELEASED · NOT A REPLACEMENT · HUMAN EDITORIAL GATE: MARK</p>
+<p>Standalone offline reading copy. It presents the existing short human-first research text without a login, scripts, trackers or external fonts. The <a href="https://github.com/markgoodbody-bit/mechanical-ethics/blob/e2ef746e931161cb70ac46a4eaa122442134e86b/MECHANICAL_ETHICS.md">complete released Mechanical Ethics v0.8.0</a> remains the human-authored baseline, including its safety guidance, four figures, historical sources and original author's note.</p>
+<p class="meta">This copy has not been published or independently reader-tested. Links to source material require internet access; the article itself does not.</p>
+</div></header>
+<div class="wrap layout">
+<nav aria-label="Reading sections">
+<h2>In this reading</h2>
+<ol>@@CONTENTS@@</ol>
+<p><a href="#sources-and-status">Source and status</a></p>
+</nav>
+<main id="main" tabindex="-1">
+<article aria-label="Human-first research review">
+@@ARTICLE@@
+</article>
+</main>
+</div>
+<footer><div class="wrap">
+<p id="sources-and-status"><strong>Source custody.</strong> Derived from a reviewed but unreleased source in <a href="https://github.com/markgoodbody-bit/mechanical-ethics/pull/63">ME draft PR #63</a>. Source Git blob <code>@@SOURCE_BLOB@@</code>. No historical record, artwork, figures or author testimony has been republished from the released book into this companion. <a href="https://github.com/markgoodbody-bit/mechanical-ethics/blob/e2ef746e931161cb70ac46a4eaa122442134e86b/MECHANICAL_ETHICS.md">Read the complete original.</a></p>
+<p>Check any source claims, permission and currentness at the original. No ethical, clinical or legal authority is asserted by this page.</p>
+</div></footer>
+</body></html>
