@@ -112,9 +112,9 @@ class PositiveHumanSuccessor(unittest.TestCase):
     def test_rejects_unsupported_source_markup_and_missing_section(self):
         good = successor.SOURCE.read_bytes()
         with self.assertRaisesRegex(ValueError, "Raw markup"):
-            successor.proposal_html(good.replace(b" A future ",b" <script> A future ",1))
-        with self.assertRaisesRegex(ValueError, "Expected six"):
-            successor.proposal_html(good.replace(b"## The camera that could settle everything",b"### The camera that could settle everything"))
+            successor.proposal_html(good.replace(b"A life is not just",b"<script>A life is not just",1))
+        with self.assertRaisesRegex(ValueError, "Essential ethical tension"):
+            successor.proposal_html(good.replace(b"## The camera that could settle everything",b"## The edited camera section"))
 
     def test_deterministic_source_generated_artifact(self):
         self.assertEqual(self.raw, successor.OUTPUT.read_bytes())
