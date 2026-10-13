@@ -35,6 +35,7 @@ SUITES = (
     ("joint lab", ("-m", "unittest", "discover", "-s", "research/kernel_lab", "-v")),
     ("human companion source/HTML", ("-m", "unittest", "discover", "-s", "research/offline_review", "-v")),
     ("integration seams", ("-m", "unittest", "research.integrated_wave.test_seams", "-v")),
+    ("compact core whole cases", ("-m", "unittest", "research.compact_core.test_examples", "-v")),
     ("navigator negative controls", ("research/navigator_toy/mutation_check.py",)),
     ("game negative controls", ("-m", "research.possibility_game.mutation_check")),
     ("mathematics negative controls", ("research/math_kernel_cc/mutation_check.py",)),
