@@ -202,6 +202,28 @@ class GameTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             engine.branch(game, j, 1, [])
 
+    def test_paired_report_edit_cannot_mutate_caller_history(self):
+        game = scenarios.raft()
+        j = engine.run(game, "river", ["learn", "land"])
+        b = engine.branch(game, j, 1, ["tow"])
+        b["original"]["steps"][0]["after"]["clock"] = 999
+        self.assertEqual(j["steps"][0]["after"]["clock"], 1)
+        self.assertTrue(engine.verify(game, j))
+
+    def test_caller_edit_cannot_mutate_paired_original(self):
+        game = scenarios.raft()
+        j = engine.run(game, "river", ["learn", "land"])
+        b = engine.branch(game, j, 1, ["tow"])
+        j["steps"][0]["after"]["clock"] = 999
+        self.assertEqual(b["original"]["steps"][0]["after"]["clock"], 1)
+        self.assertTrue(engine.verify(game, b["original"]))
+
+    def test_empty_authored_goal_not_silently_defaulted_on_branch(self):
+        game = scenarios.raft()
+        j = engine.run(game, "river", [])
+        with self.assertRaisesRegex(ValueError, "Unknown authored goal"):
+            engine.branch(game, j, 0, [], "")
+
     def test_unknown_goal_rejected(self):
         with self.assertRaises(ValueError):
             engine.explore(scenarios.raft(), "universal_goodness")

@@ -1,4 +1,4 @@
-"""Deliberately break six seams in memory; no source edits or provider access."""
+"""Deliberately break seven seams in memory; no source edits or provider access."""
 from dataclasses import replace
 import io
 import unittest
@@ -11,6 +11,7 @@ def main():
     original_project = engine.Game.project
     original_run = engine.run
     original_baseline = engine.baseline
+    original_branch = engine.branch
 
     def authority_leak(self, *args, **kwargs):
         s = original_project(self, *args, **kwargs)
@@ -34,6 +35,9 @@ def main():
                                       if key.endswith("_asked") else n for key, n in s.states.items()})
         return s
 
+    def shared_history(game, journal, *args, **kwargs):
+        return dict(original_branch(game, journal, *args, **kwargs), original=journal)
+
     mutations = (
         ("authority treated as capability", patch.object(engine.Game, "project", authority_leak)),
         ("fabricated future promoted to observed", patch.object(engine, "run", future_launder)),
@@ -41,6 +45,7 @@ def main():
         ("journal verification bypass", patch.object(engine, "verify", lambda *args: True)),
         ("observations cannot distinguish answered preferences", patch.object(engine.Game, "project", hidden_observation_collapse)),
         ("baseline laundered into future evidence", patch.object(engine, "baseline", lambda: dict(original_baseline(), future_worlds="OBSERVED"))),
+        ("paired report aliases caller's original history", patch.object(engine, "branch", shared_history)),
     )
     killed = 0
     for label, mutation in mutations:

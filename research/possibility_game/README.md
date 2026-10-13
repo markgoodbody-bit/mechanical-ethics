@@ -48,7 +48,8 @@ python -m research.possibility_game.game raft --replay raft-history.json --branc
 ```
 
 The paired report retains the original journal and the exact prefix preceding
-the branch. Before/after snapshots include capabilities, burdens, clock, inherited
+the branch. The paired report and caller's journal have independent nested
+snapshots: editing either does not silently edit the other. Before/after snapshots include capabilities, burdens, clock, inherited
 claims and correction-window annotations. Model and receipt hashes detect drift
 or accidental tampering; **they do not authenticate an author or prove a world**.
 Even a rehashed fabricated outcome is rejected by reconstructing the journal.
@@ -136,11 +137,16 @@ python -m unittest discover -s research/navigator_toy -p 'test_*.py' -v
 git diff --check
 ```
 
-Local receipt, 13 October 2026, Windows / Python 3.10.11: **35/35 new tests**,
-**39/39 inherited tests**, **6/6 deliberately faulty variants caught by assertion
+Local receipt, 13 October 2026, Windows / Python 3.10.11: **38/38 new tests**,
+**39/39 inherited tests**, **7/7 deliberately faulty variants caught by assertion
 failures**, and staged `git diff --check` clean. Mutation runs also produce some
 errors; the receipt counts assertion detection, not exceptions alone. These are
 local fixture results, not hosted CI or practical outcome evidence.
+
+Follow-up falsification found the original branch report aliased the caller's
+mutable journal. This was repaired by copying the verified snapshot; regression
+tests challenge edits in both directions. An explicitly empty goal is now rejected
+instead of silently defaulted during branching. No scenario conclusions changed.
 
 Earned result: executable deterministic comparisons and exact branch replay on
 these authored models. Provisional interpretation: useful for exposing conflicting

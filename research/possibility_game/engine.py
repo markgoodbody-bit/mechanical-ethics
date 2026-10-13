@@ -185,8 +185,11 @@ def branch(game, journal, at, actions, goal=None):
     if type(at) is not int or not 0 <= at <= len(journal["steps"]):
         raise ValueError("Branch point outside history")
     prefix = [s["action"] for s in journal["steps"][:at]]
-    changed = run(game, journal["origin"], prefix + list(actions), goal or journal["goal"], journal["horizon"])
-    return {"original": journal, "counterfactual": changed, "branch_at": at,
+    changed = run(game, journal["origin"], prefix + list(actions),
+                  journal["goal"] if goal is None else goal, journal["horizon"])
+    # A paired report must not share mutable nested snapshots with its caller.
+    original = json.loads(json.dumps(journal))
+    return {"original": original, "counterfactual": changed, "branch_at": at,
             "claim": "CONDITIONAL_ON_SAME_AUTHORED_MODEL_NOT_CAUSAL_WORLD_EVIDENCE"}
 
 
