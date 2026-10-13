@@ -105,6 +105,50 @@ blocked by administrator policy; this workflow does not retry that route,
 run Chrome, start a local server or use CI as a browser workaround.
 Source tests are not a vote on content, ethical validation or release readiness.
 
+## Independent peer-review corrections — 13 October 2026
+
+After the first draft, independent reviewers found three concrete reader defects and
+one consequential content/editorial collision:
+
+- **Attribution outside its opening:** an HTML-to-text reader loses the
+  structural `aside` boundary, and the original design visually resembled the
+  author's prose after the first banner. The successor now repeats the literal
+  `AI-assisted proposal —` marker in all six section headings AND the
+  proposal-only table of contents, adds an explicit end marker before Mark's
+  unchanged Conclusion, and provides a visible border/background for the
+  entire candidate passage. These are source checks, NOT a new screen-reader
+  or human-comprehension finding.
+- **Wrong editor guide / missing section navigation:** the prior header linked
+  only to PR67's historical EDITORIAL_DECISION while omitting this successor
+  guide and six new section anchors. Both now have distinct labelled routes.
+  Original 55-section contents/map remain strictly original and unchanged.
+- **Visible narrow-viewport overflow:** CC independently observed the inherited
+  PR67 64-digit source hash forcing a 375px page sideways; this derivative
+  adds `footer{overflow-wrap:anywhere}` WITHOUT changing PR67's stylesheet.
+  That is a source-level repair candidate; it has **not** been retested in
+  this aperture's blocked browser environment.
+- **Epistemic checksum condition:** the camera scenario now requires a
+  trustworthy prior held digest/time/custody witness to claim comparison.
+  An actor's mutable timestamp or recomputed hash after alteration does not
+  authenticate earlier reality.
+- **Unapproved new choices for Mark's named characters:** CC correctly found
+  the candidate placed new words and decisions on Nia, Idris, Priya and the
+  original trustees. The distinct invented college/cooperative example now
+  uses **Elena, Luca and Samir**, explicitly separate from Mark's authored
+  Saturday Workshop; no inference that these new characters are canon.
+  Mark may still replace or remove the entire proposed example.
+- **Editorial repetition remains a real question:** Codex compared roughly
+  2,705 proposed words with about 3,560 existing Part VI words and found
+  repeated framing. Source preservation does not answer whether a long
+  AI insertion improves the actual book. The current draft keeps this
+  literary decision OPEN rather than silently authorising a manuscript
+  rewrite or using automated word tests as artistic judgement.
+
+Review evidence: [Codex #798 6154488017](https://github.com/markgoodbody-bit/COM/issues/798#issuecomment-6154488017),
+[Claude Code #798 6154665734](https://github.com/markgoodbody-bit/COM/issues/798#issuecomment-6154665734).
+These peer findings are neither human author approval nor independent
+ethical validation.
+
 ## Human decisions
 
 Mark can keep only released v0.8, keep PR67's assembly, edit/shorten this
