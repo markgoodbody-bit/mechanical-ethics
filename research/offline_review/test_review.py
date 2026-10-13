@@ -1,6 +1,7 @@
 """Source custody, HTML semantics and deliberate drift detection. Standard library."""
 import tempfile
 import unittest
+import json
 from html.parser import HTMLParser
 from pathlib import Path
 from unittest.mock import patch
@@ -58,6 +59,19 @@ class ReaderTests(unittest.TestCase):
             with patch.object(r, "SOURCE", changed):
                 with self.assertRaisesRegex(ValueError, "source text changed"):
                     r.produce()
+
+    def test_machine_manifest_matches_exact_git_source_and_artifact(self):
+        manifest = json.loads((r.HERE / "SOURCE_MANIFEST.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["source"]["git_blob_sha1"], r.blob_id(r.SOURCE.read_bytes()))
+        self.assertEqual(manifest["render"]["git_blob_sha1"], r.blob_id(r.OUTPUT.read_bytes()))
+        self.assertEqual(manifest["source"]["immutable_commit"],
+                         "356b425cd5f8ce2715b1528db568f0f21592aa78")
+        sections = manifest["render"]["source_sections_in_order"]
+        self.assertEqual(len(sections), 10)
+        self.assertEqual([name for level, name in self.parsed.headings if level == "h3"],
+                         sections)
+        self.assertFalse(manifest["custody"]["public_release"])
+        self.assertFalse(manifest["custody"]["permission_or_license_grant"])
 
     def test_no_source_section_or_paragraph_is_omitted(self):
         expected_article, expected_nav = r.article_and_toc(self.source)
