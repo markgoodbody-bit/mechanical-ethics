@@ -18,7 +18,7 @@ from research.full_review import renderer_owner as owner
 
 HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "BRIDGE.md"
-OUTPUT = HERE / "positive_successor.html"
+OUTPUT = HERE.parent / "positive_successor.html"
 MARKER = '<h1 id="conclusion">Conclusion</h1>'
 PR67_LABEL = 'aria-label="Unchanged original Mechanical Ethics v0.8 book"'
 NEW_LABEL = 'aria-label="Complete original v0.8 book with one clearly bounded AI-proposed editorial insertion"'
@@ -77,7 +77,7 @@ def produce() -> tuple[bytes, dict]:
               'aria-label="Unapproved AI-assisted Part VI editorial candidate" '
               f'data-source-sha256="{digest}">'
               '<p class="status">PROPOSED AI-ASSISTED TEXT · NOT MARK-AUTHORED · NOT RELEASED</p>'
-              '<p><a href="BRIDGE.md">Read exact source and edit separately</a>. '
+              '<p><a href="horizon_successor/BRIDGE.md">Read exact source and edit separately</a>. '
               'The complete released book is unchanged in its original file; '
               'this bracketed passage may be accepted, revised, relocated or removed by its human author.</p>'
               + proposal + '</aside>\n')
