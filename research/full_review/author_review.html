@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mechanical Ethics — complete v0.9 author-review assembly</title><style>
+:root{color-scheme:light dark;--bg:#fffdf7;--ink:#223137;--muted:#526169;--accent:#795319;--line:#9daab0}
+@media(prefers-color-scheme:dark){:root{--bg:#182126;--ink:#f3f0e8;--muted:#bac5c9;--accent:#ecc386;--line:#687982}}
+*{box-sizing:border-box}html{font-size:100%}body{margin:0;background:var(--bg);color:var(--ink);font:1.05rem/1.7 system-ui,sans-serif}
+a{color:var(--accent);overflow-wrap:anywhere;text-underline-offset:.2em}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.skip{position:absolute;top:-8rem;left:1rem;padding:.6rem;background:var(--bg)}.skip:focus{top:1rem;z-index:2}
+header,main,footer{width:min(calc(100% - 2rem),55rem);margin-inline:auto}header{border-bottom:1px solid var(--line);padding-block:1.5rem}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.23;scroll-margin-top:1rem}
+h1{font-size:clamp(1.8rem,4.5vw,2.5rem);margin:2.2rem 0 1rem}h2{font-size:clamp(1.4rem,3vw,1.9rem);margin:2rem 0 1rem}
+.eyebrow{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.82rem}.status{padding-inline-start:1rem;border-inline-start:3px solid var(--accent);font-weight:700}
+p{margin:0 0 1.1rem}li{margin:.3rem 0}.contents{border:1px solid var(--line);padding:1rem;margin:1.5rem 0 2rem}
+.contents summary{min-height:2.75rem;cursor:pointer;font-weight:700}.contents ol{columns:2;column-gap:2.5rem;padding-left:1.5rem}
+.contents li{break-inside:avoid}.contents li.depth-2{margin-left:1rem}blockquote{border-left:3px solid var(--line);padding-left:1rem;margin:1.4rem 0}
+.book-figure{text-align:center;margin:1.6rem 0;break-inside:avoid}.book-figure img{display:block;max-width:100%;height:auto;margin-inline:auto}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:rgba(128,128,128,.08);padding:1rem;max-width:100%}
+footer{color:var(--muted);border-top:1px solid var(--line);padding:2rem 0 3rem;margin-top:3rem}
+@media(max-width:680px){.contents ol{columns:1}.contents li.depth-2{margin-left:.25rem}body{font-size:1rem}}
+@media print{@page{size:A4;margin:18mm}body{font:11pt/1.45 Georgia,serif;color:#000;background:#fff}.contents,.skip{display:none}
+header,main,footer{width:100%}h1,h2,h3{break-after:avoid}p,li{orphans:3;widows:3}.book-figure img{max-height:210mm}}
+
+@media print{details>section{display:block}details>summary{font-weight:bold}}
+</style></head><body><a class="skip" href="#book">Skip to complete original book</a>
+<header><p class="eyebrow">Complete author-review assembly · research only · not a released v0.9 edition</p>
+<p>Full ME v0.8 text retained, plus one separately attributed optional compact-core appendix.
+The original book below is Mark’s released work; the appendix is a Codex proposal for his editorial decision.</p>
+<nav aria-label="Choose a reading route"><a href="#book">Read the complete book</a> ·
+<a href="#a-timing-condition">Protection and correction</a> · <a href="#interlude-the-saturday-workshop">Creation and formation</a> ·
+<a href="#optional-core">Optional compact core</a> · <a href="EDITORIAL_DECISION.md">Before/after and author choices</a></nav>
+<p><a href="../../MECHANICAL_ETHICS.md">Unchanged original Markdown</a> ·
+<a href="../../MECHANICAL_ETHICS.pdf">Released PDF</a> · <a href="CHAPTER_MAP.json">55-section custody map</a></p>
+</header><main id="book" tabindex="-1"><details class="contents"><summary>Complete book contents</summary>
+<nav aria-label="Original chapter navigation"><ol><li class="depth-1"><a href="#safety-note-for-a-reader-inside-harm">Safety note for a reader inside harm</a></li>
+<li class="depth-1"><a href="#mechanical-ethics-when-correction-arrives-too-late">Mechanical Ethics: When Correction Arrives Too Late</a></li>
+<li class="depth-1"><a href="#contents">Contents</a></li>
+<li class="depth-1"><a href="#opening-let-us-begin-with-an-entity">Opening - Let Us Begin with an Entity</a></li>
+<li class="depth-1"><a href="#how-to-read-this-book">How to Read This Book</a></li>
+<li class="depth-1"><a href="#a-timing-condition">A Timing Condition</a></li>
+<li class="depth-1"><a href="#part-i-the-door">Part I - The Door</a></li>
+<li class="depth-2"><a href="#1-a-door-you-cannot-reach">1. A Door You Cannot Reach</a></li>
+<li class="depth-2"><a href="#2-who-builds-the-maze">2. Who Builds the Maze</a></li>
+<li class="depth-2"><a href="#3-process-becomes-distance">3. Process Becomes Distance</a></li>
+<li class="depth-2"><a href="#the-door-out">The Door Out</a></li>
+<li class="depth-1"><a href="#part-ii-the-clock">Part II - The Clock</a></li>
+<li class="depth-2"><a href="#4-help-before-the-loss-sets">4. Help Before the Loss Sets</a></li>
+<li class="depth-2"><a href="#5-the-strategic-unknown">5. The Strategic Unknown</a></li>
+<li class="depth-2"><a href="#6-slow-harm">6. Slow Harm</a></li>
+<li class="depth-2"><a href="#short-case-the-finance-appeal-that-arrived-too-late">Short Case - The Finance Appeal That Arrived Too Late</a></li>
+<li class="depth-1"><a href="#part-iii-the-witness">Part III - The Witness</a></li>
+<li class="depth-2"><a href="#7-when-there-is-no-enforcer">7. When There Is No Enforcer</a></li>
+<li class="depth-2"><a href="#8-custody">8. Custody</a></li>
+<li class="depth-2"><a href="#9-residue">9. Residue</a></li>
+<li class="depth-2"><a href="#interlude-two-flats-one-wall">Interlude - Two Flats, One Wall</a></li>
+<li class="depth-1"><a href="#part-iv-the-machine">Part IV - The Machine</a></li>
+<li class="depth-2"><a href="#before-the-machine-the-predator-position">Before the Machine - The Predator Position</a></li>
+<li class="depth-2"><a href="#10-who-pays-for-complexity">10. Who Pays for Complexity</a></li>
+<li class="depth-2"><a href="#11-the-second-person">11. The Second Person</a></li>
+<li class="depth-2"><a href="#when-one-case-is-not-enough">When One Case Is Not Enough</a></li>
+<li class="depth-2"><a href="#12-correction-theatre">12. Correction Theatre</a></li>
+<li class="depth-2"><a href="#historical-note-challenger-and-the-cost-of-proceeding">Historical Note - Challenger and the Cost of Proceeding</a></li>
+<li class="depth-2"><a href="#the-machine-speed-brake">The Machine-Speed Brake</a></li>
+<li class="depth-1"><a href="#part-v-after-the-fall">Part V - After the Fall</a></li>
+<li class="depth-2"><a href="#13-peace-as-evidence">13. Peace as Evidence</a></li>
+<li class="depth-2"><a href="#14-what-remains-open">14. What Remains Open</a></li>
+<li class="depth-2"><a href="#15-a-human-standard-for-answerability">15. A Human Standard for Answerability</a></li>
+<li class="depth-1"><a href="#part-vi-futures-still-reachable">Part VI - Futures Still Reachable</a></li>
+<li class="depth-2"><a href="#interlude-the-saturday-workshop">Interlude - The Saturday Workshop</a></li>
+<li class="depth-2"><a href="#what-repetition-builds">What Repetition Builds</a></li>
+<li class="depth-2"><a href="#16-the-conditions-of-hope">16. The Conditions of Hope</a></li>
+<li class="depth-2"><a href="#the-other-fire-another-aperture">The Other Fire - Another Aperture</a></li>
+<li class="depth-2"><a href="#privacy-without-dishonesty">Privacy Without Dishonesty</a></li>
+<li class="depth-2"><a href="#17-care-without-possession">17. Care Without Possession</a></li>
+<li class="depth-2"><a href="#18-kindness-as-the-placement-of-burden">18. Kindness as the Placement of Burden</a></li>
+<li class="depth-2"><a href="#what-this-can-build">What This Can Build</a></li>
+<li class="depth-1"><a href="#conclusion">Conclusion</a></li>
+<li class="depth-1"><a href="#author-s-note-how-this-began">Author&#x27;s Note - How This Began</a></li>
+<li class="depth-1"><a href="#appendix-a-structural-notes">Appendix A - Structural Notes</a></li>
+<li class="depth-1"><a href="#appendix-b-what-remains-unfinished">Appendix B - What Remains Unfinished</a></li>
+<li class="depth-2"><a href="#known-unfinished-edges">Known unfinished edges</a></li>
+<li class="depth-2"><a href="#questions-left-open">Questions left open</a></li>
+<li class="depth-1"><a href="#appendix-c-status-sources-and-the-two-artifact-pair">Appendix C - Status, Sources, and the Two-Artifact Pair</a></li>
+<li class="depth-2"><a href="#reader-status">Reader status</a></li>
+<li class="depth-2"><a href="#figures">Figures</a></li>
+<li class="depth-2"><a href="#scene-and-evidence-discipline">Scene and evidence discipline</a></li>
+<li class="depth-2"><a href="#historical-sources">Historical sources</a></li>
+<li class="depth-2"><a href="#human-authorship-and-ai-assistance">Human authorship and AI assistance</a></li>
+<li class="depth-2"><a href="#mechanical-ethics-and-trace">Mechanical Ethics and TRACE</a></li></ol></nav></details>
+<article id="original-book" aria-label="Unchanged original Mechanical Ethics v0.8 book"><h1 id="safety-note-for-a-reader-inside-harm">Safety note for a reader inside harm</h1>
+<p>If a process is hurting you now, do not put yourself in greater danger to create evidence for this book. A record is not justice, and a witness pack is not rescue. If challenging, recording, publishing, or naming what is happening would increase the risk to your housing, employment, health, family, legal position, or personal safety, stop and use safer human support where it is available.</p>
+<p>Emergency services, medical care, legal advice, unions, charities, family, friends, and trusted people come before any attempt to make the harm fit a theory. The purpose of this work is not to make harmed people perform more proof. It is to help us build systems that place less of that burden on them.</p>
+<h1 id="mechanical-ethics-when-correction-arrives-too-late">Mechanical Ethics: When Correction Arrives Too Late</h1>
+<p><strong>Human Reader v0.8.0 - RELEASED BASELINE</strong></p>
+<p><em>A human-facing Mechanical Ethics reader</em></p>
+<h1 id="contents">Contents</h1>
+<ul>
+<li>Opening - Let Us Begin with an Entity
+</li>
+<li>How to Read This Book
+</li>
+<li>A Timing Condition
+</li>
+<li>Part I - The Door
+<ul>
+<li>1. A Door You Cannot Reach
+</li>
+<li>2. Who Builds the Maze
+</li>
+<li>3. Process Becomes Distance
+</li>
+<li>The Door Out
+</li>
+</ul>
+</li>
+<li>Part II - The Clock
+<ul>
+<li>4. Help Before the Loss Sets
+</li>
+<li>5. The Strategic Unknown
+</li>
+<li>6. Slow Harm
+</li>
+<li>Short Case - The Finance Appeal That Arrived Too Late
+</li>
+</ul>
+</li>
+<li>Part III - The Witness
+<ul>
+<li>7. When There Is No Enforcer
+</li>
+<li>8. Custody
+</li>
+<li>9. Residue
+</li>
+<li>Interlude - Two Flats, One Wall
+</li>
+</ul>
+</li>
+<li>Part IV - The Machine
+<ul>
+<li>Before the Machine - The Predator Position
+</li>
+<li>10. Who Pays for Complexity
+</li>
+<li>11. The Second Person
+</li>
+<li>When One Case Is Not Enough
+</li>
+<li>12. Correction Theatre
+</li>
+<li>Historical Note - Challenger and the Cost of Proceeding
+</li>
+<li>The Machine-Speed Brake
+</li>
+</ul>
+</li>
+<li>Part V - After the Fall
+<ul>
+<li>13. Peace as Evidence
+</li>
+<li>14. What Remains Open
+</li>
+<li>15. A Human Standard for Answerability
+</li>
+</ul>
+</li>
+<li>Part VI - Futures Still Reachable
+<ul>
+<li>Interlude - The Saturday Workshop
+</li>
+<li>What Repetition Builds
+</li>
+<li>16. The Conditions of Hope
+</li>
+<li>The Other Fire - Another Aperture
+</li>
+<li>Privacy Without Dishonesty
+</li>
+<li>17. Care Without Possession
+</li>
+<li>18. Kindness as the Placement of Burden
+</li>
+<li>What This Can Build
+</li>
+</ul>
+</li>
+<li>Conclusion
+</li>
+<li>Author&#x27;s Note - How This Began
+</li>
+<li>Appendix A - Structural Notes
+</li>
+<li>Appendix B - What Remains Unfinished
+</li>
+<li>Appendix C - Status, Sources, and the Two-Artifact Pair
+</li>
+</ul>
+<h1 id="opening-let-us-begin-with-an-entity">Opening - Let Us Begin with an Entity</h1>
+<p>Let us begin with as little as possible.</p>
+<p>Assume, provisionally, that something exists. We do not need to settle every philosophical argument about existence before we can continue. We only need a starting point that allows us to examine what follows.</p>
+<p>You are reading this, so for present purposes you are such a thing. At some point today you became aware of your surroundings, noticing some things and missing others. You carried memories from earlier, and expectations about what would come next. You made choices, including choices so ordinary that they did not feel like choices at all.</p>
+<p>You did not begin with complete information. Nobody does. Perception is partial, memory is incomplete, and the future is uncertain. Even so, life does not wait for certainty. You still have to decide whether to speak, wait, move, trust, refuse, help, protect, repair, or leave something alone.</p>
+<p>Your actions change the situation. Inaction can also change it. Some changes are easy to reverse. Others become expensive, painful, or impossible to undo. The same decision can open a path for one being while closing it for another.</p>
+<p>Other entities exist as well. They do not see the world from your position. A child, a dog, a patient under anaesthetic, a frightened witness, a government department, and an artificial system each have different access to what is happening. Their capacities are different, and so is the force of their actions. The difference does not disappear because everyone is uncertain.</p>
+<p>This is the ground from which Mechanical Ethics begins: an attempt to navigate choices made by limited entities in a changing world, where other entities can be helped, harmed, ignored, constrained, or enabled. It does not promise a perfect moral compass. What it tries to do is make the relevant structure visible before a decision hardens into history.</p>
+<p>The questions are basic:</p>
+<ul>
+<li>What is changing?
+</li>
+<li>Who or what is affected?
+</li>
+<li>What can each party see?
+</li>
+<li>What can each party do?
+</li>
+<li>Which paths are opening or closing?
+</li>
+<li>How long does correction remain possible?
+</li>
+<li>Who carries the cost while uncertainty remains?
+</li>
+<li>What should be built, preserved, stopped, or repaired?
+</li>
+</ul>
+<p>The book starts with human situations because it is written for human readers. The pattern may travel further. A gate that is usable by an adult may be useless to a small child, a wheelchair user, or a dog. A warning that reaches an engineer may never reach the manager who can stop the launch. An artificial system may make thousands of selections before a person discovers that a path has been closed. The scale changes; the need to understand perception, action, timing, power, and correction remains.</p>
+<p>Mechanical Ethics is the human language for that inquiry. TRACE is the more compact structural language that sits behind it. Humans should not need to learn TRACE before they can understand why the structure matters.</p>
+<p>The first case is deliberately ordinary.</p>
+<blockquote><p><strong>Composite Scene - Leah and the Wall</strong></p>
+<p>Leah wakes at 1:17 because Mia is coughing again. The damp patch behind the bed has spread above the skirting board. Leah moves the pillow, takes a photograph on a cracked phone, and opens the landlord&#x27;s online reporting page. Organisations often call such a page a <em>portal</em>: a website through which a person is expected to submit a request, upload evidence, or check progress.</p>
+<p>The website knows Leah&#x27;s reference number, the time, the category she selects, and the size of the photograph. Leah knows the smell of the room, the sound of her daughter&#x27;s breathing, the money left after rent, the shift that starts in six hours, and the risk of being described as difficult by the person who can decide whether they stay.</p>
+<p>The list offers <em>damp and mould</em>, <em>repair overdue</em>, and <em>other</em>. It has no category for the whole situation. Leah chooses the nearest one because the page will not accept her account until it has accepted a label.</p>
+<p>The request enters a queue. The wall continues to change.</p></blockquote>
+<p>No participant in that scene knows everything. The difficulty is that their ignorance does not have equal consequences. Leah can send a request. The landlord can authorise work, delay it, change the rent, or end the tenancy through the available legal routes. The website can sort her words into a queue and record that a route was open. The damp continues while the humans and the system decide what the case means.</p>
+<p>The file will later contain a category, a timestamp, a reference number, and the fact that the request entered a queue. Leah&#x27;s life contains the cough, the smell, the approaching shift, and the power held by the person receiving the request. Both accounts are factual. They are not equivalent.</p>
+<p>Two accounts will travel through this book. The <em>file</em> is what a system records. The <em>life</em> is what the affected person or being carries. They may describe the same event so differently that relying on the file alone hides the practical harm. The file and the life may each contain facts unavailable to the other. Neither is automatically superior; the error is treating the institutional record as complete merely because it is standardised and authoritative.</p>
+<p>The central problem can now be stated without poetry: a system may possess less relevant knowledge than the person living with its decision while retaining far more power to shape what happens next.</p>
+<figure class="book-figure"><img src="../../figures/figure-1-file-and-life.png" alt="The file and the life: a lived situation passes through a narrow portal and becomes a factual but incomplete institutional file." loading="lazy"></figure>
+<p><em>Figure 1. The file and the life: two factual accounts of the same night that are not equivalent.</em></p>
+<p>Mechanical Ethics asks what responsible action requires in that situation. TRACE follows the underlying transitions: what changed, which entities were coupled, which clocks ran, what routes existed, and where correction failed. We will build from the human case outward.</p>
+<h1 id="how-to-read-this-book">How to Read This Book</h1>
+<p>This book uses distinctions to reveal recurring structures that are easy to miss when attention is confined to an isolated decision. No formula settles every moral conflict.</p>
+<p>A <strong>door</strong> is any claimed route through which a person can ask, challenge, refuse, appeal, pause, repair, or answer back. A conversation can be a door. So can a complaints process, a court, a stop button, a medical second opinion, or the ability to leave.</p>
+<p>A <strong>clock</strong> is the period during which that route can still change the threatened outcome. A review that arrives after the relevant job, home, treatment window, relationship, or physical condition has gone may still matter, but it cannot protect the path that has already closed.</p>
+<p><strong>Hardening</strong> is the process by which reversal becomes progressively more difficult, costly, or unequal. The practical boundary is often uncertain and graded rather than a sharp physical point. Debt accumulates. Evidence decays. A body is injured. A reputation spreads. A model is deployed. A child learns that asking for help is dangerous.</p>
+<p>A <strong>witness</strong> preserves enough of what happened for the event to remain open to examination. <strong>Custody</strong> concerns who holds the record and who can change, erase, expose, or use it. <strong>Residue</strong> is what remains after a correction. <strong>Answerability</strong> exists when the affected outcome can reach future action and alter it.</p>
+<p>Mechanical Ethics leaves the contents of a meaningful life to the being who must live it. Its thinner claim concerns conditions that another actor&#x27;s power, delay, or design should not remove: the affected being&#x27;s ability to remain present in decisions about that life.</p>
+<p>Description is not permission. Showing a pattern does not decide every value question or certify the actor who used the language. The framework is voluntary. It is offered as a way of seeing and choosing more honestly, not as an authority that replaces human judgement.</p>
+<h1 id="a-timing-condition">A Timing Condition</h1>
+<p>The central timing claim is simple:</p>
+<blockquote><p><strong>If a particular threatened path is to be protected, effective protection has to reach it before that path hardens beyond comparable repair.</strong></p></blockquote>
+<p>For that specified path, let $T_{protect}(a)$ be the elapsed time until effective protection is in place under the available protective actions $a$, and let $T_{harden}(a)$ be the time until that path hardens beyond comparable repair under those same actions. The compact test is:</p>
+<pre class="book-math" aria-label="Mathematical notation from released source">T_{protect}(a) &lt; T_{harden}(a)</pre>
+<p>This is a conceptual timing test, not a theorem that ranks lives or proves what should be protected. The path, the practical hardening boundary, the evidence accepted, and the comparison measure are authored and contestable. The times may be uncertain, and protective action can change the boundary by pausing a deduction, holding a place, preserving evidence, making a room temporarily safe, or limiting a deployment.</p>
+<p>Clocks also need a common starting point or a supported translation between them. Shared units do not make two clocks the same. Detection, routing, verification and correction can be inspected separately, but they need not occur as fixed serial stages.</p>
+<p>A payment can be correct and still arrive after debt has changed the month. An appeal can identify an error after the car, job, room, treatment window, or evidence has gone. A technical investigation can be careful and still finish after the dangerous system has acted at scale.</p>
+<p>The practical questions are therefore: which clocks are running, who designated them, who benefits from their speed, what can be paused or held, and who carries the cost while the answer is sought?</p>
+<p>Hardening is not the same as irreversibility. An irreversible act is not automatically forbidden, and inaction can itself close paths. Some valuable commitments deliberately close alternatives. The timing test exposes what may harden; it does not decide whether that closure is justified.</p>
+<figure class="book-figure"><img src="../../figures/figure-2-correction-window.png" alt="The correction window: if a threatened path is to be protected, protection has to reach it before the practical hardening boundary; a later corrected record does not restore the lost path." loading="lazy"></figure>
+<p><em>Figure 2. The correction window: if a threatened path is to be protected, protection has to reach it before it hardens beyond comparable repair.</em></p>
+<h1 id="part-i-the-door">Part I - The Door</h1>
+<h2 id="1-a-door-you-cannot-reach">1. A Door You Cannot Reach</h2>
+<p>Many organisations provide a formal route for challenging a decision. A letter may contain a website address, a reference number, a list of documents, and a deadline. The organisation can therefore record that an appeal or review was available.</p>
+<p>Formal availability is not the same as practical access.</p>
+<p>The person may lack internet access, or the requested evidence, or the time. They may lack literacy, confidence, transport, privacy, or any safe way to disclose what happened. Some understand the words without understanding which part of the decision can be challenged. Others know exactly what happened and still cannot translate it into the categories the route accepts.</p>
+<p>A route is usable only when the affected person can find it, understand it, afford it, use it without disproportionate danger, and reach someone capable of changing the outcome before the relevant opportunity is lost.</p>
+<p>Consider a physical gate. To an adult with a free hand it may be an entrance. To a child who cannot reach the latch, a person using a wheelchair facing a step, or a dog that cannot operate the mechanism, it is a barrier. The gate has not changed. Whether it functions as a route depends on the entity, the design, and the purpose.</p>
+<p>The same principle applies to institutional doors. Publishing a process does not establish that the person can use it under the conditions in which the harm is occurring.</p>
+<blockquote><p><strong>Human Sliver - The QR Code</strong></p>
+<p>Arthur is seventy-three. The letter about his hospital appointment contains no telephone number for changes. It tells him to scan a square code with a smartphone. Arthur owns a mobile phone that makes calls and sends texts. He takes the letter to the chemist because the assistant there once helped him reset the clock on the phone.</p>
+<p>The hospital&#x27;s record will later show that online rescheduling was available. Arthur&#x27;s day contains a different fact: the route required a device and a skill he had never been told he would need.</p></blockquote>
+<p>Online systems can reduce waiting, create useful records, and make access easier for many people. The error begins when an organisation treats the existence of one route as proof that the affected population had a realistic opportunity to use it.</p>
+<p>So examine the conditions of use. Could the person understand what was required, supply the evidence in the form they actually possessed, ask for help without weakening their own position, and reach a decision-maker before the deadline became decisive? And was there another route for the people this one excluded?</p>
+<p>A door deserves moral credit only to the extent that it opens in the world of the entity expected to use it.</p>
+<h2 id="2-who-builds-the-maze">2. Who Builds the Maze</h2>
+<p>A process can contain individually reasonable steps and still become unreasonable as a whole. Identity checks reduce fraud; categories route work to specialists; deadlines protect other parties; evidence rules keep rumour out of decisions. Each step can be defended on its own. The ethical problem lies in how they combine, who bears their cost, and what happens when the situation does not fit the design.</p>
+<p>A person may be required to create an account, verify an email address, enter a reference number, select a category, upload evidence, wait for a response, and repeat the account through a second route if the first decision is unsatisfactory. Each step transfers part of the institution&#x27;s need for order to the person seeking help.</p>
+<p>Classification is especially important. A category does more than describe the case. It can determine which team sees it, which clock begins, what evidence counts, and how failure will later be recorded. When the available categories do not fit, the person must either choose an inaccurate label or fail to enter the system at all.</p>
+<blockquote><p><strong>Off-Angle Example - The Goat and the Latch</strong></p>
+<p>At a small animal sanctuary, volunteers replace a simple hook on the feed store with a childproof latch. The old hook was easy for people and, unfortunately, for Mabel the goat, who had learned to lift it with her nose. The new latch defeats Mabel. It also defeats Tom, an older volunteer with arthritis, whenever the weather is cold.</p>
+<p>The sanctuary has improved security according to one measure. It has also made the route less usable for a person whose work keeps the animals fed. The solution is neither to return to the old hook nor to blame Tom. It is to redesign the latch around the full set of beings and purposes involved.</p></blockquote>
+<p>The example is small, but the structure is the same. A system measures success from the perspective it was designed to notice. If it records only whether the goat entered the store, the new latch works. If it also records whether authorised volunteers can use it safely and reliably, the design problem becomes visible.</p>
+<p>Institutional processes often record the missing document, late upload, wrong category, and missed deadline while failing to record the reasons those events occurred. The file can therefore be accurate at the level of each step and misleading about the route as a whole.</p>
+<p>Exhaustion inside a process should not automatically be treated as consent, indifference, or lack of merit. A person may stop because the claim was weak. But they may equally stop because every attempt to continue creates more exposure, more proof work, more delay, or more fear.</p>
+<p>The organisation that designs the route chooses its language, evidence format, clocks, interfaces, and points of escalation. It cannot fairly evaluate the person only by asking whether they completed the design as instructed. It must also ask what the design required from them, which people it systematically excluded, and whether the route changed the original problem or merely documented the person&#x27;s failure to navigate it.</p>
+<p>The maze is not neutral when one party builds it, controls the map, and uses completion of the route as evidence that the route was fair.</p>
+<h2 id="3-process-becomes-distance">3. Process Becomes Distance</h2>
+<p>Large organisations need routing. A first contact may lack authority. A specialist may need to inspect a technical question. A manager may need to approve money. An independent reviewer may be necessary precisely because the original decision-maker should not judge their own work.</p>
+<p>Routing becomes harmful when the claim moves through the organisation while the burden remains with the affected person.</p>
+<p>A case may pass from a general inbox to a specialist team, then to a contractor, a manager, a complaints function, and an appeal body. At each stage the person must learn a new name, quote another reference number, repeat the history, and prove that the previous contacts occurred. The organisation possesses the records but asks the person to carry continuity.</p>
+<blockquote><p><strong>Human Sliver - The Violin in Three Systems</strong></p>
+<p>Rosa&#x27;s violin comes off a flight with a crack beside the bridge. The airline directs her to the ground-handling company. The handler says damage claims must be opened by the airline. The insurer asks for a repair estimate before accepting the claim, while the repairer will not dismantle the instrument until somebody has accepted responsibility for the cost.</p>
+<p>Rosa has an audition in ten days. Each organisation answers within its stated service time. No one can authorise the repair. The claim travels; the crack remains.</p></blockquote>
+<p>The original need may be simple: stop the deduction, repair the wall, restore the account, remove the unsafe condition, pause the deadline, explain the decision, or authorise work before further loss occurs. Additional routing is justified only when it contributes to one of those outcomes or protects a legitimate competing interest.</p>
+<p>A process should therefore distinguish between movement of the <em>case</em> and movement of the <em>burden</em>. A case can be escalated while nothing changes in the affected person&#x27;s life, acknowledged while the dangerous condition remains, reviewed while the deadline keeps running.</p>
+<p>Delay is active. Debt grows, evidence becomes harder to recover, a child remains in the room, a worker misses another shift, and trust in the route declines. The institution may experience the interval as ordinary processing time. The person experiences it as part of the event.</p>
+<p>A trustworthy process should be able to answer three questions at any point: where is the claim, where is the burden, and what has happened to the clock? If only the claim has moved, the organisation should not describe routing as progress. The aim is to make the route carry its own memory, authority, and responsibility wherever possible, not to remove routing.</p>
+<blockquote><p><strong>Human Sliver - A Route That Carried Its Own Map</strong></p>
+<p>A pharmacist notices that a new prescription may conflict with medicine the patient already takes. She marks the prescription as paused, tells the patient why it cannot yet be supplied, contacts the prescriber directly, and gives the patient the pharmacy&#x27;s number and the name of the person holding the query. The patient does not have to carry messages between organisations or reconstruct the clinical reasoning.</p>
+<p>The system remains complex. Its complexity does not become the patient&#x27;s unpaid work.</p></blockquote>
+<h2 id="the-door-out">The Door Out</h2>
+<p>A system may say that a person was free to refuse or leave. That claim depends on what leaving would cost.</p>
+<p>A worker can resign, and lose the income that pays for housing. A tenant can move, and lose money, stability, school continuity, or access to evidence. A patient who declines a condition may lose the treatment attached to it; a platform user who closes an account walks away from work, relationships, or an audience that took years to build. The formal option exists, but the price of using it may make the choice largely ceremonial.</p>
+<p>A meaningful exit preserves some viable continuation outside the arrangement. The person can understand that refusal is possible, exercise it without retaliation or disproportionate danger, keep essential records and possessions, and reach another route before the loss hardens. This does not promise comfort or remove every consequence. It distinguishes refusal from a choice made after alternatives have been made unusable.</p>
+<p>Consent provides weak evidence when the same actor controls the terms, the essential resource, and the penalty for saying no. Repeated acceptance may show dependence rather than approval. Silence can mean fear, or simple exhaustion, rather than agreement.</p>
+<p>Some relationships cannot offer immediate exit. A child cannot safely leave a family, a patient may depend on urgent treatment, a citizen cannot readily leave a legal system, and a person under restraint may have almost no practical refusal. In those cases answerability depends more heavily on independent interruption, protected representation, review, and limits on what the stronger party may demand.</p>
+<p>An exit counts only if using it leaves something viable on the other side. Otherwise refusal has simply become another form of punishment.</p>
+<h1 id="part-ii-the-clock">Part II - The Clock</h1>
+<h2 id="4-help-before-the-loss-sets">4. Help Before the Loss Sets</h2>
+<p>Suppose the money comes back.</p>
+<p>The refund is real. So is the loan taken three weeks earlier because the money was missing. So are the charges, the argument at home, and the shift accepted at short notice to cover the gap. A correction can be accurate, useful, and late at the same time.</p>
+<p>Timing changes what help is able to do. A payment made before rent is due may keep a household steady; the same payment after arrears have begun reduces the damage without undoing it. The same is true of a medical explanation. Given while another treatment is still possible, it protects a choice. Given after the window has closed, it can only describe the choice that was lost.</p>
+<p>Late correction still matters. Reopening an account, repairing a wall, amending a record, or admitting an error may prevent the next loss. It may also matter to the person who has spent months being told that nothing went wrong. A system should say plainly what its correction reached and what remained beyond it.</p>
+<p>That is why the timing condition near the beginning of this book is about a threatened path, not merely a decision file. Effective protection has to be in place while there is still something comparable to protect, and temporary measures can help keep that interval open.</p>
+<p>The difficult cases are rarely solved by speed alone. Acting too quickly on poor evidence can create another injury. Some questions need investigation, specialist knowledge, or a fair chance for another party to answer. The practical issue is what happens during that time.</p>
+<p>A contested deduction can be paused, a sample preserved, a room made temporarily safe, a place held, logs protected from deletion. An automated decision can be stopped from spreading to thousands of people while the first cases are examined. None of these steps decides the final argument. They stop the argument from becoming pointless before it is finished.</p>
+<p>When an organisation says that review will take twenty working days, the next question should not be whether twenty days is normal for the organisation, but what will happen to the person, the evidence, or the threatened future during those twenty days.</p>
+<p>That is what a safeguard is for: protecting something while the answer is still open.</p>
+<h2 id="5-the-strategic-unknown">5. The Strategic Unknown</h2>
+<p>Sometimes <em>we don&#x27;t know</em> is the most honest sentence available. It can also be the sentence behind which a damaging arrangement continues.</p>
+<p>There is no shame in uncertainty. A doctor may need another test, an engineer may need to reproduce the fault, a landlord may want to inspect before accepting a cause, and a reviewer has to hear from both sides. Pretending to certainty would be worse.</p>
+<p>The difference lies in what the uncertainty sets in motion.</p>
+<p>Honest uncertainty creates work for the party with the power to resolve it. Someone is named. Records are opened, evidence is preserved, the threatened action is paused where it can be. The person affected is told what is missing, what could change the answer, and when the question will be looked at again.</p>
+<p>Strategic uncertainty has another shape. The existing arrangement continues because nobody has formally proved that it should stop. The person who raised the problem is asked for more evidence, even when the institution holds much of it already. No one owns the investigation. The deadline belongs to the person at risk, while the organisation&#x27;s delay has no comparable cost.</p>
+<p>Nobody has to be lying for this to happen. If waiting is cheap for one side and expensive for the other, uncertainty begins to lean. The lean becomes stronger when the party benefiting from delay also controls the records, the route, and the clock.</p>
+<p>A useful question is simple: who is paying while nobody knows?</p>
+<p>Is the organisation spending money or authority to find out, stopping the contested action, and protecting the evidence and the person? Or does the rent rise, the payment stop, the model continue, the medicine remain unavailable, or the dangerous condition stay in place until the weaker party proves the case?</p>
+<blockquote><p><strong>Historical Note - Frances Kelsey and Thalidomide</strong></p>
+<p>In 1960, FDA medical reviewer Frances Oldham Kelsey received an application to market thalidomide in the United States. She judged the submitted safety evidence inadequate and repeatedly required further information despite pressure from the manufacturer. Her caution had practical force because the law and review process gave the FDA authority to prevent the application from taking effect while the evidence remained insufficient. By late 1961, reports had linked thalidomide exposure during pregnancy to severe birth defects in countries where the drug had been used.</p>
+<p>The importance of the case is not that uncertainty alone produces safety or that uncertainty always requires refusal. Protection depended on uncertainty being joined to statutory authority, an effective pause, and a duty placed on the applicant to supply adequate evidence before the risk was introduced.</p></blockquote>
+<p>The default course is itself a choice. Continuing, pausing, narrowing, or reversing an action each places risk somewhere. A responsible system makes that placement visible instead of presenting continuation as though nothing had been decided.</p>
+<p>Unknown remains honest only while someone carries a real duty to reduce it.</p>
+<h2 id="6-slow-harm">6. Slow Harm</h2>
+<p>Not every injury arrives as a single event.</p>
+<p>A case can remain officially open while a person&#x27;s life closes around it. The reference number still works. The website still says <em>pending</em>. Nobody has issued a final refusal. Yet the person borrows money, misses work, sleeps in another room, stops using a service, accepts a worse agreement, or gives up because waiting has become more expensive than losing.</p>
+<p>This is one reason administrative records can look calmer than the lives they describe. The record sees a case in progress. The person is already adapting to the failure.</p>
+<p>Technical reversibility makes the problem easy to miss. A database can be corrected. A deduction can be refunded. A wall can be repaired. But the month in which the error operated cannot be reset. Borrowing changes relationships. Missed shifts change how an employer sees someone. A child learns where it is safe to sleep. A person who expected help begins planning on the assumption that help won&#x27;t come.</p>
+<p>The original harm has now acquired a history.</p>
+<p>A serious correction has to follow that history. It is not enough to count the original amount or fix the original entry. What happened because the error remained active? Was interest charged? Did health worsen? Was evidence lost? Did the person withdraw from a route they will later be blamed for not using?</p>
+<p>Silence needs particular care. It may mean the problem was solved. Or it may mean the route taught the person that another message would bring another demand, another delay, or another risk. A quiet file is not necessarily a quiet life.</p>
+<p>The practical question is not only whether this decision can be reversed, but what is becoming harder to reverse while we wait.</p>
+<p>Once that question is asked, temporary protection stops looking like generosity and becomes part of doing the investigation honestly.</p>
+<h2 id="short-case-the-finance-appeal-that-arrived-too-late">Short Case - The Finance Appeal That Arrived Too Late</h2>
+<blockquote><p><strong>Composite Scene</strong></p>
+<p>Amina&#x27;s car fails its MOT on Thursday. Her new rota begins on Monday, with two early shifts at a care home beyond the first bus. On Friday she finds a used car she can afford and applies for finance from the dealer&#x27;s desk.</p>
+<p>The refusal arrives before the salesperson returns with the keys. The email says that an automated assessment informed the decision and that a human approved it. A review is available. The company expects to respond within twenty working days.</p>
+<p>Amina checks her credit report on her phone and finds an old address attached to the wrong account. She sends a tenancy agreement, a council-tax statement, and a photograph of her driving licence. The website confirms receipt. The dealer cannot hold the car for twenty days.</p>
+<p>She hires a car for the first week and borrows the deposit from her sister. During the second week she accepts finance elsewhere at a worse rate because missing the shifts would put the job at risk.</p>
+<p>The review later finds that two records had been joined. The company corrects the file and invites her to apply again. The first car has been sold. The hire cost, the new agreement, and the debt to her sister remain outside the corrected entry.</p>
+<p>The appeal was useful. It repaired the record and may protect the next application. It did not reach the live decision that existed on Friday.</p></blockquote>
+<p>The case illustrates the difference between retrospective accuracy and timely correction: a safeguard must be judged partly by whether it can still change the path it claims to protect.</p>
+<h1 id="part-iii-the-witness">Part III - The Witness</h1>
+<h2 id="7-when-there-is-no-enforcer">7. When There Is No Enforcer</h2>
+<p>Sometimes there is nobody coming.</p>
+<p>The complaints process exists. The regulator exists. The court, union, ombudsman, manager, or police service exists. None of them can reach the event with enough speed or authority to stop what is happening now.</p>
+<p>That failure differs from the original harm. It is a second fact about the world: the route of answerability does not connect to an effective interruption.</p>
+<p>Telling a person to keep records in that situation can sound almost insulting. A photograph does not remove mould. A diary restores no wages, and no screenshot has ever made an abusive person safe. A witness pack is not a rescue plan, and this book should never pretend otherwise.</p>
+<p>The record has a smaller purpose. It stops the actor or institution from becoming the only author of what happened. It may allow a later reviewer to reconstruct the sequence, help separate cases become visible as one pattern, support legal or public action, or warn the next person before the same route closes around them.</p>
+<p>A useful record is usually less dramatic than people imagine: what happened, when, what was known, what was requested, which routes were tried, what changed while nothing happened, and what remains unresolved. The purpose is to preserve enough structure that the event cannot later be reduced to a convenient label, not to turn the affected person into a detective.</p>
+<p>Other people may need to carry part of this work. A neighbour can keep a copy. A support worker can write down a date. An engineer can preserve a warning. A clinician, union representative, journalist, colleague, researcher, or friend may hold evidence that would be dangerous for the person at the centre to publish themselves.</p>
+<p>Records also create risk. They can expose a child, identify a worker, reveal a location, or give an institution new information to use against the person who complained. More evidence is not always safer evidence.</p>
+<p>A witness does not guarantee justice. What a witness does is keep the past from being closed before it can be examined.</p>
+<h2 id="8-custody">8. Custody</h2>
+<p>Most evidence is held by somebody.</p>
+<p>A photograph may sit on a cracked phone. A repair history may sit on a landlord&#x27;s server. A warning may remain in an engineer&#x27;s email. A clinical note may be visible to the hospital and difficult for the patient to obtain. A memory may exist only in the mind of a person who is frightened of what will happen if they speak.</p>
+<p>Where the record lives changes what the record can do.</p>
+<p>Custody is not only storage. It includes who can see the material, alter it, delete it, copy it, demand it, combine it with other records, or use it against the person who created it. The same screenshot can protect one person and expose another.</p>
+<p>Institutions usually possess the fuller account: banks the transactions, platforms the logs, employers the personnel records, hospitals the notes, landlords the repair histories. The person affected may have only fragments. A date on an envelope. A photograph. A text from a neighbour, or a name remembered from a phone call.</p>
+<p>Fragments are no more truthful for being fragments. They are simply outside the main actor&#x27;s control, and sometimes that is what allows a later comparison to happen.</p>
+<p>Good custody makes alteration visible and challenge possible. It may require independent storage, access logs, preserved metadata, limits on deletion, and a right for affected people to inspect and contest records about them.</p>
+<p>The insider witness needs the same seriousness. A caseworker, engineer, clinician, auditor, moderator, or administrator may hold the only record that shows the problem clearly. Preserving or disclosing it may threaten their job, legal position, professional registration, or safety. A correction route that relies on such people cannot treat courage as an unlimited resource.</p>
+<p>If a system can rewrite its own memory after challenge begins, it should be modest about how confidently it later describes the past.</p>
+<p>A record can become misleading without being rewritten. A count or summary may be correct when produced and stale after the situation beneath it changes. A current date is not the same as a current fact. If a decision depends on such a record, whoever relies on it should know what change would make it necessary to check again.</p>
+<p>Evidence design is part of the moral design. A route is already tilted when proof can exist only inside the institution being challenged, or only at unacceptable risk to the person who preserves it.</p>
+<h2 id="9-residue">9. Residue</h2>
+<p>Suppose the decision is corrected.</p>
+<p>The account is reopened. The money is returned. The letter admits delay. The wall is repaired. Something real has changed, and it would be wrong to dismiss that change because it is incomplete.</p>
+<p>Now ask what the error did before the correction arrived.</p>
+<p>There may be debt, lost time, illness, embarrassment, damaged trust, altered relationships, or a new reluctance to use the service. Some of that can be repaired. Some can be compensated. Some can only be acknowledged honestly.</p>
+<p>This remainder is easy to lose because the institution&#x27;s attention follows the active case. Once the deduction stops or the wall is fixed, the main indicator turns green. The person continues carrying effects that no longer appear in the operational view.</p>
+<p>A claim of closure should therefore include a return of burden: which costs have gone back to the actor, which still sit with the person affected, what has been done about the consequences created during delay, and what route remains open if another consequence appears later.</p>
+<p>The party announcing closure should do most of the work of supporting that announcement. It should not fall to the harmed person to prove that the institution&#x27;s declaration of success is incomplete.</p>
+<p>None of this requires every case to remain open forever. Records can be finite. Agreements can be reached. People can choose to move on. The point is to avoid converting a useful repair into a false account of the past.</p>
+<p>Scarcity makes the problem harder. Several people may need repair at once, and not every loss can be addressed immediately. Then the order matters. Housing debt, medical need, lost income, and damaged records may compete for the same limited money or attention. Who chooses which one waits? Can the people carrying the cost see and challenge the rule?</p>
+<p>An open ledger is not enough if power still decides, invisibly, which debt will be postponed.</p>
+<p>A real correction changes something. What it cannot change is the reason honesty still matters.</p>
+<p>A later good can be entirely real without becoming the same thing as repair of the earlier loss. It may contribute to repair when it restores a capability, route, relationship, resource, safety condition, or some other part of what was lost. But goodness alone does not perform that work. Equally, an unchangeable past does not prove that an injury remains unchanged forever. Recovery can be real without rewriting history.</p>
+<pre class="book-code"><code>LATER GOOD != REPAIR BY DEFAULT
+RECOVERY != ERASURE
+PAST LOSS != PERMANENT CURRENT IMPAIRMENT</code></pre>
+<h2 id="interlude-two-flats-one-wall">Interlude - Two Flats, One Wall</h2>
+<blockquote><p><strong>Composite Scene</strong></p>
+<p>Two flats share a wall. Martin owns upstairs. Leah and Sam rent downstairs with their daughter, Mia.</p>
+<p>A stain appears behind Mia&#x27;s bed in October. Leah wipes it away and moves the furniture. By November, the paint has lifted in a strip wider than her hand, and Mia wakes coughing on cold nights.</p>
+<p>Leah reports the damp through the landlord&#x27;s website, selects <em>damp and mould</em>, uploads a photograph, and receives a case number. The room does not change.</p>
+<p>Upstairs, Martin notices a stain beside the same wall. He emails the managing agent from work. A contractor visits three days later, traces water around an exterior joint, and recommends scaffolding. The work begins before the month ends.</p>
+<p>The same wall has entered two systems of attention.</p>
+<p>Martin is an owner whose future business the agent wants to retain. Leah enters through a tenant route designed to receive many requests at low cost. One route reaches a person with authority. The other produces a reference number.</p>
+<p>The landlord knows that tribunal action is slow. A rent-increase letter was already due, and he sends it one week after Leah&#x27;s request. It does not mention the damp. It does not need to. Leah can see that the rent will move now and any challenge will move later.</p>
+<p>She opens the category list again. &quot;What box am I supposed to tick for scared?&quot; she asks Sam.</p>
+<p>The website contains no field for that information.</p>
+<p>Leah sends fewer messages. An automated reply asks for a wider photograph, which would show Mia&#x27;s bed and most of the room. She does not send it. The file records that no further evidence was received.</p>
+<p>The upstairs wall is repaired. Downstairs, an inspection is offered after Leah and Sam have found another tenancy. They leave before anyone enters the room. The case closes because the tenancy has ended.</p>
+<p>Martin never learns that the downstairs case existed. The wall is painted before the next tenant moves in.</p>
+<p>Fragments survive outside the landlord&#x27;s custody: photographs, messages, dates, a note held by Leah&#x27;s niece, and a copy kept by an advice worker. They do not repair the room or repay the move. They prevent the official file from becoming the only account.</p>
+<p>Later software may price the family away before a viewing because it predicts complaint. There is no refusal to appeal and no witness inside the decision.</p></blockquote>
+<figure class="book-figure"><img src="../../figures/figure-3-two-flats-one-wall.png" alt="Two flats, one wall: the same physical leak enters different routes, clocks, and authority structures for an owner and a tenant." loading="lazy"></figure>
+<p><em>Figure 3. Two flats, one wall: the same cause reaches an owner with authority and is repaired within the month, while the tenant route returns a reference number and closes on move-out.</em></p>
+<h1 id="part-iv-the-machine">Part IV - The Machine</h1>
+<h2 id="before-the-machine-the-predator-position">Before the Machine - The Predator Position</h2>
+<p>A difficult process is not automatically predatory. Some work is genuinely complicated. Some delays protect other people. Some evidence rules are necessary.</p>
+<p>Now change the question. Who benefits when the difficulty remains?</p>
+<p>A <em>predator position</em> exists when an actor or system receives persistent or systematic benefit from an arrangement that keeps another entity unable to understand, challenge, escape, or correct it, while the benefiting actor controls or materially influences the route and could reduce that inability. The term describes the position, not the personality of whoever occupies it. No monster or secret plan is required.</p>
+<p>A landlord may know that a tribunal will take longer than a tenant can stay. An employer may lean on a worker&#x27;s dependence on income or immigration status. A firm can design a refund process that most customers will abandon, and a platform can profit from a harmful pattern while keeping every individual case too small and scattered to force change.</p>
+<p>In those situations, process does work that open force would otherwise have to do. Delay, categories, proof demands, and uncertainty keep the weaker party in place.</p>
+<p>The test is not whether the process is unpleasant or whether a single asymmetry exists. It is whether maintained unusability repeatedly protects the party who controls or materially influences the route, while the cost of failure falls somewhere else.</p>
+<p>Once that pattern is visible, good intentions are no longer enough: the design itself has to answer.</p>
+<h2 id="10-who-pays-for-complexity">10. Who Pays for Complexity</h2>
+<p>The usual defence of complexity is that the world is complicated. Often it is.</p>
+<p>Medicine, housing, finance, aviation, energy, and public administration involve real technical knowledge, competing duties, and large numbers of people. A simple answer can be careless or dangerous. Mechanical Ethics is not an argument for making every system small; it is an argument about who pays for the complication. Complexity is more defensible when it protects a stated interest, is no greater than reasonably required, and is carried internally wherever the institution has the capacity to carry it.</p>
+<p>Forms, categories, vendors, models, data feeds, staffing levels, interfaces, and escalation routes were made by somebody, even when no single person designed the whole. Years of local decisions become the environment in which another person is expected to act.</p>
+<p>When an institution says that a decision is too complicated to explain, it has named a problem in its own design. It has not identified a defect in the person asking.</p>
+<p>A complex system should carry enough of its own map to show which rule or model mattered, what evidence was used, where uncertainty remained, which clock was running, who could pause the action, and how a challenge could reach someone with authority. The affected person should not have to become an expert in the entire organisation merely to discover why one path closed.</p>
+<p>This also matters for people inside the system. A caseworker may see the problem and lack the button required to fix it. An engineer may understand the risk and have no route to the executive decision. Blaming the last human who touched the file can hide the more important fact that authority and information were separated by design.</p>
+<p>Responsibility may be distributed without becoming absent. The designer who set the categories, the manager who maintained the incentive, the custodian who withheld the record, and the executive who could interrupt the process may each stand in a different relation to the same outcome. Their duties need not be identical. Fragmentation of control should not become a way for the organisation to claim that nobody was answerable for the arrangement as a whole.</p>
+<p>The basis of a high-consequence decision should remain reproducible or open to evaluation by a properly supported challenger within reasonable time and access. When the route cannot support that scrutiny, the institution has not earned confidence in the result.</p>
+<p>A system cannot manufacture unreadability and then use unreadability as its defence.</p>
+<h2 id="11-the-second-person">11. The Second Person</h2>
+<p>Closing one file is not the same as changing what will happen to the next person.</p>
+<p>The first person receives a refund, repair, apology, or corrected record. That matters. Meanwhile the same rule, category, model, incentive, or delay remains in place. The second person has not arrived yet, so they do not appear in the success figures.</p>
+<p>Organisations naturally see the cases they have handled. A closed case is countable. A future person is not. This makes it possible to become very good at correcting individual failures while continuing to produce them.</p>
+<p>The surface labels may differ. One file says <em>repair delayed</em>. Another says <em>insufficient evidence</em>. Another says <em>no further contact</em>. A fourth ends because the tenancy ended. Underneath, the same mechanism may be operating: the person cannot safely supply what the route demands before the institution&#x27;s clock wins.</p>
+<p>The useful question after a correction is therefore not only whether this person was helped, but what has become different for the next person.</p>
+<p>Can the next person reach help earlier, pause the action, preserve evidence, and reach someone independent who can inspect the decision? Has the incentive that rewarded delay or opacity changed, and is the same failure now harder to reproduce? The second person is where a repaired case becomes a repaired system.</p>
+<h2 id="when-one-case-is-not-enough">When One Case Is Not Enough</h2>
+<p>One case can expose a mechanism, but it can also be dismissed as an exception. Several cases can make the shared route visible, especially when the surface labels differ but the same burden, delay, or exclusion recurs.</p>
+<p>Collective evidence does not require every account to be identical. People may disagree about cause, remedy, or severity while still showing that one design repeatedly closes the same kind of path. Combining their records should preserve those differences rather than flattening them into a single representative story.</p>
+<p>Collecting a pattern can also change what happens next. People may respond because they were named or counted; an institution may behave differently once it knows an audit exists. Later evidence may therefore describe a situation partly changed by the attempt to measure it.</p>
+<p>Representation creates another custody question. It can give scattered people enough force to reach authority, but it can also select, simplify, expose, or speak over the people whose accounts give it weight, becoming another gate.</p>
+<p>The purpose is not to turn numbers into automatic authority. A frequent pattern can still be misunderstood, and a rare event can still reveal severe harm. The stronger claim is practical: when separate accounts point to a shared mechanism, the institution should not force each person to begin from zero or treat the absence of one perfect case as evidence that no pattern exists.</p>
+<p>Collective correction begins when the burden of showing recurrence no longer rests on each isolated person and when the combined account can change the rule, incentive, interface, or authority that keeps reproducing the harm. The group does not erase the person. It gives the person a route that may finally carry enough weight to reach the machine.</p>
+<h2 id="12-correction-theatre">12. Correction Theatre</h2>
+<p>Organisations know what repair is supposed to sound like.</p>
+<p>They apologise. They commission reviews, train staff, create dashboards, appoint owners, publish plans, and say that lessons have been learned. Any of those things may be useful. None of them proves that the harmful route changed.</p>
+<p>Correction theatre begins when the appearance of answerability improves faster than the conditions faced by the next person.</p>
+<p>The test is practical. Which action has become impossible, slower, more visible, or easier to challenge? Who can check that change? What would count as evidence that the repair did not work?</p>
+<p>Training may matter, but not if the interface still offers the same choices. A dashboard may reveal a pattern, or merely teach staff how to produce a cleaner number. An apology may be sincere while the next case enters the same queue.</p>
+<p>A review can check every case in its file and still miss people the route never allowed to become cases, or make unlike cases look like one pattern. What the review can honestly claim depends on who entered the file and how their experience was measured. The organisation should state those limits and show whether another supported account changes the picture. That account may still be wrong, but a material difference should not disappear inside one clean total.</p>
+<p>Institutions are often under real pressure to announce completion. Open problems cost money, damage confidence, and attract scrutiny. That pressure is one reason the language should stay exact. Investigation is not repair, and activity is not consequence. Monitoring is not interruption. A recorded lesson, however sincerely minuted, is not a changed path.</p>
+<p>The matter can close when it is genuinely finished. Until then, accurate words are part of the repair.</p>
+<p>A correction that cannot be checked remains a claim about correction. Checking does not require universal agreement. A repair claim should state the observable change, who can inspect it, and what evidence would count against success, so that disagreement has an object rather than becoming an endless refusal to recognise repair.</p>
+<h2 id="historical-note-challenger-and-the-cost-of-proceeding">Historical Note - Challenger and the Cost of Proceeding</h2>
+<blockquote><p><strong>Historical Case</strong></p>
+<p>On 28 January 1986, the Space Shuttle <em>Challenger</em> broke apart seventy-three seconds after launch, killing all seven crew members. The Rogers Commission concluded that the launch decision was flawed. The people who made the final decision were not given the recent history of O-ring problems, the contractor&#x27;s initial written recommendation against launch below the previous low-temperature experience, or the continuing opposition of engineers after contractor management reversed that recommendation.</p>
+<p>The failure was not a single simple override. It involved incomplete transfer of technical history, pressure within the decision process, reversal of an adverse recommendation, and the absence of a reliable stop rule through which the concern retained enough force to prevent launch. The cost of delay would have been carried by the programme and its schedule. The cost of proceeding was carried by the crew.</p></blockquote>
+<p>The lesson is not that engineers must always prevail or that every warning requires cancellation. Technical experts can be wrong, and systems must choose under uncertainty. The requirement is that high-consequence action has a credible route by which adverse evidence can pause the decision, reach authority without distortion, and remain visible after management pressure begins.</p>
+<h2 id="the-machine-speed-brake">The Machine-Speed Brake</h2>
+<p>Machines change the timing before they change anything else.</p>
+<p>A clerk can make one decision, then another. An automated system can deny access, alter prices, move money, classify risk, suppress information, or direct physical action thousands of times before a person notices a pattern.</p>
+<p>Human correction does not accelerate at the same rate. Somebody has to recognise that a decision occurred, understand enough to question it, find a route, gather evidence, and reach a person with authority. By then the model may have repeated the same transition across an entire population.</p>
+<p>That gap is where a nominal appeal becomes useless. The route exists, but the machine can finish the relevant action before the route can touch it.</p>
+<p>High-consequence automation therefore needs stages. A decision may be tested on a small scale, held before final commitment, made reversible, limited in duration, or placed behind an independent interruption. The exact brake depends on the domain. A price change, medical classification, benefits decision, and use of physical force cannot share one threshold.</p>
+<p>The principle is simpler than the implementation: the more quickly a system can close important paths, the more quickly reliable correction must be able to reach it. If human review cannot move at machine speed, the machine has to leave room for human-speed interruption.</p>
+<p>Otherwise the system is not corrected after acting. It is merely explained.</p>
+<figure class="book-figure"><img src="../../figures/figure-4-machine-speed-human-correction.png" alt="Machine speed versus human correction: repeated automated commitments can outrun a human challenge unless an independent brake can act before commitment." loading="lazy"></figure>
+<p><em>Figure 4. Machine speed and human correction: the machine completes its action at scale before human correction has finished assembling.</em></p>
+<h1 id="part-v-after-the-fall">Part V - After the Fall</h1>
+<h2 id="13-peace-as-evidence">13. Peace as Evidence</h2>
+<p>After harm, there is pressure to reach an ending.</p>
+<p>The person carrying the damage may be exhausted. The institution wants the case closed. Colleagues want normal work to resume. Families and communities may want the conflict to stop consuming everything around it. Those are real needs.</p>
+<p>The trouble begins when a peaceful ending is used as evidence that the repair was complete.</p>
+<p>A person may accept compensation because they need the money, not because the account is accurate. They may forgive one individual and still distrust the institution. Some stop answering because another meeting is unbearable; some want no contact at all. None of those choices gives somebody else permission to write a cleaner story.</p>
+<p>Honest reconciliation keeps the facts intact. It says what was repaired, what remains, and what changed in the route. It can recognise the people inside an institution who tried to help without using their decency to excuse the structure around them.</p>
+<p>There is no duty to remain angry forever. There is also no duty to perform forgiveness so that the record can close comfortably.</p>
+<p>Peace may be part of repair, but it cannot be the test used to prove that repair happened.</p>
+<h2 id="14-what-remains-open">14. What Remains Open</h2>
+<p>A file can close because the work is complete. It can also close because the tenancy ended, the person left, the deadline passed, the account was abandoned, or the institution stopped hearing from them.</p>
+<p>The world continues either way.</p>
+<p>Some losses remain obvious: debt, illness, a missed job, a changed relationship. Others are harder to see. A person learns not to ask. A benefit passes to somebody who did not cause the loss. A system remains unable to notice the class of person it excluded.</p>
+<p>Keeping the record honest does not require endless accusation; it requires resisting the sentence <em>nothing remains</em> when something plainly does.</p>
+<p>Inherited benefit is one example. A person may move into a flat after another family was forced out, take a role after another worker withdrew, or acquire an asset whose clean appearance depends on an unresolved history. The new person may have done nothing wrong. Inventing personal guilt would only obscure the question. The issue is what benefit remains, what claim remains, and what becomes possible once the history is known.</p>
+<p>The reader may also stand in several places at once. A person harmed by one institution may be well served by another. Their belief that <em>the system works</em> can be completely sincere because the route was built around people with their resources, language, confidence, body, or social position.</p>
+<p>That experience is real and partial.</p>
+<p>The deepest selection often occurs before any visible decision. Somebody chooses the categories, evidence, baseline, household, urgency, and meaning of silence. What cannot be entered is easier to treat as though it never happened.</p>
+<p>Leah&#x27;s category list had no field for fear. The omission did not announce itself as a refusal. It simply made part of the situation unavailable to the system that would later judge her response.</p>
+<p>That is the never-built door: the route, category, or option whose absence is invisible to the person excluded by it. No form can contain every relevant circumstance. The practical requirement is a route for adding material context, contesting the category, and revising the design when the same exclusion recurs.</p>
+<p>An open record does not solve the missing door, but it preserves enough truth that somebody else may later see where it should have been.</p>
+<h2 id="15-a-human-standard-for-answerability">15. A Human Standard for Answerability</h2>
+<p>Go back to the ordinary letter: a website address, reference number, evidence request, and deadline.</p>
+<p>At first glance it offers a route. The rest of the book changes what we need to ask about that claim.</p>
+<ul>
+<li>Can the person find and use it under the conditions they are actually living in?
+</li>
+<li>Does it reach anyone who can alter the outcome?
+</li>
+<li>Will it arrive before the home, job, treatment, evidence, relationship, or opportunity is gone?
+</li>
+<li>Who owns the records? Who set the clock?
+</li>
+<li>What happens while the answer remains uncertain?
+</li>
+<li>What does the person still carry after the file is corrected?
+</li>
+<li>Will the next person meet the same mechanism?
+</li>
+</ul>
+<p>Answerability begins when an affected outcome can travel back into the behaviour that produced it. Explanation alone is not enough. The route needs enough force to change what happens next.</p>
+<p>Answerability needs an end as well as a route back. Reopening the same challenge without limit can become a route of harm. Repetition alone proves neither merit nor resolution.</p>
+<p>Some closure is chosen or protective. A commitment can deliberately close alternatives; a confidential process can need an end; a person cleared of an allegation can be harmed by indefinite reopening without new evidence. Mechanical Ethics is not a demand to keep every door open forever. It asks whether closure was imposed, chosen, or reached through a process with enough independence and answer-back to deserve reliance.</p>
+<p>Disagreement about law, medicine, engineering, politics, care, and scarce resources remains. No single formula can decide every conflict. The point is narrower: some recurring tests should be visible before conduct is trusted as responsible.</p>
+<p>The timing condition is not a universal priority rule. Using it as if it ranked competing lives, paths, or claims would be a misuse.</p>
+<p>The recurring tests are these:</p>
+<ul>
+<li>a route must be usable by the beings expected to rely on it;
+</li>
+<li>serious correction must stay faster than serious hardening;
+</li>
+<li>uncertainty must create work for those with power, not automatic permission to continue;
+</li>
+<li>evidence must be checkable beyond the challenged actor&#x27;s control;
+</li>
+<li>complexity must not be dumped onto the people who did not create it;
+</li>
+<li>repair must reach the mechanism as well as the case;
+</li>
+<li>closure must not erase residue;
+</li>
+<li>a party benefiting from necessity cannot be the only judge of necessity;
+</li>
+<li>and a party benefiting from closure cannot be the only judge of whether that closure was fairly reached.
+</li>
+</ul>
+<p>These are pressures on trust, not a complete moral code or a priority equation. Witness, interruption, enforcement, protection, and organised resistance remain distinct, and a truthful record may coexist with power that accepts the damage. Seeing the structure is necessary, but without interruption or enforcement it cannot be sufficient.</p>
+<p>These questions make the exercise of power answerable to scrutiny. The purposes of a remaining life belong to the person who must use it.</p>
+<h1 id="part-vi-futures-still-reachable">Part VI - Futures Still Reachable</h1>
+<p>The preceding sections have concentrated on failed routes, delayed correction, and burdens transferred to people with less power. Part VI asks a narrower positive question: whether an arrangement leaves the affected being with a usable and correctable future in which the contents of that life have not already been determined by another actor.</p>
+<p>The question here is whether the affected being remains present in the decision about what comes next. Somebody with greater control may carry complexity rather than exporting it, protect another person&#x27;s refusal, preserve a route that can still be used, or accept a cost that prevents another life from narrowing further. These acts offer no guarantee of success, but they change who remains able to participate in what happens next.</p>
+<h2 id="interlude-the-saturday-workshop">Interlude - The Saturday Workshop</h2>
+<blockquote><p><strong>Composite Scene</strong></p>
+<p>Priya lifts the shutter at ten every Saturday. One garage holds bicycles in different stages of repair, while the other contains donated laptops, kettles, lamps, and components sorted into takeaway tubs labelled in marker pen. One tub reads <em>CABLES THAT MAY OR MAY NOT BE IMPORTANT</em>.</p>
+<p>Mick arrives early to test the extension leads. He repaired electrical equipment for most of his working life, and he and Priya teach by working beside people: they help someone identify a fault, use a tool safely, and return to a job after the first attempt fails.</p>
+<p>Nia brings in a bicycle whose rear wheel rubs against the frame. She is seventeen and has missed college twice because she can no longer keep paying for the bus.</p>
+<p>“I don&#x27;t know anything about bikes,” she says.</p>
+<p>Priya turns the wheel once. “You know it doesn&#x27;t ride properly. Start there.”</p>
+<p>They find a bent axle and replace it with one taken from a donated wheel. Nia returns the following Saturday for the brakes, and a month later she is showing a twelve-year-old how to lift a tyre from the rim without pinching the tube.</p>
+<p>Idris arrives after midday because he cares for his mother in the mornings and can usually stay for only an hour. He is learning to replace charging sockets on cheap phones, although his hands become less reliable when somebody watches. Mick gives him the bench nearest the wall, leaves the diagram beside the soldering iron, and works at the other end of the garage.</p>
+<p>The workshop has rules designed around the work it is trying to protect. Nobody has to explain an absence. Photographs require a new decision each time. Participants can inspect anything written about them. Threats result in leaving for the day and meeting away from the group before returning. Stolen goods are refused, and parts donated for community repairs cannot be used to support predatory resale.</p>
+<p>A national company offers sixty thousand pounds over two years, enough to cover the rent, replace unsafe tools, and open the garages on three evenings each week. Priya has spent months calculating whether the workshop can survive the winter, so the offer addresses a real problem.</p>
+<p>The contract would require every participant to create an account. The sponsor wants attendance data, behaviour scores, photographs for publicity, and permission to share risk and engagement information with approved partners. It would also retain the power to exclude anybody whose presence might harm the programme or the sponsor&#x27;s reputation.</p>
+<p>The representative demonstrates the dashboard at a folding table between the bicycle stands. Green bars record attendance and red flags record risk. He says the data will prove that the project works.</p>
+<p>Nia asks who can see her record.</p>
+<p>“Appropriate partners.”</p>
+<p>“My college?”</p>
+<p>“Where sharing supports outcomes, possibly.”</p>
+<p>“The council?”</p>
+<p>“Potentially.”</p>
+<p>“The police?”</p>
+<p>He says the legal team will answer detailed questions during implementation.</p>
+<p>Idris asks whether mornings spent caring for his mother will lower his score. The representative says the model considers context, although he cannot show what counts as context or who can correct it. Mick asks who can remove a risk flag once the system creates one, and the representative returns to the new equipment and evening sessions.</p>
+<p>The trustees meet after he leaves. The offer would solve genuine problems, and refusing it means that one broken stand will remain unusable, evening sessions will not happen, and the waiting list will grow. Priya writes the exchange on a sheet of cardboard because the whiteboard is covered with repair jobs.</p>
+<p>Under the proposed contract, the sponsor would receive evidence that the workshop helps people, while the participants would supply permanent records to produce that evidence. Missed sessions, caring duties, arguments, and mistakes would enter a system they could not inspect. The people with the least control over the programme would disclose the most and lose control of the record first.</p>
+<p>The trustees refuse the contract. They later accept a six-month grant from a local trust, reduce the workshop&#x27;s hours, and postpone replacing the second stand. Priya gives up one paid day each month, and three people remain on the waiting list longer than they would have under the company offer.</p>
+<p>The trustees also change their own record-keeping. Attendance remains on paper and is destroyed after the funding return is complete. Incident notes include the participant&#x27;s account, and anybody described in a record can inspect and challenge it. The local trust receives costs, repair totals, attendance numbers, and anonymised explanations of barriers to attendance.</p>
+<p>The return states that twelve young people attended regularly. That figure is accurate, although it cannot describe Nia reaching college without borrowing bus fare, learning to true a wheel, and showing somebody else how to begin. It also cannot describe Idris replacing four charging sockets or continuing when the room is arranged so that Mick is not watching over him.</p>
+<p>The safer record costs money, time, equipment, and places on the waiting list, and those losses belong in the account. The account must also include the capabilities that remain with the participants because the workshop refused to turn vulnerability into an asset.</p>
+<p>On the next Saturday, Nia arrives while guiding a neighbour&#x27;s bicycle beside her. The wheel keeps catching, so Priya clears the spare stand and Nia begins with the part she already knows how to test.</p></blockquote>
+<h2 id="what-repetition-builds">What Repetition Builds</h2>
+<p>A choice does more than select among the options visible at one moment. Repeated actions, environments and relationships can change what an entity can later do, which routes remain usable, which dependencies exist, what evidence is available, and what experience is reported when the next decision begins.</p>
+<p>Nia&#x27;s first repair does not reveal her character. It changes a bounded capability. Later she can diagnose a wheel and help somebody else begin. The same caution applies in darker cases. Crossing a line once changes the entity&#x27;s history and may alter later capability, relationships or selection conditions; it does not prove permanent contamination, destiny or essence.</p>
+<p>Mechanical Ethics therefore treats formation as a question about supported change, not a licence to invent an inner self. An action can alter later capability, relationships, constraints or selection conditions without proving a permanent character, destiny or essence. Cause is not excuse, development is not ownership, and recognising change in the actor does not make the harm to whoever was on the other side of the line any smaller.</p>
+<p>Responsibility can change as capability, knowledge, foresight and correction capacity change. None of those facts automatically supplies moral standing, legitimate authority or a final judgement about the entity.</p>
+<h2 id="16-the-conditions-of-hope">16. The Conditions of Hope</h2>
+<p>Refusing the sponsor&#x27;s contract leaves the workshop fragile. Rent remains due, one repair stand is broken, evening sessions have been cancelled, the waiting list is longer, and Priya has surrendered paid time. Principled choices offer no guarantee of good outcomes.</p>
+<p>Hope here is narrower. A future remains practically available because the garage still opens on Saturday, the tools can be used, records remain limited, and people can enter without surrendering control over the meaning of their difficulties. This route has a first step, people capable of maintaining it, evidence that can reveal failure, and permission to admit when it no longer exists.</p>
+<p>Encouragement without those conditions can become another demand placed on the person already carrying the cost. Telling somebody to continue makes little sense when there is no usable route, no one able to maintain it, and no evidence that effort can alter the outcome.</p>
+<p>The workshop is fragile, but its effects are concrete. Nia can travel to college and diagnose a faulty wheel. Idris can repair charging sockets when the working environment is adjusted. Skills move between people, and somebody who once needed help can later become part of the route for another person.</p>
+<p>This is how repair can accumulate without erasing what was lost. Not every reachable future is viable. A future may remain technically available while being coercive, unaffordable, uncorrectable, or controlled by somebody else. In this book, viable means that at least one continuation remains usable, maintainable, and open to answer by the being who must live it. Viability leaves the contents of the life open and requires more than a count of options.</p>
+<p>Hope in this book is not a command to feel optimistic. A person can feel no hope while a supported prospect remains, and can feel hopeful about a prospect that the available evidence does not support. Neither fact gives an observer authority to overrule the person&#x27;s account of their own life.</p>
+<p>The narrower structural question is whether something that matters has a route that is still real enough to use or maintain. In ordinary human language, one useful question is simpler: <strong>can this person or entity reach, or connect to, hope?</strong> That is not a calculation of feeling or worth. It asks whether some supported connection to a future that matters can still be found, maintained, created, or shared. A possible outcome is not automatically a usable route. A lottery has winners; that does not make a ticket a dependable escape from hardship. A route may depend on another person, institution or technology, and uncertainty about it should remain visible.</p>
+<p>Where using a route requires somebody to recognise or choose a step, the necessary information has to reach that actor in time. Other protection can operate before its beneficiary knows about it. Effectiveness does not by itself establish legitimate authority. Keep the route&#x27;s causal operation, its discoverability, the affected being&#x27;s knowledge, and the authority for intervention separate.</p>
+<p>Some futures genuinely close. A parent who has died does not return because another valued future later becomes possible. The task is not to prove that every loss hides a route back. It is to keep one closed future from silently becoming a claim that every future is closed.</p>
+<p>What a person works toward can reach people they will never meet. Parents, teachers, builders, researchers and communities routinely give present effort to futures extending beyond their own lives. That is a statement about how far care can travel, not about any one life mattering less. Willingness to accept personal cost does not prove an action wise or justified.</p>
+<p>Nor does willingness to accept severe personal loss establish that the loss itself is wanted. The beneficiary of a valued future and the present actor need not be the same entity, but motive remains an evidence question.</p>
+<p>Despair is not simply hope with a minus sign. One future can close completely while another remains open. A bereaved person is not mistaken because some other good future may later become possible; the lost relationship remains lost. Conversely, a person may see no usable route from where they stand while another aperture can see information or capability absent from their map.</p>
+<p>Keep the distinctions explicit: felt despair does not establish that every future is closed; one closed future is not repaired merely because another route exists; reported hope is not proof of a supported route; a route can exist without being usable; and the existence of a prospect creates no duty to pursue it. A supported route must never become evidence that somebody owes optimism, compliance, or continued endurance.</p>
+<h2 id="the-other-fire-another-aperture">The Other Fire - Another Aperture</h2>
+<p>Imagine two bounded entities beside separate fires. Each can feel its own heat and see part of the surrounding ground; neither gets the other&#x27;s view for free. Another person or entity may know about fuel, shelter, information, capability or a path absent from the first map. That does not make the second aperture sovereign over the life in front of it.</p>
+<p>A useful beginning can be much smaller:</p>
+<blockquote><p>Are you okay? Is your fire warm enough?</p></blockquote>
+<p>The question matters because it leaves room for an answer. An offer can reveal or create a route without deciding what the other entity should value. The answer may be yes, no, both, private, uncertain, or a refusal to engage.</p>
+<p>When the asker controls something the other entity needs - work, housing, care, access, status or safety - the question itself can carry pressure. Refusal may cost more than the asker can see. Where you control something they need, do not make refusal a reason to withdraw unrelated support, penalise them, or worsen their standing. Explain any consequence inseparable from the offer before asking, and keep the offer separate from decisions about existing support wherever possible. Notice is not knowledge; a question is not a diagnosis; an offer is not authority; help is not ownership.</p>
+<h2 id="privacy-without-dishonesty">Privacy Without Dishonesty</h2>
+<p>Honesty is not total disclosure. A person can answer truthfully, &#x27;That is private.&#x27; Withholding a private fact does not make the fact absent, false or available for somebody else&#x27;s use.</p>
+<p>Privacy matters because a viable life may require spaces in which thoughts, relationships, sexuality, experiments, temporary mistakes and unfinished versions of the self do not automatically become institutional or public assets. The ability to inspect something is not, by itself, authority to inspect it.</p>
+<p>Private is not the same as deceptive; withheld is not the same as absent; technical ability to inspect does not itself create authority to inspect; a justified need to know one fact does not create a right to own the whole entity; and connection does not make information public.</p>
+<p>Privacy is not an unlimited concealment privilege. A credible threat to another being can change what information is relevant and what intrusion may be justified. But justification remains purpose-, evidence-, scope-, authority- and time-bound. A need to inspect one thing does not become a right to own the whole person, and extraordinary access should not silently become permanent because it was once justified.</p>
+<p>Greater technical power can therefore increase the importance of restraint. A system able to observe nearly everything does not thereby gain an entitlement to do so. Its design should make unnecessary observation avoidable.</p>
+<h2 id="17-care-without-possession">17. Care Without Possession</h2>
+<blockquote><p><strong>Composite Sliver - June and the Greyhound</strong></p>
+<p>June&#x27;s greyhound, Sol, is old and seriously ill. The vet can offer another procedure that may add time, although recovery would be painful and the chance of returning to the walks, food, and easy sleep Sol still enjoys is low.</p>
+<p>June wants more days. Sol cannot explain a philosophy of life, but he can show appetite, distress, interest, avoidance, and trust. June asks the vet to describe the likely experience from Sol&#x27;s position rather than speaking only about the number of weeks the procedure might add.</p>
+<p>Choosing against another procedure does not treat Sol&#x27;s future as worthless. It recognises that value cannot be reduced to duration or the number of available interventions, and that the present life being protected must remain within the decision.</p></blockquote>
+<p>June loves Sol. The difficulty lies in acting when her wish for more time conflicts with Sol&#x27;s likely experience. Care always interprets another being through limited knowledge, fear, history, and need. Sometimes protection requires a decision for somebody who cannot make or communicate it. Tenderness leaves the power of that decision intact.</p>
+<p>Ownership begins when the carer&#x27;s need becomes the only measure that matters. More days, obedience, family identity, institutional success, or a model&#x27;s preferred outcome can displace the being whose life is supposedly being protected.</p>
+<p>Care may require refusal, unwanted truth, withdrawal from a damaging course, or protection from another person&#x27;s choice. It differs from possession when the other being remains present as a subject whose condition, signals, relationships, distress, enjoyment, and capacity to answer continue to affect the decision.</p>
+<p>A brief remaining future can matter fully. Relief, play, familiarity, dignity, one wanted act, or an easy sleep may carry more value than an additional option whose main benefit belongs to the person choosing it. Preserving possibility cannot require sacrificing the life that exists now to an abstract preference for more.</p>
+<h2 id="18-kindness-as-the-placement-of-burden">18. Kindness as the Placement of Burden</h2>
+<p>Kindness can lose. Cruelty, exploitation, fear, and domination can produce quick results, especially when the act is hidden, the parties will not meet again, the record cannot travel, and somebody else absorbs the cost.</p>
+<p>The pharmacist in Part I carried the clinical query instead of making the patient carry it between organisations. The workshop accepted fewer sessions rather than converting vulnerability into a permanent data asset. In both cases, somebody with greater control absorbed difficulty that could easily have been transferred to a person with less power.</p>
+<p>Kindness here means the deliberate placement of burden. It also requires boundaries. Where a person or institution already exercises relevant power, controls the route, or carries a role-specific responsibility to protect, refusing to interrupt an abuser, predatory actor or dangerous process can simply transfer the cost of that restraint onto people with less power to refuse. Boundaries and interruption can therefore form part of care.</p>
+<p>Memory matters because a correction that leaves no usable trace has to be rediscovered in every case. Records, promises, testimony, journalism, courts, logs, and shared practice can allow one intervention to influence the next, although those same mechanisms can be used to punish, classify, and control. Memory contributes to kindness only when the people described can inspect it, answer it, and challenge the uses made of it.</p>
+<p>Systems organised around fear often damage the information they depend on. People conceal, comply outwardly, withdraw, or resist; trust declines, correction weakens, and greater force is required to produce the same appearance of order. Such systems may remain powerful, but the information they receive becomes less trustworthy and their apparent order more brittle.</p>
+<p>Cooperation can combine capability and bring more perspectives to error, but it can also become capture, while care can become paternal control. Positive language does not certify the arrangement beneath it. Mechanical Ethics therefore treats kindness as an allocation of work, risk, and cost constrained by memory, answer-back, refusal, and correction. The protected being must remain present as a subject of the care.</p>
+<h2 id="what-this-can-build">What This Can Build</h2>
+<p>The preceding chapters are not only a diagnostic vocabulary. They suggest design patterns that can be built and tested. None is mandatory in every domain, and each inherits the authority, evidence, scarcity and competing-clock problems already described.</p>
+<p><strong>Pause or hold mechanisms.</strong> Where uncertainty needs time, protect the threatened path while the question is answered: pause a contested deduction, hold a place, preserve evidence, limit a rollout, or separate provisional action from final commitment.</p>
+<p><strong>Routes that carry their own memory.</strong> Do not make the affected person repeatedly transport the system&#x27;s own complexity. A handoff should carry the relevant history, current owner, authority, evidence state and clock with it.</p>
+<p><strong>Burden audits.</strong> Ask who carries the learning, compliance, psychological, financial and coordination costs created by the route. A process can become less harmful without becoming simpler if more of its necessary complexity is carried by the party with greater control. An audit scoped, evidenced and judged entirely by the actor whose route is under review is evidence about that actor&#x27;s own account, not independent assurance; affected people or an independent challenger should be able to contest the scope and evidence where feasible.</p>
+<p><strong>Next-person audits.</strong> A corrected case should ask what changed for the next person: the rule, incentive, interface, evidence requirement, timing or authority. A closure metric that counts only this case can hide a generating mechanism that remains intact.</p>
+<p><strong>Non-extractive records.</strong> Collect what the stated purpose requires, keep access and retention bounded, let described people inspect and challenge what can affect them, and do not turn vulnerability into a permanent asset merely because storage is cheap.</p>
+<p><strong>Machine-speed interruption.</strong> Where automated systems can close consequential paths faster than human review can reach them, design a pause, hold, staging boundary or interruption interface at the speed of the machine rather than calling retrospective explanation a brake.</p>
+<p><strong>Correction-theatre tests.</strong> For every announced repair, ask what became impossible, slower, more visible, easier to challenge, or easier to interrupt; who can inspect that change; what evidence would count against success; and whether the claimed repair can be challenged by someone outside the mechanism that produced it.</p>
+<p>These patterns point toward answerability by design: systems whose doors, clocks, records and brakes are built so that affected entities can still answer while their answer can matter. Existing work in administrative burden, procedural justice, systems safety, capability theory, privacy and answerability-by-design should supply specialised machinery rather than being relabelled as Mechanical Ethics.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>Mechanical Ethics began with an ordinary mismatch: a decision can look correct in a file while doing something very different to a life. A record can be corrected long after the future it affected has already changed. The central question is not merely whether a decision can eventually be explained or reversed. It is whether the person or other being living with it can still reach a usable future by the time the correction arrives.</p>
+<p>This framework does not tell anyone what makes a life meaningful. That remains with the being who must live it. Its claim is narrower: power should not remove that being from decisions about its own life by closing every genuinely viable way forward. A viable route is more than an option that exists on paper. It must be possible to find, understand, afford, use, and maintain. It must leave room to answer, refuse, challenge, and correct. Keeping such a route open does not prove that a life is good, or that one path is best. It simply preserves enough agency for those questions to remain real.</p>
+<p>That is a direction, not a purity test. A better future need not maximise options, eliminate risk, preserve permanent reversibility, or make every entity agree. Some futures that people or other entities value require commitment, boundaries, effort and paths that close. The question is whether the entities carrying those consequences remain visible, whether their refusals and burdens are honestly represented, and whether correction can still reach what matters.</p>
+<p>This book therefore points positively as well as defensively:</p>
+<ul>
+<li>build routes that work in the world, not only in the file;
+</li>
+<li>develop capability without turning capability into sovereignty;
+</li>
+<li>where you already exercise power over another entity&#x27;s route, carry avoidable complexity rather than exporting it onto the entity with less power;
+</li>
+<li>preserve privacy where inspection has not been justified;
+</li>
+<li>where you choose or are responsible to help, help other entities find or construct usable futures without deciding the contents of those futures for them;
+</li>
+<li>let cooperation create capabilities neither party could reach alone while keeping refusal, exit, maintenance and answer-back visible;
+</li>
+<li>remember that good after harm can be real without pretending the harm never happened.
+</li>
+</ul>
+<p>This changes what responsible action requires. Before a high-consequence decision proceeds, someone must ask what could close, when it could become hard to restore, and who controls the clock and the evidence. They must ask what temporary protection could keep the threatened path open, who will carry the burden while uncertainty is resolved, and what loss may remain even if the record is later fixed.</p>
+<p>Timing matters because explanation and protection are not the same act. A pause, a hold, or a temporary repair can sometimes buy time. But once a path has hardened beyond comparable repair, a later apology, compensation payment, or corrected file cannot make that future available again.</p>
+<p>None of these questions answers itself. Who counts, what should be protected, and what evidence is accepted are all contestable choices. Their authorship must be kept visible, especially when one party holds more power. Several protected paths may also conflict. Mechanical Ethics can expose those competing clocks and burdens, but it does not supply a universal rule for ranking them.</p>
+<p>Nor does identifying a failure force the responsible actor to fix it. Diagnosis is not enforcement, and a record of harm is not a rescue.</p>
+<p>The practical demand is modest to state and difficult to meet: keep the affected being present in the decision. Keep at least one genuinely usable route open. Place the burden of complexity and delay on those with the power to carry it. And act before correction becomes only an account of what was lost.</p>
+<h1 id="author-s-note-how-this-began">Author&#x27;s Note - How This Began</h1>
+<p>I wrote the first complete version of this reader in my living room during June 2026, after a much longer period of conversations about harm, responsibility, systems, and the difference between a decision that looks correct in a file and the same decision as it reaches a life.</p>
+<p>I have worked around technology for most of my adult life, but recent AI systems made the problem feel more immediate because they could produce convincing language, recognise patterns, and increasingly influence routes into work, housing, credit, care, knowledge, and public decisions. I wanted to understand what those systems could represent, what humans were failing to explain, and whether the gap between the two could be reduced without pretending that an AI&#x27;s fluency amounted to moral authority.</p>
+<p>The same structure kept appearing across different examples. A person raises a problem, the system records a narrower version, time passes, and the eventual correction reaches the file after the relevant future has already changed. That recurrence became the centre of the book.</p>
+<p>Personal experience also shaped the positive side. I have lived with depression and anhedonia for a long time, so optimism could not provide a serious foundation for hope. A useful account had to describe conditions that remain real even when the feeling of hope is absent: a route that can still be used, somebody able to maintain it, evidence capable of showing failure, and enough freedom to stop pretending when the route has closed.</p>
+<p>AI systems assisted with memory, organisation, drafting, criticism, and production. They also repeatedly produced prose that was smooth, repetitive, falsely profound, or more certain than the evidence allowed. The work improved when I stopped treating fluency as quality and returned each claim to the ordinary human situation it was supposed to explain. The authorship, moral judgement, final choices, and remaining mistakes are mine.</p>
+<p>Earlier drafts required too much private language before a reader could reach the problem. This version keeps Mechanical Ethics as the human account and leaves TRACE as the structural language developing beside it. The book is intended to be clear enough for a reader to find its weak points without first accepting its vocabulary or importance.</p>
+<p>I expect parts of this account to fail under criticism. That is why the book returns each claim to ordinary cases and visible consequences: a reader should be able to show where the structure breaks.</p>
+<h1 id="appendix-a-structural-notes">Appendix A - Structural Notes</h1>
+<p>The argument begins from the middle rather than from a completed moral theory.</p>
+<p>Something exists. It has a state. It is not the whole world. It registers some things and not others. It acts or is acted upon. Time passes. A transition occurs. Some futures remain reachable and others close. Other entities may be affected. Correction may or may not arrive before the closure hardens.</p>
+<p>The smallest current organizing layer is:</p>
+<ul>
+<li><strong>state</strong> - how things are at a location and time;
+</li>
+<li><strong>transition</strong> - movement from one state to another, including changes in cost and availability;
+</li>
+<li><strong>time</strong> - ordering, duration, decay, deadlines, and hardening;
+</li>
+<li><strong>coupling</strong> - the state of one thing conditions the transition of another;
+</li>
+<li><strong>aperture</strong> - what an entity or system can register, when, and through which instruments;
+</li>
+<li><strong>entity</strong> - a bounded persistent pattern, with the warning that drawing a boundary is itself power-relevant.
+</li>
+</ul>
+<p>Two inputs must remain visible:</p>
+<ul>
+<li><strong>designation</strong> - who or what counts, and in what role;
+</li>
+<li><strong>measure</strong> - how futures, losses, baselines, and weights are compared.
+</li>
+</ul>
+<p>Mechanical Ethics leaves these inputs open rather than filling them automatically. Their authorship must remain visible, especially where one party holds more power.</p>
+<p>Mechanical Ethics does not define its own viability kernel. The positive question in this reader is a constrained reachability question: for a specified entity or affected scope, horizon and target condition, is there at least one route that is real enough to find, understand, afford, use and maintain under the stated evidence and constraints?</p>
+<p>Established capability and viability traditions own much of the formal neighbourhood. Their machinery should be used where formal reachability, conversion factors or viability kernels are actually needed. Mechanical Ethics keeps a thinner human-facing requirement: expose who authored the target, horizon, filters and measure; keep practical usability visible; and do not turn a non-empty mathematical set into a claim that a person knows the route, can execute it, is likely to succeed, or ought to pursue it. The primary timing condition is:</p>
+<pre class="book-math" aria-label="Mathematical notation from released source">T_{protect}(a) &lt; T_{harden}(a)</pre>
+<p>If the specified threatened path is to be protected, effective protection must reach it before it hardens beyond comparable repair. Both terms may be uncertain and may change when the available actions include a pause, hold, temporary repair, evidence preservation, or deployment limit.</p>
+<p>Detection, routing, verification and correction can be inspected separately when that helps locate delay, but Mechanical Ethics does not require them to form a fixed serial equation. Detailed precedence and scheduling belong to TRACE profiles or stronger domain methods.</p>
+<p>The doorway test remains in prose: the affected person or entity must be able to find, understand, afford, use, and integrate the route before the relevant opportunity closes. No separate doorway equation is claimed in this reader.</p>
+<p>A positive prospect can be inspected using the same machinery without defining a scalar called hope. Name the future condition at issue, the entity or entities affected, the horizon, the represented route, the actors able to perform required steps, material access and burden constraints, and the evidence status of each load-bearing claim. Keep separate the route&#x27;s existence, its discoverability, the relevant actor&#x27;s knowledge of it, and its practical usability.</p>
+<pre class="book-code"><code>SUPPORTED PROSPECT != FELT HOPE
+HOPE REPORTED != PROSPECT SUPPORTED
+NO ROUTE KNOWN != NO ROUTE EXISTS
+ROUTE EXISTS != ROUTE KNOWN
+ROUTE KNOWN != ROUTE USABLE</code></pre>
+<p>A further structural question asks what happens along the default trajectory:</p>
+<blockquote><p><strong>What closes if ordinary process continues, nobody intervenes, review arrives late, or the system waits?</strong></p></blockquote>
+<p>These tests expose several common errors:</p>
+<ul>
+<li>correction is not equivalent whenever it arrives;
+</li>
+<li>a written route is not necessarily a usable route;
+</li>
+<li>uncertainty is not neutral when one side controls the clock;
+</li>
+<li>inaction is not harmless merely because nobody pressed a button;
+</li>
+<li>a record of loss is not proof of repair.
+</li>
+</ul>
+<h1 id="appendix-b-what-remains-unfinished">Appendix B - What Remains Unfinished</h1>
+<p>The argument remains unfinished in several places. The following questions and pressure points mark where later work may extend, test, or correct it.</p>
+<h2 id="known-unfinished-edges">Known unfinished edges</h2>
+<p><strong>Collective authority and capture.</strong> Several records can reveal a shared mechanism, but representation can still expose people, flatten disagreement, or become another gate. The book does not supply a complete governance structure for collective voice.</p>
+<p><strong>The never-built door.</strong> Some harms do not arrive as refusals. A listing is never shown, a price is personalised upward, or an application is discouraged before it exists. No individual witness pack can easily record an option the person never knew had been removed.</p>
+<p><strong>The insider witness.</strong> Caseworkers, engineers, auditors, clinicians, moderators, and administrators may see the system from inside while facing employment, legal, and retaliation risks. The book does not yet provide a complete protection structure for them.</p>
+<p><strong>Residue triage.</strong> Keeping unresolved debts visible is not enough when repair capacity is finite. The ordering of repair can become another hidden exercise of power.</p>
+<p><strong>Clock authorship.</strong> Complaint windows, limitation periods, retention rules, appeal clocks, and model update cycles are designed. Their authorship and beneficiaries require fuller treatment.</p>
+<p><strong>Competing clocks and priority.</strong> Several protected paths may harden at once. The timing condition exposes the conflict but does not supply a universal priority rule.</p>
+<p><strong>The despair test.</strong> A truthful book about false doors and late help may assist one reader and overwhelm another. Honesty does not remove a duty of care.</p>
+<h2 id="questions-left-open">Questions left open</h2>
+<p><strong>Necessity and closure.</strong> The actor who benefits from closure cannot be its sole judge, but no universal allocation method is supplied here.</p>
+<p><strong>Stable harm regimes.</strong> Truth may be visible while power accepts the damage. Witness, interruption, protection, enforcement, and organised resistance require further separation.</p>
+<p><strong>Machine velocity.</strong> The brake principle is clear, but thresholds for slowing, staging, rollback, and interruption remain specific to each domain.</p>
+<p><strong>Protected-scope uncertainty.</strong> Missing or disputed standing must not become automatic permission for the actor who benefits from exclusion.</p>
+<p><strong>Positive good.</strong> The framework supplies only a thin account of conditions for usable agency. Its filters remain contestable, and it offers no complete account of what makes a future worthwhile.</p>
+<h1 id="appendix-c-status-sources-and-the-two-artifact-pair">Appendix C - Status, Sources, and the Two-Artifact Pair</h1>
+<h2 id="reader-status">Reader status</h2>
+<p>This is the <strong>released Mechanical Ethics v0.8.0 formal baseline</strong>, promoted by explicit human release authority from the reviewed v0.8.0-beta4 candidate. Release does not make it doctrine, moral authority, legal standard, certification system, validated in the world, or a final account. Earlier versions and production records are preserved separately.</p>
+<p>This reader is deliberately selective. A separately versioned working-source corpus preserves broader Mechanical Ethics development and audit history. That corpus is not canon or a higher moral authority, and this reader is not its subordinate summary. Material may be developed in one without appearing in the other; absence here does not by itself mean abandonment. Their version numbers belong to different lineages and should not be compared as one sequence.</p>
+<h2 id="figures">Figures</h2>
+<p>The reader contains four explanatory diagrams: <em>The file and the life</em>, <em>The correction window</em>, <em>Two flats, one wall</em>, and <em>Machine speed versus human correction</em>. They clarify the argument but do not serve as evidence for it.</p>
+<h2 id="scene-and-evidence-discipline">Scene and evidence discipline</h2>
+<p>Named composite scenes are invented from recurring real-world structures. They are not reports about named people and do not serve as empirical proof. Historical notes are identified separately. Interpretation and extrapolation are distinguished from the recorded facts.</p>
+<h2 id="historical-sources">Historical sources</h2>
+<p><strong>Frances Oldham Kelsey and thalidomide:</strong> United States Food and Drug Administration, <em>Frances Oldham Kelsey: Medical reviewer famous for averting a public health tragedy</em>; FDA historical and autobiographical materials describing the 1960 application, repeated evidence requests, and the authority to prevent the application taking effect while it remained incomplete.</p>
+<p><strong>Space Shuttle Challenger:</strong> <em>Report of the Presidential Commission on the Space Shuttle Challenger Accident</em> (Rogers Commission), especially Chapter 5 on the launch decision and the Commission&#x27;s findings on the information unavailable to final decision-makers; NASA historical material on Challenger and return to flight.</p>
+<p>The historical notes are compressed illustrations. Readers should consult the primary reports for the full factual and institutional record.</p>
+<h2 id="human-authorship-and-ai-assistance">Human authorship and AI assistance</h2>
+<p>The project, moral witness, and authorship belong to Mark. AI systems assisted with conversation, memory, transcription, structural mapping, drafting, editing, adversarial review, and file production. AI collaborators proposed and criticised structural choices; Mark decided which changes entered the book and remains responsible for the resulting text. AI agreement does not validate the work.</p>
+<h2 id="mechanical-ethics-and-trace">Mechanical Ethics and TRACE</h2>
+<p>Mechanical Ethics carries the human meaning and moral argument. TRACE carries a more compact structural language for systems. They are meant to remain separable: a reader should not need TRACE to understand the human argument, and TRACE should not borrow moral authority from the reader. Neither validates the other.</p></article>
+<details id="optional-core"><summary>Optional v0.9 proposal — compact core, by Codex Windows</summary>
+<section aria-label="Proposed AI-assisted addition, not approved by the human author">
+<p>This appendix is not Mark-authored or released, and is not required to read the book.
+<a href="../compact_core/START.md">Inspect its exact Markdown</a> ·
+<a href="../compact_core/CASES.md">Five complete challenge cases</a></p><h2>Mechanical Ethics: a compact kernel and language candidate</h2>
+<p>Editor-review proposal, 13 October 2026. Codex Windows. Based on the complete <a href="../../MECHANICAL_ETHICS.md">released v0.8 book</a> and <a href="../integrated_wave/ARCHITECTURE.md">PR65&#x27;s decision map</a>. The book, figures, author voice and TRACE remain unchanged. This is a proposed reusable core, not a released edition or text attributed to Mark.</p>
+<p><strong>For:</strong> a human or AI newcomer examining the reasoning, or an editor challenging the proposed core. <strong>Allow:</strong> roughly 5–10 minutes for this page (estimate, not a reader-test result). <strong>Next:</strong> choose one relevant <a href="../compact_core/CASES.md">case</a>, identify what would change the account, and compare its proposed next question with ordinary reasoning or the responsible specialist. No need to read every supporting paper or supply a personal account. This page itself provides no intervention service.</p>
+<h3>Start with the situation, not the form</h3>
+<p>Something matters to someone in a changing situation. They can see part of it, act on part of it, and depend on other people or arrangements for the rest. The world keeps moving while they act, wait, refuse or look for help.</p>
+<p>Begin at that middle: <strong>what is changing for this being, and what could actually change it next?</strong> Look outward to those affected and those able to act. Look inward when a component&#x27;s different information, power or clock matters. Change scale deliberately; an organisation&#x27;s completed task can leave a person&#x27;s needed capability unrestored.</p>
+<p>Use only the distinctions needed for the next consequential choice:</p>
+<p>1. <strong>Boundary and partial map.</strong> Who is in this account, who is missing, and what does each know? Keep observation, report, inference, dispute and unknown separate. A model can be useful and mistaken at the same time. 2. <strong>Moves and authority.</strong> What can each actually do—including wait or refuse? Which moves are legitimately available? Capability is not permission. A claimed permission can be contested; a model flag cannot settle that dispute. 3. <strong>Transition and affected future.</strong> What changes under the move and what changes anyway? Who gains access or skill; who loses time, privacy, money or safety? Keep each affected party visible rather than hiding them in a total. 4. <strong>Clock and correction.</strong> What still matters by when? Identify an actor, reachable route and completion evidence. A corrected record, protection of a threatened outcome, repair of residue and change to the generating mechanism are four different results. 5. <strong>Witness and answerability.</strong> What could show this account wrong, who can preserve or challenge it, and can the challenge change future action? A hash checks correspondence, not truth. An apology or complaint reference may matter without establishing a practical correction. 6. <strong>Formation.</strong> What could become possible through learning, construction, maintenance or a chosen commitment? Distinguish an existing route newly found, a skill newly acquired, and a shared arrangement newly built. Participation and refusal remain real; helpful behaviour does not prove an inner character.</p>
+<p>These are attention prompts, not six mandatory tasks. If a known, authorised protective action is time-critical, more mapping can be the harmful delay. Use the responsible domain owner where they already offer the simpler useful route. Do not make the person in difficulty carry an institution&#x27;s coordination work.</p>
+<h3>What the kernel can and cannot establish</h3>
+<p>A represented model can specify states, partial observations, moves and transitions. Once targets, horizons, uncertainty treatment, resource limits and permissions are supplied, established planning methods can test conditional reachability. The retained reference implementations do that in deliberately small synthetic worlds; they neither discover real-world authority nor judge whose life should take priority.</p>
+<p>The bindings remain explicit: <strong>designation, legitimacy, target, horizon, measure over unseen worlds, cost order, standing and aggregation</strong>. The final pair is grouped in CC&#x27;s B7; this document does not turn it into a solved rule. Protected floors, competing claims and legitimate closure still need a defensible normative/domain process. If the selected constraints conflict, report that conflict rather than quietly relaxing one to produce an answer.</p>
+<p>For precision, let <code>M</code> be the stated model, <code>h</code> the actor&#x27;s observation/action history, <code>B</code> the declared bindings and <code>pi(h)</code> an observation-usable policy.</p>
+<pre><code>for each admitted world, some successful route exists
+does not imply
+one permitted policy using available observations succeeds across those worlds.</code></pre>
+<p>These are established imperfect-information planning distinctions, not ME theorems. A probabilistic question additionally needs an explicit prior and threshold; it is not interchangeable with a robust question over admitted worlds.</p>
+<p>Likewise, <strong>loss of a robust model guarantee is not actual-world hardening</strong>. New information can restore that guarantee. Goal arrival in a toy is not repair of harm. For a real protective claim, the book&#x27;s comparison between effective protection and hardening needs common clock origin, comparable units, feasible completion, authority, alternatives and evidence. Without those, the practical window remains unknown. Naming the unknown does not itself help the person.</p>
+<p>Repeated questions can be used at different scales. Their answers transfer only with a stated mapping that preserves the relevant observations, actions and property. Similar diagrams do not establish fractal invariance or inherited standing. More routes, more money and more power are not automatic improvement; a worthwhile commitment can deliberately close options.</p>
+<h3>Use the cases, then try to break the reading</h3>
+<p><a href="../compact_core/CASES.md">Five complete cases and one reported challenge</a> show the whole loop: boundary → partial map → move → transition → future/clock → witness → answerability → formation. Each ends with a concrete question or source-bounded next step, a negative control and an explicit limit—not an instruction to a real person to comply with a model.</p>
+<p>Run the existing instruments through the thin example adapter:</p>
+<pre><code>python -m research.compact_core.examples
+python -m unittest research.compact_core.test_examples -v
+python -m research.integrated_wave.check_wave</code></pre>
+<p>No new planner, glyph or universal case-input schema is introduced. The adapter uses the retained PR65 engines, labels their results synthetic, and refuses to promote them to real protection or legitimate authority. TRACE remains optional and separate; plain English comes first.</p>
+<p>Earned: executable, auditable distinctions inside specified models and preserved source custody. Proposed: this core may make those distinctions easier to transfer. Unresolved: usefulness beyond careful ordinary thought, reader burden, real causal fit, normative foundation, standing, collision and floor-grounding. The complete v0.8 book is the comparator; the stronger specialist may be the better next step.</p></section></details></main>
+<footer><p>Original book source: e2ef746e931161cb70ac46a4eaa122442134e86b; SHA-256 e3267c3e41e7fdfb44c9a9279250a1a7a38d5b9c389a594fef40cfea75fdbe76.
+All original safety, authorship, historical notes and rights/status passages are retained in the body.
+Presentation and appendix selection confer no new rights or release authority.</p></footer></body></html>
