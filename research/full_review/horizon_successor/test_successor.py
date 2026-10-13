@@ -44,6 +44,8 @@ class PositiveHumanSuccessor(unittest.TestCase):
         self.assertEqual(count, 1)
         restored = restored.replace(successor.NEW_LABEL, successor.PR67_LABEL)
         restored = restored.replace(successor.NEW_ROUTE, successor.OLD_ROUTE)
+        restored = restored.replace(successor.NEW_EDITOR_ROUTE, successor.OLD_EDITOR_ROUTE)
+        restored = restored.replace(successor.NEW_STYLE, "")
         restored = restored.replace(
             "Full ME v0.8 text retained; a clearly marked AI-assisted Part VI bridge is proposed "
             "before the original Conclusion, and the separate compact-core appendix remains optional.",
@@ -53,6 +55,25 @@ class PositiveHumanSuccessor(unittest.TestCase):
             "clearly bounded and attributed; the optional appendix remains a Codex proposal.",
             "The original book below is Mark’s released work; the appendix is a Codex proposal for his editorial decision.")
         self.assertEqual(restored, self.base)
+
+    def test_ai_proposal_section_identity_survives_text_only_excerpt(self):
+        region=self.text.split('<aside id="horizon-successor"',1)[1].split('</aside>',1)[0]
+        heads=re.findall(r'<h2 id="(horizon-[^"]+)">(.*?)</h2>',region,re.S)
+        self.assertEqual(len(heads),6)
+        self.assertTrue(all(t.startswith("AI-assisted proposal — ") for _,t in heads))
+        self.assertEqual(region.count("AI-assisted proposal — "),13) # six headings, six TOC links, one intro
+        self.assertEqual(region.count('class="proposal-nav"'),1)
+        for ident,_ in heads:
+            self.assertIn('href="#'+ident+'"',region)
+        self.assertIn("END OF AI-ASSISTED PROPOSAL — MARK’S ORIGINAL CONCLUSION FOLLOWS",region)
+        self.assertIn('aria-label="Six AI-assisted proposed sections"',region)
+
+    def test_reader_routes_to_current_editorial_guide_and_scoped_reflow(self):
+        self.assertIn('href="horizon_successor/EDITORIAL_ROUTE.md">Current proposal editorial guide</a>',self.text)
+        self.assertIn('href="EDITORIAL_DECISION.md">Earlier PR67 editorial history</a>',self.text)
+        self.assertIn("aside.author-proposal{border:2px solid var(--accent)",self.text)
+        self.assertIn("footer{overflow-wrap:anywhere",self.text)
+        self.assertNotIn("No overflow observed",self.text) # source CSS is not viewport evidence
 
     def test_original_55_headings_and_figures_still_present(self):
         self.assertEqual(self.receipt["original_chapter_count"], 55)
@@ -91,6 +112,10 @@ class PositiveHumanSuccessor(unittest.TestCase):
         bridge = successor.SOURCE.read_text(encoding="utf-8")
         self.assertNotIn("## Mandatory",bridge)
         self.assertIn("This scene is invented",bridge)
+        self.assertIn("Elena, Luca and Samir",bridge)
+        self.assertNotIn("Nia proposes teaching",bridge)
+        self.assertIn("independently held, trustworthy earlier digest",bridge)
+        self.assertIn("A checksum calculated only after a file was changed",bridge)
         self.assertIn("not blueprints",bridge)
 
     def test_all_relative_links_and_anchor_routes_resolve(self):
