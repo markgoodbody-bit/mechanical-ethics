@@ -60,9 +60,9 @@ A receiver may **update its response** after observing the difference without pr
 |---|---|---|
 | t0 tenant reports / owner null | file1, exposure1, repair0, residue1 | Accurate case progress and worldly exposure are separate |
 | t1 tenant null / owner repairs | file1, exposure1, repair1, residue2 | Later real change does not erase accumulated residue |
-| t0 tenant null / owner repairs | file0, exposure0, repair1, residue1 | An already-authorised direct act may outperform routing paper first |
+| t0 tenant null / owner repairs (one tick ONLY) | file0, exposure0, repair1, residue1 | A direct act changes the current state; **not a same-horizon comparison** with the two-tick delayed case |
 
-The model does **not** show the repair preventing every later external hazard. It can lower simulated current exposure by one; the exogenous generator is stipulated independently, so do not infer a universal medical protective rate or full remediation. The test guards against `record updated = exposure resolved`.
+The one-tick immediate-repair row and two-tick delayed-repair row have **different horizons**; do not infer a timing advantage by comparing their totals. In fact, in this intentionally simple generator the exogenous hazard continues regardless of the repair flag. The lab therefore does **not** establish that early repair prevents future exposure; such a claim would need a state-dependent hazard process and evidence of effectiveness. The model does **not** show the repair preventing every later external hazard. It can lower simulated current exposure by one; the exogenous generator is stipulated independently, so do not infer a universal medical protective rate or full remediation. The test guards against `record updated = exposure resolved`.
 
 **Falsifier:** Repair can be unauthorised, dangerous or ineffective; prompt checks may save lives; record-keeping can itself make later repair possible. None of that is resolved by file/exposure counters. Actual remedies require responsible professionals, domain law and current evidence.
 
