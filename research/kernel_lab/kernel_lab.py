@@ -43,11 +43,13 @@ def view(scene: Scenario, world: Mapping[str, int], actor: str) -> dict[str, int
 
 def tick(scene: Scenario, world: Mapping[str, int], t: int,
          actions: Mapping[str, str]) -> dict:
-    """External tick occurs even when everybody selects null; then resolved joint moves.
+    """External tick occurs even when everybody selects null; joint actions then resolve together.
 
-    Pre-action views are the only facts for observation-bound policy choice.
-    Rules can test hidden facts as part of the *modelled world mechanism*; actors
-    are not thereby entitled to see them. This is an execution engine, not a solver.
+    All actions are chosen against views BEFORE exogenous change. Their guards
+    are checked against one common POST-exogenous state, before ANY actor effect.
+    Effects are summed on the resulting state after all guards and permissions pass.
+    This prevents order-dependent same-tick learning and is not an optimiser.
+    Rules can test hidden world facts; that does not grant actors that knowledge.
     """
     if t < 0 or t >= len(scene.shocks):
         raise IndexError("outside authored horizon")
@@ -56,22 +58,30 @@ def tick(scene: Scenario, world: Mapping[str, int], t: int,
     if not set(world) == dict(scene.initial).keys():
         raise ValueError("world schema differs from initial contract")
     seen = {actor: view(scene, world, actor) for actor in scene.actors}
-    after = dict(world)
-    _change(after, scene.shocks[t])
+    post_external = dict(world)
+    _change(post_external, scene.shocks[t])
     impacts = []
+    chosen = []
+    # All action guards are checked against the SAME state after exogenous change.
+    # A move cannot become available because a different actor's move was
+    # processed earlier in this tick. This is authored simultaneous semantics,
+    # NOT a general game-theoretic equilibrium or an observation-policy solver.
     for actor in scene.actors:
         move = actions[actor]
         if move == "null":
             impacts.append((actor, move, "NO_DIRECT_ACT;_WORLD_STILL_CHANGED"))
             continue
         matches = [r for r in scene.rules if r.actor == actor and r.move == move
-                   and all(after[k] == v for k, v in r.requires)]
+                   and all(post_external[k] == v for k, v in r.requires)]
         if len(matches) != 1:
             raise ValueError(f"move has {len(matches)} matching rules: {actor}/{move}")
         if not matches[0].permitted:
             raise PermissionError(f"modelled permission denied: {actor}/{move}")
-        _change(after, matches[0].delta)
+        chosen.append(matches[0])
         impacts.append((actor, move, "MODELLED_EFFECT_ONLY"))
+    after = dict(post_external)
+    for rule in chosen:
+        _change(after, rule.delta)
     return {"case": scene.name, "t": t, "before": dict(world), "views": seen,
             "external": dict(scene.shocks[t]), "actions": dict(actions),
             "impacts": impacts, "couplings": scene.couplings, "after": after}
