@@ -24,21 +24,32 @@ these sources validates them. No release, public website, provider call or human
 participant is part of this package. The complete PR59 alternative manuscript is
 an external editorial comparison, not silently adopted as the book.
 
-## Read in this order
+## Start here — choose a route, not a reading stack
 
-1. [Complete released book](../../MECHANICAL_ETHICS.md). Start with its entity-first
-   opening, Leah/Mia, timing, and Part VI; retain the original voice and scenes.
-2. [Consolidated architecture and decision map](ARCHITECTURE.md). This selects the
-   defensible kernel and identifies discrepancies instead of averaging them away.
-3. [Framework editorial reconciliation](../ME_V0_9_HUMAN_EDITORIAL_RECONCILIATION_FW_20261013.md).
-   It proposes a short formation bridge rather than another complete rewrite.
-4. [Optional short offline human companion](../offline_review/human_review_offline.html).
-   This is the Build PR63/64 Workshop-first alternative, not the full book.
-5. [Claude mathematical reference](../ME_V0_9_MATH_KERNEL_CC.md), then the relevant
-   executable case. Readers do not need to run a solver to understand the book.
+For a newcomer reviewing the compact proposal, read [START](../compact_core/START.md)
+first. Allow roughly **5–10 minutes**, then choose one case that resembles the
+distinction you want to challenge. This is a reading-time estimate, not a measured
+reader result. The core and its cases are editorial research, not an action service.
 
-The archaeology and retention maps are supporting custody, not mandatory reading
-for a person with an urgent practical problem.
+For the complete human work, read the [released book](../../MECHANICAL_ETHICS.md).
+Its original opening, scenes, figures and Part VI remain the baseline, not a
+prerequisite to every use of the compact proposal.
+
+Only follow a supporting source when it answers your particular review question:
+
+- [Architecture and contradiction map](ARCHITECTURE.md): which interpretation was
+  selected and what remains disputed.
+- [Framework editorial reconciliation](../ME_V0_9_HUMAN_EDITORIAL_RECONCILIATION_FW_20261013.md):
+  the proposed formation bridge and authorial choices.
+- [Offline human companion](../offline_review/human_review_offline.html): the
+  alternative Workshop-first entrance, not the complete book.
+- [Claude mathematical reference](../ME_V0_9_MATH_KERNEL_CC.md): technical
+  assumptions and prior owners. Its historical D6/P4 headings use correction
+  terminology; read those computed quantities as **goal-continuation guarantees**,
+  not real remedies, as the architecture explains.
+
+The rest is custody/reference material, not a compulsory reading sequence.
+People in an urgent practical situation should not have to work through it.
 
 ## One integrated source check
 
