@@ -24,6 +24,7 @@ class Scenario:
     rules: tuple[Rule, ...]
     shocks: tuple[tuple[tuple[str, int], ...], ...]
     claims: tuple[str, ...] = ()
+    couplings: tuple[tuple[str, str, str], ...] = ()
 
 
 def _change(values: dict[str, int], deltas: tuple[tuple[str, int], ...]) -> None:
@@ -73,7 +74,7 @@ def tick(scene: Scenario, world: Mapping[str, int], t: int,
         impacts.append((actor, move, "MODELLED_EFFECT_ONLY"))
     return {"case": scene.name, "t": t, "before": dict(world), "views": seen,
             "external": dict(scene.shocks[t]), "actions": dict(actions),
-            "impacts": impacts, "after": after}
+            "impacts": impacts, "couplings": scene.couplings, "after": after}
 
 
 def trace(scene: Scenario, moves: tuple[Mapping[str, str], ...]) -> list[dict]:
@@ -110,19 +111,22 @@ def case(name: str, variant: int = 0) -> Scenario:
             ((), ()), ("Unseen history is not a diagnosis",))
     if name == "workshop":
         return Scenario(name, ("learner", "mentor"),
-            (("cash", 3), ("skill", 0), ("shared_skill", 0), ("permission", 1)),
-            (("learner", ("cash", "skill")), ("mentor", ("skill", "permission"))),
+            (("cash", 3), ("skill", 0), ("shared_skill", 0), ("permission", 1), ("goal", 0)),
+            (("learner", ("cash", "skill", "goal")), ("mentor", ("skill", "permission"))),
             (Rule("learner", "practice", (), (("cash", -1), ("skill", 1))),
+             Rule("learner", "reaim", (("skill", 1),), (("goal", 1),)),
              Rule("mentor", "teach", (("skill", 1), ("permission", 1)), (("shared_skill", 1),))),
-            ((), ()), ("Ability acquired is not proof of cooperation's goodness",))
+            ((), ()), ("Ability acquired is not proof of cooperation's goodness",),
+            (("mentor", "learner", "information/skill"),))
     if name == "remedy":
         return Scenario(name, ("tenant", "owner"),
             (("exposure", 0), ("file", 0), ("repair", 0), ("residue", 0)),
             (("tenant", ("exposure", "file")), ("owner", ("file", "repair"))),
             (Rule("tenant", "report", (), (("file", 1),)),
-             Rule("owner", "repair", (), (("repair", 1),))),
+             Rule("owner", "repair", (), (("repair", 1), ("exposure", -1)))),
             ((("exposure", 1), ("residue", 1)), (("exposure", 1), ("residue", 1))),
-            ("Record movement cannot undo accumulated damage",))
+            ("Record movement cannot undo accumulated damage",),
+            (("owner", "tenant", "authority/protection"),))
     if name == "closure":
         return Scenario(name, ("operator", "neighbor"),
             (("open_routes", 3), ("operator_gain", 0), ("neighbor_loss", 0), ("barrier", 0)),
@@ -130,7 +134,8 @@ def case(name: str, variant: int = 0) -> Scenario:
             (Rule("operator", "close_unsafe", (), (("open_routes", -1), ("barrier", 1))),
              Rule("operator", "extract", (), (("operator_gain", 3), ("neighbor_loss", 4))),
              Rule("operator", "seize", (), (("operator_gain", 5),), False)),
-            ((),), ("More routes/wealth for one actor is not an ethical ranking",))
+            ((),), ("More routes/wealth for one actor is not an ethical ranking",),
+            (("operator", "neighbor", "burden/imposition"),))
     if name == "stale":
         return Scenario(name, ("reader",),
             (("source_value", 1), ("cached_value", 1), ("check_count", 0)),
