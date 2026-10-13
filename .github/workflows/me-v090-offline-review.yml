@@ -1,0 +1,39 @@
+name: ME research offline reader source and browser checks
+on:
+  push:
+    branches:
+      - build/me-v090-offline-review-edition-20261013
+    paths:
+      - "research/offline_review/**"
+      - "research/human_review/**"
+      - ".github/workflows/me-v090-offline-review.yml"
+  pull_request:
+    paths:
+      - "research/offline_review/**"
+      - "research/human_review/**"
+      - ".github/workflows/me-v090-offline-review.yml"
+permissions:
+  contents: read
+jobs:
+  source-custody:
+    name: Exact source and offline markup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python research/offline_review/build_review.py --check
+      - run: python -m unittest discover -s research/offline_review -p 'test_review.py' -v
+  browser-and-print:
+    name: Chromium mobile desktop keyboard print
+    runs-on: ubuntu-latest
+    needs: source-custody
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install "playwright==1.56.0"
+      - run: python -m playwright install --with-deps chromium
+      - run: python research/offline_review/browser_check.py
