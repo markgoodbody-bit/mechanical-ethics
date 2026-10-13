@@ -1,0 +1,43 @@
+{
+  "format": "me.research.offline-review.manifest.v1",
+  "status": "RESEARCH_ONLY_NOT_RELEASED_NOT_REPLACEMENT_AUTHOR_GATE_MARK",
+  "source": {
+    "repository": "markgoodbody-bit/mechanical-ethics",
+    "pull_request": 63,
+    "immutable_commit": "356b425cd5f8ce2715b1528db568f0f21592aa78",
+    "path": "research/human_review/ME_V0_9_SHORT_HUMAN_REVIEW_CANDIDATE_20261013.md",
+    "git_blob_sha1": "5b435896169f8de7d2508ed658ce5047f84ceebb",
+    "authorship": "Short research review derived from existing human-authorised v0.8 composites; NOT a replacement of original human author note"
+  },
+  "render": {
+    "output": "research/offline_review/human_review_offline.html",
+    "git_blob_sha1": "4d4b6ed2551e6a28d350ec9f489e661468a5f4f5",
+    "source_lock_command": "python research/offline_review/build_review.py --check",
+    "generator": "research/offline_review/build_review.py",
+    "template": "research/offline_review/layout.html",
+    "source_sections_in_order": [
+      "1. More than a repaired bicycle",
+      "2. The future does not wait for our account of it",
+      "3. Routes we find, routes we make",
+      "4. Other people are not extensions of the plan",
+      "5. Honest accounts have edges",
+      "6. What correction reaches",
+      "7. A useful language should make the next step lighter",
+      "8. The claim we can carry, and the claims we cannot",
+      "An unfinished ending",
+      "Source and status note for this optional review"
+    ],
+    "offline_content": true,
+    "external_assets": [],
+    "html_inline_style": true,
+    "javascript": false
+  },
+  "custody": {
+    "released_me": "https://github.com/markgoodbody-bit/mechanical-ethics/blob/e2ef746e931161cb70ac46a4eaa122442134e86b/MECHANICAL_ETHICS.md",
+    "status": "Released v0.8 complete original remains separately intact, including author note, four figures, safety guidance, historical/source notes",
+    "protected_artwork_bytes_copied": false,
+    "independent_reader_test": false,
+    "public_release": false,
+    "permission_or_license_grant": false
+  }
+}
