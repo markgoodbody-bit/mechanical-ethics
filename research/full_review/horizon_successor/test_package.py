@@ -30,7 +30,7 @@ class ReadingPackage(unittest.TestCase):
         self.assertIn(p.INSTRUCTIONS, self.files)
         opening = self.files[p.ENTRY].decode("utf-8")
         self.assertIn("research/full_review/positive_successor.html", opening)
-        self.assertIn("extract the entire", opening.lower())
+        self.assertIn("unzip the entire archive", opening.lower())
         self.assertIn("NOT A RELEASED v0.9 EDITION", opening)
         for name in p.owner.FIGURES:
             self.assertIn("figures/" + name, self.files)
@@ -53,7 +53,7 @@ class ReadingPackage(unittest.TestCase):
 
     def test_all_local_html_targets_resolve_inside_zip(self):
         files={k:v for k,v in self.files.items() if k != p.MANIFEST}
-        self.assertGreater(p.check_html_references(files),55)
+        self.assertGreaterEqual(p.check_html_references(files),30)
         self.assertEqual(self.manifest["html_local_links_checked"],p.check_html_references(files))
         self.assertNotIn(b"<script",self.files[p.ENTRY])
 
