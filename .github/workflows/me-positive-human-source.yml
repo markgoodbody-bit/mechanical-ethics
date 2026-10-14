@@ -37,10 +37,16 @@ jobs:
           python -m unittest research.full_review.test_reader -v
       - name: Retained whole-wave source witness
         run: python -m research.integrated_wave.check_wave
+      - name: Assemble complete offline book and real dependency folders
+        run: python -m research.full_review.horizon_successor.package --stage
+      - name: Verify archive determinism, file hashes, links and negative controls
+        run: |
+          python -m research.full_review.horizon_successor.package --check
+          python -m unittest research.full_review.horizon_successor.test_package -v
       - uses: actions/upload-artifact@v4
         with:
-          name: me-v09-positive-human-source-reader-${{ matrix.os }}
-          path: research/full_review/positive_successor.html
+          name: me-v09-complete-offline-author-review-${{ matrix.os }}
+          path: research/full_review/horizon_successor/offline_bundle/
           if-no-files-found: error
           retention-days: 14
 # NO BROWSER TEST, NETWORK SERVICE, DEPLOY, PUBLISH, RELEASE OR PROVIDER ACTUATION.
