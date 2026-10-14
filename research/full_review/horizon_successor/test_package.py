@@ -34,7 +34,7 @@ class ReadingPackage(unittest.TestCase):
         self.assertIn("NOT A RELEASED v0.9 EDITION", opening)
         for name in p.owner.FIGURES:
             self.assertIn("figures/" + name, self.files)
-            self.assertTrue(self.files["figures/" + name].startswith(b"\\x89PNG".decode("unicode_escape").encode("latin1")))
+            self.assertTrue(self.files["figures/" + name].startswith(bytes([0x89, 0x50, 0x4E, 0x47])))
         self.assertEqual(self.manifest["reader_open_path"], p.ENTRY)
         self.assertEqual(self.manifest["whole_book_path"], "research/full_review/positive_successor.html")
         self.assertIn("MECHANICAL_ETHICS.pdf", self.files)
