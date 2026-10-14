@@ -14,7 +14,7 @@ import posixpath
 from urllib.parse import urlsplit
 from zipfile import ZipFile, ZipInfo, ZIP_STORED
 
-from research.full_review.horizon_successor import build
+from research.full_review.horizon_successor import build, concise
 from research.full_review import renderer_owner as owner
 from research.full_review import build_reader as original
 
@@ -28,10 +28,13 @@ INSTRUCTIONS = "OPEN_THIS_FIRST.txt"
 
 FILES = (
     "research/full_review/positive_successor.html",
+    "research/full_review/positive_successor_concise.html",
     "research/full_review/author_review.html",
     "research/full_review/CHAPTER_MAP.json",
     "research/full_review/EDITORIAL_DECISION.md",
     "research/full_review/horizon_successor/BRIDGE.md",
+    "research/full_review/horizon_successor/BRIDGE_CONCISE.md",
+    "research/full_review/horizon_successor/A_B_DECISION.md",
     "research/full_review/horizon_successor/EDITORIAL_ROUTE.md",
     "research/full_review/horizon_successor/READER_DECISION.md",
     "research/compact_core/START.md",
@@ -57,7 +60,9 @@ def entry_page() -> bytes:
 <style>body{max-width:52rem;margin:2rem auto;padding:0 1.25rem;font:1.08rem/1.65 system-ui,sans-serif;color:#243139;background:#faf9f5}a{color:#165a81;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #165a81;outline-offset:3px}h1{line-height:1.2}li{margin:.8rem 0}code{overflow-wrap:anywhere}strong{font-weight:700}</style></head>
 <body><main><h1>Mechanical Ethics — one complete review copy</h1>
 <p><strong>RESEARCH DRAFT — NOT A RELEASED v0.9 EDITION.</strong> Mark's complete released v0.8 book is retained. A proposed, visibly labelled AI-assisted Part VI bridge and a separate optional Codex appendix are presented for Mark's editorial review. No acceptance, validation, new licence or authorship transfer is implied.</p>
-<ol><li><a href="research/full_review/positive_successor.html"><strong>Open the complete formatted author-review book</strong></a> — original full text and four diagrams, proposed bridge clearly labelled, optional appendix</li>
+<ol><li><a href="research/full_review/positive_successor.html"><strong>Open the complete formatted author-review book — A, full proposal</strong></a> — original full text and four diagrams, original six-section bridge, optional appendix</li>
+<li><a href="research/full_review/positive_successor_concise.html"><strong>Open the complete formatted author-review book — B, concise proposal</strong></a> — same full original book and three unchanged case scenes, a short horizon lead-in</li>
+<li><a href="research/full_review/horizon_successor/A_B_DECISION.md">Compare A and B: author decision sheet</a> — actual word counts, exact preserved scenes and finite choices</li>
 <li><a href="research/full_review/horizon_successor/READER_DECISION.md">What Mark can keep, cut or change</a> — a finite editorial decision sheet and unresolved evidence</li>
 <li><a href="MECHANICAL_ETHICS.pdf">Read the original released v0.8 PDF</a> or <a href="MECHANICAL_ETHICS.md">inspect the original Markdown</a></li>
 <li><a href="research/full_review/author_review.html">Compare the untouched PR67 complete reader</a> and <a href="research/full_review/CHAPTER_MAP.json">its 55-section map</a></li></ol>
@@ -74,10 +79,11 @@ THIS IS AN AI-ASSISTED RESEARCH DRAFT, NOT MARK'S RELEASED v0.9.
 
 1. Extract the ENTIRE ZIP into a folder, preserving its directories.
 2. Open OPEN_THIS_FIRST.html from that extracted folder.
-3. Follow "Open the complete formatted author-review book".
+3. Choose book A (full proposal) or book B (concise proposal).
+   Both include the entire released v0.8 text, figures and original Conclusion.
 4. For the original release, open MECHANICAL_ETHICS.pdf or .md.
 5. To make an editorial decision, open
-   research/full_review/horizon_successor/READER_DECISION.md.
+   research/full_review/horizon_successor/A_B_DECISION.md.
 
 No server, script, account or internet is required to read the local
 book and its four included figures. Internet may be needed for optional
@@ -96,6 +102,9 @@ def file_bytes() -> dict[str, bytes]:
     local = build.OUTPUT.read_bytes()
     if expected != local:
         raise ValueError("Generated proposed whole reader stale: run the build")
+    expected_concise, _ = concise.produce()
+    if expected_concise != concise.OUTPUT.read_bytes():
+        raise ValueError("Generated concise whole reader stale: build both alternatives")
     if digest((ROOT / "MECHANICAL_ETHICS.md").read_bytes()) != owner.BOOK_SHA256:
         raise ValueError("Released Markdown source bytes changed")
     if digest(original.OUTPUT.read_bytes()) != digest(original.produce()[0]):
@@ -166,6 +175,9 @@ def manifest(blobs: dict[str, bytes], links_checked: int) -> bytes:
         "released_markdown_sha256": owner.BOOK_SHA256,
         "original_pr67_reader_sha256": digest(original.OUTPUT.read_bytes()),
         "proposed_bridge_sha256": digest(build.SOURCE.read_bytes()),
+        "concise_bridge_sha256": digest(concise.SOURCE.read_bytes()),
+        "full_book_path": "research/full_review/positive_successor.html",
+        "concise_book_path": "research/full_review/positive_successor_concise.html",
         "reader_open_path": ENTRY,
         "whole_book_path": "research/full_review/positive_successor.html",
         "html_local_links_checked": links_checked,
