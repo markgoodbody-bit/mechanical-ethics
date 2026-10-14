@@ -109,6 +109,8 @@ def produce():
     page = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mechanical Ethics — complete v0.9 author-review assembly</title><style>{owner.CSS}
+/* Reader-owned reflow repair; retained renderer/source/figure blobs unchanged. */
+footer{{overflow-wrap:anywhere}}
 @media print{{details>section{{display:block}}details>summary{{font-weight:bold}}}}
 </style></head><body><a class="skip" href="#book">Skip to complete original book</a>
 <header><p class="eyebrow">Complete author-review assembly · research only · not a released v0.9 edition</p>

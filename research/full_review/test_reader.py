@@ -141,6 +141,11 @@ class WholeReader(unittest.TestCase):
         self.assertIn('href="#interlude-the-saturday-workshop"', self.html)
         self.assertIn('href="#a-timing-condition"', self.html)
 
+    def test_long_footer_provenance_has_reader_scoped_wrap_rule(self):
+        self.assertIn("footer{overflow-wrap:anywhere}", self.html)
+        self.assertIn(b.owner.BOOK_SHA256, self.html)
+        self.assertIn(b.owner.BOOK_COMMIT, self.html)
+
 
 if __name__ == "__main__":
     unittest.main()

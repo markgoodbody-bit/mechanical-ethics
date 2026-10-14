@@ -20,6 +20,8 @@ footer{color:var(--muted);border-top:1px solid var(--line);padding:2rem 0 3rem;m
 @media print{@page{size:A4;margin:18mm}body{font:11pt/1.45 Georgia,serif;color:#000;background:#fff}.contents,.skip{display:none}
 header,main,footer{width:100%}h1,h2,h3{break-after:avoid}p,li{orphans:3;widows:3}.book-figure img{max-height:210mm}}
 
+/* Reader-owned reflow repair; retained renderer/source/figure blobs unchanged. */
+footer{overflow-wrap:anywhere}
 @media print{details>section{display:block}details>summary{font-weight:bold}}
 </style></head><body><a class="skip" href="#book">Skip to complete original book</a>
 <header><p class="eyebrow">Complete author-review assembly · research only · not a released v0.9 edition</p>
