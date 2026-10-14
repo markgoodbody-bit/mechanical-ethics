@@ -156,3 +156,144 @@ We are still describing changes and opportunities, not proving what ought to be 
 
 If we want to speak seriously about the consequences of a choice, we must remember the future that an affected being can actually reach, not merely the future an outside observer can imagine.
 
+
+# 6. When Change Matters to Someone
+
+The library is closed when you arrive. You stand at the door with a valid ticket and nowhere to use it.
+
+That is a description of what happened. Have you been wronged?
+
+Not necessarily. You may have misread the opening hours. The staff may have had to close for a fire alarm. Somebody else may have needed the building for an emergency. You could be disappointed without anybody having acted badly. The same closing could prevent an accident. There may be a real conflict between your lost opportunity and another person's safety.
+
+Up to this point we have been following what changes and which paths remain reachable. That knowledge does not, by itself, say which path deserves protection.
+
+This is the place to be explicit about something moral language often hides. To call a change *harm* we must bring values into the description. We must say who or what is affected, what matters for that being or situation, what alternative we are comparing with, and why the comparison has authority to matter.
+
+It is tempting to derive these answers from the mechanics we have already seen. The world changes; beings have limited views; some futures close. Therefore every closed future is a moral wrong. But that conclusion does not follow. Every fulfilled promise closes some other possibilities. Learning a skill makes certain errors less likely. A door shut against a storm can preserve a home. A predator and its prey cannot both have every preferred future protected. A public institution may have to choose between two legitimate claims with limited resources.
+
+The mechanical facts help us see the choice. They cannot appoint the rightful chooser.
+
+Consider a child about to run into a road. An adult closes the garden gate. The child protests because the garden path is no longer open. The adult has curtailed one possibility and may have protected several more. To judge the act we need more than a count of closed options. We need an account of the child, the risk, the adult's responsibilities, the other people who may be affected, and the kind of future the intervention is meant to protect.
+
+There may be disagreement about the proper boundary. At what age should the child be allowed to open the gate alone? What supervision is reasonable? Whose judgement matters, and when does the child's growing independence change the answer? These are questions of standing, care, evidence, responsibility and social authority. They do not resolve themselves from the fact that time passes.
+
+A similar problem arises with non-human life. The tree beside the library needs water and space. Its roots may damage a wall. The people maintaining the building have responsibilities, and the tree belongs to an ecosystem not represented by one human voice. Which lives and futures count? Who may represent them? The answers may come from law, ecological knowledge, community judgement and ethical disagreement. Calling all things entities does not quietly settle their standing.
+
+We can nevertheless choose to make an ethical commitment openly. This book asks us to take seriously the effects our arrangements have on beings and environments, especially where one party holds more power to decide than another. It favours making consequential harm visible while correction is still reachable, and making power answerable to those affected. It also values the creation and preservation of meaningful possibilities. These are purposes offered for reasoned acceptance or rejection, not physical laws deduced from a cooling glass.
+
+A reader may accept much of that commitment and disagree about its application. Two people may care about justice and differ over what a fair outcome requires. A worker's privacy can conflict with an employer's duty to investigate misconduct. A town may want both a flood defence and a living river. Parents and young people may disagree over safety and independence. A method that turns such disagreement into a single unquestionable number would conceal what ought to be argued about.
+
+We can do better than saying that values are merely subjective noise. We can ask where a judgement came from. Is it the affected person's expressed preference? A legal obligation? A clinical judgement? A community decision? A provisional assumption made because the true preference is unavailable? Has someone with the relevant standing been excluded? A value may be well supported or deeply contested. Those differences can remain visible.
+
+The child eventually learns to open the gate safely. The earlier protection did not have to last in the same form. An arrangement that treats yesterday's vulnerability as permanent may become a barrier to tomorrow's capability.
+
+The positive and protective sides are joined here. We do not only ask which bad change to prevent. We ask which worthwhile futures could become usable, for whom, under which legitimate commitments and at whose cost.
+
+Only after naming those commitments are we ready to make comparisons that deserve the name harm or benefit.
+
+# 7. Comparing Without Hiding the Difference
+
+Imagine the library considers extending its evening hours.
+
+A longer opening could help students, shift workers and families who cannot visit during the day. It could also cost more in wages and energy, lengthen the journey home for staff and reduce resources for services that some other visitors need. An early trial might attract many readers. It might also reveal that people who most needed evening access still cannot use the last bus.
+
+The proposal sounds simple if we say only that more opening hours create more opportunity. It becomes more truthful when we follow the change into several lives.
+
+We need a comparison. But comparison with what?
+
+One possibility is to compare the new hours with the current timetable. Another is to compare them with a different allocation of the same budget. A third is to compare them with a future in which the building closes entirely because its running costs are unsustainable. The proposal can look different under each reference. Choosing a baseline is part of the claim, not a neutral clerical step.
+
+The period also matters. A one-week trial may create an immediate gain and hide an unsustainable staffing burden. A five-year plan may promise eventual savings while demanding more than current staff can safely carry. The same project can have a positive long-run ambition and an unjustified short-run transition. A good destination does not erase the journey people have to live through.
+
+We must name the affected scope. Are we talking about one student, every evening visitor, the employees, the neighbourhood, or future taxpayers? Expanding the boundary can reveal previously hidden effects. It can also dissolve a person's serious injury into a comfortable average. A large total benefit does not, by itself, tell us what may permissibly be imposed on a smaller group.
+
+Then there is the difficulty of comparing unlike things. An hour of paid labour, an hour of quiet study, a person's dignity, a wetland's health and an institution's cash reserve are not interchangeable units merely because they appear in the same report. A numerical total requires an authored way of valuing and combining them. If someone supplies that way, we should know who it was and what it excludes.
+
+We can speak of a *harm difference* between two described paths: how much worse or better an outcome is, for some affected scope, under a stated account of value, over a stated period, compared with a stated alternative. In the research around Mechanical Ethics, this has sometimes been compressed into the symbol **ΔH**. The symbol is a research shorthand, not an ancient law, a released foundation or a machine for manufacturing objective moral verdicts.
+
+Without the named scope, baseline, horizon, evidence and source of value, ΔH is just a decoration. With them, it can help prevent a more subtle error: shifting the basis of comparison halfway through an argument because the new result sounds more impressive.
+
+Suppose the extended library hours are a success for visitors but a loss for two staff members whose childcare arrangements no longer work. Their burden cannot be cancelled invisibly by the phrase *community benefit*. It may be possible to redesign the rota, fund transport, recruit willing evening staff or shorten the extension. The point of bringing the difference into view is to make more constructive choices possible.
+
+Sometimes two legitimate values still collide. A library may have to balance quiet study against a noisy community event. The same space and hour cannot serve both perfectly. A city may have to decide between spending on immediate accessibility and a longer-term flood project. The technical facts can narrow the plausible alternatives; they cannot choose the political and moral priority without some legitimate decision process.
+
+A fair process may itself be contested. Who was invited? Who could attend? Were private reasons exposed unnecessarily? Could someone disagree without losing access to a service? Did those most affected have a voice with any consequence? None of this guarantees consensus. It helps distinguish disagreement made answerable from a verdict hidden inside the method of counting.
+
+There are also cases in which the observable change is too small to justify the machinery of measurement. Choosing tea over coffee on an ordinary afternoon need not generate a harms ledger. A useful language should be able to say that the consequential difference is unclear or negligible and let the person get on with life.
+
+And there are cases in which numbers can be indispensable. Public health, engineering risk, finance, climate and logistics often require careful quantitative comparison. Their specialised methods should be used by people who understand them. The portable distinctions here do not compete with probability theory or cost-benefit analysis; they remind us what a number was defined to count and what claims it cannot carry.
+
+The library opens two evenings on a trial basis, with paid volunteers from the staff team, an accessible transport arrangement and a clear date for reconsideration. Some visitors gain new possibilities. The costs are not erased. Evidence will have to show what actually happened, including what did not work.
+
+A considered gain is not merely a green arrow in a report. It is a change in a world of different beings, judged against explicit commitments that others can question. Making those commitments visible is an ethical improvement even when the final decision remains difficult.
+
+# 8. What Can Travel Back
+
+The first evening goes well. The second is quiet. A manager receives a report saying that thirty people attended over two nights.
+
+The number may be accurate. It does not tell us whether the students who were expected to benefit arrived, why someone left early, whether the last bus was reachable, or what the staff experienced. It may reveal a useful pattern while leaving out the reason the trial was begun.
+
+A person can act only on the account that reaches them. If the institution wants to change its next decision, it needs some way for reality to travel back into the room where decisions are made.
+
+A visitor writes a note: the building was open, but the accessible entrance had already been locked. A staff member reports that the proposed closing time conflicts with a scheduled bus. A student says the extra hour made it possible to finish an assignment. These are not the same kind of testimony. Each is limited, and each can matter.
+
+Here the idea of a witness becomes useful. A witness can be a person, a document, an instrument or another record that preserves something about an event for later examination. It is not an oracle. A witness may be mistaken, partial, compromised or irrelevant to the particular claim being made. Multiple records can copy one original error. Independence does not follow merely from having two files.
+
+Suppose the visitor photographs the locked entrance. The library's door system logs the time it was secured. A third person remembers seeing someone unable to enter. If the photograph and log were retained independently before anyone knew there would be a dispute, they may support a stronger reconstruction than either alone. Even then, the evidence needs interpretation. The door could have been locked for an emergency. The photograph may not show another available entrance. The visitor might have been unable to use that other entrance. The competing accounts need to be allowed to meet.
+
+A timestamp is evidence of what a clock recorded, within its custody and limits. A checksum can establish that the bytes being checked match a particular earlier held copy. Neither magically proves when the world event happened, whether the record is complete or whether its use is just. Independence has degrees; a witness is useful when its actual means of knowing and its control relationship fit the claim at stake.
+
+Custody matters because records can be altered, deleted, exposed or used against the person who created them. A person in a precarious job may have strong evidence of a dangerous practice and good reasons not to place it in a manager's public folder. A person seeking medical care may need a confidential channel rather than a public accusation. A child cannot be made responsible for building an evidence archive about a situation adults should address.
+
+The route for hearing evidence must not quietly become another source of harm.
+
+It helps to distinguish access from authority to disclose. The library may possess security recordings without having the right to publish every visitor's movements. A file may be readable on an open website because somebody uploaded it, while its presence there says nothing about lawful or ethical reuse. Privacy is not dishonesty. Withholding a fact does not make the fact false or absent. A witness can support correction without becoming an excuse for universal surveillance.
+
+If the library changes the closing procedure, it should preserve enough of the reason for later staff to understand it. But it may not need to preserve the student's full identity or the visitor's unrelated movements. Responsible memory is purpose-bound, not a hunger for every available detail.
+
+Imagine that the manager receives all three reports and responds, "We have taken this seriously." The sentence may be sincere. It has not yet changed the door. A recorded confession, apology or incident review is not the same as an effective correction.
+
+There must be some route from the affected information to a person or mechanism able to alter what happens. A clerk may be allowed to read the complaint but not to change building access. A senior manager may have the authority and no access to the original evidence. A provider may run the software while the library owns the policy. The strength of the witness alone cannot repair the connection.
+
+Nor can an affected person's voice always be assumed to speak for every other affected person. The quiet reader and the music group may disagree about evening use. A worker can challenge an unsafe rota without having authority to decide the entire staffing budget. Legitimate standing and decision power need to be distinguished rather than granted to whoever most convincingly describes a harm.
+
+This is why *answerability* is more demanding than the existence of a feedback form. The people who bear an outcome must, under some legitimate and usable arrangement, be able to bring consequential information to those who can examine it and change future action. A powerful actor may collect feedback only to become more efficient at exploiting customers; feedback by itself would not make that actor answerable.
+
+The library adjusts its entrance procedure, keeps a telephone route for people unable to use its app, and appoints a staff member who can actually authorise changes to the closing process. The first two evenings have become a basis for better work. No one had to know the entire world to achieve it. Several partial accounts were able to correct a limited part of it.
+
+The value of the record lies not in how impressive it looks but in what truthful, proportionate change it makes possible.
+
+# 9. What Cannot Be Put Back
+
+A student writes to the library after the trial.
+
+The extended opening hours were useful, the student says, but the locked entrance on the first night meant missing the last session of a course. The library has now fixed the door procedure. The student is pleased that somebody listened and that others will not face the same barrier. The missed session will not return.
+
+We are tempted to describe the problem as solved because the current arrangement has improved. We are also tempted to say that no correction was possible because the first loss cannot be erased. Both descriptions leave something out.
+
+Correction changes what can still be changed. It does not necessarily restore the path a person actually lost.
+
+An account can be reopened while the debt accumulated during its closure remains. A job can be reinstated while reputation, wages and trust have changed. A wall can be repaired after a child has spent a winter in a damp room. A rule can be withdrawn after people have left a community. The later improvement is real. So may be the remaining cost.
+
+We can call that remainder *residue*. The word does not mean that every painful memory must be paid for, or that history can be reversed through better bookkeeping. It means that a correction's success must be described in relation to what it actually repairs, and that uncorrected consequences must not be hidden behind an administrative closing date.
+
+Some effects are irreversible in a narrow physical sense. The past event cannot be made never to have happened. That does not prove that continuing harm remains forever; people can heal, relationships can change and new futures can be made. Some harms are gradually repairable, some are compensable without being reversible, and some leave an enduring loss. A serious account must let these differences stand.
+
+Sometimes the most responsible act is to stop an intervention rather than continue it in the hope that another stage will justify the first. A medical procedure, an engineering experiment or an AI-assisted decision may have reached a point where evidence or authority is insufficient for the next move. A pause can preserve possibilities; a pause can also have costs. Whether it is warranted depends on the affected route, the clocks, the expertise and the authority involved.
+
+Sometimes there is no effective rescue. The decision-maker is distant, the institution refuses to listen, or the relevant time has passed. It would be cruel to tell the person harmed that a better record will certainly deliver justice. Evidence can help an appeal, protect someone else or preserve an honest history. It can also fail. The witness should not be made to carry responsibility for a remedy that the powerful actor has withheld.
+
+What remains, then, of answerability when the original loss cannot be corrected?
+
+The people involved may still be owed an accurate account, a lawful remedy, a change to the repeated mechanism, protection against further misuse, or an honest explanation of what cannot be repaired. Which of these is owed depends on the actual responsibilities and values at stake. An institution cannot make the past good by rewriting its status field. Nor can it promise complete restitution where no one can supply it.
+
+The person harmed may wish to stop talking. That is not proof that the matter was trivial, but neither is continued testimony always something others may demand. Privacy, rest and refusal can be ways of preserving what remains open. Care does not require possession of another person's future; it may require placing the work of correction on those with the resources and authority to carry it.
+
+Closure itself needs judgement. Some disputes should end because continued proceedings impose more harm than they can remedy, because an affected party has chosen a legitimate exit, or because the evidence is insufficient to justify coercive action. Other files are closed too early to protect the institution from embarrassment. No single timer or form can settle the difference for every domain.
+
+Return to the child and the glass. A broken glass cannot be made unbroken by calling a replacement the same object. A new glass may serve the child just as well, and the child may have learned to carry it. The earlier break still occurred. No ethical theory needs to make the break into an eternal injury or pretend it never happened. Honest repair can be both limited and worthwhile.
+
+The student accepts the library's apology and decides not to pursue a further complaint. The library still changes its procedure and pays attention to the next student. Their decisions are different, and both matter.
+
+That is a stronger ending than either a triumphant claim that every wrong has been undone or an insistence that nothing good can follow an irreversible loss.
+
