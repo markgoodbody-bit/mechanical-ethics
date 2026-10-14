@@ -156,6 +156,22 @@ We are still describing changes and opportunities, not proving what ought to be 
 
 If we want to speak seriously about the consequences of a choice, we must remember the future that an affected being can actually reach, not merely the future an outside observer can imagine.
 
+Now consider who can change the journey.
+
+The library's evening hours are set in an office that closes at four. The people choosing them have a budget, staff rotas and a building to secure. They can ask for another month's figures before deciding whether to extend the hours. For a student whose assignment is due on Friday, that month is not available. The student can explain the deadline, but cannot change the rota or keep the building open.
+
+The office has reasons to wait. The student has reasons not to. The important difference is not that one side knows everything or that the other knows nothing. It is that they can do different things, and do not carry the same consequences while the question remains unsettled. The people who set a clock may not feel it run. The person who can describe a closed route may not be able to open it.
+
+The same relation can appear where more is at stake. A tenant reports damp spreading behind a child's bed. The landlord can arrange an inspection and authorise repairs. The tenant can send photographs, move the bed if there is space, and try to reach someone who can act. Neither knows the full cause yet. But the child sleeps in that room while the question stays open; the person deciding when to inspect does not.
+
+The request can be recorded as received without changing those positions. Another photograph may improve the account held by the landlord while leaving the tenant's capacity to protect the room much as it was. More information and more control are not the same change.
+
+No secret intention is needed for this difference to exist. Nor does it show that delay is always avoidable. The library may lack staff; the repair may require expertise or access that neither party yet has. What we can describe is who controls which part of the route, whose situation continues to change, and who can bear the wait. When a delay costs little to the person able to end it and much to someone else, that difference can help the arrangement persist.
+
+The same position can carry help. A pharmacist notices a possible problem with a prescription. Instead of asking the patient to carry the query between offices, she contacts the prescriber and keeps the patient informed. Her access and working relationship make a route available that the patient could not readily use alone. The difficulty has moved toward someone with the means to carry it.
+
+These descriptions do not yet establish what either party owes. They show why the question will matter: control, knowledge and exposure do not necessarily belong to the same person. We can now ask who should decide, whose interests count, and what makes a use of power justified.
+
 
 # 6. When Change Matters to Someone
 
@@ -209,9 +225,9 @@ We must name the affected scope. Are we talking about one student, every evening
 
 Then there is the difficulty of comparing unlike things. An hour of paid labour, an hour of quiet study, a person's dignity, a wetland's health and an institution's cash reserve are not interchangeable units merely because they appear in the same report. A numerical total requires an authored way of valuing and combining them. If someone supplies that way, we should know who it was and what it excludes.
 
-We can speak of a *harm difference* between two described paths: how much worse or better an outcome is, for some affected scope, under a stated account of value, over a stated period, compared with a stated alternative. In the research around Mechanical Ethics, this has sometimes been compressed into the symbol **ΔH**. The symbol is a research shorthand, not an ancient law, a released foundation or a machine for manufacturing objective moral verdicts.
+We can speak of a *harm difference* between two described paths: how much worse or better an outcome is, for some affected scope, under a stated account of value, over a stated period, compared with a stated alternative.
 
-Without the named scope, baseline, horizon, evidence and source of value, ΔH is just a decoration. With them, it can help prevent a more subtle error: shifting the basis of comparison halfway through an argument because the new result sounds more impressive.
+Without the named scope, baseline, horizon, evidence and source of value, that comparison is incomplete. Keeping them visible can help prevent a more subtle error: shifting the basis of comparison halfway through an argument because the new result sounds more impressive.
 
 Suppose the extended library hours are a success for visitors but a loss for two staff members whose childcare arrangements no longer work. Their burden cannot be cancelled invisibly by the phrase *community benefit*. It may be possible to redesign the rota, fund transport, recruit willing evening staff or shorten the extension. The point of bringing the difference into view is to make more constructive choices possible.
 
@@ -454,6 +470,6 @@ That is not a failure of the journey. It is the reason to continue it.
 
 This is a clean-sheet, AI-assisted *v0.9 research candidate*, **not a release**, **not Mark's prose**, **not a proved moral system**, and **not a replacement for the released Mechanical Ethics v0.8.0 or TRACE v0.4.0**. The reader prose was newly drafted from the provisional kernel dependencies, with everyday invented illustrations. Original v0.8 and TRACE are preserved as sources of ideas and as independent released documents, not as text scaffold or authority transferred to this candidate.
 
-The descriptive ground—boundaries, limited accounts, transitions, coupling, reachable alternatives, clocks and records—does not logically derive moral entitlement or universal standing. Harm and benefit judgements need explicit, contestable value and authority bindings. The research shorthand ΔH appears here only after that distinction, and is not represented as a released primitive. Some comparisons and conflicts remain unresolved.
+The descriptive ground—boundaries, limited accounts, transitions, coupling, reachable alternatives, clocks and records—does not logically derive moral entitlement or universal standing. Harm and benefit judgements need explicit, contestable value and authority bindings. Research notation is discussed separately in the editorial companion. Some comparisons and conflicts remain unresolved.
 
 The manuscript has not undergone a human reading study, professional domain review or source-to-empirical-outcome validation. It makes no claim to replace domain-specific expertise or legal authority. Mark remains human originator and final editor. The released human reader, original author's note, sources, figures and separate technical TRACE documents remain untouched.
