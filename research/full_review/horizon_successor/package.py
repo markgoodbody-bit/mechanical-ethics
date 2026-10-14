@@ -21,6 +21,7 @@ from research.full_review import build_reader as original
 ROOT = build.original.ROOT
 HERE = Path(__file__).resolve().parent
 OUTPUT = HERE / "ME_v0_9_COMPLETE_AUTHOR_REVIEW_OFFLINE.zip"
+STAGING = HERE / "offline_bundle"
 MANIFEST = "PACKAGE_MANIFEST.json"
 ENTRY = "OPEN_THIS_FIRST.html"
 INSTRUCTIONS = "OPEN_THIS_FIRST.txt"
@@ -203,6 +204,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--stage", action="store_true", help="Make one-extraction GitHub artifact folder")
     args = parser.parse_args()
     payload, report = archive_bytes()
     if args.check:
@@ -210,6 +212,17 @@ def main():
             raise SystemExit("OFFLINE_ARCHIVE_DRIFT")
     else:
         OUTPUT.write_bytes(payload)
+    if args.stage:
+        from io import BytesIO
+        from shutil import rmtree
+        if STAGING.exists():
+            rmtree(STAGING)
+        with ZipFile(BytesIO(payload)) as book:
+            for name in book.namelist():
+                path = STAGING / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(book.read(name))
+        report["staged_directory"] = str(STAGING)
     print(json.dumps(report, sort_keys=True))
 
 
