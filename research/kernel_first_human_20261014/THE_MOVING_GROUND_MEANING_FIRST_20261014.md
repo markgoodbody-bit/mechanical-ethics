@@ -1,6 +1,6 @@
 # Mechanical Ethics: The Moving Ground
 
-*A meaning-first human reading draft — Mechanical Ethics v0.9 research candidate, 14 October 2026.*
+*A meaning-first human reading draft — Mechanical Ethics v0.9 research candidate, 14 October 2026. Edition ME09-RC-20261014 · NOT RELEASED.*
 
 ## A note before we begin
 
@@ -492,7 +492,7 @@ This is a **draft human reading copy, not Mechanical Ethics v0.9 released**. It 
 
 ### Sources and authorship
 
-This manuscript is an **AI-assisted research revision**, not prose authored or accepted by Mark. Mark is the human originator of Mechanical Ethics and retains editorial and release authority. The candidate descends from the clean-sheet kernel-first research line PR70 → PR71 → PR72 → PR73 → PR74. The immediate parent is PR74 at commit `4d8b2f48997e577179c41b22a5e544619286238c`, with full source path `research/kernel_first_human_20261014/THE_MOVING_GROUND_MEANING_FIRST_20261014.md` (Git blob `a540a34b04bc5691e3ff604468e879bae36b7116`). This revision consolidates repetitive method defences; previous wording remains in that immutable parent history.
+This manuscript is an **AI-assisted research revision**, not prose authored or accepted by Mark. Mark is the human originator of Mechanical Ethics and retains editorial and release authority. The candidate descends from the clean-sheet kernel-first research line PR70 → PR71 → PR72 → PR73 → PR74. This candidate carries edition code **ME09-RC-20261014**, with its final source commit and checksum recorded in the paired review packet rather than embedded recursively in the manuscript. An earlier meaning-first ancestor is PR74 commit `4d8b2f48997e577179c41b22a5e544619286238c` (Git blob `a540a34b04bc5691e3ff604468e879bae36b7116`); subsequent reader-first and structural preflight revisions are retained in the PR74 branch history. The full source path is `research/kernel_first_human_20261014/THE_MOVING_GROUND_MEANING_FIRST_20261014.md`. The reader-first work consolidated repetitive method defences; the final preflight pass restored necessary definitions, inference conditions, and constructive reasoning without undoing that editorial direction.
 
 Released Mechanical Ethics **v0.8.0** and TRACE **v0.4.0** remain separate, unchanged sources of concepts. Their existing author notes, rights, diagrams and technical materials are not transferred as authority to this draft. Later research contributions by Claude Code and Codex informed the conceptual path, but their involvement does not validate this text. No release, protected merge, website publication or external endorsement follows from the existence of a readable book.
 
