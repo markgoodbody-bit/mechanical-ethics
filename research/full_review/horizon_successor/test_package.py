@@ -78,6 +78,26 @@ class ReadingPackage(unittest.TestCase):
             self.assertEqual(path.as_posix(),name)
         self.assertEqual(self.z.testzip(),None)
 
+    def test_both_complete_editorial_books_and_choice_routes(self):
+        self.assertIn("research/full_review/positive_successor.html", self.files)
+        self.assertIn("research/full_review/positive_successor_concise.html", self.files)
+        self.assertIn("research/full_review/horizon_successor/A_B_DECISION.md", self.files)
+        self.assertIn("research/full_review/horizon_successor/BRIDGE_CONCISE.md", self.files)
+        opening=self.files[p.ENTRY].decode("utf-8")
+        self.assertIn("A, full proposal",opening)
+        self.assertIn("B, concise proposal",opening)
+        full=self.files["research/full_review/positive_successor.html"].decode("utf-8")
+        short=self.files["research/full_review/positive_successor_concise.html"].decode("utf-8")
+        import re
+        a=re.findall(r'<aside id="horizon-successor".*?</aside>\\n',full,re.S)
+        b=re.findall(r'<aside id="horizon-successor".*?</aside>\\n',short,re.S)
+        self.assertEqual((len(a),len(b)),(1,1))
+        self.assertEqual(short.replace(b[0],a[0],1),full)
+        self.assertEqual(self.manifest["full_book_path"],"research/full_review/positive_successor.html")
+        self.assertEqual(self.manifest["concise_book_path"],"research/full_review/positive_successor_concise.html")
+        self.assertEqual(self.manifest["concise_bridge_sha256"],
+                         p.digest(self.files["research/full_review/horizon_successor/BRIDGE_CONCISE.md"]))
+
     def test_actual_upload_folder_matches_verified_archive_bytes(self):
         # The GitHub artifact zips this folder once. Test its actual staged
         # bytes, not just a separate locally generated ZIP.
