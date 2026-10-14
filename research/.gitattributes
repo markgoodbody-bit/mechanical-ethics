@@ -1,2 +1,4 @@
 # Retained generated HTML has a byte-locked LF manifest on all platforms.
 offline_review/*.html text eol=lf
+full_review/*.html text eol=lf
+full_review/*.json text eol=lf

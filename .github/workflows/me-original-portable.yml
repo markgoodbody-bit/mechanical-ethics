@@ -1,0 +1,30 @@
+name: Original ME reader portable source acceptance
+on:
+  push:
+    branches: ['codex/me-v090-whole-author-review-20261013']
+  pull_request:
+    paths: ['research/full_review/**', '.github/workflows/me-original-portable.yml']
+permissions:
+  contents: read
+jobs:
+  portable:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -m research.full_review.build_reader
+      - run: python -m unittest research.full_review.test_reader research.full_review.test_portable -v
+      - run: python -m research.full_review.portable
+      - uses: actions/upload-artifact@v4
+        with:
+          name: me-original-portable-${{ matrix.os }}
+          path: output/me-original-reader.zip
+          if-no-files-found: error

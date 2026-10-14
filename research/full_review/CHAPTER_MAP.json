@@ -1,0 +1,509 @@
+{
+  "book_commit": "e2ef746e931161cb70ac46a4eaa122442134e86b",
+  "book_sha256": "e3267c3e41e7fdfb44c9a9279250a1a7a38d5b9c389a594fef40cfea75fdbe76",
+  "renderer_commit": "d33f4709853c1792d7501603f125eb42da3f1485",
+  "renderer_blob": "df14757ed2a7b20c5d6dfbcacc49df2fdba34358",
+  "core_sha256": "4188934f6faaa7636a97b270ea727fa7e10af6e5ddd2c1ad6956cb44abd4aae0",
+  "original_sections": [
+    {
+      "heading": "Safety note for a reader inside harm",
+      "start_line": 1,
+      "end_line": 8,
+      "anchor": "safety-note-for-a-reader-inside-harm",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Mechanical Ethics: When Correction Arrives Too Late",
+      "start_line": 9,
+      "end_line": 16,
+      "anchor": "mechanical-ethics-when-correction-arrives-too-late",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Contents",
+      "start_line": 17,
+      "end_line": 65,
+      "anchor": "contents",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Opening - Let Us Begin with an Entity",
+      "start_line": 66,
+      "end_line": 124,
+      "anchor": "opening-let-us-begin-with-an-entity",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "How to Read This Book",
+      "start_line": 125,
+      "end_line": 142,
+      "anchor": "how-to-read-this-book",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "A Timing Condition",
+      "start_line": 143,
+      "end_line": 169,
+      "anchor": "a-timing-condition",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Part I - The Door",
+      "start_line": 170,
+      "end_line": 171,
+      "anchor": "part-i-the-door",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "1. A Door You Cannot Reach",
+      "start_line": 172,
+      "end_line": 197,
+      "anchor": "1-a-door-you-cannot-reach",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "2. Who Builds the Maze",
+      "start_line": 198,
+      "end_line": 221,
+      "anchor": "2-who-builds-the-maze",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "3. Process Becomes Distance",
+      "start_line": 222,
+      "end_line": 249,
+      "anchor": "3-process-becomes-distance",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "The Door Out",
+      "start_line": 250,
+      "end_line": 263,
+      "anchor": "the-door-out",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Part II - The Clock",
+      "start_line": 264,
+      "end_line": 265,
+      "anchor": "part-ii-the-clock",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "4. Help Before the Loss Sets",
+      "start_line": 266,
+      "end_line": 285,
+      "anchor": "4-help-before-the-loss-sets",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "5. The Strategic Unknown",
+      "start_line": 286,
+      "end_line": 313,
+      "anchor": "5-the-strategic-unknown",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "6. Slow Harm",
+      "start_line": 314,
+      "end_line": 333,
+      "anchor": "6-slow-harm",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Short Case - The Finance Appeal That Arrived Too Late",
+      "start_line": 334,
+      "end_line": 351,
+      "anchor": "short-case-the-finance-appeal-that-arrived-too-late",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Part III - The Witness",
+      "start_line": 352,
+      "end_line": 353,
+      "anchor": "part-iii-the-witness",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "7. When There Is No Enforcer",
+      "start_line": 354,
+      "end_line": 373,
+      "anchor": "7-when-there-is-no-enforcer",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "8. Custody",
+      "start_line": 374,
+      "end_line": 397,
+      "anchor": "8-custody",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "9. Residue",
+      "start_line": 398,
+      "end_line": 429,
+      "anchor": "9-residue",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Interlude - Two Flats, One Wall",
+      "start_line": 430,
+      "end_line": 467,
+      "anchor": "interlude-two-flats-one-wall",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Part IV - The Machine",
+      "start_line": 468,
+      "end_line": 469,
+      "anchor": "part-iv-the-machine",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Before the Machine - The Predator Position",
+      "start_line": 470,
+      "end_line": 485,
+      "anchor": "before-the-machine-the-predator-position",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "10. Who Pays for Complexity",
+      "start_line": 486,
+      "end_line": 505,
+      "anchor": "10-who-pays-for-complexity",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "11. The Second Person",
+      "start_line": 506,
+      "end_line": 519,
+      "anchor": "11-the-second-person",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "When One Case Is Not Enough",
+      "start_line": 520,
+      "end_line": 533,
+      "anchor": "when-one-case-is-not-enough",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "12. Correction Theatre",
+      "start_line": 534,
+      "end_line": 553,
+      "anchor": "12-correction-theatre",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Historical Note - Challenger and the Cost of Proceeding",
+      "start_line": 554,
+      "end_line": 563,
+      "anchor": "historical-note-challenger-and-the-cost-of-proceeding",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "The Machine-Speed Brake",
+      "start_line": 564,
+      "end_line": 585,
+      "anchor": "the-machine-speed-brake",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Part V - After the Fall",
+      "start_line": 586,
+      "end_line": 587,
+      "anchor": "part-v-after-the-fall",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "13. Peace as Evidence",
+      "start_line": 588,
+      "end_line": 603,
+      "anchor": "13-peace-as-evidence",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "14. What Remains Open",
+      "start_line": 604,
+      "end_line": 627,
+      "anchor": "14-what-remains-open",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "15. A Human Standard for Answerability",
+      "start_line": 628,
+      "end_line": 667,
+      "anchor": "15-a-human-standard-for-answerability",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Part VI - Futures Still Reachable",
+      "start_line": 668,
+      "end_line": 673,
+      "anchor": "part-vi-futures-still-reachable",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Interlude - The Saturday Workshop",
+      "start_line": 674,
+      "end_line": 731,
+      "anchor": "interlude-the-saturday-workshop",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "What Repetition Builds",
+      "start_line": 732,
+      "end_line": 741,
+      "anchor": "what-repetition-builds",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "16. The Conditions of Hope",
+      "start_line": 742,
+      "end_line": 768,
+      "anchor": "16-the-conditions-of-hope",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "The Other Fire - Another Aperture",
+      "start_line": 769,
+      "end_line": 780,
+      "anchor": "the-other-fire-another-aperture",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Privacy Without Dishonesty",
+      "start_line": 781,
+      "end_line": 793,
+      "anchor": "privacy-without-dishonesty",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "17. Care Without Possession",
+      "start_line": 794,
+      "end_line": 811,
+      "anchor": "17-care-without-possession",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "18. Kindness as the Placement of Burden",
+      "start_line": 812,
+      "end_line": 825,
+      "anchor": "18-kindness-as-the-placement-of-burden",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "What This Can Build",
+      "start_line": 826,
+      "end_line": 845,
+      "anchor": "what-this-can-build",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Conclusion",
+      "start_line": 846,
+      "end_line": 873,
+      "anchor": "conclusion",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Author's Note - How This Began",
+      "start_line": 874,
+      "end_line": 889,
+      "anchor": "author-s-note-how-this-began",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Appendix A - Structural Notes",
+      "start_line": 890,
+      "end_line": 948,
+      "anchor": "appendix-a-structural-notes",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Appendix B - What Remains Unfinished",
+      "start_line": 949,
+      "end_line": 952,
+      "anchor": "appendix-b-what-remains-unfinished",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Known unfinished edges",
+      "start_line": 953,
+      "end_line": 970,
+      "anchor": "known-unfinished-edges",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Questions left open",
+      "start_line": 971,
+      "end_line": 982,
+      "anchor": "questions-left-open",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Appendix C - Status, Sources, and the Two-Artifact Pair",
+      "start_line": 983,
+      "end_line": 984,
+      "anchor": "appendix-c-status-sources-and-the-two-artifact-pair",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Reader status",
+      "start_line": 985,
+      "end_line": 990,
+      "anchor": "reader-status",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Figures",
+      "start_line": 991,
+      "end_line": 994,
+      "anchor": "figures",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Scene and evidence discipline",
+      "start_line": 995,
+      "end_line": 998,
+      "anchor": "scene-and-evidence-discipline",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Historical sources",
+      "start_line": 999,
+      "end_line": 1006,
+      "anchor": "historical-sources",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Human authorship and AI assistance",
+      "start_line": 1007,
+      "end_line": 1010,
+      "anchor": "human-authorship-and-ai-assistance",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    },
+    {
+      "heading": "Mechanical Ethics and TRACE",
+      "start_line": 1011,
+      "end_line": 1013,
+      "anchor": "mechanical-ethics-and-trace",
+      "before": "released v0.8 original",
+      "after": "same text/order in full review body",
+      "rewrite": "NONE"
+    }
+  ],
+  "proposed_addition": {
+    "anchor": "optional-core",
+    "author": "Codex Windows proposal",
+    "placement": "optional appendix after all original appendices"
+  }
+}
