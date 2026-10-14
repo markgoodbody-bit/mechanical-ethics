@@ -89,8 +89,8 @@ class ReadingPackage(unittest.TestCase):
         full=self.files["research/full_review/positive_successor.html"].decode("utf-8")
         short=self.files["research/full_review/positive_successor_concise.html"].decode("utf-8")
         import re
-        a=re.findall(r'<aside id="horizon-successor".*?</aside>\\n',full,re.S)
-        b=re.findall(r'<aside id="horizon-successor".*?</aside>\\n',short,re.S)
+        a=re.findall(r'<aside id="horizon-successor".*?</aside>\n',full,re.S)
+        b=re.findall(r'<aside id="horizon-successor".*?</aside>\n',short,re.S)
         self.assertEqual((len(a),len(b)),(1,1))
         self.assertEqual(short.replace(b[0],a[0],1),full)
         self.assertEqual(self.manifest["full_book_path"],"research/full_review/positive_successor.html")
