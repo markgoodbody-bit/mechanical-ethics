@@ -257,11 +257,11 @@ A longer opening could help students, shift workers and families who cannot visi
 
 The proposal sounds simple if we say only that more opening hours create more opportunity. It becomes more truthful when we follow the change into several lives.
 
-**Mechanical waypoint — SAME COMPARISON, DECLARED BASIS.** Evidence, affected people, period, value choices and comparator belong with the claim. When there is no defensible common numerical scale, comparing distinct costs and benefits in words is more honest than subtracting invented totals. Mathematics may help a well-defined comparison; it cannot supply moral standing or authority by itself.
-
 We need a comparison. But comparison with what?
 
 Begin with the *baseline*: compare longer library hours with which real alternative—the current timetable, a smaller extension, or another use of the budget? Then identify the *scope*: students, staff, carers, neighbours and anyone else whose interests enter the decision. Finally choose the *horizon*: the trial evenings, the term or consequences that take longer to appear. A claim about “less harm” changes meaning if any of these are silently replaced.
+
+**Mechanical waypoint — SAME COMPARISON, DECLARED BASIS.** Evidence, affected people, period, value choices and comparator belong with the claim. When there is no defensible common numerical scale, comparing distinct costs and benefits in words is more honest than subtracting invented totals. Mathematics may help a well-defined comparison; it cannot supply moral standing or authority by itself.
 
 One possibility is to compare the new hours with the current timetable. Another is to compare them with a different allocation of the same budget. A third is to compare them with a future in which the building closes entirely because its running costs are unsustainable. The proposal can look different under each reference. Choosing a baseline is part of the claim, not a neutral clerical step.
 
