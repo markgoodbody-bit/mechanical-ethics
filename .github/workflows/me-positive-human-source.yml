@@ -1,0 +1,56 @@
+name: ME human positive successor — source acceptance only
+on:
+  push:
+    branches:
+      - build/me-v09-positive-human-successor-20261013
+  pull_request:
+    paths:
+      - 'research/full_review/horizon_successor/**'
+permissions:
+  contents: read
+jobs:
+  full-source-integrity:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-24.04
+            python: '3.12'
+          - os: windows-2022
+            python: '3.10'
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Preserve PR67 source, render proposed complete reader
+        run: python -m research.full_review.horizon_successor.build
+      - name: Render separate concise complete author-review book
+        run: python -m research.full_review.horizon_successor.concise
+      - name: Verify determinism and original custody
+        run: |
+          python -m research.full_review.horizon_successor.build --check
+          python -m research.full_review.horizon_successor.concise --check
+          python -m unittest research.full_review.horizon_successor.test_successor -v
+          python -m unittest research.full_review.horizon_successor.test_concise -v
+          python -m unittest research.full_review.test_reader -v
+      - name: Retained whole-wave source witness
+        run: python -m research.integrated_wave.check_wave
+      - name: Assemble complete offline book and real dependency folders
+        run: python -m research.full_review.horizon_successor.package --stage
+      - name: Verify archive determinism, file hashes, links and negative controls
+        run: |
+          python -m research.full_review.horizon_successor.package --check
+          python -m unittest research.full_review.horizon_successor.test_package -v
+      - uses: actions/upload-artifact@v4
+        with:
+          name: me-v09-complete-offline-author-review-${{ matrix.os }}
+          path: research/full_review/horizon_successor/offline_bundle/
+          if-no-files-found: error
+          retention-days: 14
+# NO BROWSER TEST, NETWORK SERVICE, DEPLOY, PUBLISH, RELEASE OR PROVIDER ACTUATION.
