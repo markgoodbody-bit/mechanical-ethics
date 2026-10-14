@@ -28,6 +28,8 @@ We need one further word to ask a particular question about change. **Boundary**
 
 Choosing a boundary is an authored act of description. It may be useful, misleading, contested or revised. The person who drew the line should be able to explain why. We can draw boundaries around a person, a department, a river, a machine or a group, but these are not the same kinds of things. A department is not a body; a river does not acquire a board of directors; a software service is not granted human standing because a diagram encloses it. **Boundary is not moral standing.** Identifying something for study does not decide its rights or what is owed to it.
 
+An **entity**, for this discussion, is the particular person, living thing, group or arrangement we are trying to follow through change. We must have a reason to treat it as continuing across the moments we compare; a name or box on a page is not enough. Some entities experience consequences without choosing the action that caused them. Describing one does not settle whether it has feelings, rights or decision authority.
+
 Look again at the glass. Someone manufactured it; someone supplied water; an adult may have placed it beyond a child's reach for a reason. The room has a history beyond the moment we chose to observe. We cannot recover all that history before every ordinary act. But we can widen the boundary when the question demands it: who can reach the glass? Who put it there? Which conditions would make it safe for the child to carry it? What happens to the plant if nobody helps?
 
 A modest positive act now becomes visible. Someone notices that another person is thirsty and moves the glass within reach. That is a changed condition, and it may make a desired action usable. Someone teaches a child to carry an empty cup without spilling. The child learns through trial and correction; a capacity may begin to form. We cannot yet infer an ethical duty from these physical and practical descriptions, but we can see what a gift or a lesson has to *do* in the world.
@@ -65,6 +67,8 @@ It matters to separate access from permission to disclose. A neighbour may know 
 **Action** means an attempted intervention in a situation, undertaken by an actor with some capabilities and constraints. Action is not identical to a desired outcome. A person may choose wisely and still fail; they may act with good intent and cause damage, or have an unexpected constructive effect. To understand an action, distinguish what was selected, what was executed and what actually happened.
 
 We also need names for what can look like doing nothing. **Null input** means no relevant command or contribution was supplied through a specified route; it does not automatically tell us why. **Waiting** may be a deliberate decision to delay, an imposed queue, or simply the passage of time. **Refusal** is an expressed or otherwise sufficiently evidenced choice not to participate. Silence by itself establishes none of these. A failed connection, a question never delivered, an inability to reply and an explicit no are different situations. Honest reasoning leaves an unknown motive unknown.
+
+Even an expressed yes needs context: when the same person controls an essential resource, sets the terms of participation and decides the penalty for saying no, apparent consent is weak evidence of an unpressured choice. Which agreement is legally valid belongs to the relevant authority; the pressure is a real fact the account must carry.
 
 Imagine a hand reaching for the glass. The person may lift it, offer it to someone else, leave it alone or accidentally knock it over. Some routes are not genuinely possible: a child may lack the strength; an adult may have painful hands; the glass may be on a high shelf. Imagining an action is easier than having the means to perform it. We will later give that gap its own careful account.
 
@@ -114,7 +118,7 @@ A sign placed before the corner can change what the traveller knows. A bridge ca
 
 Now compose change with an account and a route. Yesterday's opening-hour notice may still be accurate, or a change in the accessible entrance may have defeated its intended present-use claim. A fresh check can update the visitor's route, provided a trustworthy observation is possible and somebody can use it. The old record is not necessarily deceptive or globally wrong; the point is whether it still warrants *this* decision. A correction route begins as an opportunity to carry newly relevant information into the place where a practical change can be made.
 
-A supported prospect is a future for which a person has some credible path of development or access, with necessary conditions that can be named and examined. It differs from merely feeling hopeful. A child who wants to learn an instrument may have a teacher, an affordable instrument, a place to practise and time; the prospect is stronger than a motivational poster, though success is not guaranteed. A community workshop may create a skill nobody could acquire alone. The value of these prospects, whose interests count and what costs can fairly be imposed are not decided by the route description itself.
+A **supported prospect** is a future for which a person has some credible path of development or access, with necessary conditions that can be named and examined. It differs from merely feeling hopeful. A child who wants to learn an instrument may have a teacher, an affordable instrument, a place to practise and time; the prospect is stronger than a motivational poster, though success is not guaranteed. A community workshop may create a skill nobody could acquire alone. **A supported prospect creates no duty to pursue it** or to feel optimistic, comply or endure. Where an offer is called voluntary, declining it should not be used to justify withdrawal of unrelated essential support without an independently justified rule. The value of the prospect and the legitimacy of any condition are questions of affected interests and authority, not outputs of the route description.
 
 A road that can be used today might close tomorrow. Another road can become possible through learning, cooperation or public investment. We can now ask better questions than whether an option appears somewhere in a policy document. Is it known to the person concerned? Can they take it without surrendering something they have not agreed to give? Is it maintainable? And, once they begin, can anyone carry the action all the way to its needed effect before the relevant future closes?
 
@@ -132,7 +136,7 @@ Other paths become stronger through time. A musician practises until playing a d
 
 Some paths close with time; others become stronger. A maintained bridge remains usable through a storm, while a missed class cannot be attended yesterday. To reason about either change, name the particular path and what it takes to keep it open.
 
-Hardening means that a particular path is becoming much harder or impossible to recover in comparable form. A missed class, a worsening illness or a broken trust can harden on different schedules. Hardening can also stabilise something valuable, such as a repaired bridge or a kept promise. Its moral significance depends on which path, whose interests and what commitments are at stake.
+**Hardening**, in the protective timing question, means that reversing a *specified loss* becomes harder, costlier, unequal or impossible in a comparable form. A missed class, a worsening illness or a broken trust may harden at different rates. **Consolidation** is a different pattern: a practised skill, repaired bridge or kept promise becomes more dependable. A valued commitment may deliberately close options while creating stability. We should identify which path is changing; the timing of a loss does not decide whether every closure is wrong.
 
 For an important threatened path, we may have to ask two different timing questions. When will the damage become difficult or impossible to reverse in a comparable way? And when can a particular corrective action actually be completed, given the people, permissions, resources and uncertainty involved? A fast promise is not the same as a feasible intervention.
 
@@ -144,9 +148,13 @@ Detection, reporting, authorisation and execution may overlap or need several pa
 
 The time bounds may be uncertain. An evidenced latest possible time for effective protection before an evidenced earliest relevant hardening time supports an open window **for that course**. If the needed origin, completion bounds, threatened path or effect cannot be established, the honest window status is **UNKNOWN**. Failure of one route does not prove every alternative is closed; another route or legitimate hold may preserve the path. Selecting which risk to carry remains a value and authority decision, not a result of clock arithmetic.
 
+**UNKNOWN still has a clock and a bearer.** The decision to seek more evidence, take a precaution or let the current arrangement continue is itself a course of action, with consequences for those exposed. Name who actually possesses the information, who can investigate, who has legitimate authority to order a temporary hold or protective measure, and who must carry the work and risk while the question remains open. If no competent owner exists, that is a governance gap, not a licence to make the affected person produce impossible proof. No equation alone assigns a duty to a landlord, official or clinician; law, role-specific obligations, consent and affected standing must decide what investigation or interim protection is warranted.
+
 This matters even more when a software service makes hundreds of decisions before a reviewer can examine one. Imagine that a benefits system issues an automatic refusal and offers an appeal that is manually processed after the support period expires. The system may detect a submitted appeal immediately, route it correctly and approve it eventually. Yet the effect arrives after the person has lost the threatened opportunity. Speed of the first stages is not evidence of a timely protective outcome. No invented millisecond threshold is needed to see the failure.
 
 Different paths have different clocks. A late payment may restore money while leaving a missed train in the past. Medicine may require probabilistic estimates rather than a single deadline. When we lack sound timing bounds, **UNKNOWN** is an informative result: it tells the decision-maker where better evidence or an immediate precaution may matter.
+
+Several open windows can also conflict. Suppose three households each need a two-day repair by one crew, with relevant losses hardening before days three, four and seven. Each job could finish within its own window **if the crew were free**. One crew cannot finish all three in time merely because each individual comparison passes. The shared crew, competing tasks and ordering must be assessed together; a second crew or a safe temporary measure may change what is feasible. If some path must wait, that priority is an accountable value and authority decision—not something a queue or the timing inequality should silently decide. Detailed scheduling belongs to competent resource planners.
 
 Now consider who can change the journey.
 
@@ -164,11 +172,13 @@ The library may genuinely need staff and the landlord may need specialist advice
 
 The same position can carry help. A pharmacist notices a possible problem with a prescription. Instead of asking the patient to carry the query between offices, she contacts the prescriber and keeps the patient informed. Her access and working relationship make a route available that the patient could not readily use alone. The difficulty has moved toward someone with the means to carry it.
 
-**Mechanical waypoint — CONTROL ≠ EXPOSURE.** Ask who can alter the route, whose knowledge reaches them, and who bears the effects while waiting. Information and control can sit with different people. The tenant's extra photograph might improve the file while leaving the damp room unchanged. The pharmacist shows the constructive counterpart: using access to make a needed route available for someone else. Description alone does not award either party moral permission.
+**Mechanical waypoint — CONTROL, EXPOSURE AND BENEFIT.** Ask three separate questions: **who can alter the route; who lives with what happens while waiting; and who benefits from the route staying as it is?** These positions may coincide or differ. The landlord may gain time or rent while the tenant lives with damp; an incentive can preserve an unusable route even without evidence of malice. A beneficiary of claimed necessity or closure should not be its only unchecked judge. The pharmacist shows the constructive counterpart: someone with access can carry the difficulty and open a usable route. None of these positions alone establishes blame, entitlement or legal duty.
 
 # 7. When Change Matters to Someone
 
 **Value** names what is treated as worth protecting, enabling or avoiding in an ethical comparison; **standing** identifies whose interests or testimony may properly count; **authority** concerns who may legitimately decide or intervene and under which rules. These are commitments and institutions to be stated, defended and contested, not consequences that follow automatically from a boundary, a model or technical capability. In each consequential judgement ask who selected the value, scope, comparison baseline and horizon, how that person acquired decision authority, and who has a route to challenge the selection. Transparency about the selection does not by itself make the selection just.
+
+Standing itself may be **unknown or disputed**. Leaving it unresolved in an account is different from allowing whoever benefits from exclusion to treat the affected entity as having no interests by default. The content of a worthwhile life belongs, where applicable, to those living it—not to the person offering a new route. Legitimate representation, protection and any priority between conflicting claims still require the relevant law, evidence and ethical argument.
 
 Now return to the library door. It is closed when you arrive. Your ticket is valid, and you cannot enter. Those facts describe an outcome. Do they show you have been wronged?
 
@@ -214,6 +224,8 @@ The comparison itself has authors. A formal panel may choose which outcomes ente
 
 **SAME CLAIM, DECLARED COMPARISON BASIS.** Name the comparator, affected people, period, evidence and value convention. If unlike outcomes cannot defensibly be measured on one scale, keep their differences visible instead of inventing a total.
 
+A number can still clarify a narrowly measured part. If one library actually opens for two hours a week and a new timetable offers four, the change in *published opening time* for that library and week is **4 − 2 = 2 hours**. This does not establish two hours of usable access for every visitor, much less two hours of moral benefit; buses, work, accessibility and staffing remain separate claims. The comparison becomes misleading if we silently change the library, period or quantity being measured.
+
 One possibility is to compare the new hours with the current timetable. Another is to compare them with a different allocation of the same budget. A third is to compare them with a future in which the building closes entirely because its running costs are unsustainable. The proposal can look different under each reference. Choosing a baseline is part of the claim, not a neutral clerical step.
 
 The period also matters. A one-week trial may create an immediate gain and hide an unsustainable staffing burden. A five-year plan may promise eventual savings while demanding more than current staff can safely carry. The same project can have a positive long-run ambition and an unjustified short-run transition. A good destination does not erase the journey people have to live through.
@@ -231,8 +243,6 @@ Sometimes two legitimate values still collide. A library may have to balance qui
 A fair process may itself be contested. Who was invited? Who could attend? Were private reasons exposed unnecessarily? Could someone disagree without losing access to a service? Did those most affected have a voice with any consequence? None of this guarantees consensus. It helps distinguish disagreement made answerable from a verdict hidden inside the method of counting.
 
 The library opens two evenings on a trial basis, with paid volunteers from the staff team, an accessible transport arrangement and a clear date for reconsideration. Some visitors gain new possibilities. The costs are not erased. Evidence will have to show what actually happened, including what did not work.
-
-The library tries two evenings with an accessible transport arrangement, paid staff volunteers and a planned review. The trial opens possibilities and creates costs. What the visitors and staff actually experience must now be able to change the next decision.
 
 # 9. What Can Travel Back
 
@@ -286,6 +296,8 @@ Repair needs to survive the original complaint. The changed entrance procedure m
 
 A student writes to the library after its trial.
 
+Preserving every possible future is not the same as caring for a present life. A person or animal may reasonably be spared an exhausting intervention that offers more hypothetical time or options but little chance of a comfortable day. The current being's ease, relationships and wishes, where knowable, belong in the comparison; **more options** is not automatically a better outcome. Specialist care and lawful representation decide the individual case.
+
 The extended opening hours were useful, the student says, but the locked entrance on the first night meant missing the last session of a course. The library has now fixed the door procedure. The student is pleased that somebody listened and that others will not face the same barrier. The missed session will not return.
 
 The repaired entrance helps future visitors and may support a remedy for the first student. The missed lesson is still past. A useful account can recognise the improvement and the remaining loss at the same time.
@@ -325,6 +337,8 @@ The next student's route is part of the repair claim, not a sentimental epilogue
 **Formation** names the development of a capability, habit, relationship or arrangement over time. A new capability is not established just because someone attended a session or followed a prompt. We need some evidence of usable performance, retention or transfer under stated conditions. **Maintenance** names the work and resources that keep a capability or route available; it may reveal hidden burdens on the people doing that work.
 
 The child returns to the pot on the windowsill.
+
+Not every valued change needs to be a qualification for later work. The child might laugh at the ridiculous lean of a sunflower, paint the pot in clashing colours, or just sit with a friend and watch an insect. Play, curiosity, delight and the present company can matter *now*, alongside skills that may last. The language should help protect the conditions for such moments without pretending to calculate their value for the person having them.
 
 A leaf has opened. The child has learned that watering matters, that too much water has consequences, and that the plant changes on its own timetable. An adult has learnt to put a tray beneath the pot instead of blaming the child for a shelf that cannot bear a spill. Somebody has taught the child what to notice, and the child has begun to notice without being told.
 
