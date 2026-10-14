@@ -6,9 +6,25 @@
 
 If a system is harming you now, nothing in this book asks you to put yourself in further danger to document it. You may need medical, legal, housing, family, employment or other competent help more urgently than you need a theory. A record is not rescue. You owe no system, researcher or reader your private history as proof.
 
+## About this book
+
+Mechanical Ethics is a proposed *reasoning layer*: a compact way to think about situations that are changing while we try to understand or influence them. It starts with practical questions. What is changing even if nobody acts? What can each participant actually see? Which actions are possible for them in their circumstances? Who can change a route, who carries its consequences, and how can a problem reach someone with the ability and authority to correct it?
+
+These questions travel. They can help describe a family decision, a workplace process, a public service, a software system or a shared environmental problem. Travelling questions do not mean identical mechanisms or identical moral duties. A medical delay, a blocked doorway and a flawed computer record each require their own facts, expertise and legitimate decision-makers.
+
+Why call this *mechanical*? We first examine how the situation works: its changing conditions, connections, constraints, clocks, records and possible interventions. That does not tell us automatically which interests deserve priority or who is entitled to decide. The book introduces ethical judgement only after the descriptive ground is clearer, and it makes its value and authority commitments visible for disagreement.
+
+Why use a reasoning layer at all? A request may be marked *pending* while a deadline passes. A report can be accurate about attendance but omit those unable to enter. A person can control a decision without living with its effects. The same careful attention can illuminate constructive possibilities: a child gains a skill, a service becomes reachable, a repair is made before a path closes, or someone uses their power to carry a problem for a person less able to do so.
+
+We begin with a glass on a table and build the distinctions one at a time. Later, short **mechanical waypoints** compress some of them into memorable lines. Such lines are reminders, not commands or complete equations. For example, **MODEL ≠ WORLD** means that an account represents part of reality; it does not mean all accounts are wrong.
+
+This is a draft research book, not a proved complete ethical framework, a universal moral formula or a replacement for existing expertise. You need no background in ethics, philosophy or mathematics. The point is to become better able to see what matters, ask whose account is missing, and keep correction and constructive futures reachable.
+
 # 1. Before a Choice
 
 Put a glass of water on a table and leave it alone.
+
+Why start before a dispute or a moral verdict? Because this ordinary scene already contains the first difficulty: the world does not hold still while an observer decides what to do. A more complicated institution cannot suspend that fact by leaving a case marked as pending.
 
 Nothing dramatic happens. Dust settles. The water changes temperature. Light moves across the glass. A tiny bubble finds the surface, or perhaps no visible movement occurs at all. The table keeps carrying the weight. Outside, a cloud crosses the sun.
 
@@ -32,6 +48,8 @@ The glass could also be the beginning of a gift. Someone might notice that you a
 
 For now we do not have to decide which changes ought to be encouraged. We only need to see that the ground beneath every later judgement is already moving.
 
+**Mechanical waypoint — NO DECISION ≠ NO CHANGE.** We are describing changes, not endorsing them. The temperature moves even while the glass is untouched; later we will ask what a similar delay costs someone.
+
 # 2. The Window We Have
 
 You look at the glass.
@@ -49,6 +67,10 @@ The person, instrument or organisation is not identical to the aperture we are e
 From these limited openings we assemble accounts of what seems to be happening. We make maps in our heads and documents for one another. Some are remarkably dependable. Others are useful until the moment a detail beyond their scope becomes consequential.
 
 A map of a city can get you from the station to a hospital. It will not reliably tell you whether the lift is working today. A hospital appointment screen can tell you that a time has been booked. It may not tell you whether the patient can afford the journey. An excellent map should remain excellent at what it does; it should not be mistaken for all the territory it leaves out.
+
+**Mechanical waypoint — MODEL ≠ WORLD.** The city map can be very good at guiding you to the hospital while saying nothing about today's broken lift. A model selects features relevant to a purpose; accuracy within its scope does not make it the whole world. Before relying on a record, ask which conditions it represents and which are still outside its window.
+
+It helps to say plainly which statements are **observed**, **inferred** or **unknown**. “I can see moisture on the glass” is an observation. “The water is cold” may be a sensible inference. “I have not measured its temperature” marks an unknown. These are different kinds of evidence, not different rankings of a person's worth.
 
 There is a difference between what we observed, what we inferred and what we do not know. It is worth keeping these apart without allowing the distinction to paralyse us.
 
@@ -71,6 +93,8 @@ The movement is small. Yet it introduces another distinction. Before the hand mo
 Action takes place inside constraints. We can imagine alternatives that no actual person present is able to perform.
 
 Suppose you decide to leave the glass where it is. You have made no movement toward it. The water nevertheless continues to warm. Someone might knock it over later. A seed beside it continues to grow or dry. *Doing nothing* is not a command that tells the surrounding world to stop.
+
+**Mechanical waypoint — NO ACTION ≠ NO TRANSITION.** An unchanged application status does not hold rent, illness or a school deadline still. Distinguish a case left unattended, a deliberate decision to wait, a communicated refusal and an action whose outcome is unknown. Silence alone does not tell us which of these occurred.
 
 This sounds obvious until a decision is delayed. We say, "Nothing has happened; the case is still pending." The sentence may be accurate about the case file and wrong about the life outside it. Rent comes due, illness progresses, opportunities pass, trust changes, skills grow or decay. The file is one part of the world, not the clock that governs all the rest.
 
@@ -102,6 +126,8 @@ A letter carries a promise across distance. A paycheck carries the result of lab
 
 These carriers can spread benefit as well as harm. The same shared wall can transmit noise and hold a warm home together. A school can spread an error through a badly written rule and spread capability through patient teaching. The connectedness is not itself the verdict.
 
+Call something a *carrier* when it transmits effects or consequential information between people, places or times. A pipe moves water, a policy moves constraints into many decisions, and a record moves an account into a later conversation. The mechanism changes with the carrier. The fact that something travels does not tell us whether it helps, harms or authorises an action.
+
 The child waters the seed generously. Some water enters the soil; some runs through the pot into the saucer. If the saucer fills, the wooden shelf beneath it may stain. The intended effect and the unintended one share the same physical path for a while and then separate. From the child's aperture the useful act is visible: the soil is wet. From the carpenter's aperture the possible damage to the shelf may be visible. Neither account has to erase the other.
 
 Now enlarge the scene. A neighbour borrows the watering can. Another neighbour has been trying to keep a communal planter alive during dry weather. Soon several people are using the same tap. Somebody suggests a rain barrel. Somebody else knows that standing water, weight and access require care. An arrangement that began with one child and one seed has acquired multiple participants, dependencies and different capacities to choose.
@@ -130,6 +156,8 @@ Perhaps you can walk. Perhaps the bus runs only once an hour. Perhaps you have e
 
 A possibility is not the same thing as a usable path.
 
+**Mechanical waypoint — POSSIBLE ≠ USABLE.** A route is usable for someone only if their knowledge, ability, resources, permissions and remaining time make taking it feasible. An appeal described in a handbook may still be unreachable before the deadline. The same is true of a bus that has already left.
+
 If the route exists but you do not know about it, it may become usable when somebody tells you. If you know it but cannot afford the fare, information is not enough. If the bus is available on paper but has already left, the timetable cannot take you backward. If a friend offers a lift but may not arrive, you have a possible route with uncertainty you must carry into your plans.
 
 The difference matters because institutions frequently describe opportunity from the position of the people who built the route. They can truthfully say a service exists, a complaint can be submitted, a job was advertised or an appeal was available. Another person may be unable to use that route at the time it matters.
@@ -142,13 +170,23 @@ Imagine two streets that look identical from where you stand. One has a clear pa
 
 Sometimes preparation helps. A sign placed before the corner can make the routes distinguishable. A trusted guide can supply missing information. A bridge can create a route that works whichever street is blocked. The positive lesson is powerful: usable possibility can be *built*, not only discovered or protected.
 
+The two streets reveal a subtle difference: a map can show that *each possible world has a successful route* without giving you *one route you can choose from your present view*. The correct first turn differs between the worlds, and you cannot distinguish them yet. A sign can supply information. A bridge can change which routes are feasible. Sometimes the important help is neither encouragement nor blame, but making a choice usable.
+
 Now put time back into the journey. The library may close at five. If you arrive at five-thirty, a perfectly valid ticket and a correct address will not make the visit happen. You may go tomorrow, but the book you needed for today's class cannot be borrowed in time for that class. A later visit is a different outcome.
 
 Other paths become stronger through time. A musician practises until playing a difficult passage no longer depends on a lucky attempt. Neighbours build trust by keeping small promises. A repaired bridge is maintained so it remains usable in future storms. The same passage of time that narrows some opportunities can deepen capability and make other opportunities more dependable.
 
 This is why the words *open* and *closed* are not moral labels in themselves. A path can close because a person has made a meaningful commitment. A dangerous temptation may become harder to follow because someone has grown in skill or care. The hardening of a decision may protect something precious; it may also trap somebody in a loss that another actor had power to prevent.
 
+*Hardening* means that a particular path is becoming much harder or impossible to recover in comparable form. A missed class, a worsening illness or a broken trust can harden on different schedules. Hardening can also stabilise something valuable, such as a repaired bridge or a kept promise. Its moral significance depends on which path, whose interests and what commitments are at stake.
+
 For an important threatened path, we may have to ask two different timing questions. When will the damage become difficult or impossible to reverse in a comparable way? And when can a particular corrective action actually be completed, given the people, permissions, resources and uncertainty involved? A fast promise is not the same as a feasible intervention.
+
+For a single specified threatened path, the timing test is:
+
+**Mechanical waypoint — T(protect) < T(harden).**
+
+The protection needs to take effect before that loss becomes irreversible in the relevant sense. Both times use the same starting point and concern the same path. They are estimates, not a universal law or a guarantee. If a reliable upper bound for completion and lower bound for hardening are unavailable, the honest result is **unknown**. A faster promise is not proof of timely protection.
 
 No universal clock answers this. The practical boundary may be gradual. An appeal arriving next month may restore a payment but not the train already missed. A medical treatment may have probabilities rather than a fixed deadline. An institution can revise its policy while the event that harmed someone remains part of history. Urgency alone does not establish irreversibility, and uncertainty about a deadline should not be replaced with false precision.
 
@@ -172,6 +210,8 @@ The same position can carry help. A pharmacist notices a possible problem with a
 
 These descriptions do not yet establish what either party owes. They show why the question will matter: control, knowledge and exposure do not necessarily belong to the same person. We can now ask who should decide, whose interests count, and what makes a use of power justified.
 
+**Mechanical waypoint — CONTROL ≠ EXPOSURE.** Ask who can alter the route, whose knowledge reaches them, and who bears the effects while waiting. Information and control can sit with different people. The tenant's extra photograph might improve the file while leaving the damp room unchanged. The pharmacist shows the constructive counterpart: using access to make a needed route available for someone else. Description alone does not award either party moral permission.
+
 
 # 6. When Change Matters to Someone
 
@@ -188,6 +228,8 @@ This is the place to be explicit about something moral language often hides. To 
 It is tempting to derive these answers from the mechanics we have already seen. The world changes; beings have limited views; some futures close. Therefore every closed future is a moral wrong. But that conclusion does not follow. Every fulfilled promise closes some other possibilities. Learning a skill makes certain errors less likely. A door shut against a storm can preserve a home. A predator and its prey cannot both have every preferred future protected. A public institution may have to choose between two legitimate claims with limited resources.
 
 The mechanical facts help us see the choice. They cannot appoint the rightful chooser.
+
+**Mechanical waypoint — DESCRIPTION ≠ ETHICAL JUDGEMENT; CAPABILITY ≠ AUTHORITY.** Knowing that the gate was closed and that some paths became inaccessible does not settle whether closing it was justified. The judgement must also name the affected interests, legitimate responsibilities, values and standing of those concerned. Likewise, being technically able to change a system does not prove entitlement to change it.
 
 Consider a child about to run into a road. An adult closes the garden gate. The child protests because the garden path is no longer open. The adult has curtailed one possibility and may have protected several more. To judge the act we need more than a count of closed options. We need an account of the child, the risk, the adult's responsibilities, the other people who may be affected, and the kind of future the intervention is meant to protect.
 
@@ -216,6 +258,10 @@ A longer opening could help students, shift workers and families who cannot visi
 The proposal sounds simple if we say only that more opening hours create more opportunity. It becomes more truthful when we follow the change into several lives.
 
 We need a comparison. But comparison with what?
+
+Begin with the *baseline*: compare longer library hours with which real alternative—the current timetable, a smaller extension, or another use of the budget? Then identify the *scope*: students, staff, carers, neighbours and anyone else whose interests enter the decision. Finally choose the *horizon*: the trial evenings, the term or consequences that take longer to appear. A claim about “less harm” changes meaning if any of these are silently replaced.
+
+**Mechanical waypoint — SAME COMPARISON, DECLARED BASIS.** Evidence, affected people, period, value choices and comparator belong with the claim. When there is no defensible common numerical scale, comparing distinct costs and benefits in words is more honest than subtracting invented totals. Mathematics may help a well-defined comparison; it cannot supply moral standing or authority by itself.
 
 One possibility is to compare the new hours with the current timetable. Another is to compare them with a different allocation of the same budget. A third is to compare them with a future in which the building closes entirely because its running costs are unsustainable. The proposal can look different under each reference. Choosing a baseline is part of the claim, not a neutral clerical step.
 
@@ -259,6 +305,8 @@ Suppose the visitor photographs the locked entrance. The library's door system l
 
 A timestamp is evidence of what a clock recorded, within its custody and limits. A checksum can establish that the bytes being checked match a particular earlier held copy. Neither magically proves when the world event happened, whether the record is complete or whether its use is just. Independence has degrees; a witness is useful when its actual means of knowing and its control relationship fit the claim at stake.
 
+*Custody* is the practical history of who held a record, which copy they controlled, how it might have changed, and what the recorded clock can actually support. Three documents repeating a single witness are not automatically three independent accounts. A checksum may support a claim that particular bytes remained unchanged; it cannot certify the truth of the event they describe.
+
 Custody matters because records can be altered, deleted, exposed or used against the person who created them. A person in a precarious job may have strong evidence of a dangerous practice and good reasons not to place it in a manager's public folder. A person seeking medical care may need a confidential channel rather than a public accusation. A child cannot be made responsible for building an evidence archive about a situation adults should address.
 
 The route for hearing evidence must not quietly become another source of harm.
@@ -268,6 +316,8 @@ It helps to distinguish access from authority to disclose. The library may posse
 If the library changes the closing procedure, it should preserve enough of the reason for later staff to understand it. But it may not need to preserve the student's full identity or the visitor's unrelated movements. Responsible memory is purpose-bound, not a hunger for every available detail.
 
 Imagine that the manager receives all three reports and responds, "We have taken this seriously." The sentence may be sincere. It has not yet changed the door. A recorded confession, apology or incident review is not the same as an effective correction.
+
+**Mechanical waypoint — RECORD ≠ REMEDY; FEEDBACK ≠ ANSWERABILITY.** Consequential information needs a usable path from the affected person, through any witnesses and records, to someone with actual capacity and legitimate authority to make a relevant change. Each connection may fail. A feedback form can exist without the ability to alter the decision. Confidentiality and refusal remain legitimate constraints on the route.
 
 There must be some route from the affected information to a person or mechanism able to alter what happens. A clerk may be allowed to read the complaint but not to change building access. A senior manager may have the authority and no access to the original evidence. A provider may run the software while the library owns the policy. The strength of the witness alone cannot repair the connection.
 
@@ -285,7 +335,11 @@ A student writes to the library after the trial.
 
 The extended opening hours were useful, the student says, but the locked entrance on the first night meant missing the last session of a course. The library has now fixed the door procedure. The student is pleased that somebody listened and that others will not face the same barrier. The missed session will not return.
 
+A correction can improve the entrance procedure, help the next student and support a meaningful remedy for the first. Those are real gains. They do not make yesterday's missed teaching session reappear. Name the improvement and the remaining loss separately.
+
 We are tempted to describe the problem as solved because the current arrangement has improved. We are also tempted to say that no correction was possible because the first loss cannot be erased. Both descriptions leave something out.
+
+**Mechanical waypoint — CORRECTED ≠ RESTORED.** “The entrance now works” and “the student received the missed lesson” are different factual claims. One can be true while the other remains false. Later support can matter without pretending an earlier loss has been erased.
 
 Correction changes what can still be changed. It does not necessarily restore the path a person actually lost.
 
@@ -319,6 +373,8 @@ That is a stronger ending than either a triumphant claim that every wrong has be
 The child returns to the pot on the windowsill.
 
 A leaf has opened. The child has learned that watering matters, that too much water has consequences, and that the plant changes on its own timetable. An adult has learnt to put a tray beneath the pot instead of blaming the child for a shelf that cannot bear a spill. Somebody has taught the child what to notice, and the child has begun to notice without being told.
+
+When practice, maintenance or repeated interaction leaves someone with a capability they can sustain, call this *formation*. The child begins to water the plant reliably; the adult learns to protect the shelf. Both have gained habits that can make new actions possible. Whether these changes are good for everyone still needs discussion.
 
 A small capability has appeared that was not present at the beginning.
 
@@ -392,6 +448,8 @@ At this scale, care becomes a design question as well as a personal one. Does an
 
 An ambitious system can be a genuine gift. It can widen knowledge, create useful work, protect people and help communities coordinate. That possibility deserves exploration. A gift becomes less valuable when accepting it requires surrendering the ability to question what it does.
 
+**Mechanical waypoint — RECURRING PATTERN ≠ IDENTICAL MECHANISM.** Hospitals, households, software and ecosystems can all have limited accounts, connected effects and contested correction routes. That resemblance helps us ask questions; it does not establish common causes or transfer legal and moral authority from one domain to another.
+
 We started with a hand lifting a glass. We now have many hands, no single wheel and sometimes no hand at all. The structure has widened: bounded accounts, evolving conditions, constrained interventions, interacting effects and paths that open or close. But the permissions, causal mechanics and obligations differ. The analogy does not grant a manager, a model or a theory the sovereignty of a moral law.
 
 # 12. The Shape That Returns
@@ -428,6 +486,8 @@ The fact that a manuscript is coherent is not proof that it is correct, humane o
 
 A framework about answerability should be answerable. That means retaining the earlier evidence when a claim changes, identifying who made a new claim, making criticism reachable and allowing a legitimate reader to reject the whole construction.
 
+The same rule applies here. The examples are selected, the manuscript has a limited view, and a reader may discover a missing affected party, impossible timing assumption or unsupported claim. A useful compressed language should make that disagreement easier to locate and carry, not turn itself into something that must be trusted.
+
 If the grammar begins demanding trust merely because it can describe many domains, it has failed its own premise.
 
 # 13. The Room Again
@@ -462,7 +522,7 @@ We can, however, notice more than we noticed at the start. We can see what an ac
 
 The glass is still only a glass. The child is still learning. Outside, the world has not become simple.
 
-That is not a failure of the journey. It is the reason to continue it.
+The practical aim is to see more clearly what is changing, what is possible, whose interests are at stake, and where correction can still reach. We can also see which worthwhile possibilities might be built. The judgement and the work remain in the real world, with the people and institutions who must answer for them.
 
 ---
 
