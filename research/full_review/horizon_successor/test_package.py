@@ -78,6 +78,18 @@ class ReadingPackage(unittest.TestCase):
             self.assertEqual(path.as_posix(),name)
         self.assertEqual(self.z.testzip(),None)
 
+    def test_actual_upload_folder_matches_verified_archive_bytes(self):
+        # The GitHub artifact zips this folder once. Test its actual staged
+        # bytes, not just a separate locally generated ZIP.
+        self.assertTrue(p.STAGING.is_dir(), "run package --stage first")
+        staged = {
+            file.relative_to(p.STAGING).as_posix(): file.read_bytes()
+            for file in p.STAGING.rglob("*") if file.is_file()
+        }
+        self.assertEqual(set(staged), set(self.files))
+        for name, raw in self.files.items():
+            self.assertEqual(staged[name], raw, name)
+
     def test_source_package_deterministic_and_current(self):
         self.assertEqual(p.archive_bytes()[0],self.data)
         self.assertEqual(self.data,p.OUTPUT.read_bytes())
