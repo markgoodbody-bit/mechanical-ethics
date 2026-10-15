@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126mm" height="59.5mm" viewBox="0 0 900 425" role="img" aria-labelledby="clock-v3-title clock-v3-desc">
+  <title id="clock-v3-title">One payment, two losses</title>
+  <desc id="clock-v3-desc">Two unscaled tracks begin at the same event. Two aligned round marks indicate the same funds becoming usable. On the payment track, the specified loss hardens later; on the housing track, the home has already been lost. The thin vertical guide joins one event shown twice. Acknowledgement is omitted because the comparison concerns an actual effect. The order is hypothetical, not measured case data.</desc>
+  <rect width="900" height="425" fill="#ffffff"/>
+  <g fill="none" stroke="#27312F" stroke-linecap="round">
+    <line id="origin" x1="250" y1="152" x2="250" y2="323" stroke-width="1.4"/>
+    <line id="payment-axis" x1="250" y1="165" x2="845" y2="165" stroke-width="1.2"/>
+    <line id="housing-axis" x1="250" y1="310" x2="845" y2="310" stroke-width="1.2"/>
+    <line id="same-event-guide" x1="570" y1="165" x2="570" y2="310" stroke-width="0.9"/>
+    <line id="payment-hardening" x1="790" y1="153" x2="790" y2="177" stroke-width="2"/>
+    <line id="housing-hardening" x1="420" y1="298" x2="420" y2="322" stroke-width="2"/>
+  </g>
+  <g fill="#A35C3C" stroke="#27312F" stroke-width="1.2">
+    <circle id="payment-effect" cx="570" cy="165" r="7"/>
+    <circle id="same-payment-effect" cx="570" cy="310" r="7"/>
+  </g>
+  <g fill="#27312F" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400">
+    <text x="250" y="105" text-anchor="middle">Same start</text>
+    <text x="570" y="105" text-anchor="middle">Funds usable</text>
+    <text x="790" y="105" text-anchor="middle">Loss hardens</text>
+    <text x="200" y="177" text-anchor="end" font-size="32" font-style="italic">Payment</text>
+    <text x="200" y="322" text-anchor="end" font-size="32" font-style="italic">Housing</text>
+    <text x="420" y="375" text-anchor="middle">Home lost</text>
+  </g>
+</svg>
