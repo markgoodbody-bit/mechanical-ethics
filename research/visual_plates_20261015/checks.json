@@ -1,0 +1,46 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_AND_RASTER_CHECKS",
+  "plates": {
+    "01-two-clocks": "PASS: XML, metadata, safe resources, text bounds/overlap, raster shape, monochrome",
+    "02-who-draws-the-map": "PASS: XML, metadata, safe resources, text bounds/overlap, raster shape, monochrome",
+    "03-growing-room": "PASS: XML, metadata, safe resources, text bounds/overlap, raster shape, monochrome"
+  },
+  "labels_checked": 50,
+  "minimum_intended_label_pt": 10.32,
+  "semantic_geometry": "PASS: common t0; acknowledgement distinct; same effect precedes one loss and follows coupled loss",
+  "negative_controls_rejected": 6,
+  "source_custody": "PASS: 3 full-file SHA256 values and 38 edition-specific line sentinels",
+  "deterministic_svg_regeneration": "PASS",
+  "unverified": [
+    "Physical printing",
+    "Actual novice comprehension",
+    "Assistive-technology/browser behavior",
+    "Final DEV2 editorial placement",
+    "Safe effective challenge route in any actual institution"
+  ],
+  "files": {
+    "01-two-clocks-book-width.png": "e29a7ebf0bcab1ac03b12e98ce02cafc37a8c1a441172f8313653bfb28deb628",
+    "01-two-clocks-mono.png": "786f399263cface7a0ac5f3867c361e8196f3557191dfc075d8922f0edccbb03",
+    "01-two-clocks.png": "ca21a87f334b03dc8fb8c57d503b6040adbd88cc58312fe20247ad39d68a2b1e",
+    "01-two-clocks.svg": "e2200c10bef6846611a1572925998e275d7989cb50bbc62e84262b5f64294d01",
+    "02-who-draws-the-map-book-width.png": "0132e3537eaebbbb30794b734a6810f4e68bd19df6a83e69487c38775aa87b11",
+    "02-who-draws-the-map-mono.png": "b9be8b27a5dc64b8033c4b29eab39d672b03cee673d50e9d410ec62a25d462a9",
+    "02-who-draws-the-map.png": "f21af63f11f438695f911dad9d2cb1f8156cefebb43bf1108dc8a6c8849ab7c3",
+    "02-who-draws-the-map.svg": "ef288fb28dfc017f7a8c143e6033ec1ce2a2855a20f050e980efa175aefd0456",
+    "03-growing-room-book-width.png": "8a08258b7d05797b500f227a9937c6d0e7a29957c548bf900c8aa8f097566ca4",
+    "03-growing-room-mono.png": "48f823abdfbf01c968cb4abb250b6afbe4f64e31b832e7c349a2539e5e6b2212",
+    "03-growing-room.png": "15b1464a41762a4ac857e4f8f4b8409d97d85128e1517bf83f3086255be25f35",
+    "03-growing-room.svg": "fe15896b07e909b8a54d62bc4363850da774601b6aa197e63a43b5fd7d496167",
+    "captions.md": "c344f2d852be100c5d81eb16545a8c9cee00e2b1a4907ca7d697c54d2eddc3df",
+    "contact-sheet.png": "6fa0ee1263355788e3e319321cc3daa264855211590c0c92c6dbccde33e8edd6",
+    "make_plates.py": "6d934410d567a1f369235bfd9e92d856b024e5e0232b09652736b40061cb4083",
+    "plate-metadata.json": "47c659967529db7be3d4a1e3cc918068a66834d4ace5704317b4a7115e465d61",
+    "README.md": "0ba0321a506dae716e595ed2c1022e27ee1cd54868acfcf6aed74d4eea2c8b7a",
+    "render-checks.json": "37c5b3cc0998abd2f3f303e3e0658383e12dad184bb2c22be5e68e74b98209e2",
+    "render.mjs": "e43a399606096b4758868d764c3e02d5bd6e2a99a8869de1f99b28439cf02092",
+    "source-map.json": "72d5b5dd3eacad0506c82f62fd35891adbdb8968362b3e91c56d23be8e4a5d90",
+    "style-guide.md": "b7ebb31d9f7ec2f563ea466599665c54eb60fdc0f724236e67e836577116b10e",
+    "test_plates.py": "97873affeb902c904570ecdc6e7370df29aa75a47a30e89db0955355dc135ad7",
+    "visual-review.md": "e80106d4cbe0d8c9b9d930fa6bcbc4cb32f66cc0d2281264dcec769883be3884"
+  }
+}
