@@ -1,0 +1,41 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_GEOMETRY_TEXT_AND_RENDER_CHECKS",
+  "original_and_v2_preserved": true,
+  "source_custody": "PASS: immutable RC3A and DEV2 hashes plus 23 line sentinels",
+  "label_words": 10,
+  "label_count": 6,
+  "bold_labels": 0,
+  "minimum_label_pt": 11.91,
+  "italic_row_label_pt": 12.7,
+  "width_mm": 126,
+  "height_mm": 59.5,
+  "comparison_width_px_each": 714,
+  "text_extraction": "PASS: six exact SVG labels and title/description",
+  "bounds_and_collisions": "PASS: installed Georgia/Georgia Italic glyph bounds, label-label and rule-label checks",
+  "geometry": "PASS: common origin, same actual effect before specified loss and after housing loss",
+  "negative_controls_rejected": 5,
+  "caption": "Identical to preserved v2",
+  "repeat_render": "PASS: all five PNGs byte-identical on repeated same-environment render/comparison",
+  "monochrome": "PASS: neutral RGB; same geometric distinction",
+  "limits": [
+    "Human style approval",
+    "Physical print",
+    "Novice comprehension",
+    "Assistive technology",
+    "Final publication font choice"
+  ],
+  "files": {
+    "art-direction.md": "91d2c5d3dd1912b1acf1e2e47e5a5d1ec6e226d315570468b70c701318947c49",
+    "check_and_compare.py": "19991f2551e212c97da8b164c0944c937450a7530314f0cbe6f20bf9fc2a79bd",
+    "README.md": "39926227b5388961e4b41f5a2f806379fcaa747b29e8f6d4e368d72b5137d4fc",
+    "render.mjs": "8dbe55e7c4bb2d0c5fa92be752e3a826f2975489b57cefe9503265ce3cdb9c53",
+    "renderer.json": "43fbfff14326e6eb643ae1dde27bed9b31cb5cecbc928b51a354e49d742a90a2",
+    "two-clocks-v3-book-width.png": "370e6a7dbae9d78f2534e98b934eedb17fb8ce4f2bca8f3b2eb15e104ea45a4f",
+    "two-clocks-v3-mono-book-width.png": "1b9a21ac7af3180a2673d74b638106f66a3e152082827affb9f74161d3be7fa2",
+    "two-clocks-v3-mono.png": "92df6fa6a65221385315b68ae4629d588cd9ec82c95f2db87d1c026488288797",
+    "two-clocks-v3.png": "9ebedf0a66d3413ef39a997297e49e3113f7a35dc0d6c4906d06cf284b753200",
+    "two-clocks-v3.svg": "1fb6547d8fcb73eab3beb7e0da591df5cbf04bf4ee37678fc7e649d473f76a10",
+    "v2-v3-equal-width.png": "72c19abe34d1b30bb2abac0106a3d561355b609fdac63d755794df6ee2a82a89",
+    "visual-review.md": "0bbec4569ab07f5c03d27d4acc60e8631bfda520c0ab28335b61d04e5da54a55"
+  }
+}
