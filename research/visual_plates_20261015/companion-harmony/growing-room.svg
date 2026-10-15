@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126mm" height="78.4mm" viewBox="0 0 900 560" role="img" aria-labelledby="growing-title growing-desc">
+  <title id="growing-title">Growing room</title>
+  <desc id="growing-desc">Three imagined moments revisit a child, glass and pot by the same window. The child first notices the planted pot, then practises with an adult and a tray. Another plant offers a different task in the third moment, where the adult is not drawn. The first plant remains rather than growing into an inevitable progress chart. A line below the scenes makes continuing upkeep explicit. The drawing proposes a possible path; it does not demonstrate independence, learning, transfer or consent.</desc>
+  <defs>
+    <g id="room" fill="none" stroke="#27312F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 105 99 Q 105 95 109 95 H 235 Q 239 95 239 99 V 242 H 105 Z M 172 95 V 242 M 105 168 H 239"/>
+      <path d="M 91 310 Q 165 308 254 310 M 108 311 L 107 379 M 239 311 L 240 379"/>
+      <path d="M 125 270 Q 137 272 150 270 L 147 303 Q 137 307 129 303 Z M 128 290 Q 137 292 148 290"/>
+      <path d="M 175 280 Q 190 283 207 280 L 202 306 Q 191 312 180 306 Z M 175 280 Q 190 276 207 280"/>
+    </g>
+    <g id="child" fill="#ffffff" stroke="#27312F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 76 230 Q 80 211 63 210 Q 46 210 46 229 Q 46 243 60 247 Q 70 249 75 240 L 81 237 L 76 233 M 47 223 Q 54 210 71 218"/>
+      <path d="M 49 258 Q 59 252 70 260 L 88 307 Q 70 316 47 309 Q 42 285 49 258 Z"/>
+      <path d="M 52 313 Q 47 343 43 376 M 73 314 Q 76 344 85 375 M 43 376 Q 49 381 55 378 M 85 375 Q 92 379 97 377" fill="none"/>
+      <circle cx="70" cy="227" r="1.2" fill="#27312F" stroke="none"/>
+    </g>
+    <g id="sprout" fill="none" stroke="#27312F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 191 278 Q 188 263 194 247 M 191 265 Q 173 259 178 249 Q 189 250 191 265 M 192 259 Q 209 245 211 255 Q 207 266 192 265"/>
+      <path d="M 191 277 Q 190 269 192 263" stroke="#A35C3C" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="900" height="560" fill="#ffffff"/>
+  <g id="notice-scene" transform="translate(25 20)">
+    <use href="#room"/>
+    <use href="#child"/>
+    <path d="M 68 269 Q 82 280 82 299" fill="none" stroke="#27312F" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="191" cy="275" r="2.5" fill="#A35C3C"/>
+  </g>
+  <g id="practice-scene" transform="translate(325 20)">
+    <use href="#room"/>
+    <g id="supporting-adult" fill="#ffffff" stroke="#27312F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 34 191 Q 37 175 22 173 Q 7 173 7 190 Q 7 204 20 207 Q 30 209 33 201 L 38 198 L 34 194"/>
+      <path d="M 12 220 Q 23 214 34 220 Q 40 253 38 309 L 12 311 Q 7 260 12 220 Z M 16 313 L 12 376 M 33 313 L 37 376"/>
+      <path d="M 32 243 Q 55 268 109 274" fill="none"/>
+    </g>
+    <use href="#child"/>
+    <path d="M 70 270 Q 96 273 126 286" fill="none" stroke="#27312F" stroke-width="1.6" stroke-linecap="round"/>
+    <use href="#sprout"/>
+    <path id="practice-tray" d="M 172 314 Q 191 318 210 314" fill="none" stroke="#27312F" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g id="another-plant-scene" transform="translate(625 20)">
+    <use href="#room"/>
+    <use href="#child"/>
+    <path d="M 70 270 Q 98 272 126 286" fill="none" stroke="#27312F" stroke-width="1.6" stroke-linecap="round"/>
+    <use href="#sprout"/>
+    <path id="another-tray-and-pot" d="M 172 314 Q 191 318 210 314 M 208 379 H 258 M 214 379 V 398 M 253 379 V 398 M 215 347 Q 233 351 252 347 L 247 373 Q 233 379 221 373 Z M 233 347 Q 224 334 231 325 Q 246 330 233 347 M 232 342 Q 214 332 218 324 Q 232 325 232 342" fill="none" stroke="#27312F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="400" fill="#27312F">
+    <text x="165" y="69" text-anchor="middle" font-style="italic">Notice</text>
+    <text x="465" y="69" text-anchor="middle" font-style="italic">Practise</text>
+    <text x="765" y="69" text-anchor="middle" font-style="italic">Another plant</text>
+    <text x="450" y="506" text-anchor="middle" font-size="30">Someone keeps the room usable.</text>
+  </g>
+</svg>

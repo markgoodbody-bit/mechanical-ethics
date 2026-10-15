@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126mm" height="78.4mm" viewBox="0 0 900 560" role="img" aria-labelledby="map-title map-desc">
+  <title id="map-title">Who draws the map?</title>
+  <desc id="map-desc">An assessor authors a selected account comparing opening hours with the current timetable. A visitor's missed last bus is shown outside that account. Both the selected account and a proposed challenge route lead to review, with no predetermined verdict. The page outline marks the scope of an account, not the boundary of reality. The route is illustrative, not evidence of safe or effective recourse.</desc>
+  <defs><marker id="review-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#27312F" stroke-width="1.2"/></marker></defs>
+  <rect width="900" height="560" fill="#ffffff"/>
+  <g fill="none" stroke="#27312F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <line id="authorship" x1="280" y1="88" x2="280" y2="120"/>
+    <path id="selected-boundary" d="M 80 120 H 457 L 495 158 V 331 Q 495 338 488 338 H 80 Q 73 338 73 331 V 127 Q 73 120 80 120 M 457 120 V 158 H 495"/>
+    <path id="account-review" d="M 510 230 H 669" marker-end="url(#review-arrow)"/>
+    <path id="challenge-review" d="M 402 451 C 615 451 750 451 750 273" marker-end="url(#review-arrow)"/>
+  </g>
+  <circle id="visitor-account" cx="75" cy="450" r="6" fill="#A35C3C" stroke="#27312F" stroke-width="1.2"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" fill="#27312F">
+    <text x="280" y="65" text-anchor="middle" font-size="32" font-style="italic">Assessor</text>
+    <text x="280" y="192" text-anchor="middle">Opening hours</text>
+    <text x="280" y="235" text-anchor="middle" font-style="italic">versus</text>
+    <text x="280" y="278" text-anchor="middle">Current timetable</text>
+    <text x="280" y="375" text-anchor="middle" font-style="italic">Selected account</text>
+    <text x="750" y="240" text-anchor="middle" font-size="32">Review</text>
+    <text x="100" y="425" font-style="italic">Visitor</text>
+    <text x="100" y="470">Last bus missed</text>
+    <text x="568" y="408" text-anchor="middle" font-style="italic">Challenge</text>
+  </g>
+</svg>
