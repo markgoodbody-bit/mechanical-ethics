@@ -105,5 +105,5 @@ before={p.name:digest(p) for p in ROOT.glob('*.svg')}
 subprocess.run([sys.executable,str(ROOT/'make_plates.py')],check=True,capture_output=True)
 assert before=={p.name:digest(p) for p in ROOT.glob('*.svg')}, 'Generator not deterministic'
 report={'status':'PASS_BOUNDED_SOURCE_AND_RASTER_CHECKS','plates':results,'labels_checked':text_total,'minimum_intended_label_pt':round(26*126*72/25.4/900,2),'semantic_geometry':'PASS: common t0; acknowledgement distinct; same effect precedes one loss and follows coupled loss','negative_controls_rejected':len(controls),'source_custody':source_result,'deterministic_svg_regeneration':'PASS','unverified':['Physical printing','Actual novice comprehension','Assistive-technology/browser behavior','Final DEV2 editorial placement','Safe effective challenge route in any actual institution'],'files':{p.name:digest(p) for p in sorted(ROOT.iterdir()) if p.suffix in ['.svg','.png','.py','.mjs','.md','.json'] and p.name!='checks.json'}}
-(ROOT/'checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(ROOT/'checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({k:v for k,v in report.items() if k!='files'},indent=2))

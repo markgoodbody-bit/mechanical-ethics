@@ -80,7 +80,7 @@ plates.append(('03-growing-room','Growing room',alt3,p))
 
 metadata=[]
 for name,title,alt,parts in plates:
-    (ROOT/f'{name}.svg').write_text(svg(name,title,alt,parts),encoding='utf-8')
+    (ROOT/f'{name}.svg').write_text(svg(name,title,alt,parts),encoding='utf-8',newline='\n')
     metadata.append({'id':name,'title':title,'alt':alt})
-(ROOT/'plate-metadata.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(ROOT/'plate-metadata.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print('Generated 3 editable SVG candidates; semantic status OPTIONAL_REVIEW_ONLY.')
