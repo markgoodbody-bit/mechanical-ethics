@@ -1,0 +1,16 @@
+{
+  "node": "v24.19.0",
+  "sharp": "0.35.5",
+  "svg_renderer": "librsvg 2.63.2",
+  "working_font": "installed Georgia regular/italic; not final publication selection",
+  "intended_width_mm": 126,
+  "intended_height_mm": 78.4,
+  "full_png": [
+    1488,
+    926
+  ],
+  "book_width_png": [
+    714,
+    444
+  ]
+}

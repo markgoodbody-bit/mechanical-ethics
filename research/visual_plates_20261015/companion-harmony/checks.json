@@ -1,0 +1,56 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_SEMANTIC_AND_RENDER_CHECKS",
+  "sources": "PASS: immutable RC3A and DEV2 hashes plus 23 line sentinels",
+  "original_plates_and_clock_v3": "UNCHANGED_HASHES_PASS",
+  "plate_metrics": {
+    "who-draws-the-map": {
+      "visible_words_before": 43,
+      "visible_words_after": 14,
+      "label_count": 9,
+      "minimum_label_pt": 11.91,
+      "bold_labels": 0
+    },
+    "growing-room": {
+      "visible_words_before": 50,
+      "visible_words_after": 9,
+      "label_count": 4,
+      "minimum_label_pt": 11.91,
+      "bold_labels": 0
+    }
+  },
+  "minimum_type_pt": 11.91,
+  "width_mm": 126,
+  "height_mm": 78.4,
+  "comparison_width_px_each": 714,
+  "negative_controls_rejected": 8,
+  "map_regressions": "PASS: selected account versus outside consequence; two paths to review, no verdict edge",
+  "formation_regressions": "PASS: repeated child/room; help/tray; another plant; same sprout reused, no escalating progress symbols",
+  "neutral_monochrome": "PASS",
+  "repeat_render": "PASS: all nine PNGs byte-identical on repeated same-environment rendering/comparison",
+  "limits": [
+    "Human aesthetic/placement selection",
+    "Physical print",
+    "Novice comprehension",
+    "Assistive technology",
+    "Final book typography"
+  ],
+  "files": {
+    "before-after.png": "36a53a112cfb9fb2ae53729f6d934994b0677698b7cf832df477ba0e03768526",
+    "captions-and-placement.md": "321cfb4ba39b22209e35404a73f691dd911e695bc532604290f12c5cab133701",
+    "check_and_compare.py": "7b2ee5b57705451320702c6f6570c5756900e249dfc967af7968d1e1a92f1b32",
+    "growing-room-book-width.png": "1d08a2afdb7fdc43ffd1809f67b02d470b99baf0506b4658a9cbfc920d563693",
+    "growing-room-mono-book-width.png": "886b21b7b6959fdf0713d81510c836e1bf6a51b4618b5b8e6adf5185d0a9ea8b",
+    "growing-room-mono.png": "7b1cfb90d72ec37e85e472265c34de83250e620c10177ff502986a87b6921b34",
+    "growing-room.png": "b3f02ef5988922f209c200bded9ca259d6409d07ee5b7c323dc0c63d5b33021e",
+    "growing-room.svg": "78ccb7b3579e7eea17b8a63f8969223ad1cc4c28281325927eab1056d5609356",
+    "README.md": "7e1c15ce6a89c231470b6d1fc84f6d9dcbd959ae74cfe15c5041c9509f6ceaea",
+    "render.mjs": "4edd64b0bdd5cb42cb176a762668841a31d9b80425cb7140e79fbbc30a2021fc",
+    "renderer.json": "06e4d3905a632981bc59624092efe7ff4180fd520e2b3c3632b5885600faa2c5",
+    "visual-review.md": "3a66db38d9e89b9e0790312624e310ea8bc159bed89edbbd05c50afe33bebeb7",
+    "who-draws-the-map-book-width.png": "c16ccd38b2f25e0013bd13df2ea675a431cdf9ba99628074e640260288213f6c",
+    "who-draws-the-map-mono-book-width.png": "c966cfeb47879dbc2008d5817439af2d0a6a092f38f0aa4e15a18639e0fda063",
+    "who-draws-the-map-mono.png": "e93e229321d0a7b79ece762a3767f963df4ef2aa8f7dba6de6a34485ebc01193",
+    "who-draws-the-map.png": "ac073c36870b5bfd8c461a9062bbf6a687e1a8662cc2e1331f79f6e6b72772f0",
+    "who-draws-the-map.svg": "527ab34e0e4b8214ab65bdfdbd070291fd114fecbf743a09ec3e69a343ab58ab"
+  }
+}
