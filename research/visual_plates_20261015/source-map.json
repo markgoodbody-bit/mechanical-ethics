@@ -1,0 +1,36 @@
+{
+  "status": "OPTIONAL_REVIEW_CANDIDATES_NOT_MANUSCRIPT_INSERTIONS",
+  "task_comment": "https://github.com/markgoodbody-bit/COM/issues/828#issuecomment-6192355018",
+  "sources": [
+    {
+      "edition": "ME09-RC3A-20261015",
+      "commit": "a240cb39f4e3135dc4c66f09ae03679b3cfbb69a",
+      "path": "research/kernel_first_human_20261014/THE_MOVING_GROUND_RC3A_20261015.md",
+      "sha256": "f3de4190c018fb29e005d9b699c516e41b146204648d0cb2883037b77d67e1d1",
+      "url": "https://github.com/markgoodbody-bit/mechanical-ethics/blob/a240cb39f4e3135dc4c66f09ae03679b3cfbb69a/research/kernel_first_human_20261014/THE_MOVING_GROUND_RC3A_20261015.md",
+      "sentinels": {"23": "The same structure includes growth.", "91": "A child carries the glass", "97": "Carriers and practice can support formation", "145": "T(protect, a) < T(harden, a)", "149": "UNKNOWN still has a clock and a bearer", "333": "Formation", "343": "None of the earlier components alone guaranteed that result"}
+    },
+    {
+      "edition": "ME10-DEV1-20261015",
+      "commit": "28900a695c5f5b9905de6dbc9d769a53f15d79f8",
+      "path": "research/kernel_first_human_20261014/THE_MOVING_GROUND_V10_DEV1_20261015.md",
+      "sha256": "6a3d4a73e07cb8904b643c6faf34e4a5e18488c220c07229fa566ba9adcee62d",
+      "url": "https://github.com/markgoodbody-bit/mechanical-ethics/blob/28900a695c5f5b9905de6dbc9d769a53f15d79f8/research/kernel_first_human_20261014/THE_MOVING_GROUND_V10_DEV1_20261015.md",
+      "sentinels": {"25": "not a promise that the world always improves", "153": "T(protect, a) < T(harden, a)", "155": "same event", "157": "UNKNOWN", "159": "Unknown does not mean stop everything", "163": "tenancy lost", "229": "last bus", "235": "comparison's author", "237": "A controller's own declaration is not independent confirmation", "289": "Answerability", "291": "cannot certify its own answerability", "353": "Formation", "361": "refuse, change direction or surpass", "363": "None of the earlier components alone guaranteed that result", "373": "unacknowledged or coerced labour"}
+    },
+    {
+      "edition": "ME10-DEV2-20261015",
+      "commit": "4fa7412141299a2c30b4765d01bee28106db3a4b",
+      "path": "research/kernel_first_human_20261014/THE_MOVING_GROUND_V10_DEV2_20261015.md",
+      "sha256": "bae35c539b30d33d6f7e0bc7d1995c2b57e4c4e376cc04ebe8921f4ee0a386b7",
+      "url": "https://github.com/markgoodbody-bit/mechanical-ethics/blob/4fa7412141299a2c30b4765d01bee28106db3a4b/research/kernel_first_human_20261014/THE_MOVING_GROUND_V10_DEV2_20261015.md",
+      "sentinels": {"141": "begin at the same event", "153": "T(protect, a) < T(harden, a)", "155": "Both clocks need the same start", "157": "UNKNOWN", "159": "Unknown does not mean stop everything", "163": "tenancy lost", "187": "declaring a delay necessary or a path closed", "231": "last bus", "237": "comparison's author", "239": "A controller's own declaration is not independent confirmation", "291": "Answerability", "293": "cannot certify its own answerability", "355": "Formation", "363": "refuse, change direction or surpass", "365": "None of the earlier components alone guaranteed that result", "375": "unacknowledged or coerced labour"}
+    }
+  ],
+  "plate_sources": {
+    "01-two-clocks": {"DEV1_lines": [[149,169]], "RC3A_lines": [[145,155]], "addition": "Synthetic unscaled relative ordering and distinct marker shapes; not measured data."},
+    "02-who-draws-the-map": {"DEV1_lines": [[225,241],[285,295]], "RC3A_chapters": [8,9], "addition": "Selected-page boundary and illustrative two-route review layout; no established operational route."},
+    "03-growing-room": {"DEV1_lines": [[17,29],[353,373]], "RC3A_lines": [[23,23],[91,97],[333,343]], "addition": "Original schematic sequence; not evidence of learning, safe practice or guaranteed transfer."}
+  },
+  "placement_gate": "Relevant DEV2 passages and whole-file hash rechecked during production; final style and placement still require editorial selection. No automatic adoption."
+}
