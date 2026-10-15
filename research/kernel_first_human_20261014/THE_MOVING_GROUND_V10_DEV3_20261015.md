@@ -170,7 +170,7 @@ Several open windows can also conflict. Suppose three households each need a two
 
 A hold creates a second exposed party and its own urgency. Delaying one household's work may place another in danger, while temporarily stopping an automated refusal may require an interim payment. We must account for both rather than pretending caution has no cost, or assuming that the two effects carry equal moral weight. Only legitimate decisions about competing needs can settle priority.
 
-Now consider who can change the journey.
+The next issue is who has the means to change the journey and who must wait for them.
 
 The library's evening hours are set in an office that closes at four. The people choosing them have a budget, staff rotas and a building to secure. They can ask for another month's figures before deciding whether to extend the hours. For a student whose assignment is due on Friday, that month is not available. The student can explain the deadline, but cannot change the rota or keep the building open.
 
@@ -184,7 +184,7 @@ The request can be recorded as received without changing those positions. Anothe
 
 The library may genuinely need staff and the landlord may need specialist advice. Even so, the positions are different: one actor can commission a change while another lives with the consequence. We can describe that difference from their available actions and the passing time, without guessing anyone's hidden motives.
 
-The same position can carry help. A pharmacist notices a possible problem with a prescription. Instead of asking the patient to carry the query between offices, she contacts the prescriber and keeps the patient informed. Her access and working relationship make a route available that the patient could not readily use alone. The difficulty has moved toward someone with the means to carry it.
+The same position can carry help. A pharmacist notices a possible problem with a prescription. Instead of asking the patient to carry the query between offices, she contacts the prescriber and keeps the patient informed. Her access and working relationship make a route available that the patient could not readily use alone. The difficulty has moved towards somebody with the means to carry it.
 
 The person who chooses a timetable may be insulated from the consequences of delay. That is why a credible account asks who can alter the route, who lives with the result and who benefits from keeping an arrangement in place, compared with a plausible alternative. A landlord might benefit from postponing an inspection, but that observation is not proof of malicious intent. Equally, an institution cannot independently certify its own claim that delay is necessary or that a route is closed. Its reasons and evidence need a usable path for challenge.
 
@@ -344,7 +344,7 @@ The person harmed may wish to stop talking. That is not proof that the matter wa
 
 Closure itself needs judgement. Some disputes should end because continued proceedings impose more harm than they can remedy, because an affected party has chosen a legitimate exit, or because the evidence is insufficient to justify coercive action. Other files are closed too early to protect the institution from embarrassment. No single timer or form can settle the difference for every domain.
 
-Return to the child and the glass. A broken glass cannot be made unbroken by calling a replacement the same object. A new glass may serve the child just as well, and the child may have learned to carry it. The earlier break still occurred. No ethical theory needs to make the break into an eternal injury or pretend it never happened. Honest repair can be both limited and worthwhile.
+Return to the child and the glass. A broken glass cannot be made unbroken by calling a replacement the same object. A new glass may serve the child just as well, and the child may have learnt to carry it. The earlier break still occurred. No ethical theory needs to make the break into an eternal injury or pretend it never happened. Honest repair can be both limited and worthwhile.
 
 The student accepts the library's apology and decides not to pursue a further complaint. The library still changes its procedure and pays attention to the next student. Their decisions are different, and both matter.
 
@@ -436,7 +436,7 @@ Machine speed alters the stakes. A sensor, questionnaire or visible monitoring s
 
 A person advertised as human in the loop may be asked to approve too many outputs to understand any of them. That may be a ceremonial witness, not meaningful oversight. A reviewer who checked ten ordinary outputs may have **run** a check without being able to detect the unusual failure now causing harm. Another person who can inspect representative and relevant evidence, test a suspected error, and effectively halt the affected class of decisions may provide stronger answerability with fewer clicks. The question is what this particular review could detect and change, not how many approvals were recorded.
 
-Even an emergency stop is not magic. It has a scope, a response time and consequences of its own. Stopping a traffic system may send every driver toward a dangerous alternative. A good stop needs an accountable owner and an understood recovery path. A route is not usable because somebody drew a button on the screen.
+Even an emergency stop is not magic. It has a scope, a response time and consequences of its own. Stopping a traffic system may send every driver towards a dangerous alternative. A good stop needs an accountable owner and an understood recovery path. A route is not usable because somebody drew a button on the screen.
 
 At this scale, care becomes a design question as well as a personal one. Does an arrangement let its beneficiaries inspect important advice, decline participation where legitimate, preserve their knowledge if the service changes and reach accountable people when their futures are at stake? Does it unfairly shift costs to less visible entities, including workers, neighbours, non-users and the environment?
 
