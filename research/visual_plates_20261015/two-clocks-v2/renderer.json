@@ -1,0 +1,11 @@
+{
+  "node": "v24.19.0",
+  "sharp": "0.35.5",
+  "svg_renderer": "librsvg 2.63.2",
+  "working_font": "installed Arial; not final publication font",
+  "intended_width_mm": 126,
+  "full_width_px": 1488,
+  "full_height_px": 645,
+  "book_width_px": 714,
+  "book_height_px": 309
+}

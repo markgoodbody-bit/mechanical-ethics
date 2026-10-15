@@ -1,0 +1,50 @@
+{
+  "status": "PASS_BOUNDED_GEOMETRY_TEXT_AND_PREVIEW_CHECKS",
+  "source_pdf_sha256": "80fce3d8640bb12b4f561aed729aafbaf07f4cd6f77dc3a58d156bde6a460646",
+  "source_pdf_page": 3,
+  "source_pdf_figure_bbox_pt": [
+    120.4724,
+    277.0000000000001,
+    477.63739999999996,
+    578.6060000000001
+  ],
+  "source_pdf_used_read_only": true,
+  "original_svg_sha256": "f5569ab32165c85e5e8646a6a7016d450cd0c164705b4870ec570446103347ef",
+  "manuscript_source_custody": "PASS: 2 immutable full-file hashes and 23 line sentinels",
+  "comparison_width_px_each": 714,
+  "before_height_px": 604,
+  "after_height_px": 309,
+  "visible_label_words_before": 57,
+  "visible_label_words_after": 10,
+  "label_count_after": 6,
+  "bold_labels_after": 0,
+  "label_pt_before": 10.32,
+  "label_pt_after": 11.91,
+  "negative_controls_rejected": 5,
+  "geometry": "PASS: same origin, same actual effect, before specified payment-related hardening, after housing loss",
+  "source_text_extraction": "PASS: six SVG text labels exact and descriptions present; no PDF output authored",
+  "label_bounds_and_overlap": "PASS with installed Arial; no browser/AT claim",
+  "monochrome": "PASS: neutral RGB, marks retain shape distinction",
+  "unverified": [
+    "Physical printing",
+    "Novice comprehension",
+    "Final human art selection",
+    "Final publication font",
+    "Assistive-technology behaviour"
+  ],
+  "files": {
+    "before-after.png": "9d511cd69063560b0ddc8909479101c4b81e48549dc6b8d4593a01d71c452761",
+    "before-p3-figure.png": "e38635c0c30fd266f6e3fd67d1ca65263683a9f271c55502ab57dd986fda08e5",
+    "editorial-note.md": "65d8c30d91a25ac05af9656b5930309417f581873b96f95c5a013581b2386de6",
+    "README.md": "7caec3aa6a46e760903cbf9817ad48a0257017f99890f6af04e03dc2787abd50",
+    "render.mjs": "19e8122afe228797ae0ec6b240e0f25eb9b1d53473e576aca6ea039697a18c07",
+    "renderer.json": "1694236e7b125730659f03115c0fd345d62a4e0a30561ecb3c51a156735bdb78",
+    "two-clocks-v2-book-width.png": "11a75d7daa8ebaa79bfcc402dab4a1d9642251cd816c675b0a8148d2dd513d6d",
+    "two-clocks-v2-mono-book-width.png": "f53389f6ff376eb2f2949505829b3b946f04ade969c1fdbe9a983a2e6431d403",
+    "two-clocks-v2-mono.png": "78025a551f88003467a01de74191cb902fde0525a2edf5636a843a2880818407",
+    "two-clocks-v2.png": "2b1ec455947d4557b51111bcd37739f6fff295d10ba90c3942935f85d7bb2077",
+    "two-clocks-v2.svg": "c12060f01758f92f22836136b44aa28cb736cb905835b069d1ec4dc4ae764888",
+    "verify_and_compare.py": "5b2007e1eb331202941e1cd914398008a0669dd5a20620985dacf9926d35c2cc",
+    "visual-review.md": "e0f5cc6b8beba8c7ba275fed6a31b31ec3b7e7cc040392b601f7d7126fe01efe"
+  }
+}
