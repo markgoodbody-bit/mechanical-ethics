@@ -468,30 +468,30 @@ The purpose of this language is to help people see what changes, make needed cor
 
 ---
 
-## Notes: Scope, Method, Limits, Sources and Authorship
+# Notes: Scope, Method, Limits, Sources and Authorship
 
-### What the language does
+## What the language does
 
 Mechanical Ethics is an experimental, portable reasoning language for human and AI-assisted inquiry under limited knowledge. Its descriptive vocabulary helps locate changing conditions, boundaries, apertures, accounts, possible and usable routes, clocks, carriers, feedback and achieved effects. It can identify where a question, warning or repair must travel. A description alone cannot grant rights, produce moral priorities, prove motives or make a remedy happen.
 
 The distinctions in the chapters are not a complete mathematical system. **A ≠ B** preserves two roles that should not be confused; it does not imply numerical inequality, or that A and B can never coincide in one case. A compositional arrow expresses a conditional route with missing premises still to be checked. The timing relation is about a specified threatened outcome and actual protective effect under supported clock bounds; it is neither a guarantee nor a moral permission. When a necessary premise is unknown, the result stays unknown.
 
-### Values and responsible use
+## Values and responsible use
 
 Judgements about harm, benefit, standing, priority, privacy and legitimate intervention require declared value sources and authority. The same mechanism can serve different purposes. A complete account should say who selected the affected scope, comparator and horizon, who can contest the choice, and which relevant people or entities may have been left outside it. Naming these inputs makes debate possible; it does not prove that the decision was just. Professional medicine, law, safety engineering and other specialist fields have stronger methods and duties that this language must not replace.
 
 A record can support an investigation without being a lawful public carrier. Personal refusal, private information and witnesses' safety remain consequential. Case closure may coexist with unrepaired loss or an unchanged mechanism. A constructed opportunity may have hidden costs or collapse without maintenance. These cautions belong alongside particular choices in practice, not as automatic objections to every constructive possibility.
 
-### Status and evidence
+## Status and evidence
 
 This is **edition ME09-RC3-20261015**, a **draft human reading copy, not Mechanical Ethics v0.9 released**. It succeeds the preserved **ME09-RC2-20261014** review edition and the earlier frozen **ME09-RC-20261014** round; it does not replace either edition's historical text or reported findings. It is not a proved complete ethical framework or an empirically validated intervention. The household, library, garden, workshop and other scenes are illustrative constructions unless specifically sourced; they do not demonstrate real-world outcomes. AI peer readings and source checks can reveal faults in a manuscript but are not a human comprehension study or independent proof of usefulness. The reader can reject or revise the structure.
 
-### Sources and authorship
+## Sources and authorship
 
 This manuscript is an **AI-assisted research revision**, not prose authored or accepted by Mark. Mark is the human originator of Mechanical Ethics and retains editorial and release authority. The candidate descends from the clean-sheet kernel-first research line PR70 → PR71 → PR72 → PR73 → PR74. This candidate carries edition code **ME09-RC3-20261015**, with its final source commit and checksum recorded in the paired review receipt rather than embedded recursively in the manuscript. An earlier meaning-first ancestor is PR74 commit `4d8b2f48997e577179c41b22a5e544619286238c` (Git blob `a540a34b04bc5691e3ff604468e879bae36b7116`); subsequent reader-first and structural preflight revisions are retained in the PR74 branch history. The exact RC3 source path is `research/kernel_first_human_20261014/THE_MOVING_GROUND_RC3_20261015.md`; the prior RC2 source remains separately preserved in the same draft history. The reader-first work consolidated repetitive method defences; the final preflight pass restored necessary definitions, inference conditions, and constructive reasoning without undoing that editorial direction.
 
 Released Mechanical Ethics **v0.8.0** and TRACE **v0.4.0** remain separate, unchanged sources of concepts. Their existing author notes, rights, diagrams and technical materials are not transferred as authority to this draft. Later research contributions by Claude Code and Codex informed the conceptual path, but their involvement does not validate this text. No release, protected merge, website publication or external endorsement follows from the existence of a readable book.
 
-### What remains open
+## What remains open
 
 Human readability across the entire manuscript, practical efficacy, specific moral/rights disagreements, defensible real-world timing bounds, and specialist application are unsettled. Different domains may share a useful pattern but need distinct mechanisms and legitimate decision-makers. This language should make it easier to find the right question and the right person to answer it—then give way when another method is stronger.
