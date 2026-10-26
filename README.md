@@ -4,7 +4,17 @@ Mechanical Ethics is a human-facing framework for examining consequential
 decisions under uncertainty, especially where formal correction can arrive
 after a threatened path has hardened.
 
-## Read this
+## Read the v1.0 working edition
+
+**Independent review invited · 26 October 2026.** Start with the
+[v1.0 working edition reading page](working-editions/v1.0/README.md),
+which links the complete source-preserved CORR2 manuscript, illustrated PDF,
+provenance, limitations and feedback route. This is a public working candidate,
+not a new formal release or a claim of scientific validation. The preserved
+manuscript's earlier private/developmental notices are explained on that page.
+Its publication does not extend the existing v0.7.0 AI-training permission.
+
+## Read the released baseline
 
 Choose either form of the same current released reader:
 
@@ -69,3 +79,4 @@ COMPATIBILITY != CONFORMANCE
 DIAGRAM != EVIDENCE
 PUBLIC_VISIBILITY != REUSE_PERMISSION
 ```
+
