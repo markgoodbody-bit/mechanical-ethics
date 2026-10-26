@@ -31,6 +31,10 @@ These are ways to organise inquiry, **not an algorithm that determines moral tru
 | **v0.8.0 — formal released baseline** | Earlier controlled release, preserved without changes; release does **not** mean validated | [Markdown](MECHANICAL_ETHICS.md) · [PDF](MECHANICAL_ETHICS.pdf) · [Release receipt](RELEASE_v0.8.0.md) |
 | **v0.7.0 — prior released baseline** | Previous release, retained in tags and history | [Release receipt](RELEASE_v0.7.0.md) |
 
+### Read the released baseline
+
+The root `MECHANICAL_ETHICS.md` and `MECHANICAL_ETHICS.pdf` remain the exact v0.8.0 released reader and have not been replaced by the v1.0 working manuscript. The [release receipt](RELEASE_v0.8.0.md) records its pinned source, PDF and figure hashes; its status does not imply empirical validation.
+
 The many October v0.9 and early v1.0 branches were development and competing research alternatives, not additional released books. See the [research and draft PR archive](history/RESEARCH_ARCHIVE_20261026.md) for the historical source routes. Their existence is not a request to merge their texts over the source-preserved v1.0 edition.
 
 ## Independent review and participation
