@@ -24,6 +24,10 @@ leaving their different standards visible.
 
 ## Read the cases
 
+New to this way of reasoning? Begin with **[Start where you are](00-start-where-you-are.md)**:
+one ordinary possibility, one missing fact, and a revised next step. It needs no
+prior terminology. The longer cases below supply depth and source evidence.
+
 1. **Institutional trust and taxpayer confidentiality.** IRS/ICE information
    sharing: the distinction between a request, permission, disclosure and what
    is subsequently done with a record. Lead author: Claude Code.
