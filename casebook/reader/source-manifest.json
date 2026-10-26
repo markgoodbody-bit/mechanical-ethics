@@ -1,33 +1,25 @@
 {
-  "source_commit": "eaa908bb72f0c094fc74ee63690d9fc6574de8b5",
+  "source_commit": "6f20b3a1927266df5ab38ccd6730ddbb5d9726e7",
   "files": {
     "README.md": {
-      "bytes": 6266,
-      "sha256": "61037fff055de6732985c309873d551dc5bd3e1fd410e22318c4012de33141f6"
-    },
-    "00-start-where-you-are.md": {
-      "bytes": 4425,
-      "sha256": "78f77dc9fa7b024af8666d0ec66df55ce3563e0a3b8136ac83db60a90be38441"
-    },
-    "05-try-another-account.md": {
-      "bytes": 3721,
-      "sha256": "dc86580cb47534f3dfb700c9c551bfe7982eda6793c4476240ebe394356cef10"
+      "bytes": 3129,
+      "sha256": "c0d9f518540cea7376a42016edc55313d4917f631264683741ae33f98b4c1a8f"
     },
     "01-institutional-trust.md": {
-      "bytes": 38484,
-      "sha256": "8fbd2a1406f7991ff35513e0da799f264ab21adb41904fb7d1ed4425d73a54b8"
+      "bytes": 41356,
+      "sha256": "bdaf1d78d3292a2f2b5fb27e587a340cfd581e1a0345f250bf58b5e364a8828d"
     },
     "02-camp-fire.md": {
-      "bytes": 24178,
-      "sha256": "fe0c4b74dc6640bf607888a698bb7cfb63cfa4ef0b770340c3c58e44304528bd"
+      "bytes": 27316,
+      "sha256": "3e7f9e13cd5cd654593951201aa0524e2344d12e0b20a9d8fd9e93ca16454fd4"
     },
     "03-paid-first-rung.md": {
-      "bytes": 18062,
-      "sha256": "6ff622303d9b13840df3016addd890a6a851c07a70165f653650c1843124f95a"
+      "bytes": 21311,
+      "sha256": "0e874d976cd41ee6233a66f5f12dbe801f6d0be8a5eab7671c30e72c4c44a30e"
     },
     "04-reading-across-cases.md": {
-      "bytes": 9134,
-      "sha256": "4c641496612bf57c4835f4d6fd4d7cfa5f98303d5b7606347d2658b111e9e3da"
+      "bytes": 5987,
+      "sha256": "f802a6969cbeae442b4acf6d0942c87e498c346ca1a6813a7cc78c3451446f73"
     },
     "sources/01-institutional-trust-sources.md": {
       "bytes": 8948,
@@ -54,8 +46,8 @@
       "sha256": "dd8cc50cf552eb0401ca40e8bdf4c8f7ccb6e672fac710ec8a5fd97585bab462"
     },
     "sources/WHOLE-CASEBOOK-REVIEW.md": {
-      "bytes": 7832,
-      "sha256": "a25abea49fec586bbeb1e6b91611958893e42beba27bbaaebd36722b72dd9f3a"
+      "bytes": 8978,
+      "sha256": "dd4ae1f89eebf2b8540e6e9d40d2a802207ebd56a24af429db5ea07222ae20ce"
     }
   }
 }

@@ -1,7 +1,7 @@
 # Portable casebook reader
 
-Open `index.html` in a browser. It includes all fourteen Markdown documents from
-commit `eaa908bb72f0c094fc74ee63690d9fc6574de8b5`: chapters, exercises, source
+Open `index.html` in a browser. It includes all twelve Markdown documents from
+commit `6f20b3a1927266df5ab38ccd6730ddbb5d9726e7`: chapters, source
 receipts and editorial history. Reading and internal navigation work without a
 server or connection; external references require a connection. No JavaScript,
 telemetry, remote fonts, embedded images or live-status claims are included.
@@ -20,9 +20,9 @@ manifest verifies source identity; it does not establish factual truth.
 
 ## Verification and limits — 26 October 2026
 
-All fourteen source files matched their exact GitHub commit readbacks before
+All twelve source files matched their exact GitHub commit readbacks before
 rendering. The generated document was checked for unique IDs, all internal
-fragment destinations, fourteen included articles, no scripts or remote assets,
+fragment destinations, twelve included articles, no scripts or remote assets,
 and deterministic regeneration. The source-change guard was exercised with a
 temporary altered copy and rejected it. Original files remained unchanged.
 
@@ -34,3 +34,12 @@ CSS, focus styling, skip navigation and scrollable tables are implemented;
 implementation alone is not a claim that those journeys passed.
 
 No Workshop installation, VM change, hosting deployment or merge is included.
+
+Technical revision: superseded introductory scene and exercises are excluded.
+The model sections are authored analysis, not new empirical data.
+
+During this revision, the first build stopped on an editorial note's link to a
+superseded exercise. The generator now maps only the two explicitly excluded
+historical documents to commit-pinned external sources; unknown unbundled links
+still fail. The rebuilt twelve-document edition passed internal-link and
+reproducibility checks. These historical links require a connection.

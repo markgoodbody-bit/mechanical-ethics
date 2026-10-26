@@ -4,12 +4,12 @@ Requires Python 3 and pandoc 3.1.3. No network, Javascript, or telemetry.
 """
 import hashlib, html, json, pathlib, re, subprocess
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-REF = 'eaa908bb72f0c094fc74ee63690d9fc6574de8b5'
-FILES = ['README.md','00-start-where-you-are.md','05-try-another-account.md',
+REF = '6f20b3a1927266df5ab38ccd6730ddbb5d9726e7'
+FILES = ['README.md',
  '01-institutional-trust.md','02-camp-fire.md','03-paid-first-rung.md',
  '04-reading-across-cases.md'] + sorted(str(p.relative_to(ROOT)) for p in (ROOT/'sources').glob('*.md'))
 IDS = {p:'page-'+str(i) for i,p in enumerate(FILES)}
-LABELS = ['About this book','Start where you are','Try another account','Confidentiality and addresses','Camp Fire','A paid first rung','Reading across cases']
+LABELS = ['Scope and method','IRS–ICE disclosure','Camp Fire evacuation and refuge','Technical employment design','Comparative analysis']
 CSS = '''
 :root{color-scheme:light;--paper:#f8f6f0;--ink:#292c28;--muted:#5a625a;--accent:#285a49}
 *{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.75 Georgia,serif}
@@ -37,8 +37,11 @@ def convert_ast(node, path):
             target,_,fragment=url.partition('#')
             resolved=(ROOT/path).parent/target if target else ROOT/path
             rel=str(resolved.resolve().relative_to(ROOT))
-            if rel not in IDS: raise ValueError('Unbundled link: '+url)
-            node['c'][2][0]='#'+IDS[rel]+('-'+fragment if fragment else '')
+            if rel in {'00-start-where-you-are.md','05-try-another-account.md'}:
+                node['c'][2][0]=f'https://github.com/markgoodbody-bit/mechanical-ethics/blob/{REF}/casebook/{rel}'+('#'+fragment if fragment else '')
+            else:
+                if rel not in IDS: raise ValueError('Unbundled link: '+url)
+                node['c'][2][0]='#'+IDS[rel]+('-'+fragment if fragment else '')
     return node
 manifest={'source_commit':REF,'files':{}}
 lock_path = ROOT/'reader/source-manifest.json'
@@ -59,10 +62,10 @@ for path in FILES:
     rendered=rendered.replace('<table>','<div class="table-wrap" role="region" aria-label="Scrollable comparison table" tabindex="0"><table>').replace('</table>','</table></div>')
     link=f'https://github.com/markgoodbody-bit/mechanical-ethics/blob/{REF}/casebook/{path}'
     sections.append(f'<article id="{IDS[path]}"><div class="page-top"><a href="#contents">Contents</a><a href="{html.escape(link)}">Pinned Markdown source ↗</a></div>{rendered}</article>')
-nav=''.join(f'<li><a href="#{IDS[p]}">{html.escape(LABELS[i])}</a></li>' for i,p in enumerate(FILES[:7]))
-notes=''.join(f'<li><a href="#{IDS[p]}">{html.escape(p.removeprefix("sources/").removesuffix(".md").replace("-"," "))}</a></li>' for p in FILES[7:])
-page=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>Mechanical Ethics — A reading room</title><style>{CSS}</style></head><body>
-<a class="skip" href="#reading">Skip to the book</a><header id="contents"><p class="eyebrow">Mechanical Ethics · working casebook</p><h1>A reading room</h1><p class="intro">Three situations. Different lives and constraints. A shared invitation to look more closely—and leave room to change your mind.</p><p class="meta">26 October 2026 · v0.1 working supplement · editorial review continuing<br>Reading snapshot: <code>{REF}</code></p><p class="evidence">The institutional and fire cases follow dated public evidence. The paid-work situation is constructed. Interpretations and proposals remain open to challenge; none of these cases establishes field effectiveness.</p><nav aria-label="Book contents"><ol>{nav}</ol><details><summary>Source notes and editorial history</summary><ul>{notes}</ul></details></nav><p class="meta">Everything below is included in this file. External source links need a connection. This is a reading copy, not a live Workshop or team-status view.</p></header><main id="reading">{''.join(sections)}</main><footer><a href="#contents">Back to contents</a><p>Keep the question open: what would change your account?</p></footer></body></html>'''
+nav=''.join(f'<li><a href="#{IDS[p]}">{html.escape(LABELS[i])}</a></li>' for i,p in enumerate(FILES[:5]))
+notes=''.join(f'<li><a href="#{IDS[p]}">{html.escape(p.removeprefix("sources/").removesuffix(".md").replace("-"," "))}</a></li>' for p in FILES[5:])
+page=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>Mechanical Ethics — Technical case studies</title><style>{CSS}</style></head><body>
+<a class="skip" href="#reading">Skip to the book</a><header id="contents"><p class="eyebrow">Mechanical Ethics · working casebook</p><h1>Case studies and technical analysis</h1><p class="intro">Institutional information disclosure, wildfire protective action and supervision capacity in technical employment.</p><p class="meta">26 October 2026 · v0.1 working supplement · editorial review continuing<br>Reading snapshot: <code>{REF}</code></p><p class="evidence">The institutional and fire cases follow dated public evidence. The paid-work situation is constructed. Interpretations and proposals remain open to challenge; none of these cases establishes field effectiveness.</p><nav aria-label="Book contents"><ol>{nav}</ol><details><summary>Source notes and editorial history</summary><ul>{notes}</ul></details></nav><p class="meta">Everything below is included in this file. External source links need a connection. This is a reading copy, not a live Workshop or team-status view.</p></header><main id="reading">{''.join(sections)}</main><footer><a href="#contents">Back to contents</a><p>End of technical supplement. Source limitations and editorial provenance are retained above.</p></footer></body></html>'''
 (ROOT/'reader/index.html').write_text(page,encoding='utf-8')
 (ROOT/'reader/source-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
 print(f'Built {len(FILES)} documents, {len(page.encode())} UTF-8 bytes')
