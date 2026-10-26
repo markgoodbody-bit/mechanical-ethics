@@ -30,3 +30,5 @@ The builder rejects a changed HTML input. It does not fetch remote sources. Exac
 All sixty pages were rendered and visually inspected in contact sheets, with a full-size table inspection. Contents links, bookmarks and selectable text are present. The first render exposed a stylesheet-precedence conflict; corrected by embedding the final print stylesheet after the reader styles, then rerendered and inspected. No new primary-source research, independent factual audit, screen-reader/PDF-UA acceptance or mobile-browser test was performed.
 
 The repository publication adds download navigation; the three study texts, frozen book, release assets and tags are unchanged.
+
+Packaged-builder verification: regenerated output had the same 60 pages, identical extracted text on every page and identical page rasters at 0.5 scale. Binary PDF comparison differed; byte-for-byte reproducibility is not claimed. The published PDF retains the exact delivered bytes and hash above.
