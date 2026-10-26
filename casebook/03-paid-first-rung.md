@@ -44,11 +44,7 @@ any later live change. This is not automatically a suitable apprenticeship,
 productive job or employment arrangement: the appropriate employer, provider
 and legal processes would have to decide those matters.
 
-The attractive future is larger than a completed ticket. The person might learn
-how to ask for help, challenge a plausible diagnosis, make a useful contribution
-and approach a different task next time. They might enjoy the work and develop
-relationships. None of those goods follows merely from attendance or from
-producing a polished AI answer.
+The proposed outcomes include paid useful work, transferable diagnostic skill, appropriate escalation and progression to a different task. Attendance and a correct AI-assisted answer do not establish those outcomes. Working relationships and the entrant's experience also require evidence rather than inference from task completion.
 
 ## System boundary and resource incidence
 
@@ -71,6 +67,48 @@ powers to everyone in the table. A client can control access to its systems;
 that does not make it the judge of a worker's learning. A beginner's account is
 necessary evidence about their experience; it does not give them the firm's
 entire staffing budget. The point is to keep the different decisions visible.
+
+## Necessary operational transitions
+
+A route to a useful first task would require the following connections to work:
+
+1. A manager can commit actual pay and protected supervisory capacity.
+2. An appropriate recruiter or partner reaches a willing adult who can use the offer.
+3. The supervisor supplies a safe, comprehensible task with legitimate access.
+4. The entrant can practise, ask and disagree without being punished for reasonable uncertainty.
+5. The result reaches a competent reviewer, who distinguishes a lucky answer from a learned method.
+6. The next task and continuing support give the capability somewhere to go.
+
+Each join has a carrier: a funded role, an accessible offer, a usable test
+environment, time with another person, a work sample and an agreed next step.
+An approved plan cannot substitute for a cancelled hour of help. A completed
+learning record does not show that the entrant can perform a different task.
+An AI transcript is an account of a tool interaction, not an independent witness
+that the fault was understood.
+
+Some controls preserve the possibility rather than obstruct it. Keeping customer
+credentials outside the exercise can allow a beginner to learn safely; removing
+the access boundary to make the role look more “real” may destroy the conditions
+under which it was responsible to offer it. Equally, a sandbox filled with busywork
+can be safe and still fail to supply useful learning or paid productive purpose.
+
+## Capacity and scheduling constraints
+
+This design study can be made more specific without inventing employer data.
+Define a planning interval and let H be the supervisor's available paid hours,
+E existing committed work, P task preparation, I instruction, R review, and U
+unplanned assistance or rework. A necessary capacity condition is
+E + P + I + R + U ≤ H. All terms must use the same interval and avoid counting
+the same activity twice. No values are supplied because no employer was observed.
+
+An allocation that satisfies the condition only after assuming U = 0 is sensitive
+to interruptions and novice error. An allocation based on average U can still
+fail during concentrated demand. A second condition concerns scheduling. Partition the planning horizon into slots narrow enough to represent the task's support needs. For each slot k, let A_k be competent supervisory capacity remaining after existing duties, and D_k the instruction, review and assistance that must occur in that slot. A proposed schedule requires D_k ≤ A_k in every slot, without allocating the same person's time simultaneously to incompatible work. Hours supplied by an unqualified substitute do not count as competent capacity.
+
+Some tasks need uninterrupted attention or a response within a specified interval; a sum of fragmented availability cannot establish either. Those constraints require a feasible assignment of people to tasks, including preparation and handover time. For uncertain demand, the design must specify the disruptions it is intended to tolerate, a qualified fallback and the response when that capacity is exceeded. No probability of overload or acceptable response time is estimated here. A nominal hour on Friday does
+not resolve a blocked or unsafe task on Tuesday. The relevant design includes
+a fallback owner and a bounded task that can pause without transferring risk to
+customers or pressuring the entrant to proceed unsupported.
 
 ## Training funding and employer supervision costs
 
@@ -100,29 +138,19 @@ an existing work/training review where suitable, rather than requiring a new ME
 form. That is an editorial correction from source and criticism, not a successful
 field intervention. [C5]
 
-## Necessary operational transitions
+Funding and capacity are separate constraints. Let C_w be wages and employment
+costs, C_s supervision costs, C_t eligible training costs, C_o other operating
+costs, and F the funding actually confirmed for the arrangement. A cash assessment
+must allocate F only to permitted cost categories and identify who covers the
+remainder. An unconfirmed allocation is not a reduction in required cash. The
+source rules distinguish eligible training from wages and generic management;
+this expression does not decide eligibility for any individual activity.
 
-A route to a useful first task would require the following connections to work:
-
-1. A manager can commit actual pay and protected supervisory capacity.
-2. An appropriate recruiter or partner reaches a willing adult who can use the offer.
-3. The supervisor supplies a safe, comprehensible task with legitimate access.
-4. The entrant can practise, ask and disagree without being punished for reasonable uncertainty.
-5. The result reaches a competent reviewer, who distinguishes a lucky answer from a learned method.
-6. The next task and continuing support give the capability somewhere to go.
-
-Each join has a carrier: a funded role, an accessible offer, a usable test
-environment, time with another person, a work sample and an agreed next step.
-An approved plan cannot substitute for a cancelled hour of help. A completed
-learning record does not show that the entrant can perform a different task.
-An AI transcript is an account of a tool interaction, not an independent witness
-that the fault was understood.
-
-Some controls preserve the possibility rather than obstruct it. Keeping customer
-credentials outside the exercise can allow a beginner to learn safely; removing
-the access boundary to make the role look more “real” may destroy the conditions
-under which it was responsible to offer it. Equally, a sandbox filled with busywork
-can be safe and still fail to supply useful learning or paid productive purpose.
+Opportunity cost must also be retained. A supervisor can remain within paid
+hours while displacing existing work. That can reduce service capacity or move
+work to another employee. The financial ledger and the hours ledger therefore
+answer different questions. Both are needed before interpreting a role as
+supported rather than merely affordable on a narrow training budget.
 
 ## Timing constraints
 
@@ -163,6 +191,22 @@ record those quantities separately; it should not turn an entrant's dignity or
 a mentor's fatigue into invented units. A supported positive prospect is not
 merely the negative of a quantified harm score.
 
+## Alternative interpretation
+
+An experienced provider could say: “We already do this; your additional language
+takes time from supervision.” They might be right. The case is also biased
+towards a technical practitioner willing to consider a role: it cannot speak
+for an excluded entrant, an exhausted supervisor or a worker who distrusts the
+review process. A safe synthetic task may not supply the commercial demand
+needed to sustain employment. AI may be incidental to the firm's actual barrier.
+
+The honest response is not a longer checklist. Find the existing method and
+ask what, if anything, this account changes. If it creates no better action,
+reveals no omitted burden and offers no clearer supported prospect, record
+**NO_USE** for this application. If it exposes one real unresolved join, pursue
+that join with its owner. Neither outcome is a verdict on every future use of
+the language.
+
 ## Observation and verification
 
 In a real voluntary test, first ask the practitioner how they normally decide
@@ -182,6 +226,23 @@ witnesses. Nor should an unhappy account be discounted because it conflicts
 with the institution's dashboard. Independence includes who could observe the
 failure, who controls the record and what it costs to disagree. Necessary
 evidence should not become a pretext for collecting a worker's private life.
+
+Output quality is not a sufficient learning measure. A correct diagnosis may
+have been supplied by AI or repaired by a supervisor. Evidence of increasing
+capability would require performance on a different but relevant task, an account
+of the assistance used, and observation over time. A single successful ticket
+cannot separate independent capability from external support. Conversely,
+requesting help is not itself failure; appropriate escalation is part of the
+specified task.
+
+The proposed arrangement has at least three independent acceptance questions:
+can the employer sustain its obligations; can the entrant use the arrangement
+and refuse inappropriate work; and does the work develop relevant capability?
+Failure of one is not repaired by success in another. A useful pilot would record
+planned and actual supervisory demand, displaced work, completion and rework,
+assistance, and the entrant's account. It would also specify who can reduce scope
+or stop the arrangement while preserving employment obligations. No such pilot
+has been conducted here.
 
 ## Correction authority and implementation
 
@@ -209,22 +270,6 @@ References, an agreed work sample, a different training route or another
 employer may support a new prospect where the person wants one. Those are
 possibilities to establish, not promises this casebook can make.
 
-## Alternative interpretation
-
-An experienced provider could say: “We already do this; your additional language
-takes time from supervision.” They might be right. The case is also biased
-towards a technical practitioner willing to consider a role: it cannot speak
-for an excluded entrant, an exhausted supervisor or a worker who distrusts the
-review process. A safe synthetic task may not supply the commercial demand
-needed to sustain employment. AI may be incidental to the firm's actual barrier.
-
-The honest response is not a longer checklist. Find the existing method and
-ask what, if anything, this account changes. If it creates no better action,
-reveals no omitted burden and offers no clearer supported prospect, record
-**NO_USE** for this application. If it exposes one real unresolved join, pursue
-that join with its owner. Neither outcome is a verdict on every future use of
-the language.
-
 ## What the released book contributes—and what it cannot supply
 
 ME1.0 already discusses usable routes (Chapter 5), clocks and controlled delay
@@ -242,59 +287,6 @@ claimed. What has changed in the reading is narrower and concrete: we no longer
 mistake training funding or another review form for the material capacity to
 support a first paid step.
 
-## Capacity model and feasibility conditions
-
-This design study can be made more specific without inventing employer data.
-Define a planning interval and let H be the supervisor's available paid hours,
-E existing committed work, P task preparation, I instruction, R review, and U
-unplanned assistance or rework. A necessary capacity condition is
-E + P + I + R + U ≤ H. All terms must use the same interval and avoid counting
-the same activity twice. No values are supplied because no employer was observed.
-
-An allocation that satisfies the condition only after assuming U = 0 is sensitive
-to interruptions and novice error. An allocation based on average U can still
-fail during concentrated demand. Adequacy therefore depends on both total hours
-and their availability when assistance is needed. A nominal hour on Friday does
-not resolve a blocked or unsafe task on Tuesday. The relevant design includes
-a fallback owner and a bounded task that can pause without transferring risk to
-customers or pressuring the entrant to proceed unsupported.
-
-Funding and capacity are separate constraints. Let C_w be wages and employment
-costs, C_s supervision costs, C_t eligible training costs, C_o other operating
-costs, and F the funding actually confirmed for the arrangement. A cash assessment
-must allocate F only to permitted cost categories and identify who covers the
-remainder. An unconfirmed allocation is not a reduction in required cash. The
-source rules distinguish eligible training from wages and generic management;
-this expression does not decide eligibility for any individual activity.
-
-Opportunity cost must also be retained. A supervisor can remain within paid
-hours while displacing existing work. That can reduce service capacity or move
-work to another employee. The financial ledger and the hours ledger therefore
-answer different questions. Both are needed before interpreting a role as
-supported rather than merely affordable on a narrow training budget.
-
-Output quality is not a sufficient learning measure. A correct diagnosis may
-have been supplied by AI or repaired by a supervisor. Evidence of increasing
-capability would require performance on a different but relevant task, an account
-of the assistance used, and observation over time. A single successful ticket
-cannot separate independent capability from external support. Conversely,
-requesting help is not itself failure; appropriate escalation is part of the
-specified task.
-
-The proposed arrangement has at least three independent acceptance questions:
-can the employer sustain its obligations; can the entrant use the arrangement
-and refuse inappropriate work; and does the work develop relevant capability?
-Failure of one is not repaired by success in another. A useful pilot would record
-planned and actual supervisory demand, displaced work, completion and rework,
-assistance, and the entrant's account. It would also specify who can reduce scope
-or stop the arrangement while preserving employment obligations. No such pilot
-has been conducted here.
-
-The resulting contribution is a constraint analysis, not evidence that this
-employment design works. It identifies quantities whose absence prevents a
-credible feasibility claim and prevents training funding from being used as a
-proxy for the whole operating system.
-
 ## Primary sources and correction record
 
 - **[C1]** UK Government, [Digital and Technologies Jobs Plan](https://www.gov.uk/government/publications/digital-and-technologies-jobs-plan/digital-and-technologies-jobs-plan), 21 October 2026; foreword and Parts 2–3. Policy commitments/ambition, not observed delivery.
@@ -310,4 +302,3 @@ Framework Build with AI assistance; it is an illustrative supplement, not part
 of the frozen v1.0.0 release or a new licence grant.
 
 [Return to the casebook](README.md)
-

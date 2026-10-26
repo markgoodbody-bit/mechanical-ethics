@@ -4,13 +4,13 @@
 
 > **What this case is.** A worked example for readers of *Mechanical Ethics* v1.0. The history comes from public court opinions, statute text, an Inspector General's report and a Congressional Research Service summary, all listed at the end with what each one supports. It uses no interviews and no private material. It is not legal advice and takes no side on immigration policy. The court decisions described are **preliminary**: none of the sources used reports a ruling on the final merits, and the latest of them is dated 17 September 2026. Where the case proposes something rather than reports it, the text says so.
 
-## 1. Why this case
+## Problem and analytical scope
 
-Tax systems mostly run on people telling the truth about themselves. In the United States, one condition for that is a legal promise: what you tell the tax authority stays confidential unless a statute says otherwise. The appeals court in this case quotes an earlier ruling that this assurance of privacy is "fundamental to a tax system that relies upon self-reporting".
+The IRS sent 47,289 address records to ICE on 7 August 2025 under a statutory disclosure exception. The relevant appellate decisions subsequently distinguished an agreement likely lawful on its face from a procedure likely unlawful as used. The engineering problem is the gap between substantive disclosure conditions and executable checks: the presence of fields and a successful identity match did not establish every condition governing release.
 
-In 2025 that promise met a different public duty, the enforcement of immigration law. The case is useful for Mechanical Ethics because it is a real institutional chain with a documented record at almost every step. There is a statute, an agreement, a request, a piece of software and an independent auditor. There are courts, and there are people who were affected but mostly could not speak for themselves. It lets us test what the book's questions actually find, and where they stop.
+Taxpayer confidentiality also affects the system that produces the records. The appeals court quotes an earlier ruling describing privacy as "fundamental to a tax system that relies upon self-reporting". The case examines the documented disclosure process separately from the proposed feedback through trust, filing behaviour and data quality. The latter is not measured at population level in this record.
 
-## 2. Analytical questions
+## Analytical questions
 
 The analysis distinguishes four questions: what information was requested; what
 conditions governed disclosure; what the implemented procedure established; and
@@ -18,7 +18,38 @@ what restrictions or remedies followed the transfer. Request volume, matching
 success, legal sufficiency and downstream use are separate variables. The record
 supports some of these more strongly than others.
 
-## 3. What the record shows
+## System boundary and evidence access
+
+**Boundary chosen for this case:** the route by which information moved from the IRS to ICE under one statutory exception, §6103(i)(2), between April 2025 and September 2026. It also covers that route's documented effect on people's willingness to engage with the tax system.
+
+**Left outside on purpose:**
+- the merits of immigration law and of any removal order;
+- what ICE did with any address;
+- other data-sharing arrangements (the Massachusetts case also names the Social Security Administration);
+- anyone's private motives.
+
+**Entities followed:**
+- the roughly 46,965 people whose addresses were sent;
+- the roughly 1.28 million people listed;
+- taxpayers who file without a Social Security number;
+- IRS staff who process disclosures;
+- the IRS and ICE as institutions, and Treasury and Homeland Security leadership;
+- TIGTA, the courts and Congress;
+- the organisations that sued and the people they serve.
+
+**Apertures and accounts.** In the sources used here, each party sees part of the route, and none of them shows the whole of it.
+
+| Party | Can see | Cannot see |
+|---|---|---|
+| IRS | its own records; ICE's request file | whether any listed person is really under criminal investigation |
+| ICE | its own removal records and investigations | IRS records, except what is sent |
+| TIGTA (Inspector General) | IRS processes and data | Did not independently validate the DHS-supplied data or assess legality; this describes its review scope, not an inability to access any such data |
+| Courts | the administrative record, sworn declarations, argument | anything outside the record; at this stage, only likelihoods |
+| Organisations that sued | changes in their clients' behaviour | whose addresses were sent |
+| Affected people | their own fear or decision | in general, whether their own address was sent (I found no notice to them in these sources) |
+| This case's author | public documents only | sealed filings, the implementing agreement, TIGTA's redacted findings, the interview transcript some tellings rely on |
+
+## Chronology
 
 All dates below come from the sources listed at the end. Where two sources disagree, the disagreement is noted.
 
@@ -51,7 +82,7 @@ All dates below come from the sources listed at the end. Where two sources disag
 
 **A small discrepancy, recorded rather than resolved.** The September 2026 opinion twice cites the district court's "Order of Nov. 21, 2025", but its closing paragraph affirms the "order of November 1, 2025", and the judgment repeats that date. The *Centro* opinion, TIGTA and CRS all give 21 November. This case uses 21 November and treats "November 1" as a slip in the opinion's text.
 
-## 4. Requested, matched, disclosed
+## Units and reported counts
 
 The reported counts have different denominators and units. They must not be used interchangeably.
 
@@ -70,40 +101,7 @@ Three cautions follow.
 - **What was sent:** the last known address only, with no date attached. The IRS told TIGTA that no other tax information was shared.
 - **One witness behind most numbers.** The 47,289 figure appears in the court opinion, the CRS summary and the TIGTA report, but each traces back to the IRS's own records and declaration. In the sources used here, the only separate count is TIGTA's own analysis of IRS data (46,965 individuals). As the book warns, "three files repeating one witness are not three independent accounts" (Ch. 9, line 302).
 
-## 5. Boundary, entities and accounts
-
-**Boundary chosen for this case:** the route by which information moved from the IRS to ICE under one statutory exception, §6103(i)(2), between April 2025 and September 2026. It also covers that route's documented effect on people's willingness to engage with the tax system.
-
-**Left outside on purpose:**
-- the merits of immigration law and of any removal order;
-- what ICE did with any address;
-- other data-sharing arrangements (the Massachusetts case also names the Social Security Administration);
-- anyone's private motives.
-
-Choosing this boundary does not decide who matters (Ch. 1).
-
-**Entities followed:**
-- the roughly 46,965 people whose addresses were sent;
-- the roughly 1.28 million people listed;
-- taxpayers who file without a Social Security number;
-- IRS staff who process disclosures;
-- the IRS and ICE as institutions, and Treasury and Homeland Security leadership;
-- TIGTA, the courts and Congress;
-- the organisations that sued and the people they serve.
-
-**Apertures and accounts.** In the sources used here, each party sees part of the route, and none of them shows the whole of it.
-
-| Party | Can see | Cannot see |
-|---|---|---|
-| IRS | its own records; ICE's request file | whether any listed person is really under criminal investigation |
-| ICE | its own removal records and investigations | IRS records, except what is sent |
-| TIGTA (Inspector General) | IRS processes and data | Did not independently validate the DHS-supplied data or assess legality; this describes its review scope, not an inability to access any such data |
-| Courts | the administrative record, sworn declarations, argument | anything outside the record; at this stage, only likelihoods |
-| Organisations that sued | changes in their clients' behaviour | whose addresses were sent |
-| Affected people | their own fear or decision | in general, whether their own address was sent (I found no notice to them in these sources) |
-| This case's author | public documents only | sealed filings, the implementing agreement, TIGTA's redacted findings, the interview transcript some tellings rely on |
-
-## 6. Carriers and couplings
+## Disclosure mechanism
 
 What carried the information, step by step:
 
@@ -119,7 +117,71 @@ What carried the information, step by step:
 - *Documented at the stage of a preliminary finding:* news of the policy reduced engagement with at least one taxpayer clinic. The Center for Taxpayer Rights' director swore to a "drastic" fall in cases from taxpayers without Social Security numbers, and to moving "nearly 10 percent" of the clinic's operating expenses into outreach. The courts accepted this as likely harm. They reasoned from the "predictable effect of Government action on the decisions of third parties", and compared it with a citizenship question on the census depressing participation.
 - *Proposed, not measured:* lower willingness to file could reduce the completeness of tax data, and with it public revenue and the quality of decisions that rely on that data. I found no systematic filing statistics for 2026 that test this. The book's caution applies: a questionnaire or monitoring system "can also change behaviour being measured; records are not passive windows" (Ch. 12, line 476).
 
-## 7. Control and exposure
+## Requirements and implemented checks
+
+The analysis distinguishes three claims (ME Chapter 9): "a check specified, a check performed and a check capable of finding this failure" (Ch. 9, line 300).
+
+| Statutory condition or earlier administrative practice | What the procedure checked | Could it find the failure? |
+|---|---|---|
+| name **and address** of the taxpayer | address field contains any five or nine digits; on a taxpayer-number match, the supplied address was not matched against IRS records | No. Entries in the format "NA NA, AZ, 999990000" passed (TIGTA's illustration) |
+| recipient "personally and directly engaged" | point-of-contact field "not empty" | No. One person was named for every request |
+| the "specific reason" disclosure is relevant | one cover letter for 1.28 million requests | No. The court called the reason "more circular than specific" |
+| individual handling under the earlier IRS manual, rather than a separate statutory element | until April 2025 a disclosure manager reviewed each request and could offer less intrusive options | Replaced by "a mass, automated review of millions of records at the press of a button" |
+
+**Agreement and implementation.** The agreement *specified* the statute's checks; *Centro* found it likely lawful on its face. The procedure *performed* checks, but they could not detect a request that failed the statute's conditions. In the court's account of the argument, the government acknowledged "concededly unlawful" transfers. Its counsel called the missing address check "an error in implementing the policy". The agreement's facial compliance did not establish that the requests or implementing procedure complied. Performed checks did not establish the required substantive conditions.
+
+This is also the book's machine-speed point (Ch. 12, lines 478 to 482). The statute allows disclosure only to officers personally and directly engaged in each investigation. The procedure turned that condition into a field that only had to be non-empty. "A human name in an approval field does not establish that the person saw the relevant evidence."
+
+TIGTA also found potential matches lost through differences in name or address formatting. That does not show those requests were legally eligible for disclosure. It does mean that correcting the procedure is a two-sided task: reject deficient requests without silently treating harmless formatting differences as a different person. A matched identity is still not permission to disclose. The report does not quantify all such exceptions, so no overall error rate is inferred here.
+
+## Process model and diagnostic implications
+
+The following abstraction separates the operations described in the source
+record. It is an analytical model, not a reconstruction of source code or an
+additional legal test.
+
+Let r denote one row in the submitted request file, considered with the cover letter and other request-level material that applies to it. It does not denote a unique person or an output record. Multiple rows may concern one person; the available counts do not establish a one-to-one mapping between rows, people and released records.
+
+Let F(r) denote passing preprocessing; M_b(r) an identity match on branch b (taxpayer-number or non-taxpayer-number); L(r) satisfaction of the applicable disclosure conditions for the proposed release; and O(r) the event that at least one record is released in response to r. The intended condition is O(r) ⇒ L(r). L is a substantive classification requiring authorised legal interpretation and facts, not a Boolean calculated by this chapter. F and M_b are processing results. Their conjunction does not establish L without evidence that the tests cover its requirements.
+
+| Stage or branch | Evidence reported in this record | Unestablished inference |
+|---|---|---|
+| Shared preprocessing | Field presence and address-format proxy | That the supplied address and stated reason meet the substantive conditions |
+| Taxpayer-number matching | Identity match could lead to output without comparing the supplied address with the IRS address | That identity resolution establishes every disclosure condition; address equality is not asserted as a statutory test |
+| Non-taxpayer-number matching | A distinct matching path; TIGTA identifies formatting-related possible missed matches | That this path's complete executable coverage has been reconstructed, or that a missed match was a legally eligible request |
+| Release and recipient | Output records and common contact information are reported | That a non-empty contact field establishes personal and direct engagement, or that each proposed recipient/use is authorised |
+
+The table maps documented gates to their evidential limits. It does not claim access to the implementation's source code or a complete branch specification.
+
+The taxpayer-number branch illustrates why coverage must be assessed by branch,
+not by the presence of a check somewhere in a workflow. A test performed on one
+path does not constrain another path that reaches the same output. Conversely,
+a field can be examined during preprocessing without its substantive adequacy
+being established. The relevant diagnostic question is therefore which
+conditions each reachable output path actually enforces, not whether the system
+contains an address-related operation.
+
+A complete row-level assessment would distinguish four outcomes: a row supporting a compliant request with or without a release, and a row supporting a deficient request with or without a release. Rows whose substantive classification cannot be resolved must remain a separate unresolved category. Person-level and output-record rates would require their own mappings and denominators. The published disclosure counts do not populate
+this classification. The IRS estimate of potentially deficient addresses is
+narrower than all possible grounds of deficiency. TIGTA's formatting exceptions
+identify possible missed matches, not legally eligible requests. Neither can be
+used as the overall false-acceptance or false-rejection rate.
+
+This distinction also prevents a misleading repair target. Maximising matches
+could increase deficient releases; maximising rejections could withhold requests
+that the statute requires the agency to answer. A useful validation set must
+separate identity resolution from legal eligibility and include both kinds of
+error. Where the legal classification is contested, the uncertainty belongs in
+the case label rather than being concealed as an engineering ground truth.
+
+The disclosed-record count is an output measure, not a complete exposure
+measure. The approximately 46,965-person count removes some record duplication,
+but does not measure later access, onward disclosure or use. Likewise, a court
+restriction creates an enforceable constraint; it is not an observation of every
+subsequent access. Evaluating containment would require appropriately authorised
+records of custody and use. This case does not have those records.
+
+## Control and exposure
 
 | Actor | Could change | Exposed to |
 |---|---|---|
@@ -133,7 +195,7 @@ What carried the information, step by step:
 
 The asymmetry is the book's point about the clock and the door (Ch. 6, line 156). The people who could change the route were not the people exposed to it. Individual IRS employees appear on both sides of that line. Their use of the procedure was "not optional", according to the court, and yet the criminal penalty for willful unauthorised disclosure falls on individuals.
 
-## 8. Clocks and hardening
+## Timing of disclosure and restriction
 
 The book asks us to name each loss and give it its own clock (Ch. 6, lines 170 to 178). The protective effect has to arrive strictly before the loss hardens: *T(protect) < T(harden)*.
 
@@ -143,24 +205,7 @@ The book asks us to name each loss and give it its own clock (Ch. 6, lines 170 t
 4. **Safeguards while data is held.** A 2023 IRS safeguard review of ICE left findings open; the number is redacted. According to the IRS, ICE filed no corrective plan for three half-year periods (January 2024, July 2024, January 2025). It filed one in July 2025 without implementation dates, and by May 2026 had not filed the January 2026 update. The IRS's on-site review set for April 2026 was postponed by a partial government shutdown. This risk lasts as long as ICE holds the data.
 5. **The legal clock.** In the source record ending on 17 September 2026, the rulings described are preliminary and a **hold** is in place. A hold creates "a second exposed party" (Ch. 6, line 196). Here that is the government's interest in criminal investigations, which the IRS says the order "impedes and delays". That cost belongs in the account even though the court found it outweighed.
 
-## 9. A check specified, a check performed, a check able to find this failure
-
-This is the heart of the case. The book separates three claims: "a check specified, a check performed and a check capable of finding this failure" (Ch. 9, line 300).
-
-| Statutory condition or earlier administrative practice | What the procedure checked | Could it find the failure? |
-|---|---|---|
-| name **and address** of the taxpayer | address field contains any five or nine digits; on a taxpayer-number match, the supplied address was not matched against IRS records | No. Entries in the format "NA NA, AZ, 999990000" passed (TIGTA's illustration) |
-| recipient "personally and directly engaged" | point-of-contact field "not empty" | No. One person was named for every request |
-| the "specific reason" disclosure is relevant | one cover letter for 1.28 million requests | No. The court called the reason "more circular than specific" |
-| individual handling under the earlier IRS manual, rather than a separate statutory element | until April 2025 a disclosure manager reviewed each request and could offer less intrusive options | Replaced by "a mass, automated review of millions of records at the press of a button" |
-
-**The correction that matters most here.** The agreement *specified* the statute's checks; *Centro* found it likely lawful on its face. The procedure *performed* checks, but they could not detect a request that failed the statute's conditions. In the court's account of the argument, the government acknowledged "concededly unlawful" transfers. Its counsel called the missing address check "an error in implementing the policy". The agreement's facial compliance did not establish that the requests or implementing procedure complied. Performed checks did not establish the required substantive conditions.
-
-This is also the book's machine-speed point (Ch. 12, lines 478 to 482). The statute allows disclosure only to officers personally and directly engaged in each investigation. The procedure turned that condition into a field that only had to be non-empty. "A human name in an approval field does not establish that the person saw the relevant evidence."
-
-TIGTA also found potential matches lost through differences in name or address formatting. That does not show those requests were legally eligible for disclosure. It does mean that correcting the procedure is a two-sided task: reject deficient requests without silently treating harmless formatting differences as a different person. A matched identity is still not permission to disclose. The report does not quantify all such exceptions, so no overall error rate is inferred here.
-
-## 10. Witnesses and contestability
+## Evidence independence and contestability
 
 - **TIGTA**, the Inspector General: independent of IRS management and working under professional standards. It triggered the IRS's self-review: its concerns in November and December 2025 led the IRS to re-examine its own disclosures. Its limits are its own: it relied on IRS data, did not validate ICE's data, did not assess legality, made no recommendations, and redacted its safeguard findings.
 - **The IRS's own declaration:** an admission against the agency's interest, so strong evidence that errors occurred. It is also the source of nearly every count. The book warns that two records can share one source (Ch. 9, line 298).
@@ -169,21 +214,39 @@ TIGTA also found potential matches lost through differences in name or address f
 - **Congress:** letters on 12 February 2026 and a hearing on 4 March 2026, at which the IRS's chief executive declined to comment, citing litigation.
 - **The affected people:** mostly absent from the record. Section 7431 provides a damages route subject to liability conditions and exceptions; compensation is not automatic. Using that route also depends on discovering the disclosure. The readable agreement pages describe a disciplinary-action notice route. Separately, §7431(e) requires notice for specified criminal charges or proposed disciplinary determinations; whether those triggers applied here is not established. The route that reached a court was organisations suing on their own account, and the Center's injury was precisely that its clients had stopped coming forward. The book anticipates both points: the affected person "may choose not to expose themselves" (Ch. 9, line 328), and gathering many partial accounts is *collective evidence* (line 332). A department "cannot certify its own answerability" (line 316). Here an outside witness and a court did the work the procedure could not.
 
-## 11. Comparing alternatives
+## Competing interpretations
+
+**The strongest reading for the government:**
+- The statute says the Secretary "shall disclose" on a compliant request, and addresses are not taxpayer return information. The appeals court accepted that reading of the agreement in February 2026.
+- Failure to depart after a final removal order is a crime, and enforcing it is a lawful duty.
+- The errors were implementation errors. By the IRS's estimate fewer than 5% of the people disclosed had potentially deficient ICE addresses, and only addresses were shared.
+- The evidence of a chilling effect comes from declarations by organisations that are parties to the case, not from measured filing data.
+- Treating "blockers" as heroes ignores that refusing a lawful request is also a breach of duty.
+
+**The strongest reading for the plaintiffs:**
+- The taxpayer-number path, used for about 90% of disclosed records, did not require an ICE-to-IRS address match. Weak format screening did not establish the substantive sufficiency of the supplied address or the other required conditions. This does not make address equality an independent statutory requirement.
+- The district court found it "facially implausible" that one contact could be "personally and directly engaged" in about 47,000 criminal matters, let alone 1.28 million.
+- The stated reason was the same circular sentence for everyone.
+- The IRS's own earlier position was that no provision allowed disclosure for immigration enforcement. Until 2025 it read §6103(i)(2) to prohibit disclosing an address when nothing else was requested.
+- The district court went further and said the record "raises an inference" that the criminal-investigation basis was pretext. That is a preliminary inference by one court, not a finding on the merits. The appeals court recounted it but rested its holding on the statutory defects. This case does not adopt it.
+
+**What the cited courts accepted in the source record through September 2026:** the agreement is likely lawful on its face, and the procedure is likely unlawful as used. Both rulings are preliminary.
+
+## Alternative procedures
 
 These are declared alternatives for the same request, not a ranking. No numerical harm difference is calculated: the sources do not supply an evidenced common scale and counterfactual for these alternatives. Which course the law requires is for courts and Congress.
 
 | Alternative | What it protects | What it costs |
 |---|---|---|
 | A. Individual review, as in the IRS manual before April 2025 | each request is checked by a person who can contact the prosecutor and offer less intrusive options | slow at scale; whether it could handle 1.28 million requests lawfully is UNKNOWN |
-| B. The procedure as built | speed | the performed proxy checks and matching paths did not establish the required substantive conditions (section 9) |
+| B. The procedure as built | speed | the performed proxy checks and matching paths did not establish the required substantive conditions (Requirements and implemented checks) |
 | C. *Proposed:* automation that validates every statutory field | speed with real checks | feasibility UNKNOWN; scale may still conflict with "personally and directly engaged", which the courts read narrowly |
 | D. The court-order route, §6103(i)(1) | a judge decides first (an ex parte order is required for returns and taxpayer return information) | slower; it is a different channel for different information |
 | E. Refuse all such requests | maximum confidentiality | on *Centro*'s reading of "shall disclose", a breach of the duty to answer compliant requests |
 
 Alternative E matters for the "blocker" question. On *Centro*'s reading, a gate that refused everything would break the law in the other direction. In the book's terms, the protective control the statute asks for is a check able to tell a compliant request from a deficient one.
 
-## 12. Corrections, with their owners
+## Correction ownership and acceptance
 
 **Protective corrections reported within the source cutoff:**
 - The district court stayed the procedure and required notice before any further disclosure. Owner: the court. Effect: the IRS told TIGTA it had shared no further data; the first batch was not recalled.
@@ -208,9 +271,9 @@ Alternative E matters for the "blocker" question. On *Centro*'s reading, a gate 
 - **Reduce the main UNKNOWN with aggregate data.** Counts of returns filed with Individual Taxpayer Identification Numbers by year would show whether such filing fell, though not why. Owners: IRS Statistics of Income or the National Taxpayer Advocate. Only aggregates should be used: per Ch. 12, line 476, measurement must not become a new surveillance route.
 - **Settle the statute.** Owner: Congress, which could tighten or loosen §6103(i)(2). Both are legitimate options; this case does not choose between them.
 
-## 13. Residue and new prospects
+## Residual exposure and prospective capability
 
-**CORRECTED ≠ RESTORED** (Ch. 10, line 348). Even if every correction above succeeds, the following remains:
+Restrictions on future disclosure do not restore the prior custody of information (ME Ch. 10, line 348). Residual effects and unresolved exposures include:
 - about 47,000 addresses held outside the IRS, subject to a court restriction on use while an appeal was pending at the source cutoff;
 - whatever fear and lost engagement occurred, including tax relief that some people may have missed because they stayed away;
 - one clinic's diverted budget;
@@ -222,25 +285,7 @@ Alternative E matters for the "blocker" question. On *Centro*'s reading, a gate 
 - TIGTA's continuing audit of safeguards across all of the IRS's data-sharing agreements;
 - a documented record that later readers and institutions can check.
 
-## 14. The adversarial counter-reading
-
-**The strongest reading for the government:**
-- The statute says the Secretary "shall disclose" on a compliant request, and addresses are not taxpayer return information. The appeals court accepted that reading of the agreement in February 2026.
-- Failure to depart after a final removal order is a crime, and enforcing it is a lawful duty.
-- The errors were implementation errors. By the IRS's estimate fewer than 5% of the people disclosed had potentially deficient ICE addresses, and only addresses were shared.
-- The evidence of a chilling effect comes from declarations by organisations that are parties to the case, not from measured filing data.
-- Treating "blockers" as heroes ignores that refusing a lawful request is also a breach of duty.
-
-**The strongest reading for the plaintiffs:**
-- The taxpayer-number path, used for about 90% of disclosed records, did not require an ICE-to-IRS address match. Weak format screening did not establish the substantive sufficiency of the supplied address or the other required conditions. This does not make address equality an independent statutory requirement.
-- The district court found it "facially implausible" that one contact could be "personally and directly engaged" in about 47,000 criminal matters, let alone 1.28 million.
-- The stated reason was the same circular sentence for everyone.
-- The IRS's own earlier position was that no provision allowed disclosure for immigration enforcement. Until 2025 it read §6103(i)(2) to prohibit disclosing an address when nothing else was requested.
-- The district court went further and said the record "raises an inference" that the criminal-investigation basis was pretext. That is a preliminary inference by one court, not a finding on the merits. The appeals court recounted it but rested its holding on the statutory defects. This case does not adopt it.
-
-**What the cited courts accepted in the source record through September 2026:** the agreement is likely lawful on its face, and the procedure is likely unlawful as used. Both rulings are preliminary.
-
-## 15. Common claim errors
+## Reporting errors
 
 | Claim | Qualification supported by the record |
 |---|---|
@@ -251,7 +296,7 @@ Alternative E matters for the "blocker" question. On *Centro*'s reading, a gate 
 
 The record distinguishes the existence of a legal disclosure channel from satisfaction of its conditions in individual requests.
 
-## 16. What Mechanical Ethics v1.0 already helps ask
+## Relation to Mechanical Ethics
 
 | Question the book already asks | Where |
 |---|---|
@@ -271,7 +316,7 @@ The record distinguishes the existence of a legal disclosure channel from satisf
 
 **What this case adds, and what it does not.** The book already holds each of these questions. Its scenes are mostly constructed for explanation (Notes, line 594), and its attributed historical cases are brief. This case follows one real institutional chain end to end with sources, as far as the evidence goes. It does **not** establish the arrow from a broken promise to less truthful filing to worse public data. That arrow remains a proposed mechanism: in the sources used here it rests on sworn declarations about one clinic and on a legal premise the courts repeat. Nor does the vocabulary decide anything. "A description alone cannot grant rights, produce moral priorities, prove motives or make a remedy happen" (Notes, line 580).
 
-## 17. UNKNOWN, and where stronger methods own the answer
+## Unresolved questions and domain authority
 
 - **The final legal merits**, including the First Circuit appeal after this case's source cutoff: courts own this. Legal analysis is a stronger method than this case.
 - **Whether any disclosed address was used before 5 February 2026**: ICE, the courts and the DHS Inspector General, to whom TIGTA said it would send its concerns.
@@ -280,56 +325,6 @@ The record distinguishes the existence of a legal disclosure channel from satisf
 - **The content of the implementing agreement, TIGTA's redacted findings and sealed filings**: not public in the sources used here.
 - **Whether the pretext inference holds**: the courts, on the merits.
 - **The immigration-enforcement cost of the hold**: ICE and DHS; it was not measured in these sources.
-
-## 18. Process model and diagnostic implications
-
-The following abstraction separates the operations described in the source
-record. It is an analytical model, not a reconstruction of source code or an
-additional legal test.
-
-For a request r, let F(r) denote acceptance by preprocessing, M(r) an identity
-match, L(r) satisfaction of the applicable disclosure conditions, and O(r) a
-released output. F and M describe processing results. L is a substantive
-assessment requiring the relevant legal interpretation and facts. The intended
-relationship is that release implies satisfaction of the applicable conditions:
-O(r) ⇒ L(r). Neither F(r) nor M(r), individually or jointly, establishes that
-implication without evidence connecting their tests to the conditions.
-
-The taxpayer-number branch illustrates why coverage must be assessed by branch,
-not by the presence of a check somewhere in a workflow. A test performed on one
-path does not constrain another path that reaches the same output. Conversely,
-a field can be examined during preprocessing without its substantive adequacy
-being established. The relevant diagnostic question is therefore which
-conditions each reachable output path actually enforces, not whether the system
-contains an address-related operation.
-
-A complete assessment would distinguish at least four outcomes: compliant
-requests released, deficient requests released, compliant requests withheld and
-deficient requests withheld. The published disclosure counts do not populate
-this classification. The IRS estimate of potentially deficient addresses is
-narrower than all possible grounds of deficiency. TIGTA's formatting exceptions
-identify possible missed matches, not legally eligible requests. Neither can be
-used as the overall false-acceptance or false-rejection rate.
-
-This distinction also prevents a misleading repair target. Maximising matches
-could increase deficient releases; maximising rejections could withhold requests
-that the statute requires the agency to answer. A useful validation set must
-separate identity resolution from legal eligibility and include both kinds of
-error. Where the legal classification is contested, the uncertainty belongs in
-the case label rather than being concealed as an engineering ground truth.
-
-The disclosed-record count is an output measure, not a complete exposure
-measure. The approximately 46,965-person count removes some record duplication,
-but does not measure later access, onward disclosure or use. Likewise, a court
-restriction creates an enforceable constraint; it is not an observation of every
-subsequent access. Evaluating containment would require appropriately authorised
-records of custody and use. This case does not have those records.
-
-For the main work, this is a specific instance of the difference between a check
-performed and a check capable of detecting the relevant failure. The abstraction
-adds no new legal authority. Its function is to expose where a technical claim
-requires a substantive premise and where the available record cannot establish
-that premise.
 
 ## Sources
 

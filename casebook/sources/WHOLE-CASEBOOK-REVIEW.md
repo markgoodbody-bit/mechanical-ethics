@@ -126,3 +126,29 @@ a constructed design study, not a third historical case. This is a first
 technical revision; it does not close the documented gaps in full-report reading,
 field data or professional assessment. Original cross-review receipts still
 support the underlying corrections, not acceptance of this later presentation.
+
+## 26 October — Campfire technical correction and integrated reading order
+
+Supersedes the model/structure claims in the first technical revision at
+1013a7a74cef94596a16668bc360ec99d3809970. Campfire's review, COM #877
+c6427214751, identified a material error in the fire timing condition.
+
+- Fire: replaced the general arrival-before-any-closure condition with traversal
+  intervals for each route segment, including waiting, and continuous destination
+  occupancy requirements. The old scalar test is identified only as a conservative
+  special-case screen. No numerical thresholds, field validation or new research.
+- Employment: retained the aggregate hours constraint but added competent capacity
+  for each time slot, uninterrupted/response-time needs, incompatible assignments,
+  contingent demand and fallback. Funding, capacity and learning remain separate.
+- Disclosure: r now denotes a submitted row with its request-level context, not a
+  person or output record. Branch-specific evidence and unknown coverage are mapped
+  to substantive conditions; unresolved legal classifications remain unresolved.
+- Structure: models now follow their relevant mechanisms and evidence. Employment
+  cost and learning analysis is placed with funding and observation respectively.
+  Competing interpretations precede correction decisions. Repetitive introductory
+  framing was reduced without replacing the original source receipts or cutoff.
+
+This is one Build-owned correction pass, not a new specialist review wave.
+Campfire retains the merge decision. The original failed fire formulation remains
+in Git history and this correction record. Browser/mobile/keyboard verification
+remains NOT_RUN; source and deterministic reader checks are reported separately.

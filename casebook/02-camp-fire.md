@@ -1,6 +1,5 @@
 # Case 2. Camp Fire evacuation and temporary refuge
 
-## The Camp Fire: protection between warning, movement and refuge
 
 *Case B for the Mechanical Ethics v1.0 supplement. Research and interpretation as of 26 October 2026; separate from the frozen released book. Historical findings, interpretation and proposed planning work are distinguished below. This is a worked inquiry, not instructions for choosing a refuge during a live fire.*
 
@@ -10,7 +9,7 @@ The Camp Fire makes that question concrete. NIST's 2023 NETTRA publication recor
 
 The purpose here is to follow one relationship: **a warning must connect to an action that becomes protective while that action remains feasible**. When one route closes, the remaining work does not necessarily end. It changes. The question may shift from leaving the community to reducing immediate exposure, and then to making onward movement possible.
 
-## What happened, and what this account leaves outside
+## Event and system boundary
 
 The fire began on 8 November 2018. NIST's fire-progression study documents rapid spread, strong winds and long-range spotting affecting Concow, Paradise and Magalia. A single moving front is therefore an inadequate picture of the changing danger: fire could establish ahead of a traveller's position. [2]
 
@@ -20,19 +19,7 @@ This case's chosen boundary runs from noticing danger through protective movemen
 
 The affected scope includes people who received messages, people who did not, people unable to move without assistance, responders exposed while helping them, and people elsewhere competing for finite transport or response capacity. A person absent from the available observations has not thereby been shown to have had a usable exit. This is an analytical boundary choice, open to challenge; it is not a new estimate of any group's historical exposure.
 
-## Outcome definitions and inconsistent summary claims
-
-A tempting first account is: **the warnings came too late, so earlier warnings would have solved the evacuation**. That compresses several different failures into one. NIST's ESCAPE explanation separates the activation of a notification process from preparation and transport. It expressly warns that the start of dissemination is not the time at which the population has been informed. [3]
-
-The corrected account is narrower. Earlier effective notice may help where a usable movement window exists. It cannot by itself establish transport, passable routes, assistance or sufficient remaining time. A notification improvement and a viable evacuation are different achievements. The analyst must therefore examine the full journey and contingency arrangements, rather than infer the remedy from the alert timestamp.
-
-There is a second correction about outcomes. NIST's April 2025 news account describes improvised refuge decisions as saving more than 1,200 people. The 2026 researchers instead attribute prevention of death for **at least 261 civilians** and reduced danger for **at least 961 others**. These are retrospective classifications, not an experimental estimate. Refuge involvement is not converted into a separately established life saved. [4, 5]
-
-That correction changes the comparison. Refuge involvement, reduction of exposure, survival and a causal estimate of deaths prevented cannot be substituted for one another. Nor can totals from refuge and rescue categories simply be added: the supplied sources do not establish that they represent disjoint people.
-
-Both figures come from NIST: the April 2025 news item says the improvised decisions "saved more than 1,200 people", while the 2026 paper by NIST researchers reports in its abstract at least 261 lives saved and reduced risk for at least 961 others. NIST, as publisher of both, is the owner able to reconcile or annotate the earlier summary. Anyone citing either figure should say which claim it supports.
-
-## Different views of the same changing event
+## Observations and source dependence
 
 A resident can observe nearby smoke, traffic and the message actually received. A dispatcher may see notification requests and communications. A responder may know that a particular junction has become dangerous. Incident management needs an account broad enough to coordinate resources, but breadth does not guarantee that its information is current at every location. These are roles in the analysis, not invented testimony from particular people.
 
@@ -42,7 +29,7 @@ The 2026 paper's Methods describes interviews with responders and officials, sup
 
 To challenge a specific claim, ask which record supports it. Does an order log show a request, actual dissemination, receipt by the relevant person, or subsequent action? Were two timestamps independently anchored or reconciled from a shared account? A second publication reusing the same reconstruction is not a second independent event observation. The NIST reports, their later research synthesis and their news summary must not be counted as three replications of the outcome.
 
-## Several clocks, with different endpoints
+## Timing and outcome definitions
 
 The relevant clock is not simply time since somebody pressed an alert button. NIST's timing account includes assessment, transfer and dissemination, followed by people's preparation and movement. Its stages are an aid to investigating elapsed time, not a reason to assume every stage occurs neatly in sequence. [3]
 
@@ -59,7 +46,63 @@ For a specified person and route, the comparison needs a shared starting event a
 
 Hardening is equally specific. A blocked road can close one journey without proving every alternative closed. Fatal injury cannot be undone by a later report. Avoiding immediate injury may leave later needs unresolved. Future planning can still be improved after the historical opportunity to protect a particular person has passed. Calling an investigation late must therefore name the loss it cannot now prevent, rather than dismiss its possible value for future people.
 
-## Control is not distributed like exposure
+## Protective-route model and limits of identification
+
+A protective journey can be represented as a sequence of conditional transitions:
+warning reception, interpretation, preparation, mobilisation, movement and
+arrival at a location that remains tenable. This is an analytical decomposition,
+not a fitted evacuation model. Failures can occur at several transitions and
+share causes. Loss of power, for example, may affect both communications and
+other activities; the factors should not be treated as independent probabilities.
+
+For a specified person or group, t_a is receipt of a usable warning, τ_p the elapsed time from receipt to departure, and τ_m the duration of the realised journey. Then t_arrive = t_a + τ_p + τ_m is an accounting identity for that journey, not a prediction. It assumes these events can be identified; departure before receipt or without a warning requires a different starting event.
+
+Feasibility must be assessed along the trajectory. Divide the journey into segments i, with entry time e_i and exit time x_i. For each segment, the group's traversal interval [e_i, x_i] must lie within the interval or intervals during which that segment is accessible and tenable for that group. If a segment has one known closing threshold u_i and remains usable beforehand, x_i < u_i is the corresponding conservative clearance condition. Waiting at junctions or in queues also occupies locations and must be included. A segment that closes after the group has passed does not make its later arrival infeasible.
+
+Thus t_arrive < min_i(u_i) is not a generally necessary condition. It can be imposed as a conservative special-case screen, but would reject some journeys that clear each segment in time. Nor does it test a destination's continued tenability. At a temporary destination, conditions must support the group throughout occupancy, from entry until onward departure or rescue, with capacity and assistance available. Endpoints alone do not establish acceptable accumulated smoke or heat exposure; specialist criteria are required.
+
+The inequalities identify a modelling requirement, not operational thresholds. No segment timings, exposure limits or safe margins are estimated here. Where closure times or travel durations are uncertain, a nominal positive margin is not a demonstrated robust route. Assessments would need bounded uncertainty or a justified scenario analysis, including correlated failures.
+
+Earlier receipt can increase preparation time, but its effect on the realised trajectory depends on behaviour, assistance and network demand. Simultaneous earlier departures can alter queues; unavailable transport can prevent departure altogether. Shifting only the historical warning timestamp while holding all subsequent movement fixed would therefore require justification.
+
+Refuge changes the route and the exposure profile; it does not remove the timing
+problem. An assessment must include entry conditions, tenability during occupancy
+and an onward movement or rescue path. A site could reduce immediate flame
+exposure while retaining smoke exposure or dependence on responders. Those are
+different outcomes and may have different responsible operators.
+
+The retrospective categories reported by NIST do not estimate the prospective
+effect of publishing a refuge map. That intervention can change departure,
+destination choice and expectations before an incident. Its effect would require
+evidence about those behavioural responses, site assessment, maintenance and
+incident conditions. The Marin appendix establishes published planning products
+and some programme ownership; it does not supply these outcome measurements.
+
+An engineering assessment would therefore need linked, time-resolved evidence:
+warning receipt rather than activation alone; departure and assistance requests;
+route states and traffic; hazard conditions; refuge occupancy and duration; and
+subsequent movement and outcomes. Incomplete or inconsistent timestamps would
+need explicit uncertainty bounds. These are requirements for further specialist
+analysis, not data claimed to have been collected for this supplement.
+
+The main work's clock distinction is useful here because a single event can
+close one route while leaving another temporarily available. Determining those
+windows requires fire, transport and human-factors methods. The vocabulary alone
+cannot establish a safe site, departure threshold or operating plan.
+
+## Outcome definitions and inconsistent summary claims
+
+A tempting first account is: **the warnings came too late, so earlier warnings would have solved the evacuation**. That compresses several different failures into one. NIST's ESCAPE explanation separates the activation of a notification process from preparation and transport. It expressly warns that the start of dissemination is not the time at which the population has been informed. [3]
+
+The corrected account is narrower. Earlier effective notice may help where a usable movement window exists. It cannot by itself establish transport, passable routes, assistance or sufficient remaining time. A notification improvement and a viable evacuation are different achievements. The analyst must therefore examine the full journey and contingency arrangements, rather than infer the remedy from the alert timestamp.
+
+There is a second correction about outcomes. NIST's April 2025 news account describes improvised refuge decisions as saving more than 1,200 people. The 2026 researchers instead attribute prevention of death for **at least 261 civilians** and reduced danger for **at least 961 others**. These are retrospective classifications, not an experimental estimate. Refuge involvement is not converted into a separately established life saved. [4, 5]
+
+That correction changes the comparison. Refuge involvement, reduction of exposure, survival and a causal estimate of deaths prevented cannot be substituted for one another. Nor can totals from refuge and rescue categories simply be added: the supplied sources do not establish that they represent disjoint people.
+
+NIST publishes both accounts and is the appropriate owner to reconcile or annotate the earlier summary. The narrower research categories are retained here; the difference is not independently resolved.
+
+## Control, exposure and coupled resources
 
 The person in the vehicle does not control the entire road network, available buses or incident response. Equally, an incident commander does not control wind, every ignition, or every individual's ability to move. A useful account locates an actor's actual capacity instead of assigning omnipotence to the most visible institution.
 
@@ -95,7 +138,7 @@ The following evidence would distinguish the planning hypotheses:
 
 These dependencies are unresolved in the available source set.
 
-## Compare courses without manufacturing a harm score
+## Alternative interventions and outcome measures
 
 The useful comparison is not between perfect knowledge and the actual disaster. It is between defined courses available to specified actors under plausible conditions.
 
@@ -126,7 +169,7 @@ NIST supplies research and guidance in these sources. Publication alone does not
 
 A consequential review should let someone unable to use the assumed route reveal that problem without first becoming an evacuation modeller. It should also let responders challenge a plan that quietly allocates them to incompatible tasks. Accessibility, residents' practical constraints and safe handling of personal accounts belong in the design of that review; collecting identifiable disaster testimony is not necessary for this written case.
 
-## What remains after survival, and what might become possible
+## Residual effects and future capability
 
 Immediate survival is a different outcome from restoring a home, health, livelihood or community. Those domains remain outside the outcome estimates in this case. ME1's residue distinction keeps the question open without manufacturing a personal loss ledger or implying that recovery is impossible. [ME]
 
@@ -134,7 +177,7 @@ The positive prospect is the capability to prepare, maintain and adapt protectiv
 
 The practical handover question is small enough to be answerable: **for the people least able to use the assumed evacuation route, which responsible owner can show the workable alternative and how it will remain workable?** If existing ESCAPE work already answers it, use that work. If no competent owner or adequate evidence can answer it, record the actual gap rather than certify the plan through vocabulary.
 
-## The strongest counter-reading
+## Existing specialist methods and limits of contribution
 
 NIST's specialist work already integrates fire behaviour, notification, movement and refuge. It does not need ME to discover that safety depends on more than sending a message. Adding a second conceptual worksheet could waste scarce planning time, imply competence the author does not possess or obscure technical uncertainty with reassuring labels.
 
@@ -143,57 +186,6 @@ That objection is substantial. ME earns no efficacy claim from this case. The mo
 An actual comparative use test could still find **EXISTING_METHOD_BETTER** or **NO_USE**. For example, if an authorised planner's ordinary ESCAPE process already exposes the relevant constraints more clearly, this restatement adds no practical value. No planner or resident has applied this case in the present work, and no such test result is claimed.
 
 The earned result is a source-bounded worked account with corrected claims. Whether this account improves a real decision remains an external question.
-
-## Protective-route model and limits of identification
-
-A protective journey can be represented as a sequence of conditional transitions:
-warning reception, interpretation, preparation, mobilisation, movement and
-arrival at a location that remains tenable. This is an analytical decomposition,
-not a fitted evacuation model. Failures can occur at several transitions and
-share causes. Loss of power, for example, may affect both communications and
-other activities; the factors should not be treated as independent probabilities.
-
-For a specified person or group, define t_a as warning receipt, τ_p as the time
-from receipt to departure, and τ_m as travel time under the actual route and
-traffic conditions. Then t_arrive = t_a + τ_p + τ_m. If t_u denotes the time at
-which the selected route or destination becomes untenable for that group, a
-necessary condition for that journey is t_arrive < t_u. It is not sufficient:
-access, assistance, destination capacity and exposure during travel must also be
-assessed. The relevant t_u is neither uniform across a community nor a known
-constant in the present evidence.
-
-Earlier receipt improves this inequality only if the other terms do not offset
-it. Travel time depends on departure demand, network capacity, incidents and
-route changes. Simultaneous earlier departures can alter queues. A person unable
-to obtain transport may have a large or effectively unbounded mobilisation time.
-Consequently, the effect of an earlier alert cannot be estimated by shifting the
-historical warning timestamp while holding all later behaviour fixed without
-justification.
-
-Refuge changes the route and the exposure profile; it does not remove the timing
-problem. An assessment must include entry conditions, tenability during occupancy
-and an onward movement or rescue path. A site could reduce immediate flame
-exposure while retaining smoke exposure or dependence on responders. Those are
-different outcomes and may have different responsible operators.
-
-The retrospective categories reported by NIST do not estimate the prospective
-effect of publishing a refuge map. That intervention can change departure,
-destination choice and expectations before an incident. Its effect would require
-evidence about those behavioural responses, site assessment, maintenance and
-incident conditions. The Marin appendix establishes published planning products
-and some programme ownership; it does not supply these outcome measurements.
-
-An engineering assessment would therefore need linked, time-resolved evidence:
-warning receipt rather than activation alone; departure and assistance requests;
-route states and traffic; hazard conditions; refuge occupancy and duration; and
-subsequent movement and outcomes. Incomplete or inconsistent timestamps would
-need explicit uncertainty bounds. These are requirements for further specialist
-analysis, not data claimed to have been collected for this supplement.
-
-The main work's clock distinction is useful here because a single event can
-close one route while leaving another temporarily available. Determining those
-windows requires fire, transport and human-factors methods. The vocabulary alone
-cannot establish a safe site, departure threshold or operating plan.
 
 ## Sources and exact reading boundaries
 
