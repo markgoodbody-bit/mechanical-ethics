@@ -23,7 +23,7 @@ causal uncertainty. [C2]
 
 Nor is this an unoccupied policy field. The Early Careers Jobs Alliance already
 addresses task analysis, organisational design, progression and employer–union
-pilots. These are stronger existing owner routes, not discoveries made by this
+pilots. These are existing institutional routes to investigate, not discoveries made by this
 casebook. [C3] The question left for our constructed firm is narrower: **can it
 support one real paid beginning without making somebody else silently finance it?**
 
@@ -93,7 +93,7 @@ If the honest answer is that the supervisor will absorb the difference at night,
 this version of the role is not yet supported. Renaming those hours “mentoring”
 does not supply capacity or settle eligibility.
 
-Claude Code's independent premise challenge brought this distinction into the
+Claude Code's internal AI premise challenge brought this distinction into the
 project before this case was written. It also challenged the cost of adding
 another assessment beside existing reviews. This case therefore proposes using
 an existing work/training review where suitable, rather than requiring a new ME
@@ -246,7 +246,7 @@ support a first paid step.
 - **[C2]** DSIT/LinkedIn, [A snapshot of entry-level hiring in the UK](https://www.gov.uk/government/publications/entry-level-hiring-in-the-uk-a-snapshot/a-snapshot-of-entry-level-hiring-in-the-uk), 8 June 2026; Key messages. Platform-based analysis, no established AI causation.
 - **[C3]** techUK, [Early Careers Jobs Alliance](https://www.techuk.org/insights/news/techuk-joins-government-s-early-careers-jobs-alliance), 11 June 2026; activity areas. Institutional description, not programme evaluation.
 - **[C4]** Department for Work and Pensions, [Apprenticeship funding rules 2026–27, version 3](https://assets.publishing.service.gov.uk/media/6a68cabe229c578debc1a78c/Funding_Rules_2627_Version_3_Final.pdf), July 2026; paragraphs 66.1, 100–103, 107.6, 112.1 and 112.11. England; relevant start-date and funding conditions apply. The [official landing page](https://www.gov.uk/government/publications/apprenticeship-funding-rules-and-assessment-plan-guidance-2026-to-2027) was checked for current version.
-- **[C5]** [Claude Code's independent project premise challenge](https://github.com/markgoodbody-bit/COM/issues/885#issuecomment-6424849754), 26 October 2026. Editorial criticism, not an employment source or field participant. Build independently reacquired the relevant primary rules before using the correction.
+- **[C5]** [Claude Code's internal AI project premise challenge](https://github.com/markgoodbody-bit/COM/issues/885#issuecomment-6424849754), 26 October 2026. Editorial criticism, not an employment source or field participant. Build independently reacquired the relevant primary rules before using the correction.
 - **Book basis:** [exact released v1.0.0 manuscript](https://github.com/markgoodbody-bit/mechanical-ethics/blob/v1.0.0/working-editions/v1.0/ME10_DEV4R_CORR2_Source_Preserved_Master.md).
 
 All external sources retrieved 26 October 2026. This case was authored by

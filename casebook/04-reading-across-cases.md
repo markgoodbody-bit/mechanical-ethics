@@ -40,8 +40,8 @@ affected, rather than more framework language.
 The [Camp Fire case](02-camp-fire.md) corrects an alert-centred first reading:
 earlier notification may help, but its activation does not establish receipt,
 transport or a route that remains protective. The [employment case](03-paid-first-rung.md)
-corrects a funding-centred first reading: support for training does not establish
-paid supervisory capacity or an affordable role. Both corrections ask us to
+corrects a funding-centred first reading: a training allocation does not establish that all necessary supervisory work
+is funded or available, or that the role is affordable. Both corrections ask us to
 follow a promising input through to the particular effect somebody needs.
 
 Their evidence is importantly different. The fire chapter interprets a
