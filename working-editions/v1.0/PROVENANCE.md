@@ -57,3 +57,12 @@ Official references, preserved in the manuscript:
 Use the [edition reading page](README.md) for present status and feedback.
 The manuscript's earlier private/developmental labels and PDF metadata remain
 untouched; they are contextualised there by the later public-handoff decision.
+
+## Subsequent formal promotion — 26 October 2026
+
+After publication as a working edition, Mark authorised formal release of the
+**unchanged** original CORR2 Markdown, 50-page PDF and three SVGs as
+**Mechanical Ethics v1.0.0**. This supersedes the original source's earlier
+`NOT RELEASED` document-control statement; it does not alter source bytes,
+licensing, validation status or independent rights. See the
+[formal release receipt](../../RELEASE_v1.0.0.md).

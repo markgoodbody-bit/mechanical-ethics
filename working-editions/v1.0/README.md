@@ -1,6 +1,6 @@
-# Mechanical Ethics v1.0 — working edition
+# Mechanical Ethics v1.0.0 — released edition
 
-**Independent review invited · public working edition, 26 October 2026**
+**Current formal released baseline · 26 October 2026 · independent criticism invited**
 
 Mechanical Ethics asks how people can make a better future when knowledge is
 partial, powers differ and correction may arrive too late. It proposes a
@@ -27,20 +27,20 @@ of its claims. If downloading the Markdown, keep its `figures/` directory beside
 
 ## What this edition means
 
-Mark originated Mechanical Ethics and has authorised public distribution of
-this source-preserved **v1.0 working edition**, including its three provisional
-figures, for independent review. This is the exact CORR2 candidate dated
-16 October 2026, made public on 26 October; it has not been rewritten for release.
+Mark originated Mechanical Ethics and has explicitly authorised **formal release
+as v1.0.0** of the exact v1.0 CORR2 manuscript and its three original figures.
+The source was frozen on 16 October 2026, published for review on 26 October,
+and promoted on 26 October without rewriting any of those original files.
 
 Consequently, the manuscript and PDF still contain their earlier developmental
 labels, including **NOT RELEASED**, **private reading candidate**, and statements
-that the draft alone grants no publication approval. Those accurately describe
-the preserved candidate's earlier status. The later public-handoff decision
-authorises this working edition; it does not establish final literary approval,
-final art direction, scientific validation or endorsement by any named person
-or organisation. AI-assisted authorship and developmental provenance remain
-visible in the source. “v1.0” here names a working edition, not a new formal
-release tag. [v0.8.0 remains the released formal baseline](../../README.md#read-the-released-baseline).
+that the draft alone grants no publication approval. Those statements describe the original candidate's **earlier status**,
+now superseded for document control by Mark's 26 October formal release decision.
+Release does not establish scientific validation, accessibility, artistic perfection
+or endorsement by anyone outside the project. AI-assisted authorship and
+original developmental provenance remain visible. The formal version/tag is
+**v1.0.0**, often shortened to “1.0”. [Release receipt](../../RELEASE_v1.0.0.md)
+and [previous v0.8.0 release](../../RELEASE_v0.8.0.md).
 
 The language cannot derive moral standing or legitimate authority from a
 description. It does not replace medicine, law, safety engineering or other
@@ -73,7 +73,7 @@ to challenge the argument. This is not an urgent-help or monitored complaints ch
 ## Rights
 
 Public reading and review are invited. No general reuse, adaptation,
-redistribution or AI-training licence for this working edition is granted here.
+redistribution or AI-training licence for this released edition is granted here.
 Ask the repository owner about other proposed uses. The existing
 [AI training permission](../../AI_TRAINING_PERMISSION.md) applies only to its
 specified v0.7.0 material; it does not extend to v1.0. Third-party references
