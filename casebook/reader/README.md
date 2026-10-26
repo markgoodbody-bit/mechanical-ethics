@@ -1,7 +1,9 @@
 # Portable casebook reader
 
+**[Download the casebook PDF — 60 pages](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf)** · [PDF edition and build notes](../pdf/README.md)
+
 Open `index.html` in a browser. It includes all twelve Markdown documents from
-commit `0a281d0dd729a0110d5c2c5ecd358502da413821`: chapters, source
+commit `0d4f82c31a251880a44bd2df5344bff772e0c1de`: chapters, source
 receipts and editorial history. Reading and internal navigation work without a
 server or connection; external references require a connection. No JavaScript,
 telemetry, remote fonts, embedded images or live-status claims are included.
@@ -45,3 +47,6 @@ still fail. The rebuilt twelve-document edition passed internal-link and
 reproducibility checks. These historical links require a connection.
 
 Campfire technical correction: segment/occupancy feasibility, time-dependent qualified supervision, and explicit request-row/gate units are integrated in the main reading order.
+
+
+PDF navigation update: the twelve-document snapshot is repinned only for the casebook entrance download links. The three study texts and source notes are unchanged. The PDF preserves its earlier exact reading snapshot; its build input is separately retained under `../pdf/`.

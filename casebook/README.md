@@ -7,6 +7,12 @@ action and the resourcing of entry-level technical employment. It applies the
 main work's distinctions to specific systems, then identifies where the available
 evidence supports, limits or fails to resolve the resulting analysis.
 
+## Reading formats
+
+**[Download the casebook PDF — 60 pages](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf)** · [PDF edition and build notes](https://github.com/markgoodbody-bit/mechanical-ethics/blob/main/casebook/pdf/README.md) · [Offline HTML reader](https://github.com/markgoodbody-bit/mechanical-ethics/blob/main/casebook/reader/README.md)
+
+The PDF is the dated 26 October three-case reading edition, including source and editorial notes. Later navigation changes do not alter that snapshot.
+
 ## Contents
 
 1. [IRS–ICE information disclosure](01-institutional-trust.md). Historical

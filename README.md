@@ -13,6 +13,8 @@ This is the **formally released v1.0.0 edition**, still open to independent crit
 
 ## Companion case studies
 
+**[Download the casebook PDF — 60 pages](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf)** · [PDF edition and build notes](casebook/pdf/README.md)
+
 [Read the casebook](casebook/README.md): two historical studies—IRS–ICE information disclosure and Camp Fire evacuation/refuge—and one explicitly constructed study of supervision capacity in entry-level technical employment. Each follows mechanisms, evidence, competing explanations and correction responsibilities.
 
 The casebook is a separately maintained supplement, not an amendment to the released book or evidence of field effectiveness. See its [scope and source limits](casebook/README.md#method-and-evidence). For offline reading, [download and open the self-contained HTML reader](casebook/reader/README.md); the GitHub file view is source, not a hosted reading application.
