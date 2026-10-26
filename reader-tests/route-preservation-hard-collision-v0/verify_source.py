@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Verify reader-test excerpts are faithful to the current released-reader source."""
+"""Verify historical v0.8.0 reader-test excerpts against the byte-preserved source."""
 from pathlib import Path
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
-BOOK_PATH = ROOT / "MECHANICAL_ETHICS.md"
+BOOK_PATH = ROOT / "history" / "releases" / "v0.8.0" / "MECHANICAL_ETHICS.md"
 BOOK = BOOK_PATH.read_text(encoding="utf-8")
 EXPECTED_BOOK_BLOB = "0be2ea2aeb178b8387eedf0b72da2d325c6c5caf"
 actual_blob = subprocess.check_output(["git", "hash-object", str(BOOK_PATH)], text=True).strip()

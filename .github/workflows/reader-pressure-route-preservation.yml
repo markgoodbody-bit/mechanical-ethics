@@ -6,12 +6,12 @@ on:
       - framework/reader-pressure-route-preservation-20260918
     paths:
       - 'reader-tests/route-preservation-hard-collision-v0/**'
-      - 'MECHANICAL_ETHICS.md'
+      - 'history/releases/v0.8.0/MECHANICAL_ETHICS.md'
       - '.github/workflows/reader-pressure-route-preservation.yml'
   pull_request:
     paths:
       - 'reader-tests/route-preservation-hard-collision-v0/**'
-      - 'MECHANICAL_ETHICS.md'
+      - 'history/releases/v0.8.0/MECHANICAL_ETHICS.md'
       - '.github/workflows/reader-pressure-route-preservation.yml'
 
 permissions:

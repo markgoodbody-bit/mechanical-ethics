@@ -35,8 +35,8 @@ jobs:
           grep -F 'Start with Mechanical Ethics v1.0.0' README.md
           grep -F 'Mechanical Ethics v1.0.0 — released edition' working-editions/v1.0/README.md
           grep -F 'RELEASED FORMAL BASELINE' RELEASE_v1.0.0.md
-          grep -F 'Release decision: **23 September 2026**.' README.md
-          grep -F 'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED' README.md
+          grep -F 'Release decision: 23 September 2026.' history/releases/v0.8.0/RELEASE_v0.8.0.md
+          grep -F 'Human Reader v0.8.0 - RELEASED BASELINE' history/releases/v0.8.0/MECHANICAL_ETHICS.md
       - name: Claim ceiling
         run: |
           echo "Verifies asset identity and version routing, not efficacy, universal correctness, reproducible PDF rendering or accessibility."

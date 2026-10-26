@@ -54,3 +54,13 @@ specified older material, chiefly v0.7.0. Third-party rights are unchanged.
 [Read the released book](working-editions/v1.0/README.md) ·
 [Original provenance](working-editions/v1.0/PROVENANCE.md) ·
 [Previous v0.8.0 receipt](RELEASE_v0.8.0.md)
+
+## Repository layout note — 26 October 2026 (after release)
+
+At the time v1.0.0 was tagged, the previous v0.8.0 Markdown/PDF/figures and
+older release receipts remained at the repository root, as stated above.
+After publication, those **unchanged** historical blobs were organised under
+[history/releases/](history/releases/README.md) to make the current edition
+unambiguous. The frozen v1.0.0 tag and its original receipt are unchanged, as
+are all earlier tags. Historical root links still work when pinned to the
+[v0.8.0 tag](https://github.com/markgoodbody-bit/mechanical-ethics/tree/v0.8.0).
