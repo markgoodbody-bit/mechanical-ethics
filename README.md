@@ -7,9 +7,9 @@ Mechanical Ethics proposes a **middle-out reasoning language** for people and AI
 **Start with Mechanical Ethics v1.0.0 — current formal released baseline (26 October 2026):**
 
 **[Read the complete illustrated book — A Middle-Out Reasoning Language](working-editions/v1.0/README.md)**  
-[Read the manuscript in your browser](working-editions/v1.0/ME10_DEV4R_CORR2_Source_Preserved_Master.md) · [Illustrated A4 PDF, 50 pages](working-editions/v1.0/Mechanical_Ethics_The_Moving_Ground_DEV4R_CORR2_Vector_A4.pdf) · [Source and provenance](working-editions/v1.0/PROVENANCE.md)
+[Read the manuscript in your browser](working-editions/v1.0/ME10_DEV4R_CORR2_Source_Preserved_Master.md) · [Illustrated A4 PDF, 50 pages](working-editions/v1.0/Mechanical_Ethics_v1.0.0.pdf) · [Source and provenance](working-editions/v1.0/PROVENANCE.md)
 
-This is the **formally released v1.0.0 edition**, still open to independent criticism. Release is a publication and document-control decision, not scientific validation, peer review or a claim of universal applicability. The original source and PDF preserve older developmental notices; the [current edition explanation](working-editions/v1.0/README.md#what-this-edition-means) and [release receipt](RELEASE_v1.0.0.md) establish the subsequent status without altering the original bytes.
+This is the **formally released v1.0.0 edition**, still open to independent criticism. Release is a publication and document-control decision, not scientific validation, peer review or a claim of universal applicability. The current PDF has corrected publication labels. The original manuscript and original release PDF remain preserved; see the [reader-copy correction](working-editions/v1.0/PDF_READER_CORRECTION.md) and [release receipt](RELEASE_v1.0.0.md).
 
 ## The idea in a minute
 

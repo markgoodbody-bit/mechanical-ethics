@@ -13,7 +13,7 @@ worthwhile possibilities people can build together.
 
 - [Read the complete manuscript](ME10_DEV4R_CORR2_Source_Preserved_Master.md)
   in your browser: fourteen chapters, an opening note, glossary and source notes.
-- [Download the illustrated A4 PDF](Mechanical_Ethics_The_Moving_Ground_DEV4R_CORR2_Vector_A4.pdf)
+- [Download the illustrated A4 PDF](Mechanical_Ethics_v1.0.0.pdf)
   for offline reading: 50 pages, with selectable text.
 - [Inspect the three companion SVG figures](figures/).
 - [Check source identity and publication scope](PROVENANCE.md).
@@ -21,9 +21,8 @@ worthwhile possibilities people can build together.
 The opening note and first chapters introduce the language through a child,
 a glass and a plant. Later chapters follow institutional correction, losses
 that repair does not restore, shared capability and distributed responsibility.
-The Notes explain sources, authorship and limitations. The PDF and Markdown are
-carriers of the same preserved CORR2 manuscript, not independent confirmations
-of its claims. If downloading the Markdown, keep its `figures/` directory beside it.
+The Notes explain sources, authorship and limitations. The current PDF retains the CORR2 chapter text and figures, with publication-status
+labels corrected. PDF and Markdown are not independent confirmations of the claims. If downloading the Markdown, keep its `figures/` directory beside it.
 
 ## What this edition means
 
@@ -32,15 +31,16 @@ as v1.0.0** of the exact v1.0 CORR2 manuscript and its three original figures.
 The source was frozen on 16 October 2026, published for review on 26 October,
 and promoted on 26 October without rewriting any of those original files.
 
-Consequently, the manuscript and PDF still contain their earlier developmental
-labels, including **NOT RELEASED**, **private reading candidate**, and statements
-that the draft alone grants no publication approval. Those statements describe the original candidate's **earlier status**,
-now superseded for document control by Mark's 26 October formal release decision.
+The current PDF removes obsolete prerelease labels from its cover, running
+headers and footers, metadata and publication notes. The original manuscript
+and [original release PDF](Mechanical_Ethics_The_Moving_Ground_DEV4R_CORR2_Vector_A4.pdf)
+retain their historical bytes. This is a reader-copy correction, not a new
+substantive edition. [Correction record](PDF_READER_CORRECTION.md).
 Release does not establish scientific validation, accessibility, artistic perfection
 or endorsement by anyone outside the project. AI-assisted authorship and
 original developmental provenance remain visible. The formal version/tag is
 **v1.0.0**, often shortened to “1.0”. [Release receipt](../../RELEASE_v1.0.0.md)
-and [previous v0.8.0 release](../../RELEASE_v0.8.0.md).
+and [previous v0.8.0 release](../../history/releases/v0.8.0/RELEASE_v0.8.0.md).
 
 The language cannot derive moral standing or legitimate authority from a
 description. It does not replace medicine, law, safety engineering or other
