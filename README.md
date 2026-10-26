@@ -1,82 +1,54 @@
 # Mechanical Ethics
 
-Mechanical Ethics is a human-facing framework for examining consequential
-decisions under uncertainty, especially where formal correction can arrive
-after a threatened path has hardened.
+**How can we make a better future?**
 
-## Read the v1.0 working edition
+Mechanical Ethics proposes a **middle-out reasoning language** for people and AI systems facing consequential decisions under uncertainty. It starts with what is happening in the world, looks at who and what is affected, and asks what can be protected, improved or created while meaningful correction remains possible.
 
-**Independent review invited · 26 October 2026.** Start with the
-[v1.0 working edition reading page](working-editions/v1.0/README.md),
-which links the complete source-preserved CORR2 manuscript, illustrated PDF,
-provenance, limitations and feedback route. This is a public working candidate,
-not a new formal release or a claim of scientific validation. The preserved
-manuscript's earlier private/developmental notices are explained on that page.
-Its publication does not extend the existing v0.7.0 AI-training permission.
+**Start with the public v1.0 working edition (26 October 2026):**
 
-## Read the released baseline
+**[Read the complete illustrated book — A Middle-Out Reasoning Language](working-editions/v1.0/README.md)**  
+[Read the manuscript in your browser](working-editions/v1.0/ME10_DEV4R_CORR2_Source_Preserved_Master.md) · [Illustrated A4 PDF, 50 pages](working-editions/v1.0/Mechanical_Ethics_The_Moving_Ground_DEV4R_CORR2_Vector_A4.pdf) · [Source and provenance](working-editions/v1.0/PROVENANCE.md)
 
-Choose either form of the same current released reader:
+This is a **working edition, open to independent criticism**. It is not a peer-reviewed or experimentally validated method, a final literary edition, or a new formal release tag. The preserved manuscript includes older developmental notices; the [edition introduction](working-editions/v1.0/README.md#what-this-edition-means) explains the later authorisation to publish it for review.
 
-- [`MECHANICAL_ETHICS.md`](MECHANICAL_ETHICS.md) - inspectable Markdown source;
-- [`MECHANICAL_ETHICS.pdf`](MECHANICAL_ETHICS.pdf) - typeset 6 x 9 inch reader edition.
+## The idea in a minute
 
-Both present the current **released Mechanical Ethics v0.8.0 baseline**. The Markdown is the editable source; the PDF is a deterministic generated carrier, not a separate manuscript.
+Start with a real situation, not an idealised model. Ask:
 
-| Released form | Bytes | SHA-256 |
-|---|---:|---|
-| Markdown v0.8.0 | 100,253 | `e3267c3e41e7fdfb44c9a9279250a1a7a38d5b9c389a594fef40cfea75fdbe76` |
-| PDF v0.8.0 | 450,125 | `e9ca37b249b4d915b18e954b6c72ebd999ae4be8ceed2c0aaf395922d0c6b56f` |
+1. **What is changing?** What do we know, and what might our account miss?
+2. **Who is affected?** Whose choices, capabilities, resources or future possibilities are at stake?
+3. **What can actually happen?** Which constraints, competing clocks and power relationships determine feasible paths?
+4. **What help is worthwhile?** Can a small useful action create a better possibility without hiding burdens elsewhere?
+5. **What happens afterwards?** Can those affected observe, challenge and correct the consequences — including what cannot be restored?
 
-The corrected Figure 2 source/carrier are pinned at:
-- SVG: 3,001 bytes; SHA-256 `54bb7822db06493d9af86a56c225d5b0713881fa7e634300985d665fb9cfde17`;
-- PNG: 44,180 bytes; SHA-256 `9f6681bf1ccaf5a4516ac55ebf1278a38064cae0d044ee164794857d45c4ae71`.
+These are ways to organise inquiry, **not an algorithm that determines moral truth, legal permission or expert judgement**. Their value depends on whether other people can use and challenge them in actual situations.
 
-```text
-RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED
-```
+## Editions and project history
 
-The four diagrams in [`figures/`](figures/) are explanatory carriers, not evidence.
+| Edition | What it is | Read |
+| --- | --- | --- |
+| **v1.0 — working edition** | Newest complete public developmental manuscript, source-preserved from 16 October and opened for review on 26 October 2026 | [Reader entrance](working-editions/v1.0/README.md) |
+| **v0.8.0 — formal released baseline** | Earlier controlled release, preserved without changes; release does **not** mean validated | [Markdown](MECHANICAL_ETHICS.md) · [PDF](MECHANICAL_ETHICS.pdf) · [Release receipt](RELEASE_v0.8.0.md) |
+| **v0.7.0 — prior released baseline** | Previous release, retained in tags and history | [Release receipt](RELEASE_v0.7.0.md) |
 
-## Current status
+The many October v0.9 and early v1.0 branches were development and competing research alternatives, not additional released books. See the [research and draft PR archive](history/RESEARCH_ARCHIVE_20261026.md) for the historical source routes. Their existence is not a request to merge their texts over the source-preserved v1.0 edition.
 
-Mechanical Ethics v0.8.0 is the current released formal baseline. It promotes the reviewed v0.8.0-beta4 reader after multiple hostile/cold AI review rounds, bounded source repairs and deterministic carrier checks.
+## Independent review and participation
 
-The release adds no new claim of validation. The project deliberately stopped general prose revision after mirror falsification found diminishing returns from further review-loop refinement and stronger pressure for real-world testing.
+Critical reading is welcome; agreement or praise is not the acceptance test. Tell us where the language becomes confusing, conflicts with stronger existing approaches, neglects an affected party, or fails when applied to a real case.
 
-Mechanical Ethics v0.7.0 remains preserved as the previous released baseline. Earlier versions, evidence records and build history remain recoverable through Git history and the dated `branch-archive-20260829-pre-minimal-surface` tag; they are not part of the current reading surface.
+[Open a public review issue](https://github.com/markgoodbody-bit/mechanical-ethics/issues/new) with the relevant chapter or passage and your counterexample or correction. **GitHub requires an account** to submit an issue. Readers who received a personal research invitation can also reply to that invitation. This repository does not yet have a general no-account feedback form.
 
-External comparison with [FPF](https://github.com/ailev/FPF) and later stronger-owner review narrowed contribution claims and reinforced the project's integration posture. They did not earn conformance, endorsement, a compulsory combined workflow or proof of practical advantage.
+Do not post private case histories, personal or confidential data, or material needing urgent safeguarding attention. This is an open research invitation, not a monitored emergency service. Neither publication nor an acknowledgement implies independent review or adoption.
 
-## What remains unresolved
+## Release integrity and rights
 
-- standing under protected-scope uncertainty;
-- hard collisions and competing clocks;
-- grounding and ordering of protection floors;
-- representation and legitimate decision authority;
-- closure where the beneficiary is also judge;
-- residue triage under finite repair capacity;
-- enforcement, brake and interruption authority;
-- usability for ordinary people without unusual reserves.
+The v0.8.0 released files remain at the repository root and are checked by their established integrity workflow. **Release decision: 23 September 2026** is the historical milestone, not the publication date of v1.0.
 
-Release decision: **23 September 2026**. Promotion changes release/baseline status and document control only; it does not establish validation, universal applicability, authority, efficacy or resolution of the open ethical questions.
+Release decision: **23 September 2026**.
 
-## Review, history and licence
+`RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED` (v0.8.0 only, as originally recorded). The v1.0 working manuscript is **public for reading and review**, not promoted to that formal baseline.
 
-Critical review is welcome through the repository's GitHub issues. Agreement
-is elaboration, not validation.
+No general reuse, adaptation, redistribution or AI-training licence is granted for v1.0. The existing [AI training permission](AI_TRAINING_PERMISSION.md) is limited to the material and versions it explicitly names, principally released v0.7.0; public visibility does not extend it. Third-party references retain their own rights.
 
-The existing [AI training permission](AI_TRAINING_PERMISSION.md) remains scoped to the owner-controlled released v0.7.0 material described there. It does not automatically extend to v0.8.0. Release of v0.8.0 is not, by itself, a new training or reuse licence.
-
-No general reuse licence is granted beyond that specific permission. Public
-visibility alone is not reuse permission. Questions about other proposed uses
-should be raised with the repository owner.
-
-```text
-RELEASED_BASELINE != VALIDATION
-EXTERNAL_AGREEMENT != VALIDATION
-COMPATIBILITY != CONFORMANCE
-DIAGRAM != EVIDENCE
-PUBLIC_VISIBILITY != REUSE_PERMISSION
-```
-
+**Document integrity ≠ empirical efficacy. Publication ≠ endorsement. Criticism and correction remain welcome.**
