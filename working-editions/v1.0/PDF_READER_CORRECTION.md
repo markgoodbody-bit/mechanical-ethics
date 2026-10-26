@@ -23,3 +23,10 @@ Mark approved revised wording headed A note about your safety. The dedicated pag
 ## Front-matter order corrected
 
 Mark clarified that the safety note belongs on page3, before the opening note. Build corrected its earlier placement: cover1, contents2, safety3, opening4, firstchapter5. Contents rebuilt in page order; all18internal destinations and bookmarks checked. Page count50 and chapter pagination unchanged; pages5–50 extracted text identical to the preceding reader. Contents and safety page visually inspected. Earlier page4 statements above are historical checkpoints, superseded by this correction.
+
+
+## Definition-paragraph emphasis — 26 October 2026
+
+At Mark's request, a pale teal background now marks 37 introductory/defining paragraphs (38 page regions including the continuation of collective evidence). Selection follows the first explanatory paragraphs with bold terms, not all bold emphasis or the glossary. No text was rewritten. All 50 page texts, bookmarks and link objects compare equal to the page-3 safety-note edition at ee2ec4f572bcc2aea0ee379d290b76a3c334091a. The safety note remains page 3. Representative full pages and all highlighted regions were visually inspected. A first selection guard stopped because it excluded top-of-page continuation text; the body range was corrected before output, and the page-28/29 paragraph continuation was explicitly included.
+
+Current PDF: 248082 bytes; SHA256 642bc2313df32edb83b5064261c5d4a9de200f5bfb3cb227ec8c90b64da1e3d6. Frozen release assets and original manuscript remain unchanged.
