@@ -1,0 +1,42 @@
+name: Mechanical Ethics v1.0.0 frozen-source integrity
+
+on:
+  push:
+    paths:
+      - ".github/workflows/me-v100-release.yml"
+      - "README.md"
+      - "RELEASE_v1.0.0.md"
+      - "working-editions/v1.0/**"
+  pull_request:
+    paths:
+      - ".github/workflows/me-v100-release.yml"
+      - "README.md"
+      - "RELEASE_v1.0.0.md"
+      - "working-editions/v1.0/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-identities:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check exact original released bytes
+        run: |
+          printf '%s  %s\n' '1315a2c2b500ae2308afd7070d5b3919b23d1390870e65eea54bbc057e6e37a8' 'working-editions/v1.0/ME10_DEV4R_CORR2_Source_Preserved_Master.md' | sha256sum -c -
+          printf '%s  %s\n' 'da4311b322742a36a92982fb358af35a8c2865c5654a9df1d26e56ef3d6792ba' 'working-editions/v1.0/Mechanical_Ethics_The_Moving_Ground_DEV4R_CORR2_Vector_A4.pdf' | sha256sum -c -
+          printf '%s  %s\n' '1fb6547d8fcb73eab3beb7e0da591df5cbf04bf4ee37678fc7e649d473f76a10' 'working-editions/v1.0/figures/two-clocks-v3-pinned.svg' | sha256sum -c -
+          printf '%s  %s\n' '527ab34e0e4b8214ab65bdfdbd070291fd114fecbf743a09ec3e69a343ab58ab' 'working-editions/v1.0/figures/who-draws-the-map.svg' | sha256sum -c -
+          printf '%s  %s\n' '78ccb7b3579e7eea17b8a63f8969223ad1cc4c28281325927eab1056d5609356' 'working-editions/v1.0/figures/growing-room.svg' | sha256sum -c -
+      - name: Release routing and historical anchor checks
+        run: |
+          grep -F 'Start with Mechanical Ethics v1.0.0' README.md
+          grep -F 'Mechanical Ethics v1.0.0 — released edition' working-editions/v1.0/README.md
+          grep -F 'RELEASED FORMAL BASELINE' RELEASE_v1.0.0.md
+          grep -F 'Release decision: **23 September 2026**.' README.md
+          grep -F 'RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED' README.md
+      - name: Claim ceiling
+        run: |
+          echo "Verifies asset identity and version routing, not efficacy, universal correctness, reproducible PDF rendering or accessibility."
