@@ -108,3 +108,21 @@ Both finite specialist returns are now integrated: Codex [6426277846](https://gi
 Build accepted all three bounded findings from each reviewer. Case A separates format screening, branch matching and substantive sufficiency, including unnecessary rejection; CC confirmed the distinctions from its saved sources. The blanket safeguard proposal is replaced with assessment under applicable duties and the statutory decision-maker. Court reasoning is attributed and paraphrased; the September cutoff is unchanged. Case B now asks the reader to weigh pre-designation against misplaced reliance and names NIST as the owner of its differing summaries. Case C routes recurring funding constraints to rule owners and includes the implementation lesson about hearing from actual administrators. No contact occurred.
 
 CC read the FJC flag-salute teacher handout whole and selected sections of its larger packet, not a law-school casebook. Its IfG comparator was the whole overview report, not the four separate case publications or a classroom teaching note. Failed retrievals remain in its public receipt. These are useful partial substitutes, not fulfilment of stronger source claims. Build read the entire specialist returns, not an independent repeat of their comparator research. The substantive editorial wave is complete; external reader validation, final merge approval and reader browser QA remain separate.
+
+## Technical revision requested by Mark
+
+Mark rejected the guided-reader style and requested a dry, substantially detailed
+scientific/engineering supplement. Build replaced the entry and comparative
+closing, removed staged-choice instructions, revised the chapter framing and
+added three analytical sections: disclosure-path coverage and error denominators;
+protective-journey timing and causal identification; and supervision capacity,
+cost allocation and learning measurement. These are explicitly authored models,
+not new observations or fitted predictions. No empirical values were invented.
+
+Earlier exercises and the introductory scene remain in source history and as
+superseded files, but are excluded from the technical reading sequence. Existing
+specialist evidence and its limits remain. The employment chapter is explicitly
+a constructed design study, not a third historical case. This is a first
+technical revision; it does not close the documented gaps in full-report reading,
+field data or professional assessment. Original cross-review receipts still
+support the underlying corrections, not acceptance of this later presentation.

@@ -1,151 +1,103 @@
-# Reading across the cases without flattening them
+# Comparative analysis
 
-**Editorial closing by Framework Build.** This comparison follows the three
-completed chapters, with their different evidence and reading limits intact.
+## Scope
 
-## A permission, a protective route and a first opportunity
+The two historical cases and the employment design study have different units
+of analysis. The disclosure case follows requests and records through an
+institutional process. The fire case follows people and protective operations
+through a changing physical environment. The employment study examines a
+proposed allocation of work, supervision and funding. They are not independent
+replications of one intervention.
 
-Institutional information, physical safety and paid learning appear to be
-different sorts of object because they are. Their limits are different too.
-One question may turn on what a statute permits and a court has ordered.
-Another turns on a changing physical environment and the means available to
-move through it. A third concerns the time, money, consent and practical work
-through which a person could become more capable.
+## Common structure and domain-specific criteria
 
-An account becomes less useful if it calls all three “a failure of oversight”
-and stops there. The explanatory work lies in the joins: who could know what,
-through which means, who could legitimately act, what could actually change,
-and which consequences would remain after that action.
+| Analytical distinction | Information disclosure | Wildfire protective action | Employment design |
+|---|---|---|---|
+| Input | Request and identifying information | Hazard information and warning | Funding, candidate and task |
+| Intermediate operation | Preprocessing and record matching | Reception, mobilisation and movement | Instruction, practice and review |
+| Required conditions | Applicable disclosure conditions and recipient safeguards | Usable route or refuge under relevant hazard conditions | Pay, competent supervision, access and task suitability |
+| Output | Released record | Reached location or completed rescue | Completed work and assessment |
+| Outcome requiring separate evidence | Lawful use and maintained confidentiality | Survival, injury and subsequent exposure | Learning, retention and sustainable productive capacity |
+| Correction after initial failure | Restrict further disclosure or later use | Reroute, shelter or rescue | Reallocate work, supervision or funding |
+| Residue | Information already disclosed | Injury, loss and displacement | Lost time, income or confidence |
 
-## The question can travel; the threshold usually cannot
+The common structure is a sequence of conditional transitions. Evidence that
+one transition occurred does not establish that later conditions were met.
+However, the conditions themselves are not interchangeable. A matching threshold
+cannot determine a statutory entitlement. A fire-arrival estimate cannot establish
+an individual's mobility. A balanced funding allocation cannot establish learning.
 
-| Portable question | What must remain specific to its setting |
-|---|---|
-| What is the selected boundary, and who is affected outside it? | Applicable duties, legitimate standing, operational scope and who may represent whom |
-| What supports this account? | The legal, scientific, operational or experiential standards appropriate to the claim |
-| Who controls the connection to an effect? | Actual permission, competence, equipment, budgets, contracts and jurisdiction |
-| Which opportunity is closing? | The defined physical, institutional or personal change, with supported timing rather than invented urgency |
-| Who can challenge the account? | A safe and usable receiver, relevant authority and an attainable consequence of challenge |
-| What did the correction achieve? | Evidence of a particular changed condition, distinct from receipt, intention or administrative completion |
+## Failure classification
 
-These questions cannot determine on their own which interests should prevail.
-Nor does their recurrence prove an empirical law linking the three domains.
-Sometimes the best result is an explicit handover: this issue now needs a
-lawyer, a fire professional, an employment provider or the person directly
-affected, rather than more framework language.
+Three failure classes should be distinguished.
 
-## Three corrections, three different standards
+**Specification failure:** the selected rule or objective omits a material
+condition. A perfectly implemented format check can still be insufficient for
+a substantive disclosure requirement. A plan that specifies warning issuance
+but omits transport capacity can be complete against its own specification and
+incomplete against the intended protective effect.
 
-The [Camp Fire case](02-camp-fire.md) corrects an alert-centred first reading:
-earlier notification may help, but its activation does not establish receipt,
-transport or a route that remains protective. The [employment case](03-paid-first-rung.md)
-corrects a funding-centred first reading: a training allocation does not establish that all necessary supervisory work
-is funded or available, or that the role is affordable. Both corrections ask us to
-follow a promising input through to the particular effect somebody needs.
+**Execution failure:** an adequate requirement is not realised in operation.
+Examples to investigate include a matching branch bypassing a required check,
+a warning not reaching its intended recipient, or scheduled supervisory hours
+being displaced. Whether a particular event belongs here requires evidence
+about both the requirement and its implementation.
 
-Their evidence is importantly different. The fire chapter interprets a
-retrospective scientific reconstruction and existing specialist guidance. The
-employment chapter uses a deliberately constructed employer situation against
-documented policy and funding rules. There is no observed employer outcome to
-set beside the fire's historical outcomes. The resemblance between the questions
-does not make the cases equivalent experiments or demonstrate that the framework
-improved either situation.
+**Model failure:** the account used to assess adequacy misrepresents the system.
+Examples include treating available road capacity as independent of simultaneous
+demand, assuming that all supervisory hours qualify for training funding, or
+using a retrospective outcome category as a prospective causal estimate.
 
-Both also point towards maintained capability. A refuge arrangement needs
-competent assessment, access, resources and onward movement; a paid learning
-arrangement needs suitable work, supervision and a sustainable budget. These
-are different kinds of maintenance with different owners. The useful common
-question is who will keep the arrangement workable after its announcement.
-An answer belongs in the existing specialist process where that process already
-does the job; neither case earns a new administrative layer merely by naming it.
+These classes can coexist. Correcting one does not demonstrate correction of
+the others. Their practical value is to identify the evidence and authority
+needed for the next decision, rather than to assign a general failure label.
 
-The [taxpayer-confidentiality case](01-institutional-trust.md) adds a different
-correction: the legal status of an agreement is distinct from how its procedure
-operates. Requested records are not disclosed records; a check being performed
-is not evidence that it can detect the relevant defect. Its September-bounded
-account also distinguishes prevention of a disclosure from restrictions on
-later use. One event can close one opportunity while leaving another open.
+## Causal identification
 
-This legal account complicates any simple instruction to remove barriers or
-stop transmission. Confidentiality and a duty to answer a compliant request
-can coexist. The question is what the authorised channel actually permits and
-whether the procedure respects those conditions. That cannot be inferred from
-the direction in which information moves or from the number of people involved.
+The disclosure record supports analysis of documented processing and legal
+findings. It does not identify a population-level effect on filing behaviour.
+Declarations from affected organisations are relevant observations, but they
+cannot alone estimate the counterfactual number of returns that would otherwise
+have been filed.
 
-| Case | Initial inference corrected | What remains open |
-|---|---|---|
-| Taxpayer confidentiality | A lawful-looking agreement establishes lawful operation; requested equals disclosed | Final legal merits, later use and population-level effects on filing |
-| Camp Fire | An activated warning establishes a usable protective journey | Site-specific alternatives and prospective effects in another community |
-| Paid first rung | Training support establishes a supported, affordable role | Actual employer capacity, entrant experience and learning outcomes |
+The fire research supports retrospective reconstruction and differentiated
+outcome classification. It does not provide a randomly or otherwise comparably
+assigned contrast between refuge policies. People who entered refuge areas were
+selected by exposure, route conditions, responder decisions and mobility. An
+unadjusted comparison with people who evacuated would combine those differences
+with the effect under investigation.
 
-These are places to carry a question onward, not three failures of the project.
-The portable structure helps keep different claims in view while the evidence
-and legitimate decisions remain with their settings.
+The employment study has no observed outcome to explain. Its calculations are
+feasibility conditions. They can identify an inconsistent proposal; satisfying
+them cannot establish that an actual arrangement will succeed.
 
-## Treat barriers as things to understand
+Consequently, the studies do not support an aggregate estimate of the effect of
+using Mechanical Ethics. Such an estimate would require a specified intervention,
+comparison condition, outcome definition and observation protocol. This does
+not prevent structural analysis; it limits what follows from it.
 
-A boundary can preserve a future. Confidentiality can make an evidential
-relationship possible. A restricted operating area can make practice safer.
-A budget limit can prevent an employer making a promise it cannot sustain.
-But the existence of a protective story does not prove that a particular barrier
-is justified or proportionate. An inaccessible challenge process, a needless
-access rule or a decision made for an institution's convenience may close a
-worthwhile possibility.
+## Correction and verification
 
-The useful task is to identify the mechanism and authority of the barrier,
-who benefits, who bears its cost and how it can be challenged. Automatically
-removing a “blocker” is no more reliable than automatically defending it.
+A corrective action requires an owner able to change the relevant condition,
+an observable completion criterion and a means of detecting residual failure.
+The owner of a diagnosis need not own the remedy. A technical team may expose a
+branch defect while courts determine legal restrictions; researchers may expose
+a refuge-planning problem while local authorities control implementation; an
+employer may expose a recurring funding constraint while the rule owner controls
+policy revision.
 
-## The account can change the conditions it observes
+Verification should examine the claimed effect. A revised procedure is not
+evidence that previously released data were recovered. A designated site is not
+evidence that it remains accessible during a fire. A funded training plan is not
+evidence that productive supervision is available. These are distinct empirical
+questions with different observation requirements.
 
-People may respond to what a system records and what it will do with that
-record. They may become more willing to disclose, more careful, more guarded
-or less able to participate. These are possible feedback mechanisms, not
-measured effects established by this comparison. The direction and scale
-need case-specific evidence.
+## Contribution and limits
 
-This matters to our own supplement. Introducing a polished framework before
-asking how someone normally handles a problem can influence the answer we
-then count as independent support. Repeating an institution's account can
-make its own judgement appear corroborated. A later reader should be able
-to trace those dependencies and reject an overstated conclusion.
+The main work supplies a vocabulary for retaining these distinctions across
+institutional boundaries. The case studies supply domain detail and expose
+where a compressed description would be misleading. Neither replaces the
+other. The strongest contribution demonstrated here is an inspectable analytical
+structure; improved decisions or reduced harm in practice remain unmeasured.
 
-## Protection is not the whole of a worthwhile future
-
-Some good work prevents a threatened loss. Some creates a skill, relationship,
-service or opportunity that did not previously exist. Both involve material
-arrangements and continuing care. A future is not supported merely because an
-author can describe it, and a person's ability to refuse remains important even
-when the proposal is well meant.
-
-That is why the employment case asks about genuine work and growing capability,
-not just the avoidance of a bad job. It also asks who keeps the arrangement
-usable. In a different case the constructive question may concern a more
-dependable public service or practical safety knowledge available before the
-next crisis. Those goods need owners, resources and evidence of continuing use.
-
-No single harm total is supplied by this closing. Quantification is valuable
-where units, evidence and a comparison basis support it. A manufactured number
-would conceal disagreement about value and evidence rather than resolve it.
-
-## An honest ending can leave work open
-
-A correction may be real without restoring everything. A process can improve
-while an earlier disclosure, missed opportunity or irreversible loss remains.
-Recording that residue is not an instruction to impose endless testimony on
-the person affected. Rest, privacy, refusal and chosen closure may themselves
-preserve worthwhile possibilities. Continuing institutional duties require
-their own legitimate basis.
-
-The modest standard for a useful worked case is therefore concrete. It should
-make an important relation easier to inspect, allow another account to answer,
-and show what would have to happen for a proposed correction to become real.
-If a stronger method already does that better, learn from it and say so. If the
-case reveals a genuine missing join, take that question to someone able and
-entitled to work on it.
-
-The language has served its purpose when it helps that work become clearer,
-more answerable or more possible. Its continued use is not the goal that the
-world must accommodate.
-
-[Return to the casebook](README.md)
+[Contents](README.md)

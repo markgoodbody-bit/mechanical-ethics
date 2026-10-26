@@ -1,4 +1,4 @@
-# Case 1. A promise of confidentiality meets a request for addresses
+# Case 1. IRS–ICE information disclosure: requirements, implementation and residual exposure
 
 *Taxpayer information and immigration enforcement in the United States, April 2025 to September 2026*
 
@@ -10,13 +10,13 @@ Tax systems mostly run on people telling the truth about themselves. In the Unit
 
 In 2025 that promise met a different public duty, the enforcement of immigration law. The case is useful for Mechanical Ethics because it is a real institutional chain with a documented record at almost every step. There is a statute, an agreement, a request, a piece of software and an independent auditor. There are courts, and there are people who were affected but mostly could not speak for themselves. It lets us test what the book's questions actually find, and where they stop.
 
-## 2. The first reading
+## 2. Analytical questions
 
-A quick telling of this story, of the kind a reader might meet in a podcast or a headline, goes something like this:
-
-> *The government overrode taxpayer confidentiality. The tax authority handed immigration enforcement the records of more than a million people. Officials who resisted were protecting the law, and the courts have now ruled the sharing illegal.*
-
-This telling combines documented events with unsupported inferences and a wrong disclosure count. Correcting it changes what the problem is (section 15).
+The analysis distinguishes four questions: what information was requested; what
+conditions governed disclosure; what the implemented procedure established; and
+what restrictions or remedies followed the transfer. Request volume, matching
+success, legal sufficiency and downstream use are separate variables. The record
+supports some of these more strongly than others.
 
 ## 3. What the record shows
 
@@ -53,7 +53,7 @@ All dates below come from the sources listed at the end. Where two sources disag
 
 ## 4. Requested, matched, disclosed
 
-The numbers are where the first reading goes wrong first. They are different counts, and each answers a different question.
+The reported counts have different denominators and units. They must not be used interchangeably.
 
 | Count | What it measures | Source |
 |---|---|---|
@@ -240,16 +240,16 @@ Alternative E matters for the "blocker" question. On *Centro*'s reading, a gate 
 
 **What the cited courts accepted in the source record through September 2026:** the agreement is likely lawful on its face, and the procedure is likely unlawful as used. Both rulings are preliminary.
 
-## 15. Correcting the first reading
+## 15. Common claim errors
 
-| First reading | Corrected reading |
+| Claim | Qualification supported by the record |
 |---|---|
 | "Handed over the records of more than a million people" | About 1.28 million people were *requested*; 47,289 records (about 46,965 people) were *disclosed*, address only and undated. |
 | "Overrode confidentiality" | The statute contains a narrow channel for disclosure in criminal investigations, and on its face the agreement likely fits it. The requests and implementing procedure still had to satisfy the substantive conditions; performed checks did not establish that they did. |
 | "Officials who resisted were protecting the law" | TIGTA reports that officials had legal concerns, citing news media. Correction involved the courts and the Inspector General, with the agency reviewing and admitting errors after the Inspector General raised concerns. The November 2025 court restriction preceded the February 2026 admission. A blanket refusal of compliant requests would conflict with the cited reading of the statute. |
 | "The courts ruled it illegal" | Two preliminary rulings, about two different things, pointing in what look like opposite directions. The cited decisions do not settle final merits; the First Circuit appeal was pending at the source cutoff. |
 
-The first reading frames this as confidentiality against enforcement. The corrected reading puts the failure in the gap between a check specified and a check able to find the failure.
+The record distinguishes the existence of a legal disclosure channel from satisfaction of its conditions in individual requests.
 
 ## 16. What Mechanical Ethics v1.0 already helps ask
 
@@ -280,6 +280,56 @@ The first reading frames this as confidentiality against enforcement. The correc
 - **The content of the implementing agreement, TIGTA's redacted findings and sealed filings**: not public in the sources used here.
 - **Whether the pretext inference holds**: the courts, on the merits.
 - **The immigration-enforcement cost of the hold**: ICE and DHS; it was not measured in these sources.
+
+## 18. Process model and diagnostic implications
+
+The following abstraction separates the operations described in the source
+record. It is an analytical model, not a reconstruction of source code or an
+additional legal test.
+
+For a request r, let F(r) denote acceptance by preprocessing, M(r) an identity
+match, L(r) satisfaction of the applicable disclosure conditions, and O(r) a
+released output. F and M describe processing results. L is a substantive
+assessment requiring the relevant legal interpretation and facts. The intended
+relationship is that release implies satisfaction of the applicable conditions:
+O(r) ⇒ L(r). Neither F(r) nor M(r), individually or jointly, establishes that
+implication without evidence connecting their tests to the conditions.
+
+The taxpayer-number branch illustrates why coverage must be assessed by branch,
+not by the presence of a check somewhere in a workflow. A test performed on one
+path does not constrain another path that reaches the same output. Conversely,
+a field can be examined during preprocessing without its substantive adequacy
+being established. The relevant diagnostic question is therefore which
+conditions each reachable output path actually enforces, not whether the system
+contains an address-related operation.
+
+A complete assessment would distinguish at least four outcomes: compliant
+requests released, deficient requests released, compliant requests withheld and
+deficient requests withheld. The published disclosure counts do not populate
+this classification. The IRS estimate of potentially deficient addresses is
+narrower than all possible grounds of deficiency. TIGTA's formatting exceptions
+identify possible missed matches, not legally eligible requests. Neither can be
+used as the overall false-acceptance or false-rejection rate.
+
+This distinction also prevents a misleading repair target. Maximising matches
+could increase deficient releases; maximising rejections could withhold requests
+that the statute requires the agency to answer. A useful validation set must
+separate identity resolution from legal eligibility and include both kinds of
+error. Where the legal classification is contested, the uncertainty belongs in
+the case label rather than being concealed as an engineering ground truth.
+
+The disclosed-record count is an output measure, not a complete exposure
+measure. The approximately 46,965-person count removes some record duplication,
+but does not measure later access, onward disclosure or use. Likewise, a court
+restriction creates an enforceable constraint; it is not an observation of every
+subsequent access. Evaluating containment would require appropriately authorised
+records of custody and use. This case does not have those records.
+
+For the main work, this is a specific instance of the difference between a check
+performed and a check capable of detecting the relevant failure. The abstraction
+adds no new legal authority. Its function is to expose where a technical claim
+requires a substantive premise and where the available record cannot establish
+that premise.
 
 ## Sources
 

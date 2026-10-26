@@ -1,4 +1,4 @@
-# 3. Making a first rung that somebody can actually stand on
+# Study 3. Supervision capacity in entry-level technical employment
 
 **Positive capability formation · England/UK policy, checked 26 October 2026.**
 
@@ -8,7 +8,7 @@ offered, funding eligibility decided, system changed or outcome measured. The
 purpose is to make a possible first job concrete enough for the people who would
 carry it to challenge it.
 
-## The world before our example
+## Policy context
 
 The UK Government's 21 October *Digital and Technologies Jobs Plan* sets an
 ambition of approximately 200,000 entry-level jobs over ten years. Its existing
@@ -27,7 +27,7 @@ pilots. These are existing institutional routes to investigate, not discoveries 
 casebook. [C3] The question left for our constructed firm is narrower: **can it
 support one real paid beginning without making somebody else silently finance it?**
 
-## A small firm, a bounded task
+## System definition and assumed task
 
 Suppose a small IT-services firm is considering a paid beginner role. It has a
 qualified supervisor and a non-production test environment, but limited spare
@@ -50,7 +50,7 @@ and approach a different task next time. They might enjoy the work and develop
 relationships. None of those goods follows merely from attendance or from
 producing a polished AI answer.
 
-## Choose a boundary that includes the work of helping
+## System boundary and resource incidence
 
 If the boundary contains only the beginner's output, the project looks cheap:
 one workstation, one task, one completed test. Expand it just enough to include
@@ -72,10 +72,10 @@ that does not make it the judge of a worker's learning. A beginner's account is
 necessary evidence about their experience; it does not give them the firm's
 entire staffing budget. The point is to keep the different decisions visible.
 
-## A correction to the easy answer
+## Training funding and employer supervision costs
 
-The first reading was: **provide training money and a feedback form, and a first
-rung becomes feasible.** The funding rules make that too easy.
+Training funding is one input to feasibility. It does not establish the availability
+of productive supervision or the affordability of the employment arrangement.
 
 For English apprenticeships, the 2026–27 rules require appropriate employer
 support and supervision (66.1). They distinguish eligible, standard-linked
@@ -85,7 +85,7 @@ line-management support that cannot be charged as apprenticeship training costs
 (100–103). The register condition in 107.6 includes stated exceptions. These
 rules concern this funding route, not every ordinary starter job. [C4]
 
-**The correction changes the proposal:** a training allocation is not evidence
+A training allocation is not evidence
 that all the employer's supervisory work is paid for. Before offering the role,
 the budget owner must identify which hours the ordinary route already covers,
 which hours remain an employer cost, and which existing commitments will move.
@@ -100,7 +100,7 @@ an existing work/training review where suitable, rather than requiring a new ME
 form. That is an editorial correction from source and criticism, not a successful
 field intervention. [C5]
 
-## Follow the joins, not just the documents
+## Necessary operational transitions
 
 A route to a useful first task would require the following connections to work:
 
@@ -124,7 +124,7 @@ the access boundary to make the role look more “real” may destroy the condit
 under which it was responsible to offer it. Equally, a sandbox filled with busywork
 can be safe and still fail to supply useful learning or paid productive purpose.
 
-## Several clocks run at once
+## Timing constraints
 
 The firm has a budget decision. The entrant has a possible start date and other
 commitments. The supervisor has current deadlines and limits on attention.
@@ -142,7 +142,7 @@ loss hardens. But no durations have been measured here, and missing a proposed
 start date is not evidence of permanently lost employability. The case supplies
 neither a numerical timing margin nor a universal instruction to pause hiring.
 
-## Compare alternatives without hiding the bills
+## Alternative designs and cost allocation
 
 | Alternative | A plausible gain in this constructed setting | What must still be shown |
 |---|---|---|
@@ -163,7 +163,7 @@ record those quantities separately; it should not turn an entrant's dignity or
 a mentor's fatigue into invented units. A supported positive prospect is not
 merely the negative of a quantified harm score.
 
-## What would count as a witness?
+## Observation and verification
 
 In a real voluntary test, first ask the practitioner how they normally decide
 whether such a role is feasible. Record that answer before introducing our
@@ -183,7 +183,7 @@ with the institution's dashboard. Independence includes who could observe the
 failure, who controls the record and what it costs to disagree. Necessary
 evidence should not become a pretext for collecting a worker's private life.
 
-## Correction needs an owner and a practicable effect
+## Correction authority and implementation
 
 In this proposed arrangement the employer's authorised budget owner would own
 pay and resourcing. A competent supervisor would own task boundaries and review.
@@ -209,7 +209,7 @@ References, an agreed work sample, a different training route or another
 employer may support a new prospect where the person wants one. Those are
 possibilities to establish, not promises this casebook can make.
 
-## The strongest counter-reading
+## Alternative interpretation
 
 An experienced provider could say: “We already do this; your additional language
 takes time from supervision.” They might be right. The case is also biased
@@ -241,6 +241,59 @@ to stronger professional practice. No independent human field encounter is
 claimed. What has changed in the reading is narrower and concrete: we no longer
 mistake training funding or another review form for the material capacity to
 support a first paid step.
+
+## Capacity model and feasibility conditions
+
+This design study can be made more specific without inventing employer data.
+Define a planning interval and let H be the supervisor's available paid hours,
+E existing committed work, P task preparation, I instruction, R review, and U
+unplanned assistance or rework. A necessary capacity condition is
+E + P + I + R + U ≤ H. All terms must use the same interval and avoid counting
+the same activity twice. No values are supplied because no employer was observed.
+
+An allocation that satisfies the condition only after assuming U = 0 is sensitive
+to interruptions and novice error. An allocation based on average U can still
+fail during concentrated demand. Adequacy therefore depends on both total hours
+and their availability when assistance is needed. A nominal hour on Friday does
+not resolve a blocked or unsafe task on Tuesday. The relevant design includes
+a fallback owner and a bounded task that can pause without transferring risk to
+customers or pressuring the entrant to proceed unsupported.
+
+Funding and capacity are separate constraints. Let C_w be wages and employment
+costs, C_s supervision costs, C_t eligible training costs, C_o other operating
+costs, and F the funding actually confirmed for the arrangement. A cash assessment
+must allocate F only to permitted cost categories and identify who covers the
+remainder. An unconfirmed allocation is not a reduction in required cash. The
+source rules distinguish eligible training from wages and generic management;
+this expression does not decide eligibility for any individual activity.
+
+Opportunity cost must also be retained. A supervisor can remain within paid
+hours while displacing existing work. That can reduce service capacity or move
+work to another employee. The financial ledger and the hours ledger therefore
+answer different questions. Both are needed before interpreting a role as
+supported rather than merely affordable on a narrow training budget.
+
+Output quality is not a sufficient learning measure. A correct diagnosis may
+have been supplied by AI or repaired by a supervisor. Evidence of increasing
+capability would require performance on a different but relevant task, an account
+of the assistance used, and observation over time. A single successful ticket
+cannot separate independent capability from external support. Conversely,
+requesting help is not itself failure; appropriate escalation is part of the
+specified task.
+
+The proposed arrangement has at least three independent acceptance questions:
+can the employer sustain its obligations; can the entrant use the arrangement
+and refuse inappropriate work; and does the work develop relevant capability?
+Failure of one is not repaired by success in another. A useful pilot would record
+planned and actual supervisory demand, displaced work, completion and rework,
+assistance, and the entrant's account. It would also specify who can reduce scope
+or stop the arrangement while preserving employment obligations. No such pilot
+has been conducted here.
+
+The resulting contribution is a constraint analysis, not evidence that this
+employment design works. It identifies quantities whose absence prevents a
+credible feasibility claim and prevents training funding from being used as a
+proxy for the whole operating system.
 
 ## Primary sources and correction record
 

@@ -1,4 +1,4 @@
-# When the road is no longer a way out
+# Case 2. Camp Fire evacuation and temporary refuge
 
 ## The Camp Fire: protection between warning, movement and refuge
 
@@ -20,7 +20,7 @@ This case's chosen boundary runs from noticing danger through protective movemen
 
 The affected scope includes people who received messages, people who did not, people unable to move without assistance, responders exposed while helping them, and people elsewhere competing for finite transport or response capacity. A person absent from the available observations has not thereby been shown to have had a usable exit. This is an analytical boundary choice, open to challenge; it is not a new estimate of any group's historical exposure.
 
-## A correction that changes the reading
+## Outcome definitions and inconsistent summary claims
 
 A tempting first account is: **the warnings came too late, so earlier warnings would have solved the evacuation**. That compresses several different failures into one. NIST's ESCAPE explanation separates the activation of a notification process from preparation and transport. It expressly warns that the start of dissemination is not the time at which the population has been informed. [3]
 
@@ -67,7 +67,7 @@ There are also coupled costs. Holding traffic away from a dangerous route can ex
 
 This separates causal explanation from blame. A vehicle can contribute to a queue without its driver having authority to redesign evacuation arrangements. A researcher can identify a defect without possessing operational command. Assessing culpability requires the applicable duties, knowledge and conduct; ME's descriptive categories do not confer them. [ME]
 
-## Refuge is a bridge, not a destination
+## Temporary refuge: function and operating limits
 
 The 2026 paper distinguishes immediate refuge from traffic-risk management and describes active supervision and later movement between or out of refuge locations. It also warns about inadequate separation from fire, dependence on responders and smoke exposure. Its proposed pre-identified Temporary Fire Refuge Areas are not guaranteed safe places; the paper reports no TFRA design standard at the time of publication. [5]
 
@@ -77,9 +77,9 @@ The constructive implication is a maintained protective arrangement, not merely 
 
 Maintenance matters because a previous assessment can cease to describe the present place. Ownership, vegetation, access, surrounding development or available resources can change. A sign may outlast the conditions that justified it. The proposal therefore includes an accountable review and correction route, not an assumption that installing a label creates a durable capability.
 
-## Two defensible answers about naming refuges in advance
+## Competing planning hypotheses
 
-A planner reading this case can reach two different conclusions, and each protects something real.
+Pre-designation has two competing risk implications. Both require site-specific assessment.
 
 **Name suitable refuge areas before the next fire.** On this reading, the Camp Fire shows both what improvisation under fire costs and what it achieved. Responders quickly directed people to open spaces with lower fire intensity. The 2026 paper reports that this ad hoc use of 31 refuge areas saved at least 261 civilian lives and reduced the risk to at least 961 others, a retrospective classification as noted above. Its stated implications are that communities should include temporary fire refuge areas in their fire response plans, and NIST's 2025 update emphasises pre-designating them. Waiting for a complete standard would leave the next no-notice fire to improvisation again. [4, 5]
 
@@ -87,13 +87,13 @@ A planner reading this case can reach two different conclusions, and each protec
 
 Both readings accept the same historical record. They differ on which risk a community should carry now: improvising again, or endorsing a place that has not been shown to work for the people expected to use it. This case does not settle that for any real community, and neither does Mechanical Ethics. It is a decision for the local emergency-management and fire authorities in the table below, with the people who would have to use the site.
 
-**Before reading on, choose which risk you would carry, and name the one piece of evidence that would most change your mind.** For example:
+The following evidence would distinguish the planning hypotheses:
 
 - an assessment of a specific site against the conditions it would face;
 - evidence on whether naming a site in advance changes when people leave, which the sources used here do not measure;
 - an owner with the resources to keep the site usable.
 
-If your choice depends on evidence this case lacks, that dependency is the finding.
+These dependencies are unresolved in the available source set.
 
 ## Compare courses without manufacturing a harm score
 
@@ -110,7 +110,7 @@ These are prospective comparison questions, not four tested treatment groups. Th
 
 In particular, do not take 85 deaths and subtract a refuge headcount to create a number of preventable deaths. Those numbers describe different things. An adequate quantitative assessment would require specialist scenario modelling, explicit assumptions and uncertainty, plus a legitimate decision about the values being compared.
 
-## Who could carry the knowledge into action?
+## Implementation responsibilities
 
 The following is a **proposed allocation to be confirmed locally**, not a claim that these offices already accepted a task or that this chapter establishes their legal duties.
 
@@ -143,6 +143,57 @@ That objection is substantial. ME earns no efficacy claim from this case. The mo
 An actual comparative use test could still find **EXISTING_METHOD_BETTER** or **NO_USE**. For example, if an authorised planner's ordinary ESCAPE process already exposes the relevant constraints more clearly, this restatement adds no practical value. No planner or resident has applied this case in the present work, and no such test result is claimed.
 
 The earned result is a source-bounded worked account with corrected claims. Whether this account improves a real decision remains an external question.
+
+## Protective-route model and limits of identification
+
+A protective journey can be represented as a sequence of conditional transitions:
+warning reception, interpretation, preparation, mobilisation, movement and
+arrival at a location that remains tenable. This is an analytical decomposition,
+not a fitted evacuation model. Failures can occur at several transitions and
+share causes. Loss of power, for example, may affect both communications and
+other activities; the factors should not be treated as independent probabilities.
+
+For a specified person or group, define t_a as warning receipt, τ_p as the time
+from receipt to departure, and τ_m as travel time under the actual route and
+traffic conditions. Then t_arrive = t_a + τ_p + τ_m. If t_u denotes the time at
+which the selected route or destination becomes untenable for that group, a
+necessary condition for that journey is t_arrive < t_u. It is not sufficient:
+access, assistance, destination capacity and exposure during travel must also be
+assessed. The relevant t_u is neither uniform across a community nor a known
+constant in the present evidence.
+
+Earlier receipt improves this inequality only if the other terms do not offset
+it. Travel time depends on departure demand, network capacity, incidents and
+route changes. Simultaneous earlier departures can alter queues. A person unable
+to obtain transport may have a large or effectively unbounded mobilisation time.
+Consequently, the effect of an earlier alert cannot be estimated by shifting the
+historical warning timestamp while holding all later behaviour fixed without
+justification.
+
+Refuge changes the route and the exposure profile; it does not remove the timing
+problem. An assessment must include entry conditions, tenability during occupancy
+and an onward movement or rescue path. A site could reduce immediate flame
+exposure while retaining smoke exposure or dependence on responders. Those are
+different outcomes and may have different responsible operators.
+
+The retrospective categories reported by NIST do not estimate the prospective
+effect of publishing a refuge map. That intervention can change departure,
+destination choice and expectations before an incident. Its effect would require
+evidence about those behavioural responses, site assessment, maintenance and
+incident conditions. The Marin appendix establishes published planning products
+and some programme ownership; it does not supply these outcome measurements.
+
+An engineering assessment would therefore need linked, time-resolved evidence:
+warning receipt rather than activation alone; departure and assistance requests;
+route states and traffic; hazard conditions; refuge occupancy and duration; and
+subsequent movement and outcomes. Incomplete or inconsistent timestamps would
+need explicit uncertainty bounds. These are requirements for further specialist
+analysis, not data claimed to have been collected for this supplement.
+
+The main work's clock distinction is useful here because a single event can
+close one route while leaving another temporarily available. Determining those
+windows requires fire, transport and human-factors methods. The vocabulary alone
+cannot establish a safe site, departure threshold or operating plan.
 
 ## Sources and exact reading boundaries
 
