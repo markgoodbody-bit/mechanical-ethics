@@ -17,6 +17,7 @@ worthwhile possibilities people can build together.
   for offline reading: 50 pages, with selectable text.
 - [Continue with the companion case studies](../../casebook/README.md):
   two historical cases and one constructed employment design study.
+- [Download the companion casebook PDF](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf) (60 pages).
 - [Inspect the three companion SVG figures](figures/).
 - [Check source identity and publication scope](PROVENANCE.md).
 
@@ -72,6 +73,8 @@ credentials and confidential documents. You need not disclose a personal story
 to challenge the argument. This is not an urgent-help or monitored complaints channel.
 
 ## Further reading: the casebook
+
+**[Download the casebook PDF — 60 pages](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf)** · [PDF edition and build notes](../../casebook/pdf/README.md)
 
 After the book, [read the companion casebook](../../casebook/README.md) or
 [download its offline HTML reader](../../casebook/reader/README.md).
