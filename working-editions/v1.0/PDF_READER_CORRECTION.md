@@ -2,7 +2,7 @@
 
 26 October 2026. Mark requested removal of obsolete prerelease labels from the current PDF.
 
-Current reader: `Mechanical_Ethics_v1.0.0.pdf`, 50 pages, 238040 bytes; SHA-256 `83176f9273fb6e7403bdeabe959a906f2683c18948cde7bff7232a96377f292f`.
+Current reader: `Mechanical_Ethics_v1.0.0.pdf`, 50 pages, 238455 bytes; SHA-256 `2e16057ab93bde13cd69359e5ce2d62ea0277e4bc7e75b3e5522a10dca7408a0`.
 
 The cover, all repeated developmental labels, PDF metadata and publication-status passages on pages 2, 48 and 49 now reflect the authorised release. AI-assisted authorship, provenance, evidential limitations and rights boundaries remain explicit. Historical draft references are retained as history.
 
@@ -15,3 +15,7 @@ The initial layout-fit checks rejected undersized replacement rectangles before 
 ## Separate warning page
 
 At Mark's further request, the complete104-word safety warning was moved from the end of page3 and continuation on page4 to page4 alone, headed Safety note. Text matched exactly after whitespace normalisation. Contents entry/link and PDF bookmark added. Page count remains50; no chapter page numbers changed. The reading-area equivalence checks above describe the initial label-only correction; pages3–4 now intentionally differ only for this warning relocation. Final warning page and contents visually inspected.
+
+## Approved safety-note wording
+
+Mark approved revised wording headed A note about your safety. The dedicated page now starts from constrained circumstances, explains information/retaliation risks, preserves refusal and privacy, and distinguishes analytical help from practical protection. This is an explicitly approved wording change, not merely a layout correction. The earlier104-word warning is preserved in Git history and the frozen release. All49other pages retain identical extracted text;50pages total. Final page visually inspected and extracted wording checked against the approved draft (typographic apostrophe normalised). No efficacy claim.
