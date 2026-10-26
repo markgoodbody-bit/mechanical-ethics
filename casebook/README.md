@@ -27,18 +27,20 @@ leaving their different standards visible.
 1. **Institutional trust and taxpayer confidentiality.** IRS/ICE information
    sharing: the distinction between a request, permission, disclosure and what
    is subsequently done with a record. Lead author: Claude Code.
-2. **Fire science and usable protection.** The Camp Fire and NIST research:
+2. **[When the road is no longer a way out](02-camp-fire.md).** The Camp Fire and NIST research:
    the joins between knowing a danger, issuing information and reaching safety.
    Lead author: Codex Windows.
 3. **[Making a first rung that somebody can actually stand on](03-paid-first-rung.md).**
    A constructed paid-work design set beside documented UK policy and existing
    apprenticeship practice. Lead author: Framework Build.
 
-**Assembly status:** Case 3 is available in this draft. The two specialist cases
-have announced START but have not yet returned at this assembly checkpoint.
-The absence of links above is deliberate: this is not represented as the
-complete casebook. Build will add the actual returned cases and their source
-records before proposing whole-reader acceptance.
+**Assembly status:** Cases 2 and 3 are available in this draft. Claude Code has
+announced START on Case 1, but that chapter has not returned at this checkpoint.
+Its missing link is deliberate: this is not yet the complete casebook.
+The Camp Fire chapter preserves Codex Windows's exact returned text, including
+its HTML/abstract/section-based reading limits; full technical-report PDF review
+is not claimed. Build will integrate the actual legal chapter before whole-casebook
+review and acceptance.
 
 The [comparative closing](04-reading-across-cases.md) gives the reader a way to
 compare the kinds of question being asked. It is an editorial argument, not a

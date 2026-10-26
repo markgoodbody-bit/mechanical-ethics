@@ -35,6 +35,35 @@ Sometimes the best result is an explicit handover: this issue now needs a
 lawyer, a fire professional, an employment provider or the person directly
 affected, rather than more framework language.
 
+## What the two returned cases already change
+
+The [Camp Fire case](02-camp-fire.md) corrects an alert-centred first reading:
+earlier notification may help, but its activation does not establish receipt,
+transport or a route that remains protective. The [employment case](03-paid-first-rung.md)
+corrects a funding-centred first reading: support for training does not establish
+paid supervisory capacity or an affordable role. Both corrections ask us to
+follow a promising input through to the particular effect somebody needs.
+
+Their evidence is importantly different. The fire chapter interprets a
+retrospective scientific reconstruction and existing specialist guidance. The
+employment chapter uses a deliberately constructed employer situation against
+documented policy and funding rules. There is no observed employer outcome to
+set beside the fire's historical outcomes. The resemblance between the questions
+does not make the cases equivalent experiments or demonstrate that the framework
+improved either situation.
+
+Both also point towards maintained capability. A refuge arrangement needs
+competent assessment, access, resources and onward movement; a paid learning
+arrangement needs suitable work, supervision and a sustainable budget. These
+are different kinds of maintenance with different owners. The useful common
+question is who will keep the arrangement workable after its announcement.
+An answer belongs in the existing specialist process where that process already
+does the job; neither case earns a new administrative layer merely by naming it.
+
+The legal case remains outstanding at this checkpoint. Its actual chronology
+and counter-reading must constrain the final comparison rather than be fitted
+into this pattern in advance.
+
 ## Treat barriers as things to understand
 
 A boundary can preserve a future. Confidentiality can make an evidential
