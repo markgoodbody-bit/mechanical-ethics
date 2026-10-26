@@ -1,0 +1,61 @@
+{
+  "source_commit": "3638405dfccb9ccc8c30f58ed840419eeff457dd",
+  "files": {
+    "README.md": {
+      "bytes": 6171,
+      "sha256": "531cf9b673d9e3e52fd655e028601903d1a26821d834731f726794268ff5343c"
+    },
+    "00-start-where-you-are.md": {
+      "bytes": 4425,
+      "sha256": "78f77dc9fa7b024af8666d0ec66df55ce3563e0a3b8136ac83db60a90be38441"
+    },
+    "05-try-another-account.md": {
+      "bytes": 3721,
+      "sha256": "dc86580cb47534f3dfb700c9c551bfe7982eda6793c4476240ebe394356cef10"
+    },
+    "01-institutional-trust.md": {
+      "bytes": 36586,
+      "sha256": "6ea7617f79bb1057138bf6c02e501de706e4decd4bc5bd9bdc4821125ef3aebb"
+    },
+    "02-camp-fire.md": {
+      "bytes": 21449,
+      "sha256": "ca20a769e71b04283438aa7d0cd52213a25ea466437fee976f7c49768775f96d"
+    },
+    "03-paid-first-rung.md": {
+      "bytes": 16815,
+      "sha256": "a5e85011ea107e1f3398d65784c7e097fe7f770a6c5be6ef31edf2eb39a23a26"
+    },
+    "04-reading-across-cases.md": {
+      "bytes": 9134,
+      "sha256": "4c641496612bf57c4835f4d6fd4d7cfa5f98303d5b7606347d2658b111e9e3da"
+    },
+    "sources/01-institutional-trust-sources.md": {
+      "bytes": 8948,
+      "sha256": "1c5f44c6cd976e4dfc2dd8ac7dc75fee376ca769e77b97fb868deae02a3ca7b3"
+    },
+    "sources/02-camp-fire-integration.md": {
+      "bytes": 2032,
+      "sha256": "6248bfd3af440615b497deb2721a790f8d5e0ba106d041800a3e6e2ebc486cc4"
+    },
+    "sources/02-refuge-implementation-trail.md": {
+      "bytes": 11161,
+      "sha256": "99169c489129ff4fed5240137db7c5e6e206bbaab158497d5f2c31feb15bd44e"
+    },
+    "sources/03-paid-first-rung-sources.md": {
+      "bytes": 2902,
+      "sha256": "addd61bf055fde8bafbd5ac628be4c2ce7b710e888298d6042bd1efce3b54255"
+    },
+    "sources/DESIGN-COMPARATOR.md": {
+      "bytes": 2420,
+      "sha256": "ecf0ffa78fa087e89c7190c54be6cf62eb69f8ea91823c57628684549956bc3d"
+    },
+    "sources/INTERIM-EDITORIAL-REVIEW.md": {
+      "bytes": 1501,
+      "sha256": "dd8cc50cf552eb0401ca40e8bdf4c8f7ccb6e672fac710ec8a5fd97585bab462"
+    },
+    "sources/WHOLE-CASEBOOK-REVIEW.md": {
+      "bytes": 6104,
+      "sha256": "037caab87e5ff71ea59622fdda4f9421618c626334007575ed286e2e49395235"
+    }
+  }
+}
