@@ -15,6 +15,8 @@ worthwhile possibilities people can build together.
   in your browser: fourteen chapters, an opening note, glossary and source notes.
 - [Download the illustrated A4 PDF](Mechanical_Ethics_v1.0.0.pdf)
   for offline reading: 50 pages, with selectable text.
+- [Continue with the companion case studies](../../casebook/README.md):
+  two historical cases and one constructed employment design study.
 - [Inspect the three companion SVG figures](figures/).
 - [Check source identity and publication scope](PROVENANCE.md).
 
@@ -22,7 +24,7 @@ The opening note and first chapters introduce the language through a child,
 a glass and a plant. Later chapters follow institutional correction, losses
 that repair does not restore, shared capability and distributed responsibility.
 The Notes explain sources, authorship and limitations. The current PDF retains the CORR2 chapter text and figures, with publication-status
-labels corrected. PDF and Markdown are not independent confirmations of the claims. If downloading the Markdown, keep its `figures/` directory beside it.
+labels corrected, a revised safety note on page 3, and subtle definition highlighting. PDF and Markdown are not independent confirmations of the claims. If downloading the Markdown, keep its `figures/` directory beside it.
 
 ## What this edition means
 
@@ -34,8 +36,7 @@ and promoted on 26 October without rewriting any of those original files.
 The current PDF removes obsolete prerelease labels from its cover, running
 headers and footers, metadata and publication notes. The original manuscript
 and [original release PDF](Mechanical_Ethics_The_Moving_Ground_DEV4R_CORR2_Vector_A4.pdf)
-retain their historical bytes. This is a reader-copy correction, not a new
-substantive edition. [Correction record](PDF_READER_CORRECTION.md).
+retain their historical bytes. The current reader also includes Mark's approved safety-note revision and definition-paragraph styling; it is distinct from the frozen release asset. [Correction record](PDF_READER_CORRECTION.md).
 Release does not establish scientific validation, accessibility, artistic perfection
 or endorsement by anyone outside the project. AI-assisted authorship and
 original developmental provenance remain visible. The formal version/tag is
@@ -69,6 +70,20 @@ request consideration, not a promise of response time or acceptance.
 Issues are public: please omit private testimony, identifying case details,
 credentials and confidential documents. You need not disclose a personal story
 to challenge the argument. This is not an urgent-help or monitored complaints channel.
+
+## Further reading: the casebook
+
+After the book, [read the companion casebook](../../casebook/README.md) or
+[download its offline HTML reader](../../casebook/reader/README.md).
+The IRS–ICE and Camp Fire studies examine historical records; the employment
+study is constructed. Source cutoffs, unresolved questions and access limitations
+are stated in the studies. They do not establish professional validation or
+field effectiveness.
+
+This is separate, maintained navigation material. The original released book
+did not contain this casebook reference, and its manuscript, release PDF and tag
+have not been rewritten to add it. The casebook has its own source and editorial
+history; no additional reuse or training permission is granted by these links.
 
 ## Rights
 
