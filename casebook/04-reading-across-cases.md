@@ -1,8 +1,7 @@
 # Reading across the cases without flattening them
 
-**Draft editorial closing by Framework Build.** This comparison concerns the
-questions and distinctions used in the supplement. Final case-specific findings
-must remain grounded in the actual completed chapters and their sources.
+**Editorial closing by Framework Build.** This comparison follows the three
+completed chapters, with their different evidence and reading limits intact.
 
 ## A permission, a protective route and a first opportunity
 
@@ -35,7 +34,7 @@ Sometimes the best result is an explicit handover: this issue now needs a
 lawyer, a fire professional, an employment provider or the person directly
 affected, rather than more framework language.
 
-## What the two returned cases already change
+## Three corrections, three different standards
 
 The [Camp Fire case](02-camp-fire.md) corrects an alert-centred first reading:
 earlier notification may help, but its activation does not establish receipt,
@@ -60,9 +59,28 @@ question is who will keep the arrangement workable after its announcement.
 An answer belongs in the existing specialist process where that process already
 does the job; neither case earns a new administrative layer merely by naming it.
 
-The legal case remains outstanding at this checkpoint. Its actual chronology
-and counter-reading must constrain the final comparison rather than be fitted
-into this pattern in advance.
+The [taxpayer-confidentiality case](01-institutional-trust.md) adds a different
+correction: the legal status of an agreement is distinct from how its procedure
+operates. Requested records are not disclosed records; a check being performed
+is not evidence that it can detect the relevant defect. Its September-bounded
+account also distinguishes prevention of a disclosure from restrictions on
+later use. One event can close one opportunity while leaving another open.
+
+This legal account complicates any simple instruction to remove barriers or
+stop transmission. Confidentiality and a duty to answer a compliant request
+can coexist. The question is what the authorised channel actually permits and
+whether the procedure respects those conditions. That cannot be inferred from
+the direction in which information moves or from the number of people involved.
+
+| Case | Initial inference corrected | What remains open |
+|---|---|---|
+| Taxpayer confidentiality | A lawful-looking agreement establishes lawful operation; requested equals disclosed | Final legal merits, later use and population-level effects on filing |
+| Camp Fire | An activated warning establishes a usable protective journey | Site-specific alternatives and prospective effects in another community |
+| Paid first rung | Training support establishes a supported, affordable role | Actual employer capacity, entrant experience and learning outcomes |
+
+These are places to carry a question onward, not three failures of the project.
+The portable structure helps keep different claims in view while the evidence
+and legitimate decisions remain with their settings.
 
 ## Treat barriers as things to understand
 

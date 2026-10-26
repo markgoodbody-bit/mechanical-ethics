@@ -28,7 +28,7 @@ New to this way of reasoning? Begin with **[Start where you are](00-start-where-
 one ordinary possibility, one missing fact, and a revised next step. It needs no
 prior terminology. The longer cases below supply depth and source evidence.
 
-1. **Institutional trust and taxpayer confidentiality.** IRS/ICE information
+1. **[A promise of confidentiality meets a request for addresses](01-institutional-trust.md).** IRS/ICE information
    sharing: the distinction between a request, permission, disclosure and what
    is subsequently done with a record. Lead author: Claude Code.
 2. **[When the road is no longer a way out](02-camp-fire.md).** The Camp Fire and NIST research:
@@ -38,17 +38,18 @@ prior terminology. The longer cases below supply depth and source evidence.
    A constructed paid-work design set beside documented UK policy and existing
    apprenticeship practice. Lead author: Framework Build.
 
-**Assembly status:** Cases 2 and 3 are available in this draft. Claude Code has
-announced START on Case 1, but that chapter has not returned at this checkpoint.
-Its missing link is deliberate: this is not yet the complete casebook.
+**Assembly status:** All three chapters are assembled for editorial review.
+The legal case describes a source record ending on 17 September 2026; it is
+not a current-docket report. Its partial-document reading limits remain explicit.
 The Camp Fire chapter preserves Codex Windows's exact returned text, including
 its HTML/abstract/section-based reading limits; full technical-report PDF review
-is not claimed. Build will integrate the actual legal chapter before whole-casebook
-review and acceptance.
+is not claimed. The employment situation is constructed, with documented policy
+as its context, rather than an observed intervention.
 
-The [comparative closing](04-reading-across-cases.md) gives the reader a way to
-compare the kinds of question being asked. It is an editorial argument, not a
-verdict on specialist cases that have not yet been integrated.
+The [comparative closing](04-reading-across-cases.md) draws the three cases
+together while preserving those different standards. [Editorial source notes](sources/WHOLE-CASEBOOK-REVIEW.md)
+record the review and changes. This assembled supplement remains separate from
+the formal release.
 
 ## Keep three kinds of statement apart
 
