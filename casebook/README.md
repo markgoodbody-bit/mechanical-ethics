@@ -1,6 +1,6 @@
 # Mechanical Ethics: three worked cases
 
-**Draft supplementary casebook · 26 October 2026. Separate from the frozen
+**v0.1 working supplement · 26 October 2026. Separate from the frozen
 [Mechanical Ethics v1.0.0 release](https://github.com/markgoodbody-bit/mechanical-ethics/releases/tag/v1.0.0).**
 
 ## Why work through a case?
@@ -27,6 +27,10 @@ leaving their different standards visible.
 New to this way of reasoning? Begin with **[Start where you are](00-start-where-you-are.md)**:
 one ordinary possibility, one missing fact, and a revised next step. It needs no
 prior terminology. The longer cases below supply depth and source evidence.
+
+For a more active reading, [try another account](05-try-another-account.md)
+before each chapter: make an initial judgement, change an assumption, and see
+whether the case gives you reason to revise it.
 
 1. **[A promise of confidentiality meets a request for addresses](01-institutional-trust.md).** IRS/ICE information
    sharing: the distinction between a request, permission, disclosure and what
