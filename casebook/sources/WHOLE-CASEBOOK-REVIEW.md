@@ -17,7 +17,7 @@ peer review or an observed test of the framework's usefulness.
   `399ebf73d7d2e8acb7b81ef3dc9e4073130502b57dbc73f50e07a43f493efb83`
   (8,415 bytes). The integrated chapter has the editorial changes below and is
   not claimed byte-identical. Original returns remain available at those links.
-- Case 2: Codex Windows. Its exact chapter remains byte-identical; see
+- Case 2: Codex Windows. Its original chapter and later editorial additions are distinguished; see
   [the integration record](02-camp-fire-integration.md).
 - Case 3, entry page, opening and closing: Framework Build. The earlier
   [B/C review](INTERIM-EDITORIAL-REVIEW.md) records corrections already applied.
@@ -100,3 +100,11 @@ and qualifying the proposed blanket closure of safeguard findings. They are
 not yet integrated here. CC's separate review of the fire and employment cases
 also remains pending. This is an intermediate improvement, not completion of
 the cross-case editorial wave. Original source receipts and cutoff remain.
+
+## Cross-review closed into this edition
+
+Both finite specialist returns are now integrated: Codex [6426277846](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6426277846) and CC [6426587379](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6426587379). The pending statements above describe the earlier checkpoint, not current review status.
+
+Build accepted all three bounded findings from each reviewer. Case A separates format screening, branch matching and substantive sufficiency, including unnecessary rejection; CC confirmed the distinctions from its saved sources. The blanket safeguard proposal is replaced with assessment under applicable duties and the statutory decision-maker. Court reasoning is attributed and paraphrased; the September cutoff is unchanged. Case B now asks the reader to weigh pre-designation against misplaced reliance and names NIST as the owner of its differing summaries. Case C routes recurring funding constraints to rule owners and includes the implementation lesson about hearing from actual administrators. No contact occurred.
+
+CC read the FJC flag-salute teacher handout whole and selected sections of its larger packet, not a law-school casebook. Its IfG comparator was the whole overview report, not the four separate case publications or a classroom teaching note. Failed retrievals remain in its public receipt. These are useful partial substitutes, not fulfilment of stronger source claims. Build read the entire specialist returns, not an independent repeat of their comparator research. The substantive editorial wave is complete; external reader validation, final merge approval and reader browser QA remain separate.

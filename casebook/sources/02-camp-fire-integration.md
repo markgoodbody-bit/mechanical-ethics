@@ -5,7 +5,7 @@ commission. Framework Build read the whole returned chapter, source receipts
 and validation record before integration. This is editorial source review, not
 an independent reconstruction of the fire or a practitioner review.
 
-The integrated `02-camp-fire.md` is byte-identical to the returned chapter:
+At first integration, `02-camp-fire.md` was byte-identical to the returned chapter:
 21,449 UTF-8 bytes; SHA-256
 `ca20a769e71b04283438aa7d0cd52213a25ea466437fee976f7c49768775f96d`.
 The public handoff is [COM #877 comment 6425409312](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6425409312).
@@ -33,3 +33,7 @@ require a chapter change. Neither correction is hidden as a clean first pass.
 Cross-case review is separate from this exact-copy acceptance. The legal chapter
 had not returned at this checkpoint; no complete three-case acceptance follows
 from integrating this chapter.
+
+## Subsequent cross-review integration
+
+On 26 October, Build incorporated CC's [finite review](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6426587379): two defensible planning positions and a route to NIST for reconciling its published summaries. The current chapter is therefore no longer byte-identical to the original above. Original custody and reading limits remain. These additions report no new site assessment, contact or field efficacy.

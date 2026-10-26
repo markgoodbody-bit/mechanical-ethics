@@ -30,6 +30,8 @@ There is a second correction about outcomes. NIST's April 2025 news account desc
 
 That correction changes the comparison. Refuge involvement, reduction of exposure, survival and a causal estimate of deaths prevented cannot be substituted for one another. Nor can totals from refuge and rescue categories simply be added: the supplied sources do not establish that they represent disjoint people.
 
+Both figures come from NIST: the April 2025 news item says the improvised decisions "saved more than 1,200 people", while the 2026 paper by NIST researchers reports in its abstract at least 261 lives saved and reduced risk for at least 961 others. NIST, as publisher of both, is the owner able to reconcile or annotate the earlier summary. Anyone citing either figure should say which claim it supports.
+
 ## Different views of the same changing event
 
 A resident can observe nearby smoke, traffic and the message actually received. A dispatcher may see notification requests and communications. A responder may know that a particular junction has become dangerous. Incident management needs an account broad enough to coordinate resources, but breadth does not guarantee that its information is current at every location. These are roles in the analysis, not invented testimony from particular people.
@@ -74,6 +76,24 @@ NIST's 2025 ESCAPE update develops preplanning for no-notice events and designat
 The constructive implication is a maintained protective arrangement, not merely more signs. For a proposed site, a competent local planning process would have to establish suitability for relevant conditions, practical access, usable information, capacity and a subsequent course when conditions change. This is a proposed line of inquiry for responsible specialists, not a finding that an existing parking lot satisfies it.
 
 Maintenance matters because a previous assessment can cease to describe the present place. Ownership, vegetation, access, surrounding development or available resources can change. A sign may outlast the conditions that justified it. The proposal therefore includes an accountable review and correction route, not an assumption that installing a label creates a durable capability.
+
+## Two defensible answers about naming refuges in advance
+
+A planner reading this case can reach two different conclusions, and each protects something real.
+
+**Name suitable refuge areas before the next fire.** On this reading, the Camp Fire shows both what improvisation under fire costs and what it achieved. Responders quickly directed people to open spaces with lower fire intensity. The 2026 paper reports that this ad hoc use of 31 refuge areas saved at least 261 civilian lives and reduced the risk to at least 961 others, a retrospective classification as noted above. Its stated implications are that communities should include temporary fire refuge areas in their fire response plans, and NIST's 2025 update emphasises pre-designating them. Waiting for a complete standard would leave the next no-notice fire to improvisation again. [4, 5]
+
+**Do not let a named place stand in for a way out.** On this reading, the same sources set limits that a public label can hide. As noted above, NIST treats refuge as a fallback for when evacuation can no longer be completed, not a substitute for it, and the 2026 paper reports no design standard for such areas, along with risks from inadequate separation from fire, smoke and dependence on responders. A site announced in advance might be trusted beyond what anyone has assessed, or treated as a destination by people who could still have left. [5, 6]
+
+Both readings accept the same historical record. They differ on which risk a community should carry now: improvising again, or endorsing a place that has not been shown to work for the people expected to use it. This case does not settle that for any real community, and neither does Mechanical Ethics. It is a decision for the local emergency-management and fire authorities in the table below, with the people who would have to use the site.
+
+**Before reading on, choose which risk you would carry, and name the one piece of evidence that would most change your mind.** For example:
+
+- an assessment of a specific site against the conditions it would face;
+- evidence on whether naming a site in advance changes when people leave, which the sources used here do not measure;
+- an owner with the resources to keep the site usable.
+
+If your choice depends on evidence this case lacks, that dependency is the finding.
 
 ## Compare courses without manufacturing a harm score
 

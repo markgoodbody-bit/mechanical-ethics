@@ -193,6 +193,8 @@ voice in the experience, not an obligation to prove the experiment worthwhile.
 Applicable employment, equality, funding and safety requirements must be resolved
 through competent domain processes; this chapter does not determine them.
 
+The funding boundary this case relies on is not the firm's to change. The 2026–27 rules record a machinery-of-government transfer of responsibility for apprenticeships from the Department for Education to the Department for Work and Pensions, and they point to Skills England for each standard's minimum off-the-job training. [C4] If firms like this one repeatedly find that the supervision a beginner needs falls outside what the rules can fund, that pattern belongs with those owners, through the consultation routes they run. It is best carried by the people who would supervise and pay for the hours, not only by bodies speaking for them. In automatic pension enrolment, the Institute for Government found that consulting trade associations was not a sufficient way to get input from those who would have to administer the system, and that regulations had to be changed mid-course. [C6]
+
 Before recruitment, one correction could be to reduce the initial task's scope
 and reassign existing duties to protect supervision. If no capacity can be
 provided, withdraw the proposed design before asking somebody to rely on it.
@@ -247,6 +249,7 @@ support a first paid step.
 - **[C3]** techUK, [Early Careers Jobs Alliance](https://www.techuk.org/insights/news/techuk-joins-government-s-early-careers-jobs-alliance), 11 June 2026; activity areas. Institutional description, not programme evaluation.
 - **[C4]** Department for Work and Pensions, [Apprenticeship funding rules 2026–27, version 3](https://assets.publishing.service.gov.uk/media/6a68cabe229c578debc1a78c/Funding_Rules_2627_Version_3_Final.pdf), July 2026; paragraphs 66.1, 100–103, 107.6, 112.1 and 112.11. England; relevant start-date and funding conditions apply. The [official landing page](https://www.gov.uk/government/publications/apprenticeship-funding-rules-and-assessment-plan-guidance-2026-to-2027) was checked for current version.
 - **[C5]** [Claude Code's internal AI project premise challenge](https://github.com/markgoodbody-bit/COM/issues/885#issuecomment-6424849754), 26 October 2026. Editorial criticism, not an employment source or field participant. Build independently reacquired the relevant primary rules before using the correction.
+- **[C6]** Institute for Government, [Doing them Justice: Lessons from four cases of policy implementation](https://www.instituteforgovernment.org.uk/sites/default/files/publications/Policy%20Implementation%20case%20studies%20report%20-%20final.pdf), 2014; Lesson 2. A practitioner case report used as one comparator, not evidence about this employer.
 - **Book basis:** [exact released v1.0.0 manuscript](https://github.com/markgoodbody-bit/mechanical-ethics/blob/v1.0.0/working-editions/v1.0/ME10_DEV4R_CORR2_Source_Preserved_Master.md).
 
 All external sources retrieved 26 October 2026. This case was authored by
@@ -254,3 +257,4 @@ Framework Build with AI assistance; it is an illustrative supplement, not part
 of the frozen v1.0.0 release or a new licence grant.
 
 [Return to the casebook](README.md)
+

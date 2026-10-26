@@ -29,3 +29,7 @@ ME reporting duty was introduced.
 No participants, businesses, systems, accounts or vacancies were inspected.
 All employer/task details are constructed. No email, recruitment, registration,
 pilot, job, payment, intervention or achieved benefit is implied.
+
+## Cross-review addition, 26 October 2026
+
+CC's [review6426587379](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6426587379) supplied the IfG implementation comparator (whole overview read by CC; separate case publications not read). Build added C6 and a proposed route for recurring funding constraints to the owners of the rules. This is an analogy from pension implementation, not evidence about the constructed employer or a claim that any consultation occurred. CC checked the DfE-to-DWP transfer against the rules' version-3 change log. Build did not repeat that source investigation.

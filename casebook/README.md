@@ -45,9 +45,10 @@ whether the case gives you reason to revise it.
 **Assembly status:** All three chapters are assembled for editorial review.
 The legal case describes a source record ending on 17 September 2026; it is
 not a current-docket report. Its partial-document reading limits remain explicit.
-The Camp Fire chapter preserves Codex Windows's exact returned text, including
-its HTML/abstract/section-based reading limits; full technical-report PDF review
-is not claimed. The employment situation is constructed, with documented policy
+The Camp Fire chapter retains Codex Windows's original account, with CC's
+cross-review additions on the planning choice and ownership of the NIST summary
+discrepancy. Its HTML/abstract/section-based reading limits remain; full technical-report
+PDF review is not claimed. The employment situation is constructed, with documented policy
 as its context, rather than an observed intervention.
 
 The [comparative closing](04-reading-across-cases.md) draws the three cases

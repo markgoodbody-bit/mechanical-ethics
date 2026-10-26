@@ -61,7 +61,7 @@ The numbers are where the first reading goes wrong first. They are different cou
 | about 1.28 million | people in ICE's 27 June request for last known addresses | ICE letter, as described by the court; IRS declaration via CRS |
 | 47,289 | records the IRS sent to ICE | IRS declaration; court; TIGTA |
 | about 46,965 | individuals those records correspond to | TIGTA's own analysis |
-| 42,695 (90.3%) | disclosed records matched by taxpayer number, with no check of ICE's address field | IRS declaration via CRS; court ("more than 90%") |
+| 42,695 (90.3%) | disclosed records matched by taxpayer number, without matching ICE's supplied address against the IRS address | IRS declaration via CRS; court ("more than 90%") |
 | "less than 5%" of 47,289 | people for whom ICE's address was potentially incomplete or insufficient (for example "Unknown Address", or no street) | IRS's own estimate |
 
 Three cautions follow.
@@ -111,7 +111,7 @@ What carried the information, step by step:
 2. **The legal channel:** §6103(i)(2). On a written request from an agency head that gives four things, the Treasury "shall disclose" return information other than taxpayer return information. The four are the taxpayer's name and address, the taxable period, the statutory authority, and the specific reason the information may be relevant. Disclosure may go only to officers and employees "personally and directly engaged" in the criminal investigation or proceeding, "solely" for that use. Under §6103(i)(2)(C) a taxpayer's identity, which includes their mailing address (§6103(b)(6)), is not treated as taxpayer return information.
 3. **The agreement:** it tracks the statute, sets safeguard duties for ICE (IRS Publication 1075, training, annual reports, breach notice) and states that it "does not confer any rights or benefits on any third party". So the taxpayer is not a party to it.
 4. **The request:** a data file of about 1.28 million rows and one cover letter. The district court found that the file named the same point of contact for every request. The letter gave one reason for all of them: the information "may contain address information which is potentially at issue" in investigating failure to depart (8 U.S.C. §1253(a)(1)).
-5. **The procedure:** a script that checked that certain fields were "not empty" and that the address field contained any five or nine digits. Where ICE supplied a taxpayer number that matched IRS records, it returned the IRS address without checking ICE's address at all.
+5. **The procedure:** preprocessing tested field presence and a weak address-format proxy. Matching then followed different paths depending on whether ICE supplied a taxpayer number. On the taxpayer-number path, the IRS address could be returned without matching ICE's supplied address against it. That describes the matching path; it does not establish a legal requirement that the two addresses be identical. Passing a format screen, obtaining an identity match and establishing the substantive disclosure conditions were different claims. The appeals court found that the procedure did not require ICE to submit an address and, on the taxpayer-number path, did not confirm that the supplied information plausibly identified the taxpayer's name and address.
 6. **The output:** a last known address, undated. The appeals court reasoned that without a date the address cannot be compared with the date of a removal order. So it cannot show that someone stayed after the order, which is the very offence cited.
 
 **Couplings, from documented to proposed:**
@@ -149,7 +149,7 @@ This is the heart of the case. The book separates three claims: "a check specifi
 
 | Statutory condition or earlier administrative practice | What the procedure checked | Could it find the failure? |
 |---|---|---|
-| name **and address** of the taxpayer | address field contains any five or nine digits; on a taxpayer-number match, ICE's address was ignored | No. Entries in the format "NA NA, AZ, 999990000" passed (TIGTA's illustration) |
+| name **and address** of the taxpayer | address field contains any five or nine digits; on a taxpayer-number match, the supplied address was not matched against IRS records | No. Entries in the format "NA NA, AZ, 999990000" passed (TIGTA's illustration) |
 | recipient "personally and directly engaged" | point-of-contact field "not empty" | No. One person was named for every request |
 | the "specific reason" disclosure is relevant | one cover letter for 1.28 million requests | No. The court called the reason "more circular than specific" |
 | individual handling under the earlier IRS manual, rather than a separate statutory element | until April 2025 a disclosure manager reviewed each request and could offer less intrusive options | Replaced by "a mass, automated review of millions of records at the press of a button" |
@@ -157,6 +157,8 @@ This is the heart of the case. The book separates three claims: "a check specifi
 **The correction that matters most here.** The agreement *specified* the statute's checks; *Centro* found it likely lawful on its face. The procedure *performed* checks, but they could not detect a request that failed the statute's conditions. In the court's account of the argument, the government acknowledged "concededly unlawful" transfers. Its counsel called the missing address check "an error in implementing the policy". The agreement's facial compliance did not establish that the requests or implementing procedure complied. Performed checks did not establish the required substantive conditions.
 
 This is also the book's machine-speed point (Ch. 12, lines 478 to 482). The statute allows disclosure only to officers personally and directly engaged in each investigation. The procedure turned that condition into a field that only had to be non-empty. "A human name in an approval field does not establish that the person saw the relevant evidence."
+
+TIGTA also found potential matches lost through differences in name or address formatting. That does not show those requests were legally eligible for disclosure. It does mean that correcting the procedure is a two-sided task: reject deficient requests without silently treating harmless formatting differences as a different person. A matched identity is still not permission to disclose. The report does not quantify all such exceptions, so no overall error rate is inferred here.
 
 ## 10. Witnesses and contestability
 
@@ -174,7 +176,7 @@ These are declared alternatives for the same request, not a ranking. No numerica
 | Alternative | What it protects | What it costs |
 |---|---|---|
 | A. Individual review, as in the IRS manual before April 2025 | each request is checked by a person who can contact the prosecutor and offer less intrusive options | slow at scale; whether it could handle 1.28 million requests lawfully is UNKNOWN |
-| B. The procedure as built | speed | the statutory checks were not performed (section 9) |
+| B. The procedure as built | speed | the performed proxy checks and matching paths did not establish the required substantive conditions (section 9) |
 | C. *Proposed:* automation that validates every statutory field | speed with real checks | feasibility UNKNOWN; scale may still conflict with "personally and directly engaged", which the courts read narrowly |
 | D. The court-order route, §6103(i)(1) | a judge decides first (an ex parte order is required for returns and taxpayer return information) | slower; it is a different channel for different information |
 | E. Refuse all such requests | maximum confidentiality | on *Centro*'s reading of "shall disclose", a breach of the duty to answer compliant requests |
@@ -191,7 +193,7 @@ Alternative E matters for the "blocker" question. On *Centro*'s reading, a gate 
 **The correction-theatre test** (Ch. 9, line 336) asks which rule, interface or authority actually changed, and whether someone outside the failing route can check it. An outside authority did change: the court's notice requirement. Whether the script itself was fixed is UNKNOWN. At argument in May 2026 the government's own counsel said, "I'm not aware of what action IRS has taken" to fix it. Notifying DHS and asking for help is evidence of receipt, not of protective effect.
 
 **Constructive corrections.** These are *proposals*, offered for the named owners to weigh. Mechanical Ethics does not decide them.
-- **Close ICE's open safeguard findings before any further transfer.** Owner: IRS Office of Safeguards. TIGTA's October 2025 alert already asked for follow-up.
+- **Assess and address the open safeguard findings.** Proposed owner: the IRS Office of Safeguards with the appropriate DHS counterparts and legal advisers. Identify what protective action, conditions or restrictions the findings warrant under the applicable duties and court requirements, and what evidence would establish that action's completion. TIGTA's October 2025 alert called for follow-up; this proposal does not turn that alert into an established blanket rule or a finding that safeguards have since been repaired. Under §6103(p)(4), safeguards are a condition of receiving return information; the Secretary may refuse disclosure until satisfied that the requirements have been or will be met. Whether to exercise that power here belongs to the authorised decision-maker under applicable law and court requirements.
 - **Specify and demonstrate the corrected disclosure route.** Proposed owners: the IRS Office of Privacy, Governmental Liaison and Disclosure with Chief Counsel and the responsible engineering team, subject to the applicable court requirements. Legal sufficiency, a working check and permission to disclose are separate decisions. A code repair would not by itself authorise a transfer. The following would make the proposed repair inspectable; none is reported completed here.
 
   | Proposed work | Evidence a competent reviewer would need | What would still not follow |
@@ -230,7 +232,7 @@ Alternative E matters for the "blocker" question. On *Centro*'s reading, a gate 
 - Treating "blockers" as heroes ignores that refusing a lawful request is also a breach of duty.
 
 **The strongest reading for the plaintiffs:**
-- The defects were not marginal. The taxpayer-number path, about 90% of disclosures, never compared ICE's address with anything; the only check was for five or nine digits.
+- The taxpayer-number path, used for about 90% of disclosed records, did not require an ICE-to-IRS address match. Weak format screening did not establish the substantive sufficiency of the supplied address or the other required conditions. This does not make address equality an independent statutory requirement.
 - The district court found it "facially implausible" that one contact could be "personally and directly engaged" in about 47,000 criminal matters, let alone 1.28 million.
 - The stated reason was the same circular sentence for everyone.
 - The IRS's own earlier position was that no provision allowed disclosure for immigration enforcement. Until 2025 it read §6103(i)(2) to prohibit disclosing an address when nothing else was requested.
