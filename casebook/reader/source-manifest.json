@@ -1,9 +1,9 @@
 {
-  "source_commit": "3638405dfccb9ccc8c30f58ed840419eeff457dd",
+  "source_commit": "eaa908bb72f0c094fc74ee63690d9fc6574de8b5",
   "files": {
     "README.md": {
-      "bytes": 6171,
-      "sha256": "531cf9b673d9e3e52fd655e028601903d1a26821d834731f726794268ff5343c"
+      "bytes": 6266,
+      "sha256": "61037fff055de6732985c309873d551dc5bd3e1fd410e22318c4012de33141f6"
     },
     "00-start-where-you-are.md": {
       "bytes": 4425,
@@ -14,16 +14,16 @@
       "sha256": "dc86580cb47534f3dfb700c9c551bfe7982eda6793c4476240ebe394356cef10"
     },
     "01-institutional-trust.md": {
-      "bytes": 36586,
-      "sha256": "6ea7617f79bb1057138bf6c02e501de706e4decd4bc5bd9bdc4821125ef3aebb"
+      "bytes": 38484,
+      "sha256": "8fbd2a1406f7991ff35513e0da799f264ab21adb41904fb7d1ed4425d73a54b8"
     },
     "02-camp-fire.md": {
-      "bytes": 21449,
-      "sha256": "ca20a769e71b04283438aa7d0cd52213a25ea466437fee976f7c49768775f96d"
+      "bytes": 24178,
+      "sha256": "fe0c4b74dc6640bf607888a698bb7cfb63cfa4ef0b770340c3c58e44304528bd"
     },
     "03-paid-first-rung.md": {
-      "bytes": 16815,
-      "sha256": "a5e85011ea107e1f3398d65784c7e097fe7f770a6c5be6ef31edf2eb39a23a26"
+      "bytes": 18062,
+      "sha256": "6ff622303d9b13840df3016addd890a6a851c07a70165f653650c1843124f95a"
     },
     "04-reading-across-cases.md": {
       "bytes": 9134,
@@ -34,16 +34,16 @@
       "sha256": "1c5f44c6cd976e4dfc2dd8ac7dc75fee376ca769e77b97fb868deae02a3ca7b3"
     },
     "sources/02-camp-fire-integration.md": {
-      "bytes": 2032,
-      "sha256": "6248bfd3af440615b497deb2721a790f8d5e0ba106d041800a3e6e2ebc486cc4"
+      "bytes": 2507,
+      "sha256": "fe1125bdf75dd57194504299bf4f388545761cdb4378543fdd7d0f09ae81b81d"
     },
     "sources/02-refuge-implementation-trail.md": {
       "bytes": 11161,
       "sha256": "99169c489129ff4fed5240137db7c5e6e206bbaab158497d5f2c31feb15bd44e"
     },
     "sources/03-paid-first-rung-sources.md": {
-      "bytes": 2902,
-      "sha256": "addd61bf055fde8bafbd5ac628be4c2ce7b710e888298d6042bd1efce3b54255"
+      "bytes": 3512,
+      "sha256": "ab8b38b66559370e0c4afd9302713a1069a9524711c84ebdb9504ae06592a056"
     },
     "sources/DESIGN-COMPARATOR.md": {
       "bytes": 2420,
@@ -54,8 +54,8 @@
       "sha256": "dd8cc50cf552eb0401ca40e8bdf4c8f7ccb6e672fac710ec8a5fd97585bab462"
     },
     "sources/WHOLE-CASEBOOK-REVIEW.md": {
-      "bytes": 6104,
-      "sha256": "037caab87e5ff71ea59622fdda4f9421618c626334007575ed286e2e49395235"
+      "bytes": 7832,
+      "sha256": "a25abea49fec586bbeb1e6b91611958893e42beba27bbaaebd36722b72dd9f3a"
     }
   }
 }

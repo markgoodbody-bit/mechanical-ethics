@@ -4,7 +4,7 @@ Requires Python 3 and pandoc 3.1.3. No network, Javascript, or telemetry.
 """
 import hashlib, html, json, pathlib, re, subprocess
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-REF = '3638405dfccb9ccc8c30f58ed840419eeff457dd'
+REF = 'eaa908bb72f0c094fc74ee63690d9fc6574de8b5'
 FILES = ['README.md','00-start-where-you-are.md','05-try-another-account.md',
  '01-institutional-trust.md','02-camp-fire.md','03-paid-first-rung.md',
  '04-reading-across-cases.md'] + sorted(str(p.relative_to(ROOT)) for p in (ROOT/'sources').glob('*.md'))

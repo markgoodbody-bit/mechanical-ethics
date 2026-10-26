@@ -1,14 +1,14 @@
 # Portable casebook reader
 
 Open `index.html` in a browser. It includes all fourteen Markdown documents from
-commit `3638405dfccb9ccc8c30f58ed840419eeff457dd`: chapters, exercises, source
+commit `eaa908bb72f0c094fc74ee63690d9fc6574de8b5`: chapters, exercises, source
 receipts and editorial history. Reading and internal navigation work without a
 server or connection; external references require a connection. No JavaScript,
 telemetry, remote fonts, embedded images or live-status claims are included.
 
 This is a dated v0.1 review snapshot, not a new edition of the frozen book.
-CC's cross-case review and two narrow legal wording answers are still pending
-at this snapshot. Later Markdown changes do not silently update this file.
+Both finite cross-case reviews and CC's narrow legal wording answers are
+integrated at this snapshot. Later Markdown changes do not silently update this file.
 
 ## Rebuild
 
