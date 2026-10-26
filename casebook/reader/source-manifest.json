@@ -1,21 +1,21 @@
 {
-  "source_commit": "6f20b3a1927266df5ab38ccd6730ddbb5d9726e7",
+  "source_commit": "0a281d0dd729a0110d5c2c5ecd358502da413821",
   "files": {
     "README.md": {
       "bytes": 3129,
       "sha256": "c0d9f518540cea7376a42016edc55313d4917f631264683741ae33f98b4c1a8f"
     },
     "01-institutional-trust.md": {
-      "bytes": 41356,
-      "sha256": "bdaf1d78d3292a2f2b5fb27e587a340cfd581e1a0345f250bf58b5e364a8828d"
+      "bytes": 42615,
+      "sha256": "4cd48ade6d66b268f0972dd074d182319e75e31c16f9834d0826cca7b65b19c9"
     },
     "02-camp-fire.md": {
-      "bytes": 27316,
-      "sha256": "3e7f9e13cd5cd654593951201aa0524e2344d12e0b20a9d8fd9e93ca16454fd4"
+      "bytes": 28209,
+      "sha256": "d3f4a7e58082038d96fefe50ae59a9ace23e3195939b7d2f870dd6349b9fef5e"
     },
     "03-paid-first-rung.md": {
-      "bytes": 21311,
-      "sha256": "0e874d976cd41ee6233a66f5f12dbe801f6d0be8a5eab7671c30e72c4c44a30e"
+      "bytes": 21930,
+      "sha256": "fb057abd6c8715a733b1433860a8712f6f44cf143cad78c41b369469f8503314"
     },
     "04-reading-across-cases.md": {
       "bytes": 5987,
@@ -46,8 +46,8 @@
       "sha256": "dd8cc50cf552eb0401ca40e8bdf4c8f7ccb6e672fac710ec8a5fd97585bab462"
     },
     "sources/WHOLE-CASEBOOK-REVIEW.md": {
-      "bytes": 8978,
-      "sha256": "dd4ae1f89eebf2b8540e6e9d40d2a802207ebd56a24af429db5ea07222ae20ce"
+      "bytes": 10740,
+      "sha256": "5e4ce94d686a3195b545732c900d9a224c1401485429a6b56947a86631baa1e8"
     }
   }
 }

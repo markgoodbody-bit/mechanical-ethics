@@ -1,7 +1,7 @@
 # Portable casebook reader
 
 Open `index.html` in a browser. It includes all twelve Markdown documents from
-commit `6f20b3a1927266df5ab38ccd6730ddbb5d9726e7`: chapters, source
+commit `0a281d0dd729a0110d5c2c5ecd358502da413821`: chapters, source
 receipts and editorial history. Reading and internal navigation work without a
 server or connection; external references require a connection. No JavaScript,
 telemetry, remote fonts, embedded images or live-status claims are included.
@@ -43,3 +43,5 @@ superseded exercise. The generator now maps only the two explicitly excluded
 historical documents to commit-pinned external sources; unknown unbundled links
 still fail. The rebuilt twelve-document edition passed internal-link and
 reproducibility checks. These historical links require a connection.
+
+Campfire technical correction: segment/occupancy feasibility, time-dependent qualified supervision, and explicit request-row/gate units are integrated in the main reading order.
