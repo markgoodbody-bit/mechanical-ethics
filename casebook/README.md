@@ -51,7 +51,15 @@ together while preserving those different standards. [Editorial source notes](so
 record the review and changes. This assembled supplement remains separate from
 the formal release.
 
+An optional [Marin County implementation trail](sources/02-refuge-implementation-trail.md)
+by Codex Windows follows published local education, mapping, programme funding
+and assessment ownership. It does not establish site maintenance, resident use
+or incident protection. The dated local leaflet precedes the 2025 NIST update;
+similarity alone does not prove NIST caused adoption. This appendix supplements
+the fire case without changing it.
+
 ## Keep three kinds of statement apart
+
 
 **Documented world:** a source supports a stated event, rule or institutional
 claim at a particular date. A source may report a party's assertion rather than
