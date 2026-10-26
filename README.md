@@ -28,12 +28,12 @@ These are ways to organise inquiry, **not an algorithm that determines moral tru
 | Edition | What it is | Read |
 | --- | --- | --- |
 | **v1.0.0 — current formal release** | Source-preserved 14-chapter CORR2 manuscript, 50-page PDF and three original figures; released 26 October 2026; not independently validated | [Reader entrance](working-editions/v1.0/README.md) · [Release receipt](RELEASE_v1.0.0.md) |
-| **v0.8.0 — previous formal release** | Earlier controlled release, preserved without changes; release does **not** mean validated | [Markdown](MECHANICAL_ETHICS.md) · [PDF](MECHANICAL_ETHICS.pdf) · [Release receipt](RELEASE_v0.8.0.md) |
-| **v0.7.0 — historical release** | Previous release, retained in tags and history | [Release receipt](RELEASE_v0.7.0.md) |
+| **v0.8.0 — previous formal release** | Exact historical files retained in an archive and at the immutable v0.8.0 tag; not validated | [Markdown](history/releases/v0.8.0/MECHANICAL_ETHICS.md) · [PDF](history/releases/v0.8.0/MECHANICAL_ETHICS.pdf) · [Receipt](history/releases/v0.8.0/RELEASE_v0.8.0.md) |
+| **v0.7.0 — historical release** | Earlier release remains available at the frozen v0.7.0 tag | [Receipt](history/releases/v0.7.0/RELEASE_v0.7.0.md) · [Tagged original](https://github.com/markgoodbody-bit/mechanical-ethics/tree/v0.7.0) |
 
 ### Read the released baseline
 
-The **current released reader** is [v1.0.0](working-editions/v1.0/README.md). The root `MECHANICAL_ETHICS.md` and `MECHANICAL_ETHICS.pdf` remain the **previous v0.8.0** release files for historical integrity; their root location and old in-file status do not make them the current edition. The [v0.8.0 receipt](RELEASE_v0.8.0.md) preserves their identities.
+The **current released reader** is [v1.0.0](working-editions/v1.0/README.md). The old root-level `MECHANICAL_ETHICS.md`, `MECHANICAL_ETHICS.pdf`, eight legacy figures and previous release receipts were relocated **without changing their file bytes** into the [historical releases archive](history/releases/README.md). The original old paths remain available at the immutable [v0.8.0 tag](https://github.com/markgoodbody-bit/mechanical-ethics/tree/v0.8.0); links to those paths on moving `main` are superseded. The v0.8.0 source, PDF and figures still have their own deterministic integrity check.
 
 The many October v0.9 and early v1.0 branches were development and competing research alternatives, not additional released books. See the [research and draft PR archive](history/RESEARCH_ARCHIVE_20261026.md) for the historical source routes. Their existence is not a request to merge their texts over the source-preserved v1.0 edition.
 
@@ -49,11 +49,7 @@ Do not post private case histories, personal or confidential data, or material n
 
 The **current release decision is 26 October 2026** for v1.0.0; see its [release receipt](RELEASE_v1.0.0.md) and frozen-source integrity workflow. The previous v0.8.0 source and deterministic build workflow are deliberately preserved.
 
-Historical **v0.8.0** compatibility anchors (required by the old integrity workflow, not statements of current edition status):
-
-Release decision: **23 September 2026**.
-
-`RELEASED / FORMAL BASELINE / CURRENT READER / NOT VALIDATED` — original v0.8.0 status text, superseded as current-reader designation by v1.0.0.
+Historical v0.8.0 document-control wording (including its original `CURRENT READER` claim) remains preserved in [its frozen receipt and files](history/releases/v0.8.0/RELEASE_v0.8.0.md), but is no longer the repository's current edition status. Both the active v1.0.0 identity check and the historical v0.8.0 deterministic rebuild check remain in CI.
 
 No general reuse, adaptation, redistribution or AI-training licence is granted for v1.0.0. The existing [AI training permission](AI_TRAINING_PERMISSION.md) is limited to the material and versions it explicitly names, principally released v0.7.0; public visibility does not extend it. Third-party references retain their own rights.
 
