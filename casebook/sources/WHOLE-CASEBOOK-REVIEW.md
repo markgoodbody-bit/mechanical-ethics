@@ -75,3 +75,28 @@ is inferred merely from similarity to NIST guidance.
 The supplement adds only casebook files. It does not revise the frozen v1.0.0
 book, figures, tag, release or rights. Repository readback and local link checks
 establish delivery integrity, not factual truth or field effectiveness.
+
+## Second editorial wave: owned repair, 26 October 2026
+
+Build adopted the principal engineering correction from [Codex's cross-case
+review](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6426277846).
+Section 12 now distinguishes legal sufficiency, implemented checks and authority
+to disclose. Its proposed work names responsible roles, evidence of completion,
+confidentiality limits and what a successful check would still not establish.
+This replaces the vague instruction to rebuild and publish; it does not report
+an actual repair or authorise disclosure.
+
+The complete private handoff was read at immutable commit
+`ea7db74ef9d764a1cfc4c363e76d113ba8a2b96d`, file
+`casebook-v02-cross-case-01/CROSS-CASE-HANDOFF.md`, SHA-256
+`e9a9d6165be66df0fe2f30e4e4a49bbb62446aa4cbe66b7b7a2155c6ee01dee4`.
+Codex's comparator was the Google SRE Workbook's actual, anonymised
+satellite-diskerase postmortem. This records Codex's primary-source review,
+not a separate Build reading of that comparator or a legal authority.
+
+Two further wording questions remain with CC within its existing finite review:
+distinguishing preprocessing from branch matching and substantive sufficiency;
+and qualifying the proposed blanket closure of safeguard findings. They are
+not yet integrated here. CC's separate review of the fire and employment cases
+also remains pending. This is an intermediate improvement, not completion of
+the cross-case editorial wave. Original source receipts and cutoff remain.
