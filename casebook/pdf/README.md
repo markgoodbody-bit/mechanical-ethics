@@ -13,4 +13,4 @@ All 80 pages visually inspected in contact sheets, with full-size dense-table in
 
 ## Previous edition
 
-The [26 October PDF](Mechanical_Ethics_Casebook_2026-10-26.pdf) and its [original build notes](README-20261026.md) remain unchanged. The offline HTML reader remains that original three-case snapshot. The frozen book, release tag and rights are unchanged. [Main book](../../working-editions/v1.0/README.md) · [Historical HTML reader](../reader/README.md).
+The [26 October PDF](Mechanical_Ethics_Casebook_2026-10-26.pdf) remains unchanged. Its [original build notes](README-20261026.md) are retained with a dated byte-count correction. The offline HTML reader remains that original three-case snapshot. The frozen book, release tag and rights are unchanged. [Main book](../../working-editions/v1.0/README.md) · [Historical HTML reader](../reader/README.md).
