@@ -9,12 +9,12 @@ Mechanical Ethics proposes a **middle-out reasoning language** for people and AI
 Start with a real situation, not an idealised model. Ask:
 
 1. **What is changing?** What do we know, and what might our account miss?
-2. **Who is affected?** Whose choices, capabilities, resources or future possibilities are at stake?
+2. **Who is affected?** Whose choices, capabilities, resources or future possibilities are at stake?  
    *In the [Camp Fire evacuation study](casebook/02-camp-fire.md), the danger zone alone does not tell us whose warning, travel or refuge options were usable.*
 3. **What can actually happen?** Which constraints, competing clocks and power relationships determine feasible paths?
-4. **What help is worthwhile?** Can a small useful action create a better possibility without hiding burdens elsewhere?
+4. **What help is worthwhile?** Can a small useful action create a better possibility without hiding burdens elsewhere?  
    *The [constructed technical-entry study](casebook/03-paid-first-rung.md) asks whether a paid opportunity has the supervision capacity needed to become a genuine first rung.*
-5. **What happens afterwards?** Can those affected observe, challenge and correct the consequences — including what cannot be restored?
+5. **What happens afterwards?** Can those affected observe, challenge and correct the consequences — including what cannot be restored?  
    *The [IRS–ICE information-disclosure case](casebook/01-institutional-trust.md) examines how exposure and institutional trust can remain concerns after a specific disclosure route is challenged.*
 
 These questions help people investigate a situation rather than supply a moral verdict. Apply them alongside the relevant people, evidence and specialist methods. Their value depends on whether they make a real decision clearer, more correctable or more constructive.
