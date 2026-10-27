@@ -53,7 +53,7 @@ specified older material, chiefly v0.7.0. Third-party rights are unchanged.
 
 [Read the released book](working-editions/v1.0/README.md) ·
 [Original provenance](working-editions/v1.0/PROVENANCE.md) ·
-[Previous v0.8.0 receipt](RELEASE_v0.8.0.md)
+[Previous v0.8.0 receipt](history/releases/v0.8.0/RELEASE_v0.8.0.md)
 
 ## Repository layout note — 26 October 2026 (after release)
 

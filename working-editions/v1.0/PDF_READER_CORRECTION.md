@@ -2,7 +2,13 @@
 
 26 October 2026. Mark requested removal of obsolete prerelease labels from the current PDF.
 
-Current reader: `Mechanical_Ethics_v1.0.0.pdf`, 50 pages, 242147 bytes; SHA-256 `8ac2680b0f8f3ee419342a984c4d6d9fe733ed907c82437343418752f1b9af0f`.
+**Current reader:** [Mechanical_Ethics_v1.0.0.pdf](Mechanical_Ethics_v1.0.0.pdf), 50 pages, 254196 bytes; SHA-256 `6fb3fb58510b508283d3c17777a24ea7cd7a2bb5d9e449740c6fadc8d74fce54`. This is the approved safety-note and subtle-border edition. The original release asset is preserved separately.
+
+## Correction history
+
+The entries below record successive revisions, not multiple current editions.
+
+Initial label-only reader: 242147 bytes; SHA-256 `8ac2680b0f8f3ee419342a984c4d6d9fe733ed907c82437343418752f1b9af0f`.
 
 The cover, all repeated developmental labels, PDF metadata and publication-status passages on pages 2, 48 and 49 now reflect the authorised release. AI-assisted authorship, provenance, evidential limitations and rights boundaries remain explicit. Historical draft references are retained as history.
 
@@ -29,7 +35,7 @@ Mark clarified that the safety note belongs on page3, before the opening note. B
 
 At Mark's request, a pale teal background now marks 37 introductory/defining paragraphs (38 page regions including the continuation of collective evidence). Selection follows the first explanatory paragraphs with bold terms, not all bold emphasis or the glossary. No text was rewritten. All 50 page texts, bookmarks and link objects compare equal to the page-3 safety-note edition at ee2ec4f572bcc2aea0ee379d290b76a3c334091a. The safety note remains page 3. Representative full pages and all highlighted regions were visually inspected. A first selection guard stopped because it excluded top-of-page continuation text; the body range was corrected before output, and the page-28/29 paragraph continuation was explicitly included.
 
-Current PDF: 248082 bytes; SHA256 642bc2313df32edb83b5064261c5d4a9de200f5bfb3cb227ec8c90b64da1e3d6. Frozen release assets and original manuscript remain unchanged.
+Intermediate highlighted PDF: 248082 bytes; SHA256 642bc2313df32edb83b5064261c5d4a9de200f5bfb3cb227ec8c90b64da1e3d6. Frozen release assets and original manuscript remain unchanged.
 
 
 ### Subtle border follow-up

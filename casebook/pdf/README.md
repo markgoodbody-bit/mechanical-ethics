@@ -6,11 +6,11 @@
 
 - PDF: 296826 bytes; SHA256 `0ba329c72997be597702cd1c53d70308d4e77dd9f3095f1361b71bc6509b1c80`.
 - Exact input hashes: [manifest](source-manifest-20261027.json).
-- Rebuild: Python3, pandoc and WeasyPrint70.0; run `python casebook/pdf/build_pdf_20261027.py`. The builder checks the input manifest and disables remote resource retrieval.
+- Rebuild: Python 3, pandoc and WeasyPrint 70.0; run `python casebook/pdf/build_pdf_20261027.py`. The builder checks the input manifest and disables remote resource retrieval.
 - [Print stylesheet](print-20261027.css). The builder also emits a local HTML print source.
 
-All80 pages visually inspected in contact sheets, with full-size dense-table inspection. No blank pages, replacement glyphs or invalid internal PDF page links found. No new factual audit, PDF/UA or screen-reader conformance claim. This is a reading-format refresh, not a new ME release or evidence of field effectiveness.
+All 80 pages visually inspected in contact sheets, with full-size dense-table inspection. No blank pages, replacement glyphs or invalid internal PDF page links found. No new factual audit, PDF/UA or screen-reader conformance claim. This is a reading-format refresh, not a new ME release or evidence of field effectiveness.
 
 ## Previous edition
 
-The [26 October PDF](Mechanical_Ethics_Casebook_2026-10-26.pdf) and its [original build notes](README-20261026.md) remain unchanged. The offline HTML reader remains that original three-case snapshot. Frozen book/release/tag/licence unchanged.
+The [26 October PDF](Mechanical_Ethics_Casebook_2026-10-26.pdf) and its [original build notes](README-20261026.md) remain unchanged. The offline HTML reader remains that original three-case snapshot. The frozen book, release tag and rights are unchanged. [Main book](../../working-editions/v1.0/README.md) · [Historical HTML reader](../reader/README.md).
