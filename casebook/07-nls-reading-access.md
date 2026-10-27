@@ -93,7 +93,7 @@ That sequence supports a *possibility-enabling institutional mechanism*: change 
 
 The 2025 reported VA sign-up and player distribution demonstrate additional activity and access routes [N4], but those are operator reports about distinct initiatives. They are not independent replications, and they do not directly quantify the effect of the 2021 rule. Likewise, fewer patrons in one year could reflect many competing explanations; we have not sourced a consistent population denominator or eligibility breakdown for a causal trend analysis.
 
-One protected negative is important: GAO expressly warned that the **precise number of eligible people was unknown**. [G1] Without a defensible denominator, statements about nationwide coverage rates cannot be made from reported patron totals alone. Publicly available applications and circulation counts can still help improve a service without proving every potential reader was reached.
+One protected negative is important: the **public source extracts used here do not supply a defensible count of everybody eligible for the service**. GAO's 2016 public summary discusses users it observed and the need to evaluate outreach; it does not provide a reliable population denominator for this chapter. [G1] Without such a denominator, nationwide coverage rates cannot be derived from patron totals alone. Applications and circulation data may still improve a service without proving every potential reader was reached.
 
 ## 8. Strongest ordinary method, proposed comparative use
 
