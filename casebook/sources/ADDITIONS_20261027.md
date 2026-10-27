@@ -1,0 +1,32 @@
+# Additional online case studies — source and editorial receipt
+
+**27 October 2026 · provenance and evidence limits for Cases 4 and 5.** This note is part of the *working online casebook*, not the dated 26 October 60-page PDF or self-contained HTML snapshot, and not a modification of the frozen Mechanical Ethics v1.0.0 release.
+
+## Separate editorial lineage
+
+**Case 4 — GitLab, January 2017.** The starting source was Codex's completed *CASEBOOK-GITLAB-DEEP-01* private technical draft, supplied to Framework Build on 26 October 2026 at `campfire-relay@e62639d940df7efb68594963d13243ac38e75a08/gitlab-deep-case-20261026/GITLAB-RECOVERY-DRAFT.md`: **20,733 UTF-8 bytes, SHA-256 `82fff325be6215f2e2b13b648210743aae90e62ab1db393ccf77efc562e73d0f`**, Git blob `186c91ff6e9a941bd386013b4f79d1b785db32c5`; [original terminal](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6428718730); [Build's specific editorial selection](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6429267198). This edition is **not byte-identical** to the draft. Campfire integrated the existing, material Build corrections: separate **physical candidate feasibility**, **evidence sufficient to rely on a route**, and **authority/risk acceptance**; bring GitLab's reported webhook recovery and identifier sequence advance forward as actual *attributed* interventions rather than treating only hypothetical side effects. The text adds an explicit comparison against ordinary SRE/incident methods with NO_MATERIAL_DIFFERENCE or EXISTING_METHOD_BETTER possible.
+
+The Codex [source receipt](https://github.com/markgoodbody-bit/campfire-relay/blob/e62639d940df7efb68594963d13243ac38e75a08/gitlab-deep-case-20261026/SOURCE-RECEIPT.md) describes eight public sources [S1–S8] and exactly which parts were read at that time. On 27 October Campfire separately reopened the two original GitLab blog accounts and the dated public follow-up tracker via public text retrieval; it **did not independently audit full mutable GitLab issue-comment histories, original incident command logs, internal database state, user outcomes or all later remediation tests**. The older tracker descriptions and their checkmarks are not independently dated to 2017. The two GitLab articles are related statements by the same operator, **not independent replications**. Exact return-to-service and lost-work timestamp variations are retained rather than forcibly reconciled.
+
+**Case 5 — NLS.** Claude Code's [26 October constructive source scout](https://github.com/markgoodbody-bit/COM/issues/877#issuecomment-6428775812) identified a stronger **positive capability** case against US Library of Congress materials and an independent GAO review. The scout was reconnaissance, *not* a ready chapter. Campfire authored this new chapter on 27 October and directly inspected accessible text of [GAO-16-355](https://www.gao.gov/products/gao-16-355), [Library of Congress NLS overview](https://www.loc.gov/nls/who-we-are/overview/), [network roles](https://www.loc.gov/nls/who-we-are/network-libraries/), the [2021 Federal Register rule HTML](https://www.federalregister.gov/documents/2021/02/12/2021-02837/loans-of-library-materials-for-blind-and-other-print-disabled-persons), [2024 NLS programme report](https://www.loc.gov/nls/news-and-updates/quarterly-newsletter-news/news-october-december-2024/) and [2025 operator retrospective published in 2026](https://www.loc.gov/nls/news-and-updates/quarterly-newsletter-news/news-january-march-2026/). The case quotes no private patron, extracts no individual health/application record and uses no personal dataset.
+
+The **2016 GAO page** and its follow-up recommendation status are **one federal witness plus later status**, not two independent studies. The **2024/2025 device and programme figures are NLS operator reports**, not field evaluations of their impact or a causal series. The 2021 rule is a documented legal change; no individual enrollment outcome follows simply from its text. The related OIG/annual reports named in CC's scout were *not reread in full for this chapter*; the chapter intentionally omits annual reader-count trend arithmetic, rather than republish ambiguous cross-year denominators as new independent conclusions.
+
+**Case 6?** There is no Case 6 in this editorial increment. The file `08-reading-across-five-cases.md` is an **addendum comparing five cases**, not a sixth case.
+
+## Exact current outputs and scopes
+
+| File | Purpose | Scope |
+| --- | --- | --- |
+| [06-gitlab-recovery.md](../06-gitlab-recovery.md) | Historical technical recovery route | Initial/revision and two-copy decision, scoped clocks, reconciliation, specialist comparison |
+| [07-nls-reading-access.md](../07-nls-reading-access.md) | Constructive maintained library capability | Joined public-service mechanisms, audit, changed rules and device distribution, unknown uptake |
+| [08-reading-across-five-cases.md](../08-reading-across-five-cases.md) | Online cross-case addendum | Restores original three-case distinction while comparing two new domains |
+| [Casebook README](../README.md) | Discoverability and edition separation | Original PDF/HTML retain three-case dated snapshot |
+
+Source-level and link checks establish *this draft's file provenance*, not incident replication, causal attribution, legal advice, disability-service usability or empirical advantage from ME. Original three-case texts and original cross-case discussion are unchanged; the online addendum does not rewrite their evidence cutoffs or later representation. The published 60-page PDF, pinned offline HTML, full released v1.0.0 book and rights remain unchanged.
+
+## Decision and review boundaries
+
+Editorial integration of these already-public source studies is not an endorsement by GitLab, GAO, NLS, fire-safety experts, accessibility professionals or affected users. The two authorship paths are AI-assisted and source-checkable. The intended tests of practical value remain external: what would existing specialist practice already find, what difference (if any) does ME uncover, and would that difference improve a real, authorised response without moving burden onto someone least able to carry it?
+
+All three results — **EXISTING_METHOD_BETTER**, **NO_MATERIAL_DIFFERENCE** and **MATERIAL_ADDITION** — and **INDETERMINATE** remain permitted. Failure of an ME addition is informative. Do not turn these new case documents into proof that the project has been tested on practitioners.
