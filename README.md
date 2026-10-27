@@ -19,6 +19,8 @@ Start with a real situation, not an idealised model. Ask:
 
 These questions help people investigate a situation rather than supply a moral verdict. Apply them alongside the relevant people, evidence and specialist methods. Their value depends on whether they make a real decision clearer, more correctable or more constructive.
 
+**Why “Mechanical Ethics”?** *Mechanical* refers to the mechanisms through which a decision takes effect: observation, access, timing, power, practical routes and the work of repair. It does **not** mean that ethics can be reduced to a machine or calculated verdict. The language helps make consequential arrangements inspectable while leaving questions of legitimate authority, values and judgement open to those affected and to relevant expertise.
+
 **Read Mechanical Ethics v1.0.0 — current published edition (26 October 2026):**
 
 **[Read the complete illustrated book — A Middle-Out Reasoning Language](working-editions/v1.0/README.md)**  
