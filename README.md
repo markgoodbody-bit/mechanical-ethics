@@ -32,9 +32,11 @@ The formally released v1.0.0 edition is available to read and challenge. Its pub
 
 **[Download the casebook PDF — 60 pages](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf)** · [PDF edition and build notes](casebook/pdf/README.md)
 
-[Read the casebook](casebook/README.md): two historical studies—IRS–ICE information disclosure and Camp Fire evacuation/refuge—and one explicitly constructed study of supervision capacity in entry-level technical employment. Each follows mechanisms, evidence, competing explanations and correction responsibilities.
+[Read the casebook](casebook/README.md): the original **26 October** reading edition contains two historical studies—IRS–ICE information disclosure and Camp Fire evacuation/refuge—and one explicitly constructed study of supervision capacity in entry-level technical employment. They follow mechanisms, evidence, competing explanations and correction responsibilities.
 
-The casebook is maintained separately so case-specific evidence and corrections can evolve without rewriting the released book. These studies demonstrate how to ask and test questions; they do not establish field effectiveness. See its [scope and source limits](casebook/README.md#method-and-evidence). For offline reading, [download and open the self-contained HTML reader](casebook/reader/README.md); the GitHub file view is source, not a hosted reading application.
+**Two further online case studies, added 27 October:** [GitLab's 2017 database recovery](casebook/06-gitlab-recovery.md), which examines usable restoration versus backup inventory and retained losses; and [the US National Library Service](casebook/07-nls-reading-access.md), a constructive example of accessible capability maintained through law, library networks, equipment and public scrutiny. Read the [five-case comparison](casebook/08-reading-across-five-cases.md) for similarities, differences and admitted failures. These new studies are **not included** in the dated 60-page PDF or offline HTML reader.
+
+The casebook is maintained separately so case-specific evidence and corrections can evolve without rewriting the released book. These studies demonstrate how to investigate decisions and worthwhile possibilities; they do **not** establish field effectiveness. See the [original evidence limits](casebook/README.md#method-and-evidence) and the [additional cases' source receipt](casebook/sources/ADDITIONS_20261027.md). For the dated offline edition, [download the self-contained HTML reader](casebook/reader/README.md); GitHub's file view is source, not a hosted reading application.
 
 ## Independent review and participation
 
