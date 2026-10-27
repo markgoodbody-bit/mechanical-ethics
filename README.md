@@ -21,7 +21,7 @@ These questions help people investigate a situation rather than supply a moral v
 
 **Why “Mechanical Ethics”?** *Mechanical* refers to the mechanisms through which a decision takes effect: observation, access, timing, power, practical routes and the work of repair. It does **not** mean that ethics can be reduced to a machine or calculated verdict. The language helps make consequential arrangements inspectable while leaving questions of legitimate authority, values and judgement open to those affected and to relevant expertise.
 
-**Read Mechanical Ethics v1.0.0 — current published edition (26 October 2026):**
+**Start with Mechanical Ethics v1.0.0 — current published edition (26 October 2026):**
 
 **[Read the complete illustrated book — A Middle-Out Reasoning Language](working-editions/v1.0/README.md)**  
 [Read the manuscript in your browser](working-editions/v1.0/ME10_DEV4R_CORR2_Source_Preserved_Master.md) · [Illustrated A4 PDF, 50 pages](working-editions/v1.0/Mechanical_Ethics_v1.0.0.pdf) · [Source and provenance](working-editions/v1.0/PROVENANCE.md)
