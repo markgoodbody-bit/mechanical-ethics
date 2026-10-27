@@ -1,0 +1,15 @@
+
+@page {size:A4; margin:20mm 19mm 20mm; @bottom-left{content:"MECHANICAL ETHICS · CASEBOOK";font:7pt sans-serif;color:#65716e} @bottom-right{content:counter(page);font:9pt sans-serif;color:#365b56}}
+@page:first{@bottom-left{content:none}@bottom-right{content:none}}
+body{background:white;color:#202927;font:10.4pt/1.5 "DejaVu Serif",serif}
+header, main,footer {max-width:none;margin:0;padding:0}
+.cover {height:245mm;box-sizing:border-box;padding-top:28mm;border:0;break-after:page}
+.cover h1{font:30pt/1.17 "DejaVu Serif";margin:12mm 0 14mm;color:#214e47}
+.eyebrow{font:9pt sans-serif;letter-spacing:1.6pt;color:#42675f}
+.cover .intro{font:13pt/1.7 "DejaVu Serif";margin-bottom:20mm}
+.edition{font:10pt sans-serif;margin-top:18mm}.scope{font:10pt/1.6 sans-serif}.small{font:8.4pt/1.5 sans-serif;color:#52625d}
+.contents{break-after:page}.contents h1{font-size:25pt}.contents nav{display:block!important;font:10pt/1.7 sans-serif}.contents nav li{padding:1.3mm 0;list-style:none}.contents ol,.contents ul{padding-left:0}.contents a{display:block;text-decoration:none}.contents a::after{content:leader('.') target-counter(attr(href),page)}.contents h2{font-size:13pt;margin-top:9mm}.provenance{margin-top:12mm;overflow-wrap:anywhere}
+article{padding:0;border:0;break-before:page}article h1{font:22pt/1.25 "DejaVu Serif";color:#214e47;margin:0 0 8mm;bookmark-level:1}h2{font:15pt/1.3 "DejaVu Serif";margin:8mm 0 3mm;bookmark-level:2}h3{font:11.5pt/1.35 sans-serif;margin:6mm 0 2mm;bookmark-level:3}h1,h2,h3,h4{break-after:avoid}p{margin:0 0 3mm;orphans:3;widows:3}li{margin:1.4mm 0}a{color:#285f58;text-decoration:none;overflow-wrap:anywhere}.page-top{display:none!important}
+table{table-layout:fixed;width:100%;min-width:0;font:8pt/1.4 "DejaVu Sans",sans-serif;margin:3mm 0}th,td{padding:2mm;overflow-wrap:anywhere;border-bottom:.4pt solid #cbd7d1}th{background:#eef3f0;font-weight:bold}thead{display:table-header-group}tr{break-inside:avoid}.table-wrap{overflow:visible;margin:3mm 0}code{font:8.5pt/1.5 "DejaVu Sans Mono";overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:8pt;padding:3mm;background:#f4f6f4;break-inside:auto}blockquote{margin:4mm 0;padding-left:4mm;border-left:1pt solid #aac0b5}footer{font-size:8pt;margin-top:8mm} .cover h1,.contents h1{bookmark-level:none}
+
+.contents p{margin:0 0 2.5mm}.contents a{display:block}.contents a::after{content:leader(".") target-counter(attr(href),page)} .contents .provenance{margin-top:10mm} table{border-collapse:collapse} td,th{vertical-align:top;text-align:left} .cover .intro{margin-bottom:10mm}

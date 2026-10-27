@@ -1,0 +1,65 @@
+{
+  "source_commit": "9acb06fb9ca07814076b7462cca0ee2f08ae4cbb",
+  "files": {
+    "01-institutional-trust.md": {
+      "bytes": 42615,
+      "sha256": "4cd48ade6d66b268f0972dd074d182319e75e31c16f9834d0826cca7b65b19c9"
+    },
+    "02-camp-fire.md": {
+      "bytes": 28209,
+      "sha256": "d3f4a7e58082038d96fefe50ae59a9ace23e3195939b7d2f870dd6349b9fef5e"
+    },
+    "03-paid-first-rung.md": {
+      "bytes": 21930,
+      "sha256": "fb057abd6c8715a733b1433860a8712f6f44cf143cad78c41b369469f8503314"
+    },
+    "06-gitlab-recovery.md": {
+      "bytes": 24173,
+      "sha256": "83c4caaf39308a1fe48bc2ed79ece5057a6ba2c02e6c1fbe89b1e2069b0ac431"
+    },
+    "07-nls-reading-access.md": {
+      "bytes": 17973,
+      "sha256": "11a34fb078acdc8e211414579ee1b299748ee6a115c09bc25beae3982333f612"
+    },
+    "04-reading-across-cases.md": {
+      "bytes": 5987,
+      "sha256": "f802a6969cbeae442b4acf6d0942c87e498c346ca1a6813a7cc78c3451446f73"
+    },
+    "08-reading-across-five-cases.md": {
+      "bytes": 9301,
+      "sha256": "247ad2d505d7d9c903bae46da3fea4fd752fc5562e3086715498c58781b9c21d"
+    },
+    "sources/01-institutional-trust-sources.md": {
+      "bytes": 8948,
+      "sha256": "1c5f44c6cd976e4dfc2dd8ac7dc75fee376ca769e77b97fb868deae02a3ca7b3"
+    },
+    "sources/02-camp-fire-integration.md": {
+      "bytes": 2507,
+      "sha256": "fe1125bdf75dd57194504299bf4f388545761cdb4378543fdd7d0f09ae81b81d"
+    },
+    "sources/02-refuge-implementation-trail.md": {
+      "bytes": 11161,
+      "sha256": "99169c489129ff4fed5240137db7c5e6e206bbaab158497d5f2c31feb15bd44e"
+    },
+    "sources/03-paid-first-rung-sources.md": {
+      "bytes": 3512,
+      "sha256": "ab8b38b66559370e0c4afd9302713a1069a9524711c84ebdb9504ae06592a056"
+    },
+    "sources/ADDITIONS_20261027.md": {
+      "bytes": 6503,
+      "sha256": "2f2eb82f2bb4cb7c8681b764e1b4a102d3bef45d58827c37d326a0a1a12507b3"
+    },
+    "sources/DESIGN-COMPARATOR.md": {
+      "bytes": 2420,
+      "sha256": "ecf0ffa78fa087e89c7190c54be6cf62eb69f8ea91823c57628684549956bc3d"
+    },
+    "sources/INTERIM-EDITORIAL-REVIEW.md": {
+      "bytes": 1501,
+      "sha256": "dd8cc50cf552eb0401ca40e8bdf4c8f7ccb6e672fac710ec8a5fd97585bab462"
+    },
+    "sources/WHOLE-CASEBOOK-REVIEW.md": {
+      "bytes": 10740,
+      "sha256": "5e4ce94d686a3195b545732c900d9a224c1401485429a6b56947a86631baa1e8"
+    }
+  }
+}
