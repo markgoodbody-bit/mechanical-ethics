@@ -13,11 +13,11 @@ worthwhile possibilities people can build together.
 
 - [Read the complete manuscript](ME10_DEV4R_CORR2_Source_Preserved_Master.md)
   in your browser: fourteen chapters, an opening note, glossary and source notes.
-- [Download the illustrated A4 PDF](Mechanical_Ethics_v1.0.0.pdf)
+- [Download the illustrated A4 PDF](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/working-editions/v1.0/Mechanical_Ethics_v1.0.0.pdf)
   for offline reading: 50 pages, with selectable text.
 - [Continue with the companion case studies](../../casebook/README.md):
-  two historical cases and one constructed employment design study.
-- [Download the companion casebook PDF](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf) (60 pages).
+  four historical studies and one constructed employment design study.
+- [Download the companion casebook PDF](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-27.pdf) (80 pages).
 - [Inspect the three companion SVG figures](figures/).
 - [Check source identity and publication scope](PROVENANCE.md).
 
@@ -74,12 +74,13 @@ to challenge the argument. This is not an urgent-help or monitored complaints ch
 
 ## Further reading: the casebook
 
-**[Download the casebook PDF — 60 pages](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-26.pdf)** · [PDF edition and build notes](../../casebook/pdf/README.md)
+**[Download the casebook PDF — 80 pages](https://github.com/markgoodbody-bit/mechanical-ethics/raw/refs/heads/main/casebook/pdf/Mechanical_Ethics_Casebook_2026-10-27.pdf)** · [PDF edition and build notes](../../casebook/pdf/README.md)
 
 After the book, [read the companion casebook](../../casebook/README.md) or
 [download its offline HTML reader](../../casebook/reader/README.md).
-The IRS–ICE and Camp Fire studies examine historical records; the employment
-study is constructed. Source cutoffs, unresolved questions and access limitations
+The current 27 October edition includes IRS–ICE information disclosure, Camp Fire,
+GitLab database recovery and National Library Service studies, plus a constructed
+employment study. The offline HTML reader remains the older three-case snapshot. Source cutoffs, unresolved questions and access limitations
 are stated in the studies. They do not establish professional validation or
 field effectiveness.
 
