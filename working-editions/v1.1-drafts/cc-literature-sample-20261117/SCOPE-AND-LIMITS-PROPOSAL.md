@@ -35,8 +35,8 @@ The safety note ("If you are being harmed now", line 20) stays at the front. It 
 | 194 | "Detailed scheduling belongs to competent resource planners." | Generic: specialist methods | Cut. |
 | 196 | "Only legitimate decisions about competing needs can settle priority." | Repeats line 194 | Cut. |
 | 216 | "A landlord might benefit from postponing an inspection, but that observation is not proof of malicious intent." | Generic: motive | Keep the first clause; cut the second. |
-| 310 | "…though they do not prove an individual decision-maker's inner motive." | Generic: motive | Cut the clause. |
-| 324 | "That is an observable arrangement, not proof of a secret malicious intention." | Generic: motive (a paragraph of its own) | Cut. |
+| 310 | "…though they do not prove an individual decision-maker's inner motive." | Generic: motive | Cut the clause. **Done** in `ME11-WORKING-EDIT-CH09.md`. |
+| 324 | "That is an observable arrangement, not proof of a secret malicious intention." | Generic: motive (a paragraph of its own) | Cut. **Done** in `ME11-WORKING-EDIT-CH09.md`. |
 | 354 | "…; those depend on the affected people and the relevant authority." | Generic: authority | Cut the final clause; keep the claim that naming residue does not settle what is owed. |
 | 464 | "Which institution may do that is a matter for law, policy, democratic legitimacy and domain expertise, not an automatic instruction issued by this vocabulary." | Generic: authority | Cut. **Done** in the Chapter 12 candidate. |
 | 506 | "When we encounter a stronger specialist method, that method should take over the work it is competent to do." | Repeats line 502 | Cut. |
