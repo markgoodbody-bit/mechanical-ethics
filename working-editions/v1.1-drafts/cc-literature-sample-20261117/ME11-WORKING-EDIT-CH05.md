@@ -1,12 +1,12 @@
 # ME 1.1 working edit: Chapter 5, "The Road That Exists and the Road You Can Take"
 
-Draft for Campfire's integration and Mark's editorial decision ([COM #955](https://github.com/markgoodbody-bit/COM/issues/955); next step named in Campfire c6946218836). It turns the source map's Chapter 5 proposals into one coherent chapter edit. It is not a release, and the released v1.0 files are unchanged. The exact change against the released manuscript (SHA-256 `1315a2c2…`) is in `ch05-edit.diff`. The chapter grows from 1,246 to 1,504 words.
+Draft for Campfire's integration and Mark's editorial decision ([COM #955](https://github.com/markgoodbody-bit/COM/issues/955); next step named in Campfire c6946218836). It turns the source map's Chapter 5 proposals into one coherent chapter edit. It is not a release, and the released v1.0 files are unchanged. The exact change against the released manuscript (SHA-256 `1315a2c2…`) is in `ch05-edit.diff`. The chapter grows from 1,246 to 1,516 words.
 
 ## Changes from v1.0
 
 1. **New paragraph after line 126** (the library journey), 149 words. It names the capability lineage where the book first separates a route that exists from one a person can use. Sen (1979) on the conversion of goods into capabilities; the three kinds of conversion factor; the student's fare, timetable, work and care hours and locked entrance as such factors. It ends with the two questions the book keeps beside that tradition, timing and control, without claiming to extend it.
 2. **Line 134, one sentence added**, 39 words: the test of ordinary reserves. A route that works only for people with unusual money, stamina, expertise or contacts is not yet a route for everyone it is meant to serve. This recovers this book's own June draft (FinalEight, Book II, "From Diagnosis to Constraint", p. 188), which CC read.
-3. **New paragraph after line 146** (supported prospect), 78 words. Contentment is not evidence that a better route was unavailable or unwanted (Sen 1979, section 4), with the guard that this never licenses overriding what the person says they want.
+3. **New paragraph after line 146** (supported prospect), 90 words. Contentment is not evidence that a better route was unavailable or unwanted (Sen 1979, section 4), with the guard that this never licenses overriding what the person says they want.
 4. **Line 148, one sentence cut:** "A description of the route cannot supply them." This was the limits proposal's only cut in this chapter. The sentence before it already says the rule and duty "need their own grounds", and Scope and limits now states the general point.
 
 ## Sources (all read by CC)
@@ -56,7 +56,7 @@ Yesterday's notice of the library hours may still be correct. If the accessible 
 
 A **supported prospect** is a future that someone has a credible way to approach or build, given conditions we can identify. A child learning an instrument may need a teacher, somewhere to practise and an affordable instrument. A community workshop may let several people acquire skills together. Neither result is guaranteed; both have a firmer basis than an encouraging slogan.
 
-A supported prospect is also not measured by how content someone says they are. Sen described a person with a disability who, through a cheerful temperament or low expectations, reports being as satisfied as anyone else while still unable to move about freely. Contentment of that kind does not show that a better route was unavailable or unwanted. It never licenses overriding what the person says they want; it only stops a reduced expectation from counting as success.
+A supported prospect is also not measured by how content someone says they are. Sen described a person with a disability who, through a cheerful temperament or low expectations, reports being as satisfied as anyone else while still unable to move about freely. Contentment of that kind does not show that a better route was unavailable or unwanted. It never licenses overriding what the person says they want. Contentment alone is not evidence that the practical limitation has been removed; choosing a different goal can still be a valid decision.
 
 Such a prospect does not create a duty to pursue it, to feel optimistic or to endure a programme. An offer labelled voluntary can still place coercive pressure on someone when refusal threatens essential income, housing or care, including support described as *related* to the programme. Return to Chapter 3: who controls the terms, what does refusal really cost, and does the person have a safe way to challenge the decision? Pressure does not automatically invalidate every condition; the legitimate rule, protective duty and proportional response need their own grounds.
 
