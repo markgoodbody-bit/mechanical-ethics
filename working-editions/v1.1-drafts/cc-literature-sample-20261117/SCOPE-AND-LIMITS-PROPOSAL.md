@@ -12,11 +12,11 @@ Move a qualification to this section when it is **generic**: it would be true of
 >
 > These conditions apply to every chapter. They are stated once here so that the chapters can say what they mean.
 >
-> **What a description can settle.** The language describes what changed, who could act, which routes were usable, what was repaired and what remains. It does not assign rights, decide moral standing, set priorities between competing needs, or make a remedy happen. Those need the people affected, declared values, evidence and legitimate authority. Where a chapter asks "who can decide", it means whoever actually holds that authority under the law and institutions involved.
+> **What a description can settle.** The language describes what changed, who could act, which routes were usable, what was repaired and what remains. It does not assign rights, decide moral standing, set priorities between competing needs, or make a remedy happen. Those need the people affected, declared values, evidence and legitimate authority. Where a chapter asks "who can decide", it means whoever actually holds that authority under the law and institutions involved. Controlling an arrangement is not the same as having legitimate authority over it, and existing institutional power can itself be contested.
 >
 > **Specialist methods govern their own ground.** Medicine, law, safety engineering, scheduling, ecology and other fields have stronger methods and duties. This book's questions help locate where those methods are needed and carry evidence to them. They do not replace them.
 >
-> **Ordered and complex situations.** Routes, clocks and the stages of correction work where cause and effect can be traced. Where an outcome comes from many parts responding to each other, map the constraints and act in small, watched steps instead of tracing chains or estimating causal shares (Chapter 12).
+> **Local claims inside complex situations.** A timing or route claim applies within its evidenced scope. Where an outcome comes from many parts responding to each other, such a claim can stay useful (an ambulance still has a deadline) without forecasting the whole result. There, map constraints alongside causal inquiry, and act in bounded, watched trials whose remaining effects are counted (Chapter 12). Interacting effects do not divide automatically into unique shares; any attribution needs its assumptions stated.
 >
 > **Arrangements, not motives.** The book describes barriers, incentives, delays and who benefits from them. Unless separate evidence shows deliberate obstruction, those descriptions do not establish anyone's intentions. The predator position (Chapter 9) is defined by what an arrangement does, not by what someone wants.
 >
@@ -38,7 +38,7 @@ The safety note ("If you are being harmed now", line 20) stays at the front. It 
 | 310 | "…though they do not prove an individual decision-maker's inner motive." | Generic: motive | Cut the clause. |
 | 324 | "That is an observable arrangement, not proof of a secret malicious intention." | Generic: motive (a paragraph of its own) | Cut. |
 | 354 | "…; those depend on the affected people and the relevant authority." | Generic: authority | Cut the final clause; keep the claim that naming residue does not settle what is owed. |
-| 464 | "Which institution may do that is a matter for law, policy, democratic legitimacy and domain expertise, not an automatic instruction issued by this vocabulary." | Generic: authority | Cut. **Done** in the Chapter 12 sample. |
+| 464 | "Which institution may do that is a matter for law, policy, democratic legitimacy and domain expertise, not an automatic instruction issued by this vocabulary." | Generic: authority | Cut. **Done** in the Chapter 12 candidate. |
 | 506 | "When we encounter a stronger specialist method, that method should take over the work it is competent to do." | Repeats line 502 | Cut. |
 | 534 | "These tests require real evidence, legitimate institutional authority, and means of challenge; …" | Generic: authority | Keep only "they do not override voluntary personal refusal or grant a stranger a right to intervene". |
 
