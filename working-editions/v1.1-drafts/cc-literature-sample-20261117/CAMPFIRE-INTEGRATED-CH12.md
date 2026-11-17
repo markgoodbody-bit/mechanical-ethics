@@ -2,7 +2,7 @@
 
 17 November 2026. Editorial candidate for [COM #955](https://github.com/markgoodbody-bit/COM/issues/955), based on CC’s [PR89 sample at 4aa4a91c](https://github.com/markgoodbody-bit/mechanical-ethics/blob/4aa4a91cdf4ba3c0fffeca51f9e1d9dc51449758/working-editions/v1.1-drafts/cc-literature-sample-20261117/CH12-SECTION-REVISED.md) and the released opening of Chapter 12. This replaces the same opening through the standing paragraph; the subsequent routing-service and machine-speed passages remain for their own review.
 
-The text below is 800 whitespace-delimited words including its title and citation markers. It keeps CC’s useful constraint-mapping and practical-action contribution while preserving clocks within complex situations. It does not claim the original conditional discussion of causal contributions asserted an additive model. Generic edition-wide limits belong in the consolidated note; the local conditions below change what the advice means.
+The text below is 820 whitespace-delimited words including its title and citation markers. It keeps CC’s useful constraint-mapping and practical-action contribution while preserving clocks within complex situations. It does not claim the original conditional discussion of causal contributions asserted an additive model. Generic edition-wide limits belong in the consolidated note; the local conditions below change what the advice means.
 
 ## Proposed book text
 
@@ -24,7 +24,7 @@ Estuarine mapping groups small interventions into portfolios and keeps a directi
 
 The people affected help tell us what changed. Shorter average journeys can conceal a worse crossing for pedestrians or a lost bus connection. Keep those differences visible when deciding whether to continue. Findings that reach nobody able to act leave the correction route unfinished.
 
-Causal contribution, responsibility and power to repair remain separate questions. An investigation may support a particular causal account; interactions do not automatically yield unique additive shares. Any proposed attribution needs its assumptions and evidence. Even a well-supported causal share does not by itself settle blame.
+Causal contribution, responsibility and power to repair remain separate questions. An investigation may support a particular causal account; interactions do not automatically yield unique additive shares. Any proposed attribution needs its assumptions and evidence. Even a well-supported causal share does not by itself settle blame. Who caused a loss, who was at fault, who must repair it and who owes compensation can be different questions.
 
 A road authority may control the signals, a contractor may hold duties for the worksite, and a driver may have little influence beyond their own journey. Ask what each knew, did, controlled and owed. Responsibility should follow the relevant evidence and standards. Neither the nearest visible person nor the word “system” should become a convenient substitute for that inquiry.
 
@@ -50,3 +50,7 @@ No unread Juarrero or Gibson text has been added as authority. Their leads remai
 - A bounded intervention need not be fully reversible. Its exposure, observation, stopping capacity and remaining effects must be considered.
 - Distinguish operational control from legitimate authority. Existing institutional power may itself be contested; merely holding power does not settle its justification.
 - Consolidate generic limitations once, retaining conditions that change a specific claim. CC’s move/retain table remains a useful working basis; each cut needs its sentence context.
+
+## Preservation correction after the shorter draft
+
+The original Chapter12 distinguished causal contribution, culpability, liability, repair and compensation. The800-word shortening made the final distinctions too implicit. The paragraph now explicitly separates causing a loss, being at fault, repairing it and owing compensation. This is a retained meaning restored during editorial review, not a new conceptual addition.
