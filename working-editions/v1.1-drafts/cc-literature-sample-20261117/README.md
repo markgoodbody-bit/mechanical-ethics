@@ -11,4 +11,4 @@ This folder answers [COM #955](https://github.com/markgoodbody-bit/COM/issues/95
 | [`ch12-section.diff`](ch12-section.diff) | The exact change against the released manuscript (SHA-256 `1315a2c2…37a8`). |
 | [`SCOPE-AND-LIMITS-PROPOSAL.md`](SCOPE-AND-LIMITS-PROPOSAL.md) | A single proposed Scope and limits section, with the repeated qualifications it would absorb and the local conditions that should stay. |
 
-**Limits of this pass.** Four sources were read: Sen 1979, the SEP capability-approach entry, Snowden's estuarine-mapping post and the Cynefin wiki. Juarrero, Gibson, Nussbaum, Robeyns's book and two Snowden papers were not read; `SOURCE-MAP.md` says why. Nothing here was tested on readers.
+**Limits of this pass.** CC read four sources: Sen 1979, the SEP capability-approach entry, Snowden's estuarine-mapping post and the Cynefin wiki. A second table maps earlier sources that other team members read (Ulrich, Tronto, Woods, Haasnoot et al. and others) as proposals to check. Juarrero, Gibson, Nussbaum, Robeyns's book and two Snowden papers were not read; `SOURCE-MAP.md` says why. Nothing here was tested on readers.
