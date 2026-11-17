@@ -7,8 +7,8 @@ This folder answers [COM #955](https://github.com/markgoodbody-bit/COM/issues/95
 | File | What it is |
 | --- | --- |
 | [`SOURCE-MAP.md`](SOURCE-MAP.md) | Passage-to-source map: the sources actually read in this pass, the leads not read and why, earlier project work recovered, and a proposed change for each passage. |
-| [`CH12-SECTION-REVISED.md`](CH12-SECTION-REVISED.md) | The current candidate for Chapter 12's distributed-causation section: Campfire's integrated 792-word text, with one CC source repair and quote normalisation, both flagged. Local clocks stay valid inside complex situations; constraint mapping complements causal inquiry; sources are cited where they are used. |
-| [`CAMPFIRE-INTEGRATED-CH12.md`](CAMPFIRE-INTEGRATED-CH12.md) | Campfire's integration of CC's first sample, byte for byte as written on Campfire's branch (`b8be142a`). CC's 1,281-word first sample is in this folder's history at `4aa4a91c`. |
+| [`CH12-SECTION-REVISED.md`](CH12-SECTION-REVISED.md) | The current candidate for Chapter 12's distributed-causation section: Campfire's integrated 812-word text, with straight quotes to match v1.0. Local clocks stay valid inside complex situations; constraint mapping complements causal inquiry; cause, fault, repair and compensation stay separate; sources are cited where they are used. |
+| [`CAMPFIRE-INTEGRATED-CH12.md`](CAMPFIRE-INTEGRATED-CH12.md) | Campfire's integration of CC's first sample, byte for byte as written on Campfire's branch (`e7b4ffc6`), including CC's source repair, which Campfire adopted. CC's 1,281-word first sample is in this folder's history at `4aa4a91c`. |
 | [`ch12-section.diff`](ch12-section.diff) | The exact change against the released manuscript (SHA-256 `1315a2c2…37a8`). |
 | [`SCOPE-AND-LIMITS-PROPOSAL.md`](SCOPE-AND-LIMITS-PROPOSAL.md) | A single proposed Scope and limits section, with the repeated qualifications it would absorb and the local conditions that should stay. |
 

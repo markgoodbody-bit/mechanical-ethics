@@ -4,20 +4,17 @@ Task: [COM #955](https://github.com/markgoodbody-bit/COM/issues/955). Draft for 
 
 ## Provenance
 
-- **Text:** Campfire's integrated version, [`CAMPFIRE-INTEGRATED-CH12.md`](CAMPFIRE-INTEGRATED-CH12.md), copied here byte for byte (blob `fe1f8d91`, Campfire branch commit `b8be142a`). Campfire cut CC's 1,281-word first sample to about 800 words. It keeps the constraint-mapping and practical-action material and corrects five points: clocks stay valid locally inside complex situations; v1.0 never asserted additive shares; causal inquiry continues alongside constraint mapping; small trials are not necessarily reversible; control is not the same as legitimate authority.
+- **Text:** Campfire's integrated version, [`CAMPFIRE-INTEGRATED-CH12.md`](CAMPFIRE-INTEGRATED-CH12.md), copied byte for byte from Campfire's branch at `e7b4ffc6` (blob `5c6de9e3`). That version reached its current form in three steps:
+  1. **`b8be142a`:** Campfire cut CC's 1,281-word first sample to about 800 words. It corrected five points: clocks stay valid locally inside complex situations; v1.0 never asserted additive shares; causal inquiry continues alongside constraint mapping; small trials are not necessarily reversible; control is not legitimate authority.
+  2. **`1e20589f`:** Campfire restored one meaning the shortening had made too implicit. Causing a loss, being at fault, repairing it and owing compensation are separate questions, as the released chapter says.
+  3. **`e7b4ffc6`:** Campfire adopted CC's source repair. Reference [1] now also cites the Cynefin wiki for the claims that understood relationships allow analysis and changing patterns call for learning through action; the "about" page supports only matching action to context.
 - **CC's first sample** stays in this file's history at `4aa4a91c`.
-- **Two CC changes to Campfire's text, both flagged here:**
-  1. *Source repair.* Campfire's reference [1] cited only the Cynefin Company's "about" page. CC read that page on 17 November. It supports matching action to context and telling what is complex from what is routine. It does not state the next two sentences' specific claims: that analysis can guide a repair where relationships are understood, and that changing patterns call for learning through action. Those follow the Cynefin wiki's ordered/complex distinction. The [1] marker now sits after them, and reference [1] cites both pages.
-  2. *Typography.* Curly quotes and apostrophes are changed to straight ones, matching the v1.0 manuscript (134 straight apostrophes against 4 curly).
+- **One remaining CC change, typographic:** curly quotes and apostrophes are changed to straight ones in the candidate text, matching the v1.0 manuscript (134 straight apostrophes against 4 curly). Campfire's own file is unchanged.
 - **Continuation check:** the next untouched v1.0 paragraph (line 472) begins "A routing service offers suggested journeys to those same drivers." "Those same drivers" still points back to the morning-rush drivers in the new second paragraph. The new text already mentions routing apps, so line 472 introduces them a second time. An editor may want to change "A routing service" to "The routing service". No other break was found.
 
 ## Notes entries for this section (v1.0 cites sources in prose and Notes, not numbered markers; place these in Notes or convert the markers)
 
-[1] The Cynefin Company, "The Cynefin Framework", https://thecynefin.co/about-us/about-cynefin-framework/ (matching action to context); and "Cynefin", Cynefin wiki page as at February 2021, https://cynefin.io/wiki/Cynefin (ordered systems, where cause and effect are clear or discoverable through analysis; complex systems, understood only by interacting). Both accessed 17 November 2026. The ambulance and deadline distinction is our application, not a claim of the framework.
-
-[2] Dave Snowden, "Estuarine mapping first edition", The Cynefin Company blog, 7 October 2022, https://thecynefin.co/estuarine-mapping/, outline steps 1–7, accessed 17 November 2026. It supports the effort and time assessment, the planning and vulnerability boundaries, monitoring and portfolios of small interventions. The road example is our illustration; the source gives no evidence that this trial would work.
-
-No unread Juarrero or Gibson text is cited.
+The references are those in `CAMPFIRE-INTEGRATED-CH12.md`, "References and source boundaries": [1] the Cynefin Company's framework page and the Cynefin wiki's "Cynefin" page; [2] Snowden, "Estuarine mapping first edition" (2022), steps 1–7. No unread Juarrero or Gibson text is cited.
 
 ## Candidate text
 
@@ -39,7 +36,7 @@ Estuarine mapping groups small interventions into portfolios and keeps a directi
 
 The people affected help tell us what changed. Shorter average journeys can conceal a worse crossing for pedestrians or a lost bus connection. Keep those differences visible when deciding whether to continue. Findings that reach nobody able to act leave the correction route unfinished.
 
-Causal contribution, responsibility and power to repair remain separate questions. An investigation may support a particular causal account; interactions do not automatically yield unique additive shares. Any proposed attribution needs its assumptions and evidence. Even a well-supported causal share does not by itself settle blame.
+Causal contribution, responsibility and power to repair remain separate questions. An investigation may support a particular causal account; interactions do not automatically yield unique additive shares. Any proposed attribution needs its assumptions and evidence. Even a well-supported causal share does not by itself settle blame. Who caused a loss, who was at fault, who must repair it and who owes compensation can be different questions.
 
 A road authority may control the signals, a contractor may hold duties for the worksite, and a driver may have little influence beyond their own journey. Ask what each knew, did, controlled and owed. Responsibility should follow the relevant evidence and standards. Neither the nearest visible person nor the word "system" should become a convenient substitute for that inquiry.
 

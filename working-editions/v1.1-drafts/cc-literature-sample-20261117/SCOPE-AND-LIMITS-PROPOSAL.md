@@ -40,7 +40,6 @@ The safety note ("If you are being harmed now", line 20) stays at the front. It 
 | 354 | "…; those depend on the affected people and the relevant authority." | Generic: authority | Cut the final clause; keep the claim that naming residue does not settle what is owed. |
 | 464 | "Which institution may do that is a matter for law, policy, democratic legitimacy and domain expertise, not an automatic instruction issued by this vocabulary." | Generic: authority | Cut. **Done** in the Chapter 12 candidate. |
 | 506 | "When we encounter a stronger specialist method, that method should take over the work it is competent to do." | Repeats line 502 | Cut. |
-| 534 | "These tests require real evidence, legitimate institutional authority, and means of challenge; …" | Generic: authority | Keep only "they do not override voluntary personal refusal or grant a stranger a right to intervene". |
 
 ## Conditions that stay where they are (they change the claim)
 
@@ -52,6 +51,9 @@ The safety note ("If you are being harmed now", line 20) stays at the front. It 
 - **326:** the predator position's own limits (a position, not an identity or a motive). These are part of the definition.
 - **366:** "Recorded residue is not repaired residue."
 - **502:** at the point of transfer, the stronger domain method governs. That is Chapter 13's argument.
+- **534:** the conditions on the book's practical normative demand. The first version of this proposal listed it as a generic cut. Campfire checked it in its paragraph (COM #955 c6944470699): it states what the demand's tests need, so it stays. A compact form would be: "These tests need evidence, legitimate authority and a way to challenge them; they do not override personal refusal or give a stranger a right to intervene."
+
+Every cut in the table above still needs an editor to read it in its paragraph, as line 534 showed.
 
 ## How the inventory was made
 
