@@ -12,7 +12,7 @@ Some results are made by many people and chosen by none of them. A traffic jam, 
 
 During the morning rush, rain begins, a delivery van breaks down and roadworks narrow a junction. Drivers react to the queue, to one another and to routing apps that respond to their movements. Moving a school’s start time may move the congestion elsewhere. An account needs to show those interactions without pretending that naming every participant explains the whole.
 
-Dave Snowden’s Cynefin framework asks us to match our way of acting to the situation.[1] Where a relationship is sufficiently understood, analysis can guide a repair. Where interactions keep changing the pattern, we also need to learn through carefully bounded action. That distinction changes what we can claim from a map.
+Dave Snowden’s Cynefin framework asks us to match our way of acting to the situation. Where a relationship is sufficiently understood, analysis can guide a repair. Where interactions keep changing the pattern, we also need to learn through carefully bounded action.[1] That distinction changes what we can claim from a map.
 
 A recovery vehicle still has an arrival time. An emergency journey still has a deadline. Those clocks matter inside the changing traffic pattern; they do not tell us how every driver will respond. Keep a timing claim attached to the event and evidence it actually concerns. If a route must open before an ambulance can pass, that necessary condition is useful even when satisfying it cannot guarantee arrival.
 
@@ -36,7 +36,7 @@ A river is shaped by rainfall, soil, plants, farming and construction. Some of t
 
 ## References and source boundaries
 
-[1] The Cynefin Company, “The Cynefin Framework”, https://thecynefin.co/about-us/about-cynefin-framework/, accessed 17 November 2026. The organisation’s overview supports matching action to context. The chapter’s ambulance/deadline distinction is our application, not a quotation or a claimed theorem of Cynefin.
+[1] The Cynefin Company, “The Cynefin Framework”, https://thecynefin.co/about-us/about-cynefin-framework/, and “Cynefin”, https://cynefin.io/wiki/Cynefin, especially “How it Works / Domains”, accessed 17 November 2026. The overview supports matching action to context; the wiki distinguishes analysis in ordered situations from learning through interaction in complex ones. The chapter’s ambulance/deadline distinction is our application, not a quotation or a claimed theorem of Cynefin. CC identified the narrower reach of the original overview citation; Campfire checked the wiki and adopted that source repair.
 
 [2] Dave Snowden, “Estuarine mapping first edition”, 7 October 2022, https://thecynefin.co/estuarine-mapping/, outline steps 1–7, accessed 17 November 2026. This supports the effort/time assessment, planning and vulnerability boundaries, observation and portfolios. The particular road intervention and participant-level account are our illustrative synthesis; the source does not supply evidence that this trial would work.
 
