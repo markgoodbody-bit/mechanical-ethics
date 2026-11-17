@@ -1,0 +1,65 @@
+# ME 1.1 working edit: Chapter 5, "The Road That Exists and the Road You Can Take"
+
+Draft for Campfire's integration and Mark's editorial decision ([COM #955](https://github.com/markgoodbody-bit/COM/issues/955); next step named in Campfire c6946218836). It turns the source map's Chapter 5 proposals into one coherent chapter edit. It is not a release, and the released v1.0 files are unchanged. The exact change against the released manuscript (SHA-256 `1315a2c2…`) is in `ch05-edit.diff`. The chapter grows from 1,246 to 1,504 words.
+
+## Changes from v1.0
+
+1. **New paragraph after line 126** (the library journey), 149 words. It names the capability lineage where the book first separates a route that exists from one a person can use. Sen (1979) on the conversion of goods into capabilities; the three kinds of conversion factor; the student's fare, timetable, work and care hours and locked entrance as such factors. It ends with the two questions the book keeps beside that tradition, timing and control, without claiming to extend it.
+2. **Line 134, one sentence added**, 39 words: the test of ordinary reserves. A route that works only for people with unusual money, stamina, expertise or contacts is not yet a route for everyone it is meant to serve. This recovers this book's own June draft (FinalEight, Book II, "From Diagnosis to Constraint", p. 188), which CC read.
+3. **New paragraph after line 146** (supported prospect), 78 words. Contentment is not evidence that a better route was unavailable or unwanted (Sen 1979, section 4), with the guard that this never licenses overriding what the person says they want.
+4. **Line 148, one sentence cut:** "A description of the route cannot supply them." This was the limits proposal's only cut in this chapter. The sentence before it already says the rule and duty "need their own grounds", and Scope and limits now states the general point.
+
+## Sources (all read by CC)
+
+- Sen 1979, section 4, from the Tanner Lectures site: "the conversion of goods to capabilities varies from person to person substantially"; the example of low aspiration or a cheerful disposition hiding a lack of basic capability.
+- Robeyns and Byskov, SEP "The Capability Approach" (2025), sections 2.2–2.3: real versus formal freedom, the three kinds of conversion factor and the bicycle example.
+- FinalEight (unpublished, 4 June 2026), p. 188, in Campfire's extraction (relay `dde1bc37`): "A repair that only works for people with savings, expertise, social capital, legal help, free time, or unusual stamina is not yet a serious answer".
+
+## Notes entry to add
+
+Add this paragraph to "Sources and authorship" in `ME11-WORKING-SLICE.md`, before "Chapters 11 and 12 in this working edition":
+
+**Chapter 5 in this working edition.** The distinction between having goods and being able to use them follows Amartya Sen, "Equality of What?", Tanner Lecture on Human Values, Stanford University, 22 May 1979, section 4, "Basic Capability Equality" (https://tannerlectures.org/documents/sen80/, accessed 17 November 2026), including the example of contentment that hides a lack of basic capability. The three kinds of conversion factor and the bicycle example follow Ingrid Robeyns and Morten Fibieger Byskov, "The Capability Approach", *Stanford Encyclopedia of Philosophy* (substantive revision 17 April 2025), sections 2.2 and 2.3. The test of ordinary reserves recovers this book's own earlier draft, the unpublished *ME Final Eight* raw source (4 June 2026), Book II, "From Diagnosis to Constraint".
+
+## Left for the editor
+
+- James J. Gibson's affordances bear on the same paragraph (a route usable relative to a particular person), but no legitimate open copy was found, so nothing is cited.
+- The map's Chapter 2 (Parr and Friston), Chapter 6 (estuarine cost and time; Haasnoot) and Chapter 9 (Chernets) proposals remain separate edits.
+
+## Chapter 5 text
+
+# 5. The Road That Exists and the Road You Can Take
+
+A **route** is a way in which a particular result might be reached from present conditions. Seeing a way forward is weaker than being able to take it: the person needs sufficient information, practical resources, permission where legitimate, and time. A road shown on a map may be real without being usable for the person who wants to travel along it.
+
+A library across town has the book a student needs, and the map shows a straightforward journey. The student still has to fit that journey around the bus timetable, the cost of travel and any work or care commitments. A step-free entrance may exist yet be locked when they arrive. The map remains accurate about the street, while the claim that this student can borrow the book needs more evidence.
+
+This gap between having something and being able to use it has a history outside this book. In his 1979 Tanner Lecture, the economist and philosopher Amartya Sen argued that giving people equal goods can leave them far from equal in what they can do, because the conversion of goods into capabilities varies substantially from person to person. Writers in the capability approach that grew from his work sort the differences into personal, social and environmental conversion factors: a bicycle gives mobility to someone who can ride it, where riding is permitted and the roads are fit to use. The student's fare, the bus timetable, their hours of work and care and the locked step-free entrance are conversion factors of exactly this kind. This book keeps two questions beside that tradition: whether the route works in time for the result that matters (Chapter 6), and who controls each condition.
+
+Recall the child who could see the glass but could not reach it on a high shelf. The adult controlled its placement, the child lived with the practical result, and the observation that water was present did not make it accessible. The library creates a related separation without reproducing the family relationship. Trustees or managers may set opening hours, a contractor may control an entrance, a bus operator determines the last connection, and staff must keep the building usable. The student experiences what those arrangements make possible together. No single actor need have planned the student's difficulty for it to arise.
+
+It matters which part is being examined. A printed timetable is an **account** carried to the visitor; seeing that an entrance is locked is an **observation** through an aperture; the locked door itself constrains the **route**. These are connected but different things. If a notice promises accessible entry and a broken lock prevents it, updating the notice changes what people know, while repairing the lock changes what they can do. The distinction is the same one we met with the water glass, now carried across people and institutions through identifiable connections.
+
+The journey is **approachable** when the student can begin it. Calling the book **reachable** is a stronger statement because it requires a feasible way to obtain the book within the time that matters. Where the evidence covers only part of the journey, the honest answer is uncertain. A rule that prevents entry belongs in the account as a real constraint; whether it is justified remains a question for those with the relevant standing and authority.
+
+A possible route is not necessarily a usable one. A published path may exist while the person lacks a bus, money, safe access or enough time. The practical question is whether *they* can travel it. A second test asks whether someone without unusual money, stamina, expertise or contacts could travel it too. A route that works only for people with those reserves is not yet a route for everyone it is meant to serve.
+
+Difficulty can also be made from the join between otherwise defensible rules. The transport operator wants an advance booking, the library asks for an identity document, the accessible entrance requires a staff member to open it, and the complaint team accepts only an online reference number. Each step may have a reason. Together they can make the journey unusable for a particular visitor. The institution cannot answer that problem simply by pointing to the correctness of each step in isolation. Somebody has designed or maintained the categories, hand-offs and permissions, even where no one designed the entire maze. Complex work in medicine, finance or public services often needs specialist safeguards; the answer is not to abolish necessary complexity. It is to ask whether the organisation can carry more of its own map, pass the relevant evidence and clock between its parts, and give the visitor one usable route to someone able to help. The person encountering the failure should not have to become an expert in the entire institution merely to discover where its responsibilities meet.
+
+Sometimes no route was offered in the first place. A form may have categories for approved and rejected applications, but no category for people who never encountered the invitation, lacked the language or technology to apply, or were excluded from the target group before a file existed. **A missing record of refusal is not evidence of a fair opportunity.** The boundary of the institution's measured applicants is not necessarily the boundary of affected people. The unheard person may be invisible to the very system intended to demonstrate that access was open.
+
+Even where a path exists in each version of the world we are considering, a person may not know how to select a safe one. Imagine two streets that look identical from the corner. One is open beyond the bend, the other blocked. In one possible arrangement the left turn succeeds; in the other, the right. An all-knowing map of both arrangements contains a successful route for each. But the traveller cannot distinguish the arrangements yet, so the evidence does not establish a **single observation-based policy guaranteed to succeed across both**. An arbitrary first turn might succeed in one. That is weaker than a warranted plan for either uncertain situation.
+
+A sign placed before the corner can change what the traveller knows. A bridge can make a route feasible whichever street is blocked. These are not the same intervention: one improves information, the other changes the available world. Sometimes the smallest helpful thing is a better account; sometimes it is a new road; sometimes it is giving an already capable person the resources and permission to carry the work. The distinction makes positive construction more precise rather than less ambitious.
+
+Yesterday's notice of the library hours may still be correct. If the accessible entrance has closed, however, the student's intended journey changes even while the printed opening hours remain the same. A fresh observation can alter what the student knows, although it will only help if the information reaches them while they can still do something with it. The institution may have to change the entrance arrangements rather than merely update the notice.
+
+A **supported prospect** is a future that someone has a credible way to approach or build, given conditions we can identify. A child learning an instrument may need a teacher, somewhere to practise and an affordable instrument. A community workshop may let several people acquire skills together. Neither result is guaranteed; both have a firmer basis than an encouraging slogan.
+
+A supported prospect is also not measured by how content someone says they are. Sen described a person with a disability who, through a cheerful temperament or low expectations, reports being as satisfied as anyone else while still unable to move about freely. Contentment of that kind does not show that a better route was unavailable or unwanted. It never licenses overriding what the person says they want; it only stops a reduced expectation from counting as success.
+
+Such a prospect does not create a duty to pursue it, to feel optimistic or to endure a programme. An offer labelled voluntary can still place coercive pressure on someone when refusal threatens essential income, housing or care, including support described as *related* to the programme. Return to Chapter 3: who controls the terms, what does refusal really cost, and does the person have a safe way to challenge the decision? Pressure does not automatically invalidate every condition; the legitimate rule, protective duty and proportional response need their own grounds.
+
+A road that can be used today might close tomorrow. Another road can become possible through learning, cooperation or public investment. We can now ask better questions than whether an option appears somewhere in a policy document. Is it known to the person concerned? Can they take it without surrendering something they have not agreed to give? Is it maintainable? And, once they begin, can anyone carry the action all the way to its needed effect before the relevant future closes?
+
+By the time the student checks the notice and boards the bus, the closing hour is drawing nearer. Whether the journey succeeds now depends on more than the existence of a route.
