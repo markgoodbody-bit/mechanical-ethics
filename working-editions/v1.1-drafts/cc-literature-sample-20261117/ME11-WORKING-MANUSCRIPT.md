@@ -2,10 +2,10 @@
 title: Mechanical Ethics
 subtitle: A Middle-Out Reasoning Language
 lang: en-GB
-date: "ME 1.1 working manuscript | 17 November 2026"
+date: "ME 1.1 working manuscript | 18 November 2026"
 ---
 
-*Mechanical Ethics 1.1 — full working manuscript, 17 November 2026. All fourteen chapters and the glossary are present. Current integrated revisions affect Chapters 5, 9, 11, 12 and the Notes; the remaining chapters retain the released 1.0 text pending their revision.*
+*Mechanical Ethics 1.1 — full working manuscript, 18 November 2026. All fourteen chapters and the glossary are present. Current integrated revisions affect Chapters 5, 6, 9, 11, 12 and the Notes; the remaining chapters retain the released 1.0 text pending their revision.*
 
 # A note before we begin
 
@@ -167,7 +167,11 @@ Other paths become stronger through time. A musician practises until playing a d
 
 **Hardening** is what happens when undoing a particular loss grows harder, more costly, possible for fewer people or impossible in a comparable form. A missed lesson cannot be attended yesterday. A worsening illness may narrow treatment choices. But time can also strengthen things: practice makes a skill more dependable, and kept promises can build trust. That strengthening is **consolidation**. Neither the passage of time nor the fact of closure decides whether an outcome is right.
 
-For an important threatened path, we may have to ask two different timing questions. When will the damage become difficult or impossible to reverse in a comparable way? And when can a particular corrective action actually be completed, given the people, permissions, resources and uncertainty involved? A fast promise is not the same as a feasible intervention.
+The library offers half an hour of help with its catalogue. A student who has tried it can say where they got stuck. A librarian has time to sit with them, and the student wants to try again. That visit can give them a skill they take to the next library. Keeping some staff time free and giving people a choice about how to ask can make such openings more common.
+
+David Ing and Gary Metcalf draw on the distinction between measured time, *chronos*, and a favourable occasion for an activity, *kairos* (see the Notes). Both questions matter for the student. How much time is available? What can they do with this visit?
+
+To see if a particular loss can still be prevented, compare two times from a common starting event. When will the damage become difficult or impossible to reverse in a comparable way? And when can a particular corrective action actually be completed, given the people, permissions, resources and uncertainty involved? A fast promise is not the same as a feasible intervention.
 
 In the garden the watering instruction had to reach a key holder before anyone could take the can to the plants. In a library, a decision about the opening hours may have to pass through a budget, staff rota, building manager and door system before a visitor can use it. These stages may overlap, wait in queues or send a question backwards for another decision. It would be misleading to add a series of ideal processing times while ignoring an unstaffed handover or the hour at which the door actually opens. We should follow the particular route from a common evidenced starting event to the effect needed by the person exposed to the loss. An organisation's clock is therefore made from connected processes, not just the date printed on its decision.
 
@@ -176,6 +180,8 @@ A timely correction has several stages. Someone must **detect** the relevant cha
 Detection, reporting, authorisation and execution may overlap or need several passes. What counts is the elapsed time until the **protective effect**, supported by evidence about the particular route. A quick acknowledgement can be followed by a delay that defeats the purpose.
 
 When an intervention aims to prevent a specified loss, its protective effect must occur **strictly before** that loss becomes too hard to prevent. We can write the timing relationship as *T(protect, a) < T(harden, a)*, where *a* denotes the action being considered. The strict inequality is necessary for that particular prevention, but a fast action can still fail, be unauthorised or impose an unacceptable burden. The clocks alone decide none of those questions.
+
+In adaptive water planning, Haasnoot and colleagues account for the lead time a new policy needs before the old one ceases to meet its objectives (see the Notes). The same practical question arises when somebody faces a particular loss. When must the work start for protection to reach them in time?
 
 The common starting event is part of the evidence, just as the threatened loss needs a defensible description. A temporary hold can shift the expected time of one loss while creating a new exposure for somebody else, so its effects must be examined together rather than treated as free insurance. When the times or the criterion are contested, that disagreement belongs in the account.
 
@@ -195,9 +201,9 @@ For the person refused support, there may be more than one loss. An eventual pay
 
 Different paths have different clocks. A late payment may restore money while leaving a missed train in the past. Medicine may require probabilistic estimates rather than a single deadline. When we lack sound timing bounds, **UNKNOWN** is an informative result: it tells the decision-maker where better evidence or an immediate precaution may matter.
 
-Several open windows can also conflict. Suppose three households each need a two-day repair by one crew, with relevant losses hardening before days three, four and seven. Each job could finish within its own window **if the crew were free**. One crew cannot finish all three in time merely because each individual comparison passes. The shared crew, competing tasks and ordering must be assessed together; a second crew or a safe temporary measure may change what is feasible. If one path must wait, the priority requires a decision made under legitimate authority and open to challenge. Neither a queue nor the timing inequality can make that decision by itself. Detailed scheduling belongs to competent resource planners.
+Several open windows can also conflict. Suppose three households each need a two-day repair by one crew, with relevant losses hardening before days three, four and seven. Each job could finish within its own window **if the crew were free**. One crew cannot finish all three in time merely because each individual comparison passes. The shared crew, competing tasks and ordering must be assessed together; a second crew or a safe temporary measure may change what is feasible. If one path must wait, the priority requires a decision made under legitimate authority and open to challenge. Neither a queue nor the timing inequality can make that decision by itself.
 
-A hold creates a second exposed party and its own urgency. Delaying one household's work may place another in danger, while temporarily stopping an automated refusal may require an interim payment. We must account for both rather than pretending caution has no cost, or assuming that the two effects carry equal moral weight. Only legitimate decisions about competing needs can settle priority.
+A hold creates a second exposed party and its own urgency. Delaying one household's work may place another in danger, while temporarily stopping an automated refusal may require an interim payment. We must account for both rather than pretending caution has no cost, or assuming that the two effects carry equal moral weight.
 
 The next issue is who has the means to change the journey and who must wait for them.
 
@@ -623,7 +629,7 @@ The Chapter 10 residue ledger is an **illustrative account design**, not an exis
 
 ## Status and evidence
 
-This is a full working manuscript for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It retains all fourteen chapters and the glossary, with current integrated revisions to Chapters 5, 9, 11, 12 and the Notes. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
+This is a full working manuscript for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It retains all fourteen chapters and the glossary, with current integrated revisions to Chapters 5, 6, 9, 11, 12 and the Notes. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
 
 This text is for editorial integration and Mark's decision. The accompanying diff records its changes, and the released source remains unchanged. The inherited illustrations remain provisional. The limits of the evidence for the book are stated under Scope and limits above.
 
@@ -636,6 +642,8 @@ Released Mechanical Ethics **v0.8.0** and TRACE **v0.4.0** remain separate, unch
 The v1.0 preservation pass re-read the complete released v0.8.0 human reader alongside DEV4 and restored a limited set of its substantive tests: meaningful exit, costly complexity, strategic uncertainty, the predator position, collective evidence, correction theatre, non-extractive cooperation, hope and the safety and limitation boundaries. The paired-flats and funding scenes are constructed illustrations. For Kelsey, see the US Food and Drug Administration, *Frances Oldham Kelsey: Medical Reviewer Famous for Averting a Public Health Tragedy* (FDA History Exhibits), https://www.fda.gov/about-fda/fda-history-exhibits/frances-oldham-kelsey-medical-reviewer-famous-averting-public-health-tragedy. For *Challenger*, see *Report of the Presidential Commission on the Space Shuttle Challenger Accident*, Volume I, Chapter V, *The Contributing Cause of the Accident*, especially printed pages 82–85 on the decision to launch, https://www.nasa.gov/history/rogersrep/v1ch5.htm. Neither example turns uncertainty into a universal mandate to stop or historical analogy into proof of every institutional failure.
 
 **Chapter 5 in this working edition.** The distinction between having goods and being able to use them follows Amartya Sen, "Equality of What?", Tanner Lecture on Human Values, Stanford University, 22 May 1979, section 4, "Basic Capability Equality" (https://tannerlectures.org/documents/sen80/, accessed 17 November 2026), including the example of contentment that hides a lack of basic capability. The three kinds of conversion factor and the bicycle example follow Ingrid Robeyns and Morten Fibieger Byskov, "The Capability Approach", *Stanford Encyclopedia of Philosophy* (substantive revision 17 April 2025), sections 2.2 and 2.3. The test of ordinary reserves recovers this book's own earlier draft, the unpublished *ME Final Eight* raw source (4 June 2026), Book II, "From Diagnosis to Constraint".
+
+**Chapter 6 in this working edition.** David Ing and Gary S. Metcalf discuss chronos and kairos in [*Reframing Systems Thinking for Systems Changes*](https://coevolving.com/pubs/2024_JISSS_v67_a4154_ReframingSystemsThinkingForSystemsChanges.pdf) (2024), in the paragraph on the nature of time in (con)texturalism-dyadicism. They cite Orlikowski and Yates (2002, p. 686) for the distinction. The catalogue example shows how a person's occasion to act can form within a measured window. Marjolijn Haasnoot, Jan H. Kwakkel, Warren E. Walker and Judith ter Maat, [*Dynamic Adaptive Policy Pathways*](https://ris.utwente.nl/ws/files/247793059/Haasnoot2013dynamic.pdf) (2013), section 5, connect policy tipping points with the lead time needed for an alternative. Chapter 6 identifies the person affected and the specific loss when applying its own timing comparison.
 
 **Chapter 9 in this working edition.** The point about witnesses who share a source draws on Vadym Chernets, "Agreement Is Not Independent Evidence: Auditable Multi-Model Synthesis Without an API" (updated 18 October 2026; version of record SSRN 7390698, DOI 10.2139/ssrn.7390698), sections 1.1 and 5, read on 17 November 2026. The example of ten witnesses and one recording is his. He credits the design-effect arithmetic to Leslie Kish's survey-sampling work (1965) and its application to a panel of AI judges to Kohli (2026); he cites Kim et al. (2025) for evidence of correlated errors across models. Those earlier sources were not consulted for this edition. The model assumes errors that are equally correlated between sources; the chapter uses it as an illustration, not as a general rule for weighing testimony.
 

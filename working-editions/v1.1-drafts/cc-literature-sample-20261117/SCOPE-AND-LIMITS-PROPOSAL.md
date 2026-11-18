@@ -32,8 +32,8 @@ The safety note ("If you are being harmed now", line 20) stays at the front. It 
 | --- | --- | --- | --- |
 | 18 | The opening note's whole limits paragraph ("There is a limit to what this language establishes…") | Generic: authority and specialist methods | Shorten to two sentences and point to Scope and limits. |
 | 148 | "A description of the route cannot supply them." | Generic: authority | Cut. The previous sentence already says the rule and duty "need their own grounds". **Done** in `ME11-WORKING-EDIT-CH05.md`. |
-| 194 | "Detailed scheduling belongs to competent resource planners." | Generic: specialist methods | Cut. |
-| 196 | "Only legitimate decisions about competing needs can settle priority." | Repeats line 194 | Cut. |
+| 194 | "Detailed scheduling belongs to competent resource planners." | Generic: specialist methods | Cut in Chapter 6. |
+| 196 | "Only legitimate decisions about competing needs can settle priority." | Repeats line 194 | Cut in Chapter 6. The comparison still requires legitimate authority and a route to challenge. |
 | 216 | "A landlord might benefit from postponing an inspection, but that observation is not proof of malicious intent." | Generic: motive | Keep the first clause; cut the second. |
 | 310 | "…though they do not prove an individual decision-maker's inner motive." | Generic: motive | Cut the clause. **Done** in `ME11-WORKING-EDIT-CH09.md`. |
 | 324 | "That is an observable arrangement, not proof of a secret malicious intention." | Generic: motive (a paragraph of its own) | Cut. **Done** in `ME11-WORKING-EDIT-CH09.md`. |
