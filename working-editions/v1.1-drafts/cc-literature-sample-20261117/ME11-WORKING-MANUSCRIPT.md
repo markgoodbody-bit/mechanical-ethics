@@ -5,7 +5,7 @@ lang: en-GB
 date: "ME 1.1 working manuscript | 18 November 2026"
 ---
 
-*Mechanical Ethics 1.1 — full working manuscript, 18 November 2026. All fourteen chapters and the glossary are present. Current integrated revisions affect Chapters 5, 6, 9, 11, 12 and the Notes; the remaining chapters retain the released 1.0 text pending their revision.*
+*Mechanical Ethics 1.1 — full working manuscript, 18 November 2026. All fourteen chapters and the glossary are present. Current integrated revisions affect Chapters 2, 5, 6, 9, 11, 12 and the Notes; the remaining chapters retain the released 1.0 text pending their revision.*
 
 # A note before we begin
 
@@ -64,6 +64,8 @@ Call this **possible staleness**: an account may no longer support the use someo
 *Credible consequential change, or no adequate warrant for an important present use → check the claim or keep the uncertainty visible.*
 
 The arrow states a practical connection between an important current uncertainty and the work of checking it. Rechecking every old record would waste time; relying on an old record despite a credible relevant change can be equally careless. A fresh observation, a genuinely independent source or a person able to check the actual door may resolve the question. Two copies of the same dated notice offer no additional independent witness, however neatly they have been preserved.
+
+How soon a record needs checking depends on how quickly the thing it describes can change: a bus timetable during roadworks goes stale faster than a map of the river. Thomas Parr and Karl Friston draw a similar line in a mathematical model of how the eyes search a scene. They separate a world that is changing from a view that is merely unclear, and in their simulations the eyes return sooner to places that change faster. Their model describes visual search, not people or institutions, so the parallel is only about pace. Another feature of the same model should not travel: it looks less often where the view is unclear. With people that would be the wrong lesson. An account that is hard to hear, because it comes haltingly, in a second language or from someone who is afraid, may hold exactly what is missing. Improve the conditions for giving it before deciding how much it can carry.
 
 A partial view can also be an opening into learning. The child by the window decides a seed has failed because nothing green has appeared. Every morning they disturb the soil to see whether it is growing. Another person, who has watched several seasons of seedlings, knows that digging it up each day may prevent the very result the child wants. That person has *another view*: an account from a place and history the child does not yet share. The child can listen to the advice, test it and perhaps learn a better way of investigating the seed without simply repeating an adult's answer.
 
@@ -629,7 +631,7 @@ The Chapter 10 residue ledger is an **illustrative account design**, not an exis
 
 ## Status and evidence
 
-This is a full working manuscript for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It retains all fourteen chapters and the glossary, with current integrated revisions to Chapters 5, 6, 9, 11, 12 and the Notes. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
+This is a full working manuscript for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It retains all fourteen chapters and the glossary, with current integrated revisions to Chapters 2, 5, 6, 9, 11, 12 and the Notes. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
 
 This text is for editorial integration and Mark's decision. The accompanying diff records its changes, and the released source remains unchanged. The inherited illustrations remain provisional. The limits of the evidence for the book are stated under Scope and limits above.
 
@@ -640,6 +642,8 @@ This working 1.1 revision is **AI-assisted prose for editorial integration**, no
 Released Mechanical Ethics **v0.8.0** and TRACE **v0.4.0** remain separate, unchanged sources of concepts. Their existing author notes, rights, diagrams and technical materials are not transferred as authority to this draft. Later research contributions by Claude Code and Codex informed the conceptual path, but their involvement does not validate this text. No release, protected merge, website publication or external endorsement follows from the existence of a readable book.
 
 The v1.0 preservation pass re-read the complete released v0.8.0 human reader alongside DEV4 and restored a limited set of its substantive tests: meaningful exit, costly complexity, strategic uncertainty, the predator position, collective evidence, correction theatre, non-extractive cooperation, hope and the safety and limitation boundaries. The paired-flats and funding scenes are constructed illustrations. For Kelsey, see the US Food and Drug Administration, *Frances Oldham Kelsey: Medical Reviewer Famous for Averting a Public Health Tragedy* (FDA History Exhibits), https://www.fda.gov/about-fda/fda-history-exhibits/frances-oldham-kelsey-medical-reviewer-famous-averting-public-health-tragedy. For *Challenger*, see *Report of the Presidential Commission on the Space Shuttle Challenger Accident*, Volume I, Chapter V, *The Contributing Cause of the Accident*, especially printed pages 82–85 on the decision to launch, https://www.nasa.gov/history/rogersrep/v1ch5.htm. Neither example turns uncertainty into a universal mandate to stop or historical analogy into proof of every institutional failure.
+
+**Chapter 2 in this working edition.** The point about the pace of change draws on Thomas Parr and Karl J. Friston, "Uncertainty, epistemics and active inference", *Journal of the Royal Society Interface* 14(136): 20170376 (2017; open access under CC BY 4.0, https://doi.org/10.1098/rsif.2017.0376), sections 1, 3 and 6, read on 17 November 2026. Their result concerns simulated visual search. The chapter uses it as an analogy for when to check a record, and does not adopt the model's lower attention to imprecise signals as a rule for listening to people.
 
 **Chapter 5 in this working edition.** The distinction between having goods and being able to use them follows Amartya Sen, "Equality of What?", Tanner Lecture on Human Values, Stanford University, 22 May 1979, section 4, "Basic Capability Equality" (https://tannerlectures.org/documents/sen80/, accessed 17 November 2026), including the example of contentment that hides a lack of basic capability. The three kinds of conversion factor and the bicycle example follow Ingrid Robeyns and Morten Fibieger Byskov, "The Capability Approach", *Stanford Encyclopedia of Philosophy* (substantive revision 17 April 2025), sections 2.2 and 2.3. The test of ordinary reserves recovers this book's own earlier draft, the unpublished *ME Final Eight* raw source (4 June 2026), Book II, "From Diagnosis to Constraint".
 

@@ -1,4 +1,4 @@
-# ME 1.1 working manuscript: Chapters 5, 6, 9, 11 and 12, and the Notes
+# ME 1.1 working manuscript: Chapters 2, 5, 6, 9, 11 and 12, and the Notes
 
 Draft for Campfire's integration and Mark's editorial decision ([COM #955](https://github.com/markgoodbody-bit/COM/issues/955)). This is the cumulative working text: each chapter edit is carried here once it has been integrated (Campfire c6945568099, c6946950432). It is not a release, and the released v1.0 files are unchanged. Chapters 1–4, 6–8, 10, 13 and 14 and the glossary are omitted because nothing in them changes yet. The exact change against the released manuscript (SHA-256 `1315a2c2…`) is in `ME11-WORKING-SLICE.diff`. The file keeps its earlier name so existing links still work. For the full book with all fourteen chapters and the glossary, read ME11-WORKING-MANUSCRIPT.md.
 
@@ -9,7 +9,7 @@ Draft for Campfire's integration and Mark's editorial decision ([COM #955](https
 3. **Chapter 11, workshop passage:** three paragraphs (390 words) after v1.0 line 440, covering positive memory in a handover, time returned and durability. From `CH11-WORKSHOP-PASSAGE.md`, with Campfire's correction: "A faster booking form may save staff time by asking participants to upload documents. Count their time as well."
 4. **Chapter 12:** v1.0 lines 450–470 replaced by Campfire's integrated text (`CAMPFIRE-INTEGRATED-CH12.md` at `e7b4ffc6`), 812 words, with straight quotes. The numbered source markers are removed; the sources are named in the prose and given in the Notes, following v1.0's convention.
 5. **Chapter 12, line 472:** "A routing service" becomes "The routing service", because the new text already introduces routing apps. This is an optional continuity edit, applied here and flagged.
-6. **Notes:** a new "Scope and limits" section opens the Notes (from `SCOPE-AND-LIMITS-PROPOSAL.md`). "Sources and authorship" gains this edition's source paragraphs for Chapters 5 and 9, for Chapters 11 and 12, and for Chapter 11's shared-capability distinction (Robeyns).
+6. **Notes:** a new "Scope and limits" section opens the Notes (from `SCOPE-AND-LIMITS-PROPOSAL.md`). "Sources and authorship" gains this edition's source paragraphs for Chapters 2, 5, 6 and 9, for Chapters 11 and 12, and for Chapter 11's shared-capability distinction (Robeyns).
 7. **Notes, consolidation:** three sentences that the new section now states are removed from the retained Notes. They are "A description alone cannot grant rights…" (What the language does), "Professional medicine, law… must not replace" (Values and responsible use), and "The household, library and workshop scenes are constructed for explanation" (Status and evidence).
 8. **Notes, status and provenance:** the inherited DEV4 draft identity and QA claims are replaced by the current working status (Campfire, `29fa56d7`), with the edited chapters listed above. The adjacent source history is explicitly historical; no old layout receipt is presented as verification of this revision.
 
@@ -17,12 +17,48 @@ Draft for Campfire's integration and Mark's editorial decision ([COM #955](https
 
 10. **Chapter 9:** the shared-source witness example and scoped design-effect illustration are integrated, with disagreement retained for checking rather than treated as proof of independent errors. Two repeated intention caveats are removed while the local predator-position qualification remains. Its Notes distinguish Kish, Kohli and Kim et al.
 
+11. **Chapter 2:** one paragraph (159 words) after v1.0 line 66. It ties when to recheck a record to how fast the thing it describes can change, citing Parr and Friston (2017) as an analogy from a model of visual search and limiting the parallel to pace. It explicitly declines the model's lower attention to unclear signals as a rule for people: improve the conditions for giving a hard-to-hear account before deciding how much it can carry.
+
 ## Left for the editor
 
 - The other cuts in the limits proposal fall in chapters not yet edited; each still needs reading in its paragraph.
-- The source map's proposals for Chapters 2 and 6 (Parr and Friston; estuarine cost and time) and the historical Chapter 7–8 items are not yet chapter edits.
+- The historical Chapter 7–8 items (floor versus tradeable harm; chosen narrowing) are not yet chapter edits. Chapter 6 took the lead-time and *kairos* sources; the map's estuarine cost-and-time suggestion for Chapter 6 was not used.
 
 ---
+
+*[The opening note and Chapter 1 are unchanged from v1.0 and omitted from this excerpt.]*
+
+# 2. The Window We Have
+
+An **aperture** is a particular way of finding something out. A window gives a view of the garden while a thermometer supplies information about temperature; neither method answers every question. People and organisations likewise encounter the world through senses, records, instruments and other people's accounts, which can disagree without one of them being dishonest.
+
+An **account** is what someone preserves or communicates about an event or situation: a note, map, photograph, memory or model. Its usefulness depends on what was included, the circumstances in which it was made and what somebody now wants it to establish. A map that accurately shows the streets may be silent about whether a lift is working today.
+
+You look at the glass. You see its shape and perhaps moisture on its surface. From that you infer the water may be cold. You do not know the temperature unless you obtain more information. Someone who tastes it, measures it or recalls filling it may contribute something different. None has the entire world in one glance. In this situation the observation, the inference and the unknown all have different jobs. Confusing them would make an account appear more certain than its evidence warrants.
+
+A useful account therefore says what it describes, who made it, when the information was gathered, and which claims are observed, reported, inferred or still unknown. We need not distrust every record. We need to know how far it can carry us.
+
+A city map may guide a visitor from a station to a hospital perfectly well while saying nothing about a broken lift or the cost of the journey. The visitor needs the map, but may also need a current accessibility report and reliable information about the service they are seeking. The same caution applies to human testimony: a child can be certain about hearing a frightening noise and uncertain about what caused it. Respecting the limits of each account allows its useful evidence to survive.
+
+A photograph of the glass remains a record of the moment it was taken. Its age becomes important when somebody uses it to say what is happening now. If there is credible reason to suspect that a consequential condition has changed, or the present claim lacks a suitable warrant, a fresh check may be needed. Consequential to whom, and for which question? The person setting the scope should say, and people affected by the decision need a way to point out important omissions. The library's poster may have been reliable for months and still be wrong about an unexpected closure tonight.
+
+Call this **possible staleness**: an account may no longer support the use someone is making of it. There is no universal age at which a record expires.
+
+*Credible consequential change, or no adequate warrant for an important present use → check the claim or keep the uncertainty visible.*
+
+The arrow states a practical connection between an important current uncertainty and the work of checking it. Rechecking every old record would waste time; relying on an old record despite a credible relevant change can be equally careless. A fresh observation, a genuinely independent source or a person able to check the actual door may resolve the question. Two copies of the same dated notice offer no additional independent witness, however neatly they have been preserved.
+
+How soon a record needs checking depends on how quickly the thing it describes can change: a bus timetable during roadworks goes stale faster than a map of the river. Thomas Parr and Karl Friston draw a similar line in a mathematical model of how the eyes search a scene. They separate a world that is changing from a view that is merely unclear, and in their simulations the eyes return sooner to places that change faster. Their model describes visual search, not people or institutions, so the parallel is only about pace. Another feature of the same model should not travel: it looks less often where the view is unclear. With people that would be the wrong lesson. An account that is hard to hear, because it comes haltingly, in a second language or from someone who is afraid, may hold exactly what is missing. Improve the conditions for giving it before deciding how much it can carry.
+
+A partial view can also be an opening into learning. The child by the window decides a seed has failed because nothing green has appeared. Every morning they disturb the soil to see whether it is growing. Another person, who has watched several seasons of seedlings, knows that digging it up each day may prevent the very result the child wants. That person has *another view*: an account from a place and history the child does not yet share. The child can listen to the advice, test it and perhaps learn a better way of investigating the seed without simply repeating an adult's answer.
+
+A neighbour explains how to judge moisture by touching the soil beside the seed, and agrees to check it again next week if nothing emerges. There is a way to test the account without destroying the thing being watched. It takes more than two perspectives for learning to occur: the other account must be relevant, reach the child in a form they can use, and survive an appropriate check. The seed may still fail. Even then, the child has acquired a better question and a less destructive way to investigate it. No one has thereby obtained authority over the child's pot or mind.
+
+The neighbour's advice does more than supply another opinion. It gives the child a method that can be tried without destroying the seed, together with a sensible time to check the result. That can enlarge the child's ability to learn from the next attempt, even if this seed never grows. Another person's knowledge becomes especially helpful when the recipient can understand, test and, when necessary, reject it.
+
+It matters to separate access from permission to disclose. A neighbour may know why someone missed work without having permission to publish it. A nurse may have access to a medical record for treatment and no authority to put it on a public website. A missing public detail is not necessarily a missing fact; withheld is not false, and private is not deceptive. We should keep the account honest without demanding more exposure than the task justifies.
+
+*[Chapters 3 and 4 are unchanged from v1.0 and omitted from this excerpt.]*
 
 # 5. The Road That Exists and the Road You Can Take
 
@@ -59,8 +95,6 @@ Such a prospect does not create a duty to pursue it, to feel optimistic or to en
 A road that can be used today might close tomorrow. Another road can become possible through learning, cooperation or public investment. We can now ask better questions than whether an option appears somewhere in a policy document. Is it known to the person concerned? Can they take it without surrendering something they have not agreed to give? Is it maintainable? And, once they begin, can anyone carry the action all the way to its needed effect before the relevant future closes?
 
 By the time the student checks the notice and boards the bus, the closing hour is drawing nearer. Whether the journey succeeds now depends on more than the existence of a route.
-
-*[Chapters 6–8 are unchanged from v1.0 and omitted from this excerpt.]*
 
 # 6. The Clock and the Hand on the Door
 
@@ -131,6 +165,8 @@ The library may genuinely need staff and the landlord may need specialist advice
 The same position can carry help. A pharmacist notices a possible problem with a prescription. Instead of asking the patient to carry the query between offices, she contacts the prescriber and keeps the patient informed. Her access and working relationship make a route available that the patient could not readily use alone. The difficulty has moved towards somebody with the means to carry it.
 
 The person who chooses a timetable may be insulated from the consequences of delay. That is why a credible account asks who can alter the route, who lives with the result and who benefits from keeping an arrangement in place, compared with a plausible alternative. A landlord might benefit from postponing an inspection, but that observation is not proof of malicious intent. Equally, an institution cannot independently certify its own claim that delay is necessary or that a route is closed. Its reasons and evidence need a usable path for challenge.
+
+*[Chapters 7 and 8 are unchanged from v1.0 and omitted from this excerpt.]*
 
 # 9. What Can Travel Back
 
@@ -336,7 +372,7 @@ The Chapter 10 residue ledger is an **illustrative account design**, not an exis
 
 ## Status and evidence
 
-This is a working slice for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It contains Chapters 5, 9, 11 and 12 and the Notes; unchanged intervening material is omitted. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
+This is a working slice for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It contains Chapters 2, 5, 6, 9, 11 and 12 and the Notes; unchanged intervening material is omitted. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
 
 This text is for editorial integration and Mark's decision. The accompanying diff records its changes, and the released source remains unchanged. The inherited illustrations remain provisional. The limits of the evidence for the book are stated under Scope and limits above.
 
@@ -347,6 +383,8 @@ This working 1.1 revision is **AI-assisted prose for editorial integration**, no
 Released Mechanical Ethics **v0.8.0** and TRACE **v0.4.0** remain separate, unchanged sources of concepts. Their existing author notes, rights, diagrams and technical materials are not transferred as authority to this draft. Later research contributions by Claude Code and Codex informed the conceptual path, but their involvement does not validate this text. No release, protected merge, website publication or external endorsement follows from the existence of a readable book.
 
 The v1.0 preservation pass re-read the complete released v0.8.0 human reader alongside DEV4 and restored a limited set of its substantive tests: meaningful exit, costly complexity, strategic uncertainty, the predator position, collective evidence, correction theatre, non-extractive cooperation, hope and the safety and limitation boundaries. The paired-flats and funding scenes are constructed illustrations. For Kelsey, see the US Food and Drug Administration, *Frances Oldham Kelsey: Medical Reviewer Famous for Averting a Public Health Tragedy* (FDA History Exhibits), https://www.fda.gov/about-fda/fda-history-exhibits/frances-oldham-kelsey-medical-reviewer-famous-averting-public-health-tragedy. For *Challenger*, see *Report of the Presidential Commission on the Space Shuttle Challenger Accident*, Volume I, Chapter V, *The Contributing Cause of the Accident*, especially printed pages 82–85 on the decision to launch, https://www.nasa.gov/history/rogersrep/v1ch5.htm. Neither example turns uncertainty into a universal mandate to stop or historical analogy into proof of every institutional failure.
+
+**Chapter 2 in this working edition.** The point about the pace of change draws on Thomas Parr and Karl J. Friston, "Uncertainty, epistemics and active inference", *Journal of the Royal Society Interface* 14(136): 20170376 (2017; open access under CC BY 4.0, https://doi.org/10.1098/rsif.2017.0376), sections 1, 3 and 6, read on 17 November 2026. Their result concerns simulated visual search. The chapter uses it as an analogy for when to check a record, and does not adopt the model's lower attention to imprecise signals as a rule for listening to people.
 
 **Chapter 5 in this working edition.** The distinction between having goods and being able to use them follows Amartya Sen, "Equality of What?", Tanner Lecture on Human Values, Stanford University, 22 May 1979, section 4, "Basic Capability Equality" (https://tannerlectures.org/documents/sen80/, accessed 17 November 2026), including the example of contentment that hides a lack of basic capability. The three kinds of conversion factor and the bicycle example follow Ingrid Robeyns and Morten Fibieger Byskov, "The Capability Approach", *Stanford Encyclopedia of Philosophy* (substantive revision 17 April 2025), sections 2.2 and 2.3. The test of ordinary reserves recovers this book's own earlier draft, the unpublished *ME Final Eight* raw source (4 June 2026), Book II, "From Diagnosis to Constraint".
 
