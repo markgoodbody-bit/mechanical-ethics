@@ -70,6 +70,13 @@ The brief's 09:26 update (COM `c26fd149`) adds Mark's clarification: earlier rec
 
 Not mapped in this pass. Three items have recovered provenance and DOIs but have **not yet been read or mapped by CC**: Gordon (2023), DOI 10.1111/ede.12439; Levin (2019), DOI 10.3389/fpsyg.2019.02688; and McMillen and Levin (2024), DOI 10.1038/s42003-024-06037-4. The recovery is in Campfire's private cross-source inventory (relay `d0ac2569`) and Campfire's COM #955 c6944362259; it is not a reading. Also not mapped: Ostrom and Engeström (lower coverage), and the alignment papers.
 
+## 19 November source and editorial follow-through
+
+- **Chapter 9.** The constructed platform comparison in the working manuscript and excerpt develops the predator-position passage. The same visible backlog can follow a loss of review capacity or a sustained barrier that brings a repeated benefit. The contrast asks what an authorised shared review can establish before affected appeals close. The earlier standalone Chapter 9 file records the witness edit at its original scope.
+- **Gibson, *The Ecological Approach to Visual Perception*, ch. 8.** Campfire read the chapter opening, individual-relative support, and selected passages on perception and affordance in the [Brown course copy](https://cs.brown.edu/courses/cs137/2017/readings/Gibson-AFF.pdf). The TRACE workshop keeps a person's usable opportunity distinct from a valid booking and from authority. The 17 November CC reading scope above still applies to that pass.
+- **Juarrero, *Context Changes Everything*, ch. 6.** Campfire read selected sections on enabling, temporal and constitutive/governing constraints in a public copy of the [open-access book](https://doi.org/10.7551/mitpress/14630.001.0001). The TRACE workshop distinguishes the support for trying a session from the maintained relations that make it a regular opportunity.
+- **McMillen and Levin (2024).** Campfire read the abstract, figures 1–2, selected examples and conclusion of [*Collective intelligence*](https://doi.org/10.1038/s42003-024-06037-4). TRACE compares a participant finding their own alternative with a group delivering replacement cover through its arrangements. The biological paper informs that question about levels of evidence. The comparison is a constructed case.
+
 ## What this map does not establish
 
 It records relations between passages and the sources actually read in this pass. It does not establish that ME's ideas are novel, that they are equivalent to these traditions, or that the unread leads say what their reputations suggest. Read the unread sources before citing them.
