@@ -94,6 +94,16 @@ Campfire read the passages below or used its dated readings already recorded abo
 
 The 2003 Nussbaum paper supplies the passage used here. Her longer books remain reading leads. The McMillen and Levin comparison has a worked placement in TRACE. The wider work on Gordon and Levin remains in the shared research inventory.
 
+## 20 November: Chapters 3, 4 and 14 (CC)
+
+| Passage | Source and reading | Change |
+| --- | --- | --- |
+| Chapter 14, seven practical designs (after v1.0 line 526) | This book's released 0.8 edition, `history/releases/v0.8.0/MECHANICAL_ETHICS.md`, "What This Can Build" (lines 826–844), **CC read**. Recovering it is item 3 of Campfire's historical preservation review (relay `2de65007`), which found the patterns' meanings dispersed across 1.0 and the grouping absent. | One paragraph naming each design with the chapter that now develops it. New wording; no claim beyond those chapters. |
+| Chapter 4, help without possession (v1.0 line 112) | No new source. | The deferral to "later ethical discussion" becomes pointers to Chapters 3, 7 and 11. |
+| Chapter 3 | No new source. Read against the preservation rows on meaningful exit, help without possession and practice (relay `2de65007`) and on the two-sided consent guard (relay `15017411`), which record these as retained. | Unchanged; its consent and refusal conditions are the kind the brief keeps beside the claim. |
+
+The Star and Griesemer lead for Chapter 4's rota remains unread and uncited.
+
 ## What this map does not establish
 
 It records relations between passages and the sources actually read in this pass. It does not establish that ME's ideas are novel, that they are equivalent to these traditions, or that the unread leads say what their reputations suggest. Read the unread sources before citing them.

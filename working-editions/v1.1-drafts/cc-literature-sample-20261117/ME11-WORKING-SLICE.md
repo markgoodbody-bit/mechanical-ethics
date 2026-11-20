@@ -1,6 +1,6 @@
 # ME 1.1 working manuscript excerpt
 
-The opening note, Chapters 1, 2 and 5–13, the glossary and the Notes.
+The opening note, Chapters 1, 2 and 4–14, the glossary and the Notes.
 
 Draft for Campfire's integration and Mark's editorial decision ([COM #955](https://github.com/markgoodbody-bit/COM/issues/955)). This is the cumulative working text: each chapter edit is carried here once it has been integrated (Campfire c6945568099, c6946950432). It is not a release, and the released v1.0 files are unchanged. The excerpt includes the chapters named above and the Notes. The exact change against the released manuscript (SHA-256 `1315a2c2…`) is in `ME11-WORKING-SLICE.diff`. The file keeps its earlier name so existing links still work. For the full book with all fourteen chapters and the glossary, read ME11-WORKING-MANUSCRIPT.md.
 
@@ -27,9 +27,12 @@ The Chapter 9 comparison follows two platforms with the same backlog and asks wh
 
 13. **Consistency pass (CC, 20 November):** the Notes' source paragraphs now form one chapter-ordered list (Chapters 1 and 8 through 12), each chapter's sources grouped and the misleading "Chapters 11 and 12" label corrected. Eight paragraphs whose source was credited only in the Notes now name it at the point of use. The glossary gains *floor* and *governance gap*. The limits proposal's remaining cuts are applied at the opening note (shortened, with a pointer to Scope and limits), line 354 and line 506; line 216's qualification is kept because it balances a specific example.
 
+14. **Chapters 3, 4 and 14 (CC, 20 November):** Chapter 14 gains one paragraph (222 words) after v1.0 line 526. It recovers the 0.8 edition's seven practical designs (hold, handover, burden check, next-person check, bounded record, machine-speed interruption and the test of an announced repair), each pointing to the chapter that develops it, with a Notes entry for the source. In Chapter 4, the deferral at v1.0 line 112 ("will require later ethical discussion") becomes cross-references to Chapters 3, 7 and 11. Chapter 3 is unchanged: the historical preservation review records its consent, exit and practice passages as retained, and its conditions are the kind the brief keeps beside the claim.
+
 ## Left for the editor
 
 - Every cut in the limits proposal is now applied or deliberately kept after reading in context (line 216).
+- The Star and Griesemer lead for Chapter 4's rota (boundary objects) remains unread and uncited.
 - The historical source review continues across the older editions. Chapter 6 carries the lead-time and *kairos* sources. The map also records the estuarine cost-and-time suggestion.
 
 ---
@@ -108,7 +111,31 @@ The child and neighbour may find a better way to check the soil together. At the
 
 It matters to separate access from permission to disclose. A neighbour may know why someone missed work without having permission to publish it. A nurse may have access to a medical record for treatment and no authority to put it on a public website. A missing public detail is not necessarily a missing fact; withheld is not false, and private is not deceptive. We should keep the account honest without demanding more exposure than the task justifies.
 
-*[Chapters 3 and 4 are unchanged from v1.0 and omitted from this excerpt.]*
+*[Chapter 3 is unchanged from v1.0 and omitted from this excerpt.]*
+
+# 4. What Travels
+
+A **carrier** is a means by which something travels from one place, person or time to another. Pipes carry water; a letter carries a message; teaching may pass on a practical method. The carrier can preserve something faithfully and still leave important parts of the surrounding situation behind.
+
+**Coupling** means that a change here can alter conditions somewhere else through a connection. The connection matters more than a superficial resemblance. Two systems can have a similar pattern of delay while operating through wholly different physical, human or institutional mechanisms.
+
+A child carries the glass to the garden. Water arrived through the pipes; the adult taught the child how to lift it; the child waters a seed. Some water reaches the roots and some spills into a saucer. If the saucer fills, the wooden shelf can stain. The useful and unwanted effects travelled together for part of the journey, then separated. The child sees wet soil; a carpenter may notice a shelf at risk. These are different accounts of coupled consequences, not competing claims that one must erase the other.
+
+A pay record may correctly state that money arrived on the twenty-eighth while leaving out the rent that fell due three days earlier and the difficulty the delay caused. The record is useful evidence of the transfer, but it does not contain the whole week of the person's life. Following a carrier means asking what it carried reliably, what it could not carry and which other sources might explain the difference.
+
+In the garden, a neighbour borrows the watering can and learns from the child that water left standing beside the pot can be used carefully rather than tipped away. Someone else has experience collecting rainwater safely. If the neighbours share these methods and maintain the equipment, their small individual actions can support a garden none could have managed quite as easily alone. It will still take agreement about how the equipment is used and who does the work.
+
+The shared garden begins to show how separate contributions can create something none of them could simply command. One person brings a method, another provides water, and someone has to keep the tools usable between visits. Learning would be shown by what a participant can later do, not merely by being present when advice is given. If the method survives practice and the work of upkeep is shared fairly, a new capability can form. Its continuance will still depend on people who can decide to stop, change their part or ask for help.
+
+Helping is not automatically taking control. Someone with better access may carry a necessary call, document or heavy object so that the less capable person can act on their own aim. A form of kindness is the *placement of necessary burden*: who is able and willing to carry the work, and whether putting it there keeps the other's agency intact. A capable helper is not thereby entitled to become a permanent owner of the other person's future. Consent, standing and responsibility are taken up where they matter: Chapter 3 has shown why a yes needs its conditions examined, Chapter 7 asks whose judgement and standing count, and Chapter 11 distinguishes care from control. The mechanics here show the difference between shifting effort and merely praising care.
+
+The garden also provides a bridge from one person to a small organisation. Imagine the neighbours making a rota for watering while several households are away. One writes the timetable, another keeps the key, a third tends the pots, and somebody else notices when a plant begins to dry. The person who can see the dry soil may be unable to open the locked store cupboard. The key holder might never have seen the plant. An accurate rota on the noticeboard is an account of the arrangement; water reaching the roots is the effect. Between the two lie several people, permissions and opportunities for a message to be lost.
+
+This is what it means to **compose** a larger account from smaller ones. Keep the participants distinct, follow what passes between them, and ask which connection is needed for the result. Some parts observe, others decide, others perform the work, and others bear the consequences. The roles can overlap, but there is no reason to assume that they do. A timely instruction is little use if it cannot reach the person with the key. Likewise, a dry plant reported to a volunteer is not yet watered. The test of the composition is whether its described connections really operate, not whether a diagram contains the right boxes.
+
+A small system can therefore have several participants and no single chooser of the outcome. Markets shift because people buy and sell; traffic builds from interacting journeys, road conditions and policies; ecosystems change with weather, organisms and land use. At those scales we must investigate different mechanisms, not pretend that every delay is the same as a locked cupboard. What travels is the habit of distinguishing an observation, a decision, a carried action and its effects, while keeping actual powers and duties visible.
+
+What begins as a child's effort with one pot has drawn in a water supply, a shared tool and other people's knowledge. To judge what this cooperation makes possible, we must now ask whether its route is usable for the particular people involved. An opportunity can appear on paper long before it becomes available in a person's ordinary life.
 
 # 5. The Road That Exists and the Road You Can Take
 
@@ -544,7 +571,33 @@ An unfamiliar system can sometimes be understood more quickly by asking what it 
 
 A technician preparing to release a system and a clinician assessing a patient can both ask whether a warning is reaching the right person in time. What they should do with that warning rests on different duties and kinds of evidence. The comparison has earned its place if it directs attention to those questions without obscuring the difference.
 
-*[Chapter 14 is unchanged from v1.0 and omitted from this excerpt.]*
+# 14. The Room Again
+
+The glass, the library journey and the repair workshop have led through a shared set of questions. Things change while our accounts remain partial, and the effects of decisions travel beyond the people who first made them. We can investigate who is able to act, which opportunities are closing and which new ones people might create, provided we keep the limits and authors of our judgements in view.
+
+The glass is still on the table, although the afternoon has carried the room beyond the moment when we first described it.
+
+The water has warmed and the light has shifted. Perhaps the child has watered the plant, or perhaps the soil is dry and the next attempt will need different care. We have enough experience of this room to know that a single observation cannot settle all of those questions. The child can now do some things that required help earlier, while the grown-up remains responsible for conditions the child cannot yet manage.
+
+The facts in the room matter differently to different people. Choosing what counts as harm or benefit also involves duties, values, representation and a legitimate process for disagreement. The descriptive language helps make those choices visible so they can be answered for.
+
+The library's inaccessible door brings several of the questions together. The student knows the entrance is locked but may not know why; the institution controls the timetable and the key, while the student's deadline continues to approach. A safe report must reach someone with authority, prompt a genuine assessment and lead, where warranted, to an effective change before the next student misses the same opportunity. A residue ledger can keep the earlier missed session visible beyond the door repair and connect it to further action, without pretending the student's own choice about pursuing a complaint belongs to the library. The new arrangement must also be workable for staff. Each claim can be checked and challenged in turn.
+
+In another institution, an appeal might never reach a competent receiver, or a witness might face retaliation for speaking. That is a broken correction route. Naming the break cannot force a remedy, but it can reveal why an apparent right to complain has not become an effective possibility.
+
+The same questions can be built into an arrangement before anyone has to complain. Seven designs appear across the chapters. A hold protects a threatened route while a question is answered, and counts whom the hold itself exposes (Chapter 6). A handover carries the case's history, owner, evidence and deadline to the next shift, so the student does not have to explain it all again (Chapters 9 to 11). A burden check asks who does the travelling, form-filling and waiting, and whether the party holding the key, the records or the timetable could carry more of it (Chapters 4, 6 and 11). A next-person check asks whether next week's visitor will still find the door locked (Chapters 9 and 10). A bounded record keeps what its purpose needs for as long as that purpose lasts, with its scope and retention open to challenge (Chapters 9 and 10). Where software can close paths faster than a review can reach them, the interruption has to work at the software's speed (Chapter 12). An announced repair is tested by which rule, interface or authority actually changed, and whether somebody outside the failing route can check it (Chapter 9). Each design needs an owner, a route people can use, the clock that matters and evidence that it changed something for the people it was built for.
+
+A neighbour who shares a method can help the child acquire a skill, while a library that lends a room may allow adults to learn repairs together. Such gains have their own evidence: somebody uses the skill again, a workshop continues after its first successful day, or people retain a real choice about whether to participate. Maintenance and a fair distribution of work make a shared future more credible than an announcement alone.
+
+Some worthwhile futures are made rather than selected from options already on offer. A student acquires a skill, neighbours create a welcoming place to practise it, and people discover forms of cooperation that would have been difficult alone. Others care for a damaged landscape or find relationships and pleasures whose value is experienced in the present. Such work takes time, resources and attention, and its participants should remain free to challenge the burdens placed upon them.
+
+Sometimes the next useful act is urgent; at other times it is to obtain specialist evidence, make room for disagreement or respect a refusal. The people affected should be able to ask which path is genuinely available to them and what its consequences would be.
+
+The book makes a practical normative demand, not a claim that its vocabulary proves a universal legal duty: within the responsibilities and powers that actually exist, consequential uncertainty should create work for those able and obliged to resolve it, rather than automatic permission to continue at another person's expense. Avoidable complexity and delay should not simply be exported to those who did not create them. The party who benefits from a claimed necessity or a closed case should not be its only judge. These tests require real evidence, legitimate institutional authority, and means of challenge; they do not override voluntary personal refusal or grant a stranger a right to intervene.
+
+The method must answer for its own selected view, including the judgement of whoever applies it. A polished description cannot decide whether its own scope was fair, or certify its own success in changing the world. This book chose the glass, the library and a few machine examples; people and situations outside those scenes may expose a missing boundary or a false connection. A reader can compare a claim with evidence, show where its example fails, or reject the claimed transfer. Those observations have a route back to the human editor, who can revise this research draft while retaining the earlier version. A correctly assembled PDF only shows that the pages were assembled; it does not show that readers understood the argument. This is the same distinction between record, witness and effective correction that the library taught us.
+
+The purpose of this language is to make changes and their consequences easier to see, necessary correction more reachable and worthwhile possibilities easier to build with others. The child takes the glass towards the plant. What happens next will depend on the conditions in the room and on what the child chooses and learns to do.
 
 # A short glossary for returning readers
 
@@ -616,7 +669,7 @@ The Chapter 10 residue ledger is an **illustrative account design**, not an exis
 
 ## Status and evidence
 
-This is a working slice for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It contains the opening note, Chapters 1, 2 and 5–13, the glossary and the Notes; unchanged intervening material is omitted. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
+This is a working slice for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It contains the opening note, Chapters 1, 2 and 4–14, the glossary and the Notes; unchanged intervening material is omitted. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
 
 This text is for editorial integration and Mark's decision. The accompanying diff records its changes, and the released source remains unchanged. The inherited illustrations remain provisional. The limits of the evidence for the book are stated under Scope and limits above.
 
@@ -659,6 +712,8 @@ Joan C. Tronto, [“Creating Caring Institutions: Politics, Plurality, and Purpo
 **Chapter 12.** The account of complex situations draws on Dave Snowden's Cynefin framework. The Cynefin Company's overview, "The Cynefin Framework" (https://thecynefin.co/about-us/about-cynefin-framework/), supports matching action to context. The Cynefin wiki page "Cynefin" (https://cynefin.io/wiki/Cynefin, "How it Works / Domains") distinguishes ordered systems, where cause and effect are clear or can be found by analysis, from complex systems that can be understood only by interacting with them. The practical steps for examining constraints follow Snowden's "Estuarine mapping first edition" (The Cynefin Company blog, 7 October 2022, https://thecynefin.co/estuarine-mapping/, outline steps 1–7): the effort and time needed to change a constraint, what lies beyond the planning horizon, watching for unexpected shifts, attention to fast changes with serious effects, and portfolios of small interventions with a direction of travel. All three pages were accessed on 17 November 2026. The ambulance and deadline distinction, the road trial and the participant-level account are this book's own illustrations; the sources give no evidence that such a trial would work.
 
 Alicia Juarrero, [*Context Changes Everything: How Constraints Create Coherence*](https://doi.org/10.7551/mitpress/14630.001.0001) (2023), Chapter 6, supplies the distinction between enabling conditions and conditions that constitute or govern an organised activity. The bus example asks which conditions together keep a journey possible. Tom Froese and Tom Ziemke, [“Enactive artificial intelligence: Investigating the systemic organization of life and mind”](https://doi.org/10.1016/j.artint.2008.12.001) (2009), discuss constitutive autonomy. The routing example uses this to ask what sustains a service's demonstrated capacity.
+
+**Chapter 14.** The paragraph of seven designs recovers "What This Can Build", a section of this book's released 0.8 edition (`history/releases/v0.8.0/MECHANICAL_ETHICS.md` in this repository). The 1.0 edition carried the patterns' meanings across several chapters but did not keep the grouping. The wording here is new, and each design points to the chapter that now develops it.
 
 ## Figure 1: text equivalent and provenance
 
