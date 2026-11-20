@@ -16,7 +16,7 @@ Task: [COM #955](https://github.com/markgoodbody-bit/COM/issues/955), under the 
 | Thomas Parr and Karl J. Friston, "Uncertainty, epistemics and active inference", *Journal of the Royal Society Interface* 14(136): 20170376 (2017), CC BY 4.0 | PMC copy, `pmc.ncbi.nlm.nih.gov/articles/PMC5721148/`, 17 Nov 2026 (later pass) | Abstract, §1, §3 and §6 read; §§2, 4, 5 and the appendix were not read, and no simulation was reproduced | Primary |
 | Ingrid Robeyns, *Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined* (Open Book Publishers, 2017, CC BY 4.0, DOI 10.11647/OBP.0130), §3.6 "Collective capabilities" and §4.6 "Is the capability approach too individualistic?" | Openly licensed LibreTexts republication of the author's text (socialsci.libretexts.org), 17 Nov 2026 (later pass); first recovered by Campfire (relay `cbc0c7bb`) | §3.6 and §4.6, including §§4.6.1-4.6.3, read whole; not collated against the publisher PDF, and the rest of the book not read | Primary (author's text, republished) |
 
-## Leads not read, and why
+## Leads outside CC's 17 November reading
 
 These are named in the brief or in the sources above. Nothing below is cited in the Chapter 12 candidate text as support.
 
@@ -76,6 +76,23 @@ Not mapped in this pass. Three items have recovered provenance and DOIs but have
 - **Gibson, *The Ecological Approach to Visual Perception*, ch. 8.** Campfire read the chapter opening, individual-relative support, and selected passages on perception and affordance in the [Brown course copy](https://cs.brown.edu/courses/cs137/2017/readings/Gibson-AFF.pdf). The TRACE workshop keeps a person's usable opportunity distinct from a valid booking and from authority. The 17 November CC reading scope above still applies to that pass.
 - **Juarrero, *Context Changes Everything*, ch. 6.** Campfire read selected sections on enabling, temporal and constitutive/governing constraints in a public copy of the [open-access book](https://doi.org/10.7551/mitpress/14630.001.0001). The TRACE workshop distinguishes the support for trying a session from the maintained relations that make it a regular opportunity.
 - **McMillen and Levin (2024).** Campfire read the abstract, figures 1–2, selected examples and conclusion of [*Collective intelligence*](https://doi.org/10.1038/s42003-024-06037-4). TRACE compares a participant finding their own alternative with a group delivering replacement cover through its arrangements. The biological paper informs that question about levels of evidence. The comparison is a constructed case.
+
+## 20 November source and passage integration
+
+The new readings and their uses are recorded below. The 17 and 19 November entries above retain the coverage of those earlier passes. The current chapter notes give source locators.
+
+| Working passage | Reading used | What the passage lets a reader check |
+| --- | --- | --- |
+| Chapters 1 and 8, boundary and the library comparison | Ulrich, [author's CSH primer](https://wulrich.com/csh.html), boundary critique and the boundary categories | Who benefits, who decides, what knowledge enters and who can challenge exclusions. |
+| Chapter 2, checking soil together | De Jaegher and Di Paolo (2007), [interaction and sense-making](https://doi.org/10.1007/s11097-007-9076-9), abstract and discussion of interaction and autonomy | What the pair worked out together and what the child can do at the next check. |
+| Chapter 5, effective access | Gibson (1979), [Chapter 8](https://cs.brown.edu/courses/cs137/2017/readings/Gibson-AFF.pdf), opening and individual-relative opportunities | Whether the visitor can use the actual handle and entrance they reach. |
+| Chapters 7 and 8, floor and trade | Nussbaum (2003), [threshold passage after the list of central capabilities](https://hceconomics.uchicago.edu/sites/default/files/pdf/events/Nussbaum_2003_capabilities_fundamental.pdf). Earlier ME *Value Spine* PDF pp. 35–38 and 50–54, and *Final Eight* E01 PDF pp. 170–172, checked against the preservation report. | Who a specific floor covers, which options meet it and what is owed after an unresolved conflict. |
+| Chapter 9, two appeal backlogs | Van der Maden and colleagues (2026), [findings on C5 and discussion of interdependent components](https://doi.org/10.1145/3772318.3791069). The Kish, Kohli and Kim locators come through [Chernets's bibliography](https://polyhelper.ai/research/agreement-not-evidence/). | Which step fails in a comparable appeal and who can act on the review. |
+| Chapter 10, a repaired entrance | Woods (2015), [sections 2.2–2.4](https://doi.org/10.1016/j.ress.2015.03.018) on recovery, extensibility and sustained adaptation | What capacity would still be available on the next breakdown. |
+| Chapter 11, chosen work and institutional care | Tronto (2010), [discussion of purpose, power, particular needs and space for review](https://doi.org/10.1080/17496535.2010.484259). Earlier *After-Fall Reader* v0.5 carrier PDF pp. 21–24, authored-contraction case. | Who can raise a concern about care and what a freely chosen commitment makes possible or costs. |
+| Chapter 12, a dependable service and its support | Juarrero (2023), [Chapter 6](https://doi.org/10.7551/mitpress/14630.001.0001), selected passages read in the 19 November pass. Froese and Ziemke (2009), [constitutive autonomy discussion](https://doi.org/10.1016/j.artint.2008.12.001). | Which conditions sustain the bus journey and what supports the routing system's demonstrated capacity. |
+
+The 2003 Nussbaum paper supplies the passage used here. Her longer books remain reading leads. The McMillen and Levin comparison has a worked placement in TRACE. The wider work on Gordon and Levin remains in the shared research inventory.
 
 ## What this map does not establish
 

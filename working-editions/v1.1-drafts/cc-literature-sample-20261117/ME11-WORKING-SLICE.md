@@ -1,4 +1,6 @@
-# ME 1.1 working manuscript: Chapters 2, 5, 6, 9, 11 and 12, and the Notes
+# ME 1.1 working manuscript excerpt
+
+Chapters 1, 2 and 5–12 and the Notes.
 
 Draft for Campfire's integration and Mark's editorial decision ([COM #955](https://github.com/markgoodbody-bit/COM/issues/955)). This is the cumulative working text: each chapter edit is carried here once it has been integrated (Campfire c6945568099, c6946950432). It is not a release, and the released v1.0 files are unchanged. The excerpt includes the chapters named above and the Notes. The exact change against the released manuscript (SHA-256 `1315a2c2…`) is in `ME11-WORKING-SLICE.diff`. The file keeps its earlier name so existing links still work. For the full book with all fourteen chapters and the glossary, read ME11-WORKING-MANUSCRIPT.md.
 
@@ -21,14 +23,44 @@ The Chapter 9 comparison follows two platforms with the same backlog and asks wh
 
 11. **Chapter 2:** one paragraph (159 words) after v1.0 line 66. It ties when to recheck a record to how fast the thing it describes can change, citing Parr and Friston (2017) as an analogy from a model of visual search and limiting the parallel to pace. It explicitly declines the model's lower attention to unclear signals as a rule for people: improve the conditions for giving a hard-to-hear account before deciding how much it can carry.
 
+12. **20 November.** Source passages now inform the boundary, learning, access, protection, appeal, recovery, care and routing examples. The library timetable recovers the distinction between a floor and a tradeoff. The workshop recovers chosen commitment.
+
 ## Left for the editor
 
 - The other cuts in the limits proposal fall in chapters not yet edited; each still needs reading in its paragraph.
-- The historical Chapter 7–8 items (floor versus tradeable harm; chosen narrowing) are not yet chapter edits. Chapter 6 took the lead-time and *kairos* sources; the map's estuarine cost-and-time suggestion for Chapter 6 was not used.
+- The historical source review continues across the older editions. Chapter 6 carries the lead-time and *kairos* sources. The map also records the estuarine cost-and-time suggestion.
 
 ---
 
-*[The opening note and Chapter 1 are unchanged from v1.0 and omitted from this excerpt.]*
+*[The opening note is in the full manuscript.]*
+
+# 1. Before a Choice
+
+A **state** is a description of particular conditions at a moment: the position of a glass, the temperature of its water, or whether a door is open. We choose the conditions because we have a question to investigate. The description has a purpose, but it cannot contain everything happening in the room, much less the world beyond it.
+
+A **change** is a difference between those conditions at different moments. It can be useful, harmful or simply worth noticing; we need not decide its value before describing what happened. Many such changes occur without anyone choosing them.
+
+On a table stands a glass of water. The glass remains in place as sunlight moves across the room and the water gradually warms. A person looking only at its position could quite accurately report that nothing moved, yet they would have missed a change relevant to anyone wanting a cold drink. The first question is therefore which condition the report was meant to describe; deciding whether the change matters comes afterwards.
+
+To compare two moments, we need to keep track of what we are comparing. If the glass is emptied and refilled, the amount of water may be the same while the water itself is different. A claim of change needs a relevant feature, times and evidence, and a sound reason to follow the same thing or path across them. Otherwise we may only have changed the subject.
+
+Beside the glass is a pot of soil with a seed in it. Germination depends on conditions that the child who planted it cannot command: light, moisture, temperature and the seed's own development. The child may learn to care for it, but there is no guarantee of growth or of what the child will learn. What matters here is the difference between an unfolding process and a new capability that care and practice might help someone acquire.
+
+We often tell stories by beginning with a decision, although important things may happen before anyone notices the need for one. A student's application can remain marked ‘pending’ while the deadline for accepting a place passes. The administrative field has stayed constant, but the student's available choices have altered. A record may be accurate about its own state and still fail to describe a consequential change elsewhere.
+
+We need a line around the part of the scene we are studying. A **boundary** is that line, chosen for a purpose. We could look only at the glass, then include the child reaching for it, then the adult who placed it on the shelf. Each boundary makes some features easier to see and leaves others outside. A boundary can be physical or simply the scope of an account. A body's skin may help answer one medical question and conceal the care and relationships needed for another.
+
+Somebody chooses the boundary, so somebody should be able to explain and revise it. A drawing around a person, a river, a department and a computer service does not make them the same kind of entity. The line does not decide what a living being feels, what rights it has or who may act for it. **A boundary is not moral standing.** That is a different question, with different evidence and authority.
+
+Werner Ulrich puts the choice of boundary itself up for challenge. Ask who is supposed to benefit, who can change the decision, whose knowledge is heard and who can speak for people who have no part in making it. A person who bears a cost may see something the people in the room have left out.
+
+An **entity** is the person, living thing, group or arrangement we are following through change. We need a reason to treat it as continuing from one moment to the next; a familiar name is not always enough. Some entities carry consequences of choices they never made. Identifying them for study does not settle their experience, rights or decision authority.
+
+The glass has a history that the first description left out. Somebody made it, the water came through a supply system, and an adult may have put it on a shelf because a child was not yet able to carry it safely. The relevant boundary depends on what we want to understand. If the question is whether the child can have a drink, reach and supervision matter; if the question concerns the water itself, a different set of conditions comes into view.
+
+A modest positive act now becomes visible. Someone notices that another person is thirsty and moves the glass within reach. That is a changed condition, and it may make a desired action usable. Someone teaches a child to carry an empty cup without spilling. The child learns through trial and correction; a capacity may begin to form. We cannot yet infer an ethical duty from these physical and practical descriptions, but we can see what a gift or a lesson has to *do* in the world.
+
+The child reaches for the glass while the pot remains on the sill. To understand what either of them can do next, we need a better account of what they can see, what they know and what remains outside their view.
 
 # 2. The Window We Have
 
@@ -58,6 +90,8 @@ A neighbour explains how to judge moisture by touching the soil beside the seed,
 
 The neighbour's advice does more than supply another opinion. It gives the child a method that can be tried without destroying the seed, together with a sensible time to check the result. That can enlarge the child's ability to learn from the next attempt, even if this seed never grows. Another person's knowledge becomes especially helpful when the recipient can understand, test and, when necessary, reject it.
 
+The child and neighbour may find a better way to check the soil together. At the next visit, give the child a turn at the check with help in reach, and ask which part they can now do on their own. The answer tells the helper what support is still worth offering.
+
 It matters to separate access from permission to disclose. A neighbour may know why someone missed work without having permission to publish it. A nurse may have access to a medical record for treatment and no authority to put it on a public website. A missing public detail is not necessarily a missing fact; withheld is not false, and private is not deceptive. We should keep the account honest without demanding more exposure than the task justifies.
 
 *[Chapters 3 and 4 are unchanged from v1.0 and omitted from this excerpt.]*
@@ -67,6 +101,8 @@ It matters to separate access from permission to disclose. A neighbour may know 
 A **route** is a way in which a particular result might be reached from present conditions. Seeing a way forward is weaker than being able to take it: the person needs sufficient information, practical resources, permission where legitimate, and time. A road shown on a map may be real without being usable for the person who wants to travel along it.
 
 A library across town has the book a student needs, and the map shows a straightforward journey. The student still has to fit that journey around the bus timetable, the cost of travel and any work or care commitments. A step-free entrance may exist yet be locked when they arrive. The map remains accurate about the street, while the claim that this student can borrow the book needs more evidence.
+
+Check the approach with the student who needs it. The step-free route may reach an unlocked door with a handle they cannot use. An access check has to notice what this person can do with the door at the time they need it.
 
 This gap between having something and being able to use it has a history outside this book. In his 1979 Tanner Lecture, the economist and philosopher Amartya Sen argued that giving people equal goods can leave them far from equal in what they can do, because the conversion of goods into capabilities varies substantially from person to person. Writers in the capability approach that grew from his work sort the differences into personal, social and environmental conversion factors: a bicycle gives mobility to someone who can ride it, where riding is permitted and the roads are fit to use. The student's fare, the bus timetable, their hours of work and care and the locked step-free entrance are conversion factors of exactly this kind. This book keeps two questions beside that tradition: whether the route works in time for the result that matters (Chapter 6), and who controls each condition.
 
@@ -168,7 +204,77 @@ The same position can carry help. A pharmacist notices a possible problem with a
 
 The person who chooses a timetable may be insulated from the consequences of delay. That is why a credible account asks who can alter the route, who lives with the result and who benefits from keeping an arrangement in place, compared with a plausible alternative. A landlord might benefit from postponing an inspection, but that observation is not proof of malicious intent. Equally, an institution cannot independently certify its own claim that delay is necessary or that a route is closed. Its reasons and evidence need a usable path for challenge.
 
-*[Chapters 7 and 8 are unchanged from v1.0 and omitted from this excerpt.]*
+# 7. When Change Matters to Someone
+
+Finding that a door is locked tells us what the student encounters. To decide what ought to happen, we need to know what interests are at stake, whose interests should count and who has the authority to make or revise the rule. Those questions require more than the observation of a door.
+
+The student arrives at the library with a valid ticket and finds the door locked. Perhaps the published hours have ended, the building has closed during an emergency, or the accessible entrance has been secured by mistake. The immediate practical outcome is much the same: the student cannot obtain the book. Yet the decision that produced the closure, the reasons for it and the obligations to visitors may be very different. A necessary evacuation can protect people even as it blocks a journey; an inaccessible entrance that the institution has promised to maintain raises a different question. We must examine the interests and duties involved rather than let one visible result stand for every possible judgement.
+
+A **value** is something treated as worth protecting, enabling or avoiding. **Standing** concerns whose interests and testimony are entitled to consideration, and **authority** concerns who may legitimately make a decision or intervene. The student needs access, other visitors may need protection during an emergency, and the library is governed by rules and duties that neither the student nor a single manager can simply invent. The account must let those different claims be examined.
+
+Standing may be **unknown or disputed**, especially when people or other affected beings cannot represent themselves in the ordinary process. That uncertainty should appear in the account, rather than being settled by whoever benefits from excluding them. The decision-maker still needs to identify the affected scope, the period being considered, the grounds for its authority and a route through which relevant exclusions can be challenged. Making those choices visible helps people test them; their visibility alone does not make them fair.
+
+The library board may have the lawful responsibility to set opening hours. That gives it a role in the decision, but its members may know little about the journey faced by a student who uses a wheelchair or works late. The student's experience is relevant evidence without making the student the sole budget authority. A sound process has to bring these forms of knowledge together under the rules that actually govern the institution, including routes for challenging the decision.
+
+The distinctions can be expressed compactly as **description ≠ ethical judgement** and **capability ≠ authority**. A person may be able to lock a door without having the right to exclude a visitor. Another may have a justified claim about access without being responsible for setting the library's entire budget. Both positions can be true, and the question of what ought to happen remains one for the appropriate evidence, values and authority.
+
+Where a legitimate rule sets a **floor**, it places a limit on what a decision may trade away. Martha Nussbaum's account of central human capabilities asks what minimum each person should be able to reach. Explain the reason for the floor, say whom it covers and make its application open to challenge.
+
+Consider a child about to run into a road. An adult closes the garden gate. The child protests because the garden path is no longer open. The adult has curtailed one possibility and may have protected several more. To judge the act we need more than a count of closed options. We need an account of the child, the risk, the adult's responsibilities, the other people who may be affected, and the kind of future the intervention is meant to protect.
+
+There may be disagreement about the proper boundary. At what age should the child be allowed to open the gate alone? What supervision is reasonable? Whose judgement matters, and when does the child's growing independence change the answer? These are questions of standing, care, evidence, responsibility and social authority. They do not resolve themselves from the fact that time passes.
+
+A similar problem arises with non-human life. The tree beside the library needs water and space. Its roots may damage a wall. The people maintaining the building have responsibilities, and the tree belongs to an ecosystem not represented by one human voice. Which lives and futures count? Who may represent them? The answers may come from law, ecological knowledge, community judgement and ethical disagreement. Calling all things entities does not quietly settle their standing. Where a person or animal cannot explain what it needs in the ordinary process, the carer's desire for a particular outcome is not by itself the measure of its welfare. Observable distress, enjoyment, probable experience, reliable specialist evidence and uncertainty about interpretation also matter alongside applicable duties and lawful representation.
+
+Mechanical Ethics makes its guiding commitment openly: consequential harm should be easier to see before it hardens, affected people should have reachable means of correction, and worthwhile capabilities should be possible to build without hiding their costs. Readers may contest how this commitment applies and which institutions may act on it.
+
+People who share a concern for justice can disagree sharply about a library's priorities, a worker's privacy or the protection owed to a child. A town can value flood protection and a living river while disagreeing about the burdens of a particular plan. The disagreement calls for evidence, reasons and legitimate procedures. It becomes harder to address if a mechanical description quietly converts those values into an unquestionable total.
+
+We can do better than saying that values are merely subjective noise. We can ask where a judgement came from. Is it the affected person's expressed preference? A legal obligation? A clinical judgement? A community decision? A provisional assumption made because the true preference is unavailable? Has someone with the relevant standing been excluded? A value may be well supported or deeply contested. Those differences can remain visible.
+
+Over time, the child becomes able to judge the road and open the gate safely. The adult's responsibility has not disappeared, but the appropriate form of care has changed because the child's capability has changed. A protective rule that stays fixed despite good evidence of growing independence can become a new obstacle.
+
+The child stands beside the gate and waits for the adult to watch them cross. This time the question is not simply whether the gate should remain shut, but what support is still needed and who can decide when the child is ready.
+
+# 8. Comparing Without Hiding the Difference
+
+A **comparison** examines the difference between alternatives under an identifiable basis. Before deciding that a proposal is better, we need to know what it is being compared with, over what period and for whom. Numbers can help when the quantities and units are compatible. They cannot, on their own, collapse a person's dignity, a worker's time and a library's budget into a single agreed moral score.
+
+The library board is considering evening opening because students have asked for more time to study. The suggestion looks straightforward until the board asks who would work the extra hours and whether those students could get home afterwards.
+
+A longer opening could help students, shift workers and families who cannot visit during the day. It could also cost more in wages and energy, lengthen the journey home for staff and reduce resources for services that some other visitors need. An early trial might attract many readers. It might also reveal that people who most needed evening access still cannot use the last bus.
+
+To judge the proposal the board needs an alternative that could genuinely have been chosen. The **baseline** could be the present timetable, a smaller extension or a different use of the same budget. The **scope** includes the students who want access and the staff who would work late, as well as people whose routes or care arrangements could be affected. The **horizon** might be a one-term trial or a longer period that reveals whether the staffing plan can be maintained. Changing any one of these choices can change the apparent result, so each needs an author and an explanation.
+
+Suppose the course promises usable evening access to every enrolled student. Two timetables that keep that promise can be weighed against each other. If one leaves a student with no workable journey home, check it with them and look for hours or transport that keep the promise. Where two duties cannot both be met, record who had to choose, which alternative they rejected, who bore the loss and what repair remains possible.
+
+Someone chooses what enters a report. A council may count opening hours while a student cares whether the library opens before a deadline. A funder may choose a five-year horizon that looks different from a worker's next month. The comparison's author, authority, excluded people, evidence and grounds should remain visible.
+
+The assessor's own judgement belongs under the same scrutiny. If a report declares the route usable or the remedy complete, readers need to know which people and effects the assessor included, what evidence was available and how an excluded person could challenge the account. An institution's assurance about its own success is evidence of what it claims, rather than independent confirmation. The party benefiting from a declaration of necessity, completion or closure should not be the sole judge of whether that declaration survives a fair challenge. A challenge, in turn, is an invitation to examine the matter and does not automatically show the verdict was wrong.
+
+![Who draws the map? The assessor's selected account compares opening hours with a timetable; the missed bus outside that account can be brought towards review by a separate challenge route. The drawing shows no predetermined verdict.](../../v1.0/figures/who-draws-the-map.svg){#fig:who-draws-the-map width=126mm}
+
+The same comparison needs the same declared basis: the alternative, people affected, period, evidence and values. If the outcomes cannot justifiably be added into one number, leave them visible as different outcomes.
+
+A number can still clarify a narrowly measured part. If one library actually opens for two hours a week and a new timetable offers four, the change in *published opening time* for that library and week is `4 - 2 = 2 hours`. This does not establish two hours of usable access for every visitor, much less two hours of moral benefit; buses, work, accessibility and staffing remain separate claims. The comparison becomes misleading if we silently change the library, period or quantity being measured.
+
+The extended hours might look beneficial beside the current timetable and less compelling beside a cheaper change that helps the same visitors. They might also become attractive if the alternative is a further loss of service. Those are different comparisons rather than competing versions of the same arithmetic. The board should be clear which one it uses and why the others were set aside.
+
+The period also matters. A one-week trial may create an immediate gain and hide an unsustainable staffing burden. A five-year plan may promise eventual savings while demanding more than current staff can safely carry. The same project can have a positive long-run ambition and an unjustified short-run transition. A good destination does not erase the journey people have to live through.
+
+We must name the affected scope. Are we talking about one student, every evening visitor, the employees, the neighbourhood, or future taxpayers? Expanding the boundary can reveal previously hidden effects. It can also dissolve a person's serious injury into a comfortable average. A large total benefit does not, by itself, tell us what may permissibly be imposed on a smaller group.
+
+Then there is the difficulty of comparing unlike things. An hour of paid labour, an hour of quiet study, a person's dignity, a wetland's health and an institution's cash reserve are not interchangeable units merely because they appear in the same report. A numerical total requires an authored way of valuing and combining them. If someone supplies that way, we should know who it was and what it excludes.
+
+We can speak of a harm difference between two described paths: how much worse or better an outcome is, for some affected scope, under a stated account of value, over a stated period, compared with a stated alternative.
+
+Suppose the extended library hours are a success for visitors but a loss for two staff members whose childcare arrangements no longer work. Their burden cannot be cancelled invisibly by the phrase community benefit. It may be possible to redesign the rota, fund transport, recruit willing evening staff or shorten the extension. The point of bringing the difference into view is to make more constructive choices possible.
+
+Sometimes two legitimate values still collide. A library may have to balance quiet study against a noisy community event. The same space and hour cannot serve both perfectly. A city may have to decide between spending on immediate accessibility and a longer-term flood project. The technical facts can narrow the plausible alternatives; they cannot choose the political and moral priority without some legitimate decision process.
+
+A fair process may itself be contested. Who was invited? Who could attend? Were private reasons exposed unnecessarily? Could someone disagree without losing access to a service? Did those most affected have a voice with any consequence? None of this guarantees consensus. It helps distinguish disagreement made answerable from a verdict hidden inside the method of counting.
+
+The library agrees to a trial of two evening openings, with paid staff who can volunteer for those shifts, an accessible route home and a scheduled review. Students gain time to work, although the board must still learn whether the people who needed the change are actually able to use it. The first week's attendance figures will give them a start, not the finished answer.
 
 # 9. What Can Travel Back
 
@@ -214,7 +320,7 @@ When a complaint channel is kept unusable, the arrangement warrants a more deman
 
 Two platforms can show the same backlog. One is short of reviewers, keeps appeal periods open and gives an independent reviewer authorised access to enough related records to check the pattern. The other has the means to offer a joint review and keeps the complaints isolated. Its own records show a recurring overcharge that its rules would repay if the claim were established. Customers can see only their individual cases. Keeping the records apart repeatedly saves the platform money.
 
-A practical change is to let an independent reviewer test the linked cases with access limited to the evidence needed. Keep the appeal open long enough for people to see and challenge the result. Then check whether they can use the route and where the costs fall. A staffing shortage and a profitable barrier can coexist. To establish the position, look for evidence of who could reduce the barrier and what keeping it in place secures.
+A practical change is to let an independent reviewer test the linked cases with access limited to the evidence needed. Follow a few comparable appeals from receipt to any remedy. Record the wait for a reviewer, which records that reviewer can link and who can act on their findings. Carry both who checked the case and who decided what to do with the check. Keep the appeal open long enough for people to see and challenge the result. Then check whether they can use the route and where the costs fall. A staffing shortage and a profitable barrier can coexist. To establish the position, look for evidence of who could reduce the barrier and what keeping it in place secures.
 
 Imagine a public-service appeal in which a claimant can submit a letter but can never see whether it was received, cannot correct the record used against them, and loses eligibility before any answer is issued. Sending more letters does not establish an effective remedy. A trustworthy description must be capable of saying: **the route was blocked; no effective owner or safe alternative is currently known.** It must also recognise that the affected person may choose not to expose themselves to further retaliation. Describing the obstruction is useful; it cannot force an institution to put matters right.
 
@@ -230,7 +336,57 @@ Repair needs to survive the original complaint. The changed entrance procedure m
 
 The value of the record lies not in how impressive it looks but in what truthful, proportionate change it makes possible.
 
-*[Chapter 10 is unchanged from v1.0 and omitted from this excerpt.]*
+# 10. What Cannot Be Put Back
+
+A **correction** changes a process, decision or effect in response to information that warrants revision. **Restoration** is the more demanding claim that a particular lost condition has been recovered in a comparable form. After either, there may be **residue**: effects the intervention did not repair. The words describe different outcomes, and a database entry marked ‘resolved’ cannot establish them by itself.
+
+A student writes to the library after its trial. The extended opening hours were useful, the student says, but the locked entrance on the first night meant missing the last session of a course. The library has now fixed the door procedure. The student is pleased that somebody listened and that others will not face the same barrier. The missed session will not return.
+
+The repaired entrance helps future visitors and may support a remedy for the first student, but the missed lesson is still in the past. **CORRECTED ≠ RESTORED:** the claim that the entrance now works and the claim that this student's lost opportunity has been adequately repaired require different evidence. They need not rise or fall together. A later class, appropriate support or other remedy may matter greatly without making the original event disappear.
+
+Ask what the next breakdown would leave the library able to do. If one caretaker spent their only spare evening fixing the door, find out whether someone can check it, open a safe alternative or call an authorised repairer before the next lesson. Record the support that would be there when another visitor needs it.
+
+The same reasoning applies to development that never happened. A student who could not attend a course may lose not only those sessions but the skill, relationship or confidence that might have grown from them. That possible future is difficult to measure and should not be invented as a certainty. Still, excluding all unrealised formation from the account can hide a serious consequence. The honest comparison names the lost opportunity, its uncertainty, and whether any later route could support similar learning.
+
+An account can be reopened while the debt accumulated during its closure remains. A job can be reinstated while reputation, wages and trust have changed. A wall can be repaired after a child has spent a winter in a damp room. A rule can be withdrawn after people have left a community. The later improvement is real. So may be the remaining cost.
+
+Call a consequence left beyond the reach of a particular correction its **residue**. Reopening a file may not return lost wages, trust or learning time. The question is which effects a remedy actually changes and which require further attention. Naming residue from *this* intervention does not settle whether further mitigation, compensation or established duties remain; those depend on the affected people and the relevant authority.
+
+An institution needs a way to keep this distinction from disappearing when the repair ticket is closed. Imagine the library maintaining a small **residue ledger** for the evening-opening trial, rather than relying on one status field. Its first entry could record the date of the inaccessible entrance, the source of the report and the immediate effect that the student missed a session. Another part would record the door repair, the evidence that it now works, and who checked it. The entry could then show the missed session as unresolved by that repair. A manager looking only at completed maintenance work would otherwise see a success; a manager looking at both accounts can see the improvement and the unfinished question.
+
+The ledger must distinguish different strengths of evidence. A missed session may be confirmed by the course timetable and the student's report. Whether the absence led to a lost qualification, weakened confidence or another long-term effect might be uncertain, and should not be converted into a fabricated total. Nor does every account need the student's name in a widely accessible database. A properly limited record can retain a pseudonymous case reference, evidence held safely by its rightful custodian, the affected person's own account where they choose to provide one, and a clear indication of what remains unknown. The person affected must have a usable way to correct material errors without being required to expose private circumstances simply to make the institution's numbers complete.
+
+A small illustrative entry might read: “Evening trial, case L03: observed, the accessible entrance was locked during published opening; reported, one planned lesson was missed; inferred, the entrance setting may have excluded other visitors; unknown, whether anyone else was turned away; corrected, the door instruction was amended; still lost, that particular lesson; next route, ask the authorised course organiser about a replacement session if the student wants that contact.” The public-facing copy need not hold the student's name, movements or private circumstances. The source records, if lawfully held at all, remain under limited custody. This is a human account of unfinished work, not a demand to collect identifiers or create an institutional database.
+
+A useful ledger also records a **next correction route**, not only the past. The library's authorised liaison might, with the student's agreement and only the necessary account of the missed session, ask the course provider's responsible organiser whether another session can be offered. A dated acknowledgement confirms that the request arrived, not that the lesson was restored; a specific offered slot, the student's ability to use it and what was actually recovered require separate checks. If no reply comes before the course deadline, the unresolved loss and a legitimate alternative contact remain visible without obliging the student to repeat their private story. If the provider offers one, that is a new possibility; if the student can attend and receives what was missed, some part of the loss may be restored. If the deadline for completing the course has passed, the opportunity has its own clock, different from the time needed to mend the entrance. A review date helps prevent the question being forgotten, but the expiry of that date is not evidence that the person's harm has ended.
+
+One might think of this continuing measure as a *shadow clock*: it begins where the ordinary repair clock stops, following what remains open after the immediate defect was corrected. The phrase is a reminder, not a new formula. Residual effects do not necessarily grow with every day, and a clock can register elapsed time or the closing of a later repair opportunity without measuring suffering. For each affected consequence, the record needs a defined starting point, a reason to keep watching, and an honest account of what a later action actually changed.
+
+A ledger can still fail its purpose. It may be kept by the same department that wants the case closed, reviewed by nobody able to act, or used to collect more information than a remedy requires. For this instrument to make harm more visible, its boundaries, evidence, custody, retention and authority must themselves be contestable, with access to someone able to consider an appropriate response. **Recorded residue is not repaired residue**, and an entry can support a duty without generating that duty on its own. This is a tool for carrying truthful unfinished business across organisational handovers, not a numerical substitute for the person's life.
+
+Some effects are irreversible in a narrow physical sense. The past event cannot be made never to have happened. That does not prove that continuing harm remains forever; people can heal, relationships can change and new futures can be made. Some harms are gradually repairable, some are compensable without being reversible, and some leave an enduring loss. A serious account must let these differences stand.
+
+Present life matters as well as the possibility of a longer future. Someone facing another exhausting treatment may value comfort and relationships now more than a poorly supported promise of extra interventions. That judgement belongs to the person and competent care arrangements. Counting available options is not the same as knowing what matters to them.
+
+Sometimes the most responsible act is to stop an intervention rather than continue it in the hope that another stage will justify the first. A medical procedure, an engineering experiment or an AI-assisted decision may have reached a point where evidence or authority is insufficient for the next move. A pause can preserve possibilities; a pause can also have costs. Whether it is warranted depends on the affected route, the clocks, the expertise and the authority involved.
+
+Sometimes there is no effective rescue. The decision-maker is distant, the institution refuses to listen, or the relevant time has passed. It would be cruel to tell the person harmed that a better record will certainly deliver justice. Evidence can help an appeal, protect someone else or preserve an honest history. It can also fail. The witness should not be made to carry responsibility for a remedy that the powerful actor has withheld.
+
+What remains, then, of answerability when the original loss cannot be corrected?
+
+The people involved may still be owed an accurate account, a lawful remedy, a change to the repeated mechanism, protection against further misuse, or an honest explanation of what cannot be repaired. Which of these is owed depends on the actual responsibilities and values at stake. An institution cannot make the past good by rewriting its status field. Nor can it promise complete restitution where no one can supply it.
+
+The person harmed may wish to stop talking. That is not proof that the matter was trivial, but neither is continued testimony always something others may demand. Privacy, rest and refusal can be ways of preserving what remains open. Care does not require possession of another person's future; it may require placing the work of correction on those with the resources and authority to carry it.
+
+Closure itself needs judgement. Some disputes should end because continued proceedings impose more harm than they can remedy, because an affected party has chosen a legitimate exit, or because the evidence is insufficient to justify coercive action. Other files are closed too early to protect the institution from embarrassment. No single timer or form can settle the difference for every domain.
+
+Return to the child and the glass. A broken glass cannot be made unbroken by calling a replacement the same object. A new glass may serve the child just as well, and the child may have learnt to carry it. The earlier break still occurred. No ethical theory needs to make the break into an eternal injury or pretend it never happened. Honest repair can be both limited and worthwhile.
+
+The student accepts the library's apology and decides not to pursue a further complaint. That choice deserves respect; the student should not have to keep giving testimony so that the library can prove it is learning. The institution can still check the repaired entrance, consider what is owed under its actual duties, and pay attention to the next visitor. Acceptance, exhaustion, forgiveness and procedural closure are different experiences, none of which serves as the institution's sole evidence of restored access.
+
+An apology or settlement may bring genuine peace, and some people reasonably want no more contact. Silence may also follow exhaustion, fear or a practical need to accept compensation. **Peace is not evidence of complete repair**, although it can be an important good in its own right. No one has to remain angry, forgive, or keep a dispute alive to make an institution's record truthful. The record should instead distinguish chosen closure, what has actually been repaired, what remains and what will change for others. Benefits from an earlier harmful arrangement may also pass to a person who caused none of it. Naming an inherited advantage or an unresolved claim is not a finding of inherited personal guilt; the issue is what present responsibilities and possible corrections follow from the history.
+
+The next student's route is part of the repair claim, not a sentimental epilogue. Staff need to know the changed instruction, the usable entry and the person who can repair a fresh failure. If no one can keep it working, the local apology may be genuine while the harmful mechanism remains. A witness may choose silence or closure without becoming responsible for maintaining the institution's correction.
 
 # 11. The Things We Make Possible
 
@@ -240,7 +396,7 @@ Over several weeks the child has returned to the pot on the windowsill, checking
 
 The child is beginning to care for the plant without constant prompting. That suggests a skill is developing, although successfully looking after a different plant would give stronger evidence that the child could use what they have learnt under new conditions. The adult's contribution matters as well: the tray and the time spent teaching make it possible to practise without turning every spill into a crisis.
 
-![The Growing Room. A child notices a planted pot, practises with adult help and a tray, and later encounters another plant. The picture does not establish independent learning or consent; the work of maintaining the room remains.](figures/growing-room.svg){#fig:growing-room width=126mm}
+![The Growing Room. A child notices a planted pot, practises with adult help and a tray, and later encounters another plant. The picture does not establish independent learning or consent; the work of maintaining the room remains.](../../v1.0/figures/growing-room.svg){#fig:growing-room width=126mm}
 
 The pot has also become something to enjoy. The child paints it in clashing colours and watches an insect with a friend, and neither activity needs to be justified as preparation for a later achievement. Play and companionship are valuable parts of the afternoons themselves, alongside any practical skill that lasts beyond them.
 
@@ -252,6 +408,8 @@ It is worth seeing the difference between protecting an existing opportunity and
 
 The same practical issue arises in a bicycle workshop: somebody learns by trying a repair with suitable help, makes mistakes that can be corrected safely and eventually manages a task without the helper's hands. Not all progress is visible on the day of instruction. What matters is what the person can do afterwards and whether the tools, knowledge and time remain available.
 
+Someone may choose to give their Thursday evening to the workshop and let other plans go. A regular commitment can give them time to practise and somebody else a reason to show up. Ask how they took on the commitment, what they understood it would cost and what they could do if they later needed to stop. Carry the skill, relationship or purpose it made possible alongside the time it took.
+
 People may need protection from immediate injury and room to learn, create, work, play, care and explore. A good arrangement makes those pursuits possible in practice: through usable places, dependable help, time, equipment and freedom to choose. Its upkeep must also be counted.
 
 The library's evening hours are a modest example. A student gains access to a quiet room. Over several weeks, that room becomes somewhere they can study without being interrupted. A volunteer teaches a child how to search for reliable information. A new friendship begins. These are not all consequences that the library can predict, own or claim as its performance. They are possibilities supported by an arrangement whose users may make of it more than its builders imagined.
@@ -261,6 +419,8 @@ The arrangement has to be sustained. Electricity and maintenance cost money. Sta
 A library that opens for one evening has created an opportunity. Keeping the service available over a term will take a staffing plan that people can sustain.
 
 Ask who actually bears the maintenance. A library's longer hours may depend on cleaners, carers, volunteer organisers, technicians and night transport that do not appear in the celebratory attendance figure. If their time, consent or compensation is missing, the institution may be shifting the cost of one group's new capability onto people with less power. Maintenance can also be an opening: training a second repairer and handing over a clear guide makes the useful arrangement less fragile. We should describe both the capacity gained and the dependencies that keep it alive. A training programme may produce a skill that decays without practice. A friendship may need attention. A forest restoration project requires care through seasons when the first volunteers have moved away. The future contains the work of upkeep, and the people who will inherit that work deserve a place in the decision.
+
+Set aside a time when people who use and provide the service can question how it works. A student who needs the quiet room and the cleaner who has to close it both need a way to describe their circumstances to someone able to alter the arrangement. At the next review of the hours, check what happened to their requests.
 
 A constructive decision therefore has its own window of opportunity. A young person who needs a placement this term cannot necessarily use a programme promised five years later. An ecological restoration can miss a breeding season and still provide gains later. In each case, the target, the starting conditions, the time to become effective and the costs of sustaining the gain are part of the proposal. We should not evaluate creation solely by counting imagined future options.
 
@@ -310,6 +470,8 @@ Snowden's estuarine mapping offers a practical way to examine constraints: asses
 
 Ask what each arrangement enables as well as what it prevents, and for whom. A bus lane may preserve a dependable journey while limiting another use of the road. Keep useful arrangements working. Where change is possible, name who can authorise and carry it out. Where nobody present can change it, retain the issue and its receiving owner instead of treating it as solved.
 
+A dependable bus journey also needs a timetable, a vehicle and people who can keep the route usable through roadworks. Follow the way those conditions work together. A change in one can alter what the whole route offers.
+
 Estuarine mapping groups small interventions into portfolios and keeps a direction of travel open to what happens. Applied here, an authorised trial of a signal setting might reveal whether a queue eases or moves into a residential street. Decide beforehand what burden the trial may impose, who will observe it, and who can stop or alter it. Stopping a trial may prevent further damage without undoing damage already done. A small trial still needs a credible account of its possible consequences.
 
 The people affected help tell us what changed. Shorter average journeys can conceal a worse crossing for pedestrians or a lost bus connection. Keep those differences visible when deciding whether to continue. Findings that reach nobody able to act leave the correction route unfinished.
@@ -327,6 +489,8 @@ A river is shaped by rainfall, soil, plants, farming and construction. Some of t
 The routing service offers suggested journeys to those same drivers. It may reduce overall delay while overlooking a road closure, a disability-related constraint or a hazard on a small residential street. Someone following a recommended shortcut may impose noise and danger on residents who never use the app and may have no direct route to challenge its objectives. Their absence from the optimisation dataset is not an absence from the consequences of the advice.
 
 The software does not need an inner wish to inconvenience them. It acts through data, objectives, infrastructure and human reliance. The people who designed it, deployed it, set permissions and retained logs may have different knowledge and different authority. Attributing everything to "the AI" can hide the people and institutions who decide what it is allowed to change.
+
+A run of useful suggestions shows what the service can do with its present support. Follow the work that keeps its data and tools available before drawing a conclusion about which parts of that capacity the service can sustain itself.
 
 Machine speed alters the stakes. A sensor, questionnaire or visible monitoring system can also change behaviour being measured; records are not passive windows in every setting. Asking people for more evidence may help reveal a fault, or create a surveillance risk and encourage hiding. At machine speed, a dubious classification can propagate before a human review can act. A bounded hold needs a defined affected scope, a route to actual stop authority and an understood recovery path; an instantaneous button on a dashboard proves none of these. The same system can also make possible improvements that manual work could never deliver. The interesting question is not whether the machine is good or bad in general, but whether this particular arrangement carries benefits and burdens honestly, maintains a usable way to correct its behaviour and preserves the authority of those entitled to decide.
 
@@ -378,7 +542,7 @@ The Chapter 10 residue ledger is an **illustrative account design**, not an exis
 
 ## Status and evidence
 
-This is a working slice for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It contains Chapters 2, 5, 6, 9, 11 and 12 and the Notes; unchanged intervening material is omitted. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
+This is a working slice for Mechanical Ethics 1.1, prepared on 17 November 2026 from the released ME 1.0 book. It contains Chapters 1, 2 and 5–12 and the Notes; unchanged intervening material is omitted. The revision adds source engagement, restores selected meanings from earlier drafts and consolidates repeated qualifications while preserving the existing teaching order.
 
 This text is for editorial integration and Mark's decision. The accompanying diff records its changes, and the released source remains unchanged. The inherited illustrations remain provisional. The limits of the evidence for the book are stated under Scope and limits above.
 
@@ -396,13 +560,31 @@ The v1.0 preservation pass re-read the complete released v0.8.0 human reader alo
 
 **Chapter 6 in this working edition.** David Ing and Gary S. Metcalf discuss chronos and kairos in [*Reframing Systems Thinking for Systems Changes*](https://coevolving.com/pubs/2024_JISSS_v67_a4154_ReframingSystemsThinkingForSystemsChanges.pdf) (2024), in the paragraph on the nature of time in (con)texturalism-dyadicism. They cite Orlikowski and Yates (2002, p. 686) for the distinction. The catalogue example shows how a person's occasion to act can form within a measured window. Marjolijn Haasnoot, Jan H. Kwakkel, Warren E. Walker and Judith ter Maat, [*Dynamic Adaptive Policy Pathways*](https://ris.utwente.nl/ws/files/247793059/Haasnoot2013dynamic.pdf) (2013), section 5, connect policy tipping points with the lead time needed for an alternative. Chapter 6 identifies the person affected and the specific loss when applying its own timing comparison.
 
-**Chapter 9 in this working edition.** The point about witnesses who share a source draws on Vadym Chernets, "Agreement Is Not Independent Evidence: Auditable Multi-Model Synthesis Without an API" (updated 18 October 2026; version of record SSRN 7390698, DOI 10.2139/ssrn.7390698), sections 1.1 and 5, read on 17 November 2026. The example of ten witnesses and one recording is his. He credits the design-effect arithmetic to Leslie Kish's survey-sampling work (1965) and its application to a panel of AI judges to Kohli (2026); he cites Kim et al. (2025) for evidence of correlated errors across models. Those earlier sources were not consulted for this edition. The model assumes errors that are equally correlated between sources; the chapter uses it as an illustration, not as a general rule for weighing testimony.
+**Chapter 9 in this working edition.** The point about witnesses who share a source draws on Vadym Chernets, "Agreement Is Not Independent Evidence: Auditable Multi-Model Synthesis Without an API" (updated 18 October 2026; version of record SSRN 7390698, DOI 10.2139/ssrn.7390698), sections 1.1 and 5, read on 17 November 2026. The example of ten witnesses and one recording is his. He credits the design-effect arithmetic to Leslie Kish's *Survey Sampling* (Wiley, 1965) and its application to a panel of AI judges to G. Kohli's [“Nine judges, two effective votes”](https://arxiv.org/abs/2605.29800) (2026). He cites E. Kim and colleagues' [“Correlated errors in large language models”](https://arxiv.org/abs/2506.07962) (2025) for evidence of correlated errors across models. These three references come through Chernets's bibliography. The model assumes errors that are equally correlated between sources; the chapter uses it as an illustration, not as a general rule for weighing testimony.
 
 **Chapters 11 and 12 in this working edition.** Chapter 12's account of complex situations draws on Dave Snowden's Cynefin framework. The Cynefin Company's overview, "The Cynefin Framework" (https://thecynefin.co/about-us/about-cynefin-framework/), supports matching action to context. The Cynefin wiki page "Cynefin" (https://cynefin.io/wiki/Cynefin, "How it Works / Domains") distinguishes ordered systems, where cause and effect are clear or can be found by analysis, from complex systems that can be understood only by interacting with them. The practical steps for examining constraints follow Snowden's "Estuarine mapping first edition" (The Cynefin Company blog, 7 October 2022, https://thecynefin.co/estuarine-mapping/, outline steps 1–7): the effort and time needed to change a constraint, what lies beyond the planning horizon, watching for unexpected shifts, attention to fast changes with serious effects, and portfolios of small interventions with a direction of travel. All three pages were accessed on 17 November 2026. The ambulance and deadline distinction, the road trial and the participant-level account are this book's own illustrations; the sources give no evidence that such a trial would work.
 
 Chapter 11's handover passage recovers meaning from this book's own earlier drafts rather than adding a new idea. The unpublished *Mechanical Ethics Book v0.1: Value Spine* (27 June 2026), §12.2 "Institutions as Memory" and §12.7 "Maintenance, Stewardship, and Decay", asks institutions to remember what kept a route open as well as what went wrong, and treats maintenance as the work that keeps correction possible after attention moves on. The unpublished *ME Final Eight* raw source (4 June 2026), Book II, including its note "Time Returned Must Not Hide Burden Routing" and Volume 6, "Stewardship Under Constraint", asks who did the work before and after an efficiency gain, and whether surplus becomes buffer or is recaptured as throughput. The workshop's details, an afternoon session, a bench by the wall and a diagram beside the soldering iron, come from the Saturday Workshop interlude in the released v0.8.0 reader.
 
 Chapter 11's distinction between a skill gained with others' help and a gain a group has to act together to secure follows Ingrid Robeyns, *Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined* (Open Book Publishers, 2017, CC BY 4.0, https://doi.org/10.11647/OBP.0130), section 3.6, "Collective capabilities". Robeyns treats capabilities that need collective action as a subset of personal capabilities, and warns against calling a social structure that shapes capabilities a capability itself. Section 4.6 distinguishes treating each person as the unit of moral concern from explaining society as nothing but individuals. "Shared capability" in this book describes joined practical provision; it does not by itself settle that debate or establish a group's moral standing. Both sections were read in the openly licensed LibreTexts republication of the book, accessed 17 November 2026.
+
+### Sources used in the 20 November revision
+
+**Chapters 1 and 8.** Werner Ulrich's [*A Mini-Primer of Critical Systems Heuristics*](https://wulrich.com/csh.html) sets out boundary critique and the questions about motivation, control, knowledge and legitimacy. The book uses those questions to make the choice of who and what enters a comparison open to challenge.
+
+**Chapter 2.** Hanne De Jaegher and Ezequiel Di Paolo, [“Participatory sense-making”](https://doi.org/10.1007/s11097-007-9076-9) (2007), discuss how interaction contributes to sense-making and how the autonomy of participants matters. The next soil check is the book's example of finding out what the child can carry into a later attempt.
+
+**Chapter 5.** James J. Gibson, [*The Ecological Approach to Visual Perception*, Chapter 8](https://cs.brown.edu/courses/cs137/2017/readings/Gibson-AFF.pdf) (1979), links affordances to the particular animal and its environment. The door example applies that idea to a visitor's way of using the entrance. Chapter 5 also carries the library's rules and obligations.
+
+**Chapters 7 and 8.** Martha C. Nussbaum, [“Capabilities as Fundamental Entitlements: Sen and Social Justice”](https://hceconomics.uchicago.edu/sites/default/files/pdf/events/Nussbaum_2003_capabilities_fundamental.pdf) (2003), describes a threshold for each person in the passage following her list of central capabilities. The distinction between a floor and serious harms that can be weighed, and the account of what remains owed in a conflict, recover earlier ME work. See the unpublished *Mechanical Ethics Book v0.1: Value Spine* (27 June 2026), §§7.2.1 and 9.3–9.9, and *ME Final Eight* (4 June 2026), E01, PDF file pp. 170–172. The library example uses a specific promise to set the scope of the protection.
+
+**Chapter 9.** Willem van der Maden, Malak Sadek, Ziang Xiao, Aske Mottelson, Q. Vera Liao and Jichen Zhu, [“Results-Actionability Gap: Understanding How Practitioners Evaluate LLM Products in the Wild”](https://doi.org/10.1145/3772318.3791069) (CHI 2026), describe the difficulty of taking evaluation findings through to a concrete improvement. The platform example applies that question to an appeal by tracing which step fails before choosing a remedy.
+
+**Chapter 10.** David D. Woods, [“Four concepts for resilience and the implications for the future of resilience engineering”](https://doi.org/10.1016/j.ress.2015.03.018) (2015), §§2.2–2.4, distinguishes recovery from the ability to extend and sustain adaptation. The entrance example asks whether capacity remains for a later breakdown alongside what the first repair achieved.
+
+**Chapter 11.** Joan C. Tronto, [“Creating Caring Institutions: Politics, Plurality, and Purpose”](https://doi.org/10.1080/17496535.2010.484259) (2010), connects institutional care with purpose, power, particular needs and a place for reviewing conflicts. The library example gives the people using and providing the service a way to raise their circumstances with someone who can act. The workshop commitment recovers the earlier *After-Fall Reader* v0.5 carrier's authored-contraction case, PDF file pp. 21–24, in an ordinary instance of keeping a commitment and being free to reconsider it.
+
+**Chapter 12.** Alicia Juarrero, [*Context Changes Everything: How Constraints Create Coherence*](https://doi.org/10.7551/mitpress/14630.001.0001) (2023), Chapter 6, supplies the distinction between enabling conditions and conditions that constitute or govern an organised activity. The bus example asks which conditions together keep a journey possible. Tom Froese and Tom Ziemke, [“Enactive artificial intelligence: Investigating the systemic organization of life and mind”](https://doi.org/10.1016/j.artint.2008.12.001) (2009), discuss constitutive autonomy. The routing example uses this to ask what sustains a service's demonstrated capacity.
 
 ## Figure 1: text equivalent and provenance
 
