@@ -6,7 +6,7 @@ Draft for Campfire's integration and Mark's editorial decision ([COM #955](https
 
 ## Changes from v1.0
 
-The 21 November review revisions restore evidence boundaries, distinguish the two timing limits, work through the library floor and its next-visitor check, and trace Robodebt from individual correction to review of the method. The entries below describe earlier drafts.
+The 21 November review revisions distinguish prevention from recovery, work through the library floor, and trace Robodebt from a corrected account to the arrangement that controlled review. The entries below describe earlier drafts.
 
 The 21 November reader edit applies throughout the excerpt and full manuscript. The entries below record earlier integration steps.
 
@@ -135,7 +135,7 @@ Someone with better access may be able and willing to make a call, carry a docum
 
 The garden also provides a bridge from one person to a small organisation. Imagine the neighbours making a rota for watering while several households are away. One writes the timetable, another keeps the key, a third tends the pots, and somebody else notices when a plant begins to dry. The person who can see the dry soil may be unable to open the locked store cupboard. The key holder might never have seen the plant. An accurate rota on the noticeboard is an account of the arrangement; water reaching the roots is the effect. Between the two lie several people, permissions and opportunities for a message to be lost. Compare [Star and Griesemer (1989), Star (2010) and Ing (2008)](#shared-records-and-commitments) on shared records and service commitments.
 
-To **compose** a larger account, keep the participants distinct and follow what passes between them. Identify who observed, who decided, who acted and who bore the result. One person can fill several roles. Check that the instruction reaches the key holder in time, that the cupboard opens and that the water reaches the roots. Each connection earns its place through the work it does.
+To **compose** a larger account, follow what passes between the people involved. For each connection, name what was sent, what arrived and what the receiver could do with it. The rota tells the key holder when to open the cupboard. The opened cupboard lets a neighbour fetch the can. Wet soil gives evidence that the water reached the plant. Carry any missing link forward as an open question.
 
 Markets, traffic and ecosystems also change through interacting parts. Follow the distinct mechanisms in each setting. Separate the observation, the decision, the carried action and its effects. Then locate the powers and duties that matter there.
 
@@ -223,25 +223,23 @@ Figure 1 follows the library case through both limits. A door opened in time pro
 
 Give each threatened result its own clock. An authorised specialist may need to express its timing as a range or a probability. Where bounds are missing, name the observation, advice or interim safeguard that could change the decision.
 
-Three households need two-day repairs from one crew. Count elapsed days from the start. Their repairs must finish before the end of days three, four and seven respectively. The third job could finish at day six. In either order, the first two require four elapsed days, so one crew cannot protect both early households in time. Find out who can provide an interim safeguard or another crew. A queue and the timing comparison show the conflict. The choice of whose claim takes priority needs separate grounds.
+Three households need repairs, each taking two full days from one crew. Two need the work finished by the end of day three. The other can wait until the end of day seven. Even if the crew takes the urgent jobs first, one finishes at the end of day two and the other at the end of day four, a day late. The third can finish on day six. Find who can arrange another crew or protect a household while it waits. The schedule shows the conflict. The choice of whose claim takes priority needs separate grounds.
 
 Include anyone whose exposure changes during a hold. While one household's repair goes ahead, another may face damage. While a benefits decision is paused, a person may need an interim payment. Give each consequence its own timing, evidence and grounds for priority.
 
-The student reads the sign through the glass door. The lights are still on inside. The library's evening hours are set in an office that closes at four. The people choosing them have a budget, staff rotas and a building to secure. They can ask for another month's figures before deciding whether to extend the hours. For a student whose assignment is due on Friday, that month is not available. The student can explain the deadline, but cannot change the rota or keep the building open.
+The student reads the closing time through the glass door. Inside, the lights are still on. The office that sets evening hours can wait for another month's figures before deciding whether it has the budget and staff to open longer. The assignment is due on Friday. The student can report the deadline. The office controls the hours.
 
-Put the office's time beside the student's. The office can wait for a month's figures and change the rota. The student can report a deadline and must live with what happens on Friday. Record which decisions each can make and the consequences each carries.
-
-Give every clock its author. The institution chooses the closing time, the office chooses the reporting period and the student's assignment is due under a different rule. State whose starting point, endpoint and affected future a comparison uses.
+Give each clock its author. The office chooses when to review the hours. The course sets the assignment deadline. The student lives with the gap between them.
 
 A tenant reports damp spreading behind a child's bed. The landlord can commission an inspection and authorise repairs. The tenant can send photographs, move the bed if there is space and seek someone with the power to help. While the cause is being investigated, check who is exposed and who can make the room safer.
 
-A new photograph can improve the landlord's account. Find out what would also give the tenant a means of protection. If the inspection is declared 'in time', ask in time to prevent **which loss**. The household knows what exposure continues while the inspection is pending. The inspector can help establish what would make the room safer.
+A new photograph improves the landlord's account. If an inspection is declared 'in time', ask which loss it can still prevent. Give the household and competent specialists a way to challenge the cutoff and its evidence. Identify what protection can actually reach the child during the wait.
 
 Imagine two flats sharing a leaking wall. The upstairs owner reaches a managing agent who sends a contractor. The downstairs tenant gets a case number and more requests for photographs while a child's room remains affected. Trace each route to the inspection and repair. If the tenant moves and the file closes, record why it closed and check what happened to the wall and the household.
 
 The same position can carry help. A pharmacist notices a possible problem with a prescription. Instead of asking the patient to carry the query between offices, she contacts the prescriber and keeps the patient informed. Her access and working relationship make a route available that the patient could not readily use alone. The difficulty has moved towards somebody with the means to carry it.
 
-Use the pharmacist's route to ask how the wait could be shortened. Who can change it, who bears it and who benefits while it goes on? Test intent on its own evidence.
+Compare the wait with a feasible alternative, such as moving a check to someone with direct access to the records. Name who could change the wait, who bears it and who benefits while it goes on. Give affected people a route to challenge the delay with someone able to act. Test intent on its own evidence.
 
 # 7. When Change Matters to Someone
 
@@ -255,7 +253,7 @@ Record standing as **unknown or disputed** when it is unsettled. Pay particular 
 
 The library board may have authority over opening hours. The student who uses a wheelchair or finishes work late brings evidence about whether they can make the trip. Give the board that account, and give the student a route to question the decision under the rules that govern the library.
 
-The symbol **≠** gives two claims their own evidence. **Description ≠ ethical judgement. Capability ≠ authority.** Who can lock the door? Who has the right to do so? The first answer concerns what is possible. The second needs grounds such as law, duty or a legitimate delegation.
+The crossed equals sign (**≠**) gives two claims their own evidence. **Description ≠ ethical judgement. Capability ≠ authority.** Who can lock the door? Who has the right to do so? The first answer concerns what is possible. The second needs grounds such as law, duty or a legitimate delegation.
 
 A **floor** is a minimum a decision is required to protect for each affected person. Its grounds might come from law, a professional standard or a commitment the people responsible can make and defend. [Martha Nussbaum’s account of central human capabilities (2003)](#thresholds-for-each-person) asks what minimum each person should be able to reach.
 
@@ -333,11 +331,11 @@ After the first two evening openings, the library manager learns that thirty peo
 
 A visitor reports that the accessible entrance was locked while the building was open. A staff member says the closing time conflicts with a scheduled bus. A student finished an assignment in the extra hour. Carry each account to the part of the trial it can help the board understand.
 
-The visitor's photograph and an independently kept door log may help reconstruct when the entrance was locked. A third person remembers somebody unable to enter. Look for an emergency closure or another entrance, and check what the visitor could actually use. Each account can help the others answer a more precise question.
+The visitor's photograph and an independently kept door log may help reconstruct when the entrance was locked. A third person remembers somebody unable to enter. Look for an emergency closure or another entrance, and check what the visitor could actually use. Together they can show which route was usable.
 
 Two records can appear independent while relying on the same broken sensor, shared clock or source report. Witness independence therefore depends on the mechanisms by which information was obtained, as well as whether anybody copied another person's conclusion. The specific failure being investigated determines which sources could genuinely corroborate each other.
 
-In [Vadym Chernets’s example (2026)](#independent-witnesses-and-shared-error), everyone in the group relies on one security recording. Their statements share that source. He uses a survey-statistics model to illustrate how correlated errors can reduce the additional evidence supplied by similar AI systems. The illustration gives every pair of sources the same error correlation. For empirical comparisons with model judges, see [Hossain et al. (2026) and Morante and Romero García-Rubio (2026)](#independent-witnesses-and-shared-error). Find how each witness got their information and keep any disagreement available for checking.
+In [Vadym Chernets’s example (2026)](#independent-witnesses-and-shared-error), ten people rely on one security recording. Their statements share that source. He uses a survey-statistics model to illustrate how correlated errors can reduce the additional evidence supplied by similar AI systems. The illustration gives every pair of sources the same error correlation. For empirical comparisons with model judges, see [Hossain et al. (2026) and Morante and Romero García-Rubio (2026)](#independent-witnesses-and-shared-error). Find how each witness got their information and keep any disagreement available for checking.
 
 Ask which entrance staff were told to check, whether they checked it and whether the check could detect the failure at issue. Use **a check specified, a check performed and a check capable of finding this failure** as separate findings. Then follow the finding to the person who can repair the setting of the door.
 
@@ -353,9 +351,9 @@ The next shift needs the revised opening procedure and the reason for it. A work
 
 A worker who has seen retaliation may refuse to sign a report. A missing log or a required form category someone was never offered may also block review. Test the route from the affected person's position. A lawful independent receiver may be able to protect a private witness. If a safe route is unknown, record the obstacle and respect the person's choice about further disclosure.
 
-The manager says, 'We have taken this seriously.' Check who can act on the visitor's account and whether the door opens when they need it. Those are the steps the response has to reach.
+The manager says, 'We have taken this seriously.' Find who can act and see whether the door opens when the visitor needs it.
 
-**Answerability** requires a sufficiently safe and usable route to a responsible receiver, genuine consideration of the evidence, reasons and a way to challenge the decision. A refusal can be an answer when it rests on legitimate grounds and those grounds can be reviewed.
+**Answerability** requires a sufficiently safe and usable route to a responsible receiver, genuine consideration of the evidence, reasons and a way to challenge the decision. A refusal can be an answer when it rests on legitimate grounds open to review. After checking that evidence reached the receiver, ask what finding could reopen the standard they applied and who could require a fresh decision. Chapter 13 shows why this matters in the [Challenger case](#the-shape-that-returns).
 
 Have someone able to act independently check whose experiences the route serves. A person who controls the evidence should make it available for authorised scrutiny. Where access or safety is uncertain, record **UNKNOWN** and what would establish it. Check the fairness of the process and the substance of the decision on their own evidence.
 
@@ -365,11 +363,11 @@ A clerk may have the complaint, a manager the authority and the software provide
 
 Some correction routes fail because the parts are disconnected. Others are kept unusable by design or incentive. An appeal may require the applicant to repeat the same evidence through a channel that loses attachments. A contractor may be paid for closed tickets rather than restored access. A manager may receive every warning yet face a stronger reward for leaving a decision unchanged. A complaint procedure can technically exist while surveillance, retaliation, expense or exhaustion makes its use dangerous.
 
-Test whether the same obstacle keeps paying off for someone able to reduce it. A **predator position** is repeated benefit from an arrangement that keeps another party unable in practice to understand, challenge, leave or correct it, where the beneficiary controls or materially influences the barrier and could reduce it. Look for evidence of the maintained barrier, continuing benefit, a feasible alternative and actual control. A platform that controls the records may repeatedly save money by keeping customers' complaints separate. Compare that with a feasible joint review under the relevant duties. Assess any claim about deliberate obstruction on its own evidence. If a decision-maker refuses a proposed change, check their reasons, whether they met the applicable duty and how their decision can be challenged. The term applies to a position in an arrangement. A finding about the position gives no finding about someone's identity or intent. A difficult form alone is insufficient evidence. Make each part of the finding open to challenge.
+A **predator position** is repeated benefit from a maintained barrier to understanding, challenge, exit or correction that the beneficiary can influence and could reduce. Check the barrier, what it continues to secure, a feasible alternative and who actually controls the relevant part. Use the term for the position someone occupies in the arrangement. A difficult form alone is insufficient evidence. An allegation about someone's character or deliberate obstruction needs its own evidence. Give affected parties a way to contest each part of the finding.
 
 Two platforms can show the same backlog. One is short of reviewers, keeps appeal periods open and gives an independent reviewer authorised access to enough related records to check the pattern. The other has the means to offer a joint review and keeps the complaints isolated. Its own records show a recurring overcharge that its rules would repay if the claim were established. Customers can see only their individual cases. Keeping the records apart repeatedly saves the platform money.
 
-A practical change is to let an independent reviewer test the linked cases with access limited to the evidence needed. Follow a few comparable appeals from receipt to any remedy. Record the wait for a reviewer, which records that reviewer can link and who can act on their findings. Carry both who checked the case and who decided what to do with the check (compare [Törnberg 2026](#review-selection-and-authority) on review and authority). This step draws on work by [Willem van der Maden and colleagues (2026)](#review-selection-and-authority) on the gap between evaluation findings and improvement. Keep the appeal open long enough for people to see and challenge the result. Then check whether they can use the route and where the costs fall. A staffing shortage and a profitable barrier can coexist. Check both explanations against who holds the records and decides what reviewers can see.
+A practical change is to let an independent reviewer test the linked cases with access limited to the evidence needed. Follow a few comparable appeals from receipt to any remedy. Record the wait for a reviewer, which records that reviewer can link and who can act on their findings. Carry both who checked the case and who decided what to do with the check (compare [Törnberg 2026](#review-selection-and-authority) on review and authority). This step draws on work by [Willem van der Maden and colleagues (2026)](#review-selection-and-authority) on the gap between evaluation findings and improvement. Keep the appeal open long enough for people to see and challenge the result. Then check whether they can use the route and where the costs fall. A staffing shortage and a profitable barrier can coexist. Check who controls what the reviewer sees and what keeping the complaints separate secures for the platform.
 
 Imagine a claimant who can send an appeal letter and has no way to confirm receipt or correct the record. Eligibility expires before any answer reaches them. Record the point where the route failed. Check whether an independent review body or another authorised receiver can preserve eligibility during the wait. Where no known route can do that, record the power that is missing. Agree what further contact the claimant wants.
 
@@ -411,7 +409,7 @@ A small illustrative entry might read: “Evening trial, case L03: observed, the
 
 The student might want the library to ask about a replacement session. With the student's agreement, an authorised liaison can take the necessary details to the course organiser. Record receipt, any offered slot, whether the student could attend and what they recovered. The course deadline has its own clock. A review date brings the question back to the next organiser, along with any authorised alternative contact.
 
-A *shadow clock* starts when an immediate defect is corrected and a consequential question remains open. Its record names the starting event, the reason to keep watching and the next deadline that could affect a remedy. Elapsed time can show whether a route to repair is closing. Evidence of the person's experience tells us about the loss itself.
+A **shadow clock** keeps a recovery question live after an immediate fix. Record the date of the fix, who will revisit the loss and the next deadline. At that review use the recovery clock to compare a named remedy's arrival with the time its route closes. Keep both times on the same clock, even if the deadline was set before the fix.
 
 Give the unfinished work to someone able to carry it. A ledger can fail if the team that wants closure controls the only account, if a reviewer lacks the power to act, or if the record gathers more private details than the remedy needs. Give affected people a way to dispute the record and reach an authorised reviewer. An entry can support a claim under a duty. The duty needs grounds separate from the entry.
 
@@ -447,7 +445,7 @@ Over several weeks the child has returned to the pot on the windowsill, checking
 
 The child now notices dry soil and reaches for the water with fewer reminders. Give them a chance to look after a different plant and see what they can carry over. Keep track of the adult's time, the tray and the room to make a mistake. Figure 3 follows the child from practice to a new plant.
 
-![The Growing Room. A child notices a planted pot, practises with an adult and a tray to catch spills, and encounters a different plant. In the last scene, check what the child can do and what help is still within reach.](../../v1.0/figures/growing-room.svg){#fig:growing-room width=126mm}
+![The Growing Room. A child notices a planted pot, practises with an adult and a tray to catch spills, then tries a different plant. Someone keeps the room usable while the child takes on more of the work. Check what the child can do and what help is still within reach.](../../v1.0/figures/growing-room.svg){#fig:growing-room width=126mm}
 
 The child paints the pot in clashing colours and watches an insect with a friend. The afternoons are worth having for the play and companionship as well as the skill that will last beyond them.
 
@@ -457,7 +455,7 @@ Learning here depends on more than individual effort. The child sees the plant t
 
 The window was always there. The ability to care for the plant grew through trial, correction and encouragement. Look for the work that builds a new ability as well as the work that keeps an opportunity open.
 
-At a bicycle workshop, a learner tries a repair with help close at hand. On a later visit they can try a different repair if they want to. See what they can do and which tools, time or help they still need. Compare [Collins, Brown and Newman (1987) and Blume et al. (2010)](#apprenticeship-and-transfer) on practice across tasks and checking what carries forward. Studies of AI assistance ask a related question about later performance ([Bastani et al. 2025, Wiles et al. 2026, Contractor and Reyes 2026 and Wei 2026](#assisted-results-and-later-skill)).
+At a bicycle workshop, a learner tries a repair with help close at hand. On a later visit they can try a different repair if they want to. See what they can do and which tools, time or help they still need. Compare [Collins, Brown and Newman (1987) and Blume et al. (2010)](#apprenticeship-and-transfer) on practice across tasks and checking what carries forward. [Studies of AI assistance](#assisted-results-and-later-skill) ask how much of what someone can do with help carries over when the help is removed.
 
 Someone may choose to give their Thursday evening to the workshop and let other plans go. A regular commitment can give them time to practise and somebody else a reason to show up. Ask how they took on the commitment, what they understood it would cost and what they could do if they later needed to stop. Carry the skill, relationship or purpose it made possible alongside the time it took.
 
@@ -551,7 +549,7 @@ Give a reviewer evidence representative of the failure they are meant to detect,
 
 Test the route from an emergency stop request to the effect it needs to deliver. Identify which actions it covers, how long it takes, who owns it, and how service can recover. In a traffic system, include the routes drivers would take during the stop.
 
-A **machine-speed brake** gives an authorised stop time to take effect before the action under review is committed. This is Chapter 6's prevention clock for that action. Stage deployment, set limits on irreversible actions, hold a contested output before it takes effect or provide an independent route to someone who can interrupt it. Keep a tested recovery path where the effects can be reversed. Choose a combination that fits the domain and counts the costs of a hold. Where review takes longer, slow commitment or protect an interval in which the reviewer can act. Give later appeals their own route to repair.
+A **machine-speed brake** gives an authorised stop time to take effect before the action under review is committed. This is Chapter 6's prevention clock. Stage deployment, limit irreversible actions or hold a contested output before it takes effect. Test how quickly an independent reviewer can interrupt the action and what a hold costs other people. Preserve a tested recovery route where effects can be reversed. Give a later appeal its own route to repair.
 
 At this scale, care becomes a design question as well as a personal one. Does an arrangement let its beneficiaries inspect important advice, decline participation where legitimate, preserve their knowledge if the service changes and reach accountable people when their futures are at stake? Does it unfairly shift costs to less visible entities, including workers, neighbours, non-users and the environment?
 
@@ -573,7 +571,7 @@ In engineering, send a warning to someone who can check it under the relevant te
 
 Follow the warning in the 1986 *Challenger* launch. The [Rogers Commission (1986)](#kelsey-and-challenger-in-the-official-record) found serious flaws in the routes that carried engineers' concerns about the solid-rocket-booster O-rings to the people deciding whether to launch. The shuttle and its crew were lost. Find who had the evidence, where it lost force and when someone could still act.
 
-[Diane Vaughan's account (1996)](#warnings-and-recurring-anomalies) adds a different check. Over earlier flights, signs of O-ring damage came to be treated as acceptable risk within the programme. An account can reach the person who decides and enter a judgement that has become settled through repetition. Ask what evidence would have reopened that judgement, and who could require it to be considered before commitment. See also [Leveson (2004)](#warnings-and-recurring-anomalies) on control and feedback.
+[Diane Vaughan's account (1996)](#warnings-and-recurring-anomalies) adds a different check. Over earlier flights, signs of O-ring damage came to be treated as acceptable risk within the programme. Vaughan calls this normalisation of deviance. An account can reach the person who decides and enter a judgement that has become settled through repetition. Ask what evidence would have reopened that judgement, and who could require it to be considered before commitment. See also [Leveson (2004)](#warnings-and-recurring-anomalies) on control and feedback.
 
 ## A Robodebt notice and the rule behind it
 
@@ -585,11 +583,11 @@ Amato's case put the basis of another demand before the court. On 27 November 20
 
 Most people were dealing with a much earlier step. Victoria Legal Aid reported that when recipients disputed debts they were often asked for payslips or bank statements from years earlier. It reported that only 1.1 per cent of debts in the figures it cited received a statutory internal review. Ask who held the records, who could obtain better evidence and who had to keep doing the work while the demand stood.
 
-In his 2024 account of the Royal Commission's findings, Justice Kyrou records 431 first-tier Administrative Appeals Tribunal decisions from 2016 to 2022 that questioned the legal basis of averaging, and about 114 that accepted averaging in the circumstances of the case. First-tier decisions were unpublished. The Department regarded the mixed decisions as grounds to continue using averaging. After Professor Carney ruled against it in March 2017, the Department found no grounds to challenge his decision and did not bring it to the Tribunal's attention in later cases, as its model litigant obligations required. A May 2018 recommendation against challenging another ruling expressly weighed the risk of making the method public and undermining the scheme.
+In his 2024 account of the Royal Commission's findings, Justice Kyrou records 431 first-tier Administrative Appeals Tribunal decisions from 2016 to 2022 that questioned the legal basis of averaging, and about 114 that accepted averaging in the circumstances of the case. First-tier decisions were unpublished. The Department regarded the mixed decisions as grounds to continue using averaging. After Professor Carney ruled against it in March 2017, the Department found no grounds to challenge his decision and did not bring it to the Tribunal's attention in later cases, as its model litigant obligations required.
 
-The Commission found that non-publication helped the scheme continue. The Secretary had not been informed of adverse decisions and so could not give them due regard. The Commission recommended publication of significant first-instance decisions so claimants, reviewers and administrators could find earlier reasoning, including the decisions that went the other way. Their authority to change a calculation and their duty to consider the evidence still matter.
+The Secretary had not been informed of adverse decisions and so could not give them due regard. On the Commission's account, the handling of adverse decisions meets Chapter 9's predator-position test. Claimants had no published record of the rulings. The Department controlled the decisions it brought to the Tribunal's attention and could have cited Carney's ruling in later cases, as its obligations required. The Commission found that this barrier let the Department continue the scheme. In one case in May 2018, advice against seeking review weighed the risk of making the method public and undermining the scheme.
 
-This is the middle-out move in a public service. Start with the notice and follow the evidence far enough to see who could correct the account, who could change the rule and which earlier findings each could see. Masterton got the debt cancelled. What the experience cost her, and what could be repaired for her, take a separate account.
+The Commission recommended publishing significant first-instance decisions, including the reasoning in cases that went the other way. Reviewers still need power to act on what they find. This is the middle-out move in a public service. Start with the notice and follow the evidence to who could correct the account, who could change the rule and which earlier findings each could see. Masterton got the debt cancelled. What the experience cost her, and what could be repaired for her, take a separate account.
 
 If a report says nothing was heard, find what signal was expected, on which channel and by when. If accounts agree, find how each obtained its information. If an intervention is said to have prevented harm, compare the observed outcome with a defensible picture of what would have happened otherwise.
 
@@ -681,7 +679,7 @@ This selective glossary points to the chapters that put the terms to work.
 
 **Custody and triage.** The history of who held a record and what could have changed, and the accountable allocation of limited review capacity. *Chapter 9.*
 
-**Correction, restoration and residue.** A supported change, recovery of a specified loss in comparable form, and the consequences still open after an intervention. A **residue ledger** carries those effects, their evidence and possible next routes. A **shadow clock** tracks a later opportunity to address an effect that the first repair left open. *Chapter 10.*
+**Correction, restoration and residue.** A supported change, recovery of a specified loss in comparable form, and the consequences still open after an intervention. A **residue ledger** carries those effects, their evidence and possible next routes. A **shadow clock** records who will revisit a loss still open after a fix, and by when. *Chapter 10.*
 
 **Formation and shared capability.** The growth of an ability, relationship or arrangement, and a result made possible by joined contributions. Follow the work that keeps it usable and the choices people have about taking part. *Chapter 11.*
 
@@ -689,7 +687,7 @@ This selective glossary points to the chapters that put the terms to work.
 
 **Governance gap.** A failure that no present actor has the authority, resources or competent method to repair; keep it visible while authority and a usable complaint route are brought together under somebody accountable. *Chapters 12 and 13.*
 
-**UNKNOWN.** A consequential question the evidence leaves open. It settles neither whether to continue nor whether to stop. Name what would help answer it. For a *strategic unknown*, check who can resolve it and who bears the risk while the usual process continues. *Chapters 2, 6 and 9.*
+**UNKNOWN.** A consequential question the evidence leaves open. It settles neither whether to continue nor whether to stop. Name what would help answer it. For a *strategic unknown*, check who can resolve it and who bears the risk while the usual process continues. *Chapters 2, 6, 9 and 10.*
 
 
 # Notes: Scope, Method, Limits, Sources and Authorship
@@ -714,7 +712,7 @@ Use a comparison to describe what changed for whom. Use a route to see how a que
 
 ## Values and responsible use
 
-The instructions in the chapters do three jobs. Some describe how to make a checkable account, such as choosing a time and recording who saw what. Others state Mechanical Ethics' commitments to take harm seriously, make challenge usable and create worthwhile opportunities fairly. Those commitments give reasons to act even where no rule requires a response. What someone may decide, what a particular service owes and what minimum it must protect take further grounds from the setting and the people affected.
+Some instructions describe how to make a checkable account. Others express the project's commitments to take harm seriously, make challenge usable and create worthwhile opportunities fairly. Mechanical Ethics holds that these commitments give reasons to act even where no rule requires a response. Who may decide, what a service owes and the level and force of a floor depend on the grounds people can establish in the setting.
 
 Give an evidence record a legitimate purpose, proportionate access and custody, a retention period and a safe challenge route. Find who can act on the evidence. Check what the person wants to share and what risks the record might create.
 
@@ -726,7 +724,9 @@ The household, library and workshop scenes are constructed for teaching. Kelsey,
 
 ## Sources and authorship
 
-Mark originated Mechanical Ethics and holds editorial, rights and release decisions. This draft uses AI-assisted editorial prose. The three figures are provisional. *Two Clocks* adapts Codex's drawing for project record 78. *Who draws the map?* and *The Growing Room* come from project record 79. The [draft record and illustration credits](README.md#draft-record) give the exact project references.
+Mark originated Mechanical Ethics and holds editorial, rights and release decisions. This draft uses AI-assisted editorial prose.
+
+**Draft record and illustration credits.** The three figures are provisional. *Two Clocks* adapts an earlier Codex drawing. *Who draws the map?* and *The Growing Room* come from the project's illustration review. The [draft record in the Mechanical Ethics repository](README.md#draft-record) gives the sources, credits and revision history.
 
 ### Kelsey and Challenger in the official record
 
@@ -738,7 +738,7 @@ The [FDA profile of Kelsey](https://www.fda.gov/about-fda/fda-history-exhibits/f
 
 ### Sources for this working edition, by chapter
 
-These notes show what each source contributes. See the [alphabetical references](#references) for publication details. The separate project file [SOURCE-MAP.md](SOURCE-MAP.md) records which passages were consulted and when.
+These notes show what each source contributes. See the [alphabetical references](#references) for publication details. The repository's [source map](SOURCE-MAP.md) records the passages and dates consulted.
 
 #### Boundary critique
 
@@ -790,7 +790,7 @@ Chapter 11 recovers the Saturday Workshop from the released 0.8 reader and the s
 
 #### Collective capabilities and caring institutions
 
-Chapter 11 draws on [Robeyns (2017)](https://doi.org/10.11647/OBP.0130), §§3.6 and 4.6, for different kinds of collective provision, and on [Tronto (2010)](https://doi.org/10.1080/17496535.2010.484259) for institutional care. [Ostrom (2009)](https://pubmed.ncbi.nlm.nih.gov/19628857/) and [Li and Ma (2026)](https://link.springer.com/article/10.1186/s41257-026-00166-w) inform the questions about who contributes, whose observations count and who can decide. The chosen-commitment scene draws on the earlier *After-Fall Reader*.
+Chapter 11 draws on [Robeyns (2017)](https://doi.org/10.11647/OBP.0130), §§3.6 and 4.6, for different kinds of collective provision, and on [Tronto (2010)](https://doi.org/10.1080/17496535.2010.484259) for institutional care. [Ostrom (2009)](https://pubmed.ncbi.nlm.nih.gov/19628857/) and [Li and Ma (2026)](https://link.springer.com/article/10.1186/s41257-026-00166-w) inform the questions about who contributes, whose observations count and who can decide. The chosen-commitment scene draws on the project's unpublished *After-Fall Reader*.
 
 #### Apprenticeship and transfer
 
@@ -798,7 +798,7 @@ The soil and workshop examples compare practice and transfer with [Collins, Brow
 
 #### Assisted results and later skill
 
-In high-school maths, [Bastani et al. (2025)](https://pubmed.ncbi.nlm.nih.gov/40560616/) found that how AI help was designed changed performance after the help was removed. [Wiles et al. (2026)](https://www.nature.com/articles/s41562-026-02566-6) found no detectable gain on later unaided technical questions after an assisted work task. [Contractor and Reyes (2026)](https://iza.org/publications/dp/18792/experimental-evidence-on-the-learning-impact-of-generative-ai) reported knowledge gains still evident one week later in their essay-based experiment. [Wei (2026)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2029407/full) provides a further comparison. The [Diener et al. (2026)](https://arxiv.org/html/2611.06346v2) model, §§5–6, explores how practice and help may affect skill over time.
+In high-school maths, [Bastani et al. (2025)](https://doi.org/10.1073/pnas.2422633122) found that how AI help was designed changed performance after the help was removed. [Wiles et al. (2026)](https://www.nature.com/articles/s41562-026-02566-6) found no detectable gain on later unaided technical questions after an assisted work task. [Contractor and Reyes (2026)](https://iza.org/publications/dp/18792/experimental-evidence-on-the-learning-impact-of-generative-ai) found knowledge gains on an unaided test a week after the essay task. Later essay gains were larger among students who used AI for explanations. Students who delegated writing lost their short-run advantage when AI was removed. The researchers randomised access to AI and classified patterns of use from the students' conversations. [Wei (2026)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2029407/full) provides a further comparison. The [Diener et al. (2026)](https://arxiv.org/html/2611.06346v2) model, §§5–6, explores how practice and help may affect skill over time.
 
 #### Cynefin and complex change
 
@@ -824,7 +824,7 @@ Chapter 14 develops the seven designs from the released 0.8 edition's *What This
 
 **Amato v Commonwealth of Australia (2019).** Federal Court of Australia, VID 611 of 2019, consent orders of 27 November. Reproduced in the [Royal Commission report, Chapter 10](https://www.royalcommission.gov.au/robodebt/report).
 
-**Bastani, H., et al. (2025).** [Generative AI without guardrails can harm learning: Evidence from high school mathematics](https://pubmed.ncbi.nlm.nih.gov/40560616/). Proceedings of the National Academy of Sciences 122(26), e2423833122. doi:10.1073/pnas.2423833122.
+**Bastani, H., et al. (2025).** [Generative AI without guardrails can harm learning: Evidence from high school mathematics](https://doi.org/10.1073/pnas.2422633122). Proceedings of the National Academy of Sciences 122(26), e2422633122. [doi:10.1073/pnas.2422633122](https://doi.org/10.1073/pnas.2422633122).
 
 **Billett, S. (2001).** [Learning through work: Workplace affordances and individual engagement](https://doi.org/10.1108/EUM0000000005548). Journal of Workplace Learning 13(5), 209–214.
 
@@ -842,9 +842,9 @@ Chapter 14 develops the seven designs from the released 0.8 edition's *What This
 
 **Contractor, Z., and G. Reyes (2026).** [Experimental Evidence on the Learning Impact of Generative AI](https://iza.org/publications/dp/18792/experimental-evidence-on-the-learning-impact-of-generative-ai). IZA Discussion Paper 18792. [arXiv:2607.08849](https://arxiv.org/abs/2607.08849).
 
-**Cynefin Company.** [The Cynefin Framework](https://thecynefin.co/about-us/about-cynefin-framework/). Overview.
+**Cynefin Company.** [The Cynefin Framework](https://thecynefin.co/about-us/about-cynefin-framework/). thecynefin.co/about-us/about-cynefin-framework/.
 
-**Cynefin Wiki.** [Cynefin](https://cynefin.io/wiki/Cynefin). Framework overview and domains.
+**Cynefin Wiki.** [Cynefin](https://cynefin.io/wiki/Cynefin). cynefin.io/wiki/Cynefin.
 
 **De Jaegher, H., and E. Di Paolo (2007).** [Participatory sense-making: An enactive approach to social cognition](https://doi.org/10.1007/s11097-007-9076-9). Phenomenology and the Cognitive Sciences 6, 485–507.
 
@@ -856,13 +856,13 @@ Chapter 14 develops the seven designs from the released 0.8 edition's *What This
 
 **FDA Center for Drug Evaluation and Research (2006).** [The History of Drug Regulation in the United States: Protecting and Promoting Public Health](https://www.fda.gov/media/74571/download). Centennial edition, PDF p. 6. FDA document 74571.
 
-**FDA History Exhibits.** [Frances Oldham Kelsey: Medical Reviewer Famous for Averting a Public Health Tragedy](https://www.fda.gov/about-fda/fda-history-exhibits/frances-oldham-kelsey-medical-reviewer-famous-averting-public-health-tragedy).
+**FDA History Exhibits.** [Frances Oldham Kelsey: Medical Reviewer Famous for Averting a Public Health Tragedy](https://www.fda.gov/about-fda/fda-history-exhibits/frances-oldham-kelsey-medical-reviewer-famous-averting-public-health-tragedy). FDA.gov, History Exhibits, Kelsey profile.
 
 **Froese, T., and S. Taguchi (2019).** [The Problem of Meaning in AI and Robotics: Still with Us after All These Years](https://www.mdpi.com/2409-9287/4/2/14). Philosophies 4(2), 14.
 
 **Froese, T., and T. Ziemke (2009).** [Enactive artificial intelligence: Investigating the systemic organization of life and mind](https://doi.org/10.1016/j.artint.2008.12.001). Artificial Intelligence 173(3–4), 466–500.
 
-**Gibson, J. J. (1979).** [The Ecological Approach to Visual Perception](https://doi.org/10.4324/9781315740218). Houghton Mifflin, chapter 8. Link to the publisher's Classic Edition.
+**Gibson, J. J. (1979).** [The Ecological Approach to Visual Perception](https://doi.org/10.4324/9781315740218). Houghton Mifflin, chapter 8. Routledge Classic Edition (2015), [doi:10.4324/9781315740218](https://doi.org/10.4324/9781315740218).
 
 **Gordon, D. M. (2023).** [Collective behavior in relation with changing environments: Dynamics, modularity, and agency](https://onlinelibrary.wiley.com/doi/10.1111/ede.12439). Evolution & Development 25(6), 430–438.
 
@@ -874,7 +874,7 @@ Chapter 14 develops the seven designs from the released 0.8 edition's *What This
 
 **Ing, D. (2008).** [Offerings as Commitments and Context: Service Systems from a Language Action Perspective](https://coevolving.com/pubs/2008_Systemist_v30_n2_p154_Ing_Offerings-Language-Action.pdf). Systemist 30(2).
 
-**Ing, D. (2022).** [Systems Changes Learning: Recasting and Reifying Rhythmic Shifts for Doing, Alongside Thinking and Making](https://www.iiisci.org/Journal/PDV/sci/pdfs/IP164LL22.pdf).
+**Ing, D. (2022).** [Systems Changes Learning: Recasting and Reifying Rhythmic Shifts for Doing, Alongside Thinking and Making](https://www.iiisci.org/Journal/PDV/sci/pdfs/IP164LL22.pdf). iiisci.org/Journal/PDV/sci/pdfs/IP164LL22.pdf.
 
 **Ing, D., and G. S. Metcalf (2024).** [Reframing Systems Thinking for Systems Changes: Sciencing and philosophizing from pragmatism towards processes as rhythms](https://coevolving.com/pubs/2024_JISSS_v67_a4154_ReframingSystemsThinkingForSystemsChanges.pdf). Journal of the International Society for the Systems Sciences 67.
 
@@ -884,7 +884,7 @@ Chapter 14 develops the seven designs from the released 0.8 edition's *What This
 
 **Kish, L. (1965).** [Survey Sampling](https://books.google.com/books?id=yoppAAAAMAAJ). John Wiley & Sons.
 
-**Kiverstein, J., M. D. Kirchhoff and T. Froese (2022).** [The Problem of Meaning: The Free Energy Principle and Artificial Agency](https://pmc.ncbi.nlm.nih.gov/articles/PMC9260223/). Frontiers in Neurorobotics.
+**Kiverstein, J., M. D. Kirchhoff and T. Froese (2022).** [The Problem of Meaning: The Free Energy Principle and Artificial Agency](https://pmc.ncbi.nlm.nih.gov/articles/PMC9260223/). Frontiers in Neurorobotics 16, 844773. [doi:10.3389/fnbot.2022.844773](https://doi.org/10.3389/fnbot.2022.844773).
 
 **Kohli, G. (2026).** [Nine Judges, Two Effective Votes: Correlated Errors Undermine LLM Evaluation Panels](https://arxiv.org/abs/2605.29800). arXiv:2605.29800.
 
@@ -918,17 +918,17 @@ Chapter 14 develops the seven designs from the released 0.8 edition's *What This
 
 **Paxino, J., et al. (2026).** [Negotiating discharge decisions: A case study tracing interprofessional communication over time](https://pubmed.ncbi.nlm.nih.gov/43006860/). Journal of Interprofessional Care, online 10 November, doi:10.1080/13561820.2026.2746474.
 
-**Robeyns, I. (2017).** [Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined](https://doi.org/10.11647/OBP.0130). Open Book Publishers.
+**Robeyns, I. (2017).** [Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined](https://doi.org/10.11647/OBP.0130). Open Book Publishers. [doi:10.11647/OBP.0130](https://doi.org/10.11647/OBP.0130).
 
-**Robeyns, I., and M. F. Byskov (2025).** [The Capability Approach](https://plato.stanford.edu/archives/sum2025/entries/capability-approach/). Stanford Encyclopedia of Philosophy, Summer 2025 edition.
+**Robeyns, I., and M. F. Byskov (2025).** [The Capability Approach](https://plato.stanford.edu/archives/sum2025/entries/capability-approach/). Stanford Encyclopedia of Philosophy, Summer 2025 edition. plato.stanford.edu/archives/sum2025/entries/capability-approach/.
 
 **Rogers Commission (1986).** [Report of the Presidential Commission on the Space Shuttle Challenger Accident](https://www.nasa.gov/history/rogersrep/v1ch5.htm). Volume I, chapter V, printed pp. 82 and 104 onwards. NASA History, v1ch5.htm.
 
 **Royal Commission into the Robodebt Scheme (2023).** [Report of the Royal Commission into the Robodebt Scheme](https://www.royalcommission.gov.au/robodebt/report). Chapters 10 and 20, including recommendation 20.4. Accessed 21 November 2026.
 
-**Sen, A. (1979).** [Equality of What?](https://tannerlectures.org/documents/sen80/). Tanner Lecture on Human Values, Stanford University, section 4.
+**Sen, A. (1979).** [Equality of What?](https://tannerlectures.org/documents/sen80/). Tanner Lecture on Human Values, Stanford University, §4. tannerlectures.org/documents/sen80/.
 
-**Snowden, D. J. (2022).** [Estuarine mapping first edition](https://thecynefin.co/estuarine-mapping/). The Cynefin Company, 7 October.
+**Snowden, D. J. (2022).** [Estuarine mapping first edition](https://thecynefin.co/estuarine-mapping/). The Cynefin Company, 7 October. thecynefin.co/estuarine-mapping/.
 
 **Star, S. L. (2010).** [This is Not a Boundary Object: Reflections on the Origin of a Concept](https://journals.sagepub.com/doi/10.1177/0162243910377624). Science, Technology, & Human Values 35(5), 601–617.
 
@@ -940,7 +940,7 @@ Chapter 14 develops the seven designs from the released 0.8 edition's *What This
 
 **Tronto, J. C. (2010).** [Creating Caring Institutions: Politics, Plurality, and Purpose](https://doi.org/10.1080/17496535.2010.484259). Ethics and Social Welfare 4(2), 158–171.
 
-**Ulrich, W.** [A Mini-Primer of Critical Systems Heuristics](https://wulrich.com/csh.html). Author's site.
+**Ulrich, W.** [A Mini-Primer of Critical Systems Heuristics](https://wulrich.com/csh.html). wulrich.com/csh.html.
 
 **Ulrich, W., and M. Reynolds (2010).** [Critical Systems Heuristics](https://oro.open.ac.uk/21489/). In M. Reynolds and S. Holwell (eds.), *Systems Approaches to Managing Change*, 243–292. Springer. doi:10.1007/978-1-84882-809-4_6.
 
