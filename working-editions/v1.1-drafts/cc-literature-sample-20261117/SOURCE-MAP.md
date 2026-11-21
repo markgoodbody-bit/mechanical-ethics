@@ -124,6 +124,10 @@ Short citations in the manuscript and excerpt link the point of use to the relev
 | Ch 13, recurrent failure and the route a warning takes | Vaughan (1996, enlarged edition 2015), publisher description and contents, including Chapter 3. Leveson (2004), published abstract and MIT working-paper synopsis. Rogers Commission, vol. I, ch. V, p. 82 and findings beginning at p. 104. | Keep historical findings on the decision chain distinct from a sociological account of normalisation and an engineering account of system constraints. |
 
 
+## Historical record for Chapter 6
+
+The [FDA history of US drug regulation](https://www.fda.gov/media/74571/download), PDF page 6, records investigational distribution of thalidomide to US physicians. Chapter 6 uses that detail to trace which exposure a marketing hold could reach. The earlier FDA profile supplies the review context.
+
 ## What this map does not establish
 
 It records relations between passages and the sources actually read in this pass. It does not establish that ME's ideas are novel, that they are equivalent to these traditions, or that the unread leads say what their reputations suggest. Read the unread sources before citing them.
