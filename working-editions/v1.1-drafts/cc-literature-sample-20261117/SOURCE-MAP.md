@@ -139,3 +139,14 @@ Kish's name, date and title were checked from book records. Direct sources for K
 ## What this map does not establish
 
 It records relations between passages and the sources actually read in this pass. It does not establish that ME's ideas are novel, that they are equivalent to these traditions, or that the unread leads say what their reputations suggest. Read the unread sources before citing them.
+
+## Second review pass, 21 November 2026
+
+| Source | What was checked | Use in the manuscript |
+| --- | --- | --- |
+| [Victoria Legal Aid, 14 April 2020](https://www.legalaid.vic.gov.au/depth-look-our-robo-debt-test-case) | Review and both case sections | Masterton's two recalculations and discontinuance, Amato's challenge, and VLA's account of the burdens and proportion reaching statutory internal review. The percentage is reported as VLA's figure. |
+| [Royal Commission into the Robodebt Scheme, 7 July 2023](https://www.royalcommission.gov.au/robodebt/report) | Chapter 10, resolution of Masterton and Amato; Chapter 20, recommendation 20.4 | Consent declarations of 27 November 2019, the direction to stop sole reliance on averaging, and the recommendation on publishing first-instance decisions. |
+| [Justice Kyrou, Federal Court of Australia, 18 March 2024](https://www.fedcourt.gov.au/digital-law-library/judges-speeches/justice-kyrou/kyrou-j-20240318) | Section on the scheme and the AAT, including notes 5–20 | Scope of both sets of decisions, lack of publication, Carney decision, model litigant obligations and the May 2018 advice. Attribution stays with the presentation and the underlying Commission report. |
+| [Rogers Commission, vol. I, ch. V](https://www.nasa.gov/history/rogersrep/v1ch5.htm) and [Vaughan (1996; enlarged 2015)](https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html) | Printed pp. 82 and 104 of the Commission report and the publisher's account of Vaughan's analysis | Chapter 13 distinguishes transmission of a warning from the treatment of anomalies as acceptable risk. |
+| [Bastani et al. (2025)](https://pubmed.ncbi.nlm.nih.gov/40560616/), [Wiles et al. (2026)](https://doi.org/10.1038/s41562-026-02566-6) and [Contractor and Reyes (2026)](https://iza.org/publications/dp/18792/experimental-evidence-on-the-learning-impact-of-generative-ai) | Published article records and results summaries, including separate records for the Bastani article and its correction | Scope of the later unaided performance claims and the distinction between studies. |
+| [Chernets (2026)](https://polyhelper.ai/research/agreement-not-evidence/), [Gordon (2023)](https://doi.org/10.1111/ede.12439), and [Ulrich and Reynolds (2010)](https://oro.open.ac.uk/21489/) | Chernets §5.1; Gordon's publisher record; Ulrich and Reynolds chapter and boundary-question framework | Same pairwise error correlation in the design-effect illustration, the full title and metadata for Gordon, and the dated source for the boundary questions. |

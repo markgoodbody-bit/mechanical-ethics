@@ -4,11 +4,11 @@
 
 This folder answers [COM #955](https://github.com/markgoodbody-bit/COM/issues/955), which applies the [17 November revision brief](https://github.com/markgoodbody-bit/COM/blob/b1f0515cbc6920236e2ae34292f35d7b395620f0/coordination/ME11-TRACE06-REVISION-BRIEF-20261117.md). Campfire owns integration into ME 1.1. Mark holds editorial and release decisions. The released v1.0 files are not touched.
 
-**Start with [the full working manuscript](ME11-WORKING-MANUSCRIPT.md).** It includes fourteen chapters, the glossary and the Notes. The 21 November reader pass brings the intended use into the opening and gives each chapter a practical way through its example. The later review revision restores specific evidence and authority boundaries at the point of use. It adds a worked access floor, a Robodebt case and a check for the next visitor. In-text citations link to the relevant Notes and the manuscript contains an alphabetical reference list. Use the [reader-edition editing check](../../AGENTS.md) on the assembled manuscript before completing a later edit.
+**Start with [the full working manuscript](ME11-WORKING-MANUSCRIPT.md).** It includes fourteen chapters, the glossary and the Notes. The 21 November reader pass brings the intended use into the opening and gives each chapter a practical way through its example. The later review revision restores specific evidence and authority boundaries at the point of use. It adds a worked access floor, a Robodebt case and a check for the next visitor. A second review pass distinguishes prevention from recovery, checks the Robodebt case against the public record, and adds chapter signposts and a worked handover. In-text citations link to the relevant Notes and the manuscript contains an alphabetical reference list. Use the [reader-edition editing check](../../AGENTS.md) on the assembled manuscript before completing a later edit.
 
 | File | What it is |
 | --- | --- |
-| [`ME11-WORKING-MANUSCRIPT.md`](ME11-WORKING-MANUSCRIPT.md) and [`ME11-WORKING-MANUSCRIPT.diff`](ME11-WORKING-MANUSCRIPT.diff) | The full readable book and exact diff against the released source. The figures link to their preserved v1.0 files. |
+| [`ME11-WORKING-MANUSCRIPT.md`](ME11-WORKING-MANUSCRIPT.md) and [`ME11-WORKING-MANUSCRIPT.diff`](ME11-WORKING-MANUSCRIPT.diff) | The full readable book and exact diff against the released source. The revised Two Clocks figure is here. The other figures link to their preserved v1.0 files. |
 | [`ME11-WORKING-SLICE.md`](ME11-WORKING-SLICE.md) | The thirteen-chapter excerpt. Its prefatory change log records earlier integration steps. The reading text includes the 21 November edit. |
 | [`ME11-WORKING-EDIT-CH05.md`](ME11-WORKING-EDIT-CH05.md) and [`ch05-edit.diff`](ch05-edit.diff) | Chapter 5 as a coherent working edit. It names the capability lineage (Sen 1979; conversion factors) where the book separates a route that exists from one a person can use; adds the test of ordinary reserves from the June draft; adds Sen's point that contentment does not show a better route was unneeded, guarded against overriding what people want; and applies the limits proposal's one cut in this chapter (line 148). The Notes paragraph to add is included. |
 | [`ME11-WORKING-EDIT-CH09.md`](ME11-WORKING-EDIT-CH09.md) and [`ch09-edit.diff`](ch09-edit.diff) | Chapter 9 as an integrated working edit: a paragraph after line 298 on witnesses who share a source (Chernets 2026, with the model's assumptions stated), and the limits proposal's two cuts in this chapter (lines 310 and 324). The repaired Notes paragraph is included in the cumulative text. |
@@ -31,7 +31,7 @@ The preservation pass recovered meaningful exit, costly complexity, strategic un
 
 | Figure | Source |
 | --- | --- |
-| Two Clocks | Codex's proposed *Two Clocks v3*, draft ME PR78 head `aa421cdfc30750951372d39579fc72c6487c9deb`, blob `af2d967a6d1ff80d57b6eca61c4fbc7dcf5529a0`. |
+| [Two Clocks](two-clocks-review.svg) | The 21 November review revision redraws the figure to show onset and the cutoff for comparable recovery. It adapts Codex's proposed *Two Clocks v3*, draft ME PR78 head `aa421cdfc30750951372d39579fc72c6487c9deb`, blob `af2d967a6d1ff80d57b6eca61c4fbc7dcf5529a0`. |
 | Who draws the map? | Draft ME PR79 head `fc3e3db8c1dabc4846b3f5c28ef66a2899d36436`, SHA-256 `527ab34e0e4b8214ab65bdfdbd070291fd114fecbf743a09ec3e69a343ab58ab`. |
 | The Growing Room | Draft ME PR79 head `fc3e3db8c1dabc4846b3f5c28ef66a2899d36436`, SHA-256 `78ccb7b3579e7eea17b8a63f8969223ad1cc4c28281325927eab1056d5609356`. |
 
