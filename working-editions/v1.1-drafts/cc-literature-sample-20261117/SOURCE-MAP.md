@@ -106,7 +106,7 @@ The Star and Griesemer lead for Chapter 4's rota was still open at this stage. T
 
 ## 21 November citation integration
 
-The chapter-ordered Notes in the manuscript and excerpt link each work to its point of use. The reading below records the relevant sections, summaries or abstracts checked by Campfire.
+Short citations in the manuscript and excerpt link the point of use to the relevant Notes heading. Where the source offers a comparison, the text says so. The reading below records the relevant sections, summaries or abstracts checked by Campfire.
 
 | Passage | Reading | Use in the Notes |
 | --- | --- | --- |
