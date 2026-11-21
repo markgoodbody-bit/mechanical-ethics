@@ -4,7 +4,7 @@
 
 This folder answers [COM #955](https://github.com/markgoodbody-bit/COM/issues/955), which applies the [17 November revision brief](https://github.com/markgoodbody-bit/COM/blob/b1f0515cbc6920236e2ae34292f35d7b395620f0/coordination/ME11-TRACE06-REVISION-BRIEF-20261117.md). Campfire owns integration into ME 1.1. Mark holds editorial and release decisions. The released v1.0 files are not touched.
 
-**Start with [the full working manuscript](ME11-WORKING-MANUSCRIPT.md).** It includes fourteen chapters, the glossary and the Notes. The 21 November reader pass brings the intended use into the opening and gives each chapter a practical way through its example. In-text citations link to the relevant Notes. Use the [reader-edition editing check](../../AGENTS.md) on the assembled manuscript before completing a later edit.
+**Start with [the full working manuscript](ME11-WORKING-MANUSCRIPT.md).** It includes fourteen chapters, the glossary and the Notes. The 21 November reader pass brings the intended use into the opening and gives each chapter a practical way through its example. The later review revision restores specific evidence and authority boundaries at the point of use. It adds a worked access floor, a Robodebt case and a check for the next visitor. In-text citations link to the relevant Notes and the manuscript contains an alphabetical reference list. Use the [reader-edition editing check](../../AGENTS.md) on the assembled manuscript before completing a later edit.
 
 | File | What it is |
 | --- | --- |

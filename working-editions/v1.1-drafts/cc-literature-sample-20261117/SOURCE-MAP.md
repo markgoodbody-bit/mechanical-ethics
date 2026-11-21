@@ -128,6 +128,14 @@ Short citations in the manuscript and excerpt link the point of use to the relev
 
 The [FDA history of US drug regulation](https://www.fda.gov/media/74571/download), PDF page 6, records investigational distribution of thalidomide to US physicians. Chapter 6 uses that detail to trace which exposure a marketing hold could reach. The earlier FDA profile supplies the review context.
 
+## 21 November review revision
+
+Chapter 5 uses the [Byskov, Kramm and Östlund chapter abstract](https://research-portal.uu.nl/en/publications/capabilities-as-substantive-opportunities-and-the-robustness-of-c/) and SEP §2.3 on the security of conversion conditions. The original conversion factor categories remain attributed to the capability literature. The FDA distribution source above is *The History of Drug Regulation in the United States* (CDER, 2006), PDF p. 6.
+
+Chapter 13 uses Victoria Legal Aid's published account of its first test case for the two recalculations, Justice Kyrou's 18 March 2024 presentation for the income-averaging and Tier 1 publication context, and the Royal Commission's chapter 20, recommendation 20.4, for the different route available to a public finding. The last paragraph records residual effects as open under the case sources used. The Chapter 7 floor and Chapter 14 next-visitor check are constructed examples.
+
+Kish's name, date and title were checked from book records. Direct sources for Kohli and Kim and colleagues were checked from the arXiv and ICML records. Chapter 9's illustration still credits Chernets. The bibliography provides the published journals for Wiles, Morante and Romero García-Rubio, Binder, Ejsing, Paxino and Wei, and gives both versions of the Contractor and Reyes working paper.
+
 ## What this map does not establish
 
 It records relations between passages and the sources actually read in this pass. It does not establish that ME's ideas are novel, that they are equivalent to these traditions, or that the unread leads say what their reputations suggest. Read the unread sources before citing them.
