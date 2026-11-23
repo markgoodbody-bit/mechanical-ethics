@@ -160,6 +160,8 @@ A supported prospect gives someone a choice about what to try. Check what refusa
 
 A road that can be used today might close tomorrow. Another road can become possible through learning, cooperation or public investment. We can now ask better questions than whether an option appears somewhere in a policy document. Is it known to the person concerned? Can they take it without surrendering something they have not agreed to give? Is it maintainable? And, once they begin, can anyone carry the action all the way to its needed effect before the relevant future closes?
 
+A longer list does not always make a wider route. Suppose the student is sent twelve support schemes, each with its own form, criteria and deadline, and nobody who can say which ones apply. The list adds options on paper and uses up the evenings the assignment needed. Count the options the person can understand, compare and pursue with the time and help they have. An adviser who can point to the two schemes that fit, and help with the forms, may widen what the student can actually do. Where people can use a wide choice, keep it.
+
 The student has checked the notice and boarded the bus. Find out when they need to reach the door to obtain the book. This brings a different part of the route into view.
 
 # 6. The Clock and the Hand on the Door
@@ -438,7 +440,7 @@ Learning here depends on more than individual effort. The child sees the plant t
 
 The window was always there. The ability to care for the plant grew through trial, correction and encouragement. Look for the work that builds a new ability as well as the work that keeps an opportunity open.
 
-At a bicycle workshop, a learner tries a repair with help close at hand. On a later visit they can try a different repair if they want to. See what they can do and which tools, time or help they still need. Compare [Collins, Brown and Newman (1987) and Blume et al. (2010)](#apprenticeship-and-transfer) on practice across tasks and checking what carries forward. [Studies of AI assistance](#assisted-results-and-later-skill) ask how much of what someone can do with help carries over when the help is removed.
+At a bicycle workshop, a learner tries a repair with help close at hand. On a later visit they can try a different repair if they want to, or show a newcomer the one they learnt. See what they can do and which tools, time or help they still need. Compare [Collins, Brown and Newman (1987) and Blume et al. (2010)](#apprenticeship-and-transfer) on practice across tasks and checking what carries forward. [Studies of AI assistance](#assisted-results-and-later-skill) ask how much of what someone can do with help carries over when the help is removed.
 
 Someone may choose to give their Thursday evening to the workshop and let other plans go. A regular commitment can give them time to practise and somebody else a reason to show up. Ask how they took on the commitment, what they understood it would cost and what they could do if they later needed to stop. Carry the skill, relationship or purpose it made possible alongside the time it took.
 
@@ -498,7 +500,7 @@ Give the ambulance its own deadline within the changing traffic pattern. If it n
 
 Map a few constraints that matter for the affected routes. The controller can change a signal in minutes. A roadworks permit may take longer to change. A bus timetable and a school's starting hour sit with other decision-makers. Give each condition a timescale and an owner. [Snowden’s estuarine mapping (2022)](#cynefin-and-complex-change) provides a way to begin that inquiry.
 
-Ask what each arrangement enables as well as what it prevents, and for whom. A bus lane may preserve a dependable journey while limiting another use of the road. Keep useful arrangements working. Where change is possible, name who can authorise and carry it out. Where nobody present can change it, retain the issue and its receiving owner instead of treating it as solved.
+Ask what each arrangement enables as well as what it prevents, and for whom. A bus lane may preserve a dependable journey while limiting another use of the road. Keep useful arrangements working. Where change is possible, name who can authorise and carry it out, and who will keep it working once attention moves on. Where nobody present can change it, retain the issue and its receiving owner instead of treating it as solved.
 
 A dependable bus journey also needs a timetable, a vehicle and people who can keep the route usable through roadworks. Follow the way those conditions work together. A change in one can alter what the whole route offers. This draws on [Alicia Juarrero’s account (2023)](#enabling-constraints-and-autonomy) of the conditions that enable and sustain an organised activity.
 
@@ -704,6 +706,8 @@ Give an evidence record a legitimate purpose, proportionate access and custody, 
 
 Chapter 10's residue ledger is an **illustrative account design**. For practical use, choose evidence, custody and review appropriate to the setting. Keep observations, inferences and unknowns visible. Give each effect and possible remedy its own evidence, and test whether the record helps the affected person obtain a response.
 
+People use this language in different ways, and the burden differs. Someone thinking through their own situation owes no one a complete record or a formal method. Someone helping to understand a case keeps observations, inferences and unknowns apart, as the chapters show. An institution that cites Mechanical Ethics to support a claim that its process is fair or safe should show what an announced repair needs in Chapter 9: what changed, who outside the route can check it and how affected people can challenge the result. The project's unpublished *After-Fall Reader* separated these uses.
+
 ## Status and evidence
 
 The household, library and workshop scenes are constructed for teaching. Kelsey, *Challenger* and Robodebt draw on the public records cited here. Field testing, peer review and independent tests of novice comprehension remain open for this edition. Agreement among the AI systems drafting or reviewing from shared material supplies no independent confirmation of the book's claims.
@@ -748,7 +752,7 @@ Chapter 4's rota compares the different uses of a shared record in [Star and Gri
 
 #### Real opportunities and affordances
 
-Chapter 5 draws on [Sen (1979)](https://tannerlectures.org/documents/sen80/), §4, and [Robeyns and Byskov (2025)](https://plato.stanford.edu/archives/sum2025/entries/capability-approach/), §§2.2–2.3, for real opportunities and conversion factors. [Gibson (1979)](https://doi.org/10.4324/9781315740218), chapter 8, informs the door example. The account of secure conditions draws on the chapter abstract and the associated SEP discussion of [Byskov, Kramm and Östlund (2024)](https://doi.org/10.1007/978-3-031-55897-9_14). The ordinary-reserves test draws on the unpublished *ME Final Eight* project notes.
+Chapter 5 draws on [Sen (1979)](https://tannerlectures.org/documents/sen80/), §4, and [Robeyns and Byskov (2025)](https://plato.stanford.edu/archives/sum2025/entries/capability-approach/), §§2.2–2.3, for real opportunities and conversion factors. [Gibson (1979)](https://doi.org/10.4324/9781315740218), chapter 8, informs the door example. The account of secure conditions draws on the chapter abstract and the associated SEP discussion of [Byskov, Kramm and Östlund (2024)](https://doi.org/10.1007/978-3-031-55897-9_14). The ordinary-reserves test draws on the unpublished *ME Final Eight* project notes. The twelve-scheme example recovers a distinction in the project's unpublished *After-Fall Reader* and *Value Spine* between adding options and adding usable ones.
 
 #### Time and lead time
 
@@ -788,7 +792,7 @@ In high-school maths, [Bastani et al. (2025)](https://doi.org/10.1073/pnas.24226
 
 #### Cynefin and complex change
 
-Chapter 12 takes context-sensitive action from [Kurtz and Snowden (2003)](https://doi.org/10.1147/SJ.423.0462), the [Cynefin Company overview](https://thecynefin.co/about-us/about-cynefin-framework/) and the [Cynefin Wiki](https://cynefin.io/wiki/Cynefin). [Snowden (2022)](https://thecynefin.co/estuarine-mapping/), steps 1–7, informs the constraint mapping. [Ejsing (2026)](https://doi.org/10.1016/j.envsci.2026.104439) examines what a tipping-point account can obscure. The junction is an illustrative case.
+Chapter 12 takes context-sensitive action from [Kurtz and Snowden (2003)](https://doi.org/10.1147/SJ.423.0462), the [Cynefin Company overview](https://thecynefin.co/about-us/about-cynefin-framework/) and the [Cynefin Wiki](https://cynefin.io/wiki/Cynefin). [Snowden (2022)](https://thecynefin.co/estuarine-mapping/), steps 1–7, informs the constraint mapping. [Ejsing (2026)](https://doi.org/10.1016/j.envsci.2026.104439) examines what a tipping-point account can obscure. The question of who keeps a changed constraint working follows the earlier *ME Final Eight* project notes. The junction is an illustrative case.
 
 #### How group capacities arise
 

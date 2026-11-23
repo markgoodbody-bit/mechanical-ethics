@@ -4,7 +4,7 @@
 
 ## Edition record
 
-Reader edition prepared on 21 November 2026. It follows the [finished 1.1 manuscript](https://github.com/markgoodbody-bit/mechanical-ethics/blob/39bb18c11ffa2f55e93f8d4b6c50cf7c8bce7f55/working-editions/v1.1-drafts/cc-literature-sample-20261117/ME11-WORKING-MANUSCRIPT.md). The 1.2 edit tightens the reading path and prose. The [source map](../v1.1-drafts/cc-literature-sample-20261117/SOURCE-MAP.md) records the citations and passages consulted during the review. The manuscript's Notes describe its evidence and testing status.
+Reader edition prepared on 21 November 2026. It follows the [finished 1.1 manuscript](https://github.com/markgoodbody-bit/mechanical-ethics/blob/39bb18c11ffa2f55e93f8d4b6c50cf7c8bce7f55/working-editions/v1.1-drafts/cc-literature-sample-20261117/ME11-WORKING-MANUSCRIPT.md). The 1.2 edit tightens the reading path and prose. On 23 November CC checked the early-book preservation proposals against this text and placed four that were missing or partial: an option-overload example (Chapter 5), a learner showing a newcomer a repair (Chapter 11), who keeps a changed constraint working (Chapter 12) and the different burdens of personal, case and institutional use (Notes). The [source map](../v1.1-drafts/cc-literature-sample-20261117/SOURCE-MAP.md) records the citations and passages consulted during the review. The manuscript's Notes describe its evidence and testing status.
 
 | Figure | Source |
 | --- | --- |

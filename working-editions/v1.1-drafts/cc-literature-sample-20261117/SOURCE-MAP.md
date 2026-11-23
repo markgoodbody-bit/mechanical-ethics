@@ -136,6 +136,20 @@ Chapter 13 uses Victoria Legal Aid's published account of its first test case fo
 
 Kish's name, date and title were checked from book records. Direct sources for Kohli and Kim and colleagues were checked from the arXiv and ICML records. Chapter 9's illustration still credits Chernets. The bibliography provides the published journals for Wiles, Morante and Romero García-Rubio, Binder, Ejsing, Paxino and Wei, and gives both versions of the Contractor and Reyes working paper.
 
+## 23 November: early-book proposals checked against 1.2 (CC)
+
+CC read the 1.2 chapters, glossary and Notes at `69564360` (the alphabetical reference list was searched, not read) against the early-book preservation reading (relay `15017411`) and the historical review (relay `2de65007`). CC did not read the early books themselves; the provenance below is those reports'.
+
+| Proposal | Where 1.2 carries it, or the change |
+| --- | --- |
+| Ordinary survivability; time returned; positive memory in a handover; stewardship after attention moves | Already carried: Ch 5 ordinary-reserves test; Ch 11 sorted parts and booking form, the next organiser's handover, the year-later changes. |
+| Floor versus tradeable harm; chosen commitment; witness may stop; continuing burden moves; inherited benefit; clock authors; repeated repair | Already carried: Ch 7 floor; Ch 8 collision record; Ch 11 Thursday commitment; Ch 10 stopping, burden and inheritance; Ch 6 clock authors; Ch 9 platform and Ch 13 Robodebt. |
+| Option overload (*After-Fall Reader* pp. 19–20; *Value Spine* §4.1.1) | **Added** to Ch 5: the twelve-scheme example, conditional ("Where people can use a wide choice, keep it"). |
+| Transmission as evidence of formation (0.8 Saturday Workshop) | **Added** to Ch 11: "or show a newcomer the one they learnt". |
+| Installed versus maintained constraint (*ME Final Eight*) | **Added** to Ch 12: "and who will keep it working once attention moves on". |
+| Separate burdens for personal, case and institutional use (*After-Fall Reader* pp. 14–18) | **Added** to the Notes (Values and responsible use), tied to Chapter 9's test of an announced repair. |
+| Vulnerability used as bargaining material | Left: the mechanism is carried by Ch 3 (the cost of refusing), Ch 5 (voluntary programmes) and Ch 11 (sponsor terms); no separate passage. |
+
 ## What this map does not establish
 
 It records relations between passages and the sources actually read in this pass. It does not establish that ME's ideas are novel, that they are equivalent to these traditions, or that the unread leads say what their reputations suggest. Read the unread sources before citing them.
