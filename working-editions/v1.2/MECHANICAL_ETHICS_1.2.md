@@ -212,6 +212,8 @@ Three households need repairs, each taking two full days from one crew. Two need
 
 Include anyone whose exposure changes during a hold. While one household's repair goes ahead, another may face damage. While a benefits decision is paused, a person may need an interim payment. Give each consequence its own timing, evidence and grounds for priority.
 
+A session organiser stops a notice after learning that the lift is out. One traveller has already paid their fare. The organiser asks the caretaker whether a downstairs room is free and a volunteer whether they can run the session there. Once both agree, the organiser can offer that session and ask whether it works for the traveller. Whether the traveller comes or declines, the organiser records the fare, finds out who can decide on repayment and gets back to them.
+
 The student reads the closing time through the glass door. Inside, the lights are still on. The office that sets evening hours can wait for another month's figures before deciding whether it has the budget and staff to open longer. The assignment is due on Friday. The student can report the deadline. The office controls the hours.
 
 Give each clock its author. The office chooses when to review the hours. The course sets the assignment deadline. The student lives with the gap between them.
