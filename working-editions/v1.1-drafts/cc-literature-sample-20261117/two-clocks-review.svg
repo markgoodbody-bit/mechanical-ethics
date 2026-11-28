@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126mm" height="51.8mm" viewBox="0 0 900 370" role="img" aria-labelledby="clock-title clock-description">
+  <title id="clock-title">Two Clocks</title>
+  <desc id="clock-description">Two unscaled tracks begin with the same reported access problem. In the first case the door is usable before the original lesson. In the second case the lesson is missed and comparable study help is usable before the assignment deadline.</desc>
+  <rect width="900" height="370" fill="#ffffff"/>
+  <g fill="none" stroke="#778A87" stroke-width="1.5" stroke-dasharray="6 5">
+    <path d="M490 88 V274"/>
+    <path d="M801 88 V274"/>
+  </g>
+  <g fill="none" stroke="#27312F" stroke-width="2">
+    <path d="M204 121 H850 M204 255 H850"/>
+    <path d="M204 109 v24 M204 243 v24 M490 109 v24 M490 243 v24 M801 243 v24"/>
+    <path d="m842 115 8 6-8 6 m0 122 8 6-8 6"/>
+  </g>
+  <g fill="#A35C3C" stroke="#27312F" stroke-width="1.5">
+    <circle cx="345" cy="121" r="8"/>
+    <circle cx="656" cy="255" r="8"/>
+  </g>
+  <g fill="#27312F" font-family="Georgia, 'Times New Roman', serif" font-size="28" text-anchor="middle">
+    <text x="204" y="45">Access problem<tspan x="204" dy="32">reported</tspan></text>
+    <text x="490" y="45">Original lesson<tspan x="490" dy="32">begins</tspan></text>
+    <text x="801" y="45">Assignment<tspan x="801" dy="32">due</tspan></text>
+    <text x="345" y="166">Door usable</text>
+    <text x="477" y="301" text-anchor="end">Lesson missed</text>
+    <text x="656" y="301">Comparable help<tspan x="656" dy="32">usable</tspan></text>
+    <text x="30" y="131" text-anchor="start" font-style="italic">Prevention</text>
+    <text x="30" y="265" text-anchor="start" font-style="italic">Recovery</text>
+  </g>
+</svg>
