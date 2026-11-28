@@ -2,7 +2,7 @@
 title: Mechanical Ethics
 subtitle: A Middle-Out Reasoning Language
 lang: en-GB
-date: "21 November 2026"
+date: "28 November 2026"
 version: "1.2"
 ---
 
@@ -14,7 +14,7 @@ Start with a situation you can picture. Look inward for the conditions that prod
 
 Our commitment is to make harm easier to see before it hardens, give affected people a usable way to challenge and correct it, and build worthwhile capabilities with their costs in view. A small act can do all three. A neighbour can notice that a plant is drying, find the person with the key and teach somebody else how to check the soil next time.
 
-Choose one result that matters to someone. What can they do now? What would open a better route, and who can make the change? [Chapter 2](#the-window-we-have) helps you choose what to check. [Chapter 6](#the-clock-and-the-hand-on-the-door) asks when the change has to reach them. [Chapter 9](#what-can-travel-back) follows a challenge to someone who can act. [Chapter 11](#the-things-we-make-possible) shows what makes a new ability last. The [Notes on scope and limits](#scope-and-limits) carry these questions into specialist decisions.
+Choose one result that matters to someone. What can they do now? What would open a better route, and who can make the change? [Chapter 2](#2-the-window-we-have) helps you choose what to check. [Chapter 6](#6-the-clock-and-the-hand-on-the-door) asks when the change has to reach them. [Chapter 9](#9-what-can-travel-back) follows a challenge to someone who can act. [Chapter 11](#11-the-things-we-make-possible) shows what makes a new ability last. The [Notes on scope and limits](#scope-and-limits) carry these questions into specialist decisions.
 
 **If you are being harmed now:** do not risk your housing, work, health, family, privacy or personal safety in order to produce evidence for this book. Recording, naming, challenging or publishing what is happening can expose you to retaliation. No one owes this research their testimony. Where appropriate and safe, seek help from emergency services, a medical professional, legal adviser, union, charity or trusted person. You do not have to become an expert in a system that is hurting you before you deserve competent assistance. A record may later support correction, but a witness pack is not rescue and a theory cannot replace protection.
 
@@ -340,7 +340,7 @@ A worker who has seen retaliation may refuse to sign a report. A missing log or 
 
 The manager says, 'We have taken this seriously.' Find who can act and see whether the door opens when the visitor needs it.
 
-**Answerability** requires a sufficiently safe and usable route to a responsible receiver, genuine consideration of the evidence, reasons and a way to challenge the decision. A refusal can be an answer when it rests on legitimate grounds open to review. After checking that evidence reached the receiver, ask what finding could reopen the standard they applied and who could require a fresh decision. Chapter 13 shows why this matters in the [Challenger case](#the-shape-that-returns).
+**Answerability** requires a sufficiently safe and usable route to a responsible receiver, genuine consideration of the evidence, reasons and a way to challenge the decision. A refusal can be an answer when it rests on legitimate grounds open to review. After checking that evidence reached the receiver, ask what finding could reopen the standard they applied and who could require a fresh decision. Chapter 13 shows why this matters in the [Challenger case](#13-the-shape-that-returns).
 
 Have someone able to act independently check whose experiences the route serves. A person who controls the evidence should make it available for authorised scrutiny. Where access or safety is uncertain, record **UNKNOWN** and what would establish it. Check the fairness of the process and the substance of the decision on their own evidence.
 
@@ -718,7 +718,7 @@ The household, library and workshop scenes are constructed for teaching. Kelsey,
 
 Mark originated Mechanical Ethics and holds editorial, rights and release decisions. This edition uses AI-assisted editorial prose.
 
-**Edition record and illustration credits.** The three figures are provisional. *Two Clocks* adapts an earlier Codex drawing. *Who draws the map?* and *The Growing Room* come from the project's illustration review. The [edition record](README.md#edition-record) gives their source and revision history.
+**Edition record and illustration credits.** *Two Clocks* adapts an earlier Codex drawing. *Who draws the map?* and *The Growing Room* come from the project's illustration review. The [edition record](README.md#edition-record) gives their source and revision history.
 
 ### Kelsey and Challenger in the official record
 

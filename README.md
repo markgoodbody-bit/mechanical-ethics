@@ -4,6 +4,8 @@
 
 Mechanical Ethics proposes a **middle-out reasoning language** for people and AI systems facing consequential decisions under uncertainty. It starts with what is happening in the world, looks at who and what is affected, and asks what can be protected, improved or created while meaningful correction remains possible.
 
+**Mechanical Ethics 1.2 · final reading text, 28 November 2026.** [Read the fourteen-chapter book](working-editions/v1.2/MECHANICAL_ETHICS_1.2.md) · [Figures and edition record](working-editions/v1.2/README.md)
+
 ## The idea in a minute
 
 Start with a real situation, not an idealised model. Ask:
